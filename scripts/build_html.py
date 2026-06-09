@@ -61,7 +61,7 @@ data_js = ",\n".join(data_to_js(d) for d in DATA)
 NEW_SCRIPT = r"""const MONATEN = ['JÄNNER','FEBRUAR','MÄRZ','APRIL','MAI','JUNI',
                  'JULI','AUGUST','SEPTEMBER','OKTOBER','NOVEMBER','DEZEMBER'];
 
-const UNIS = ["TU Wien", "Universität Wien", "Medizinische Universität Wien",
+const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien",
               "WU Wien", "BOKU", "mdw", "Angewandte", "Vetmeduni Wien"];
 
 const UNI_COLORS = {
@@ -165,7 +165,7 @@ function initGenderChart() {
   new Chart(document.getElementById("chart-gender"), {
     type: "bar",
     data: {
-      labels: unis.map(u => u.length > 12 ? u.replace("Universität Wien", "Uni Wien").replace("Medizinische Universität Wien", "MedUni") : u),
+      labels: unis,
       datasets: [
         { label: "Frauen", data: frauen, backgroundColor: "#9D174D", borderRadius: 4 },
         { label: "Männer", data: maenner, backgroundColor: "#4C1D95", borderRadius: 4 }
@@ -235,10 +235,10 @@ function initBereichChart() {
 
 // ─── HEATMAP: Universität × ÖFOS-Bereich ──────────────────
 function initHeatmap() {
-  const container = document.getElementById("heatmap-container");
-  const W = container.clientWidth || 700;
-  const H = 380;
-  const margin = { top: 30, right: 30, bottom: 30, left: 130 };
+const container = document.getElementById("heatmap-container");
+const W = container.clientWidth || 700;
+const H = 380;
+const margin = { top: 50, right: 30, bottom: 30, left: 130 };
   const innerW = W - margin.left - margin.right;
   const innerH = H - margin.top - margin.bottom;
 
@@ -308,15 +308,24 @@ function initHeatmap() {
     });
   });
 
-  // X labels (Bereich)
+  // X labels (Bereich) — two lines: number + category name
   bereichKeys.forEach((b, j) => {
     g.append("text")
       .attr("class", "heatmap-label")
       .attr("x", j * cellW + (cellW - 2) / 2)
-      .attr("y", -10)
+      .attr("y", -28)
       .attr("text-anchor", "middle")
-      .attr("font-weight", "600")
+      .attr("font-weight", "700")
+      .attr("fill", bereichColor(b))
       .text(b);
+    g.append("text")
+      .attr("class", "heatmap-label")
+      .attr("x", j * cellW + (cellW - 2) / 2)
+      .attr("y", -12)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .attr("fill", "#6B7280")
+      .text(bereichLabel(b));
   });
 
   // Y labels (Uni)
@@ -690,14 +699,13 @@ function initOverlapMatrix() {
 
   // Y labels (left)
   UNIS.forEach((u, i) => {
-    const text = u.length > 18 ? u.replace("Universität Wien", "Uni Wien").replace("Medizinische Universität Wien", "MedUni") : u;
     g.append("text")
       .attr("class", "overlap-label")
       .attr("x", -10)
       .attr("y", i * cell + cell / 2 + 4)
       .attr("text-anchor", "end")
       .attr("fill", uniColor(u))
-      .text(text);
+      .text(u);
   });
 }
 

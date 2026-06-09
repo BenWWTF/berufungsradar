@@ -951,8 +951,8 @@
 
       const UNIS = [
         "TU Wien",
-        "Universität Wien",
-        "Medizinische Universität Wien",
+        "Uni Wien",
+        "MedUni Wien",
         "WU Wien",
         "BOKU",
         "mdw",
@@ -5138,7 +5138,7 @@
         const container = document.getElementById("heatmap-container");
         const W = container.clientWidth || 700;
         const H = 380;
-        const margin = { top: 30, right: 30, bottom: 30, left: 130 };
+        const margin = { top: 50, right: 30, bottom: 30, left: 130 };
         const innerW = W - margin.left - margin.right;
         const innerH = H - margin.top - margin.bottom;
 
@@ -5222,10 +5222,19 @@
           g.append("text")
             .attr("class", "heatmap-label")
             .attr("x", j * cellW + (cellW - 2) / 2)
-            .attr("y", -10)
+            .attr("y", -28)
             .attr("text-anchor", "middle")
-            .attr("font-weight", "600")
+            .attr("font-weight", "700")
+            .attr("fill", bereichColor(b))
             .text(b);
+          g.append("text")
+            .attr("class", "heatmap-label")
+            .attr("x", j * cellW + (cellW - 2) / 2)
+            .attr("y", -12)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "10px")
+            .attr("fill", "#6B7280")
+            .text(bereichLabel(b));
         });
 
         // Y labels (Uni)
