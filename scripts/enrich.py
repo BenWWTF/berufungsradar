@@ -761,15 +761,21 @@ def stage6_openalex(data, dry=False):
         # Add bio_text if missing
         if not d.get("bio_text") and r.get("bio_text"):
             d["bio_text"] = r.get("bio_text")
-        # Apply herkunft if unknown or institution missing
+        # Apply herkunft if unknown or institution missing.
+        # Fail-safe: low-confidence Treffer (Namensvetter) nie mergen;
+        # bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
         hk = r.get("herkunft")
-        if (
-            d.get("herkunft") in (None, "unbekannt", "—")
-            or not d.get("herkunft_institution")
-        ) and hk:
+        if r.get("match_confidence") == "low":
+            continue
+        existing = d.get("herkunft")
+        if existing in (None, "unbekannt", "—") and hk:
             d["herkunft"] = hk
             d["herkunft_institution"] = r.get("herkunft_institution")
             d["herkunft_land"] = r.get("herkunft_land")
+        elif not d.get("herkunft_institution") and hk == existing:
+            d["herkunft_institution"] = r.get("herkunft_institution")
+            if not d.get("herkunft_land"):
+                d["herkunft_land"] = r.get("herkunft_land")
             changes.append(
                 f"{d['name']}: → {hk} | {r.get('herkunft_institution')}, {r.get('herkunft_land')}"
             )

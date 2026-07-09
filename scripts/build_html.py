@@ -61,18 +61,35 @@ data_js = ",\n".join(data_to_js(d) for d in DATA)
 NEW_SCRIPT = r"""const MONATEN = ['JÄNNER','FEBRUAR','MÄRZ','APRIL','MAI','JUNI',
                  'JULI','AUGUST','SEPTEMBER','OKTOBER','NOVEMBER','DEZEMBER'];
 
-const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien",
-              "WU Wien", "BOKU", "mdw", "Angewandte", "Vetmeduni Wien"];
+const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
+              "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"];
 
 const UNI_COLORS = {
   "TU Wien": "#003366",
-  "Universität Wien": "#0055A4",
-  "Medizinische Universität Wien": "#DC2626",
+  "Uni Wien": "#0055A4",
+  "MedUni Wien": "#DC2626",
   "WU Wien": "#059669",
   "BOKU": "#84CC16",
   "mdw": "#7C3AED",
   "Angewandte": "#DB2777",
+  "Akademie": "#0D9488",
   "Vetmeduni Wien": "#D97706",
+};
+
+// WWTF-Programmfelder (heuristische ÖFOS-Zuordnung, siehe scripts/wwtf_enrich.py)
+const WWTF_PROG = {
+  LS:  { label: "Life Sciences", color: "#DC2626",
+         desc: "Biologie, Grundlagen- & klinische Medizin, Biotechnologie, Veterinärmedizin" },
+  ICT: { label: "Information & Communication Technology", color: "#2563EB",
+         desc: "Informatik, Elektrotechnik, KI, Maschinelles Lernen" },
+  CS:  { label: "Cognitive Sciences", color: "#7C3AED",
+         desc: "Psychologie, Neurowissenschaften, Kognition" },
+  ESR: { label: "Environmental Systems Research", color: "#059669",
+         desc: "Umweltsysteme, Ökologie, Wasser, Agrar- & Waldforschung" },
+  DH:  { label: "Digital Humanism", color: "#D97706",
+         desc: "Digitalisierung & Gesellschaft, Mensch-Maschine-Interaktion, KI-Ethik" },
+  MA:  { label: "Mathematik und …", color: "#0891B2",
+         desc: "Mathematik in Verbindung mit Anwendungsfeldern" },
 };
 
 // ÖFOS Bereiche (1-stellig)
@@ -106,8 +123,14 @@ function uniColor(uni) {
   return UNI_COLORS[uni] || "#6B7280";
 }
 
-function parseMetrics(bio) {
+// Strukturierte Metriken (aus wwtf_enrich.py), Fallback: bio_text-Regex
+function metricsOf(d) {
   const m = {};
+  if (d.h_index != null) m.hIndex = d.h_index;
+  if (d.publikationen != null) m.pubs = d.publikationen;
+  if (d.zitierungen != null) m.cites = d.zitierungen;
+  if (m.hIndex != null || m.pubs != null) return m;
+  const bio = d.bio_text;
   if (!bio) return m;
   const h = bio.match(/h-Index:\s*(\d+)/i);
   const p = bio.match(/Publikationen:\s*(\d+)/i);
@@ -497,7 +520,7 @@ function initForceGraph() {
   const H = 540;
 
   const nodes = DATA.map((d, i) => {
-    const metrics = parseMetrics(d.bio_text);
+    const metrics = metricsOf(d);
     return {
       id: i,
       name: d.name,
@@ -718,8 +741,8 @@ function badgeArt(art) {
   return `<span class="badge badge-unk">Unbekannt</span>`;
 }
 function badgeGeschlecht(g) {
-  if (g === "W") return `<span class="badge badge-f">Frau</span>`;
-  if (g === "M") return `<span class="badge badge-m">Mann</span>`;
+  if (g === "W") return `<span class="badge badge-f">f</span>`;
+  if (g === "M") return `<span class="badge badge-m">m</span>`;
   return "";
 }
 function badgeHerkunft(h, inst, land) {
@@ -744,7 +767,7 @@ function renderCards(data) {
   }
 
   grid.innerHTML = data.map((d, i) => {
-    const metrics = parseMetrics(d.bio_text);
+    const metrics = metricsOf(d);
     const bioPreview = d.bio_text
       ? d.bio_text.replace(/h-Index:[^|]+\|[^|]+\|[^|]+/i, '').trim().substring(0, 200)
       : '';
@@ -758,6 +781,10 @@ function renderCards(data) {
     const ofosBadge = d.ofos_label
       ? `<span class="badge badge-ofos" title="${bereichLabel(inferBereich(d))}">${d.ofos_label}</span>`
       : '';
+
+    const wwtfBadges = (d.wwtf_programme || []).map(p =>
+      `<span class="badge badge-grant" title="${WWTF_PROG[p].desc}">WWTF: ${WWTF_PROG[p].label}</span>`
+    ).join('');
 
     const herkunftDetail = d.herkunft_institution
       ? `<div class="card-bio" style="margin-top:4px">Von: ${d.herkunft_institution}${d.herkunft_land ? ', ' + d.herkunft_land : ''}</div>`
@@ -776,15 +803,18 @@ function renderCards(data) {
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
           ${ofosBadge}
+          ${wwtfBadges}
         </div>
         ${metricsHtml}
         ${bioPreview ? `<div class="card-bio">${bioPreview}${d.bio_text.length > 200 ? '…' : ''}</div>` : ''}
         ${herkunftDetail}
         <div class="card-footer">
-          <button class="card-expand-btn" onclick="toggleWerdegang(this, ${i})">▶ Werdegang anzeigen</button>
-          ${d.profil_url ? `<a class="card-link" href="${d.profil_url}" target="_blank" rel="noopener">Profil →</a>` : ''}
+          ${d.werdegang
+            ? `<button class="card-expand-btn" onclick="toggleWerdegang(this, ${i})">▶ Werdegang anzeigen</button>`
+            : `<span style="font-size:0.75rem;color:var(--muted)">Kein Werdegang erfasst</span>`}
+          ${d.profil_url ? `<a class="card-link" href="${d.profil_url}" target="_blank" rel="noopener">${d.profil_url_auto ? 'OpenAlex' : 'Profil'} →</a>` : ''}
         </div>
-        <div class="card-werdegang" id="wg-${i}">${d.werdegang || 'Keine weiteren Angaben.'}</div>
+        ${d.werdegang ? `<div class="card-werdegang" id="wg-${i}">${d.werdegang}</div>` : ''}
       </div>
     </div>`;
   }).join('');
@@ -796,8 +826,11 @@ function toggleWerdegang(btn, i) {
   btn.textContent = open ? '▼ Werdegang ausblenden' : '▶ Werdegang anzeigen';
 }
 
-// ─── FILTER LOGIC ────────────────────────────────────────
-function applyFilters() {
+// ─── FILTER + SORT + URL-STATE ───────────────────────────
+const FILTER_IDS = ['search-input','filter-uni','filter-geschlecht','filter-herkunft',
+                    'filter-art','filter-bereich','filter-land','filter-wwtf','sort-select'];
+
+function currentFilteredData() {
   const q       = document.getElementById('search-input').value.toLowerCase();
   const uni     = document.getElementById('filter-uni').value;
   const gesch   = document.getElementById('filter-geschlecht').value;
@@ -805,6 +838,8 @@ function applyFilters() {
   const art     = document.getElementById('filter-art').value;
   const bereich = document.getElementById('filter-bereich').value;
   const land    = document.getElementById('filter-land').value;
+  const wwtf    = document.getElementById('filter-wwtf').value;
+  const sort    = document.getElementById('sort-select').value;
 
   const filtered = DATA.filter(d => {
     if (q && !JSON.stringify(d).toLowerCase().includes(q)) return false;
@@ -814,20 +849,93 @@ function applyFilters() {
     if (art && d.art_berufung !== art) return false;
     if (bereich && String(inferBereich(d)) !== bereich) return false;
     if (land && d.herkunft_land !== land) return false;
+    if (wwtf === 'keins') { if ((d.wwtf_programme || []).length) return false; }
+    else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
     return true;
   });
-  renderCards(filtered);
+
+  const by = {
+    monat:  (a, b) => MONATEN.indexOf(a.monat) - MONATEN.indexOf(b.monat),
+    name:   (a, b) => a.name.localeCompare(b.name, 'de'),
+    hindex: (a, b) => (metricsOf(b).hIndex || -1) - (metricsOf(a).hIndex || -1),
+    uni:    (a, b) => UNIS.indexOf(a.universitat) - UNIS.indexOf(b.universitat),
+  };
+  return filtered.slice().sort(by[sort] || by.monat);
+}
+
+function applyFilters() {
+  renderCards(currentFilteredData());
+  writeStateToHash();
 }
 
 function resetFilters() {
-  document.getElementById('search-input').value = '';
-  document.getElementById('filter-uni').value = '';
-  document.getElementById('filter-geschlecht').value = '';
-  document.getElementById('filter-herkunft').value = '';
-  document.getElementById('filter-art').value = '';
-  document.getElementById('filter-bereich').value = '';
-  document.getElementById('filter-land').value = '';
-  renderCards(DATA);
+  FILTER_IDS.forEach(id => {
+    const el = document.getElementById(id);
+    el.value = id === 'sort-select' ? 'monat' : '';
+  });
+  applyFilters();
+}
+
+// Filterzustand in der URL — teilbare Links (#tab=alle&uni=TU+Wien…)
+function writeStateToHash() {
+  const p = new URLSearchParams();
+  const tab = document.querySelector('.tab-panel.active');
+  if (tab && tab.id !== 'tab-uebersicht') p.set('tab', tab.id.replace('tab-', ''));
+  FILTER_IDS.forEach(id => {
+    const v = document.getElementById(id).value;
+    if (v && !(id === 'sort-select' && v === 'monat')) p.set(id, v);
+  });
+  history.replaceState(null, '', p.toString() ? '#' + p.toString() : location.pathname);
+}
+
+function restoreStateFromHash() {
+  if (!location.hash) return;
+  const p = new URLSearchParams(location.hash.slice(1));
+  FILTER_IDS.forEach(id => {
+    if (p.has(id)) document.getElementById(id).value = p.get(id);
+  });
+  const tab = p.get('tab');
+  if (tab && document.getElementById('tab-' + tab)) switchTab(tab);
+  renderCards(currentFilteredData());
+}
+
+// ─── CSV-EXPORT (gefilterte Ansicht, Excel-AT-kompatibel) ─
+function exportCSV() {
+  const cols = [
+    ['Name', d => d.name],
+    ['Universität', d => d.universitat],
+    ['Institut', d => d.fakultat_institut || d.fakultat || ''],
+    ['Forschungsbereich', d => d.forschungsbereich || ''],
+    ['Art der Berufung', d => d.art_berufung || ''],
+    ['Geschlecht', d => d.geschlecht || ''],
+    ['Herkunft', d => d.herkunft || ''],
+    ['Herkunftsinstitution', d => d.herkunft_institution || ''],
+    ['Herkunftsland', d => d.herkunft_land || ''],
+    ['ÖFOS-Code', d => d.ofos_code || ''],
+    ['ÖFOS-Bezeichnung', d => d.ofos_label || ''],
+    ['WWTF-Programmfelder', d => (d.wwtf_programme || []).map(p => WWTF_PROG[p].label).join(', ')],
+    ['h-Index', d => metricsOf(d).hIndex ?? ''],
+    ['Publikationen', d => metricsOf(d).pubs ?? ''],
+    ['Zitierungen', d => metricsOf(d).cites ?? ''],
+    ['Monat', d => d.monat || ''],
+    ['Jahr', d => d.year || ''],
+    ['Profil-URL', d => d.profil_url || ''],
+  ];
+  const esc = v => {
+    const s = String(v);
+    return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const rows = currentFilteredData();
+  const csv = [cols.map(c => c[0]).join(';')]
+    .concat(rows.map(d => cols.map(c => esc(c[1](d))).join(';')))
+    .join('\r\n');
+  // BOM, damit Excel Umlaute korrekt liest
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `berufungsradar_wien_2025_${rows.length}_eintraege.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 function populateLandFilter() {
@@ -848,24 +956,170 @@ function populateLandFilter() {
   });
 }
 
+// ─── WWTF-PERSPEKTIVE ────────────────────────────────────
+function median(arr) {
+  if (!arr.length) return null;
+  const s = arr.slice().sort((a, b) => a - b);
+  const mid = Math.floor(s.length / 2);
+  return s.length % 2 ? s[mid] : Math.round((s[mid - 1] + s[mid]) / 2);
+}
+
+let wwtfInitialized = false;
+function initWWTF() {
+  if (wwtfInitialized) return;
+  wwtfInitialized = true;
+
+  const inProg = DATA.filter(d => (d.wwtf_programme || []).length > 0);
+  const extern = inProg.filter(d => d.herkunft === 'extern');
+  const ausland = extern.filter(d => d.herkunft_land && d.herkunft_land !== 'Österreich');
+  const frauen = inProg.filter(d => d.geschlecht === 'W');
+  const hs = inProg.map(d => metricsOf(d).hIndex).filter(h => h != null);
+
+  document.getElementById('kpi-wwtf-total').textContent = inProg.length;
+  document.getElementById('kpi-wwtf-total-sub').textContent =
+    `von ${DATA.length} Berufungen (${Math.round(inProg.length / DATA.length * 100)}%)`;
+  document.getElementById('kpi-wwtf-extern').textContent = extern.length;
+  document.getElementById('kpi-wwtf-extern-sub').textContent =
+    `davon ${ausland.length} aus dem Ausland`;
+  document.getElementById('kpi-wwtf-frauen').textContent =
+    Math.round(frauen.length / Math.max(1, inProg.length) * 100) + '%';
+  document.getElementById('kpi-wwtf-hindex').textContent = median(hs) ?? '–';
+  document.getElementById('kpi-wwtf-hindex-sub').textContent =
+    `${hs.length} von ${inProg.length} mit OpenAlex-Metriken`;
+
+  // Balkendiagramm pro Programmfeld
+  const progKeys = Object.keys(WWTF_PROG);
+  const counts = progKeys.map(p => inProg.filter(d => d.wwtf_programme.includes(p)).length);
+  new Chart(document.getElementById('chart-wwtf-prog'), {
+    type: 'bar',
+    data: {
+      labels: progKeys.map(p => WWTF_PROG[p].label),
+      datasets: [{
+        data: counts,
+        backgroundColor: progKeys.map(p => WWTF_PROG[p].color),
+        borderRadius: 4
+      }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { x: { ticks: { stepSize: 2 } } }
+    }
+  });
+
+  // Programmfeld-Karten mit Personen-Chips
+  const grid = document.getElementById('prog-grid');
+  grid.innerHTML = progKeys.map(p => {
+    const people = inProg
+      .filter(d => d.wwtf_programme.includes(p))
+      .sort((a, b) => (metricsOf(b).hIndex || -1) - (metricsOf(a).hIndex || -1));
+    if (!people.length) return '';
+    const chips = people.map(d => {
+      const h = metricsOf(d).hIndex;
+      const herk = d.herkunft === 'extern'
+        ? (d.herkunft_land && d.herkunft_land !== 'Österreich' ? d.herkunft_land : 'extern (AT)')
+        : 'intern';
+      return `<div class="person-chip" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')" title="${d.forschungsbereich || ''}">
+        <span class="chip-name">${d.name}</span>
+        <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
+      </div>`;
+    }).join('');
+    return `<div class="prog-card" style="border-top-color:${WWTF_PROG[p].color}">
+      <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
+      <div class="prog-desc">${WWTF_PROG[p].desc}</div>
+      ${chips}
+    </div>`;
+  }).join('');
+
+  // Kernaussagen
+  const uniCounts = {};
+  inProg.forEach(d => { uniCounts[d.universitat] = (uniCounts[d.universitat] || 0) + 1; });
+  const topUni = Object.entries(uniCounts).sort((a, b) => b[1] - a[1])[0];
+  const topH = inProg
+    .map(d => ({ d, h: metricsOf(d).hIndex || 0 }))
+    .sort((a, b) => b.h - a.h)
+    .slice(0, 3)
+    .filter(x => x.h > 0);
+  const laender = new Set(ausland.map(d => d.herkunft_land));
+
+  const items = [
+    `<strong>${inProg.length} der ${DATA.length} Berufungen</strong> (${Math.round(inProg.length / DATA.length * 100)}%) liegen thematisch in WWTF-Programmfeldern — das potenzielle Antragsteller:innen-Reservoir der nächsten Ausschreibungen.`,
+    `<strong>${topUni[0]}</strong> stellt mit ${topUni[1]} Berufungen die meisten Neuzugänge in WWTF-Feldern.`,
+    `${extern.length} der ${inProg.length} wurden <strong>extern rekrutiert</strong>, ${ausland.length} davon international (${[...laender].join(', ')}) — frisch nach Wien geholte Expertise ohne etablierte lokale Fördernetzwerke.`,
+    topH.length ? `Höchste Sichtbarkeit: ${topH.map(x => `<strong>${x.d.name}</strong> (${x.d.universitat}, h-Index ${x.h})`).join(', ')}.` : '',
+    `Frauenanteil in WWTF-Feldern: <strong>${Math.round(frauen.length / Math.max(1, inProg.length) * 100)}%</strong> (gesamt: ${Math.round(DATA.filter(d => d.geschlecht === 'W').length / DATA.length * 100)}%).`,
+  ].filter(Boolean);
+  document.getElementById('insights-wwtf-list').innerHTML =
+    items.map(i => `<li>${i}</li>`).join('');
+}
+
+function jumpToPerson(name) {
+  switchTab('alle');
+  document.getElementById('search-input').value = name;
+  applyFilters();
+}
+
+// ─── KERNAUSSAGEN (Übersicht + Mobilität) ────────────────
+function initInsights() {
+  const total = DATA.length;
+  const frauen = DATA.filter(d => d.geschlecht === 'W').length;
+  const intern = DATA.filter(d => d.herkunft === 'intern').length;
+  const monatCounts = MONATEN.map(m => DATA.filter(d => d.monat === m).length);
+  const topMonat = MONATEN[monatCounts.indexOf(Math.max(...monatCounts))];
+
+  const bereichCounts = {};
+  DATA.forEach(d => {
+    const b = inferBereich(d);
+    bereichCounts[b] = (bereichCounts[b] || 0) + 1;
+  });
+  const topBereiche = Object.entries(bereichCounts).sort((a, b) => b[1] - a[1]).slice(0, 2);
+
+  document.getElementById('insights-uebersicht-list').innerHTML = [
+    `<strong>${total} Berufungen</strong> an 8 Wiener Universitäten im Jahr 2025 — TU Wien (${DATA.filter(d => d.universitat === 'TU Wien').length}) und Uni Wien (${DATA.filter(d => d.universitat === 'Uni Wien').length}) stellen mehr als die Hälfte.`,
+    `Frauenanteil: <strong>${Math.round(frauen / total * 100)}%</strong> (${frauen} von ${total}) — unter der 50%-Zielmarke des UG-Frauenförderungsgebots.`,
+    `Stärkste Bereiche: <strong>${bereichLabel(topBereiche[0][0])}</strong> (${topBereiche[0][1]}) und <strong>${bereichLabel(topBereiche[1][0])}</strong> (${topBereiche[1][1]}).`,
+    `Deutlicher Berufungsgipfel im <strong>${topMonat.charAt(0) + topMonat.slice(1).toLowerCase()}</strong> (${Math.max(...monatCounts)} Berufungen) — Semesterlogik des Berufungsgeschäfts.`,
+  ].map(i => `<li>${i}</li>`).join('');
+
+  const externAusland = DATA.filter(d => d.herkunft === 'extern' && d.herkunft_land && d.herkunft_land !== 'Österreich');
+  const landCounts = {};
+  externAusland.forEach(d => { landCounts[d.herkunft_land] = (landCounts[d.herkunft_land] || 0) + 1; });
+  const topLand = Object.entries(landCounts).sort((a, b) => b[1] - a[1])[0];
+
+  document.getElementById('insights-mobilitaet-list').innerHTML = [
+    `<strong>${intern} von ${total}</strong> Berufungen (${Math.round(intern / total * 100)}%) kommen aus der eigenen bzw. einer anderen Wiener Institution — der interne Arbeitsmarkt dominiert.`,
+    `<strong>${externAusland.length} internationale Rekrutierungen</strong> aus ${Object.keys(landCounts).length} Ländern; größtes Herkunftsland: <strong>${topLand[0]}</strong> (${topLand[1]}).`,
+    `Jede internationale Berufung ist ein Brain-Gain-Signal für den Standort — zugleich zeigt der hohe Intern-Anteil die Bedeutung der Wiener Karrierepipeline (§99 Abs. 4).`,
+  ].map(i => `<li>${i}</li>`).join('');
+}
+
 // ─── TAB SWITCHING ───────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-selected', 'false');
+  });
 
   document.getElementById(`tab-${name}`).classList.add('active');
   document.querySelectorAll('.tab-btn').forEach(btn => {
-    if (btn.getAttribute('onclick').includes(`'${name}'`)) btn.classList.add('active');
+    if (btn.getAttribute('onclick').includes(`'${name}'`)) {
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+    }
   });
 
+  if (name === 'wwtf') initWWTF();
   if (name === 'mobilitaet') initSankey();
   if (name === 'cluster') { initForceGraph(); initOverlapMatrix(); }
-  if (name === 'alle') renderCards(DATA);
+  if (name === 'alle') renderCards(currentFilteredData());
+  writeStateToHash();
 }
 
 // ─── INIT ────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   initKPIs();
+  initInsights();
   initGenderChart();
   initTimelineChart();
   initBereichChart();
@@ -873,6 +1127,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeatmap();
   populateLandFilter();
   renderCards(DATA);
+  restoreStateFromHash();
 });
 """
 

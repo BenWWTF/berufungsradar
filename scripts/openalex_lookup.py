@@ -316,6 +316,28 @@ def infer_herkunft(d: dict, author: dict) -> dict:
     }
 
 
+def match_confidence(d: dict, author: dict) -> str:
+    """Plausibility check for the top search hit — fail-safe gegen
+    Namensvetter. Downstream-Stufen ignorieren 'low'-Treffer.
+
+    high:   eine Affiliation liegt in Österreich (Berufungs-Kontext plausibel)
+    medium: eine Affiliation liegt im bekannten Herkunftsland
+    low:    keine geografische Plausibilität → nicht automatisch mergen
+    """
+    countries = {
+        (a.get("institution") or {}).get("country_code")
+        for a in (author.get("affiliations") or [])
+    }
+    countries.discard(None)
+    if "AT" in countries:
+        return "high"
+    land = d.get("herkunft_land")
+    iso_by_name = {v: k for k, v in COUNTRY_NAMES_DE.items()}
+    if land and iso_by_name.get(land) in countries:
+        return "medium"
+    return "low"
+
+
 def process_entry(d: dict) -> dict:
     """Lookup one entry, return the OpenAlex-derived fields."""
     name = d.get("name", "")
@@ -323,18 +345,21 @@ def process_entry(d: dict) -> dict:
     author = openalex_search_author(name)
     if not author:
         print("not found")
+        # Negativ-Cache: „geprüft, nicht vorhanden" ≠ „nie geprüft"
         return {"name": name, "_openalex": "not found"}
     author_id = author.get("id", "").replace("https://openalex.org/", "")
+    conf = match_confidence(d, author)
     # Get all works for h-index
     works = openalex_get_works(author_id)
     h = compute_h_index(works)
-    print(f"h={h} works={len(works)} cited={author.get('cited_by_count')}")
+    print(f"h={h} works={len(works)} cited={author.get('cited_by_count')} conf={conf}")
     insts = extract_last_institutions(author)
     bio = build_bio_text(author, d, h)
     hk = infer_herkunft(d, author)
     return {
         "name": name,
         "openalex_id": author_id,
+        "match_confidence": conf,
         "works_count": author.get("works_count"),
         "cited_by_count": author.get("cited_by_count"),
         "h_index": h,
@@ -357,13 +382,18 @@ def main():
     with DATA.open() as f:
         data = json.load(f)
 
-    # Targets: 26 missing bio + 25 unknown herkunft (overlap will dedupe)
-    targets = set()
-    for d in data:
-        if not d.get("bio_text"):
-            targets.add(d["name"])
-        if d.get("herkunft") in (None, "unbekannt", "—"):
-            targets.add(d["name"])
+    # Default: alle Einträge, die noch nie geprüft wurden (fail-safe: der
+    # Cache enthält auch Negativ-Ergebnisse, daher keine Doppel-Lookups).
+    # --gaps-only: nur Einträge ohne bio_text / mit unbekannter Herkunft.
+    if "--gaps-only" in sys.argv:
+        targets = set()
+        for d in data:
+            if not d.get("bio_text"):
+                targets.add(d["name"])
+            if d.get("herkunft") in (None, "unbekannt", "—"):
+                targets.add(d["name"])
+    else:
+        targets = {d["name"] for d in data}
     # Filter out already done
     todo = [n for n in targets if n not in results]
     print(f"Already cached: {len(results)}, new: {len(todo)}")
