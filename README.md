@@ -89,7 +89,7 @@ Jeder Eintrag im `DATA`-Array enthält:
 
 ## Reproduktion
 
-Die Datenanreicherung erfolgt über zwei Skripte:
+Die Datenanreicherung erfolgt über eine idempotente Pipeline (ein Befehl):
 
 ```bash
 scripts/update.sh                      # Alles in einem: Lookup → Anreicherung → Lücken → Build → Report

@@ -1,0 +1,71 @@
+{
+  "_comment": "Manuell recherchierte OpenAlex-Zuordnungen für Fälle, die die automatische Suche nicht (korrekt) findet — Diakritika, Namensvetter, Bindestrich-Namen. Jede Zuordnung wurde per Hand gegen Disziplin + Wien-Affiliation geprüft. openalex_id: 'none' unterdrückt den Lookup (Person hat kein akademisches Profil, z.B. Künstler:innen). Wird von openalex_lookup.py bevorzugt vor der Suche verwendet und mit match_confidence='verified' markiert.",
+  "Ismail Ilkan Ceylan": {
+    "openalex_id": "A5006230226",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Oxford",
+    "herkunft_land": "Großbritannien",
+    "_note": "geprüft 2026-07-09: AI/Semantic-Web-Forscher, Oxford bis 2025, keine Wien-Historie vor Berufung"
+  },
+  "Teresa Liberto": {
+    "openalex_id": "A5065239059",
+    "herkunft": "extern",
+    "herkunft_institution": "Université Claude Bernard Lyon 1",
+    "herkunft_land": "Frankreich",
+    "_note": "geprüft 2026-07-09: Baustoff-/Betonforschung, Lyon/Pisa, TU Wien erst ab Berufung"
+  },
+  "Milica Vujovic": {
+    "openalex_id": "A5075146838",
+    "herkunft": "extern",
+    "herkunft_institution": "Universitat Pompeu Fabra",
+    "herkunft_land": "Spanien",
+    "_note": "geprüft 2026-07-09: korrekte Person (Sarajevo/Mihajlo Pupin/Pompeu Fabra), NICHT die Delhi-Namensvetterin"
+  },
+  "Matthias Kuba": {
+    "openalex_id": "A5055660262",
+    "herkunft": "extern",
+    "herkunft_institution": "BEST – Bioenergy and Sustainable Technologies GmbH",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-07-09: Biomasse-/Bioenergie; vor Berufung an BEST (AT) und Luleå (SE), keine TU-Wien-Historie → extern aus AT-Forschungszentrum"
+  },
+  "Iva Hunger Brezinova": {
+    "openalex_id": "A5035664973",
+    "_note": "geprüft 2026-07-09: Iva Březinová, TU-Wien-Theoretische-Physik; Herkunft bleibt kuratiert"
+  },
+  "Helmut Riedl Tragenreif": {
+    "openalex_id": "A5034573859",
+    "_note": "geprüft 2026-07-09: Dünnschicht-/Materialwissenschaft, Leoben/KIT/TU Wien; Herkunft bleibt kuratiert"
+  },
+  "Susanne Brorson": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-07-09: Architektin, kein akademisches Publikationsprofil in OpenAlex"
+  },
+  "Sophie Thun": {
+    "openalex_id": "none",
+    "_note": "Künstlerin (Fotografie), kein OpenAlex-Profil"
+  },
+  "Jan Völker": {
+    "openalex_id": "none",
+    "_note": "Kunst/Angewandte, kein belastbares OpenAlex-Profil (Namensvetter)"
+  },
+  "Tülay Atak": {
+    "openalex_id": "none",
+    "_note": "Architekturtheorie/Angewandte, kein belastbares OpenAlex-Profil"
+  },
+  "Mischa Janisch": {
+    "openalex_id": "none",
+    "_note": "mdw, künstlerische Professur, kein OpenAlex-Profil"
+  },
+  "Wilhelm Spuller": {
+    "openalex_id": "none",
+    "_note": "mdw, künstlerische Professur, kein OpenAlex-Profil"
+  },
+  "Jorge Sanchez-Chiong": {
+    "openalex_id": "none",
+    "_note": "mdw, künstlerische Professur, kein OpenAlex-Profil"
+  },
+  "Michael Kitzberger": {
+    "openalex_id": "none",
+    "_note": "mdw, künstlerische Professur; OpenAlex-Treffer (Erlangen, Medizin) ist Namensvetter"
+  }
+}

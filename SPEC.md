@@ -60,7 +60,7 @@ Affiliationshistorien aus Crossref-Datenquellen.
 
 ## 4. Datenanreicherungs-Pipeline
 
-Die Verarbeitung erfolgt in vier Schritten und ist als reproduzierbare
+Die Verarbeitung erfolgt in mehreren Stufen (4.1–4.6) und ist als reproduzierbare
 Python-Pipeline unter `scripts/` abgelegt.
 
 ### 4.1 OpenAlex-Lookup (`scripts/openalex_lookup.py`)
@@ -194,6 +194,25 @@ OpenAlex" unterschieden und kein Lookup doppelt ausgeführt.
 Affiliation im bekannten Herkunftsland, *low* = keine geografische
 Plausibilität. `low`-Treffer (potenzielle Namensvetter) werden von allen
 Downstream-Stufen ignoriert.
+
+**Manuelle Overrides (`scripts/openalex_overrides.json`):** Für Fälle, die die
+automatische Suche nicht korrekt findet — Diakritika (Březinová), Bindestrich-
+oder Doppelnamen (Riedl-Tragenreif), Namensvetter (die Delhi-„Milica Vujović"
+statt der TU-Wien-Architektin) — hält diese Datei die per Hand geprüfte
+Zuordnung:
+
+- `openalex_id: "A…"` — pinnt die verifizierte Autoren-ID (umgeht Suche und
+  Konfidenz-Gate, `match_confidence: "verified"`).
+- `openalex_id: "none"` — Person hat kein akademisches Profil (Künstler:innen
+  an mdw/Angewandter/Akademie) → sauberer Negativ-Cache, keine Fehlzuordnung.
+- optional `herkunft`/`herkunft_institution`/`herkunft_land` — nur wenn hier
+  explizit gesetzt, gilt die Herkunft als recherchiert (`herkunft_verified`)
+  und darf einen kuratierten Wert korrigieren; ein reiner ID-Pin lässt die
+  Herkunft unberührt.
+
+So ist jede manuelle Recherche als re-runnbare Daten festgehalten und geht bei
+keinem Rebuild verloren. Aktuell: 6 ID-Pins + 8 „kein Profil". Die Pipeline ist
+idempotent (zweiter Lauf ohne API erzeugt bytegleiche Daten).
 
 `audit_gaps.py` erzeugt `data_gaps.csv` — die Recherche-Warteschlange für
 alles, was APIs nicht wissen können (v.a. künstlerische Professuren an mdw
@@ -360,20 +379,28 @@ Kooperationspartner:innen und Jury-/Gutachter:innen-Kontakte:
 
 ## 8. Reproduzierbarkeit
 
+Ein Befehl führt die gesamte idempotente Pipeline aus und druckt am Ende den
+Lücken-Report:
+
 ```bash
-# 1. OpenAlex-Metriken + Herkunftsinferenz (~2 Min.)
-python3 scripts/openalex_lookup.py
-
-# 2. Geschlechts-, ÖFOS-, E-Code-Anreicherung (~5 Sek.)
-python3 scripts/enrich.py
-
-# 3. HTML-Generierung (~1 Sek.)
-python3 scripts/build_html.py
+scripts/update.sh
 ```
 
-Die `scripts/herkunft_research.json` enthält die 5 manuell recherchierten
-Sonderfälle (Iva Hunger Brezinova, Mischa Janisch, Wilhelm Spuller, Jorge
-Sánchez-Chiong, Mario Pesendorfer).
+Einzelstufen (in Reihenfolge):
+
+```bash
+python3 scripts/openalex_lookup.py   # OpenAlex für ungeprüfte Einträge + Overrides (~2 Min. beim ersten Lauf)
+python3 scripts/enrich.py            # Geschlecht, ÖFOS-Ebenen, E-Codes, Herkunft-Merge (~5 Sek.)
+python3 scripts/wwtf_enrich.py       # strukturierte Metriken + WWTF-Programmfelder
+python3 scripts/fill_gaps.py         # Werdegang/Profil-Links auto-füllen (manuell > API > generiert)
+python3 scripts/build_html.py        # HTML-Generierung (~1 Sek.)
+python3 scripts/audit_gaps.py        # Lücken-Report → data_gaps.csv
+```
+
+Manuell recherchierte Sonderfälle liegen in zwei Dateien:
+- `scripts/herkunft_research.json` — frühe manuelle Herkunfts-Recherche
+- `scripts/openalex_overrides.json` — geprüfte OpenAlex-IDs und „kein Profil"-
+  Markierungen (s. 4.6)
 
 ## 9. Lizenz & Nutzung
 

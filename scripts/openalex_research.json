@@ -987,14 +987,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Wilhelm Spuller": {
-    "name": "Wilhelm Spuller",
-    "_openalex": "not found"
-  },
-  "Iva Hunger Brezinova": {
-    "name": "Iva Hunger Brezinova",
-    "_openalex": "not found"
-  },
   "Melanie Schären-Bannert": {
     "name": "Melanie Schären-Bannert",
     "openalex_id": "A5060775645",
@@ -1486,19 +1478,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Jorge Sanchez-Chiong": {
-    "name": "Jorge Sanchez-Chiong",
-    "openalex_id": "A5061685201",
-    "works_count": 1,
-    "cited_by_count": 0,
-    "h_index": 0,
-    "last_known_institutions": [],
-    "bio_text": "Elektroakustische Komposition.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Christian Loewe": {
     "name": "Christian Loewe",
     "openalex_id": "A5041998767",
@@ -1682,39 +1661,6 @@
     "herkunft": "extern",
     "herkunft_institution": "University of Arizona",
     "herkunft_land": "USA",
-    "grants": []
-  },
-  "Michael Kitzberger": {
-    "name": "Michael Kitzberger",
-    "openalex_id": "A5108179836",
-    "works_count": 3,
-    "cited_by_count": 0,
-    "h_index": 0,
-    "last_known_institutions": [
-      {
-        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2025,
-          2024
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Universitätsklinikum Erlangen",
-        "country": "DE",
-        "type": "healthcare",
-        "years": [
-          2025
-        ],
-        "most_recent": 2025
-      }
-    ],
-    "bio_text": "Filmproduktion.",
-    "herkunft": "extern",
-    "herkunft_institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-    "herkunft_land": "Deutschland",
     "grants": []
   },
   "Sebastian Müller": {
@@ -1992,10 +1938,6 @@
     "herkunft_institution": "Medical University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
-  },
-  "Mischa Janisch": {
-    "name": "Mischa Janisch",
-    "_openalex": "not found"
   },
   "Andreas Steinboeck": {
     "name": "Andreas Steinboeck",
@@ -3155,39 +3097,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Tülay Atak": {
-    "name": "Tülay Atak",
-    "openalex_id": "A5068320376",
-    "match_confidence": "low",
-    "works_count": 8,
-    "cited_by_count": 12,
-    "h_index": 2,
-    "last_known_institutions": [
-      {
-        "name": "Pratt Institute",
-        "country": "US",
-        "type": "nonprofit",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Rhode Island School of Design",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2010
-        ],
-        "most_recent": 2010
-      }
-    ],
-    "bio_text": "Architekturtheorie. h-Index: 2 | Publikationen: 8 | Zitierungen: 12.",
-    "herkunft": "extern",
-    "herkunft_institution": "Pratt Institute",
-    "herkunft_land": "USA",
-    "grants": []
-  },
   "Constanza Cordoni": {
     "name": "Constanza Cordoni",
     "openalex_id": "A5085101800",
@@ -3342,83 +3251,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Matthias Kuba": {
-    "name": "Matthias Kuba",
-    "openalex_id": "A5019989632",
-    "match_confidence": "low",
-    "works_count": 377,
-    "cited_by_count": 4427,
-    "h_index": 32,
-    "last_known_institutions": [
-      {
-        "name": "Universität Hamburg",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2026,
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Hamburg University of Technology",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2026,
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Sensor Electronics (United States)",
-        "country": "US",
-        "type": "company",
-        "years": [
-          2023,
-          2019
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Brandenburg University of Technology Cottbus-Senftenberg",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2023,
-          2020,
-          2019,
-          2018,
-          2017
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Texas Tech University",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2021
-        ],
-        "most_recent": 2021
-      }
-    ],
-    "bio_text": "Thermochemische Biomasse-Umwandlung / Synthesegas / Wirbelschichtsysteme. h-Index: 32 | Publikationen: 377 | Zitierungen: 4427. Forschungstätigkeit u.a. in USA, Spanien, Deutschland, China.",
-    "herkunft": "extern",
-    "herkunft_institution": "Universität Hamburg",
-    "herkunft_land": "Deutschland",
-    "grants": []
-  },
   "Andrej Pustogow": {
     "name": "Andrej Pustogow",
     "openalex_id": "A5066837955",
@@ -3493,75 +3325,6 @@
     "herkunft": "intern",
     "herkunft_institution": "TU Wien",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Ismail Ilkan Ceylan": {
-    "name": "Ismail Ilkan Ceylan",
-    "openalex_id": "A5006230226",
-    "match_confidence": "low",
-    "works_count": 74,
-    "cited_by_count": 574,
-    "h_index": 14,
-    "last_known_institutions": [
-      {
-        "name": "University of Oxford",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2025,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019,
-          2018
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Science Oxford",
-        "country": "GB",
-        "type": "nonprofit",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "Technische Universität Dresden",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2017,
-          2016,
-          2015,
-          2014
-        ],
-        "most_recent": 2017
-      },
-      {
-        "name": "University of California, Los Angeles",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2016
-        ],
-        "most_recent": 2016
-      },
-      {
-        "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2015
-        ],
-        "most_recent": 2015
-      }
-    ],
-    "bio_text": "Assoziierter Professor für Graph Machine Learning. h-Index: 14 | Publikationen: 74 | Zitierungen: 574. Forschungstätigkeit u.a. in USA, Großbritannien, Deutschland.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of Oxford",
-    "herkunft_land": "Großbritannien",
     "grants": []
   },
   "Angela Stöger-Horwath": {
@@ -4042,20 +3805,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Sophie Thun": {
-    "name": "Sophie Thun",
-    "openalex_id": "A5053235916",
-    "match_confidence": "low",
-    "works_count": 1,
-    "cited_by_count": 0,
-    "h_index": 0,
-    "last_known_institutions": [],
-    "bio_text": "Künstlerische Fotografie.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Johanna Ullrich": {
     "name": "Johanna Ullrich",
     "openalex_id": "A5039756505",
@@ -4279,20 +4028,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Helmut Riedl Tragenreif": {
-    "name": "Helmut Riedl Tragenreif",
-    "openalex_id": "A5137537002",
-    "match_confidence": "low",
-    "works_count": 3,
-    "cited_by_count": 0,
-    "h_index": 0,
-    "last_known_institutions": [],
-    "bio_text": "Assoziierter Professor für Surface Engineering of High-Performance Component.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Manuela Studer-Karlen": {
     "name": "Manuela Studer-Karlen",
     "openalex_id": "A5048049348",
@@ -4513,80 +4248,6 @@
     "herkunft": "extern",
     "herkunft_institution": "Austrian Academy of Sciences",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Teresa Liberto": {
-    "name": "Teresa Liberto",
-    "openalex_id": "A5005247018",
-    "match_confidence": "low",
-    "works_count": 152,
-    "cited_by_count": 5810,
-    "h_index": 40,
-    "last_known_institutions": [
-      {
-        "name": "World Health Organization",
-        "country": "CH",
-        "type": "government",
-        "years": [
-          2026,
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019,
-          2018
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Universitat de València",
-        "country": "ES",
-        "type": "education",
-        "years": [
-          2025
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "World Health Organization - Pakistan",
-        "country": "PK",
-        "type": "government",
-        "years": [
-          2024,
-          2022,
-          2021
-        ],
-        "most_recent": 2024
-      },
-      {
-        "name": "United Nations Children's Fund",
-        "country": "US",
-        "type": "funder",
-        "years": [
-          2016,
-          2015,
-          2014,
-          2013,
-          2012
-        ],
-        "most_recent": 2016
-      },
-      {
-        "name": "United Nations Children's Fund Kosovo",
-        "country": "XK",
-        "type": "other",
-        "years": [
-          2014
-        ],
-        "most_recent": 2014
-      }
-    ],
-    "bio_text": "Assoziierte Professorin für Sustainable Cementitious Composite. h-Index: 40 | Publikationen: 152 | Zitierungen: 5810. Forschungstätigkeit u.a. in USA, PK, Spanien, PR.",
-    "herkunft": "extern",
-    "herkunft_institution": "World Health Organization",
-    "herkunft_land": "Schweiz",
     "grants": []
   },
   "Katharina Stornig": {
@@ -5441,66 +5102,6 @@
     "herkunft_land": "USA",
     "grants": []
   },
-  "Jan Völker": {
-    "name": "Jan Völker",
-    "openalex_id": "A5007284172",
-    "match_confidence": "low",
-    "works_count": 47,
-    "cited_by_count": 119,
-    "h_index": 4,
-    "last_known_institutions": [
-      {
-        "name": "Bauhaus-Universität Weimar",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2022
-        ],
-        "most_recent": 2022
-      },
-      {
-        "name": "Berlin University of the Arts",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2020
-        ],
-        "most_recent": 2020
-      },
-      {
-        "name": "National Institute of Arts",
-        "country": "CD",
-        "type": "education",
-        "years": [
-          2018
-        ],
-        "most_recent": 2018
-      },
-      {
-        "name": "University of British Columbia Hospital",
-        "country": "CA",
-        "type": "healthcare",
-        "years": [
-          2011
-        ],
-        "most_recent": 2011
-      },
-      {
-        "name": "University of British Columbia",
-        "country": "CA",
-        "type": "education",
-        "years": [
-          2011
-        ],
-        "most_recent": 2011
-      }
-    ],
-    "bio_text": "Philosophie. h-Index: 4 | Publikationen: 47 | Zitierungen: 119. Forschungstätigkeit u.a. in Kanada, CD, Frankreich, Deutschland.",
-    "herkunft": "extern",
-    "herkunft_institution": "Bauhaus-Universität Weimar",
-    "herkunft_land": "Deutschland",
-    "grants": []
-  },
   "Elisa Tomat": {
     "name": "Elisa Tomat",
     "openalex_id": "A5039396194",
@@ -5603,67 +5204,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Milica Vujovic": {
-    "name": "Milica Vujovic",
-    "openalex_id": "A5012133318",
-    "match_confidence": "low",
-    "works_count": 15,
-    "cited_by_count": 329,
-    "h_index": 4,
-    "last_known_institutions": [
-      {
-        "name": "School of Planning and Architecture Delhi",
-        "country": "IN",
-        "type": "education",
-        "years": [
-          2026
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "University of Nis",
-        "country": "RS",
-        "type": "education",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "University of East Sarajevo",
-        "country": "BA",
-        "type": "education",
-        "years": [
-          2019,
-          2018
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "Faculty of Applied Social Studies in Nova Gorica",
-        "country": "SI",
-        "type": "education",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "Human Growth Foundation",
-        "country": "US",
-        "type": "nonprofit",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      }
-    ],
-    "bio_text": "Assoziierte Professorin für Evidence-based Design Support. h-Index: 4 | Publikationen: 15 | Zitierungen: 329. Forschungstätigkeit u.a. in Indien, RS, BA, Schweden.",
-    "herkunft": "extern",
-    "herkunft_institution": "School of Planning and Architecture Delhi",
-    "herkunft_land": "Indien",
-    "grants": []
-  },
   "Dragana Damjanovic": {
     "name": "Dragana Damjanovic",
     "openalex_id": "A5084546978",
@@ -5696,20 +5236,6 @@
     "herkunft": "extern",
     "herkunft_institution": "Mozilla Foundation",
     "herkunft_land": "USA",
-    "grants": []
-  },
-  "Susanne Brorson": {
-    "name": "Susanne Brorson",
-    "openalex_id": "A5114984576",
-    "match_confidence": "low",
-    "works_count": 1,
-    "cited_by_count": 0,
-    "h_index": 0,
-    "last_known_institutions": [],
-    "bio_text": "Universitätsprofessorin für Architekturentwurf.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
     "grants": []
   },
   "Anna Schachinger": {
@@ -5784,6 +5310,498 @@
     "herkunft": "extern",
     "herkunft_institution": "Klinikum Fulda",
     "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Sophie Thun": {
+    "name": "Sophie Thun",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Jorge Sanchez-Chiong": {
+    "name": "Jorge Sanchez-Chiong",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Michael Kitzberger": {
+    "name": "Michael Kitzberger",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Tülay Atak": {
+    "name": "Tülay Atak",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Susanne Brorson": {
+    "name": "Susanne Brorson",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Jan Völker": {
+    "name": "Jan Völker",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Mischa Janisch": {
+    "name": "Mischa Janisch",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Wilhelm Spuller": {
+    "name": "Wilhelm Spuller",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Teresa Liberto": {
+    "name": "Teresa Liberto",
+    "openalex_id": "A5065239059",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 28,
+    "cited_by_count": 251,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Université Claude Bernard Lyon 1",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Université de Lyon",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Air Liquide (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Assoziierte Professorin für Sustainable Cementitious Composite. h-Index: 7 | Publikationen: 28 | Zitierungen: 251. Forschungstätigkeit u.a. in Frankreich, Italien, Österreich, Großbritannien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Université Claude Bernard Lyon 1",
+    "herkunft_land": "Frankreich",
+    "grants": []
+  },
+  "Helmut Riedl Tragenreif": {
+    "name": "Helmut Riedl Tragenreif",
+    "openalex_id": "A5034573859",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 2423,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Karlsruhe Institute of Technology",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Trinity College Dublin",
+        "country": "IE",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Montanuniversität Leoben",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "Assoziierter Professor für Surface Engineering of High-Performance Component. h-Index: 28 | Publikationen: 124 | Zitierungen: 2423. Forschungstätigkeit u.a. in Deutschland, Österreich, Irland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ismail Ilkan Ceylan": {
+    "name": "Ismail Ilkan Ceylan",
+    "openalex_id": "A5006230226",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 74,
+    "cited_by_count": 574,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Science Oxford",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Technische Universität Dresden",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "University of California, Los Angeles",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Assoziierter Professor für Graph Machine Learning. h-Index: 14 | Publikationen: 74 | Zitierungen: 574. Forschungstätigkeit u.a. in USA, Großbritannien, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Oxford",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Iva Hunger Brezinova": {
+    "name": "Iva Hunger Brezinova",
+    "openalex_id": "A5035664973",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 53,
+    "cited_by_count": 650,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Flatiron Health (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Flatiron Institute",
+        "country": null,
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Instituto de Física Teórica",
+        "country": "ES",
+        "type": "facility",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Max Planck Institute for Nuclear Physics",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Assoziierte Professorin für Physik. h-Index: 13 | Publikationen: 53 | Zitierungen: 650. Forschungstätigkeit u.a. in Österreich, Ungarn, Spanien, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Milica Vujovic": {
+    "name": "Milica Vujovic",
+    "openalex_id": "A5075146838",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 56,
+    "cited_by_count": 191,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Universitat Pompeu Fabra",
+        "country": "ES",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Belgrade",
+        "country": "RS",
+        "type": "education",
+        "years": [
+          2022,
+          2018,
+          2016
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Malmö University",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Assoziierte Professorin für Evidence-based Design Support. h-Index: 7 | Publikationen: 56 | Zitierungen: 191. Forschungstätigkeit u.a. in BA, RS, Österreich, Spanien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universitat Pompeu Fabra",
+    "herkunft_land": "Spanien",
+    "grants": []
+  },
+  "Matthias Kuba": {
+    "name": "Matthias Kuba",
+    "openalex_id": "A5055660262",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 51,
+    "cited_by_count": 1031,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "BEST - Bioenergy and Sustainable Technologies (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Luleå University of Technology",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2020,
+          2019
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Thermochemische Biomasse-Umwandlung / Synthesegas / Wirbelschichtsysteme. h-Index: 22 | Publikationen: 51 | Zitierungen: 1031. Forschungstätigkeit u.a. in Österreich, Schweden.",
+    "herkunft": "extern",
+    "herkunft_institution": "BEST – Bioenergy and Sustainable Technologies GmbH",
+    "herkunft_land": "Österreich",
     "grants": []
   }
 }

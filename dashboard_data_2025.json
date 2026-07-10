@@ -30,11 +30,11 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 1,
-   "cited_by_count": 0,
-   "h_index": 0,
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
    "last_known_institutions": [],
-   "openalex_id": "A5053235916"
+   "openalex_id": null
   }
  },
  {
@@ -115,57 +115,11 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 47,
-   "cited_by_count": 119,
-   "h_index": 4,
-   "last_known_institutions": [
-    {
-     "name": "Bauhaus-Universität Weimar",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2022
-     ],
-     "most_recent": 2022
-    },
-    {
-     "name": "Berlin University of the Arts",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2020
-     ],
-     "most_recent": 2020
-    },
-    {
-     "name": "National Institute of Arts",
-     "country": "CD",
-     "type": "education",
-     "years": [
-      2018
-     ],
-     "most_recent": 2018
-    },
-    {
-     "name": "University of British Columbia Hospital",
-     "country": "CA",
-     "type": "healthcare",
-     "years": [
-      2011
-     ],
-     "most_recent": 2011
-    },
-    {
-     "name": "University of British Columbia",
-     "country": "CA",
-     "type": "education",
-     "years": [
-      2011
-     ],
-     "most_recent": 2011
-    }
-   ],
-   "openalex_id": "A5007284172"
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
+   "last_known_institutions": [],
+   "openalex_id": null
   }
  },
  {
@@ -197,30 +151,11 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 8,
-   "cited_by_count": 12,
-   "h_index": 2,
-   "last_known_institutions": [
-    {
-     "name": "Pratt Institute",
-     "country": "US",
-     "type": "nonprofit",
-     "years": [
-      2023
-     ],
-     "most_recent": 2023
-    },
-    {
-     "name": "Rhode Island School of Design",
-     "country": "US",
-     "type": "education",
-     "years": [
-      2010
-     ],
-     "most_recent": 2010
-    }
-   ],
-   "openalex_id": "A5068320376"
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
+   "last_known_institutions": [],
+   "openalex_id": null
   }
  },
  {
@@ -246,80 +181,85 @@
   "ofos_hauptgruppe_code": "20",
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 22,
+  "publikationen": 51,
+  "zitierungen": 1031,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 377,
-   "cited_by_count": 4427,
-   "h_index": 32,
+   "works_count": 51,
+   "cited_by_count": 1031,
+   "h_index": 22,
    "last_known_institutions": [
     {
-     "name": "Universität Hamburg",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2026,
-      2025,
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "Hamburg University of Technology",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2026,
-      2025,
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "Sensor Electronics (United States)",
-     "country": "US",
+     "name": "BEST - Bioenergy and Sustainable Technologies (Austria)",
+     "country": "AT",
      "type": "company",
      "years": [
+      2026,
+      2025,
+      2024,
       2023,
-      2019
-     ],
-     "most_recent": 2023
-    },
-    {
-     "name": "Brandenburg University of Technology Cottbus-Senftenberg",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2023,
+      2022,
+      2021,
       2020,
       2019,
       2018,
-      2017
+      2017,
+      2016,
+      2015
      ],
-     "most_recent": 2023
+     "most_recent": 2026
     },
     {
-     "name": "Texas Tech University",
-     "country": "US",
+     "name": "BOKU University",
+     "country": "AT",
      "type": "education",
      "years": [
-      2021
+      2026,
+      2025
      ],
-     "most_recent": 2021
+     "most_recent": 2026
+    },
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2016
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Luleå University of Technology",
+     "country": "SE",
+     "type": "education",
+     "years": [
+      2020,
+      2019
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Vienna Biocenter",
+     "country": "AT",
+     "type": "other",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
     }
    ],
-   "openalex_id": "A5019989632"
-  }
+   "openalex_id": "A5055660262"
+  },
+  "openalex_id": "A5055660262"
  },
  {
   "name": "Sabine Seidel",
@@ -2380,12 +2320,12 @@
   "art_berufung": "§99(4)",
   "geschlecht": "M",
   "herkunft": "intern",
-  "herkunft_institution": null,
+  "herkunft_institution": "TU Wien",
   "herkunft_land": "Österreich",
   "ofos_code": "205",
   "ofos_label": "Materialwissenschaften (Oberflächentechnik)",
   "bio_text": "h-Index: 0 | Publikationen: 3 | Zitierungen: 0",
-  "werdegang": null,
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2013–2026 · Christian Doppler Laboratory for Thermoelectricity, 2017–2026 · Karlsruhe Institute of Technology (DE), 2022 · Trinity College Dublin (IE), 2022 · Montanuniversität Leoben, 2013.",
   "profil_url": "https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/professuren-an-der-tu-wien/neue-professor-innen-seit-2019/neue-professor-innen-nach-abc/r/associate-prof-dipl-ing-drtechn-helmut-riedl-tragenreif",
   "monat": "AUGUST",
   "year": 2025,
@@ -2394,17 +2334,86 @@
   "ofos_hauptgruppe_code": "20",
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Energietechnik und Thermodynamik",
-  "h_index": 0,
-  "publikationen": 3,
-  "zitierungen": 0,
+  "h_index": 28,
+  "publikationen": 124,
+  "zitierungen": 2423,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 3,
-   "cited_by_count": 0,
-   "h_index": 0,
-   "last_known_institutions": [],
-   "openalex_id": "A5137537002"
-  }
+   "works_count": 124,
+   "cited_by_count": 2423,
+   "h_index": 28,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Christian Doppler Laboratory for Thermoelectricity",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2017
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Karlsruhe Institute of Technology",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Trinity College Dublin",
+     "country": "IE",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Montanuniversität Leoben",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2013
+     ],
+     "most_recent": 2013
+    }
+   ],
+   "openalex_id": "A5034573859"
+  },
+  "openalex_id": "A5034573859",
+  "werdegang_auto": true
  },
  {
   "name": "Johannes Pistrol",
@@ -2476,13 +2485,13 @@
   "forschungsbereich": "Assoziierte Professorin für Sustainable Cementitious Composite",
   "art_berufung": "§99(4)",
   "geschlecht": "W",
-  "herkunft": "intern",
-  "herkunft_institution": null,
-  "herkunft_land": "Österreich",
+  "herkunft": "extern",
+  "herkunft_institution": "Université Claude Bernard Lyon 1",
+  "herkunft_land": "Frankreich",
   "ofos_code": "205",
   "ofos_label": "Materialwissenschaften (Baustoffe)",
   "bio_text": "h-Index: 7 | Publikationen: 26 | Zitierungen: 245",
-  "werdegang": null,
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2019–2026 · Université Claude Bernard Lyon 1 (FR), 2017–2020 · Centre National de la Recherche Scientifique (FR), 2017–2020 · Université de Lyon (FR), 2020 · Air Liquide (United Kingdom) (GB), 2020.",
   "profil_url": "https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/professuren-an-der-tu-wien/neue-professor-innen-seit-2019/neue-professor-innen-nach-abc/l/associate-prof-dr-teresa-liberto-msc-bsc",
   "monat": "AUGUST",
   "year": 2025,
@@ -2492,76 +2501,75 @@
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Verkehrswissenschaften",
   "h_index": 7,
-  "publikationen": 26,
-  "zitierungen": 245,
+  "publikationen": 28,
+  "zitierungen": 251,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 152,
-   "cited_by_count": 5810,
-   "h_index": 40,
+   "works_count": 28,
+   "cited_by_count": 251,
+   "h_index": 7,
    "last_known_institutions": [
     {
-     "name": "World Health Organization",
-     "country": "CH",
-     "type": "government",
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
      "years": [
       2026,
-      2025,
       2024,
       2023,
       2022,
-      2021,
       2020,
-      2019,
-      2018
+      2019
      ],
      "most_recent": 2026
     },
     {
-     "name": "Universitat de València",
-     "country": "ES",
+     "name": "Université Claude Bernard Lyon 1",
+     "country": "FR",
      "type": "education",
      "years": [
-      2025
+      2020,
+      2019,
+      2018,
+      2017
      ],
-     "most_recent": 2025
+     "most_recent": 2020
     },
     {
-     "name": "World Health Organization - Pakistan",
-     "country": "PK",
+     "name": "Centre National de la Recherche Scientifique",
+     "country": "FR",
      "type": "government",
      "years": [
-      2024,
-      2022,
-      2021
+      2020,
+      2019,
+      2018,
+      2017
      ],
-     "most_recent": 2024
+     "most_recent": 2020
     },
     {
-     "name": "United Nations Children's Fund",
-     "country": "US",
-     "type": "funder",
+     "name": "Université de Lyon",
+     "country": "FR",
+     "type": "education",
      "years": [
-      2016,
-      2015,
-      2014,
-      2013,
-      2012
+      2020
      ],
-     "most_recent": 2016
+     "most_recent": 2020
     },
     {
-     "name": "United Nations Children's Fund Kosovo",
-     "country": "XK",
-     "type": "other",
+     "name": "Air Liquide (United Kingdom)",
+     "country": "GB",
+     "type": "company",
      "years": [
-      2014
+      2020
      ],
-     "most_recent": 2014
+     "most_recent": 2020
     }
    ],
-   "openalex_id": "A5005247018"
-  }
+   "openalex_id": "A5065239059"
+  },
+  "openalex_id": "A5065239059",
+  "werdegang_auto": true
  },
  {
   "name": "Anna-Theresa Renner",
@@ -2662,14 +2670,14 @@
   "forschungsbereich": "Assoziierter Professor für Graph Machine Learning",
   "art_berufung": "§99(4)",
   "geschlecht": "M",
-  "herkunft": "intern",
-  "herkunft_institution": null,
-  "herkunft_land": "Österreich",
+  "herkunft": "extern",
+  "herkunft_institution": "University of Oxford",
+  "herkunft_land": "Großbritannien",
   "ofos_code": "102",
   "ofos_label": "Informatik (Maschinelles Lernen)",
   "bio_text": "h-Index: 13 | Publikationen: 74 | Zitierungen: 571",
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Oxford (GB), 2018–2025 · Science Oxford (GB), 2019 · Technische Universität Dresden (DE), 2014–2017 · University of California, Los Angeles (US), 2016 · Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences (DE), 2015.",
+  "profil_url": "https://openalex.org/A5006230226",
   "monat": "DEZEMBER",
   "year": 2025,
   "ofos_bereich_code": "1",
@@ -2677,9 +2685,9 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Computergraphik und Algorithmen",
-  "h_index": 13,
+  "h_index": 14,
   "publikationen": 74,
-  "zitierungen": 571,
+  "zitierungen": 574,
   "wwtf_programme": [
    "ICT"
   ],
@@ -2744,7 +2752,10 @@
     }
    ],
    "openalex_id": "A5006230226"
-  }
+  },
+  "openalex_id": "A5006230226",
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Maren Podewitz",
@@ -3897,8 +3908,8 @@
   "herkunft_land": "Österreich",
   "ofos_code": "103",
   "ofos_label": "Physik",
-  "bio_text": null,
-  "werdegang": null,
+  "bio_text": "Assoziierte Professorin für Physik. h-Index: 13 | Publikationen: 53 | Zitierungen: 650. Forschungstätigkeit u.a. in Österreich, Ungarn, Spanien, USA.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2008–2026 · Flatiron Health (United States) (US), 2023 · Flatiron Institute, 2023 · Instituto de Física Teórica (ES), 2020 · Max Planck Institute for Nuclear Physics (DE), 2020.",
   "profil_url": "https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/professuren-an-der-tu-wien/neue-professor-innen-seit-2019/neue-professor-innen-nach-abc/h/associate-prof-dipl-ingin-drin-techn-iva-hunger-brezinova",
   "monat": "NOVEMBER",
   "year": 2025,
@@ -3909,17 +3920,81 @@
   "fakultat_institut": "Institut für Photonik",
   "grants": [],
   "_herkunft_research": "TU Wien Profil + PhD TU Wien 2012 sub auspiciis praesidentis",
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 13,
+  "publikationen": 53,
+  "zitierungen": 650,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 53,
+   "cited_by_count": 650,
+   "h_index": 13,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2013,
+      2012,
+      2011,
+      2010,
+      2008
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Flatiron Health (United States)",
+     "country": "US",
+     "type": "company",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Flatiron Institute",
+     "country": null,
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Instituto de Física Teórica",
+     "country": "ES",
+     "type": "facility",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Max Planck Institute for Nuclear Physics",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    }
+   ],
+   "openalex_id": "A5035664973"
+  },
+  "openalex_id": "A5035664973",
+  "werdegang_auto": true
  },
  {
   "name": "Michael Schnuerch",
@@ -4003,13 +4078,13 @@
   "forschungsbereich": "Assoziierte Professorin für Evidence-based Design Support",
   "art_berufung": "§99(4)",
   "geschlecht": "W",
-  "herkunft": "intern",
-  "herkunft_institution": null,
-  "herkunft_land": "Österreich",
+  "herkunft": "extern",
+  "herkunft_institution": "Universitat Pompeu Fabra",
+  "herkunft_land": "Spanien",
   "ofos_code": "201",
   "ofos_label": "Bauingenieurwesen (Architektur)",
   "bio_text": "h-Index: 7 | Publikationen: 56 | Zitierungen: 190",
-  "werdegang": null,
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2022–2025 · Universitat Pompeu Fabra (ES), 2019–2022 · University of Belgrade (RS), 2016–2022 · Hochschule Campus Wien, 2022 · Malmö University (SE), 2020.",
   "profil_url": "https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/professuren-an-der-tu-wien/neue-professor-innen-seit-2019/neue-professor-innen-nach-abc/v/associate-prof-milica-vujovic-phd",
   "monat": "NOVEMBER",
   "year": 2025,
@@ -4020,62 +4095,71 @@
   "fakultat_institut": "Institut für Architekturwissenschaften",
   "h_index": 7,
   "publikationen": 56,
-  "zitierungen": 190,
+  "zitierungen": 191,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 15,
-   "cited_by_count": 329,
-   "h_index": 4,
+   "works_count": 56,
+   "cited_by_count": 191,
+   "h_index": 7,
    "last_known_institutions": [
     {
-     "name": "School of Planning and Architecture Delhi",
-     "country": "IN",
+     "name": "TU Wien",
+     "country": "AT",
      "type": "education",
      "years": [
-      2026
+      2025,
+      2024,
+      2023,
+      2022
      ],
-     "most_recent": 2026
+     "most_recent": 2025
     },
     {
-     "name": "University of Nis",
+     "name": "Universitat Pompeu Fabra",
+     "country": "ES",
+     "type": "education",
+     "years": [
+      2022,
+      2021,
+      2020,
+      2019
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University of Belgrade",
      "country": "RS",
      "type": "education",
      "years": [
-      2019
+      2022,
+      2018,
+      2016
      ],
-     "most_recent": 2019
+     "most_recent": 2022
     },
     {
-     "name": "University of East Sarajevo",
-     "country": "BA",
+     "name": "Hochschule Campus Wien",
+     "country": "AT",
      "type": "education",
      "years": [
-      2019,
-      2018
+      2022
      ],
-     "most_recent": 2019
+     "most_recent": 2022
     },
     {
-     "name": "Faculty of Applied Social Studies in Nova Gorica",
-     "country": "SI",
+     "name": "Malmö University",
+     "country": "SE",
      "type": "education",
      "years": [
-      2019
+      2020
      ],
-     "most_recent": 2019
-    },
-    {
-     "name": "Human Growth Foundation",
-     "country": "US",
-     "type": "nonprofit",
-     "years": [
-      2019
-     ],
-     "most_recent": 2019
+     "most_recent": 2020
     }
    ],
-   "openalex_id": "A5012133318"
-  }
+   "openalex_id": "A5075146838"
+  },
+  "openalex_id": "A5075146838",
+  "werdegang_auto": true
  },
  {
   "name": "Albert Hirtl",
@@ -7178,17 +7262,17 @@
   "fakultat_institut": null,
   "grants": [],
   "_openalex": {
-   "works_count": 1,
-   "cited_by_count": 0,
-   "h_index": 0,
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
    "last_known_institutions": [],
-   "openalex_id": "A5061685201"
+   "openalex_id": null
   },
   "_herkunft_research": "mdw Profil (jorge-sanchez-chiong.mdw.ac.at)",
   "openalex_id": "A5061685201",
-  "h_index": 0,
-  "publikationen": 1,
-  "zitierungen": 0,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
   "wwtf_programme": [],
   "profil_url_auto": true
  },
@@ -7457,36 +7541,16 @@
   "fakultat_institut": null,
   "grants": [],
   "_openalex": {
-   "works_count": 3,
-   "cited_by_count": 0,
-   "h_index": 0,
-   "last_known_institutions": [
-    {
-     "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2025,
-      2024
-     ],
-     "most_recent": 2025
-    },
-    {
-     "name": "Universitätsklinikum Erlangen",
-     "country": "DE",
-     "type": "healthcare",
-     "years": [
-      2025
-     ],
-     "most_recent": 2025
-    }
-   ],
-   "openalex_id": "A5108179836"
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
+   "last_known_institutions": [],
+   "openalex_id": null
   },
   "openalex_id": "A5108179836",
-  "h_index": 0,
-  "publikationen": 3,
-  "zitierungen": 0,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
   "wwtf_programme": [],
   "werdegang_auto": true,
   "profil_url_auto": true
@@ -7943,11 +8007,11 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": 1,
-   "cited_by_count": 0,
-   "h_index": 0,
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
    "last_known_institutions": [],
-   "openalex_id": "A5114984576"
+   "openalex_id": null
   }
  },
  {

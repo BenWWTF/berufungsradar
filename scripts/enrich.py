@@ -764,11 +764,17 @@ def stage6_openalex(data, dry=False):
         # Apply herkunft if unknown or institution missing.
         # Fail-safe: low-confidence Treffer (Namensvetter) nie mergen;
         # bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
+        # Ausnahme: 'verified' (manuell recherchierter Override) ist maßgeblich.
         hk = r.get("herkunft")
-        if r.get("match_confidence") == "low":
+        conf = r.get("match_confidence")
+        if conf == "low":
             continue
         existing = d.get("herkunft")
-        if existing in (None, "unbekannt", "—") and hk:
+        if r.get("herkunft_verified") and hk:
+            d["herkunft"] = hk
+            d["herkunft_institution"] = r.get("herkunft_institution")
+            d["herkunft_land"] = r.get("herkunft_land")
+        elif existing in (None, "unbekannt", "—") and hk:
             d["herkunft"] = hk
             d["herkunft_institution"] = r.get("herkunft_institution")
             d["herkunft_land"] = r.get("herkunft_land")

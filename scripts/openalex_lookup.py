@@ -22,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "dashboard_data_2025.json"
 OUT = ROOT / "scripts" / "openalex_research.json"
+OVERRIDES = ROOT / "scripts" / "openalex_overrides.json"
 
 UA = "Berufungsradar/1.0 (mailto:benjamin.missbach@wwtf.at)"
 MAILTO = "benjamin.missbach@wwtf.at"
@@ -83,6 +84,18 @@ def openalex_search_author(name: str) -> dict | None:
         return data.get("results", [None])[0]
     except Exception as e:
         print(f"  ! error fetching {name}: {e}", file=sys.stderr)
+        return None
+
+
+def openalex_get_author(author_id: str) -> dict | None:
+    """Fetch a specific author by ID (for verified overrides)."""
+    url = f"https://api.openalex.org/authors/{author_id}?mailto={MAILTO}"
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.loads(r.read())
+    except Exception as e:
+        print(f"  ! error fetching {author_id}: {e}", file=sys.stderr)
         return None
 
 
@@ -338,17 +351,31 @@ def match_confidence(d: dict, author: dict) -> str:
     return "low"
 
 
-def process_entry(d: dict) -> dict:
-    """Lookup one entry, return the OpenAlex-derived fields."""
+def process_entry(d: dict, overrides: dict) -> dict:
+    """Lookup one entry, return the OpenAlex-derived fields.
+
+    overrides[name] can pin a verified openalex_id (bypasses Suche +
+    Konfidenz-Gate) oder 'none' (Person hat kein Profil → Negativ-Cache).
+    """
     name = d.get("name", "")
     print(f"  → {name} ...", end=" ", flush=True)
-    author = openalex_search_author(name)
+    ov = overrides.get(name) or {}
+    conf = None
+    if ov.get("openalex_id") == "none":
+        print("override: kein Profil")
+        return {"name": name, "_openalex": "not found", "match_confidence": "verified"}
+    if ov.get("openalex_id"):
+        author = openalex_get_author(ov["openalex_id"])
+        conf = "verified"
+    else:
+        author = openalex_search_author(name)
     if not author:
         print("not found")
         # Negativ-Cache: „geprüft, nicht vorhanden" ≠ „nie geprüft"
         return {"name": name, "_openalex": "not found"}
     author_id = author.get("id", "").replace("https://openalex.org/", "")
-    conf = match_confidence(d, author)
+    if conf is None:
+        conf = match_confidence(d, author)
     # Get all works for h-index
     works = openalex_get_works(author_id)
     h = compute_h_index(works)
@@ -356,10 +383,18 @@ def process_entry(d: dict) -> dict:
     insts = extract_last_institutions(author)
     bio = build_bio_text(author, d, h)
     hk = infer_herkunft(d, author)
+    # Manuell recherchierte Herkunft im Override schlägt die Inferenz.
+    # Nur dann gilt sie als 'verified' und darf kuratierte Werte umstoßen;
+    # ein reiner ID-Pin (ohne herkunft) lässt die kuratierte Herkunft unberührt.
+    herkunft_verified = bool(ov.get("herkunft"))
+    for key in ("herkunft", "herkunft_institution", "herkunft_land"):
+        if ov.get(key):
+            hk[key] = ov[key]
     return {
         "name": name,
         "openalex_id": author_id,
         "match_confidence": conf,
+        "herkunft_verified": herkunft_verified,
         "works_count": author.get("works_count"),
         "cited_by_count": author.get("cited_by_count"),
         "h_index": h,
@@ -382,6 +417,11 @@ def main():
     with DATA.open() as f:
         data = json.load(f)
 
+    overrides = {}
+    if OVERRIDES.exists():
+        overrides = {k: v for k, v in json.loads(OVERRIDES.read_text()).items()
+                     if not k.startswith("_")}
+
     # Default: alle Einträge, die noch nie geprüft wurden (fail-safe: der
     # Cache enthält auch Negativ-Ergebnisse, daher keine Doppel-Lookups).
     # --gaps-only: nur Einträge ohne bio_text / mit unbekannter Herkunft.
@@ -394,7 +434,16 @@ def main():
                 targets.add(d["name"])
     else:
         targets = {d["name"] for d in data}
-    # Filter out already done
+    # Override-Einträge neu verarbeiten, wenn sie noch nicht als 'verified'
+    # (mit herkunft_verified-Flag) im Cache stehen — ersetzt alte
+    # low-confidence-Treffer und ergänzt fehlende Schema-Felder.
+    for name in overrides:
+        cached = results.get(name, {})
+        stale = cached.get("match_confidence") != "verified"
+        if cached.get("_openalex") != "not found" and "herkunft_verified" not in cached:
+            stale = True
+        if stale:
+            results.pop(name, None)
     todo = [n for n in targets if n not in results]
     print(f"Already cached: {len(results)}, new: {len(todo)}")
 
@@ -410,7 +459,7 @@ def main():
         if not d:
             print(f"  ! not in data: {name}")
             continue
-        result = process_entry(d)
+        result = process_entry(d, overrides)
         results[name] = result
         time.sleep(0.5)  # be polite
 
