@@ -13,8 +13,8 @@
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften (Fotografie)",
   "bio_text": "Künstlerin. Schwerpunkt analoge Fotografie. Mit 1. Jänner 2026 berufen.",
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "geb. 1985 Frankfurt am Main; Kunststudium Akademie Kraków bis 2010 → Masterstudium Akademie der bildenden Künste Wien (Martin Guttmann, Daniel Richter) bis 2017 → Universitätsassistentin Kunstuniversität Linz, Klasse Bildhauerei/Transmedialer Raum 2020–2023 → Vertretungsprofessorin Klasse Fotografie, Kunstakademie Düsseldorf 2023–2025; Vorstand der Secession Wien",
+  "profil_url": "https://www.dieangewandte.at/news_detail?news_id=1758854538598",
   "monat": "JÄNNER",
   "year": 2026,
   "berufung_effektiv": "2026-01-01",
@@ -35,7 +35,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: dieAngewandte, News 1758854538598 + Wikipedia"
  },
  {
   "name": "Jakob Schillinger",
@@ -100,8 +101,8 @@
   "ofos_code": "603",
   "ofos_label": "Philosophie",
   "bio_text": "Philosophie, Ästhetik, Psychoanalyse. Prom. Potsdam 2009, Habil. Goethe-Universität Frankfurt 2023. FU Berlin, UdK Berlin, Bard College Berlin. Ass. Prof. ZRC SAZU Ljubljana.",
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "geb. 1976; Studium Philosophie, Komparatistik und Kulturwissenschaft in Leipzig, Berlin und Paris → Promotion Universität Potsdam 2009 (Kants Kritik der Urteilskraft) → wiss. Mitarbeiter FU Berlin (SFB Ästhetische Erfahrung) und UdK Berlin → Assistant Professor ZRC SAZU Ljubljana 2018–2023 → Habilitation Goethe-Universität Frankfurt 2023 → Vertretungsprofessuren Bauhaus-Universität Weimar; Lehre Bard College Berlin",
+  "profil_url": "https://www.dieangewandte.at/news_detail?news_id=1750041738293",
   "monat": "OKTOBER",
   "year": 2025,
   "ofos_bereich_code": "6",
@@ -120,7 +121,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: dieAngewandte, News 1750041738293"
  },
  {
   "name": "Tülay Atak",
@@ -136,8 +138,8 @@
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften (Architekturtheorie)",
   "bio_text": "Architektin und Historikerin. METU Ankara, Promotion UCLA. Lehrbeauftragte an der Angewandten. Forschungsschwerpunkt Umweltgeschichte und Architektur.",
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "Architekturstudium METU Ankara → PhD UCLA („Byzantine Modern: Displacements of Modernism in Istanbul\") → Lehre an SCI-Arc, Cal Poly Pomona, Cornell, RISD, Cooper Union, RPI und Pratt Institute → Senior Scientist am Institut für Architektur der Angewandten; Ko-Herausgeberin „Pedagogical Experiments in Architecture for a Changing Climate\" (Routledge)",
+  "profil_url": "https://ioa.angewandte.at/institute/people/tulay-atak",
   "monat": "OKTOBER",
   "year": 2025,
   "ofos_bereich_code": "6",
@@ -156,7 +158,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: dieAngewandte, News 1748313739115 + IoA-Profilseite"
  },
  {
   "name": "Matthias Kuba",
@@ -7251,8 +7254,8 @@
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften (Komposition)",
   "bio_text": "Elektroakustische Komposition.",
-  "werdegang": null,
-  "profil_url": "https://openalex.org/A5061685201",
+  "werdegang": "Kompositionsstudium an der mdw bei Francis Burt, Dieter Kaufmann und Michael Jarrell; Komponist, Elektronikmusiker und Turntablist → Gastprofessur Zürcher Hochschule der Künste, Dozent bei den Internationalen Ferienkursen für Neue Musik Darmstadt und impuls Graz → seit 2022 Professor für Medienkomposition an der mdw",
+  "profil_url": "https://www.mdw.ac.at/jorge-sanchez-chiong/",
   "monat": "OKTOBER",
   "year": 2025,
   "ofos_bereich_code": "6",
@@ -7274,7 +7277,7 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "profil_url_auto": true
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite + Neue Professuren 2025"
  },
  {
   "name": "Julia Hagen",
@@ -7569,8 +7572,8 @@
   "ofos_code": "508",
   "ofos_label": "Medienwissenschaften (Musikproduktion)",
   "bio_text": null,
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "Musikproduzent, Mixing- und Mastering-Engineer, ursprünglich Schlagzeuger; betreibt eines der ersten Dolby-Atmos-zertifizierten Musikmischstudios Österreichs → Lehre an der mdw seit 2008 → stellvertretender Leiter des Instituts für Kompositionsstudien, Ton- und Musikproduktion seit 2022",
+  "profil_url": "https://www.mdw.ac.at/2049/",
   "monat": "OKTOBER",
   "year": 2025,
   "ofos_bereich_code": "5",
@@ -7590,7 +7593,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite + Neue Professuren 2025"
  },
  {
   "name": "Oscar Bianchi",
@@ -7955,8 +7959,8 @@
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften (Komposition)",
   "bio_text": null,
-  "werdegang": null,
-  "profil_url": null,
+  "werdegang": "Studium an der mdw (Klavierpädagogik, Komposition, Medienkomposition), Lied und Oratorium an der MUK Wien, Gesangspädagogik an der Joseph Haydn Privathochschule → Musikschule Hernals: Leitung der Kompositionsklasse 2013–2021, Schulleitung 2017–2021 → Joseph Haydn Konservatorium Eisenstadt 2016–2023 (Tonsatz, Musiktheorie) → Lehre Tonsatz und Gehörbildung an der mdw seit 2020 → seit Juli 2025 Leiter des Anton Bruckner Instituts",
+  "profil_url": "https://www.mdw.ac.at/abi/lehrende/wilhelm-spuller/",
   "monat": "OKTOBER",
   "year": 2025,
   "ofos_bereich_code": "6",
@@ -7976,7 +7980,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite (Anton Bruckner Institut) + Neue Professuren 2025"
  },
  {
   "name": "Susanne Brorson",
