@@ -1,0 +1,80 @@
+name: Datenbasis aktualisieren
+
+# Vier inhaltliche Läufe pro Jahr, dazu am Monatsersten ein Prüflauf.
+# Grund für den Prüflauf: GitHub schaltet Cron in öffentlichen Repos nach
+# 60 Tagen ohne Repository-Aktivität ab — zwischen Ende Februar und Ende Mai
+# liegen 92 Tage. Der Prüflauf stempelt das Datum in die README und hält
+# damit die Zeitpläne aktiv.
+on:
+  schedule:
+    - cron: "0 5 28 2 *"    # Ende Februar
+    - cron: "0 5 31 5 *"    # Ende Mai
+    - cron: "0 5 1 9 *"     # Anfang September
+    - cron: "0 5 30 11 *"   # Ende November
+    - cron: "0 5 1 * *"     # Prüflauf, nur Report und Zeitstempel
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datenbasis
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Modus bestimmen
+        id: modus
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 5 1 * *" ]; then
+            echo "vollstaendig=false" >> "$GITHUB_OUTPUT"
+            echo "label=Prueflauf" >> "$GITHUB_OUTPUT"
+          else
+            echo "vollstaendig=true" >> "$GITHUB_OUTPUT"
+            echo "label=Aktualisierung" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pipeline laufen lassen
+        if: steps.modus.outputs.vollstaendig == 'true'
+        run: bash scripts/update.sh
+
+      - name: Lueckenreport in die Zusammenfassung
+        run: |
+          {
+            echo "### ${{ steps.modus.outputs.label }} — $(date -u +%Y-%m-%d)"
+            echo '```'
+            python3 scripts/audit_gaps.py
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Zeitstempel in die README
+        run: |
+          stamp="Letzte automatische Pruefung: $(date -u +%Y-%m-%d) (${{ steps.modus.outputs.label }})"
+          if grep -q '^Letzte automatische Pruefung:' README.md; then
+            sed -i "s|^Letzte automatische Pruefung:.*|$stamp|" README.md
+          else
+            printf '\n%s\n' "$stamp" >> README.md
+          fi
+
+      - name: Aenderungen committen
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Keine Aenderungen." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Datenbasis: ${{ steps.modus.outputs.label }} $(date -u +%Y-%m-%d)"
+          git push
+          {
+            echo "Committet:"
+            echo '```'
+            git show --stat --oneline HEAD | head -20
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

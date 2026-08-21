@@ -4,6 +4,24 @@ Interaktives Dashboard zur Visualisierung von Professorinnen- und Professorenber
 
 **Live:** https://benwwtf.github.io/berufungsradar
 
+## Automatisierung
+
+Die Datenbasis wird per GitHub Action (`.github/workflows/datenbasis.yml`) aktualisiert:
+Ende Februar, Ende Mai, Anfang September und Ende November, jeweils 05:00 UTC.
+Der Lauf startet `scripts/update.sh` (OpenAlex-Anreicherung, Lücken füllen, HTML-Build)
+und committet nur, wenn sich etwas geändert hat. Der Lückenreport steht in der
+Zusammenfassung des jeweiligen Runs.
+
+Am Monatsersten läuft zusätzlich ein Prüflauf, der nur den Report schreibt und das
+Datum unten stempelt. Er hält die Zeitpläne aktiv, weil GitHub Cron in öffentlichen
+Repos nach 60 Tagen ohne Aktivität abschaltet und zwischen den Quartalsterminen bis
+zu 92 Tage liegen.
+
+Wichtig: der Lauf frischt die Anreicherung auf, er findet keine neuen Berufungen.
+Neue Jahrgänge brauchen einen eigenen Scrape- und Recherchedurchgang.
+
+Letzte automatische Pruefung: noch keine
+
 ## Datenstand (Juni 2026)
 
 | Universität | Einträge | Status |

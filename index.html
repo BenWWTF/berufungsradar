@@ -798,7 +798,7 @@
             Suchzeitraum: Berufungsjahr 2025 (1.&nbsp;Jänner&nbsp;–&nbsp;31.&nbsp;Dezember&nbsp;2025)
           </div>
           <div class="subtitle" id="header-subtitle">
-            9 Wiener Universitäten · Datenstand Juni 2026
+            <span id="header-stand">9 Wiener Universitäten · Datenstand Juni 2026</span>
           </div>
         </div>
         <div class="header-badge" id="header-badge">
@@ -1208,7 +1208,7 @@
         style="color: var(--accent)"
         >Rohdaten (JSON, CC-BY 4.0)</a
       >
-      · Datenstand: Juni 2026
+      · Datenstand: <span id="footer-stand">Juni 2026</span>
     </footer>
 
     <!-- ══════════════════════════════════════════════════════
@@ -4129,6 +4129,8 @@ const DATA = [
       }
 ];
 
+const DATENSTAND = "August 2026";
+
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 const YEAR_COLORS = ["#0055A4", "#D97706", "#059669", "#7C3AED", "#DC2626", "#0891B2"];
@@ -5088,6 +5090,9 @@ function setAllYears() {
 
 // ─── INIT ────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('header-stand').textContent =
+    `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
+  document.getElementById('footer-stand').textContent = DATENSTAND;
   document.getElementById('header-period').textContent =
     YEARS.length > 1
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`

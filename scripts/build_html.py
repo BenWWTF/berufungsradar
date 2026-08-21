@@ -12,7 +12,13 @@ Generates:
 
 import json
 import re
+from datetime import date
 from pathlib import Path
+
+MONATE_DE = ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli",
+             "August", "September", "Oktober", "November", "Dezember"]
+HEUTE = date.today()
+DATENSTAND = f"{MONATE_DE[HEUTE.month - 1]} {HEUTE.year}"
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "dashboard_data_2025.json"
@@ -105,6 +111,8 @@ const OFOS_BEREICH = {
 const DATA = [
 __DATA__
 ];
+
+const DATENSTAND = "__STAND__";
 
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
@@ -1065,6 +1073,9 @@ function setAllYears() {
 
 // ─── INIT ────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('header-stand').textContent =
+    `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
+  document.getElementById('footer-stand').textContent = DATENSTAND;
   document.getElementById('header-period').textContent =
     YEARS.length > 1
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`
@@ -1075,7 +1086,7 @@ document.addEventListener('DOMContentLoaded', () => {
 """
 
 # Replace placeholder
-NEW_SCRIPT_FINAL = NEW_SCRIPT.replace("__DATA__", data_js)
+NEW_SCRIPT_FINAL = NEW_SCRIPT.replace("__DATA__", data_js).replace("__STAND__", DATENSTAND)
 
 # ─────────────────────────────────────────────────────────────────
 # 4. Read current HTML and replace script + data
