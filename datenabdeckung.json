@@ -92,13 +92,29 @@
    "vollstaendig": [
     2025
    ],
-   "quelle": "Kuratierung aus der Berufungsverfahren-Liste"
+   "teilweise": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "quelle": "News-Meldungen der Akademie, von Hand erfasst; das Mitteilungsblatt enthält nur Ausschreibungen und Hearings"
   },
   "Vetmeduni Wien": {
    "vollstaendig": [
     2025
    ],
-   "quelle": "Kuratierung aus dem Mitteilungsblatt"
+   "teilweise": [
+    2014,
+    2016,
+    2017,
+    2018,
+    2022,
+    2023,
+    2024
+   ],
+   "quelle": "Presseinformationen, von Hand erfasst; 2019–2021 und 2015 keine auffindbaren Meldungen"
   }
  }
 }

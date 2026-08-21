@@ -106,7 +106,9 @@ STICHWORT = [
     # Agrar und Veterinär
     (r"agrar|agricultur|pflanzenbau|crop|bodenkunde|soil|forst|forest|waldbau|"
      r"gartenbau|nutztier|animal science|landwirtschaft", "401"),
-    (r"veterinär|veterinary|tiermedizin|tierschutz|tierhaltung|animal welfare", "403"),
+    (r"veterinär|veterinary|tiermedizin|tierschutz|tierhaltung|animal welfare|"
+     r"labortierpathologie|fischgesundheit|schweinemedizin|wiederkäuer|"
+     r"kleintier|pferde|bestandsbetreuung|nutztier", "403"),
     # Sozialwissenschaften
     (r"psycholog", "501"),
     (r"bildungsforschung|lehrerinnenbildung|lehrer\*innenbildung|hochschulforschung|"
@@ -123,7 +125,7 @@ STICHWORT = [
     (r"recht|law|jurisprudenz|kriminolog|criminolog|öffentliches recht|public law|"
      r"privatrecht|strafrecht|völkerrecht", "505"),
     (r"politikwissenschaft|political science|internationale beziehungen|governance|"
-     r"politische ökonomie|political economy", "506"),
+     r"politische ökonomie|political economy|internationale politik|government\b", "506"),
     (r"wirtschaftskommunikation|business communication|unternehmenskommunikation|"
      r"organisationskommunikation", "509"),
     (r"raumplanung|spatial planning|regionalplanung|regional development|"
