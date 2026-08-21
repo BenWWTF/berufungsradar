@@ -117,11 +117,15 @@ STICHWORT = [
      r"marketing|finanz|finance|accounting|rechnungswesen|controlling|"
      r"wirtschaftsinformatik|operations research", "502"),
     (r"bildungswissenschaft|erziehungswissenschaft|pädagogik|education|didaktik", "503"),
+    (r"sozioökonomie|socioeconomic|sozialökonom", "502"),
     (r"soziolog|sociolog|sozialarbeit|social work|demograph|demografie|"
      r"sozialstrukturforschung|sozialpolitik|ungleichheitsforschung", "504"),
     (r"recht|law|jurisprudenz|kriminolog|criminolog|öffentliches recht|public law|"
      r"privatrecht|strafrecht|völkerrecht", "505"),
-    (r"politikwissenschaft|political science|internationale beziehungen|governance", "506"),
+    (r"politikwissenschaft|political science|internationale beziehungen|governance|"
+     r"politische ökonomie|political economy", "506"),
+    (r"wirtschaftskommunikation|business communication|unternehmenskommunikation|"
+     r"organisationskommunikation", "509"),
     (r"raumplanung|spatial planning|regionalplanung|regional development|"
      r"stadtplanung|urban planning|geograph|spatial sociolog", "507"),
     (r"kommunikationswissenschaft|medienwissenschaft|media studies|journalis|"
