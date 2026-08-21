@@ -675,18 +675,6 @@
       }
 
       /* ── WWTF-Perspektive ─────────────────────────────────── */
-      .wwtf-intro {
-        background: var(--primary);
-        color: var(--white);
-        border-radius: var(--radius);
-        padding: 22px 26px;
-        margin-bottom: 24px;
-        font-size: 0.9rem;
-        line-height: 1.6;
-      }
-      .wwtf-intro strong {
-        color: #9dc3e6;
-      }
       .prog-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -1038,17 +1026,6 @@
 
       <!-- ══ TAB: WWTF-PERSPEKTIVE ═════════════════════════════ -->
       <section id="tab-wwtf" class="tab-panel">
-        <div class="wwtf-intro">
-          Neu berufene Professor:innen bauen in den kommenden Jahren
-          Arbeitsgruppen in Wien auf — sie sind
-          <strong>potenzielle Antragsteller:innen</strong> in
-          WWTF-Ausschreibungen, <strong>Kooperationspartner:innen</strong> für
-          Vienna Research Groups und Kandidat:innen für
-          <strong>Jury- und Begutachtungstätigkeiten</strong>. Diese Ansicht
-          ordnet die Berufungen <span id="wwtf-intro-year">2025</span> den thematischen
-            WWTF-Programmfeldern zu.
-        </div>
-
         <!-- WWTF KPIs -->
         <div id="kpi-row">
           <div class="kpi-card">
@@ -4857,7 +4834,6 @@ function median(arr) {
 function initWWTF(rows) {
   const inProg = rows.filter(d => (d.wwtf_programme || []).length > 0);
   const gesamt = Math.max(1, rows.length);
-  document.getElementById('wwtf-intro-year').textContent = yearLabel();
   document.getElementById('wwtf-prog-title').textContent =
     `Berufungen ${yearLabel()} nach WWTF-Programmfeld`;
   const extern = inProg.filter(d => d.herkunft === 'extern');

@@ -811,7 +811,6 @@ function median(arr) {
 function initWWTF(rows) {
   const inProg = rows.filter(d => (d.wwtf_programme || []).length > 0);
   const gesamt = Math.max(1, rows.length);
-  document.getElementById('wwtf-intro-year').textContent = yearLabel();
   document.getElementById('wwtf-prog-title').textContent =
     `Berufungen ${yearLabel()} nach WWTF-Programmfeld`;
   const extern = inProg.filter(d => d.herkunft === 'extern');
