@@ -60,6 +60,10 @@ STICHWORT = [
      r"psychiatr|dermatolog|urolog|orthopäd|orthoped|gynäkolog|gynecolog|"
      r"anästhes|anesthes|pädiatr|pediatr|intensivmedizin|innere medizin|"
      r"klinische|clinical med|zahnmedizin|dental", "302"),
+    (r"krebsgenomik|krebsforschung|onkogenomik|tumorbiolog|infektiolog|"
+     r"infektionsbiolog|virolog|bakteriolog|parasitolog", "301"),
+    (r"bildgebende diagnostik|radiologische diagnostik|computational medicine|"
+     r"medizininformatik|medical informatics", "206"),
     (r"physiolog|anatomie|anatomy|pathophysiolog|immunolog|pharmakolog|pharmacolog|"
      r"molekulare medizin|molecular medicine|grundlagenmedizin", "301"),
     (r"public health|epidemiolog|pflegewissenschaft|nursing|gesundheitswissenschaft|"
@@ -80,7 +84,8 @@ STICHWORT = [
      r"synthese|synthetic chem|analytik|spektroskop", "104"),
     (r"geolog|geophysik|geophysic|geodäs|geodes|geoinformation|kartograph|"
      r"meteorolog|klimatolog|hydrolog", "105"),
-    (r"biolog|biology|botanik|botany|zoolog|mikrobiolog|microbiolog|genetik|genetic|"
+    (r"fakultät für lebenswissenschaften|life sciences\b|"
+     r"biolog|biology|botanik|botany|zoolog|mikrobiolog|microbiolog|genetik|genetic|"
      r"ökolog|ecolog|evolution|biochem|molecular biolog|neurowissenschaft|neuroscience", "106"),
     # Technik
     (r"ingenieurwissenschaften \(bauwesen\)|bauwesen|"
@@ -124,6 +129,10 @@ STICHWORT = [
      r"sozialstrukturforschung|sozialpolitik|ungleichheitsforschung", "504"),
     (r"recht|law|jurisprudenz|kriminolog|criminolog|öffentliches recht|public law|"
      r"privatrecht|strafrecht|völkerrecht", "505"),
+    (r"politische theorie|politikfeldanalyse|parteien- und wahlforschung|"
+     r"wahlforschung|policy analysis", "506"),
+    (r"stadtforschung|urban studies|stadtsoziologie", "507"),
+    (r"konservierung|restaurierung|conservation science", "604"),
     (r"politikwissenschaft|political science|internationale beziehungen|governance|"
      r"politische ökonomie|political economy|internationale politik|government\b", "506"),
     (r"wirtschaftskommunikation|business communication|unternehmenskommunikation|"
