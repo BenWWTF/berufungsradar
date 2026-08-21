@@ -3049,7 +3049,9 @@
    "ICT",
    "DH"
   ],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "vrg_id": "VRG18-013",
+  "vrg_call": 2018
  },
  {
   "name": "Thomas Sheppard",

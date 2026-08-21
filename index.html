@@ -136,6 +136,64 @@
         white-space: nowrap;
       }
 
+      /* ── VRG ──────────────────────────────────────────────── */
+      .badge-vrg {
+        background: #003366;
+        color: #fff;
+      }
+      .vrg-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.82rem;
+      }
+      .vrg-table th {
+        text-align: left;
+        font-weight: 600;
+        color: var(--muted);
+        text-transform: uppercase;
+        font-size: 0.68rem;
+        letter-spacing: 0.4px;
+        padding: 6px 10px 6px 0;
+        border-bottom: 1px solid var(--border);
+        white-space: nowrap;
+      }
+      .vrg-table td {
+        padding: 7px 10px 7px 0;
+        border-bottom: 1px solid #eef2f7;
+        vertical-align: top;
+      }
+      .vrg-table tr.vrg-berufen {
+        background: #f2f8ff;
+      }
+      .vrg-table a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .vrg-table a:hover {
+        text-decoration: underline;
+      }
+      .vrg-feld {
+        color: var(--muted);
+        max-width: 260px;
+      }
+      .vrg-offen {
+        color: var(--muted);
+      }
+      .vrg-link {
+        font: inherit;
+        color: var(--primary);
+        font-weight: 600;
+        background: none;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        text-align: left;
+      }
+      .vrg-link:hover {
+        text-decoration: underline;
+      }
+
       /* ── Jahresauswahl ────────────────────────────────────── */
       #year-bar {
         background: var(--white);
@@ -1079,6 +1137,12 @@
           Aussage über tatsächliche Antragsberechtigung oder Passung zu einer
           konkreten Ausschreibung. Details: <code>scripts/wwtf_enrich.py</code>.
         </p>
+        <div class="chart-card">
+          <h3>VRG-Pipeline: von der Vienna Research Group zur Professur</h3>
+          <p id="vrg-summary" style="font-size: 0.86rem; margin-bottom: 6px"></p>
+          <p id="vrg-hinweis" style="font-size: 0.76rem; color: var(--muted); margin-bottom: 14px"></p>
+          <div id="vrg-tabelle" style="overflow-x: auto"></div>
+        </div>
       </section>
 
       <!-- ══ TAB: MOBILITÄT ════════════════════════════════════ -->
@@ -1153,6 +1217,11 @@
           </select>
           <select id="filter-land" onchange="applyFilters()">
             <option value="">Herkunftsland (alle)</option>
+          </select>
+          <select id="filter-vrg" onchange="applyFilters()">
+            <option value="">WWTF-Förderung (alle)</option>
+            <option value="ja">nur VRG-Grantees</option>
+            <option value="nein">ohne VRG-Förderung</option>
           </select>
           <select id="filter-wwtf" onchange="applyFilters()">
             <option value="">WWTF-Programmfeld (alle)</option>
@@ -2271,7 +2340,9 @@ const DATA = [
         publikationen: 133,
         zitierungen: 946,
         wwtf_programme: ["ICT", "DH"],
-        werdegang_auto: true
+        werdegang_auto: true,
+        vrg_id: "VRG18-013",
+        vrg_call: 2018
       },
       {
         name: "Thomas Sheppard",
@@ -4131,6 +4202,436 @@ const DATA = [
 
 const DATENSTAND = "August 2026";
 
+// Vienna Research Groups: eigene Population, überschneidet sich nur teils
+// mit den Berufungen. Deshalb eigene Liste statt nur eines Häkchens.
+const VRG = [
+ {
+  "id": "VRG10-001",
+  "call_jahr": 2010,
+  "call_thema": "Life Sciences",
+  "name": "Claudine Kraft",
+  "gast": "Uni Wien",
+  "titel": "Molecular regulation of autophagy",
+  "status": "Abgeschlossen",
+  "summe_eur": 1500000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG10-001/",
+  "berufung": null
+ },
+ {
+  "id": "VRG10-006",
+  "call_jahr": 2010,
+  "call_thema": "Life Sciences",
+  "name": "Jürgen Kleine-Vehn",
+  "gast": "BOKU",
+  "titel": "Plant Molecular and Cell Biology",
+  "status": "Abgeschlossen",
+  "summe_eur": 1499700,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG10-006/",
+  "berufung": null
+ },
+ {
+  "id": "VRG10-011",
+  "call_jahr": 2010,
+  "call_thema": "Life Sciences",
+  "name": "Alipasha Vaziri",
+  "gast": "Uni Wien",
+  "titel": "Multi-scale Understanding of Biological Function",
+  "status": "Abgeschlossen",
+  "summe_eur": 1499900,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG10-011/",
+  "berufung": null
+ },
+ {
+  "id": "VRG11-005",
+  "call_jahr": 2011,
+  "call_thema": "Information and Communication Technology",
+  "name": "Georg Weissenbacher",
+  "gast": "TU Wien",
+  "titel": "Heisenbugs: From Detection to Explanation",
+  "status": "Abgeschlossen",
+  "summe_eur": 1500000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG11-005/",
+  "berufung": null
+ },
+ {
+  "id": "VRG11-010",
+  "call_jahr": 2011,
+  "call_thema": "Information and Communication Technology",
+  "name": "Ivan Viola",
+  "gast": "TU Wien",
+  "titel": "Visual Computing: Illustrative Visualization",
+  "status": "Abgeschlossen",
+  "summe_eur": 1500000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG11-010/",
+  "berufung": null
+ },
+ {
+  "id": "VRG12-004",
+  "call_jahr": 2012,
+  "call_thema": "Mathematics",
+  "name": "Stefan Hetzl",
+  "gast": "TU Wien",
+  "titel": "Structure and Expressivity: The Mathematical Foundations of Inductive Reasoning",
+  "status": "Abgeschlossen",
+  "summe_eur": 1495650,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG12-004/",
+  "berufung": null
+ },
+ {
+  "id": "VRG12-009",
+  "call_jahr": 2012,
+  "call_thema": "Mathematics",
+  "name": "Martin Ehler",
+  "gast": "Uni Wien",
+  "titel": "Computational harmonic analysis of high-dimensional biomedical data",
+  "status": "Abgeschlossen",
+  "summe_eur": 1499800,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG12-009/",
+  "berufung": null
+ },
+ {
+  "id": "VRG13-007",
+  "call_jahr": 2013,
+  "call_thema": "Cognitive Sciences",
+  "name": "Christoph Eisenegger",
+  "gast": "Uni Wien",
+  "titel": "The neurobiology of beliefs in dynamic social interaction",
+  "status": "Abgeschlossen",
+  "summe_eur": 1499466,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG13-007/",
+  "berufung": null
+ },
+ {
+  "id": "VRG14-001",
+  "call_jahr": 2014,
+  "call_thema": "Life Sciences",
+  "name": "Christopher Campbell",
+  "gast": "Uni Wien",
+  "titel": "Chromosome Biology",
+  "status": "Abgeschlossen",
+  "summe_eur": 1599000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG14-001/",
+  "berufung": null
+ },
+ {
+  "id": "VRG14-006",
+  "call_jahr": 2014,
+  "call_thema": "Life Sciences",
+  "name": "Martin Leeb",
+  "gast": "Uni Wien",
+  "titel": "Stem Cell Biology",
+  "status": "Abgeschlossen",
+  "summe_eur": 1600000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG14-006/",
+  "berufung": null
+ },
+ {
+  "id": "VRG14-021",
+  "call_jahr": 2014,
+  "call_thema": "Life Sciences",
+  "name": "Jillian Petersen",
+  "gast": "Uni Wien",
+  "titel": "Understanding molecular host-microbe interactions in nature: Lucinid clams and their chemosynthetic symbionts",
+  "status": "Abgeschlossen",
+  "summe_eur": 1600000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG14-021/",
+  "berufung": null
+ },
+ {
+  "id": "VRG15-005",
+  "call_jahr": 2015,
+  "call_thema": "Computational Biosciences",
+  "name": "Jörg Menche",
+  "gast": "CeMM",
+  "titel": "Network Medicine - An interactome-based approach to rare diseases",
+  "status": "Abgeschlossen",
+  "summe_eur": 1598300,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG15-005/",
+  "berufung": null
+ },
+ {
+  "id": "VRG15-007",
+  "call_jahr": 2015,
+  "call_thema": "Computational Biosciences",
+  "name": "Maria Filipa Baltazar de Lima de Sousa",
+  "gast": "Uni Wien",
+  "titel": "Pan-metabolic profiling of Archaea: The ecology of genomics",
+  "status": "Abgeschlossen",
+  "summe_eur": 1599600,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG15-007/",
+  "berufung": null
+ },
+ {
+  "id": "VRG16-005",
+  "call_jahr": 2016,
+  "call_thema": "Complexity Science",
+  "name": "David Garcia",
+  "gast": "MedUni Wien",
+  "titel": "Emotional Well-Being in the Digital Society",
+  "status": "Laufend",
+  "summe_eur": 1600000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG16-005/",
+  "berufung": null
+ },
+ {
+  "id": "VRG17-014",
+  "call_jahr": 2017,
+  "call_thema": "Mathematics",
+  "name": "Sara Merino Aceituno",
+  "gast": "Uni Wien",
+  "titel": "Kinetic Theory Applied to the Study of Fertility, Cancer and Development",
+  "status": "Laufend",
+  "summe_eur": 1575460,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG17-014/",
+  "berufung": null
+ },
+ {
+  "id": "VRG18-002",
+  "call_jahr": 2018,
+  "call_thema": "Information and Communication Technology",
+  "name": "Georg Fuchsbauer",
+  "gast": "TU Wien",
+  "titel": "COnFIDE - Cryptographic Foundations of Privacy in Distributed Ledgers",
+  "status": "Laufend",
+  "summe_eur": 1599280,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG18-002/",
+  "berufung": null
+ },
+ {
+  "id": "VRG18-012",
+  "call_jahr": 2018,
+  "call_thema": "Information and Communication Technology",
+  "name": "Jiehua Chen",
+  "gast": "TU Wien",
+  "titel": "Structural and Algorithmic Aspects of Preference-based Problems in Social Choice",
+  "status": "Laufend",
+  "summe_eur": 1599620,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG18-012/",
+  "berufung": null
+ },
+ {
+  "id": "VRG18-013",
+  "call_jahr": 2018,
+  "call_thema": "Information and Communication Technology",
+  "name": "Emanuel Sallinger",
+  "gast": "TU Wien",
+  "titel": "Scalable Reasoning in Knowledge Graphs",
+  "status": "Laufend",
+  "summe_eur": 1600000,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG18-013/",
+  "berufung": {
+   "jahr": 2025,
+   "monat": "FEBRUAR",
+   "universitat": "TU Wien",
+   "art": "§98"
+  }
+ },
+ {
+  "id": "VRG19-008",
+  "call_jahr": 2019,
+  "call_thema": "Interdisciplinary Data Science",
+  "name": "Benjamin Roth",
+  "gast": "Uni Wien",
+  "titel": "Knowledge-infused Deep Learning for Natural Language Processing",
+  "status": "Laufend",
+  "summe_eur": 1567440,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG19-008/",
+  "berufung": null
+ },
+ {
+  "id": "VRG19-009",
+  "call_jahr": 2019,
+  "call_thema": "Interdisciplinary Data Science",
+  "name": "Nils Kriege",
+  "gast": "Uni Wien",
+  "titel": "Algorithmic Data Science for Computational Drug Discovery",
+  "status": "Laufend",
+  "summe_eur": 1466230,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG19-009/",
+  "berufung": null
+ },
+ {
+  "id": "VRG20-001",
+  "call_jahr": 2020,
+  "call_thema": "Computational Biosciences",
+  "name": "Martin Kuhlwilm",
+  "gast": "Uni Wien",
+  "titel": "Navigating landscapes of admixture",
+  "status": "Laufend",
+  "summe_eur": 1599900,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG20-001/",
+  "berufung": null
+ },
+ {
+  "id": "VRG20-002",
+  "call_jahr": 2020,
+  "call_thema": "Computational Biosciences",
+  "name": "Sebastian Fuerthauer",
+  "gast": "TU Wien",
+  "titel": "The physics of active biological materials across scales.",
+  "status": "Laufend",
+  "summe_eur": 1599220,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG20-002/",
+  "berufung": null
+ },
+ {
+  "id": "VRG21-011",
+  "call_jahr": 2021,
+  "call_thema": "Cognitive Sciences",
+  "name": "Barbara Christina Klump",
+  "gast": "Uni Wien",
+  "titel": "The interplay between cognition and ecology in extractive foraging behaviours",
+  "status": "Laufend",
+  "summe_eur": 1599840,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG21-011/",
+  "berufung": null
+ },
+ {
+  "id": "VRG21-015",
+  "call_jahr": 2021,
+  "call_thema": "Cognitive Sciences",
+  "name": "Sarah Melzer",
+  "gast": "MedUni Wien",
+  "titel": "Neuronal and neuropeptidergic mechanisms for flexible control of learning and memory",
+  "status": "Laufend",
+  "summe_eur": 1599980,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG21-015/",
+  "berufung": null
+ },
+ {
+  "id": "VRG22-003",
+  "call_jahr": 2022,
+  "call_thema": "Environmental Systems Research",
+  "name": "Dominik Stolzenburg",
+  "gast": "TU Wien",
+  "titel": "Atmosphere Cityscape Aerosol Interactions",
+  "status": "Laufend",
+  "summe_eur": 1599920,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG22-003/",
+  "berufung": null
+ },
+ {
+  "id": "VRG22-007",
+  "call_jahr": 2022,
+  "call_thema": "Environmental Systems Research",
+  "name": "Mark Anthony",
+  "gast": "Uni Wien",
+  "titel": "Biotrophic fungal diversity & functional responses to climate change",
+  "status": "Laufend",
+  "summe_eur": 1599190,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG22-007/",
+  "berufung": null
+ },
+ {
+  "id": "VRG23-002",
+  "call_jahr": 2023,
+  "call_thema": "Information and Communication Technology",
+  "name": "Andrea Ortiz Jimenez",
+  "gast": "TU Wien",
+  "titel": "ASUCAR: Achieving SUstainable, sCAlable, and Resilient wireless networks",
+  "status": "Laufend",
+  "summe_eur": 1594493,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG23-002/",
+  "berufung": null
+ },
+ {
+  "id": "VRG23-007",
+  "call_jahr": 2023,
+  "call_thema": "Information and Communication Technology",
+  "name": "Sebastian Schuster",
+  "gast": "Uni Wien",
+  "titel": "Understanding Language in Context",
+  "status": "Laufend",
+  "summe_eur": 1599016,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG23-007/",
+  "berufung": null
+ },
+ {
+  "id": "VRG23-011",
+  "call_jahr": 2023,
+  "call_thema": "Information and Communication Technology",
+  "name": "Daniel Arp",
+  "gast": "TU Wien",
+  "titel": "Building Robust and Explainable AI-based Defenses for Computer Security (BREADS)",
+  "status": "Laufend",
+  "summe_eur": 1599235,
+  "url": "https://wwtf.at/funding/programmes/ict/VRG23-011/",
+  "berufung": null
+ },
+ {
+  "id": "VRG23-013",
+  "call_jahr": 2023,
+  "call_thema": "Information and Communication Technology",
+  "name": "Stefan Neumann",
+  "gast": "TU Wien",
+  "titel": "Towards Trustworthy Recommendation Systems for Online Social Networks",
+  "status": "Laufend",
+  "summe_eur": 1475074,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG23-013/",
+  "berufung": null
+ },
+ {
+  "id": "VRG24-002",
+  "call_jahr": 2024,
+  "call_thema": "Information and Communication Technology",
+  "name": "Adam Gosztolai",
+  "gast": "MedUni Wien",
+  "titel": "A brain-inspired generative foundation model of primate locomotion",
+  "status": "Laufend",
+  "summe_eur": 1599498,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG24-002/",
+  "berufung": null
+ },
+ {
+  "id": "VRG24-013",
+  "call_jahr": 2024,
+  "call_thema": "Information and Communication Technology",
+  "name": "Svitlana Vakulenko",
+  "gast": "WU Wien",
+  "titel": "Knowledge Representation Learning for Large Language Models",
+  "status": "Laufend",
+  "summe_eur": 1597758,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG24-013/",
+  "berufung": null
+ },
+ {
+  "id": "VRG24-018",
+  "call_jahr": 2024,
+  "call_thema": "Information and Communication Technology",
+  "name": "Guillaume Bellec",
+  "gast": "TU Wien",
+  "titel": "AI and neuroscience",
+  "status": "Laufend",
+  "summe_eur": 1598656,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG24-018/",
+  "berufung": null
+ },
+ {
+  "id": "VRG25-008",
+  "call_jahr": 2025,
+  "call_thema": "Artificial Intelligence and Machine Learning",
+  "name": "Camila Gonzalez",
+  "gast": "MedUni Wien",
+  "titel": "Bridging Clinical Guidelines with Real-time Patient Data: An AI Knowledge Graph Framework for Anesthesia and Intensive Care",
+  "status": "Laufend",
+  "summe_eur": 1515516,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG25-008/",
+  "berufung": null
+ },
+ {
+  "id": "VRG25-019",
+  "call_jahr": 2025,
+  "call_thema": "Artificial Intelligence and Machine Learning",
+  "name": "Tatjana Chavdarova",
+  "gast": "TU Wien",
+  "titel": "Multi-Player Artificial Intelligence",
+  "status": "Laufend",
+  "summe_eur": 1799610,
+  "url": "https://wwtf.at/funding/programmes/vrg/VRG25-019/",
+  "berufung": null
+ }
+];
+
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 const YEAR_COLORS = ["#0055A4", "#D97706", "#059669", "#7C3AED", "#DC2626", "#0891B2"];
@@ -4638,6 +5139,10 @@ function renderCards(data) {
       ? `<span class="badge badge-ofos" title="${bereichLabel(inferBereich(d))}">${d.ofos_label}</span>`
       : '';
 
+    const vrgBadge = d.vrg_id
+      ? `<span class="badge badge-vrg" title="Vienna Research Group ${d.vrg_id}">WWTF VRG ${d.vrg_call}</span>`
+      : '';
+
     const wwtfBadges = (d.wwtf_programme || []).map(p =>
       `<span class="badge badge-grant" title="${WWTF_PROG[p].desc}">WWTF: ${WWTF_PROG[p].label}</span>`
     ).join('');
@@ -4658,6 +5163,7 @@ function renderCards(data) {
           ${badgeArt(d.art_berufung)}
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
+          ${vrgBadge}
           ${ofosBadge}
           ${wwtfBadges}
         </div>
@@ -4684,7 +5190,8 @@ function toggleWerdegang(btn, i) {
 
 // ─── FILTER + SORT + URL-STATE ───────────────────────────
 const FILTER_IDS = ['search-input','filter-uni','filter-geschlecht','filter-herkunft',
-                    'filter-art','filter-bereich','filter-land','filter-wwtf','sort-select'];
+                    'filter-art','filter-bereich','filter-land','filter-wwtf',
+                    'filter-vrg','sort-select'];
 
 function currentFilteredData() {
   const q       = document.getElementById('search-input').value.toLowerCase();
@@ -4695,6 +5202,7 @@ function currentFilteredData() {
   const bereich = document.getElementById('filter-bereich').value;
   const land    = document.getElementById('filter-land').value;
   const wwtf    = document.getElementById('filter-wwtf').value;
+  const vrg     = document.getElementById('filter-vrg').value;
   const sort    = document.getElementById('sort-select').value;
 
   const filtered = VIEW.filter(d => {
@@ -4707,6 +5215,8 @@ function currentFilteredData() {
     if (land && d.herkunft_land !== land) return false;
     if (wwtf === 'keins') { if ((d.wwtf_programme || []).length) return false; }
     else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
+    if (vrg === 'ja' && !d.vrg_id) return false;
+    if (vrg === 'nein' && d.vrg_id) return false;
     return true;
   });
 
@@ -4899,6 +5409,8 @@ function initWWTF(rows) {
     </div>`;
   }).join('');
 
+  renderVRG();
+
   // Kernaussagen
   const uniCounts = {};
   inProg.forEach(d => { uniCounts[d.universitat] = (uniCounts[d.universitat] || 0) + 1; });
@@ -4936,6 +5448,56 @@ function jumpToUniBereich(uni, bereich) {
   document.getElementById('filter-bereich').value = String(bereich);
   switchTab('alle');
   document.getElementById('filter-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ─── VRG-PIPELINE ────────────────────────────────────────
+// Bewusst unabhängig von der Jahresauswahl: die Grantees sind eine eigene
+// Population, ihre Berufung kann in jedem Jahr liegen.
+function renderVRG() {
+  if (!VRG.length) return;
+  const berufen = VRG.filter(g => g.berufung);
+  const summe = VRG.reduce((s, g) => s + (g.summe_eur || 0), 0);
+  const jahre = VRG.map(g => g.call_jahr);
+  const dauer = berufen
+    .map(g => g.berufung.jahr - g.call_jahr)
+    .sort((a, b) => a - b);
+  const medianDauer = dauer.length
+    ? (dauer.length % 2 ? dauer[(dauer.length - 1) / 2]
+       : Math.round((dauer[dauer.length / 2 - 1] + dauer[dauer.length / 2]) / 2))
+    : null;
+  const datenJahre = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
+
+  document.getElementById('vrg-summary').innerHTML =
+    `<strong>${VRG.length} Gruppen</strong> aus den Calls ${Math.min(...jahre)}–${Math.max(...jahre)}, ` +
+    `zusammen ${(summe / 1e6).toFixed(1).replace('.', ',')} Mio € · ` +
+    `<strong>${berufen.length}</strong> davon inzwischen auf eine Professur berufen` +
+    (medianDauer != null ? ` (Median ${medianDauer} Jahre nach dem Call)` : '') + '.';
+
+  document.getElementById('vrg-hinweis').textContent =
+    `Abgeglichen wird gegen die erfassten Berufungen ${datenJahre[0]}–${datenJahre[datenJahre.length - 1]}. ` +
+    `Berufungen außerhalb dieses Zeitraums sind noch nicht in der Datenbasis, ` +
+    `"keine Berufung erfasst" heißt also nicht zwingend "nicht berufen".`;
+
+  const zeilen = VRG.slice().sort((a, b) => b.call_jahr - a.call_jahr || a.name.localeCompare(b.name, 'de'));
+  document.getElementById('vrg-tabelle').innerHTML = `
+    <table class="vrg-table">
+      <thead><tr>
+        <th>Call</th><th>Feld</th><th>VRG-Leitung</th><th>Gastinstitution</th><th>Berufung</th>
+      </tr></thead>
+      <tbody>
+        ${zeilen.map(g => `
+          <tr class="${g.berufung ? 'vrg-berufen' : ''}">
+            <td>${g.call_jahr}</td>
+            <td class="vrg-feld">${g.call_thema || '—'}</td>
+            <td><a href="${g.url}" target="_blank" rel="noopener" title="${(g.titel || '').replace(/"/g, '&quot;')}">${g.name}</a></td>
+            <td>${g.gast || '—'}</td>
+            <td>${g.berufung
+              ? `<button class="vrg-link" onclick="jumpToPerson('${g.name.replace(/'/g, "\\'")}')">` +
+                `${g.berufung.universitat}, ${g.berufung.monat.charAt(0) + g.berufung.monat.slice(1).toLowerCase()} ${g.berufung.jahr}</button>`
+              : '<span class="vrg-offen">keine erfasst</span>'}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>`;
 }
 
 function jumpToPerson(name) {

@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<title>Vienna Research Groups for Young Investigators - WWTF</title>
+		<meta property="og:title" content="Vienna Research Groups for Young Investigators - Wiener Wissenschafts-, Forschungs- und Technologiefonds">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.wwtf.at/wwtf/programme/VRG">
+		<meta property="og:description" content="Vienna Research Groups for Young Investigators">
+		<meta property="og:image" content="https://www.wwtf.at/jpeto_cache/1_header_wwtf_og.jpg">
+		<meta property="og:image:width" content="2646">
+		<meta property="og:image:height" content="833">
+		<meta name="robots" content="index, follow">
+		<meta name="generator" content="JPETo™ v7.0 http://jpeto.net">
+		<meta name="content-language" content="de">
+		<meta name="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Benjamin Missbach">
+		<meta name="description" content="Vienna Research Groups for Young Investigators Programmübersicht.">
+		<meta name="keywords" content="VRG, Vienna Research Groups, Junge Talente, Jungforscher, Jungforscher*innen, Young Investigators">
+		<link rel="alternate" hreflang="DE" href="https://wwtf.at/index.php">
+		<link rel="alternate" hreflang="EN" href="https://wwtf.at/index.php?lang=EN">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<!-- powered by JPETo™ v7.0 (c) 1999-2026 by Martin Thaller IT Dienstleistungen http://jpeto.net JPETo is a registered Trademark //-->
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="/css/dist/styles/main.css?1742303831">
+		<!-- jQuery + custom JavaScript -->
+		<script src="/js/jquery-3.5.1.min.js?1742303831"></script>
+		<script src="/jpeto/js/jquery.form.min.js?1741528510"></script>
+		<script type="text/javascript">
+		<!--
+			$(document).ready(function() {
+	            menuFunctionality();
+
+	            $(window).resize(function() {
+	                menuFunctionality();
+	            });
+
+	            $('.search-popover .close, #wwtf-search-trigger').on('click', function(e) {
+	                e.preventDefault();
+	                $('#wwtf-head .nav-item').not($(this).closest('.nav-item')).removeClass('activated');
+	                $(this).closest('.nav-item').toggleClass('activated');
+	                $('#wwtf-search-input').focus();
+	            });
+
+	            $(function () {
+	                $('[data-toggle="tooltip"]').tooltip()
+	            });
+
+	            $('.media-body ul').each(function(){
+	            	if (!$(this).hasClass('list-slash')) $(this).css('list-style-type','').addClass('list-slash');
+	            });
+
+							$('body').on('submit', '#newsletter-form', function(e){
+                e.preventDefault();
+
+                $.post('/modules/ajax_gateway.php',
+                {
+									act:'newsletter-subscribe',
+                  j_Email: $('#j_Email').val(),
+                  j_FirstName: $('#j_FirstName').val(),
+                  j_LastName: $('#j_LastName').val(),
+                  j_PrivacyOK: $('#j_PrivacyOK').val(),
+                },
+                function(response) {
+
+									if (response['status']==0) {
+
+										$('#newsletter-modal .nl-message').html("<p class='alert alert-danger'>"+response['message']+'</p>');
+
+									} else {
+
+										$('#newsletter-modal .modal-body').html("<p class='alert alert-success'>"+response['message']+'</p>');
+										$('#newsletter-modal .modal-footer').html("<button type='button' class='btn btn-primary btn-block' data-dismiss='modal' aria-label='Close'>Schließen</button>");
+									}
+                },
+                'json');
+							});
+
+							$('body').on('click','.persdet', function(){
+
+								$.get('/modules/ajax_gateway.php?act=persdet&okey='+$(this).data('key'),
+									function(response) {
+										$('#pers .modal-header').html('<div><h4 class="modal-title mb-0" id="person-modal-label">'+response['person-name']+'</h4>'+
+												'<small>'+response['person-function']+'</small></div>'+
+				                '<button type="button" class="close" data-dismiss="modal" aria-label="Close">'+
+				                	'<span aria-hidden="true">&times;</span>'+
+				                '</button>');
+
+										$('#pers .modal-body').html(response['person-body']);
+
+										$('#pers').modal('show');
+									},
+									'json'
+								);
+							});
+
+							$('#pers').on('show.bs.modal', function(){
+		            $('#pers .media-body ul').each(function(){
+		            	if (!$(this).hasClass('list-slash')) $(this).css('list-style-type','').addClass('list-slash');
+		            });
+							});
+
+							const video = document.querySelector("#video");
+
+							$('.volume').on('click', function(e){
+
+								e.preventDefault();
+								var $vid = $(this).prev().find('iframe');
+								$vid.prop('src', $vid.prop('src').replace('muted=1','muted=0').replace('autoplay=0','autoplay=1'));
+								$(this).replaceWith('<div class="no-mute"></div>');
+							})
+
+						  /* cookieconsent */
+						  $('#cookieok').on('click', function() {
+						    $.ajax({
+						      url: '/modules/ajax_gateway.php?act=hidecookiehinweis&rc=1&sc='+($('#sc').get(0).checked ? '2':'0')+'&ec='+($('#ec').get(0).checked ? '4':'0'),
+						      success: function() {
+						        $('#cookieok').addClass('button-ok').delay(2500).queue(function() {
+						          $(this).removeClass('button-ok');
+						          $(this).dequeue();
+						        });
+						        $('.cookiehinweis').slideUp();
+						        $('.modal-backdrop').remove();
+						      }
+						    })
+						  });
+
+						  $('#cookieall').on('click', function() {
+						    $('.custom-switch .custom-control-input').each(function() {
+						      $(this).trigger('click');
+						    });
+						    $('#cookieok').trigger('click');
+						  });
+
+						  $('.cookie-ext-content .custom-control-input').on('click', function() {
+						    $.ajax({
+						      url: '/modules/ajax_gateway.php?act=cookie-ext-content&ec=4',
+						      success: function() {
+						        $('.cookie-ext-content').slideUp().removeClass('d-flex');
+						        $('.hide-video').removeClass('hide-video, d-none');
+						        $('#video').attr('src', $('#video').data('src'));
+						      }
+						    })
+						  });
+
+							if ($('.cookiehinweis').length > 0) $('body').append("<div class='modal-backdrop fade show'></div>");
+
+              $('body').on('change', '.spval', function() {
+
+                $.post('/modules/ajax_gateway.php',
+                  {
+                    act: 'sval',
+                    name: $(this).prop('id'),
+                    value: $(this).val()
+                  },
+                function(result) {
+                    refreshSpendenForm();
+                });
+              });
+
+              $('#spenden-modal').on('show.bs.modal', function () {
+                refreshSpendenForm();
+              });
+
+              $('#spenden-modal').on('hidden.bs.modal', function () {
+                $.post('/modules/ajax_gateway.php',
+                {
+                  act:'closeSpendenModal'
+                },
+                function(data) {
+                  // handle response
+                });
+              });
+
+			});
+            /* login */
+            var afOptions = {
+
+                beforeSubmit:  preSubmit,
+                success:       handleResponse,
+                url:           '/modules/ajax_gateway.php',
+                dataType:      'json',
+                clearForm: true
+            };
+
+            $(document).ready(function() {
+
+              $('#login').on('show.bs.modal', function() {
+
+                $.post('/modules/ajax_gateway.php',
+                {
+                  act:'initLogin'
+                },
+                function(data) {
+
+                  $('.loginform-wrapper').html(data['form']);
+                  if (data['error']!='') $('.loginform-error').html(data['error']);
+
+                  // bind form using 'ajaxForm'
+                  $('#loginform').ajaxForm(afOptions);
+
+                  if ($('#UserID').length == 1) setTimeout(function() { $('#UserID').focus(); }, 1000);
+                  if ($('#GACode').length == 1) setTimeout(function() { $('#GACode').focus(); }, 1000);
+                },
+                'json').fail(function() {
+                  $('.loginform-wrapper').html('<div class="alert alert-danger"><div class="d-flex align-items-center"><div class="col-auto pl-0"><i class="fa-solid fa-circle-exclamation fa-3x"></i></div><div class="col-11">Der Login ist vorübergehend deaktiviert.</div></div></div>');
+                });
+              });
+
+              if(window.location.hash=='#login') {
+                if ($('#login').hasClass('modal')) $('#login').modal('toggle');
+              }
+
+						  if(window.location.hash && window.location.hash != '#login') {
+						    var hash = window.location.hash;
+						    if ($(hash).hasClass('modal')) $(hash).modal('show');
+						  }
+
+              // strip all non-numeric characters from GACode
+              $('body').on('keyup','#GACode',function(){
+              	var num = /^\d+$/;
+              	if ($(this).val().length > 0 && !num.test($(this).val())) {
+              		$(this).addClass('is-invalid').delay(600).queue(function() {
+                    $(this).removeClass('is-invalid').val($(this).val().replace(/\D/g,''));
+                    $(this).dequeue();
+                  });
+              	} else {
+              		if ($(this).val().length == 6) {
+              			$(this).addClass('is-valid');
+              			$('input[type=submit]').focus();
+              		} else {
+              			$(this).removeClass('is-valid');
+              		}
+              	}
+              });
+
+              // strip inappropriate characters from UserID
+              $('body').on('keyup','#UserID',function(){
+              	if ($(this).val().length > 0) {
+              	  if ($(this).val().indexOf(' ') >= 0 || $(this).val().indexOf(' ') >= 0 || $(this).val().indexOf('	') >= 0) {
+                		$(this).addClass('is-invalid').delay(300).queue(function() {
+                      $(this).val($(this).val().replace(/ /g,''));
+                      $(this).val($(this).val().replace(/ /g,''));
+                      $(this).removeClass('is-invalid').val($(this).val().replace('	',''));
+                      $(this).dequeue();
+                    });
+              	  }
+              	}
+              });
+
+            });
+
+            // pre-submit callback
+            function preSubmit(formData) {
+                formData.push({"name":"act","value":"login","type":"text","required":false});
+                return true;
+            }
+
+            // post-submit callback
+            function handleResponse(data)  {
+
+              if (data['form']!='') {
+
+                if (data['form']!='')  $('.loginform-wrapper').html(data['form']);
+
+                // bind form using 'ajaxForm'
+                $('#loginform').ajaxForm(afOptions);
+
+                if ($('#UserID').length == 1) setTimeout(function() { $('#UserID').focus(); }, 1000);
+                if ($('#GACode').length == 1) setTimeout(function() { $('#GACode').focus(); }, 1000);
+              }
+
+              if(data['redirectTo']!='') {
+
+                window.location.href=data['redirectTo'];
+              }
+            }
+
+			jQuery.fn.extend({
+				scrollToMe: function () {
+					var x = jQuery(this).offset().top - 100;
+					jQuery('html,body').animate({scrollTop: x}, 400);
+			}});
+
+      let navToggle = false;
+
+      function isTouchDevice() {
+        return (('ontouchstart' in window) ||
+         	(navigator.maxTouchPoints > 0) ||
+          (navigator.msMaxTouchPoints > 0));
+      }
+
+      function menuFunctionality() {
+        if($(window).width() < 1024 && isTouchDevice) {
+        	if(!navToggle) {
+          	$('#wwtf-head .hover-activated > a').on('click', function(e) {
+            	e.preventDefault();
+              $('#wwtf-head .nav-item').not($(this).parent()).removeClass('activated');
+              $(this).closest('.nav-item').toggleClass('activated');
+              navToggle = true;
+            });
+          }
+        } else {
+          $('#wwtf-head .hover-activated > a').off();
+          navToggle = false;
+        }
+      }
+
+			function inValidCharSet(str,charset) {
+
+			  var result = true;
+			  for (var i=0;i<str.length;i++)
+			  if (charset.indexOf(str.substr(i,1))<0) {
+
+			    result = false;
+			    break;
+			  }
+			  return result;
+			}
+
+			function validateDDMMYYYY(oid) {
+
+			  var val = $('#'+oid).val();
+
+			  if (val.indexOf('.') < val.lastIndexOf('.')) {
+
+			    if (val.indexOf('.')==1)     val = '0'+val;
+			    if (val.lastIndexOf('.')==4) val = val.substr(0,3)+'0'+val.substr(3);
+			    if (val.length < 9)          val = val.substr(0,6)+((val.substr(6) > 30 ? 1900:2000)+ 1.0* val.substr(6));
+
+			    $('#'+oid).val(val);
+			  }
+
+			  if (val=='' || val.length != 10 || val.charAt(2)!='.' || val.charAt(5)!='.' || !inValidCharSet(val,'.0123456789')
+			  						|| val.substr(0,2) > 31 || (val.substr(0,2) == 31 && $.inArray(val.substr(3,2), new Array('01','03','05','07','08','10','12')) == -1)
+			  						|| ((val.substr(0,2) > 29 && val.substr(3,2) == '02') || (val.substr(0,2) == '29' && val.substr(3,2) == '02' && parseInt(val.substr(6,4)/4) != val.substr(6,4)/4))
+			  						|| val.substr(3,2) > 12 || val.substr(0,2) == 0 || val.substr(3,2) == 0) {
+
+					$('#'+oid).addClass('is-invalid').val('');
+
+				} else {
+
+					$('#'+oid).removeClass('is-invalid');
+				}
+			}
+
+      function refreshSpendenForm() {
+
+        $.post('/modules/ajax_gateway.php?act=refreshSpendenForm',
+        {},
+        function(data) {
+            $('#spenden-modal').html(data);
+
+            if ($('#spende_steuer').val()==='') {
+              $('#spende_steuer').focus();
+            } else if ($('#spende_vorname').val()==='') {
+              $('#spende_vorname').focus();
+            } else if ($('#spende_nachname').val()==='') {
+              $('#spende_nachname').focus();
+            } else if ($('#spende_gebdat').val()==='') {
+              $('#spende_gebdat').focus();
+            }
+        });
+      }
+		  var _paq = window._paq = window._paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="https://piwik.brunner.at/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', '2']);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+
+		-->
+		</script>
+    	<style type="text/css">
+
+				/* source-sans-pro-regular - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: normal;
+				  font-weight: 400;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+				/* source-sans-pro-italic - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: italic;
+				  font-weight: 400;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+				/* source-sans-pro-600 - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: normal;
+				  font-weight: 600;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+				/* source-sans-pro-600italic - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: italic;
+				  font-weight: 600;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+				/* source-sans-pro-700 - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: normal;
+				  font-weight: 700;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+				/* source-sans-pro-700italic - latin-ext_latin */
+				@font-face {
+				  font-family: 'Source Sans Pro';
+				  font-style: italic;
+				  font-weight: 700;
+				  src: local(''),
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+				       url('/css/webfonts/source-sans-pro-v14-latin-ext_latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+				}
+
+				/* cookie consent */
+
+				.cookiehinweis {
+				    position: fixed;
+				    bottom: 0px;
+				    left:0;
+				    margin:0;
+				    padding:0;
+				    width:100%;
+				    z-index:1080;
+				}
+
+				.cookie-ext-content {
+				  background: linear-gradient(110deg, rgba(0,143,212,1) 28%, rgba(255,255,255,1) 54%, rgba(0,143,212,1) 80%);
+				}
+
+				.cookiehinweis p {
+				    padding: 10px 5px;
+				    text-align:center;
+				    line-height: 2em;
+				    margin:0;
+				}
+
+				.custom-control-input:checked ~ .custom-control-label::before {
+				  color: #fff;
+				  border-color: #002C50;
+				  background-color: #002C50;
+				}
+
+				.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before {
+				  background-color: rgba(0,44,80,.5);
+				}
+
+				.custom-control-input:disabled~.custom-control-label, .custom-control-input[disabled]~.custom-control-label {
+				  color: #002C50;
+				}
+
+				.volume {
+					background-image: url(/img/page/volume-mute-regular.svg); background-size: 70%; background-position: center center; background-repeat: no-repeat;
+					background-color: rgba(30,30,30,0.9);
+					border:0;
+					border-radius: 6px;
+					width: 65px;
+					height: 65px;
+					position: relative;
+					bottom: 75px;
+					left: 10px;
+					z-index: 10000;
+				}
+
+				.volume:hover {
+					background-image: url(/img/page/volume-regular.svg);
+					background-color: rgb(0,173,239);
+				}
+
+				.no-mute {
+					border:0;
+					border-radius: 6px;
+					width: 65px;
+					height: 65px;
+					position: relative;
+					bottom: 75px;
+					left: 10px;
+					z-index: 0;
+				}
+
+				.cntr {
+					font-size: 4rem;
+					line-height: 100%;
+				}
+
+				.link-icon {
+					width: 40px;
+					line-height: 40px;
+					position: relative;
+					left: -5px;
+				}
+
+				.fa-cloud-download {
+					font-size: 1.6rem;
+				}
+
+				.fa-book-open {
+					font-size: 1.6rem;
+				}
+
+				.tel {
+					color: #212121;
+				}
+
+				@media (max-width: 640px) {
+					.cntr {
+						font-size: 3rem;
+					}
+				}
+
+				@media (min-width: 772px) and (max-width: 1200px) {
+				 	.pers-fn {
+				 		min-height:2.2rem;
+				 		line-height: 125%;
+				 	}
+				}
+
+				/* Small devices (landscape phones, 576px and up)*/
+				@media (min-width: 576px) {
+				.w-sm-100 { width:100%!important; }
+				.w-sm-50 { width:50%!important; }
+				.w-sm-25 { width:25%!important;  }
+				}
+
+				/* Medium devices (tablets, 768px and up)*/
+				@media (min-width: 768px) {
+				.w-md-100 { width:100%!important; }
+				.w-md-50 { width:50%!important; }
+				.w-md-25 { width:25%!important; }
+				}
+
+				/* Large devices (desktops, 992px and up)*/
+				@media (min-width: 992px) {
+				.w-lg-100 { width:100%!important; }
+				.w-lg-50 { width:50%!important; }
+				.w-lg-25 { width:25%!important; }
+				}
+
+				/* Extra large devices (large desktops, 1200px and up)*/
+				@media (min-width: 1200px) {
+				.w-xl-100 { width:100%!important; }
+				.w-xl-50 { width:50%!important; }
+				.w-xl-25 { width:25%!important; }
+				}
+
+    	</style>
+
+	</head>
+	<body id="top">
+<header id="wwtf-head" class="d-print-none">
+	<div class="bg-secondary mb-3 d-none d-md-block">
+    <div class="container small text-right">
+        <a href='/funding/open-calls/' class='text-white ml-3 py-2'>Offene Calls</a>
+        <div class="d-inline-block py-2 ml-3 pl-3 text-white border-left"><a href="index.php?lang=DE" class="text-white font-weight-bold aria-label="Deutsch"> <span class="sr-only">(Aktive Sprache)</span> DE</a> <span class="mx-2">|</span> <a href="index.php?lang=EN" class="text-white aria-label="Englisch">EN</a></div>
+    </div>
+	</div>
+	<div class="container mb-5">
+	
+    <nav class="navbar navbar-expand-md navbar-light d-print-none">
+        <a class="navbar-brand" href="/" aria-label="Zur Startseite">
+					<picture>
+        		<source type="image/svg+xml" srcset="/img/page/wwtf-logo-web.svg">
+      			<img src="/img/page/wwtf-logo-web.png" alt="WWTF" width="160" height="60">
+			    </picture>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#wwtf-main-nav" aria-controls="wwtf-main-nav" aria-expanded="false" aria-label="Hauptnavigation öffnen">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="wwtf-main-nav">
+            <ul class="navbar-nav ml-md-auto">
+                
+			<li class='nav-item hover-activated'>
+				<a class='nav-link mr-md-3 mr-lg-4 mr-xl-5' href='/wwtf/'>WWTF</a>
+				<div class='subnav bg-light'>
+					<div>
+						<p class='display-2 font-weight-bold'><a href='/wwtf/'>WWTF</a></p>
+						<hr>
+						<div class='row'>
+							<div class='col-12 col-md-4'>
+								<ul class='list-unstyled'>
+									<li><a href='/wwtf/about-us/' class='arrow-link'><span>Über uns</span></a></li>
+									<li><a href='/wwtf/team/' class='arrow-link'><span>Team</span></a></li>
+									<li><a href='/wwtf/services-studies/' class='arrow-link'><span>WWTF GmbH: Services & Studien</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class='nav-item active hover-activated'>
+				<a class='nav-link mr-md-3 mr-lg-4 mr-xl-5' href='/funding/'>Förderung</a>
+				<div class='subnav bg-light'>
+					<div>
+						<p class='display-2 font-weight-bold'><a href='/funding/'>Förderung</a></p>
+						<hr>
+						<div class='row'>
+							<div class='col-12 col-md-4'>
+								<ul class='list-unstyled'>
+									<li><a href='/funding/our-principles/' class='arrow-link'><span>Unsere Prinzipien</span></a></li>
+									<li><a href='/funding/open-calls/' class='arrow-link'><span>Offene Calls</span></a></li>
+									<li><a href='/funding/project-database/' class='arrow-link'><span>Projektdatenbank</span></a></li>
+								</ul>
+							</div>
+							<div class='col-12 col-md-8 row'>
+								<ul class='col-12 col-md-6 list-unstyled'>
+									<li><a href='/funding/programmes/' class='arrow-link'><span>Programme</span></a></li>
+								</ul>
+								<div class='col-12'></div>
+								<ul class='col-12 col-md-6 list-unstyled'>
+									<li><a href='/funding/programmes/vrg/' style='font-weight: 400;'>Vienna Research Groups for Young Investigators <span class='sr-only'>(Aktiv)</span></a></li>
+									<li><a href='/funding/programmes/ls/' style='font-weight: 400;'>Life Sciences</a></li>
+									<li><a href='/funding/programmes/ict/' style='font-weight: 400;'>Informations- und Kommunikationstechnologien</a></li>
+									<li><a href='/funding/programmes/esr/' style='font-weight: 400;'>Umweltsystemforschung</a></li>
+								</ul>
+								<ul class='col-12 col-md-6 list-unstyled'>
+									<li><a href='/funding/programmes/ESS/' style='font-weight: 400;'>Empirical Social Sciences</a></li>
+									<li><a href='/funding/programmes/ei/' style='font-weight: 400;'>Ergänzende Instrumente</a></li>
+									<li><a href='/funding/programmes/uip/' style='font-weight: 400;'>Infrastruktur für Forschung</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class='nav-item hover-activated'>
+				<a class='nav-link mr-md-3 mr-lg-4 mr-xl-5' href='/impact-projects/'>Wirkung & Projekte</a>
+				<div class='subnav bg-light'>
+					<div>
+						<p class='display-2 font-weight-bold'><a href='/impact-projects/'>Wirkung & Projekte</a></p>
+						<hr>
+						<div class='row'>
+							<div class='col-12 col-md-4'>
+								<ul class='list-unstyled'>
+									<li><a href='/impact-projects/health-medicine-biology/' class='arrow-link'><span>Gesundheit, Medizin und Biologie</span></a></li>
+									<li><a href='/impact-projects/environment/' class='arrow-link'><span>Umwelt</span></a></li>
+									<li><a href='/impact-projects/digitalisation/' class='arrow-link'><span>Digitalisierung</span></a></li>
+									<li><a href='/impact-projects/cognition-learning-behavior/' class='arrow-link'><span>Kognition, Lernen und Verhalten</span></a></li>
+								</ul>
+							</div>
+							<div class='col-12 col-md-4'>
+								<ul class='list-unstyled'>
+									<li><a href='/impact-projects/promoting-future-leaders/' class='arrow-link'><span>Future Leaders fördern</span></a></li>
+									<li><a href='/impact-projects/from-science-to-economy/' class='arrow-link'><span>Transfer: Wissenschaft in Wirtschaft</span></a></li>
+									<li><a href='/impact-projects/research-infrastructure/' class='arrow-link'><span>Forschungsinfrastruktur</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class='nav-item hover-activated'>
+				<a class='nav-link mr-md-3 mr-lg-4 mr-xl-5' href='/fundraising/'>Spenden</a>
+				<div class='subnav bg-light'>
+					<div>
+						<p class='display-2 font-weight-bold'><a href='/fundraising/'>Spenden</a></p>
+						<hr>
+						<div class='row'>
+							<div class='col-12 col-md-4'>
+								<ul class='list-unstyled'>
+									<li><a href='/fundraising/donate/' class='arrow-link'><span>Fundraising</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class='nav-item'>
+				<a class='nav-link mr-md-3 mr-lg-4 mr-xl-5' href='/news/'>News</a>
+			</li>
+
+                <li class="nav-item mt-3 mt-md-0">
+                    <button class="btn btn-link btn-sm text-body" id="wwtf-search-trigger" aria-label="Suche öffnen"><i class="fas fa-search fa-fw mr-2 mr-md-0"></i></button>
+                    <div class="search-popover">
+                        <div class="text-white">
+                            <form action="/search/" method="GET">
+                            <button type="button" class="close mb-3" aria-label="Close">
+                                <span aria-hidden="true" class="text-white">&times;</span>
+                            </button>
+                            <div class="mb-3">
+                                <label class="sr-only" for="wwtf-search-input">Ihr Suchbegriff</label>
+                                <input
+                                        id="wwtf-search-input"
+                                        name="q"
+                                        maxlength="24"
+                                        class="form-control form-control-lg"
+                                        placeholder="Suchen Sie nach Forscher*innen, Projekten und Events"
+                                        required
+                                >
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-lg btn-dark font-weight-bold px-md-5">
+                                    <i class="fas fa-search mr-2"></i>
+                                    Suchen
+                                </button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="d-flex flex-basis-content">
+                <div class="btn-group w-100 mb-2 d-md-none flex-basis-content">
+                    
+				<a href='index.php?lang=DE' class='btn btn-lang btn-primary aria-label='Deutsch'> <span class='sr-only'>(Aktive Sprache)</span> DE</a>
+				<a href='index.php?lang=EN' class='btn btn-lang btn-outline-primary aria-label='Englisch'>EN</a>
+                </div>
+                <div class="btn-group w-100 mb-2 d-md-none ml-3">
+                  	<a href='/funding/open-calls/' class='btn btn-outline-primary'>Offene Calls</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+	</div>
+</header>
+<main class="w-100 d-block">
+		
+	<div class="container container-header-image d-none d-sm-block">
+  <div class="bg-light ratio-16x5 background-cover position-relative"  style="background-image:url(/img/upload/145361469_xxl\(2\).jpg);">
+      </div>
+</div>
+	<div class="container mb-5">
+    <div class="row">
+      <div class="col-12 mb-4">
+        
+	<nav aria-label='Breadcrumb Navigation'>
+		<ol class='breadcrumb'>
+		<li class='breadcrumb-item'><a href='/'>Home</a></li>
+		<li class='breadcrumb-item'><a href='/funding/'>Förderung</a></li>
+		<li class='breadcrumb-item'><a href='/funding/programmes/'>Programme</a></li>
+		<li class='breadcrumb-item active' aria-current='page'>Vienna Research Groups for Young Investigators <span class='sr-only'>(Aktiv)</span></li>
+		</ol></nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+				
+<article class='row'>
+	<div class='col-12'><a href="/funding/programmes/vrg/#VRG12"><strong>Vienna Research Groups for Young Investigators Call 2012 - Mathematics <i>and</i>...</strong></a> &ndash; <strong>VRG12-009</strong><h1>Computational harmonic analysis of high-dimensional biomedical data</h1><hr /></div>
+	<div class='col-sm-3 col-12 mt-2'><img class="img-fluid" src="/jpeto_cache/ehler_det.jpg" width="1001" height="1075" alt="Computational harmonic analysis of high-dimensional biomedical data" /></div>
+	<header class='col-sm-9 col-12 mt-2'>
+		<div class='row'>
+			<div class='col-md-3 col-sm-4 col-12'><em>VRG leader:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'><a href="https://homepage.univie.ac.at/martin.ehler/" target="_blank" class="ext-link">Martin Ehler</a></div>
+		</div>
+		<div class='row'>
+			<div class='col-md-3 col-sm-4 col-12'><em>Institution:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'> <a href="https://univie.ac.at/" target="_blank" class="ext-link">University of Vienna</a></div>
+		</div>
+		<div class='row mt-2'>
+			<div class='col-md-3 col-sm-4 col-12'><em>Proponent:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'><a href="http://www.univie.ac.at/" target="_blank" class="ext-link">Hans Georg Feichtinger</a></div>
+		</div>
+		<div class='row'>
+			<div class='col-md-3 col-sm-4 col-12'><em>Institution:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'>University of Vienna</div>
+		</div>
+		<div class='row mt-2'>
+			<div class='col-md-3 col-sm-4 col-12'><em>Projekttitel:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'>Computational harmonic analysis of high-dimensional biomedical data</div>
+		</div>
+		<div class='row mt-2'>
+			<div class='col-md-3 col-sm-4 col-12'><em>Status:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'>Abgeschlossen (01.09.2013 &ndash; 31.08.2023)</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-3 col-sm-4 col-12'><em>GrantID:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'>10.47379/VRG12009</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-3 col-sm-4 col-12'><em>F&ouml;rdersumme:</em></div>
+			<div class='col-md-9 col-sm-8 col-12'>&euro; 1.499.800</div>
+		</div>
+	</header>
+	<div class='clearfix'></div>
+	<div class='col-12 mt-3'><hr /></div>
+	<div class='col-12'><p>Dieses Projekt hat die angewandte harmonische Analysis vorangebracht, ein Teilgebiet der Mathematik, das Methoden zur Darstellung und Analyse komplizierter Daten und Funktionen entwickelt, oft in hohen Dimensionen. Moderne Datens&auml;tze, ob in Medizin, Akustik oder Data Science, sind oft zu gro&szlig; und komplex, um mit klassischen Verfahren bearbeitet zu werden. Das Projekt verband daher neue theoretische Entwicklungen mit anwendungsorientierter Forschung und wurde in enger Zusammenarbeit mit dem Vienna Reading Center und dem Institut f&uuml;r Schallforschung durchgef&uuml;hrt. Wir entwickelten neue Ans&auml;tze zur Dimensionsreduktion, Bildsegmentierung und Signalrekonstruktion, die die Extraktion klinisch und wissenschaftlich relevanter Merkmale aus komplexen Daten verbessern. Parallel dazu leistete das Projekt Beitr&auml;ge zur numerischen Integration, zur Approximation auf Mannigfaltigkeiten und zur modernen Zeit-Frequenz-Analyse und verkn&uuml;pfte so mathematische Grundlagen mit praktischen Fragestellungen. Ein zentrales Anwendungsfeld betraf die Ophthalmologie, wo Netzhautbilder entscheidend f&uuml;r die Diagnose weit verbreiteter Augenerkrankungen. Unsere Methoden unterst&uuml;tzen die automatische und fr&uuml;hzeitige Erkennung von Fl&uuml;ssigkeitsansammlungen in der Netzhaut und anderen Markern f&uuml;r Krankheitsverl&auml;ufe. Dies erm&ouml;glicht eine verl&auml;sslichere Patienten&uuml;berwachung und Behandlungsplanung mit klaren Vorteilen f&uuml;r die klinische Praxis. In der Akustik wurden Techniken zur Analyse und Rekonstruktion von Sprach- und Musiksignalen entwickelt. Diese Fortschritte vertiefen das Verst&auml;ndnis und er&ouml;ffnen Anwendungsm&ouml;glichkeiten etwa in H&ouml;rger&auml;ten oder Sprachassistenzsystemen. Zusammengenommen verdeutlichen die biomedizinischen und akustischen Ergebnisse die Vielseitigkeit der harmonischen Analysis und ihr Potenzial, Probleme in unterschiedlichen Bereichen zu l&ouml;sen. &Uuml;ber die wissenschaftlichen Resultate hinaus bot das Projekt interdisziplin&auml;re Ausbildungsm&ouml;glichkeiten f&uuml;r&nbsp; junge Forschende und f&ouml;rderte die Zusammenarbeit zwischen Mathematik und angewandten Wissenschaften. Durch die Verbindung von theoretischer Innovation und konkreten Anwendungen zeigte es, wie Fortschritte in der harmonischen Analysis sowohl das mathematische Wissen vertiefen als auch praktische Wirkung in Gesundheit, Technologie und Data Science entfalten k&uml;onnen.</p></div><div class='mt-3'>&nbsp;</div>
+	<div class='col-12'><em>Keywords:</em> <a href="/funding/project-database/?j_Phrase=applied+harmonic+analysis" style="color:#000;">applied harmonic analysis</a>, <a href="/funding/project-database/?j_Phrase=time-frequency+analysis" style="color:#000;">time-frequency analysis</a>, <a href="/funding/project-database/?j_Phrase=frames" style="color:#000;">frames</a>, <a href="/funding/project-database/?j_Phrase=sparsity" style="color:#000;">sparsity</a>, <a href="/funding/project-database/?j_Phrase=dimension+reduction" style="color:#000;">dimension reduction</a>, <a href="/funding/project-database/?j_Phrase=wavelets" style="color:#000;">wavelets</a>, <a href="/funding/project-database/?j_Phrase=shearlets" style="color:#000;">shearlets</a></div><div class='mt-3'>&nbsp;</div>
+	<footer class='col-12 mt-2'><a href='/funding/programmes/vrg/VRG12-009/pdf/' target='_blank' class='pdfico'>als PDF öffnen</a>
+	</footer>
+	<div class='clearfix'></div>
+	<div class='col-12'><hr /></div></article>
+        <div class="row">
+            <div class="col-12">
+					<div class="scroll-to-top">
+					    <hr class="border-dark mt-5">
+					    <div><a href="#wwtf-head" rel="noreferrer noopener"><span class="sr-only">Nach oben Scrollen</span> <i class="fas fa-caret-up fa-2x"></i></a></div>
+					</div>
+            </div>
+        </div>
+
+			</div>
+		</div>
+	</div>
+
+</main>
+<footer id="wwtf-footer" class="d-block w-100 bg-primary text-white mt-5 pb-4 pb-lg-5 d-print-none">
+    <div class="container">
+        <div class="row mb-3 mb-md-5 pt-3 p-lg-0">
+            <div class="col-12 mb-lg-4 mb-xl-5 d-none d-md-block">
+                <span class="footer-bar bar-vert d-none d-lg-inline-block"></span>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-left">
+                <img src="/img/page/logo-footer-de.svg" alt="WWTF">
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-right mt-4 mt-md-0">
+                <!-- todo: if no modal required, remove data attributes and modal starting at line 92 -->
+                <a href="#" rel="nofollow" data-toggle="modal" data-target="#newsletter-modal-dm" class="display-2 text-white font-italic" style="font-size: 2.1rem;">Newsletter</a>
+                <span class="footer-bar bar-hor ml-3 d-none d-lg-inline-block"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-1 social text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                <!-- a href="#" target="_blank" rel="noopener" class="text-white d-lg-block mr-3 mr-lg-0"><i class="fab fa-facebook-square"></i><span class="sr-only">Facebook in neuem Fenster öffnen</span></a -->
+                <a href="https://www.linkedin.com/company/vienna-science-and-technology-fund-wwtf" target="_blank" rel="noopener" class="text-white d-lg-block mr-3 mr-lg-0"><i class="fab fa-linkedin"></i><span class="sr-only">Linkedin in neuem Fenster öffnen</span></a>
+                <a href="https://vimeo.com/user21995880" target="_blank" rel="noopener" class="text-white d-lg-block mr-3 mr-lg-0"><i class="fab fa-vimeo"></i><span class="sr-only">Vimeo in neuem Fenster öffnen</span></a>
+            </div>
+
+
+				<div class='col-12 col-md-2 col-xl-3'>
+					<a href='/wwtf/' class='text-white'><span class='display-4 font-weight-bold d-block mb-2 mb-md-4 mt-3 mt-md-0'>WWTF</span></a>
+					<ul class='list-unstyled'>
+						<li><a href='/wwtf/about-us/' class='text-white font-weight-bold'>Über uns</a></li>
+						<li><a href='/wwtf/team/' class='text-white font-weight-bold'>Team</a></li>
+						<li><a href='/wwtf/services-studies/' class='text-white font-weight-bold'>WWTF GmbH: Services & Studien</a></li>
+					</ul>
+				</div>
+				<div class='col-12 col-md-3'>
+					<a href='/funding/' class='text-white'><span class='display-4 font-weight-bold d-block mb-2 mb-md-4 mt-3 mt-md-0'>Förderung</span></a>
+					<ul class='list-unstyled'>
+						<li><a href='/funding/our-principles/' class='text-white font-weight-bold'>Unsere Prinzipien</a></li>
+						<li><a href='/funding/open-calls/' class='text-white font-weight-bold'>Offene Calls</a></li>
+						<li><a href='/funding/project-database/' class='text-white font-weight-bold'>Projektdatenbank</a></li>
+						<li><a href='/funding/programmes/' class='text-white font-weight-bold'>Programme</a></li>
+					</ul>
+				</div>
+				<div class='col-12 col-md-4 col-xl-3'>
+					<a href='/impact-projects/' class='text-white'><span class='display-4 font-weight-bold d-block mb-2 mb-md-4 mt-3 mt-md-0'>Wirkung & Projekte</span></a>
+					<ul class='list-unstyled'>
+						<li><a href='/impact-projects/health-medicine-biology/' class='text-white font-weight-bold'>Gesundheit, Medizin und Biologie</a></li>
+						<li><a href='/impact-projects/environment/' class='text-white font-weight-bold'>Umwelt</a></li>
+						<li><a href='/impact-projects/digitalisation/' class='text-white font-weight-bold'>Digitalisierung</a></li>
+						<li><a href='/impact-projects/cognition-learning-behavior/' class='text-white font-weight-bold'>Kognition, Lernen und Verhalten</a></li>
+						<li><a href='/impact-projects/promoting-future-leaders/' class='text-white font-weight-bold'>Future Leaders fördern</a></li>
+						<li><a href='/impact-projects/from-science-to-economy/' class='text-white font-weight-bold'>Transfer: Wissenschaft in Wirtschaft</a></li>
+						<li><a href='/impact-projects/research-infrastructure/' class='text-white font-weight-bold'>Forschungsinfrastruktur</a></li>
+					</ul>
+				</div>
+				<div class='col-12 col-md'>
+					<a href='/fundraising/' class='text-white'><span class='display-4 font-weight-bold d-block mb-2 mb-md-4 mt-3 mt-md-0'>Spenden</span></a>
+					<ul class='list-unstyled'>
+						<li><a href='/fundraising/donate/' class='text-white font-weight-bold'>Fundraising</a></li>
+						<li class='mt-4'><a href='/news/' class='text-white font-weight-bold'>News</a></li>
+						<li class='pt-2'><a class='text-white font-weight-bold' data-toggle='modal' role='button' aria-expanded='false' aria-controls='login' href='#login' aria-label='Anmelden' title='login'>Intranet</a></li>
+					</ul>
+				</div>
+
+        </div>
+        <div class="row mt-xl-5 text-center text-lg-left">
+            <div class="col-12 offset-lg-1 col-lg-11">
+                <hr class="border-light">
+            </div>
+            <div class="col-12 offset-lg-1 col-lg-8 col-xl-9 mb-3 mb-lg-0">
+              	<a href="/upload/wwtf_forderrichtlinie_08112021_final(1).pdf" target="_blank" class="text-white mr-lg-4 mr-xl-5">Förderrichtlinie</a>
+                <span class="mx-1 mx-md-3 d-inline-block d-lg-none">·</span>
+                <a href="#" rel="nofollow" data-toggle="modal" data-target="#funding-modal" target="_blank" class="text-white mr-lg-4 mr-xl-5">Funding Portal</a>
+                <span class="mx-1 mx-md-3 d-inline-block d-lg-none">·</span>
+                <a href="/funding/our-principles/transparency/" target="_blank" class="text-white mr-lg-4 mr-xl-5">Evaluierungen</a>
+                <span class="mx-1 mx-md-3 d-inline-block d-lg-none">·</span>
+                <a href='/funding/our-principles/downloads/' class='text-white mr-lg-4 mr-xl-5'>Downloads</a>
+                <span class="mx-1 mx-md-3 d-inline-block d-lg-none">·</span>
+                <a href='/wwtf/team/' class='text-white mr-lg-4 mr-xl-5'>Kontakt</a>
+                <span class="mx-1 mx-md-3 d-inline-block d-lg-none">·</span>
+                <a href='/imprint/' class='text-white mr-lg-4 mr-xl-5'>Impressum</a>
+            </div>
+            <div class="col-12 col-lg-3 col-xl-2">
+                <span class="d-lg-block">Schlickgasse 3/12 </span>
+                <span class="mx-1 d-inline-block d-lg-none">·</span>
+                <span class="d-lg-block">1090 Wien</span>
+                <span class="mx-1 d-inline-block d-lg-none">·</span>
+                <span class="d-lg-block"><a href="mailto:office@wwtf.at" class="text-white">office@wwtf.at</a> </span> <!-- todo: use some obfuscator -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="newsletter-modal" tabindex="-1" role="dialog" aria-labelledby="newsletter-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form id="newsletter-form" action="/modules/ajax_gateway.php" method="POST">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="newsletter-modal-label">Newsletter Anmeldung</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            		<p>Emails sind manchmal langweilig. Unsere nicht. Bleiben Sie auf dem Laufenden.</p>
+
+                    <div class="row form-row">
+                        <div class="col-12 col-md-6 form-group">
+                            <label class="small text-muted" for="j_FirstName">Vorname</label>
+                            <input type="text" class="form-control" id="j_FirstName" name="j_FirstName">
+                        </div>
+                        <div class="col-12 col-md-6 form-group">
+                            <label class="small text-muted" for="j_LastName">Nachname</label>
+                            <input type="text" class="form-control" id="j_LastName" name="j_LastName">
+                        </div>
+                        <div class="col-12 form-group">
+                            <label class="small text-muted" for="j_Email">E-Mail Adresse</label>
+                            <input type="email" class="form-control" id="j_Email" name="j_Email" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="j_PrivacyOK" name="j_PrivacyOK" value="1" required>
+                                <label class="custom-control-label" for="j_PrivacyOK">Ich stimme den <a href='/imprint/data-privacy/' target='_blank'>Datenschutzbestimmungen</a> zu</label>
+                            </div>
+                        </div>
+                    </div>
+								<div class='nl-message mt-2'></div>
+            </div>
+            <div class="modal-footer">
+            		<input type="hidden" id="act" name="act" value="subscribe_newsletter">
+                <button type="submit" class="btn btn-primary btn-block">Eintragen</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="newsletter-modal-dm" tabindex="-1" role="dialog" aria-labelledby="newsletter-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+							<iframe src="https://newsletter.wwtf.at/h/34LXp" style="width:100%; min-height: 700px; height:100%; border:0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="spenden-modal" tabindex="-1" role="dialog" aria-labelledby="spenden-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="spenden-modal-label">WWTF Forschung stärken!</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><section class="row"><div class="col-12"><p>Ihre Spende macht sich doppelt bezahlt: Jeder an den WWTF gespendete Euro ist steuerlich absetzbar und wird von der Stadt Wien verdoppelt.</p><form id='spendenform' action='#' onsubmit='return false;'><div class='form-row'><div class='form-group col-12'><label for='spende_steuer' class='mb-0'>Möchten Sie Ihre Spende steuerlich absetzen?</label><select class='custom-select custom-select-sm spval' id='spende_steuer'><option value=''>Bitte wählen</option><option value='N'>Nein</option><option value='Y'>Ja</option></select></div></div></form></div></section></div></div></div>
+</div>
+
+<div class="modal fade" id="funding-modal" tabindex="-1" role="dialog" aria-labelledby="funding-modal-label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     	<div class="modal-header">
+      	<h5 class="modal-title" id="funding-modal-label">Submission System</h5>
+       	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         	<span aria-hidden="true">&times;</span>
+         </button>
+      </div>
+    	<div class="modal-body">
+				<p>New Calls beginning 18th of May 2022, please refer to <a href="https://fundingportal.wwtf.at" onclick="$('#funding-modal').modal('hide'); return true;" target="_blank">fundingportal.wwtf.at</a></p>
+				<p>Reporting from older projects, calls opened before May 2022: <a href="https://funding.wwtf.at" onclick="$('#funding-modal').modal('hide'); return true;" target="_blank">funding.wwtf.at</a></p>
+				<p>All other reporting and contracting, please refer to <a href="https://funding.wwtf.at" onclick="$('#funding-modal').modal('hide'); return true;" target="_blank">funding.wwtf.at</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+        
+    <div id="login" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="login-modal-label">JPETo&trade; CMS Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body loginform-wrapper">
+          
+<div style='min-height: 150px; position: relative;'>
+	<div style='position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);'>
+		<div class='spinner-border' role='status'>
+			<span class='sr-only'>Loading...</span>
+		</div>
+	</div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+				
+<div class='cookiehinweis bg-accent'>
+	<div class='row mx-auto py-3' style='max-width: 800px;'>
+		<div class='col-12 mb-3 mb-md-5'>Wir nutzen Cookies auf unserer Website. Einige von ihnen sind technisch notwendig, während andere uns helfen, diese Website zu verbessern oder zusätzliche Funktionalitäten zur Verfügung zu stellen. <a href='/imprint/datenschutzerklaerung-und-agbs'>Weitere Informationen</a>
+		</div>
+		<div class='custom-control custom-switch col-12 col-md-4 pl-5 text-center'>
+			<input type='checkbox' class='custom-control-input' id='rc' value='1' checked='checked' disabled='disabled'>
+			<label class='custom-control-label' for='rc'>Notwendige Cookies</label>
+		</div>
+		<div class='custom-control custom-switch col-12 col-md-4 pl-5 text-center'>
+			<input type='checkbox' class='custom-control-input' id='sc' value='1'>
+			<label class='custom-control-label' for='sc'>Statistische Auswertung</label>
+		</div>
+		<div class='custom-control custom-switch col-12 col-md-4 pl-5 text-center'>
+			<input type='checkbox' class='custom-control-input' id='ec' value='1'>
+			<label class='custom-control-label' for='ec'>Externe Medien</label>
+		</div>
+		<div class='col-12 mt-3 text-center'>
+			<button class='button btn btn-primary px-5 mx-1 mb-2' id='cookieall'>Alle erlauben</button>
+			<button class='button btn btn-primary px-5 mx-1 mb-2' id='cookieok'>Speichern</button>
+		</div>
+</div>
+
+<div class="modal fade" id="pers" tabindex="-1" role="dialog" aria-labelledby="person-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="/js/bootstrap.bundle.min.js?1742303831"></script>
+	</body>
+</html>

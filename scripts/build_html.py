@@ -22,6 +22,7 @@ DATENSTAND = f"{MONATE_DE[HEUTE.month - 1]} {HEUTE.year}"
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "dashboard_data_2025.json"
+VRG_PATH = ROOT / "vrg_grantees.json"
 HTML_PATH = ROOT / "index.html"
 
 # ─────────────────────────────────────────────────────────────────
@@ -29,6 +30,31 @@ HTML_PATH = ROOT / "index.html"
 # ─────────────────────────────────────────────────────────────────
 with DATA_PATH.open() as f:
     DATA = json.load(f)
+
+
+# VRG-Gruppen: eigene Population, im Browser gebraucht für die Pipeline-Ansicht.
+# Die Zuordnung Berufung ↔ Gruppe kommt aus wwtf_enrich.py (vrg_id), hier wird
+# sie nur zusammengeführt, damit der Browser nicht über Namen matchen muss.
+VRG = []
+if VRG_PATH.exists():
+    berufung_nach_vrg = {d["vrg_id"]: d for d in DATA if d.get("vrg_id")}
+    for g in json.loads(VRG_PATH.read_text()):
+        b = berufung_nach_vrg.get(g["id"])
+        VRG.append({
+            "id": g["id"],
+            "call_jahr": g["call_jahr"],
+            "call_thema": g["call_thema"],
+            "name": g["name"],
+            "gast": g["gastinstitution_kurz"],
+            "titel": g["titel"],
+            "status": g["status"],
+            "summe_eur": g["summe_eur"],
+            "url": g["url"],
+            "berufung": None if not b else {
+                "jahr": b["year"], "monat": b["monat"],
+                "universitat": b["universitat"], "art": b.get("art_berufung"),
+            },
+        })
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -113,6 +139,10 @@ __DATA__
 ];
 
 const DATENSTAND = "__STAND__";
+
+// Vienna Research Groups: eigene Population, überschneidet sich nur teils
+// mit den Berufungen. Deshalb eigene Liste statt nur eines Häkchens.
+const VRG = __VRG__;
 
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
@@ -621,6 +651,10 @@ function renderCards(data) {
       ? `<span class="badge badge-ofos" title="${bereichLabel(inferBereich(d))}">${d.ofos_label}</span>`
       : '';
 
+    const vrgBadge = d.vrg_id
+      ? `<span class="badge badge-vrg" title="Vienna Research Group ${d.vrg_id}">WWTF VRG ${d.vrg_call}</span>`
+      : '';
+
     const wwtfBadges = (d.wwtf_programme || []).map(p =>
       `<span class="badge badge-grant" title="${WWTF_PROG[p].desc}">WWTF: ${WWTF_PROG[p].label}</span>`
     ).join('');
@@ -641,6 +675,7 @@ function renderCards(data) {
           ${badgeArt(d.art_berufung)}
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
+          ${vrgBadge}
           ${ofosBadge}
           ${wwtfBadges}
         </div>
@@ -667,7 +702,8 @@ function toggleWerdegang(btn, i) {
 
 // ─── FILTER + SORT + URL-STATE ───────────────────────────
 const FILTER_IDS = ['search-input','filter-uni','filter-geschlecht','filter-herkunft',
-                    'filter-art','filter-bereich','filter-land','filter-wwtf','sort-select'];
+                    'filter-art','filter-bereich','filter-land','filter-wwtf',
+                    'filter-vrg','sort-select'];
 
 function currentFilteredData() {
   const q       = document.getElementById('search-input').value.toLowerCase();
@@ -678,6 +714,7 @@ function currentFilteredData() {
   const bereich = document.getElementById('filter-bereich').value;
   const land    = document.getElementById('filter-land').value;
   const wwtf    = document.getElementById('filter-wwtf').value;
+  const vrg     = document.getElementById('filter-vrg').value;
   const sort    = document.getElementById('sort-select').value;
 
   const filtered = VIEW.filter(d => {
@@ -690,6 +727,8 @@ function currentFilteredData() {
     if (land && d.herkunft_land !== land) return false;
     if (wwtf === 'keins') { if ((d.wwtf_programme || []).length) return false; }
     else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
+    if (vrg === 'ja' && !d.vrg_id) return false;
+    if (vrg === 'nein' && d.vrg_id) return false;
     return true;
   });
 
@@ -882,6 +921,8 @@ function initWWTF(rows) {
     </div>`;
   }).join('');
 
+  renderVRG();
+
   // Kernaussagen
   const uniCounts = {};
   inProg.forEach(d => { uniCounts[d.universitat] = (uniCounts[d.universitat] || 0) + 1; });
@@ -919,6 +960,56 @@ function jumpToUniBereich(uni, bereich) {
   document.getElementById('filter-bereich').value = String(bereich);
   switchTab('alle');
   document.getElementById('filter-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ─── VRG-PIPELINE ────────────────────────────────────────
+// Bewusst unabhängig von der Jahresauswahl: die Grantees sind eine eigene
+// Population, ihre Berufung kann in jedem Jahr liegen.
+function renderVRG() {
+  if (!VRG.length) return;
+  const berufen = VRG.filter(g => g.berufung);
+  const summe = VRG.reduce((s, g) => s + (g.summe_eur || 0), 0);
+  const jahre = VRG.map(g => g.call_jahr);
+  const dauer = berufen
+    .map(g => g.berufung.jahr - g.call_jahr)
+    .sort((a, b) => a - b);
+  const medianDauer = dauer.length
+    ? (dauer.length % 2 ? dauer[(dauer.length - 1) / 2]
+       : Math.round((dauer[dauer.length / 2 - 1] + dauer[dauer.length / 2]) / 2))
+    : null;
+  const datenJahre = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
+
+  document.getElementById('vrg-summary').innerHTML =
+    `<strong>${VRG.length} Gruppen</strong> aus den Calls ${Math.min(...jahre)}–${Math.max(...jahre)}, ` +
+    `zusammen ${(summe / 1e6).toFixed(1).replace('.', ',')} Mio € · ` +
+    `<strong>${berufen.length}</strong> davon inzwischen auf eine Professur berufen` +
+    (medianDauer != null ? ` (Median ${medianDauer} Jahre nach dem Call)` : '') + '.';
+
+  document.getElementById('vrg-hinweis').textContent =
+    `Abgeglichen wird gegen die erfassten Berufungen ${datenJahre[0]}–${datenJahre[datenJahre.length - 1]}. ` +
+    `Berufungen außerhalb dieses Zeitraums sind noch nicht in der Datenbasis, ` +
+    `"keine Berufung erfasst" heißt also nicht zwingend "nicht berufen".`;
+
+  const zeilen = VRG.slice().sort((a, b) => b.call_jahr - a.call_jahr || a.name.localeCompare(b.name, 'de'));
+  document.getElementById('vrg-tabelle').innerHTML = `
+    <table class="vrg-table">
+      <thead><tr>
+        <th>Call</th><th>Feld</th><th>VRG-Leitung</th><th>Gastinstitution</th><th>Berufung</th>
+      </tr></thead>
+      <tbody>
+        ${zeilen.map(g => `
+          <tr class="${g.berufung ? 'vrg-berufen' : ''}">
+            <td>${g.call_jahr}</td>
+            <td class="vrg-feld">${g.call_thema || '—'}</td>
+            <td><a href="${g.url}" target="_blank" rel="noopener" title="${(g.titel || '').replace(/"/g, '&quot;')}">${g.name}</a></td>
+            <td>${g.gast || '—'}</td>
+            <td>${g.berufung
+              ? `<button class="vrg-link" onclick="jumpToPerson('${g.name.replace(/'/g, "\\'")}')">` +
+                `${g.berufung.universitat}, ${g.berufung.monat.charAt(0) + g.berufung.monat.slice(1).toLowerCase()} ${g.berufung.jahr}</button>`
+              : '<span class="vrg-offen">keine erfasst</span>'}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>`;
 }
 
 function jumpToPerson(name) {
@@ -1086,7 +1177,10 @@ document.addEventListener('DOMContentLoaded', () => {
 """
 
 # Replace placeholder
-NEW_SCRIPT_FINAL = NEW_SCRIPT.replace("__DATA__", data_js).replace("__STAND__", DATENSTAND)
+NEW_SCRIPT_FINAL = (NEW_SCRIPT
+                   .replace("__DATA__", data_js)
+                   .replace("__STAND__", DATENSTAND)
+                   .replace("__VRG__", json.dumps(VRG, ensure_ascii=False, indent=1)))
 
 # ─────────────────────────────────────────────────────────────────
 # 4. Read current HTML and replace script + data

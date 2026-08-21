@@ -338,7 +338,37 @@ Kooperationspartner:innen und Jury-/Gutachter:innen-Kontakte:
   klickbar → springt zur gefilterten Profilkarte
 - **Methodik-Hinweis** zur heuristischen Natur der Zuordnung (s. 4.5)
 
-### 6.8 Werkzeuge
+### 6.8 VRG-Pipeline (Vienna Research Groups)
+
+Die VRG-Grantees sind eine **eigene Population**, die sich mit den Berufungen nur
+teilweise überschneidet: nicht jeder Grantee wird Professor, und nicht in Wien.
+Ein Häkchen am Berufungsdatensatz würde nur die Schnittmenge zeigen und die
+eigentlich interessante Frage nicht beantworten. Deshalb zwei Datensätze:
+
+| Datei | Inhalt | Pflege |
+|---|---|---|
+| `vrg_grantees.json` | 35 Gruppen der Calls 2010–2025, je Leader, Gastinstitution, Call-Thema, Laufzeit, Fördersumme, GrantID | `scripts/fetch_vrg.py`, läuft bei neuem Call |
+| `dashboard_data_2025.json` | `vrg_id` und `vrg_call` an der betroffenen Berufung | `scripts/wwtf_enrich.py`, jeder Pipeline-Lauf |
+
+**Quelle:** die Programmseite wwtf.at/funding/programmes/vrg/ verlinkt jede Gruppe mit
+ihrer kanonischen ID (VRG10-001 … VRG25-019). Der Scraper folgt diesen Links, es wird
+keine ID geraten.
+
+**Gastinstitution:** bei frisch bewilligten Gruppen ist die Leader-Institution noch die
+ausländische Herkunft (EPFL, Stanford, Amazon). Die Wiener Gastinstitution steht
+verlässlich beim Proponenten, der immer an der aufnehmenden Einrichtung sitzt.
+
+**Verknüpfung:** Abgleich über den normalisierten Namen (ohne Diakritika, klein).
+Kein Fuzzy-Matching — lieber eine gemeldete Lücke als zwei verwechselte Personen.
+Abweichende Schreibweisen kommen in `scripts/vrg_overrides.json` (VRG-ID → Name).
+
+**Anzeige:** Badge auf der Personenkarte, Filter „WWTF-Förderung" in der Filterleiste,
+Tabelle „VRG-Pipeline" im WWTF-Tab. Die Tabelle ist bewusst unabhängig von der
+Jahresauswahl, weil eine Berufung in jedem Jahr liegen kann. Solange die Datenbasis
+nur 2025–2026 abdeckt, heißt „keine Berufung erfasst" nicht „nicht berufen"; der
+Hinweis steht über der Tabelle.
+
+### 6.9 Werkzeuge
 - **CSV-Export**: die aktuell gefilterte Kartenansicht als Excel-AT-kompatibles
   CSV (Semikolon-Separator, UTF-8-BOM, 18 Spalten inkl. WWTF-Programmfelder
   und Metriken)
