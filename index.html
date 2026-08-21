@@ -332,6 +332,7 @@
         fill: #1a1a2e;
       }
       .heatmap-value {
+        pointer-events: none;
         font-family: "Inter", sans-serif;
         font-size: 11px;
         font-weight: 600;
@@ -360,6 +361,7 @@
 
       /* ── Filter Bar ───────────────────────────────────────── */
       #filter-bar {
+        scroll-margin-top: 150px;
         background: var(--white);
         border-radius: var(--radius);
         box-shadow: var(--shadow);
@@ -4389,14 +4391,17 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
         .attr("width", cellW - 2).attr("height", cellH - 2)
         .attr("rx", 3)
         .attr("fill", colorScale(v))
+        .style("cursor", v > 0 ? "pointer" : "default")
         .on("mouseover", (event) => {
           showTooltip(
-            `<strong>${u}</strong> · ${bereichLabel(b)}<br>${v} Berufung${v !== 1 ? 'en' : ''}`,
+            `<strong>${u}</strong> · ${bereichLabel(b)}<br>${v} Berufung${v !== 1 ? 'en' : ''}` +
+            (v > 0 ? '<br><em>Klick öffnet die Liste</em>' : ''),
             event
           );
         })
         .on("mousemove", moveTooltip)
-        .on("mouseout", hideTooltip);
+        .on("mouseout", hideTooltip)
+        .on("click", () => { if (v > 0) jumpToUniBereich(u, b); });
       if (v > 0) {
         g.append("text")
           .attr("class", "heatmap-value")
@@ -4912,6 +4917,17 @@ function initWWTF(rows) {
   ].filter(Boolean);
   document.getElementById('insights-wwtf-list').innerHTML =
     items.map(i => `<li>${i}</li>`).join('');
+}
+
+// Heatmap-Zelle → vorgefilterte Personenliste
+function jumpToUniBereich(uni, bereich) {
+  FILTER_IDS.forEach(id => {
+    document.getElementById(id).value = id === 'sort-select' ? 'monat' : '';
+  });
+  document.getElementById('filter-uni').value = uni;
+  document.getElementById('filter-bereich').value = String(bereich);
+  switchTab('alle');
+  document.getElementById('filter-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function jumpToPerson(name) {
