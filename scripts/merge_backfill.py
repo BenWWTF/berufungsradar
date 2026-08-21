@@ -28,7 +28,8 @@ DATA_PATH = ROOT / "dashboard_data_2025.json"
 BACKFILL_DIR = Path(__file__).resolve().parent / "backfill"
 
 # Felder, die bei bestehenden Datensätzen nachgetragen werden dürfen
-NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung")
+NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung",
+               "geschlecht", "fakultat")
 
 
 def norm(name):
@@ -79,11 +80,13 @@ def main():
             neu.append({
                 "name": e["name"],
                 "universitat": e["universitat"],
-                "fakultat": None,
+                "fakultat": e.get("fakultat"),
                 "fakultat_code": e.get("fakultat_code"),
                 "forschungsbereich": e.get("forschungsbereich"),
                 "art_berufung": e.get("art_berufung"),
-                "geschlecht": None,
+                # Die mdw nennt das Geschlecht in der Quelle ("seine/ihre"),
+                # das ist besser als jede Vornamensheuristik.
+                "geschlecht": e.get("geschlecht"),
                 "herkunft": None,
                 "herkunft_institution": None,
                 "herkunft_land": None,

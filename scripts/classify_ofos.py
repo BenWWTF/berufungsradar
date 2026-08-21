@@ -124,6 +124,22 @@ STICHWORT = [
     (r"sprachwissenschaft|linguistik|linguistic|literatur|literature|philolog|"
      r"translation|übersetzen|romanistik|germanistik|anglistik|slawistik", "602"),
     (r"philosoph|ethik|ethics|theolog|religionswissenschaft", "603"),
+    # Musikfächer: die mdw beruft auf Instrumente und Praxisfächer, nicht auf
+    # Disziplinbezeichnungen. ÖFOS 604 deckt Kunst- und Musikwissenschaften ab.
+    (r"violine|viola|violoncello|kontrabass|cello|geige|klavier|cembalo|orgel|"
+     r"harfe|gitarre|blockflöte|flöte|oboe|klarinette|fagott|saxophon|trompete|"
+     r"posaune|horn|tuba|schlaginstrument|schlagwerk|percussion|akkordeon|"
+     r"gesang|lied|oratorium|stimmforschung|korrepetition|kammermusik|"
+     r"orchester|dirigent|musikleitung|chorleitung|ensembleleitung|"
+     r"tonsatz|gehörbildung|harmonielehre|kontrapunkt|musiktheorie|"
+     r"musikpädagogik|instrumentalpädagogik|rhythmik|musiktherapie|"
+     r"musikphysiologie|popularmusik|jazz|tasteninstrument|blasinstrument|"
+     r"streichinstrument|alte musik|neue musik|tonmeister|musikproduktion|"
+     r"elektroakustik|medienkomposition|regie|schauspiel|dramaturgie|"
+     r"musikdramatisch|szenisch|bühne|tanz|choreograf|film|fernsehen|"
+     r"produktion|kamera|schnitt|drehbuch|kulturmanagement|"
+     r"rollengestaltung|körperliche gestaltung|musikalische akustik|"
+     r"musikvermittlung|community music|ensemblearbeit", "604"),
     (r"kunstgeschichte|art history|kunstwissenschaft|musikwissenschaft|musicolog|"
      r"komposition|composition|dirigier|conducting|instrumental|gesang|voice|"
      r"schauspiel|acting|film|fotografie|photography|bildende kunst|fine art|"
