@@ -25,7 +25,6 @@ Interaktives Dashboard zur Visualisierung von Professorinnen- und Professorenber
 - **WWTF-Perspektive (eigener Tab)** – Zuordnung der Berufungen zu WWTF-Programmfeldern (Life Sciences, ICT, Cognitive Sciences, ESR, Digital Humanism, Mathematik und …); KPIs, Kernaussagen, Personen-Listen pro Programmfeld
 - **Kernaussagen-Boxen** – automatisch berechnete Takeaways auf Übersicht, WWTF- und Mobilitäts-Tab
 - **Mobilität (Sankey)** – Herkunftsland (14 Länder) → 9 Wiener Universitäten, volle Breite
-- **Thematische Cluster (D3 Force-Graph)** – Knoten gefärbt nach Universität, positioniert nach ÖFOS-Bereich; Uni × Uni Heatmap der Forschungsüberlappung
 - **ÖFOS-Bereiche (1-stellig)** – Hauptkategorien 1–6
 - **Universitäten × ÖFOS-Bereich (Heatmap)** – Aktivitätsprofile der 9 Unis
 - **ÖFOS-Fachbereiche (3-stellig, Top 15)** – Feinere Gliederung

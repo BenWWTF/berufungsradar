@@ -229,7 +229,7 @@ aus und druckt am Ende den Lücken-Report.
 | Schicht | Technologie | Begründung |
 |---|---|---|
 | Frontend | Reines HTML + CSS + Vanilla JS | Kein Build-Schritt nötig, maximale Portabilität |
-| Visualisierung | D3.js v7 (Force-Graph, Sankey, Heatmaps) | Flexible, deklarative Datenvisualisierung |
+| Visualisierung | D3.js v7 (Sankey, Heatmaps) | Flexible, deklarative Datenvisualisierung |
 | Charts | Chart.js v4 (Balken, Stacked Bar) | Standard-Browser-Charts ohne D3-Ceremonie |
 | Sankey | d3-sankey v0.12 | Plugin für D3 |
 | Schrift | Inter (Google Fonts) | WWTF-Designsystem |
@@ -324,21 +324,7 @@ Anzahl der Berufungen. Sichtbar:
 - **Italien, Slowakei, Slowenien, Türkei, Argentinien, Russland, Israel,
   Kanada, Schweiz, Niederlande, Norwegen**: je 1–2
 
-### 6.7 Force-Graph: Universitäten × ÖFOS-Bereiche
-- **Knoten**: jede Professur
-- **Farbe**: Universität (8 Uni-Farben)
-- **Position**: ÖFOS-Bereich (1–6) – 6 Cluster-Zentren
-- **Größe**: h-Index
-
-Die Visualisierung macht sichtbar, welche Unis in welchen Bereichen aktiv sind
-und wo Überlappungen bestehen (z.B. Uni Wien und BOKU teilen sich den Bereich 1).
-
-### 6.8 Uni × Uni Überlappungs-Matrix (Heatmap)
-Zeigt für jedes Uni-Paar, wie viele ÖFOS-3-Steller-Bereiche sie gemeinsam besetzen.
-Hohe Werte = viel thematische Überlappung (mögliche Konkurrenzsituation oder
-komplementäre Stärkefelder).
-
-### 6.9 Tab „WWTF-Perspektive"
+### 6.7 Tab „WWTF-Perspektive"
 Eigener Tab, der die Berufungen 2025 als strategische Ressource für den WWTF
 aufbereitet — neu berufene Professor:innen sind potenzielle Antragsteller:innen,
 Kooperationspartner:innen und Jury-/Gutachter:innen-Kontakte:
@@ -352,7 +338,7 @@ Kooperationspartner:innen und Jury-/Gutachter:innen-Kontakte:
   klickbar → springt zur gefilterten Profilkarte
 - **Methodik-Hinweis** zur heuristischen Natur der Zuordnung (s. 4.5)
 
-### 6.10 Werkzeuge
+### 6.8 Werkzeuge
 - **CSV-Export**: die aktuell gefilterte Kartenansicht als Excel-AT-kompatibles
   CSV (Semikolon-Separator, UTF-8-BOM, 18 Spalten inkl. WWTF-Programmfelder
   und Metriken)
