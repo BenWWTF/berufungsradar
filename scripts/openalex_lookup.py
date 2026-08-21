@@ -474,7 +474,8 @@ def main():
         if result is None:
             continue                     # fehlgeschlagene Abfrage nicht merken
         results[name] = result
-        time.sleep(0.5)  # be polite
+        time.sleep(2.0)  # OpenAlex drosselt bei Serien: pro Person fallen
+                         # Suchabfrage plus mehrere Werk-Seiten an
 
     with OUT.open("w") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)

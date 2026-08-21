@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Rohseiten der Backfill-Scraper: reproduzierbar, gehören nicht ins Repo
+scripts/.*_cache/

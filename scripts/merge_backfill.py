@@ -29,7 +29,12 @@ BACKFILL_DIR = Path(__file__).resolve().parent / "backfill"
 
 # Felder, die bei bestehenden Datensätzen nachgetragen werden dürfen
 NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung",
-               "geschlecht", "fakultat")
+               "geschlecht", "fakultat", "werdegang")
+
+# Felder, deren automatisch erzeugte Fassung von der Quelle überschrieben werden
+# darf: ein Lebenslauf aus der Uni-Seite ist besser als die aus OpenAlex
+# abgeleiteten Stationen.
+STAERKER_ALS_AUTO = {"werdegang": "werdegang_auto"}
 
 
 def norm(name):
@@ -71,8 +76,12 @@ def main():
             if treffer:
                 bekannt += 1
                 for feld in NACHTRAGBAR:
-                    if not treffer.get(feld) and e.get(feld):
+                    marker = STAERKER_ALS_AUTO.get(feld)
+                    ersetzbar = bool(marker and treffer.get(marker))
+                    if (not treffer.get(feld) or ersetzbar) and e.get(feld):
                         treffer[feld] = e[feld]
+                        if marker:
+                            treffer.pop(marker, None)   # ab jetzt Quellenangabe
                         ergaenzt += 1
                 continue
             # Neuer Datensatz: Stufe-1-Felder plus die Struktur, die die
@@ -93,7 +102,10 @@ def main():
                 "ofos_code": None,
                 "ofos_label": None,
                 "bio_text": None,
-                "werdegang": None,
+                # Lebensläufe aus der Quelle (Uni Wien) sind wertvoller als die
+                # später abgeleiteten OpenAlex-Stationen, deshalb ohne
+                # werdegang_auto-Marker.
+                "werdegang": e.get("werdegang"),
                 "profil_url": e.get("profil_url"),
                 "monat": e["monat"],
                 "year": e["year"],
