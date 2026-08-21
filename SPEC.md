@@ -44,6 +44,49 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 Erfasst sind alle 9 öffentlichen Wiener Universitäten, die Berufungen gemäß §98,
 §99(1), §99(4) und §99(5) Stiftungsprofessuren (BEST) ausgesprochen haben.
 
+## 2a. Datenbasis-Ausweitung (Backfill)
+
+Ziel ist die Abdeckung von zehn Jahren. Weil die Quellenlage je Universität und
+Jahr sehr unterschiedlich ist, läuft der Aufbau in Stufen:
+
+| Stufe | Felder | Aufwand |
+|---|---|---|
+| 1 | Name, Universität, Monat, Jahr, Art der Berufung, Forschungsbereich, Institutscode, Profil-Link | Scraping, pro Quelle einmalig |
+| 2 | ÖFOS-Code, Geschlecht, OpenAlex-Metriken, Werdegang aus Affiliationshistorie | automatisch (`classify_ofos.py`, `enrich.py`, `openalex_lookup.py`, `fill_gaps.py`) |
+| 3 | Herkunftsinstitution, Herkunftsland, kuratierter Werdegang | Einzelrecherche, der Flaschenhals |
+
+Mobilitätsauswertungen sind erst nach Stufe 3 belastbar. ÖFOS- und
+Geschlechterauswertungen tragen schon nach Stufe 2. Datensätze aus dem Backfill
+tragen `"stufe": 1`, automatisch gesetzte ÖFOS-Codes `_ofos_auto: true`.
+
+**Werkzeuge**
+
+| Skript | Aufgabe |
+|---|---|
+| `scripts/backfill_tuwien.py` | erntet die TU-Wien-Übersicht „Neue Professor_innen seit 2019" → `scripts/backfill/tuwien.json` |
+| `scripts/merge_backfill.py` | führt die Ernte ein, ohne kuratierte Datensätze zu überschreiben |
+| `scripts/classify_ofos.py` | ÖFOS-Zuordnung über TU-Institutscodes und Stichwörter |
+
+Der Namensabgleich beim Merge schreibt Umlaute aus (Steinböck = Steinboeck) und
+vergleicht zusätzlich nur Vor- und Nachnamen, weil die Unis Mittelnamen
+unterschiedlich führen (Thomas Lennon Sheppard vs Thomas Sheppard).
+
+**Quellenlage, Stand August 2026**
+
+| Universität | Quelle | Status |
+|---|---|---|
+| TU Wien | Übersichtsseite mit Akkordeon je Jahr, 2019–2026 | erledigt |
+| Uni Wien | monatliche Listen im Medienportal, alte URLs leiten inzwischen um | offen, Weg über das Webarchiv |
+| MedUni Wien | Mitteilungsblätter (PDF) | offen |
+| WU Wien | Wissensbilanzen (PDF) | offen |
+| BOKU | Presseaussendungen je Jahr | offen |
+| mdw | Jahresseiten „Neue Professuren <Jahr>" | offen |
+| Angewandte, Akademie, Vetmeduni | verstreute News, vor 2019 Handarbeit | offen |
+
+Auf der TU-Seite steht am Ende ein Abschnitt „Former Employees since 2019" mit
+Abgängen statt Berufungen. Der Parser schneidet dort ab, sonst landen Personen
+mit einer Zeitspanne anstelle einer Professurbezeichnung in den Daten.
+
 ## 3. Datenquellen
 
 | Quelle | Was wird erhoben | Rechtsgrundlage |

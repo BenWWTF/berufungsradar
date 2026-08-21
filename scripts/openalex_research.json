@@ -5803,5 +5803,6759 @@
     "herkunft_institution": "BEST – Bioenergy and Sustainable Technologies GmbH",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Maria Gibert": {
+    "name": "Maria Gibert",
+    "openalex_id": "A5056399919",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 3,
+    "cited_by_count": 37,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Pontifícia Universidade Católica de Campinas",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2005,
+          2003
+        ],
+        "most_recent": 2005
+      }
+    ],
+    "bio_text": "University Professor for Topological and Complex Materials. h-Index: 2 | Publikationen: 3 | Zitierungen: 37.",
+    "herkunft": "extern",
+    "herkunft_institution": "Pontifícia Universidade Católica de Campinas",
+    "herkunft_land": "Brasilien",
+    "grants": []
+  },
+  "Maja Kevdzija": {
+    "name": "Maja Kevdzija",
+    "openalex_id": "A5054669384",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 20,
+    "cited_by_count": 90,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "School of Planning and Architecture Delhi",
+        "country": "IN",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Technische Universität Dresden",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2018
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Associate Professor. h-Index: 6 | Publikationen: 20 | Zitierungen: 90. Forschungstätigkeit u.a. in Indien, Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christoph Hametner": {
+    "name": "Christoph Hametner",
+    "openalex_id": "A5045685816",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 140,
+    "cited_by_count": 1474,
+    "h_index": 21,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2014,
+          2012,
+          2011
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Associate Professor for Control and Monitoring of Automotive Systems. h-Index: 21 | Publikationen: 140 | Zitierungen: 1474.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dominique Schröder": {
+    "name": "Dominique Schröder",
+    "openalex_id": "A5053197848",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 134,
+    "cited_by_count": 2008,
+    "h_index": 27,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Bielefeld University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Hochschule Bielefeld",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Nuremberg Hospital",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "University Professor for Privacy. h-Index: 27 | Publikationen: 134 | Zitierungen: 2008. Forschungstätigkeit u.a. in Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ekaterina Benavente-Fokina": {
+    "name": "Ekaterina Benavente-Fokina",
+    "_openalex": "not found"
+  },
+  "Heike Oevermann": {
+    "name": "Heike Oevermann",
+    "openalex_id": "A5064958370",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 33,
+    "cited_by_count": 240,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "KHM-Museumsverband",
+        "country": "AT",
+        "type": "archive",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Schlumberger (Ireland)",
+        "country": "IE",
+        "type": "company",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Bauhaus-Universität Weimar",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "University Professor for Monument Preservation and Building in Existing Structures. h-Index: 7 | Publikationen: 33 | Zitierungen: 240. Forschungstätigkeit u.a. in Österreich, Deutschland, Irland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Angelika Psenner": {
+    "name": "Angelika Psenner",
+    "openalex_id": "A5020115665",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 49,
+    "cited_by_count": 14,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Landscape Institute",
+        "country": "GB",
+        "type": "other",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021,
+          2018,
+          2017,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Voestalpine (Brazil)",
+        "country": "BR",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Shell (Netherlands)",
+        "country": "NL",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Associate Professor for Urban Planning. h-Index: 2 | Publikationen: 49 | Zitierungen: 14. Forschungstätigkeit u.a. in Großbritannien, Österreich, Brasilien, Niederlande.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ernst Karl Csencsics": {
+    "name": "Ernst Karl Csencsics",
+    "_openalex": "not found"
+  },
+  "Azra Korjenic": {
+    "name": "Azra Korjenic",
+    "openalex_id": "A5033351375",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 137,
+    "cited_by_count": 2826,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technical University of Košice",
+        "country": "SK",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "Österreichisches Forschungsinstitut für Chemie und Technik",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "Chamber of Labour",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2007
+        ],
+        "most_recent": 2007
+      }
+    ],
+    "bio_text": "University Professor for Ecological Building Technologies. h-Index: 25 | Publikationen: 137 | Zitierungen: 2826. Forschungstätigkeit u.a. in Österreich, Slowakei.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Emanuel Gasteiger": {
+    "name": "Emanuel Gasteiger",
+    "openalex_id": "A5022053554",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 28,
+    "cited_by_count": 241,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Iscte – Instituto Universitário de Lisboa",
+        "country": "PT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2017,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2017,
+          2015
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Iscte – Instituto Universitário de Lisboa",
+        "country": "PT",
+        "type": null,
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Freie Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Associate Professor of Macroeconomics with a Focus on Business Cycle Theory. h-Index: 7 | Publikationen: 28 | Zitierungen: 241. Forschungstätigkeit u.a. in Portugal, Österreich, Großbritannien, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Maria Christakis": {
+    "name": "Maria Christakis",
+    "openalex_id": "A5064181052",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 90,
+    "cited_by_count": 1134,
+    "h_index": 19,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Planck Institute for Software Systems",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "École Polytechnique",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Laboratoire d'Informatique de l'École Polytechnique",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "opens in new window , University Professor for Softwareengineering. h-Index: 19 | Publikationen: 90 | Zitierungen: 1134. Forschungstätigkeit u.a. in USA, Frankreich, Griechenland, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Oliver Spadiut": {
+    "name": "Oliver Spadiut",
+    "openalex_id": "A5017007688",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 290,
+    "cited_by_count": 5852,
+    "h_index": 41,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2021,
+          2018,
+          2015,
+          2014,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Chemnitz University of Technology",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bioscience Research",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Themis Bioscience (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2026,
+          2022
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "University Professor for Integrated Bioprocess Development. h-Index: 41 | Publikationen: 290 | Zitierungen: 5852. Forschungstätigkeit u.a. in Österreich, Japan, Deutschland, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas Lukasiewicz": {
+    "name": "Thomas Lukasiewicz",
+    "openalex_id": "A5091549352",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 489,
+    "cited_by_count": 10236,
+    "h_index": 47,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2009,
+          2001
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2013,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Science Oxford",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "The Alan Turing Institute",
+        "country": "GB",
+        "type": "facility",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2017
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "University Professor for Artificial Intelligence Technique. h-Index: 47 | Publikationen: 489 | Zitierungen: 10236. Forschungstätigkeit u.a. in USA, Österreich, Deutschland, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Emanuel Ionescu": {
+    "name": "Emanuel Ionescu",
+    "openalex_id": "A5016673440",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 261,
+    "cited_by_count": 7952,
+    "h_index": 43,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Technische Universität Darmstadt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Fraunhofer Research Institution for Materials Recycling and Resource Strategies IWKS",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Fraunhofer Institute for Cognitive Systems",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Fraunhofer Institute for Mechanics of Materials",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "University Professor of Chemical Materials Technology. h-Index: 43 | Publikationen: 261 | Zitierungen: 7952. Forschungstätigkeit u.a. in Deutschland, Österreich, Finnland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Patrick Huber": {
+    "name": "Patrick Huber",
+    "openalex_id": "A5063489016",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 310,
+    "cited_by_count": 12748,
+    "h_index": 51,
+    "last_known_institutions": [
+      {
+        "name": "Virginia Tech",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Sprint (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Iowa State University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+        "country": "BR",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Campbell Collaboration",
+        "country": "NO",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Reinforced Concrete and Solid Construction. h-Index: 51 | Publikationen: 310 | Zitierungen: 12748. Forschungstätigkeit u.a. in USA, Brasilien, Österreich, China.",
+    "herkunft": "extern",
+    "herkunft_institution": "Virginia Tech",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Dietmar Feichtinger": {
+    "name": "Dietmar Feichtinger",
+    "openalex_id": "A5041168227",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 11,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "University Professor for Structural Engineering and Design. h-Index: 1 | Publikationen: 11 | Zitierungen: 1.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Gerald Schweiger": {
+    "name": "Gerald Schweiger",
+    "openalex_id": "A5008937752",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 83,
+    "cited_by_count": 1673,
+    "h_index": 18,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Research Institute for Artificial Intelligence",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Intelligent Systems Research (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of the Pacific",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Integral Building Technology. h-Index: 18 | Publikationen: 83 | Zitierungen: 1673. Forschungstätigkeit u.a. in USA, Österreich, Belgien, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Johannes Edelmann": {
+    "name": "Johannes Edelmann",
+    "openalex_id": "A5012729862",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 104,
+    "cited_by_count": 958,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2011,
+          2009,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Federal Railways",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Fraunhofer Project Centre Wolfsburg",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "University Professor for Technical Dynamics. h-Index: 13 | Publikationen: 104 | Zitierungen: 958. Forschungstätigkeit u.a. in Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Hannes Kaufmann": {
+    "name": "Hannes Kaufmann",
+    "openalex_id": "A5075275333",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 223,
+    "cited_by_count": 5804,
+    "h_index": 37,
+    "last_known_institutions": [
+      {
+        "name": "VRVis GmbH (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2003,
+          2002,
+          2000
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Laboratoire Mouvement Sport Santé",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Virtual and Augmented Reality. h-Index: 37 | Publikationen: 223 | Zitierungen: 5804. Forschungstätigkeit u.a. in Deutschland, Österreich, USA, ZW.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Maricruz Sanchez-Sanchez": {
+    "name": "Maricruz Sanchez-Sanchez",
+    "openalex_id": "A5083734676",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 68,
+    "cited_by_count": 4716,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Technical University of Munich",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bioscience (China)",
+        "country": "CN",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Fischer (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2020,
+          2019
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "University Professor for Chemical Process Engineering. h-Index: 30 | Publikationen: 68 | Zitierungen: 4716. Forschungstätigkeit u.a. in Österreich, Spanien, Deutschland, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martin Nöllenburg": {
+    "name": "Martin Nöllenburg",
+    "openalex_id": "A5071390048",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 302,
+    "cited_by_count": 2120,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Computer Algorithms for Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Complexity Science Hub",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Perugia",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2022,
+          2019
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "University Professor for Graph and Geometric Algorithms. h-Index: 24 | Publikationen: 302 | Zitierungen: 2120. Forschungstätigkeit u.a. in Deutschland, Österreich, USA, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Michael Harasek": {
+    "name": "Michael Harasek",
+    "openalex_id": "A5079973414",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 334,
+    "cited_by_count": 4191,
+    "h_index": 34,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2017,
+          2001
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bioscience Research",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "University Professor for Material Separation Technology and Biorefinery Technology. h-Index: 34 | Publikationen: 334 | Zitierungen: 4191. Forschungstätigkeit u.a. in Irland, Österreich, Schweden, CO.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Bojana Rosic": {
+    "name": "Bojana Rosic",
+    "openalex_id": "A5062849809",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 79,
+    "cited_by_count": 722,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Twente",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Thermoplastic Composites Research Center",
+        "country": "NL",
+        "type": "nonprofit",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Technische Universität Braunschweig",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Kragujevac",
+        "country": "RS",
+        "type": "education",
+        "years": [
+          2013,
+          2007
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "University Professor of Digital Engineering. h-Index: 14 | Publikationen: 79 | Zitierungen: 722. Forschungstätigkeit u.a. in RS, Niederlande, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Twente",
+    "herkunft_land": "Niederlande",
+    "grants": []
+  },
+  "Johann Auer": {
+    "name": "Johann Auer",
+    "openalex_id": "A5061452623",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 376,
+    "cited_by_count": 6155,
+    "h_index": 34,
+    "last_known_institutions": [
+      {
+        "name": "Hospital Braga",
+        "country": "PT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Paracelsus Medical University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ludwig Boltzmann Institute for Cardiovascular Research",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "St. Josefs Hospital",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Kepler Universitätsklinikum",
+        "country": "AT",
+        "type": "funder",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "opens in new window , Associate Professor of Economics and Regulation. h-Index: 34 | Publikationen: 376 | Zitierungen: 6155. Forschungstätigkeit u.a. in Deutschland, USA, Österreich, Israel.",
+    "herkunft": "extern",
+    "herkunft_institution": "Hospital Braga",
+    "herkunft_land": "Portugal",
+    "grants": []
+  },
+  "Julia Eisenberg": {
+    "name": "Julia Eisenberg",
+    "openalex_id": "A5025383877",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 33,
+    "cited_by_count": 784,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "Pace University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Rutgers, The State University of New Jersey",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "University Professor for Actuarial Mathematics. h-Index: 10 | Publikationen: 33 | Zitierungen: 784.",
+    "herkunft": "extern",
+    "herkunft_institution": "Pace University",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Bernhard Hofko": {
+    "name": "Bernhard Hofko",
+    "openalex_id": "A5004510134",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 209,
+    "cited_by_count": 4619,
+    "h_index": 39,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Dalian University of Technology",
+        "country": "CN",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Pavement Engineering. h-Index: 39 | Publikationen: 209 | Zitierungen: 4619. Forschungstätigkeit u.a. in Österreich, Brasilien, China, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Gerald Matz": {
+    "name": "Gerald Matz",
+    "openalex_id": "A5012959491",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 276,
+    "cited_by_count": 5800,
+    "h_index": 39,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2000,
+          1999,
+          1998,
+          1997
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute for Telecommunication Sciences",
+        "country": "US",
+        "type": "government",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "National Institute of Telecommunications",
+        "country": "BR",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2021
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Klagenfurt",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "CentraleSupélec",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "University Professor for Machine Learning in Telecommunications. h-Index: 39 | Publikationen: 276 | Zitierungen: 5800. Forschungstätigkeit u.a. in Frankreich, Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Amela Ajanovic": {
+    "name": "Amela Ajanovic",
+    "openalex_id": "A5021906921",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 111,
+    "cited_by_count": 4309,
+    "h_index": 32,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Austrian Energy Agency",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2020,
+          2018
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Associate Professor of Energy Economics in Transportation. h-Index: 32 | Publikationen: 111 | Zitierungen: 4309. Forschungstätigkeit u.a. in Österreich, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Eva Sevcsik": {
+    "name": "Eva Sevcsik",
+    "openalex_id": "A5008110381",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 69,
+    "cited_by_count": 1623,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020,
+          2018
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Yale University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2012,
+          2011,
+          2010,
+          2009
+        ],
+        "most_recent": 2012
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2010,
+          2008,
+          2007,
+          2005,
+          2004
+        ],
+        "most_recent": 2010
+      },
+      {
+        "name": "Institute of Biochemistry",
+        "country": "RO",
+        "type": "education",
+        "years": [
+          2003
+        ],
+        "most_recent": 2003
+      }
+    ],
+    "bio_text": "Associate Professor of Nano-Biophysics. h-Index: 17 | Publikationen: 69 | Zitierungen: 1623. Forschungstätigkeit u.a. in Österreich, USA, Rumänien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Hinrich Grothe": {
+    "name": "Hinrich Grothe",
+    "openalex_id": "A5040169919",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 295,
+    "cited_by_count": 11082,
+    "h_index": 42,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021,
+          2015
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Austrian Economics Center",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2020,
+          2017
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Virginia Tech",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "University Professor of Physical Chemistry of the Atmosphere. h-Index: 42 | Publikationen: 295 | Zitierungen: 11082. Forschungstätigkeit u.a. in Deutschland, Österreich, Norwegen, Israel.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Aleix Comas Vives": {
+    "name": "Aleix Comas Vives",
+    "openalex_id": "A5027432625",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 156,
+    "cited_by_count": 6833,
+    "h_index": 41,
+    "last_known_institutions": [
+      {
+        "name": "Universitat Autònoma de Barcelona",
+        "country": "ES",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2012,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Universitat de Barcelona",
+        "country": "ES",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Centre for Research on Ecology and Forestry Applications",
+        "country": "ES",
+        "type": "facility",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Associate Professor of Computer-Aided Heterogeneous Catalysis. h-Index: 41 | Publikationen: 156 | Zitierungen: 6833. Forschungstätigkeit u.a. in Spanien, Frankreich, Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Walter Michael Weber": {
+    "name": "Walter Michael Weber",
+    "openalex_id": "A5101914544",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 311,
+    "cited_by_count": 8699,
+    "h_index": 49,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "NaMLab (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Center for Advancing Electronics Dresden",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Technische Universität Dresden",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "University Professor for Nanoelectronics. h-Index: 49 | Publikationen: 311 | Zitierungen: 8699. Forschungstätigkeit u.a. in Österreich, Deutschland, USA, SA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Erwin Povoden-Karadeniz": {
+    "name": "Erwin Povoden-Karadeniz",
+    "openalex_id": "A5019291603",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 93,
+    "cited_by_count": 2042,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Research Center Pharmaceutical Engineering (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2023,
+          2020
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Interface (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Board of the Swiss Federal Institutes of Technology",
+        "country": "CH",
+        "type": "government",
+        "years": [
+          2012
+        ],
+        "most_recent": 2012
+      }
+    ],
+    "bio_text": "Associate Professor for Computational Materials Engineering. h-Index: 24 | Publikationen: 93 | Zitierungen: 2042. Forschungstätigkeit u.a. in Österreich, Schweiz, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sascha Hunold": {
+    "name": "Sascha Hunold",
+    "openalex_id": "A5020893403",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 115,
+    "cited_by_count": 833,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Magna Graecia University",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2014
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2013,
+          2011
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Laboratoire d'Informatique de Grenoble",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2013,
+          2011
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Université Grenoble Alpes",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2013,
+          2011
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "Associate Professor for Run-time systems and scheduling for High-Performance Computing. h-Index: 16 | Publikationen: 115 | Zitierungen: 833. Forschungstätigkeit u.a. in Deutschland, Frankreich, USA, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christian Gierl-Mayer": {
+    "name": "Christian Gierl-Mayer",
+    "openalex_id": "A5068393338",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 202,
+    "cited_by_count": 1262,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2007,
+          2001
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Austrian Institute of Technology",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Merck KGaA, Darmstadt (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2015,
+          2012
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "Technische Universität Darmstadt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "University Professor of Chemical Technology of Metals. h-Index: 17 | Publikationen: 202 | Zitierungen: 1262. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Adrian Flores-Orozco": {
+    "name": "Adrian Flores-Orozco",
+    "openalex_id": "A5036821893",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 217,
+    "cited_by_count": 2884,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Halliburton (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "GeoInformation (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2020
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Universidad de las Américas",
+        "country": "MX",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "University Professor for Geophysics. h-Index: 29 | Publikationen: 217 | Zitierungen: 2884. Forschungstätigkeit u.a. in Österreich, Deutschland, Kanada, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Iva Kovacic": {
+    "name": "Iva Kovacic",
+    "openalex_id": "A5060873447",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 139,
+    "cited_by_count": 2211,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Copenhagen",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Zagreb",
+        "country": "HR",
+        "type": "education",
+        "years": [
+          2025,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Adventist University of the Philippines",
+        "country": "PH",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Philippine Medical Association",
+        "country": "PH",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Integral Planning. h-Index: 24 | Publikationen: 139 | Zitierungen: 2211. Forschungstätigkeit u.a. in Dänemark, Österreich, HR, PH.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Eduard Gröller": {
+    "name": "Eduard Gröller",
+    "openalex_id": "A5110321988",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 199,
+    "cited_by_count": 3782,
+    "h_index": 35,
+    "last_known_institutions": [
+      {
+        "name": "VRVis GmbH (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1992
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          1996
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Science and Technology",
+        "country": "YE",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Johannes Kepler University of Linz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Visualization. h-Index: 35 | Publikationen: 199 | Zitierungen: 3782. Forschungstätigkeit u.a. in YE, Österreich, Belgien, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Peter Knees": {
+    "name": "Peter Knees",
+    "openalex_id": "A5079362815",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 162,
+    "cited_by_count": 2399,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Research Institute for Artificial Intelligence",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Statistics Austria",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Georgia Institute of Technology",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "SBA Research",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor of Information Processing and Retrieval. h-Index: 28 | Publikationen: 162 | Zitierungen: 2399. Forschungstätigkeit u.a. in Österreich, USA, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christian Ott": {
+    "name": "Christian Ott",
+    "openalex_id": "A5048539897",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 450,
+    "cited_by_count": 15017,
+    "h_index": 60,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2014,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007,
+          2006,
+          2004,
+          2003,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Kreativno Edukativni Centar",
+        "country": "RS",
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2022
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Robotics. h-Index: 60 | Publikationen: 450 | Zitierungen: 15017. Forschungstätigkeit u.a. in Italien, Russland, Österreich, Israel.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas Müller": {
+    "name": "Thomas Müller",
+    "openalex_id": "A5107841038",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 1733,
+    "cited_by_count": 87077,
+    "h_index": 117,
+    "last_known_institutions": [
+      {
+        "name": "Max Planck Institute for Extraterrestrial Physics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2022,
+          2018,
+          2015,
+          2003
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Leibniz Institute for Tropospheric Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2019,
+          2017
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Karlsruhe Institute of Technology",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1996
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Springer Nature (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2013,
+          2012
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "A. Alikhanyan National Laboratory",
+        "country": "AM",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Two-dimensional Optoelectronics. h-Index: 117 | Publikationen: 1733 | Zitierungen: 87077. Forschungstätigkeit u.a. in Frankreich, Deutschland, USA, Spanien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Max Planck Institute for Extraterrestrial Physics",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Tobias Fiebig": {
+    "name": "Tobias Fiebig",
+    "openalex_id": "A5067666349",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 54,
+    "cited_by_count": 651,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ministry of Infrastructures and Transport",
+        "country": "IT",
+        "type": "government",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Planck Institute for Informatics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Delft University of Technology",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "University of Trento",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Computer Networks. h-Index: 14 | Publikationen: 54 | Zitierungen: 651. Forschungstätigkeit u.a. in Österreich, USA, Italien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Laura Kovacs": {
+    "name": "Laura Kovacs",
+    "openalex_id": "A5071158512",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 210,
+    "cited_by_count": 2243,
+    "h_index": 21,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Liverpool",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Chalmers University of Technology",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Eötvös Loránd University",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "University Professor for Automated Program Reasoning. h-Index: 21 | Publikationen: 210 | Zitierungen: 2243. Forschungstätigkeit u.a. in Ungarn, Österreich, Großbritannien, Rumänien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Juri Troy": {
+    "name": "Juri Troy",
+    "openalex_id": "A5137235114",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "University Professor for Timber Construction and Design.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Harald Stühlinger": {
+    "name": "Harald Stühlinger",
+    "openalex_id": "A5072871922",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 10,
+    "cited_by_count": 4,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "University Professor of Art History. h-Index: 1 | Publikationen: 10 | Zitierungen: 4.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Manuela Waldner": {
+    "name": "Manuela Waldner",
+    "openalex_id": "A5061106600",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 71,
+    "cited_by_count": 659,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Center for Usability Research and Engineering",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Graz University of Technology",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2012
+      },
+      {
+        "name": "Institute of Computer Vision and Applied Computer Sciences",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2010,
+          2008
+        ],
+        "most_recent": 2010
+      }
+    ],
+    "bio_text": "Associate Professor for Interactive Data Analysis & Visualization. h-Index: 13 | Publikationen: 71 | Zitierungen: 659. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas Pohl": {
+    "name": "Thomas Pohl",
+    "openalex_id": "A5045218165",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 174,
+    "cited_by_count": 16299,
+    "h_index": 50,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Forschungszentrum Telekommunikation Wien",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "TU Bergakademie Freiberg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2014,
+          2009
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Theory of Light Matter Interaction. h-Index: 50 | Publikationen: 174 | Zitierungen: 16299. Forschungstätigkeit u.a. in Österreich, USA, Frankreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Susann Ahn": {
+    "name": "Susann Ahn",
+    "openalex_id": "A5082826508",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 22,
+    "cited_by_count": 7,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Faculty of Design",
+        "country": "SI",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "und Univ.Prof. Dr.-Ing. Thomas E. HAUCK , University Professor for Landscape Architecture and Landscape Planning. h-Index: 1 | Publikationen: 22 | Zitierungen: 7. Forschungstätigkeit u.a. in Österreich, SI.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Florian Toth": {
+    "name": "Florian Toth",
+    "openalex_id": "A5006305640",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 98,
+    "cited_by_count": 1485,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Osmotica Pharmaceutical (Hungary)",
+        "country": "HU",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Slovak University of Agriculture in Nitra",
+        "country": "SK",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Budapest University of Economics and Business",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Budapest University of Technology and Economics",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Associate Professor of Modeling and Simulation of Mechatronic Systems. h-Index: 16 | Publikationen: 98 | Zitierungen: 1485. Forschungstätigkeit u.a. in Ungarn, Österreich, Slowakei, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dominik Bork": {
+    "name": "Dominik Bork",
+    "openalex_id": "A5035025930",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 155,
+    "cited_by_count": 1125,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Université du Québec à Rimouski",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Technology Sydney",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "The University of Melbourne",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Associate Professor for Business Systems Engineering. h-Index: 16 | Publikationen: 155 | Zitierungen: 1125. Forschungstätigkeit u.a. in Australien, Österreich, Deutschland, Kanada.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stavros Papadokonstantakis": {
+    "name": "Stavros Papadokonstantakis",
+    "openalex_id": "A5046686253",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 111,
+    "cited_by_count": 2118,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bioscience (China)",
+        "country": "CN",
+        "type": "company",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Chalmers University of Technology",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "ETH Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Institute for Biomedical Engineering",
+        "country": "CH",
+        "type": "facility",
+        "years": [
+          2016,
+          2013
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "University Professor for Systems Process Engineering. h-Index: 25 | Publikationen: 111 | Zitierungen: 2118. Forschungstätigkeit u.a. in Österreich, Griechenland, Schweiz, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Franziska Sielker": {
+    "name": "Franziska Sielker",
+    "openalex_id": "A5028101760",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 65,
+    "cited_by_count": 617,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "Institute for Urban and Regional Research",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Architecture and Urban & Spatial Planning of Serbia",
+        "country": "RS",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Cambridge",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2018
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "The Cambridge Centre for Advanced Research and Education in Singapore",
+        "country": "SG",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Urban and Regional Research. h-Index: 15 | Publikationen: 65 | Zitierungen: 617. Forschungstätigkeit u.a. in Österreich, Deutschland, Großbritannien, SG.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Viktor Sverdlov": {
+    "name": "Viktor Sverdlov",
+    "openalex_id": "A5023885831",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 393,
+    "cited_by_count": 2344,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "RWTH Aachen University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Ioffe Institute",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2020,
+          2019,
+          2018,
+          2013,
+          2010,
+          2008
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Associate Professor for Magnetoresistive Devices. h-Index: 22 | Publikationen: 393 | Zitierungen: 2344. Forschungstätigkeit u.a. in Schweiz, Österreich, USA, Russland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Georg Steinhauser": {
+    "name": "Georg Steinhauser",
+    "openalex_id": "A5056506988",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 233,
+    "cited_by_count": 5486,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Research Institute of Synthetic Fiber with the Pilot Plant",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Leibniz University Hannover",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2012
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Los Alamos National Laboratory",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Tsukuba",
+        "country": "JP",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Applied Radiochemistry. h-Index: 33 | Publikationen: 233 | Zitierungen: 5486. Forschungstätigkeit u.a. in Deutschland, Österreich, USA, Japan.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ute Schneider": {
+    "name": "Ute Schneider",
+    "openalex_id": "A5041152630",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 34,
+    "cited_by_count": 1861,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Max Perutz Labs",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Fraunhofer Institute for Molecular Biology and Applied Ecology",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2020,
+          2019,
+          2015
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "University Professor for Urban Planning. h-Index: 22 | Publikationen: 34 | Zitierungen: 1861. Forschungstätigkeit u.a. in Österreich, Deutschland, Japan, Schweiz.",
+    "herkunft": "extern",
+    "herkunft_institution": "Ludwig-Maximilians-Universität München",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Henderik Proper": {
+    "name": "Henderik Proper",
+    "openalex_id": "A5013301538",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 455,
+    "cited_by_count": 5630,
+    "h_index": 38,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Utrecht",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Luxembourg Institute of Science and Technology",
+        "country": "LU",
+        "type": "nonprofit",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Association for Computing Machinery",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2021,
+          2009
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "University of Luxembourg",
+        "country": "LU",
+        "type": "education",
+        "years": [
+          2021,
+          2020,
+          2019,
+          2018,
+          2014,
+          2005
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "University Professor for Enterprise and Process Engineering. h-Index: 38 | Publikationen: 455 | Zitierungen: 5630. Forschungstätigkeit u.a. in Niederlande, USA, Österreich, Belgien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stefan Löffler": {
+    "name": "Stefan Löffler",
+    "openalex_id": "A5039818381",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 116,
+    "cited_by_count": 1959,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Christian-Albrechts-Universität zu Kiel",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "McMaster University",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Georgi Nadjakov Institute of Solid State Physics",
+        "country": "BG",
+        "type": "facility",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Associate Professor of Electron Microscopy for Material Characterization (USTEM). h-Index: 24 | Publikationen: 116 | Zitierungen: 1959. Forschungstätigkeit u.a. in Frankreich, Österreich, Deutschland, Bulgarien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Michael Pinsker": {
+    "name": "Michael Pinsker",
+    "openalex_id": "A5070658141",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 1061,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2010,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Charles University",
+        "country": "CZ",
+        "type": "education",
+        "years": [
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Gesellschaft Fur Mathematik Und Datenverarbeitung",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Center for Discrete Mathematics and Theoretical Computer Science",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Délégation Paris 7",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2014,
+          2011,
+          2010
+        ],
+        "most_recent": 2014
+      }
+    ],
+    "bio_text": "University Professor of Algebra. h-Index: 17 | Publikationen: 124 | Zitierungen: 1061. Forschungstätigkeit u.a. in Japan, Frankreich, Österreich, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Elena Andreeva": {
+    "name": "Elena Andreeva",
+    "openalex_id": "A5005103811",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 246,
+    "cited_by_count": 2407,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "Institute of Informatics Problems",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Biomedical Problems",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2000
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Russian Medical Academy of Continuous Professional Education",
+        "country": "RU",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Moscow Regional Research Institute of Obstetrics and Gynecology",
+        "country": "RU",
+        "type": "healthcare",
+        "years": [
+          2024,
+          2019,
+          2016
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Research Institute of Medical Genetics of Russian Academy of Medical Sciences",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Associate Professor for Symmetric Cryptography. h-Index: 24 | Publikationen: 246 | Zitierungen: 2407. Forschungstätigkeit u.a. in Großbritannien, Russland, Estland, Italien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Institute of Informatics Problems",
+    "herkunft_land": "Russland",
+    "grants": []
+  },
+  "Stefanie Elgeti": {
+    "name": "Stefanie Elgeti",
+    "openalex_id": "A5056001486",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 133,
+    "cited_by_count": 656,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "RWTH Aachen University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Biomechanics Institute of Valencia",
+        "country": "ES",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Jülich Aachen Research Alliance",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "FH Aachen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "University Professor for Lightweight Construction. h-Index: 14 | Publikationen: 133 | Zitierungen: 656. Forschungstätigkeit u.a. in Österreich, Spanien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Spasoje Miric": {
+    "name": "Spasoje Miric",
+    "openalex_id": "A5068863831",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 45,
+    "cited_by_count": 499,
+    "h_index": 12,
+    "last_known_institutions": [
+      {
+        "name": "Universität Innsbruck",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Tirol Kliniken",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "ETH Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Belgrade",
+        "country": "RS",
+        "type": "education",
+        "years": [
+          2017,
+          2014
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "University Professor for Electromagnetic Energy Converters and Drive Systems. h-Index: 12 | Publikationen: 45 | Zitierungen: 499. Forschungstätigkeit u.a. in Österreich, Schweiz, RS.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Innsbruck",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Wolfgang Kastner": {
+    "name": "Wolfgang Kastner",
+    "openalex_id": "A5089919338",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 469,
+    "cited_by_count": 5718,
+    "h_index": 34,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universität für Weiterbildung Krems",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "École Nationale des Greffes",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Zuyderland Medisch Centrum",
+        "country": "NL",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Institute of Automation",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2023,
+          2020,
+          2017,
+          2015,
+          2000
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Industrial Internet of Things. h-Index: 34 | Publikationen: 469 | Zitierungen: 5718. Forschungstätigkeit u.a. in Österreich, Deutschland, USA, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stefan Woltran": {
+    "name": "Stefan Woltran",
+    "openalex_id": "A5006053030",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 386,
+    "cited_by_count": 4983,
+    "h_index": 35,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2015,
+          2013,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2005,
+          2004,
+          2003
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Research Institute for Artificial Intelligence",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2018,
+          2015,
+          2014,
+          2013,
+          2012,
+          2008
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Information Science",
+        "country": "SI",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2013,
+          2012,
+          2010
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Technische Universität Dresden",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "University Professor for Formal Foundations of Artificial Intelligence. h-Index: 35 | Publikationen: 386 | Zitierungen: 4983. Forschungstätigkeit u.a. in Österreich, SI, Deutschland, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Yury Vetyukov": {
+    "name": "Yury Vetyukov",
+    "openalex_id": "A5010331411",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 91,
+    "cited_by_count": 990,
+    "h_index": 18,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2018,
+          2015
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Johannes Kepler University of Linz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2006,
+          2004,
+          2003
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Linz Center of Mechatronics (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2013,
+          2012,
+          2011,
+          2010
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Peter the Great St. Petersburg Polytechnic University",
+        "country": "RU",
+        "type": "education",
+        "years": [
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "University Professor for Mechanics of Solid Bodies. h-Index: 18 | Publikationen: 91 | Zitierungen: 990. Forschungstätigkeit u.a. in Österreich, Russland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Marcus Huber": {
+    "name": "Marcus Huber",
+    "openalex_id": "A5027058735",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 231,
+    "cited_by_count": 9018,
+    "h_index": 54,
+    "last_known_institutions": [
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          1991
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute for Quantum Optics and Quantum Information Innsbruck",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Center for Quantum Science and Technology",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "country": "CN",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "University Professor for Quantum Information and Quantum Dynamics. h-Index: 54 | Publikationen: 231 | Zitierungen: 9018. Forschungstätigkeit u.a. in Schweiz, Spanien, China, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Josef Füssl": {
+    "name": "Josef Füssl",
+    "openalex_id": "A5067753473",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 139,
+    "cited_by_count": 2526,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2017,
+          2014
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor for Structural Simulation and Timber Engineering. h-Index: 30 | Publikationen: 139 | Zitierungen: 2526.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Gottfried Mandlburger": {
+    "name": "Gottfried Mandlburger",
+    "openalex_id": "A5058420677",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 128,
+    "cited_by_count": 2696,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "GeoInformation (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2015
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Stuttgart",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2012,
+          2009,
+          2006
+        ],
+        "most_recent": 2012
+      }
+    ],
+    "bio_text": "University Professor for Optical Bathymetry. h-Index: 29 | Publikationen: 128 | Zitierungen: 2696. Forschungstätigkeit u.a. in Deutschland, Österreich, USA, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Günther Zeck": {
+    "name": "Günther Zeck",
+    "openalex_id": "A5074252745",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 108,
+    "cited_by_count": 2770,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Natural and Medical Sciences Institute",
+        "country": "DE",
+        "type": "other",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2011
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Tübingen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2011
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Institute of Electrodynamics",
+        "country": "UA",
+        "type": "facility",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "University Professor for Biomedical Electronics and Systems. h-Index: 29 | Publikationen: 108 | Zitierungen: 2770. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Ukraine.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christian Schranz": {
+    "name": "Christian Schranz",
+    "openalex_id": "A5030723911",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 53,
+    "cited_by_count": 631,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2005,
+          2002
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of South Carolina",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Ralph H. Johnson VA Medical Center",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Associate Professor for Modeling of Building Structures and Building Processes. h-Index: 14 | Publikationen: 53 | Zitierungen: 631. Forschungstätigkeit u.a. in Frankreich, Österreich, USA, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Florian Michahelles": {
+    "name": "Florian Michahelles",
+    "openalex_id": "A5011192485",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 225,
+    "cited_by_count": 5335,
+    "h_index": 36,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hagen (Norway)",
+        "country": "NO",
+        "type": "company",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Intel (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Siemens (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2019,
+          2018,
+          2017,
+          2015,
+          2014
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Ubiquitous Computing. h-Index: 36 | Publikationen: 225 | Zitierungen: 5335. Forschungstätigkeit u.a. in Deutschland, USA, Österreich, Schweiz.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Fabio Toninelli": {
+    "name": "Fabio Toninelli",
+    "openalex_id": "A5012730394",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 130,
+    "cited_by_count": 1964,
+    "h_index": 26,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Statistics Austria",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Institut Camille Jordan",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2022,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2010
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Durham University",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "University Professor for Mathematical Stochastics. h-Index: 26 | Publikationen: 130 | Zitierungen: 1964. Forschungstätigkeit u.a. in Frankreich, USA, Österreich, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Peter Ertl": {
+    "name": "Peter Ertl",
+    "openalex_id": "A5025468315",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 206,
+    "cited_by_count": 15137,
+    "h_index": 44,
+    "last_known_institutions": [
+      {
+        "name": "The Eden Rivers Trust",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2022,
+          1994
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hohenstein Institute",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ernst Basler + Partner (Switzerland)",
+        "country": "CH",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Novartis (Switzerland)",
+        "country": "CH",
+        "type": "company",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2000,
+          1998,
+          1997
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Lab-on-a-Chip Systems in Bioscience Technologies. h-Index: 44 | Publikationen: 206 | Zitierungen: 15137. Forschungstätigkeit u.a. in Slowakei, Schweiz, Österreich, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Robert Ganian": {
+    "name": "Robert Ganian",
+    "openalex_id": "A5088116512",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 232,
+    "cited_by_count": 1296,
+    "h_index": 18,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Schloss Dagstuhl – Leibniz Center for Informatics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Wienerberger (Czechia)",
+        "country": "CZ",
+        "type": "company",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Computer Algorithms for Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2021,
+          2015
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Associate Professor for Algorithmus and Complexity in Artificial Intelligence. h-Index: 18 | Publikationen: 232 | Zitierungen: 1296. Forschungstätigkeit u.a. in Deutschland, Österreich, Tschechien, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Karl Kirchner": {
+    "name": "Karl Kirchner",
+    "openalex_id": "A5047476885",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 871,
+    "cited_by_count": 11418,
+    "h_index": 58,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1993,
+          1988
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "State Key Laboratory of Synthetic Chemistry",
+        "country": "CN",
+        "type": "facility",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Apple (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021,
+          2019
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Austrian Economics Center",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2018,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "University Professor for Base Metal Catalysis. h-Index: 58 | Publikationen: 871 | Zitierungen: 11418. Forschungstätigkeit u.a. in Polen, Österreich, Frankreich, Japan.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Franz Winter": {
+    "name": "Franz Winter",
+    "openalex_id": "A5023591198",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 271,
+    "cited_by_count": 5088,
+    "h_index": 42,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1997,
+          1996
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2016,
+          2005,
+          2004,
+          2002,
+          2000
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Bioscience (China)",
+        "country": "CN",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Graz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2021
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Themis Bioscience (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Thermochemical Process Engineering. h-Index: 42 | Publikationen: 271 | Zitierungen: 5088. Forschungstätigkeit u.a. in USA, Österreich, Kanada, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Lado Filipovic": {
+    "name": "Lado Filipovic",
+    "openalex_id": "A5083434497",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 142,
+    "cited_by_count": 1004,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "ON Semiconductor (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Sensors (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2025,
+          2023
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Research Institute of Semiconductor Devices",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Semiconductors",
+        "country": "CN",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Associate Professor for Modeling and Simulation of Integrable Semiconductor Sensors. h-Index: 16 | Publikationen: 142 | Zitierungen: 1004. Forschungstätigkeit u.a. in USA, Österreich, Russland, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Uwe Wilhelm Drofenik": {
+    "name": "Uwe Wilhelm Drofenik",
+    "_openalex": "not found"
+  },
+  "Philipp Haslinger": {
+    "name": "Philipp Haslinger",
+    "openalex_id": "A5089777650",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 84,
+    "cited_by_count": 1803,
+    "h_index": 18,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Center for Quantum Science and Technology",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2016,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Allergiezentrum Wien West",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Centre for Electron Microscopy and Nanoanalysis",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of California, Berkeley",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Associate Professor of Atomic Interferometry. h-Index: 18 | Publikationen: 84 | Zitierungen: 1803. Forschungstätigkeit u.a. in Österreich, Australien, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Marcin Lis": {
+    "name": "Marcin Lis",
+    "openalex_id": "A5049428250",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 155,
+    "cited_by_count": 741,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "University of Agriculture in Krakow",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Łukasiewicz Research Network - Institute of Non-Ferrous Metals",
+        "country": "PL",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Łukasiewicz Research Network",
+        "country": "PL",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2021
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Silesian University of Technology",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Animal Welfare Institute",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2019,
+          2016
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Associate Professor for Probability Theory. h-Index: 13 | Publikationen: 155 | Zitierungen: 741. Forschungstätigkeit u.a. in Polen, Kanada, USA, Tschechien.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Agriculture in Krakow",
+    "herkunft_land": "Polen",
+    "grants": []
+  },
+  "Aris Daniilidis": {
+    "name": "Aris Daniilidis",
+    "openalex_id": "A5052741067",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 115,
+    "cited_by_count": 2869,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Statistics Austria",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Indian Institute of Information Technology Vadodara",
+        "country": "IN",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Center for Mathematical Modeling",
+        "country": "CL",
+        "type": "facility",
+        "years": [
+          2021,
+          2020,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "opens in new window , University Professor for Operations Research. h-Index: 24 | Publikationen: 115 | Zitierungen: 2869. Forschungstätigkeit u.a. in Österreich, CL, Spanien, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stefan Baudis": {
+    "name": "Stefan Baudis",
+    "openalex_id": "A5087078175",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 108,
+    "cited_by_count": 2228,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Macromolecular Chemistry",
+        "country": "UA",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BioSurfaces (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Cluster for Tissue Regeneration",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Associate Professor of Functional Polymer Materials for Medical Technology. h-Index: 25 | Publikationen: 108 | Zitierungen: 2228. Forschungstätigkeit u.a. in Österreich, Deutschland, Ukraine, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Rene Hofmann": {
+    "name": "Rene Hofmann",
+    "openalex_id": "A5027482942",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 130,
+    "cited_by_count": 1630,
+    "h_index": 20,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Wienerberger (Czechia)",
+        "country": "CZ",
+        "type": "company",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Lucerne University of Applied Sciences and Arts",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Austrian Institute of Technology",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Austrian Economics Center",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "University Professor for Industrial Energy Systems. h-Index: 20 | Publikationen: 130 | Zitierungen: 1630. Forschungstätigkeit u.a. in Österreich, USA, Tschechien, Schweiz.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martin Goldstern": {
+    "name": "Martin Goldstern",
+    "openalex_id": "A5067501710",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 117,
+    "cited_by_count": 670,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2009,
+          2008,
+          2006,
+          2004,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1987
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "International Paper (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          1997
+        ],
+        "most_recent": 1997
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          1996
+        ],
+        "most_recent": 1996
+      },
+      {
+        "name": "Berlin Mathematical School",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          1996,
+          1994,
+          1993
+        ],
+        "most_recent": 1996
+      },
+      {
+        "name": "Freie Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          1996,
+          1994,
+          1993
+        ],
+        "most_recent": 1996
+      }
+    ],
+    "bio_text": "University Professor of Mathematics. h-Index: 13 | Publikationen: 117 | Zitierungen: 670. Forschungstätigkeit u.a. in Österreich, USA, Israel, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Julia Derx": {
+    "name": "Julia Derx",
+    "openalex_id": "A5023356616",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 88,
+    "cited_by_count": 1007,
+    "h_index": 19,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2010
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Gesundheit Österreich",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Interuniversity Cooperation Centre Water & Health",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bundesamt für Wasserwirtschaft",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "State Key Laboratory of Hydrology Water Resources and Hydraulic Engineering",
+        "country": "CN",
+        "type": "facility",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Associate Professor of Groundwater Management. h-Index: 19 | Publikationen: 88 | Zitierungen: 1007. Forschungstätigkeit u.a. in Österreich, China, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Maria Magdalena Ortiz De La Fuente": {
+    "name": "Maria Magdalena Ortiz De La Fuente",
+    "_openalex": "not found"
+  },
+  "Andreas Limbeck": {
+    "name": "Andreas Limbeck",
+    "openalex_id": "A5036970781",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 291,
+    "cited_by_count": 8215,
+    "h_index": 47,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2001,
+          1999
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Wienerberger (Czechia)",
+        "country": "CZ",
+        "type": "company",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Information Technologies",
+        "country": "BG",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "National Institute of Chemistry",
+        "country": "SI",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Semmelweis University",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "University Professor of Analytical Chemistry of Materials. h-Index: 47 | Publikationen: 291 | Zitierungen: 8215. Forschungstätigkeit u.a. in Ungarn, Japan, Österreich, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Nysret Musliu": {
+    "name": "Nysret Musliu",
+    "openalex_id": "A5084546772",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 186,
+    "cited_by_count": 1675,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Arts Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2004
+        ],
+        "most_recent": 2004
+      }
+    ],
+    "bio_text": "Associate Professor of AI Methods and Computational Optimization. h-Index: 22 | Publikationen: 186 | Zitierungen: 1675.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Victor Weiss": {
+    "name": "Victor Weiss",
+    "_openalex": "not found"
+  },
+  "Michael Schneider": {
+    "name": "Michael Schneider",
+    "_openalex": "not found"
+  },
+  "Emanuela Bianchi": {
+    "name": "Emanuela Bianchi",
+    "_openalex": "not found"
+  },
+  "Siegfried Krainer": {
+    "name": "Siegfried Krainer",
+    "_openalex": "not found"
+  },
+  "Dieter Pahr": {
+    "name": "Dieter Pahr",
+    "_openalex": "not found"
+  },
+  "Oliver Englhardt": {
+    "name": "Oliver Englhardt",
+    "_openalex": "not found"
+  },
+  "Josef Weinbub": {
+    "name": "Josef Weinbub",
+    "_openalex": "not found"
+  },
+  "Peter Weinberger": {
+    "name": "Peter Weinberger",
+    "_openalex": "not found"
+  },
+  "Benedikt Schwarz": {
+    "name": "Benedikt Schwarz",
+    "_openalex": "not found"
+  },
+  "Peter Mörtenböck": {
+    "name": "Peter Mörtenböck",
+    "_openalex": "not found"
+  },
+  "Katja Hose": {
+    "name": "Katja Hose",
+    "_openalex": "not found"
+  },
+  "Stefan Gerhold": {
+    "name": "Stefan Gerhold",
+    "_openalex": "not found"
+  },
+  "Dieter Grebe": {
+    "name": "Dieter Grebe",
+    "_openalex": "not found"
+  },
+  "Gareth Parkinson": {
+    "name": "Gareth Parkinson",
+    "_openalex": "not found"
+  },
+  "Martina Marchetti-Deschmann": {
+    "name": "Martina Marchetti-Deschmann",
+    "_openalex": "not found"
+  },
+  "Pier Paolo Tamburelli": {
+    "name": "Pier Paolo Tamburelli",
+    "_openalex": "not found"
+  },
+  "Allan Hanbury": {
+    "name": "Allan Hanbury",
+    "_openalex": "not found"
+  },
+  "Alexander Grüneis": {
+    "name": "Alexander Grüneis",
+    "_openalex": "not found"
+  },
+  "Bernd Klöckl": {
+    "name": "Bernd Klöckl",
+    "_openalex": "not found"
+  },
+  "Andreas Farnleitner": {
+    "name": "Andreas Farnleitner",
+    "_openalex": "not found"
+  },
+  "Stefan Schwarz": {
+    "name": "Stefan Schwarz",
+    "_openalex": "not found"
+  },
+  "Hannes Mikula": {
+    "name": "Hannes Mikula",
+    "_openalex": "not found"
+  },
+  "Georg Weissenbacher": {
+    "name": "Georg Weissenbacher",
+    "_openalex": "not found"
+  },
+  "Ariane Sept": {
+    "name": "Ariane Sept",
+    "_openalex": "not found"
+  },
+  "Thomas Konegger": {
+    "name": "Thomas Konegger",
+    "_openalex": "not found"
+  },
+  "Aleksandr Ovsianikov": {
+    "name": "Aleksandr Ovsianikov",
+    "_openalex": "not found"
+  },
+  "Ivona Brandic": {
+    "name": "Ivona Brandic",
+    "_openalex": "not found"
+  },
+  "Wouter Arnoud Dorigo": {
+    "name": "Wouter Arnoud Dorigo",
+    "_openalex": "not found"
+  },
+  "Ezio Bartocci": {
+    "name": "Ezio Bartocci",
+    "_openalex": "not found"
+  },
+  "Ruth Birner-Grünberger": {
+    "name": "Ruth Birner-Grünberger",
+    "_openalex": "not found"
+  },
+  "Wolfgang Güttel": {
+    "name": "Wolfgang Güttel",
+    "_openalex": "not found"
+  },
+  "Sabine Andergassen": {
+    "name": "Sabine Andergassen",
+    "_openalex": "not found"
+  },
+  "Bernhard Semlitsch": {
+    "name": "Bernhard Semlitsch",
+    "_openalex": "not found"
+  },
+  "Sandra Müller": {
+    "name": "Sandra Müller",
+    "_openalex": "not found"
+  },
+  "Tim Langen": {
+    "name": "Tim Langen",
+    "_openalex": "not found"
+  },
+  "Bernhard Pichler": {
+    "name": "Bernhard Pichler",
+    "_openalex": "not found"
+  },
+  "Frank Lulei": {
+    "name": "Frank Lulei",
+    "_openalex": "not found"
+  },
+  "Philipp Preinstorfer": {
+    "name": "Philipp Preinstorfer",
+    "_openalex": "not found"
+  },
+  "Elisa Davoli": {
+    "name": "Elisa Davoli",
+    "_openalex": "not found"
+  },
+  "Kevin Sturm": {
+    "name": "Kevin Sturm",
+    "_openalex": "not found"
+  },
+  "Benedikt Stufler": {
+    "name": "Benedikt Stufler",
+    "_openalex": "not found"
+  },
+  "Tibor Grasser": {
+    "name": "Tibor Grasser",
+    "_openalex": "not found"
+  },
+  "Manuel Garcia-Villalba Navaridas": {
+    "name": "Manuel Garcia-Villalba Navaridas",
+    "_openalex": "not found"
+  },
+  "Katharina Schröder": {
+    "name": "Katharina Schröder",
+    "_openalex": "not found"
+  },
+  "Christian Müller": {
+    "name": "Christian Müller",
+    "_openalex": "not found"
+  },
+  "Jessica Cauchard": {
+    "name": "Jessica Cauchard",
+    "_openalex": "not found"
+  },
+  "Ivan Izmestiev": {
+    "name": "Ivan Izmestiev",
+    "_openalex": "not found"
+  },
+  "Thomas Gärtner": {
+    "name": "Thomas Gärtner",
+    "_openalex": "not found"
+  },
+  "Nawid Siassi": {
+    "name": "Nawid Siassi",
+    "_openalex": "not found"
+  },
+  "Docteur Georg Fuchsbauer": {
+    "name": "Docteur Georg Fuchsbauer",
+    "_openalex": "not found"
+  },
+  "Raquel De Oro Calderon": {
+    "name": "Raquel De Oro Calderon",
+    "_openalex": "not found"
+  },
+  "Kurt Matyas": {
+    "name": "Kurt Matyas",
+    "_openalex": "not found"
+  },
+  "Carsten Gachot": {
+    "name": "Carsten Gachot",
+    "_openalex": "not found"
+  },
+  "Golta Khatibi Damavandi": {
+    "name": "Golta Khatibi Damavandi",
+    "_openalex": "not found"
+  },
+  "Michael Wimmer": {
+    "name": "Michael Wimmer",
+    "_openalex": "not found"
+  },
+  "Mate Gerencser": {
+    "name": "Mate Gerencser",
+    "_openalex": "not found"
+  },
+  "Daniel Müller-Gritschneder": {
+    "name": "Daniel Müller-Gritschneder",
+    "_openalex": "not found"
+  },
+  "Florian Libisch": {
+    "name": "Florian Libisch",
+    "_openalex": "not found"
+  },
+  "Michael Waltl": {
+    "name": "Michael Waltl",
+    "_openalex": "not found"
+  },
+  "Paweł Woźniak": {
+    "name": "Paweł Woźniak",
+    "_openalex": "not found"
+  },
+  "Albana Ilo": {
+    "name": "Albana Ilo",
+    "_openalex": "not found"
+  },
+  "Astrid Mach-Aigner": {
+    "name": "Astrid Mach-Aigner",
+    "_openalex": "not found"
+  },
+  "Martin Berens": {
+    "name": "Martin Berens",
+    "_openalex": "not found"
+  },
+  "Matthias Steiger": {
+    "name": "Matthias Steiger",
+    "_openalex": "not found"
+  },
+  "Kristina Orehounig": {
+    "name": "Kristina Orehounig",
+    "_openalex": "not found"
+  },
+  "Martina Lindorfer": {
+    "name": "Martina Lindorfer",
+    "_openalex": "not found"
+  },
+  "Amalio Fernandez-Pacheco Chicon": {
+    "name": "Amalio Fernandez-Pacheco Chicon",
+    "_openalex": "not found"
+  },
+  "Aaron Maxwell Andrews": {
+    "name": "Aaron Maxwell Andrews",
+    "_openalex": "not found"
+  },
+  "Melanie Todt": {
+    "name": "Melanie Todt",
+    "_openalex": "not found"
+  },
+  "Dongheui Lee": {
+    "name": "Dongheui Lee",
+    "_openalex": "not found"
+  },
+  "Fazel Ansari Chaharsoughi": {
+    "name": "Fazel Ansari Chaharsoughi",
+    "_openalex": "not found"
+  },
+  "Jiehua Chen": {
+    "name": "Jiehua Chen",
+    "_openalex": "not found"
+  },
+  "Jürgen Cito": {
+    "name": "Jürgen Cito",
+    "_openalex": "not found"
+  },
+  "Richard Arthur Wilhelm": {
+    "name": "Richard Arthur Wilhelm",
+    "_openalex": "not found"
+  },
+  "Michael Feischl": {
+    "name": "Michael Feischl",
+    "_openalex": "not found"
+  },
+  "Georg Fuchsbauer": {
+    "name": "Georg Fuchsbauer",
+    "_openalex": "not found"
   }
 }

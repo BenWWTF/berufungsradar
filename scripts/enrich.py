@@ -202,6 +202,61 @@ TUWIEN_ECODE = {
 # academic titles (Univ.Prof., Dr., etc.) are stripped first.
 
 NAME_GENDER = {
+    # Ergänzt für den Backfill 2019–2026 (TU Wien)
+    "albana": "W",
+    "amela": "W",
+    "angelika": "W",
+    "ariane": "W",
+    "azra": "W",
+    "bojana": "W",
+    "dongheui": "W",
+    "ekaterina": "W",
+    "emanuela": "W",
+    "golta": "W",
+    "heike": "W",
+    "iva": "W",
+    "ivona": "W",
+    "jessica": "W",
+    "katja": "W",
+    "maricruz": "W",
+    "raquel": "W",
+    "susann": "W",
+    "aaron": "M",
+    "adrian": "M",
+    "aleix": "M",
+    "aleksandr": "M",
+    "allan": "M",
+    "amalio": "M",
+    "emanuel": "M",
+    "erwin": "M",
+    "ezio": "M",
+    "fabio": "M",
+    "fazel": "M",
+    "gareth": "M",
+    "georg": "M",
+    "gerald": "M",
+    "guenther": "M",
+    "günther": "M",
+    "hannes": "M",
+    "henderik": "M",
+    "hinrich": "M",
+    "ivan": "M",
+    "juri": "M",
+    "lado": "M",
+    "marcin": "M",
+    "nawid": "M",
+    "nysret": "M",
+    "pawel": "M",
+    "paweł": "M",
+    "pier": "M",
+    "spasoje": "M",
+    "stavros": "M",
+    "uwe": "M",
+    "victor": "M",
+    "viktor": "M",
+    "walter": "M",
+    "wouter": "M",
+    "yury": "M",
     # Female
     "elena": "W",
     "elena-maria": "W",
@@ -671,7 +726,7 @@ def stage2_geschlecht(data, dry=False):
     """Heuristic: 25 unknown → infer from first name."""
     changes = []
     for d in data:
-        if d.get("geschlecht") == "unbekannt":
+        if d.get("geschlecht") in (None, "", "unbekannt"):
             g = infer_geschlecht(d.get("name", ""))
             if g:
                 d["geschlecht"] = g

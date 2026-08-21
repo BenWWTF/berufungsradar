@@ -146,7 +146,10 @@ const VRG = __VRG__;
 
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
-const YEAR_COLORS = ["#0055A4", "#D97706", "#059669", "#7C3AED", "#DC2626", "#0891B2"];
+// Zwölf unterscheidbare Farben: bei zehn Jahresreihen dürfen sich keine
+// zwei Jahre dieselbe Farbe teilen.
+const YEAR_COLORS = ["#0055A4", "#D97706", "#059669", "#7C3AED", "#DC2626", "#0891B2",
+                     "#65A30D", "#DB2777", "#4338CA", "#B45309", "#0F766E", "#78716C"];
 let SELECTED_YEARS = new Set(YEARS);
 let VIEW = DATA.slice();
 
