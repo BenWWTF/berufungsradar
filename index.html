@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Berufungsradar Wien 2025</title>
+    <title>Berufungsradar Wien</title>
     <meta
       name="description"
       content="90 Professor:innen-Berufungen an 9 Wiener Universitäten 2025: Geschlecht, Herkunft, ÖFOS-Disziplinen, Mobilität und WWTF-Programmfelder. Ein Projekt des WWTF."
     />
-    <meta property="og:title" content="Berufungsradar Wien 2025" />
+    <meta property="og:title" content="Berufungsradar Wien" />
     <meta
       property="og:description"
       content="Interaktives Dashboard: Wer wurde 2025 an Wiener Universitäten berufen, woher kommen die Berufenen, welche Disziplinen sind vertreten?"
@@ -96,6 +96,12 @@
         font-weight: 700;
         letter-spacing: -0.3px;
       }
+      #site-header .period {
+        font-size: 0.82rem;
+        font-weight: 600;
+        margin-top: 4px;
+        color: #cfe0f0;
+      }
       #site-header .subtitle {
         font-size: 0.78rem;
         opacity: 0.72;
@@ -117,7 +123,7 @@
         background: var(--white);
         border-bottom: 2px solid var(--border);
         position: sticky;
-        top: 66px;
+        top: 86px;
         z-index: 90;
         overflow-x: auto;
         scrollbar-width: none;
@@ -769,9 +775,12 @@
     <header id="site-header">
       <div class="header-inner">
         <div>
-          <h1>Berufungsradar Wien 2025</h1>
+          <h1>Berufungsradar Wien</h1>
+          <div class="period" id="header-period">
+            Suchzeitraum: Berufungsjahr 2025 (1.&nbsp;Jänner&nbsp;–&nbsp;31.&nbsp;Dezember&nbsp;2025)
+          </div>
           <div class="subtitle" id="header-subtitle">
-            Wiener Universitäten · 9 Institutionen
+            9 Wiener Universitäten · Datenstand Juni 2026
           </div>
         </div>
         <div class="header-badge" id="header-badge">
@@ -914,7 +923,7 @@
           <p
             style="font-size: 0.83rem; color: var(--muted); margin-bottom: 4px"
           >
-            Berufungsradar Wien 2025 erfasst systematisch Berufungen an allen 9
+            Der Berufungsradar erfasst systematisch Berufungen an allen 9
             öffentlichen Wiener Universitäten. Datengrundlage: 90 Berufungen mit
             100% ÖFOS-Abdeckung.
           </p>
@@ -1192,7 +1201,7 @@
 
     <!-- ── Footer ──────────────────────────────────────────── -->
     <footer id="site-footer">
-      Berufungsradar Wien 2025 · WWTF · Datenquellen: Universitäts-Websites (TU
+      Berufungsradar Wien · WWTF · Datenquellen: Universitäts-Websites (TU
       Wien, Uni Wien, MedUni Wien, BOKU, WU Wien, mdw, Vetmeduni, Angewandte),
       OpenAlex ·
       <a
