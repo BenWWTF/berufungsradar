@@ -131,6 +131,9 @@ STICHWORT = [
     (r"sprachwissenschaft|linguistik|linguistic|literatur|literature|philolog|"
      r"translation|übersetzen|romanistik|germanistik|anglistik|slawistik", "602"),
     (r"philosoph|ethik|ethics|theolog|religionswissenschaft", "603"),
+    (r"kunsttheorie|kunstwissenschaft|art theory|architekturtheorie|"
+     r"designtheorie|medientheorie", "604"),
+    (r"pharmaceutical|pharmazie|pharmazeutische|biopharmac|arzneimittel|pharmakognosie", "304"),
     # Musikfächer: die mdw beruft auf Instrumente und Praxisfächer, nicht auf
     # Disziplinbezeichnungen. ÖFOS 604 deckt Kunst- und Musikwissenschaften ab.
     (r"violine|viola|violoncello|kontrabass|cello|geige|klavier|cembalo|orgel|"
@@ -146,7 +149,12 @@ STICHWORT = [
      r"musikdramatisch|szenisch|bühne|tanz|choreograf|film|fernsehen|"
      r"produktion|kamera|schnitt|drehbuch|kulturmanagement|"
      r"rollengestaltung|körperliche gestaltung|musikalische akustik|"
-     r"musikvermittlung|community music|ensemblearbeit", "604"),
+     r"musikvermittlung|community music|ensemblearbeit|"
+     r"transmediale kunst|museum studies|expanded museum|game cultures|"
+     r"game design|digitale kunst|medienkunst|bildhauerei|malerei|grafik|"
+     r"textil|modedesign|mode\b|kunst und kommunikative|künstlerische forschung|"
+     r"architekturentwurf|baukonstruktion|geometrie|"
+     r"künstlerische fotografie|fotografie", "604"),
     (r"kunstgeschichte|art history|kunstwissenschaft|musikwissenschaft|musicolog|"
      r"komposition|composition|dirigier|conducting|instrumental|gesang|voice|"
      r"schauspiel|acting|film|fotografie|photography|bildende kunst|fine art|"
