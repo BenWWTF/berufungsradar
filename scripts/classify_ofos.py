@@ -83,7 +83,8 @@ STICHWORT = [
     (r"biolog|biology|botanik|botany|zoolog|mikrobiolog|microbiolog|genetik|genetic|"
      r"ökolog|ecolog|evolution|biochem|molecular biolog|neurowissenschaft|neuroscience", "106"),
     # Technik
-    (r"bauingenieur|civil engineering|hochbau|tragwerk|structural|geotechn|"
+    (r"ingenieurwissenschaften \(bauwesen\)|bauwesen|"
+     r"bauingenieur|civil engineering|hochbau|tragwerk|structural|geotechn|"
      r"baustatik|baubetrieb|verkehr|transport|wasserbau|building construction|"
      r"bauphysik|holzbau|stahlbau|betonbau", "201"),
     (r"elektrotechnik|electrical engineering|elektronik|electronic|"
@@ -108,17 +109,23 @@ STICHWORT = [
     (r"veterinär|veterinary|tiermedizin|tierschutz|tierhaltung|animal welfare", "403"),
     # Sozialwissenschaften
     (r"psycholog", "501"),
+    (r"bildungsforschung|lehrerinnenbildung|lehrer\*innenbildung|hochschulforschung|"
+     r"fachdidaktik|schulpädagogik", "503"),
+    (r"european studies|europaforschung|europäische integration", "506"),
+    (r"limnolog|gewässer|aquatische|hydrobiolog", "105"),
     (r"betriebswirtschaft|volkswirtschaft|economics|business|management|"
      r"marketing|finanz|finance|accounting|rechnungswesen|controlling|"
      r"wirtschaftsinformatik|operations research", "502"),
     (r"bildungswissenschaft|erziehungswissenschaft|pädagogik|education|didaktik", "503"),
-    (r"soziolog|sociolog|sozialarbeit|social work|demograph", "504"),
+    (r"soziolog|sociolog|sozialarbeit|social work|demograph|demografie|"
+     r"sozialstrukturforschung|sozialpolitik|ungleichheitsforschung", "504"),
     (r"recht|law|jurisprudenz|kriminolog|criminolog|öffentliches recht|public law|"
      r"privatrecht|strafrecht|völkerrecht", "505"),
     (r"politikwissenschaft|political science|internationale beziehungen|governance", "506"),
     (r"raumplanung|spatial planning|regionalplanung|regional development|"
      r"stadtplanung|urban planning|geograph|spatial sociolog", "507"),
-    (r"kommunikationswissenschaft|medienwissenschaft|media studies|journalis", "509"),
+    (r"kommunikationswissenschaft|medienwissenschaft|media studies|journalis|"
+     r"communication science|communication studies", "509"),
     # Geisteswissenschaften
     (r"geschichte|history|archäolog|archaeolog|altertum|numismatik", "601"),
     (r"sprachwissenschaft|linguistik|linguistic|literatur|literature|philolog|"

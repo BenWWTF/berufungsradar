@@ -78,13 +78,21 @@ def openalex_search_author(name: str) -> dict | None:
     q = urllib.parse.quote(name)
     url = f"https://api.openalex.org/authors?search={q}&per_page=3&mailto={MAILTO}"
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            data = json.loads(r.read())
-        return data.get("results", [None])[0]
-    except Exception as e:
-        print(f"  ! error fetching {name}: {e}", file=sys.stderr)
-        return None
+    for versuch in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read())
+            return data.get("results", [None])[0]
+        except Exception as e:
+            code = getattr(e, "code", None)
+            if code == 429 and versuch < 2:
+                time.sleep(10 * (versuch + 1))      # Rate Limit: warten, nicht aufgeben
+                continue
+            print(f"  ! error fetching {name}: {e}", file=sys.stderr)
+            # Unterschied zwischen "geprüft, kein Profil" und "Abfrage kaputt":
+            # ein Fehler darf nicht als Negativ-Ergebnis im Cache landen.
+            return "FEHLER"
+    return "FEHLER"
 
 
 def openalex_get_author(author_id: str) -> dict | None:
@@ -369,6 +377,9 @@ def process_entry(d: dict, overrides: dict) -> dict:
         conf = "verified"
     else:
         author = openalex_search_author(name)
+    if author == "FEHLER":
+        print("Abfrage fehlgeschlagen, kein Cache-Eintrag")
+        return None
     if not author:
         print("not found")
         # Negativ-Cache: „geprüft, nicht vorhanden" ≠ „nie geprüft"
@@ -460,6 +471,8 @@ def main():
             print(f"  ! not in data: {name}")
             continue
         result = process_entry(d, overrides)
+        if result is None:
+            continue                     # fehlgeschlagene Abfrage nicht merken
         results[name] = result
         time.sleep(0.5)  # be polite
 

@@ -76,12 +76,36 @@ unterschiedlich führen (Thomas Lennon Sheppard vs Thomas Sheppard).
 | Universität | Quelle | Status |
 |---|---|---|
 | TU Wien | Übersichtsseite mit Akkordeon je Jahr, 2019–2026 | erledigt |
-| Uni Wien | monatliche Listen im Medienportal, alte URLs leiten inzwischen um | offen, Weg über das Webarchiv |
-| MedUni Wien | Mitteilungsblätter (PDF) | offen |
-| WU Wien | Wissensbilanzen (PDF) | offen |
-| BOKU | Presseaussendungen je Jahr | offen |
-| mdw | Jahresseiten „Neue Professuren <Jahr>" | offen |
+| mdw | Jahresseiten „Neue Professuren <Jahr>" | erledigt, 2015/2016/2018 ohne Seite |
+| Uni Wien | CV-Seiten des früheren Medienportals im Webarchiv | teilweise, siehe unten |
+| BOKU | Presseaussendungen je Jahr plus Antrittsvorlesungs-Archiv | dünn: 13 einschlägige Meldungen 2015–2026 |
+| MedUni Wien, WU Wien | keine strukturierte Quelle gefunden | offen |
 | Angewandte, Akademie, Vetmeduni | verstreute News, vor 2019 Handarbeit | offen |
+
+**Was das Mitteilungsblatt nicht leistet.** Die Projektnotizen nannten die
+Mitteilungsblätter als Quelle für Berufungen. Das trifft nicht zu:
+
+* Uni Wien: die Titelübersicht führt 5213 Artikel von 2002/03 bis 2025/26. Davon
+  nennen 355 eine *Berufungskommission*, aber nur ein einziger überhaupt das Wort
+  „Professur", „berufen" oder „Ruf" — und auch der ist eine Kommissionswahl.
+  Verlautbart wird das Verfahren, nicht dessen Ergebnis.
+* MedUni Wien: 745 Blätter von 2003/04 bis 2025/26. Eine einzige Datei nennt ein
+  Berufungsverfahren, und die enthält die Satzungsänderung zu §99 Abs. 4.
+  Stichproben aus 2015/16, 2019/20 und 2023/24 im Volltext: Bevollmächtigungen,
+  Curricula, Wahlergebnisse.
+
+Nebenprodukt: die 355 Uni-Wien-Berufungskommissionen sind maschinenlesbar, mit
+Denomination und Datum zurück bis 2002. Das wäre eine eigene Auswertung
+(Pipeline laufender Verfahren), keine Berufungsdaten.
+
+**Uni Wien über das Webarchiv.** Die heutige Seite lädt ihre Inhalte per
+JavaScript, im HTML steht kein Name. Im Webarchiv liegen 379 CV-Seiten des
+früheren Medienportals, je eine pro berufener Person, mit Denomination,
+Fakultät, Berufungsmonat und Lebenslauf. `scripts/backfill_univie.py` erntet
+diese Seiten. Rund 60 % der Seiten sind verwertbar, der Rest sind Stubs oder
+Formulierungen ohne Jahresangabe. Die Abdeckung bleibt deshalb „teilweise";
+für vollständige Uni-Wien-Daten wäre eine Anfrage an die Universität der
+kürzere Weg.
 
 Auf der TU-Seite steht am Ende ein Abschnitt „Former Employees since 2019" mit
 Abgängen statt Berufungen. Der Parser schneidet dort ab, sonst landen Personen

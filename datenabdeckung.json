@@ -35,7 +35,16 @@
    "vollstaendig": [
     2025
    ],
-   "quelle": "Kuratierung 2025; ältere Jahrgänge nur im Webarchiv und dort unvollständig"
+   "teilweise": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+   ],
+   "quelle": "CV-Seiten des früheren Medienportals im Webarchiv (unvollständig archiviert); 2022–2024 keine Quelle"
   },
   "MedUni Wien": {
    "vollstaendig": [
@@ -47,7 +56,10 @@
    "vollstaendig": [
     2025
    ],
-   "quelle": "Kuratierung 2025 aus Presseaussendungen"
+   "teilweise": [
+    2022
+   ],
+   "quelle": "Kuratierung 2025; Mitteilungsblatt nennt Berufungen nur ausnahmsweise (Senatsänderungen)"
   },
   "WU Wien": {
    "vollstaendig": [
