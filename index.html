@@ -136,6 +136,61 @@
         white-space: nowrap;
       }
 
+      /* ── Datenabdeckung ───────────────────────────────────── */
+      .ab-table {
+        border-collapse: collapse;
+        font-size: 0.8rem;
+      }
+      .ab-table th {
+        font-weight: 600;
+        color: var(--muted);
+        padding: 4px 8px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .ab-table thead th {
+        font-size: 0.72rem;
+        text-align: center;
+      }
+      .ab-table td {
+        width: 46px;
+        text-align: center;
+        padding: 5px 0;
+        border: 2px solid var(--white);
+        font-weight: 600;
+        color: var(--text);
+      }
+      .ab-voll {
+        background: #bfe3c8;
+      }
+      .ab-teil {
+        background: #fde9b8;
+      }
+      .ab-leer {
+        background: #eef2f7;
+      }
+      td.ab-leer {
+        color: var(--muted);
+        font-weight: 400;
+      }
+      .ab-legende {
+        font-size: 0.76rem;
+        color: var(--muted);
+        margin-top: 12px;
+        line-height: 1.6;
+      }
+      .ab-punkt {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 3px;
+        margin: 0 4px 0 10px;
+        vertical-align: -1px;
+      }
+      .ab-punkt:first-child {
+        margin-left: 0;
+      }
+
       /* ── VRG ──────────────────────────────────────────────── */
       .badge-vrg {
         background: #003366;
@@ -963,6 +1018,11 @@
             <h3>Berufungen nach Monat</h3>
             <canvas id="chart-timeline" height="220"></canvas>
           </div>
+        </div>
+
+        <div class="chart-card">
+          <h3>Datenabdeckung: welche Universität ist für welches Jahr erfasst?</h3>
+          <div id="abdeckung" style="overflow-x: auto"></div>
         </div>
 
         <div class="chart-card" id="card-years" style="display: none">
@@ -13491,6 +13551,85 @@ const VRG = [
  }
 ];
 
+// Welche Uni ist für welches Jahr systematisch erfasst? Ohne diese Angabe
+// liest man Lücken als "keine Berufungen" — bei halb aufgebautem Backfill
+// wäre das grob falsch.
+const ABDECKUNG = {
+ "TU Wien": {
+  "vollstaendig": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "quelle": "Übersichtsseite Neue Professor_innen seit 2019"
+ },
+ "mdw": {
+  "vollstaendig": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "teilweise": [
+   2014,
+   2017
+  ],
+  "quelle": "Jahresseiten Neue Professuren; 2015, 2016 und 2018 ohne auffindbare Seite"
+ },
+ "Uni Wien": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung 2025; ältere Jahrgänge nur im Webarchiv und dort unvollständig"
+ },
+ "MedUni Wien": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung 2025 aus den Mitteilungsblättern"
+ },
+ "BOKU": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung 2025 aus Presseaussendungen"
+ },
+ "WU Wien": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung aus der Wissensbilanz"
+ },
+ "Angewandte": {
+  "vollstaendig": [
+   2025,
+   2026
+  ],
+  "quelle": "Kuratierung aus Berufungsmeldungen"
+ },
+ "Akademie": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung aus der Berufungsverfahren-Liste"
+ },
+ "Vetmeduni Wien": {
+  "vollstaendig": [
+   2025
+  ],
+  "quelle": "Kuratierung aus dem Mitteilungsblatt"
+ }
+};
+
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 // Zwölf unterscheidbare Farben: bei zehn Jahresreihen dürfen sich keine
@@ -14312,6 +14451,46 @@ function jumpToUniBereich(uni, bereich) {
   document.getElementById('filter-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+// ─── DATENABDECKUNG ──────────────────────────────────────
+// Bewusst außerhalb der Jahresauswahl: die Matrix beschreibt den Bestand,
+// nicht die aktuelle Ansicht.
+function renderAbdeckung() {
+  const box = document.getElementById('abdeckung');
+  if (!box || !Object.keys(ABDECKUNG).length) return;
+  const jahre = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
+  const unis = UNIS.filter(u => ABDECKUNG[u]);
+  const zahl = {};
+  DATA.forEach(d => { zahl[d.universitat + d.year] = (zahl[d.universitat + d.year] || 0) + 1; });
+
+  const zelle = (u, j) => {
+    const a = ABDECKUNG[u] || {};
+    const voll = (a.vollstaendig || []).includes(j);
+    const teil = (a.teilweise || []).includes(j);
+    const n = zahl[u + j] || 0;
+    const klasse = voll ? 'ab-voll' : teil ? 'ab-teil' : 'ab-leer';
+    const titel = voll ? `${u} ${j}: erfasst (${n})`
+                : teil ? `${u} ${j}: teilweise erfasst (${n})`
+                : `${u} ${j}: nicht erfasst`;
+    return `<td class="${klasse}" title="${titel}">${voll || teil ? n : '·'}</td>`;
+  };
+
+  box.innerHTML = `
+    <table class="ab-table">
+      <thead><tr><th></th>${jahre.map(j => `<th>${j}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${unis.map(u => `<tr><th>${u}</th>${jahre.map(j => zelle(u, j)).join('')}</tr>`).join('')}
+      </tbody>
+    </table>
+    <p class="ab-legende">
+      <span class="ab-punkt ab-voll"></span> systematisch erfasst
+      <span class="ab-punkt ab-teil"></span> teilweise
+      <span class="ab-punkt ab-leer"></span> nicht erfasst
+      — ein Punkt heißt <strong>keine Quelle ausgewertet</strong>, nicht „keine Berufungen".
+      Summen über mehrere Jahre sind deshalb erst dann vergleichbar, wenn die Zeile
+      der Universität durchgehend erfasst ist.
+    </p>`;
+}
+
 // ─── VRG-PIPELINE ────────────────────────────────────────
 // Bewusst unabhängig von der Jahresauswahl: die Grantees sind eine eigene
 // Population, ihre Berufung kann in jedem Jahr liegen.
@@ -14463,6 +14642,7 @@ function activeTabName() {
 }
 
 function renderOverview(rows) {
+  renderAbdeckung();
   initKPIs(rows);
   initInsights(rows);
   initGenderChart(rows);

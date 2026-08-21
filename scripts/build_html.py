@@ -23,6 +23,7 @@ DATENSTAND = f"{MONATE_DE[HEUTE.month - 1]} {HEUTE.year}"
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "dashboard_data_2025.json"
 VRG_PATH = ROOT / "vrg_grantees.json"
+ABDECKUNG_PATH = ROOT / "datenabdeckung.json"
 HTML_PATH = ROOT / "index.html"
 
 # ─────────────────────────────────────────────────────────────────
@@ -55,6 +56,11 @@ if VRG_PATH.exists():
                 "universitat": b["universitat"], "art": b.get("art_berufung"),
             },
         })
+
+
+ABDECKUNG = {}
+if ABDECKUNG_PATH.exists():
+    ABDECKUNG = json.loads(ABDECKUNG_PATH.read_text()).get("abdeckung", {})
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -143,6 +149,11 @@ const DATENSTAND = "__STAND__";
 // Vienna Research Groups: eigene Population, überschneidet sich nur teils
 // mit den Berufungen. Deshalb eigene Liste statt nur eines Häkchens.
 const VRG = __VRG__;
+
+// Welche Uni ist für welches Jahr systematisch erfasst? Ohne diese Angabe
+// liest man Lücken als "keine Berufungen" — bei halb aufgebautem Backfill
+// wäre das grob falsch.
+const ABDECKUNG = __ABDECKUNG__;
 
 // ─── JAHRES-SCOPE ────────────────────────────────────────
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
@@ -965,6 +976,46 @@ function jumpToUniBereich(uni, bereich) {
   document.getElementById('filter-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+// ─── DATENABDECKUNG ──────────────────────────────────────
+// Bewusst außerhalb der Jahresauswahl: die Matrix beschreibt den Bestand,
+// nicht die aktuelle Ansicht.
+function renderAbdeckung() {
+  const box = document.getElementById('abdeckung');
+  if (!box || !Object.keys(ABDECKUNG).length) return;
+  const jahre = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
+  const unis = UNIS.filter(u => ABDECKUNG[u]);
+  const zahl = {};
+  DATA.forEach(d => { zahl[d.universitat + d.year] = (zahl[d.universitat + d.year] || 0) + 1; });
+
+  const zelle = (u, j) => {
+    const a = ABDECKUNG[u] || {};
+    const voll = (a.vollstaendig || []).includes(j);
+    const teil = (a.teilweise || []).includes(j);
+    const n = zahl[u + j] || 0;
+    const klasse = voll ? 'ab-voll' : teil ? 'ab-teil' : 'ab-leer';
+    const titel = voll ? `${u} ${j}: erfasst (${n})`
+                : teil ? `${u} ${j}: teilweise erfasst (${n})`
+                : `${u} ${j}: nicht erfasst`;
+    return `<td class="${klasse}" title="${titel}">${voll || teil ? n : '·'}</td>`;
+  };
+
+  box.innerHTML = `
+    <table class="ab-table">
+      <thead><tr><th></th>${jahre.map(j => `<th>${j}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${unis.map(u => `<tr><th>${u}</th>${jahre.map(j => zelle(u, j)).join('')}</tr>`).join('')}
+      </tbody>
+    </table>
+    <p class="ab-legende">
+      <span class="ab-punkt ab-voll"></span> systematisch erfasst
+      <span class="ab-punkt ab-teil"></span> teilweise
+      <span class="ab-punkt ab-leer"></span> nicht erfasst
+      — ein Punkt heißt <strong>keine Quelle ausgewertet</strong>, nicht „keine Berufungen".
+      Summen über mehrere Jahre sind deshalb erst dann vergleichbar, wenn die Zeile
+      der Universität durchgehend erfasst ist.
+    </p>`;
+}
+
 // ─── VRG-PIPELINE ────────────────────────────────────────
 // Bewusst unabhängig von der Jahresauswahl: die Grantees sind eine eigene
 // Population, ihre Berufung kann in jedem Jahr liegen.
@@ -1116,6 +1167,7 @@ function activeTabName() {
 }
 
 function renderOverview(rows) {
+  renderAbdeckung();
   initKPIs(rows);
   initInsights(rows);
   initGenderChart(rows);
@@ -1183,7 +1235,8 @@ document.addEventListener('DOMContentLoaded', () => {
 NEW_SCRIPT_FINAL = (NEW_SCRIPT
                    .replace("__DATA__", data_js)
                    .replace("__STAND__", DATENSTAND)
-                   .replace("__VRG__", json.dumps(VRG, ensure_ascii=False, indent=1)))
+                   .replace("__VRG__", json.dumps(VRG, ensure_ascii=False, indent=1))
+                   .replace("__ABDECKUNG__", json.dumps(ABDECKUNG, ensure_ascii=False, indent=1)))
 
 # ─────────────────────────────────────────────────────────────────
 # 4. Read current HTML and replace script + data

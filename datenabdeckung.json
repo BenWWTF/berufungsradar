@@ -1,0 +1,78 @@
+{
+ "_hinweis": "Welche Universität ist für welches Jahr systematisch erfasst? Von Hand gepflegt, sobald eine Quelle geerntet ist. 'vollstaendig' heißt: es gibt eine Quelle, die alle Berufungen des Jahres nennt. Fehlt ein Jahr, ist es NICHT erfasst — das bedeutet nicht, dass es keine Berufungen gab.",
+ "abdeckung": {
+  "TU Wien": {
+   "vollstaendig": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "quelle": "Übersichtsseite Neue Professor_innen seit 2019"
+  },
+  "mdw": {
+   "vollstaendig": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "teilweise": [
+    2014,
+    2017
+   ],
+   "quelle": "Jahresseiten Neue Professuren; 2015, 2016 und 2018 ohne auffindbare Seite"
+  },
+  "Uni Wien": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung 2025; ältere Jahrgänge nur im Webarchiv und dort unvollständig"
+  },
+  "MedUni Wien": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung 2025 aus den Mitteilungsblättern"
+  },
+  "BOKU": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung 2025 aus Presseaussendungen"
+  },
+  "WU Wien": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung aus der Wissensbilanz"
+  },
+  "Angewandte": {
+   "vollstaendig": [
+    2025,
+    2026
+   ],
+   "quelle": "Kuratierung aus Berufungsmeldungen"
+  },
+  "Akademie": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung aus der Berufungsverfahren-Liste"
+  },
+  "Vetmeduni Wien": {
+   "vollstaendig": [
+    2025
+   ],
+   "quelle": "Kuratierung aus dem Mitteilungsblatt"
+  }
+ }
+}
