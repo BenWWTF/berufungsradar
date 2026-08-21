@@ -96,6 +96,24 @@
         font-weight: 700;
         letter-spacing: -0.3px;
       }
+      #site-header .home-btn {
+        font: inherit;
+        color: inherit;
+        background: none;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+      }
+      #site-header .home-btn:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+      #site-header .home-btn:focus-visible {
+        outline: 2px solid var(--white);
+        outline-offset: 3px;
+        border-radius: 3px;
+      }
       #site-header .period {
         font-size: 0.82rem;
         font-weight: 600;
@@ -784,7 +802,10 @@
     <header id="site-header">
       <div class="header-inner">
         <div>
-          <h1>Berufungsradar Wien</h1>
+          <h1>
+            <button type="button" class="home-btn" onclick="goHome()"
+                    title="Zur Übersicht">Berufungsradar Wien</button>
+          </h1>
           <div class="period" id="header-period">
             Suchzeitraum: Berufungsjahr 2025 (1.&nbsp;Jänner&nbsp;–&nbsp;31.&nbsp;Dezember&nbsp;2025)
           </div>
@@ -4917,6 +4938,12 @@ function initWWTF(rows) {
   ].filter(Boolean);
   document.getElementById('insights-wwtf-list').innerHTML =
     items.map(i => `<li>${i}</li>`).join('');
+}
+
+// Titel im Kopf → zurück auf die Übersicht
+function goHome() {
+  switchTab('uebersicht');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Heatmap-Zelle → vorgefilterte Personenliste

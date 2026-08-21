@@ -894,6 +894,12 @@ function initWWTF(rows) {
     items.map(i => `<li>${i}</li>`).join('');
 }
 
+// Titel im Kopf → zurück auf die Übersicht
+function goHome() {
+  switchTab('uebersicht');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 // Heatmap-Zelle → vorgefilterte Personenliste
 function jumpToUniBereich(uni, bereich) {
   FILTER_IDS.forEach(id => {
