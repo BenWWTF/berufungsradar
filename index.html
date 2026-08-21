@@ -4754,7 +4754,7 @@ function resetFilters() {
 }
 
 // Filterzustand in der URL — teilbare Links (#tab=alle&uni=TU+Wien…)
-function writeStateToHash() {
+function writeStateToHash(opts = {}) {
   const p = new URLSearchParams();
   const tab = document.querySelector('.tab-panel.active');
   if (tab && tab.id !== 'tab-uebersicht') p.set('tab', tab.id.replace('tab-', ''));
@@ -4763,28 +4763,31 @@ function writeStateToHash() {
     if (v && !(id === 'sort-select' && v === 'monat')) p.set(id, v);
   });
   if (SELECTED_YEARS.size !== YEARS.length) p.set('years', selectedYears().join(','));
-  history.replaceState(null, '', p.toString() ? '#' + p.toString() : location.pathname);
-}
-
-function restoreStateFromHash() {
-  if (!location.hash) return;
-  const p = new URLSearchParams(location.hash.slice(1));
-  const years = (p.get('years') || '').split(',').map(Number).filter(y => YEARS.includes(y));
-  if (years.length) SELECTED_YEARS = new Set(years);
-  FILTER_IDS.forEach(id => {
-    if (p.has(id)) document.getElementById(id).value = p.get(id);
-  });
-  const tab = p.get('tab');
-  if (tab && document.getElementById('tab-' + tab)) {
-    document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-      const on = btn.getAttribute('onclick').includes(`'${tab}'`);
-      btn.classList.toggle('active', on);
-      btn.setAttribute('aria-selected', on ? 'true' : 'false');
-    });
-    document.getElementById('tab-' + tab).classList.add('active');
+  const url = p.toString() ? '#' + p.toString() : location.pathname;
+  // Filtertipperei darf die History nicht zumüllen, deshalb standardmäßig replace
+  if (opts.push && url !== (location.hash || location.pathname)) {
+    history.pushState(null, '', url);
+  } else {
+    history.replaceState(null, '', url);
   }
 }
+
+// Hash → Ansicht. Gilt auch für den leeren Hash (Ausgangszustand),
+// damit Zurück aus einem Tab wirklich zur Übersicht zurückführt.
+function applyState() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  const years = (p.get('years') || '').split(',').map(Number).filter(y => YEARS.includes(y));
+  SELECTED_YEARS = new Set(years.length ? years : YEARS);
+  FILTER_IDS.forEach(id => {
+    document.getElementById(id).value =
+      p.has(id) ? p.get(id) : (id === 'sort-select' ? 'monat' : '');
+  });
+  const tab = p.get('tab');
+  activateTabPanel(tab && document.getElementById('tab-' + tab) ? tab : 'uebersicht');
+  renderAll();
+}
+
+window.addEventListener('popstate', applyState);
 
 // ─── CSV-EXPORT (gefilterte Ansicht, Excel-AT-kompatibel) ─
 function exportCSV() {
@@ -5024,23 +5027,22 @@ function initInsights(rows) {
 }
 
 // ─── TAB SWITCHING ───────────────────────────────────────
-function switchTab(name) {
+function activateTabPanel(name) {
   document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.classList.remove('active');
-    btn.setAttribute('aria-selected', 'false');
-  });
-
   document.getElementById(`tab-${name}`).classList.add('active');
   document.querySelectorAll('.tab-btn').forEach(btn => {
-    if (btn.getAttribute('onclick').includes(`'${name}'`)) {
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-    }
+    const on = btn.getAttribute('onclick').includes(`'${name}'`);
+    btn.classList.toggle('active', on);
+    btn.setAttribute('aria-selected', on ? 'true' : 'false');
   });
+}
 
+// Tabwechsel legt einen History-Eintrag an, damit der Zurück-Button
+// zum vorherigen Tab führt statt die Seite zu verlassen.
+function switchTab(name) {
+  activateTabPanel(name);
   renderTab(name);
-  writeStateToHash();
+  writeStateToHash({ push: true });
 }
 
 // D3-Grafiken brauchen eine sichtbare Breite, deshalb erst beim Tab-Wechsel
@@ -5115,8 +5117,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
   populateLandFilter();
-  restoreStateFromHash();
-  renderAll();
+  applyState();
 });
 
 </script>
