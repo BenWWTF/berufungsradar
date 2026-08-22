@@ -48,6 +48,9 @@
   },
   "MedUni Wien": {
    "vollstaendig": [
+    2020,
+    2023,
+    2024,
     2025
    ],
    "teilweise": [
@@ -56,13 +59,11 @@
     2017,
     2018,
     2019,
-    2020,
     2021,
     2022,
-    2023,
-    2024
+    2026
    ],
-   "quelle": "Kuratierung 2025; 2014–2024 aus Presseinformationen und OTS-Meldungen, jede Angabe gegen die Quelle geprüft (6 Daten korrigiert, 7 Einträge verworfen). 2016 ohne belegte Berufung"
+   "quelle": "Presseinformationen und OTS-Meldungen, zwei Recherchedurchgänge, jede Angabe gegen die Quelle geprüft (Runde 1: 6 Daten korrigiert, 7 verworfen; Runde 2: 30 von 49 verworfen). 2016 ohne belegten Fall, 2022 mit zwei Einträgen weiterhin unvollständig"
   },
   "BOKU": {
    "vollstaendig": [

@@ -1,0 +1,47 @@
+[
+ {
+  "name": "Kathryn Hoffmann",
+  "universitat": "MedUni Wien",
+  "monat": "FEBRUAR",
+  "year": 2023,
+  "art_berufung": "§99(1)",
+  "forschungsbereich": "Primary Care Medicine",
+  "herkunft": "intern",
+  "herkunft_institution": "Medizinische Universität Wien",
+  "herkunft_land": "Österreich",
+  "geschlecht": "W",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2023/default-0f8cff33a1/kathryn-hoffmann-uebernimmt-professur-fuer-primary-care-medicine/",
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-02-01 (Wayback CDX 20230202224308); Dienstantritt 1.2.2023; übernahm Leitung der Abteilung für Primary Care Medicine am Zentrum für Public Health; Runde-1-Verwurf aufgehoben, nun in runde-2 aufgenommen",
+  "stufe": 1
+ },
+ {
+  "name": "Maxim Zaitsev",
+  "universitat": "MedUni Wien",
+  "monat": "NOVEMBER",
+  "year": 2019,
+  "art_berufung": "§98",
+  "forschungsbereich": "Magnetresonanzphysik",
+  "herkunft": "extern",
+  "herkunft_institution": "Universitätsklinikum Freiburg",
+  "herkunft_land": "Deutschland",
+  "geschlecht": "M",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/detailseite/2019/news-im-november-2019/maxim-zaitsev-uebernimmt-professur-fuer-magnetresonanzphysik-an-der-meduni-wien/",
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2019-11-04 (über Wayback CDX auffindbar); Dienstantritt Anfang November 2019; verließ MedUni Wien 2021; ersetzt ursprünglich verwendete MR-Physik-Zentrum-Zeitleiste; Runde-1-Verwurf aufgehoben, nun in runde-2 aufgenommen",
+  "stufe": 1
+ },
+ {
+  "name": "Roland Beisteiner",
+  "universitat": "MedUni Wien",
+  "monat": "APRIL",
+  "year": 2024,
+  "art_berufung": "§99(1)",
+  "forschungsbereich": "Neurologie (Experimentelle Hirnstimulation)",
+  "herkunft": "intern",
+  "herkunft_institution": "Medizinische Universität Wien",
+  "herkunft_land": "Österreich",
+  "geschlecht": "M",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2024/default-6e9bbc87ad/roland-beisteiner-uebernimmt-professur-im-fachbereich-neurologie/",
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-06-11 (Wayback CDX 20240611152911); Dienstantritt Anfang April 2024; ursprüngliche Verwurf-Quelle liefert 404, diese archivierte Pressemitteilung trägt dasselbe Datum; Runde-1-Verwurf aufgehoben, nun in runde-2 aufgenommen",
+  "stufe": 1
+ }
+]

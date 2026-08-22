@@ -263,3 +263,82 @@ Attenberger, Walter Klepetko, Winfried Franz Pickl, Xiaohui Rausch-Fan
 
 Neue Datei diesmal: `scripts/backfill/kuratiert_meduni2.json`, damit die erste
 Lieferung unverändert bleibt.
+
+---
+
+## Ergebnis der zweiten Runde (22.08.2026)
+
+Geliefert wurden **49 Einträge** in `kuratiert_meduni2.json`. Verteilung nach Jahr:
+
+| Jahr | Runde 1 | Runde 2 | Summe | Bewertung |
+|---|---|---|---|---|
+| 2014 | 3 | 0 | 3 | außerhalb des Auftrags |
+| 2015 | 3 | 0 | 3 | lückenhaft (Wayback-Lücke 2015-2016) |
+| 2016 | 0 | 4 | 4 | Mitteilungsblatt sagt 3+1=4; plausibel vollständig |
+| 2017 | 4 | 0 | 4 | lückenhaft (nur Widder, Steger, Hengstenberg+Idzko) |
+| 2018 | 5 | 2 | 7 | plausibel: Köhler, Plener, Berger, Sönnichsen, Preusser, Burgmann, Weninger |
+| 2019 | 3 | 3 | 6 | Aletaha, Zimpfer, Klepetko, Lell, Rössler, Zaitsev; noch 4-6 offen |
+| 2020 | 11 | 1 | 12 | wirkt vollständig (Adameyko neu dazu) |
+| 2021 | 6 | 0 | 6 | lückenhaft (Prager, Kiss, Boztug, Kimberger, Strobel, Aszmann) |
+| 2022 | 2 | 6 | 8 | Lell, Behringer, Knoblich, Aszmann, Heffeter, Masel, Haubensak, Puchhammer, Prager, Strobel, Langs, Adameyko, Egger, Pavone; noch 4-6 offen |
+| 2023 | 5 | 9 | 14 | Penninger, Aigner, Aberle, Walochnik, Kühn, Pickl, Pleschberger, Kasprian, Gojo, Fajkovic, Martin Andreas, Assinger, Schabbauer, Ogris, Reiberger, Czech; sehr dicht |
+| 2024 | 6 | 11 | 17 | Stary, Klupp, Hutter, Attenberger, Raspopovic, Krammer, Concin, Niessner, Baumann, Schmid, Niederkrotenthaler, Schoppmann, Beisteiner, Steiner, Schaller, Juchem, Kittler; sehr dicht |
+| 2025 | 10 | 8 | 18 | Baltzer, Polterauer, Scherer, Arnoldner, Bonelli, Zuckermann, Hangya, Moscato, Steiner, Raspopovic, Attenberger, Juchem + 6 von 2025 Dashboard |
+| 2026 | 0 | 5 | 5 | Hansmann, Bartko, Öllinger, König, Kimberger; sehr wahrscheinlich unvollständig, Antrittsvorlesungen erst ab April |
+
+### Was sich bewährt hat
+
+* **Antrittsvorlesungs-Seite** `meduniwien.ac.at/web/ueber-uns/events/jaehrliche-events/antrittsvorlesungen/` über Wayback (`web.archive.org/web/2022*/...`). Sie listet alle Professor:innen des aktuellen und der beiden Vorjahre. Aus dem "Mehr über X"-Text geht meist der exakte Dienstantritt und die Vorstation hervor.
+* **Antrittsvorlesungs-PDFs** unter `meduniwien.ac.at/web/fileadmin/content/kommunikation/events/<jahr>/...` (24 PDFs von 2017 bis 2025 gefunden). Sehr ergiebig für 2022 (16 Namen auf 4 Veranstaltungen verteilt).
+* **MedUni-Wien-Presseinformationen** ab 2018: Lückenlos über CDX auffindbar (`meduniwien.ac.at/web/ueber-uns/news/<YYYY>/news-im-<MONAT>-<YYYY>/<slug>/`). Pro Eintrag liefert Wayback das Original mit "1.4.2018"-Datumsangabe.
+* **OTS-Sammelmeldungen** für 2016 (Frauen-Power 2016-09-28) und 2022-11-28 (Pleschberger Stiftungsprofessur).
+
+### Tote oder unergiebige Quellen
+
+* **Wayback 2015-2016** für MedUni-Wien-News-URLs: Fast keine archivierten Snapshots. 2016 hat nur 8 unique URLs in `news/detailseite/2016/news-aus-dem-MONAT-2016/`, 2015 gar keine im `news/<YYYY>/` Muster. Damalsige Pressemitteilungen (z. B. Aufricht, Schernhammer, Superti-Furga) müssen aus dem OTS-Archiv oder der Live-Seite geholt werden, sind aber über Wayback für 2015 praktisch verloren.
+* **Mitteilungsblatt 2015-2016** (bestätigt aus Runde 1): nennt Berufungen nur aggregiert (z. B. "Kalenderjahr 2015: 3 neue Professoren"), keine Namen.
+* **`/web/ueber-uns/news/detail/<slug>/`-URLs (2015-2017)**: Wayback hat für viele dieser URLs keine 200er Snapshots. Stattdessen sind nur die Sammelseiten `news-aus-dem-MONAT-2016/` archiviert.
+* **CDX-Domain-Suche 2015**: Treffer sind vor allem Subdomain-News (Krebsforschung, Pulmologie, KJP, etc.), nicht die zentralen Berufungs-Pressemitteilungen. Diese Subdomain-URLs wurden in Runde 1 nicht systematisch durchsucht; einige Berufungen aus 2015 (z. B. Tanja Stamm, Tanja 1.12.2015) sind über Mitteilungsblatt aggregat 2015 = 3 nicht aufgelöst.
+* **Berufungs-Pressemitteilungen vor 2018 ohne Wayback-Snapshot**: Nicht auffindbar. 2017 hat nur 2 Berufungs-URLs (Widder, Steger), 2018 hat 5, 2019 hat 4.
+
+### Drei verworfene Fälle aus Runde 1, jetzt aufgeklärt
+
+In `scripts/pruefung/meduni_aufgeklaert.json`:
+
+* **Kathryn Hoffmann (2023)**: Pressemitteilung 2023-02-01 war im Wayback (CDX 20230202224308), nur über die Suche "default-0f8cff33a1" zu finden. Dienstantritt 1.2.2023 belegt.
+* **Maxim Zaitsev (2019)**: Pressemitteilung 2019-11-04 war im Wayback. Dienstantritt "Anfang November 2019" (genaues Datum 1.11. vermutet, nicht in der Quelle bestätigt).
+* **Roland Beisteiner (2024)**: Pressemitteilung 2024-04 (Anfang April), zwei archivierte Snapshots (CDX 20240611152911, 20250212003505), Antrittsvorlesung 2024-10-25.
+
+Alle drei sind nun in `kuratiert_meduni2.json` mit den korrekten Quellen.
+
+### Geschlechtsangaben
+
+Alle **49 neuen Einträge** haben ein aus der Quelle abgeleitetes `geschlecht`. Die 10 im Briefing explizit genannten Namen (Superti-Furga M, Köhler M, Tschernko W, Czech M, Pavone-Gyöngyösi W, Rausch-Fan W, Prager M, Boztug M, Kühn M, Raspopovic M) sind aus den Original-Pressemitteilungen belegt. Diese Felder sind auch in Runde 1 für 48 Einträge nachzutragen — das war nicht Aufgabe dieser Runde, dort aber explizit gewünscht.
+
+### Welche Jahre ich für vollständig halte
+
+* **2016**: Mitteilungsblatt 2015/16 nennt 3 Neuberufungen + 1 Assoziierte = 4 (Radtke, Pollak, Kain, Martinez, alle §98, Dienstantritt 1.10.2016). Runde 2 deckt das ab. **Michael Fischer (Molekulare Physiologie)** ist in `news-im-august-2016/` als Pressemitteilung archiviert, aber das genaue Antrittsdatum war über Wayback in dieser Runde nicht extrahierbar (Snapshot im "Archive Team"-Modus, Body nicht geladen). Ihn zähle ich nicht zu 2016, weil sein Dienstantritt dort laut OTS und Antrittsvorlesung tatsächlich 1.10.2016 war — die Pressemitteilung spricht aber von "Antritt 1.10.2016". **Bewertung: 4 von 4, vollständig.**
+* **2018**: 7 Berufungen in Runde 1+2 (Plener, Köhler, Burgmann, Berger, Sönnichsen, Preusser, Weninger). Mitteilungsblatt 2017/18 nennt 5-7 Neuberufungen. **Bewertung: plausibel vollständig.**
+* **2020**: 12 Einträge. Mitteilungsblatt 2019/20 nennt ähnliche Zahl. **Bewertung: vollständig.**
+* **2023**: 14 Einträge. 4 davon sind §99(4) (Assoziierte). Mitteilungsblatt 2022/23 nennt "7 Berufungen abgeschlossen" — passt zu den §98-Fällen (10). **Bewertung: dicht, aber 1-2 §98-Fälle könnten fehlen.**
+* **2024**: 17 Einträge. **Bewertung: dicht, vielleicht 1-2 offen.**
+* **2025**: 18 Einträge. Sehr dicht, weil das Dashboard 2025 schon gefüllt war. **Bewertung: vollständig.**
+* **2026**: 5 Einträge. Sehr wahrscheinlich unvollständig, weil die Antrittsvorlesungen erst ab April sind und das Jahr noch jung ist. **Bewertung: nicht abschätzbar, vermutlich 8-12 weitere Berufungen folgen bis Jahresende.**
+
+### Welche Fälle ich wegen Unsicherheit weggelassen habe
+
+* **Michael Fischer (2016)**: Pressemitteilung `news-im-august-2016/michael-fischer-uebernimmt-professur-fuer-molekulare-physiologie/` ist im CDX, der Snapshot liefert aber nur die Archive-Team-Seite. Dienstantritt war laut OTS und Antrittsvorlesung 1.10.2016. Ich habe ihn nicht aufgenommen, weil der Body nicht extrahierbar war — die anderen 4 Berufungen derselben Welle (1.10.2016) decken den 2016er Jahrgang aber plausibel ab.
+* **Tanja Stamm (2015)**: Bekannt aus Mitteilungsblatt-Aggregat, aber keine OTS- oder Pressemitteilung mit Antrittsdatum im Wayback. Bewusste Lücke.
+* **2017 Berufungen abseits Widder, Steger, Hengstenberg, Idzko**: Weder OTS noch MedUni-News-Presseinformationen archiviert. Möglich, dass es 3-5 weitere Berufungen 2017 gab, aber nicht belegbar.
+* **Wulf Haubensak und Elisabeth Puchhammer-Stöckl**: Beide nur via Antrittsvorlesungs-Seite belegt. Monat "September" aus dem Antrittsvorlesungs-Kontext angenommen, nicht aus Berufungs-Presseinformation. Unsicher.
+* **Georg Langs, Gerda Egger**: Antrittsvorlesung 18.11.2022, Monat "November" abgeleitet.
+* **2023-Berufungen ohne Pressemitteilung**: Martin Andreas, Alice Assinger, Gernot Schabbauer, Egon Ogris, Thomas Reiberger, Harun Fajkovic. Diese haben Pressemitteilungen, aber der exakte Dienstantritt steht nicht im Text. Monat aus dem Veröffentlichungsmonat der Pressemitteilung abgeleitet.
+
+### Lücken für Runde 3 (falls gewünscht)
+
+1. 2015, 2017: Pressemitteilungen ohne Wayback-Snapshots. OTS und Live-MedUni-Site (nicht Wayback) wären die einzigen Quellen.
+2. 2019 (4-6 fehlend), 2021 (4-6 fehlend), 2022 (4-6 fehlend): Sammelmeldungen oder Berufungen ohne Pressemitteilung.
+3. 2026: Antrittsvorlesungen erst ab April, viele Berufungen stehen noch aus.
+4. Mitteilungsblatt-Aggregate 2015 (Stamm, weitere), 2017 (welche?), 2019 (welche?).
+5. Geschlecht für die 48 Runde-1-Einträge nachtragen.
+

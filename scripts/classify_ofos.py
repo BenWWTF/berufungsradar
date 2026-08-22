@@ -102,7 +102,8 @@ STICHWORT = [
      r"produktionstechnik|luftfahrt|aerospace|energietechnik", "203"),
     (r"verfahrenstechnik|process engineering|chemieingenieur|chemical engineering|"
      r"lebensmitteltechnolog|food technolog|bioprozess|bioprocess", "204"),
-    (r"werkstoff|material|polymer|keramik|ceramic|metallurg|oberflächen|surface|"
+    (r"technologie des holzes|holztechnolog|holzforschung|"
+     r"werkstoff|material|polymer|keramik|ceramic|metallurg|oberflächen|surface|"
      r"korrosion|composite", "205"),
     (r"umwelttechnik|environmental engineering|abfall|waste|wasserwirtschaft|"
      r"water resources|luftreinhaltung|ressourcen", "207"),
