@@ -139,3 +139,38 @@ auf der Übersichtsseite liest daraus und macht Lücken sichtbar, statt sie als
 * Dashboard: https://benwwtf.github.io/berufungsradar
 * Methodenbericht mit allen Quellenbefunden: `SPEC.md`, Abschnitt 2a
 * Aktueller Bestand: 565 Datensätze, 2014 bis 2026, neun Universitäten
+
+---
+
+## Ergebnis der ersten Runde (22.08.2026)
+
+Geliefert wurden 55 Einträge. Nach Prüfung gegen die Quellen sind **48 übernommen**,
+**7 verworfen** (`scripts/pruefung/meduni_verworfen.json`), **6 Daten korrigiert**.
+
+Was die Prüfung ergab, als Muster für die nächste Runde:
+
+* 54 der 55 Quellen-Links waren erreichbar und enthielten den Namen. Das ist gut,
+  die Quellenarbeit stimmt.
+* Bei **6 Einträgen nannte die Quelle ein anderes Antrittsdatum** als der Datensatz:
+  Berger Oktober 2014 statt Februar 2015, Aufricht August 2015 statt Mai 2015,
+  Podesser und Georg jeweils Oktober 2014 statt 2016, Strobel Jänner statt Oktober
+  2021, Fischer Mai statt Juli 2023. Alle sechs sind korrigiert.
+* **3 Einträge stützten sich auf Meldungen von 2011**, lagen also außerhalb des
+  Zeitraums (Breiteneder, Bohle) oder betrafen ein anderes Ereignis
+  (Jensen-Jarolim: eine Professur am Messerli-Institut der **Vetmeduni**).
+* **1 Eintrag** beruhte auf einer Meldung über eine Berufung in das *Danish Research
+  Council* (Barta), das ist keine Professur.
+* **3 Einträge** waren nicht prüfbar: kein Antrittsdatum auf der Seite (Hoffmann,
+  Zaitsev) oder 404 (Beisteiner).
+* Bei **15 Einträgen** nennt die Quelle nur das Jahr. Der Monat stammt aus dem
+  Meldedatum; das steht jetzt so in `_kuratiert` und ist damit zulässig.
+* **Geschlecht war bei keinem der 55 Einträge gesetzt.** Bei MedUni-Meldungen steht
+  es fast immer im Text („neue Professorin", „er übernimmt"). Bitte nachziehen, das
+  ist eine der Kernauswertungen des Dashboards.
+* Ein Feldfehler: bei Alwin Köhler nennt die Quelle „Mechanistische Zellbiologie",
+  im Datensatz stand „Medizinische Biochemie". Solche Denominationen bitte wörtlich
+  aus der Quelle übernehmen.
+
+Offen bleiben 2016 (kein belegter Fall) sowie die Frage, ob 2019 mit drei und 2022
+mit zwei Berufungen vollständig sind. MedUni beruft im Schnitt 10 bis 12 pro Jahr,
+die Jahre 2015 bis 2019 und 2022 sind also sicher noch lückenhaft.
