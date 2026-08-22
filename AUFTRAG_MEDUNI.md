@@ -174,3 +174,92 @@ Was die Prüfung ergab, als Muster für die nächste Runde:
 Offen bleiben 2016 (kein belegter Fall) sowie die Frage, ob 2019 mit drei und 2022
 mit zwei Berufungen vollständig sind. MedUni beruft im Schnitt 10 bis 12 pro Jahr,
 die Jahre 2015 bis 2019 und 2022 sind also sicher noch lückenhaft.
+
+---
+
+## Runde 2: was noch fehlt
+
+Nachtrag vom 22.08.2026, nach dem Einpflegen der ersten Lieferung. Stand MedUni
+Wien im Datensatz:
+
+| Jahr | erfasst | Einschätzung |
+|---|---|---|
+| 2014 | 3 | außerhalb des Auftrags, aus Runde 1 mitgekommen |
+| 2015 | 3 | lückenhaft |
+| 2016 | **0** | vollständig offen |
+| 2017 | 4 | lückenhaft |
+| 2018 | 5 | plausibel, aber prüfen |
+| 2019 | **3** | lückenhaft |
+| 2020 | 11 | wirkt vollständig |
+| 2021 | 6 | lückenhaft |
+| 2022 | **2** | vollständig offen |
+| 2023 | 5 | lückenhaft |
+| 2024 | 6 | lückenhaft |
+| 2025 | 10 | erfasst |
+| 2026 | **0** | vollständig offen |
+
+Die MedUni beruft im Schnitt 10 bis 12 Professuren im Jahr. Fehlen also rund 40 bis
+50 Personen, der Schwerpunkt liegt auf 2016, 2019, 2022 und 2026.
+
+### Aufträge, nach Wert sortiert
+
+1. **2016, 2022 und 2026** von vorne aufarbeiten. Für diese drei Jahre gibt es fast
+   nichts, dort ist der Ertrag pro Suchstunde am höchsten.
+2. **2015, 2017, 2019, 2021, 2023, 2024** auffüllen. Die vorhandenen Einträge sind
+   belegt, es fehlt der Rest des Jahrgangs.
+3. **Drei ungeklärte Fälle aus Runde 1 nachliefern**, sie liegen mit Begründung in
+   `scripts/pruefung/meduni_verworfen.json`: Kathryn Hoffmann (Primary Care Medicine,
+   Quelle nennt kein Antrittsdatum), Maxim Zaitsev (dito), Roland Beisteiner
+   (Quellenlink liefert 404, bitte durch eine erreichbare Quelle ersetzen).
+4. **Zehn fehlende Geschlechtsangaben** ergänzen, aber nur aus der Quelle:
+   Giulio Superti-Furga, Alwin Köhler, Edda Tschernko, Herwig Czech,
+   Mariann Pavone-Gyöngyösi, Xiaohui Rausch-Fan, Gerhard Prager, Kaan Boztug,
+   Tilman Kühn, Stanisa Raspopovic.
+5. **Denominationen stichprobenartig gegen die Quelle prüfen.** Bei Alwin Köhler
+   stand „Medizinische Biochemie" im Datensatz, die Quelle sagt „Mechanistische
+   Zellbiologie".
+
+### Quellenwege, die in Runde 1 offen geblieben sind
+
+* **News-Rubrik „Menschen der MedUni Wien"** — eigene Kategorie für Personalien,
+  aufgetaucht im Seitenkopf der Köhler-Meldung. Dort systematisch durchgehen.
+* **OTS-Archiv pro Jahr** (`ots.at`, Suche nach „MedUni Wien Professur"). Mehrere
+  der belegten Einträge stammen von dort, das Archiv ist vollständiger als die
+  Uni-eigene News-Liste, besonders für 2016 bis 2019.
+* **Antrittsvorlesungs-Ankündigungen** als PDF unter
+  `meduniwien.ac.at/web/fileadmin/content/kommunikation/events/<jahr>/…`.
+  Jede berufene Person hält eine, der Ankündigungstext nennt Denomination und oft
+  den Dienstbeginn.
+* **Webarchiv** der MedUni-News-Übersichten je Jahr, weil die heutige Liste
+  gekürzt ist.
+* **Kliniks- und Institutsseiten**: Leitungswechsel mit Datum („leitet die Abteilung
+  seit …"). Vorsicht, Abteilungsleitung ist nicht automatisch eine Professur.
+
+### Diese 58 Namen sind bereits erfasst, bitte nicht doppelt liefern
+
+Alwin Köhler, Andreas Sönnichsen, Andreas Zuckermann, Angelika Berger, Balázs Hangya,
+Bruno Podesser, Caroline Hutter, Christian Hengstenberg, Christian Loewe, Christoph
+Arnoldner, Christoph Aufricht, Clemens Aigner, Daniel Aletaha, Daniel Zimpfer, Daniela
+Gompelmann, Dietmar Georg, Edda Tschernko, Elisabeth Förster-Waldl, Eva Compérat, Eva
+Schernhammer, Florian Krammer, Francesco Moscato, Georg Stary, Gerhard Prager, Giulio
+Superti-Furga, Günther Steger, Herbert Kiss, Herwig Czech, Joachim Widder, Josef
+Penninger, Judith Aberle, Julia Walochnik, Jürgen Knoblich, Kaan Boztug, Konrad
+Hötzenecker, Marco Idzko, Mariann Pavone-Gyöngyösi, Martin Fischer, Matthias Preusser,
+Michael Bonelli, Nikolaus Klupp, Oliver Kimberger, Oliver Strobel, Oskar Aszmann,
+Pascal Baltzer, Paul Plener, Petra Heffeter, Romana Höftberger, Stanisa Raspopovic,
+Stathis Megas, Stephan Polterauer, Thomas Berger, Thomas Scherer, Tilman Kühn, Ulrike
+Attenberger, Walter Klepetko, Winfried Franz Pickl, Xiaohui Rausch-Fan
+
+### Zwei Regeln, die in Runde 1 verletzt wurden
+
+* **Das Antrittsdatum muss aus der Quelle stammen, nicht aus dem Meldedatum.** Sechs
+  Einträge waren daneben, zwei davon um zwei Jahre (Podesser, Georg: Quelle nennt
+  Oktober 2014, Datensatz sagte 2016). Wenn die Quelle nur „im Herbst" oder gar
+  nichts sagt, gehört das in `_kuratiert`.
+* **Die Quelle muss die Berufung an der MedUni Wien belegen.** Ein Eintrag stützte
+  sich auf eine Meldung über eine Professur am Messerli-Institut der Vetmeduni, einer
+  auf eine Berufung in das Danish Research Council. Beide Personen waren schon vorher
+  MedUni-Professor:innen.
+
+Neue Datei diesmal: `scripts/backfill/kuratiert_meduni2.json`, damit die erste
+Lieferung unverändert bleibt.
