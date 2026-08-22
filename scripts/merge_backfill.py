@@ -29,7 +29,17 @@ BACKFILL_DIR = Path(__file__).resolve().parent / "backfill"
 
 # Felder, die bei bestehenden Datensätzen nachgetragen werden dürfen
 NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung",
-               "geschlecht", "fakultat", "werdegang")
+               "geschlecht", "fakultat", "werdegang",
+               "herkunft", "herkunft_institution", "herkunft_land")
+
+# Alles, was eine Quelle mitbringen kann, wird bei neuen Datensätzen übernommen.
+# Diese Liste ist dreimal zu kurz gewesen (Geschlecht, Werdegang, Herkunft), jedes
+# Mal wurden kuratierte Angaben still verworfen. Deshalb jetzt eine Liste statt
+# einzelner Zeilen im Konstruktor.
+UEBERNEHMEN = ("fakultat", "fakultat_code", "forschungsbereich", "art_berufung",
+               "geschlecht", "herkunft", "herkunft_institution", "herkunft_land",
+               "ofos_code", "ofos_label", "bio_text", "werdegang", "profil_url",
+               "quelle", "_kuratiert", "_herkunft_research")
 
 # Felder, deren automatisch erzeugte Fassung von der Quelle überschrieben werden
 # darf: ein Lebenslauf aus der Uni-Seite ist besser als die aus OpenAlex
@@ -84,34 +94,17 @@ def main():
                             treffer.pop(marker, None)   # ab jetzt Quellenangabe
                         ergaenzt += 1
                 continue
-            # Neuer Datensatz: Stufe-1-Felder plus die Struktur, die die
-            # Pipeline erwartet (Rest füllen classify_ofos, enrich, fill_gaps)
-            neu.append({
+            # Neuer Datensatz: Pflichtfelder plus alles, was die Quelle liefert
+            datensatz = {
                 "name": e["name"],
                 "universitat": e["universitat"],
-                "fakultat": e.get("fakultat"),
-                "fakultat_code": e.get("fakultat_code"),
-                "forschungsbereich": e.get("forschungsbereich"),
-                "art_berufung": e.get("art_berufung"),
-                # Die mdw nennt das Geschlecht in der Quelle ("seine/ihre"),
-                # das ist besser als jede Vornamensheuristik.
-                "geschlecht": e.get("geschlecht"),
-                "herkunft": None,
-                "herkunft_institution": None,
-                "herkunft_land": None,
-                "ofos_code": None,
-                "ofos_label": None,
-                "bio_text": None,
-                # Lebensläufe aus der Quelle (Uni Wien) sind wertvoller als die
-                # später abgeleiteten OpenAlex-Stationen, deshalb ohne
-                # werdegang_auto-Marker.
-                "werdegang": e.get("werdegang"),
-                "profil_url": e.get("profil_url"),
                 "monat": e["monat"],
                 "year": e["year"],
-                "quelle": e.get("quelle"),
                 "stufe": 1,
-            })
+            }
+            for feld in UEBERNEHMEN:
+                datensatz[feld] = e.get(feld)
+            neu.append(datensatz)
             lang[schluessel] = neu[-1]
 
     print(f"Quellen: {[q.name for q in quellen]}")
