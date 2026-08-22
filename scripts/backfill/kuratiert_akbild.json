@@ -354,7 +354,8 @@
   "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professorin-williams",
   "stufe": 1,
   "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn in der Meldung nicht genannt, Studienjahresbeginn angenommen",
-  "geschlecht": "W"
+  "geschlecht": "W",
+  "monat_unsicher": true
  },
  {
   "name": "Cat Dawson",
@@ -365,7 +366,8 @@
   "fakultat": "Institut für Kunst- und Kulturwissenschaften",
   "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professur-dawson",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn in der Meldung nicht genannt, Studienjahresbeginn angenommen"
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn in der Meldung nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Imke Woelk",

@@ -66,12 +66,19 @@
   },
   "BOKU": {
    "vollstaendig": [
+    2017,
+    2018,
+    2019,
+    2020,
     2025
    ],
    "teilweise": [
-    2022
+    2015,
+    2021,
+    2022,
+    2024
    ],
-   "quelle": "Kuratierung 2025; Mitteilungsblatt nennt Berufungen nur ausnahmsweise (Senatsänderungen)"
+   "quelle": "BOKU-Wissensbilanzen ab 2017 nennen die Berufungen namentlich mit Paragraf und Vorinstitution (Primärquelle), dazu APA-Science/OTS und das Mitteilungsblatt. 2016 und 2023 offen; für 2015/2016 nennen die Wissensbilanzen nur Wissenschaftszweige ohne Namen. Monate meist nicht belegt, weil die Wissensbilanz nur das Kalenderjahr angibt"
   },
   "WU Wien": {
    "vollstaendig": [

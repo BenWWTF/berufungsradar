@@ -32,7 +32,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung 2015; korrigiert bei der Prüfung: Seite nennt Oktober 2014 als Antritt, Datensatz sagte Februar 2015"
  },
  {
   "name": "Bruno Podesser",
@@ -64,7 +65,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung 2016; korrigiert bei der Prüfung: Seite nennt Oktober 2014, Datensatz sagte März 2016"
  },
  {
   "name": "Dietmar Georg",
@@ -97,7 +99,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2016-10 (Pressemitteilung 9.10.2014 zur Professur, Berufung 2016); korrigiert bei der Prüfung: Seite nennt Oktober 2014, Datensatz sagte Oktober 2016"
  },
  {
   "name": "Lukas Kenner",
@@ -130,7 +133,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Richard Moriggl",
@@ -163,7 +167,8 @@
   "wwtf_programme": [
    "LS"
   ],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; gemeinsame Professur mit der MedUni Wien"
  },
  {
   "name": "Lieke te Winkel",
@@ -204,6 +209,148 @@
   "_ofos_auto": true
  },
  {
+  "name": "Christoph Pfeifer",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2015,
+  "stufe": 1,
+  "fakultat": "Institut für Verfahrens- und Energietechnik",
+  "fakultat_code": null,
+  "forschungsbereich": "Verfahrenstechnik",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "202",
+  "ofos_label": "Elektrotechnik",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10410/Jahresberichte/Jahresbericht_2015.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Jahresbericht 2015; Antrittsvorlesung 5.3.2015 — Dienstbeginn vermutlich 2013/2014, Jahr der Antrittsvorlesung als Näherung übernommen, da kein anderes Datum in Primärquelle",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ICT"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Henry Jäger",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2015,
+  "stufe": 1,
+  "fakultat": "Institut für Lebensmitteltechnologie",
+  "fakultat_code": null,
+  "forschungsbereich": "Lebensmitteltechnologie / Innovative Lebensmittel",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "204",
+  "ofos_label": "Chemieingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10410/Jahresberichte/Jahresbericht_2015.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Jahresbericht 2015; Antrittsvorlesung 10.3.2015 — Dienstbeginn vermutlich 2013/2014, Jahr der Antrittsvorlesung als Näherung übernommen, da kein anderes Datum in Primärquelle",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Martin Gierus",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2015,
+  "stufe": 1,
+  "fakultat": "Institut für Tierernährung, Tierische Lebensmittel und Ernährungswissenschaften (TTE)",
+  "fakultat_code": null,
+  "forschungsbereich": "Tierernährung",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10410/Jahresberichte/Jahresbericht_2015.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Jahresbericht 2015; Antrittsvorlesung 10.3.2015 — Dienstbeginn vermutlich 2013/2014, Jahr der Antrittsvorlesung als Näherung übernommen, da kein anderes Datum in Primärquelle",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Tobias Pröll",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2015,
+  "stufe": 1,
+  "fakultat": "Institut für Verfahrens- und Energietechnik",
+  "fakultat_code": null,
+  "forschungsbereich": "Energietechnik",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "202",
+  "ofos_label": "Elektrotechnik",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10410/Jahresberichte/Jahresbericht_2015.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Jahresbericht 2015; Antrittsvorlesung 5.3.2015 — Dienstbeginn vermutlich 2013/2014, Jahr der Antrittsvorlesung als Näherung übernommen, da kein anderes Datum in Primärquelle",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ICT"
+  ],
+  "monat_unsicher": true
+ },
+ {
   "name": "Christoph Aufricht",
   "universitat": "MedUni Wien",
   "fakultat": null,
@@ -233,7 +380,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung 2015; korrigiert bei der Prüfung: Seite nennt August 2015, Datensatz sagte Mai 2015"
  },
  {
   "name": "Eva Schernhammer",
@@ -266,7 +414,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2015-08-31; Dienstantritt 1.9.2015"
  },
  {
   "name": "Giulio Superti-Furga",
@@ -299,7 +448,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2015-02-23; Dienstantritt 1.2.2015"
  },
  {
   "name": "Alexandra Ganser-Blumenau",
@@ -664,7 +814,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 30.05.2016; Beginn nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Abdullah Takim",
@@ -1072,7 +1224,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen",
+  "monat_unsicher": true
  },
  {
   "name": "Eberhard Ludewig",
@@ -1103,7 +1257,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Iwan Burgener",
@@ -1136,7 +1291,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen",
+  "monat_unsicher": true
  },
  {
   "name": "Paula Larenza Menzies",
@@ -1169,7 +1326,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Alexander Mohr",
@@ -1200,7 +1359,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Meldung 16.8.2016, Beginn nicht genannt",
+  "monat_unsicher": true
  },
  {
   "name": "Andrea Weber",
@@ -1231,7 +1392,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; erstes Quartal 2016, genauer Beginn nicht genannt",
+  "monat_unsicher": true
  },
  {
   "name": "Ben Greiner",
@@ -1262,7 +1425,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.7.2016"
  },
  {
   "name": "Bettina Fuhrmann",
@@ -1293,7 +1457,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; erstes Quartal 2016, Ruf angenommen"
  },
  {
   "name": "Jürgen Essletzbichler",
@@ -1324,7 +1489,9 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Meldung 16.8.2016, Beginn nicht genannt",
+  "monat_unsicher": true
  },
  {
   "name": "Margarethe Rammerstorfer",
@@ -1357,7 +1524,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.12.2016, Meldung 21.3.2017"
  },
  {
   "name": "Sabine Frerichs",
@@ -1388,7 +1556,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; erstes Quartal 2016, genauer Beginn nicht genannt",
+  "monat_unsicher": true
  },
  {
   "name": "Simone Ghislandi",
@@ -1415,6 +1585,316 @@
   "ofos_bereich": "Medizin, Gesundheitswissenschaften",
   "ofos_hauptgruppe_code": "30",
   "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn: Jahresbeginn 2016"
+ },
+ {
+  "name": "Alois Jungbauer",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Biotechnologie",
+  "fakultat_code": "DBT/IAB",
+  "forschungsbereich": "Downstream Processing",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Jungbauer als 2017 §99(3) Berufung. Antrittsvorlesung 6.10.2017. §99(3) ist die BOKU-interne Berufung von Assoz.Prof. zum Univ.Prof. (i.d.R. nach Habilitation).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Andreas Muhar",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Landschaftsentwicklung, Erholungs- und Naturschutzplanung",
+  "fakultat_code": "ILEN",
+  "forschungsbereich": "Nachhaltige Landschaftsentwicklung, Transdisziplinarität und Wissensintegration",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Muhar als 2017 §99(3) Berufung. Im 'Weitere Antrittsvorlesungen'-Bereich der BOKUonline ohne Datum gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Astrid Gühnemann",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Verkehrswesen",
+  "fakultat_code": "IVE",
+  "forschungsbereich": "Verkehrswesen für eine nachhaltige Entwicklung",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 (genehmigt 8.6.2018) listet Gühnemann als eine von 8 Berufungen des Kalenderjahres 2017: 'Astrid Gühnemann (University of Leeds), Verkehrswesen für eine nachhaltige Entwicklung (§ 98)'. Antrittsvorlesung 9.3.2018. Monat 'JÄNNER' (Berufung typisch 1.1. oder Februar nach Hearing) – nicht im Mitteilungsblatt verifiziert. Primärquelle für den Namen und die Berufung: BOKU Wissensbilanz 2017. Sekundärquelle für Antrittsvorlesung: boku.ac.at/akademie-fuer-weiterbildung/.../themen-fuers-21-jahrhundert-boku-antrittsvorlesungen.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Marianne Penker",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Nachhaltige Wirtschaftsentwicklung",
+  "fakultat_code": "INWE",
+  "forschungsbereich": "Landsoziologie und ländliche Entwicklung",
+  "art_berufung": "§99(3)",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "504",
+  "ofos_label": "Soziologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Penker als 2017 §99(3) Berufung. Antrittsvorlesung 24.10.2018.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "5",
+  "ofos_bereich": "Sozialwissenschaften",
+  "ofos_hauptgruppe_code": "50",
+  "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Reingard Grabherr",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Department für Biotechnologie (DBT)",
+  "fakultat_code": "IMBT",
+  "forschungsbereich": "Molekulare Biotechnologie",
+  "art_berufung": "§99(3)",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "304",
+  "ofos_label": "Medizinische Biotechnologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/universitaetsleitung/rektorat/stabsstellen/stabsstelle-veranstaltungsmanagement/themen/veranstaltungen-fotos-videos/veranstaltungsarchiv/veranstaltungen-2017/antrittsvorlesung-prof-reingard-grabherr-18102017",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Veranstaltungsarchiv 2017; Antrittsvorlesung 18.10.2017. Ausschreibung der Professur gemäß §99(3) erfolgte 2015/16 (boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2015_16/MB19/Molekulare_Biotechnologie__final_.pdf, ab 1.10.2016). Dienstbeginn daher wahrscheinlich 2016, Jahr der Antrittsvorlesung 2017 als Näherung übernommen.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Rosemarie Stangl",
+  "universitat": "BOKU",
+  "monat": "NOVEMBER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für ... (aus Antrittsvorlesung nicht eindeutig)",
+  "fakultat_code": null,
+  "forschungsbereich": "Of De-Generation and Re-Generation (genaue Denomination aus Antrittsvorlesungs-Titel, Fach aus BOKU-Kontext)",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/universitaetsleitung/rektorat/stabsstellen/stabsstelle-veranstaltungsmanagement/themen/veranstaltungen-fotos-videos/veranstaltungsarchiv/veranstaltungen-2017/antrittsvorlesung-prof-stangl-13112017",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Veranstaltungsarchiv 2017; Antrittsvorlesung 13.11.2017. Institut/Forschungsbereich nicht eindeutig aus Quelle, Nachtrag in nächster Session.",
+  "_herkunft_research": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Stefan Schmutz",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Hydrobiologie und Gewässermanagement",
+  "fakultat_code": "IHG",
+  "forschungsbereich": "Aquatische Ökosystemanalyse",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Schmutz als 2017 §99(3) Berufung. Antrittsvorlesung 12.10.2017.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
+  "name": "Thomas Hein",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Hydrobiologie und Gewässermanagement",
+  "fakultat_code": "IHG",
+  "forschungsbereich": "Hydrobiologie und Gewässermanagement",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Hein als 2017 Berufung. Antrittsvorlesung 12.10.2017. Berufungskommission wurde 11.10.2016 konstituiert (MB 2016-17/10). Berufungs-Datum nicht im Mitteilungsblatt verifiziert.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
+  "name": "Wolfgang Gindl-Altmutter",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2017,
+  "stufe": 1,
+  "fakultat": "Institut für Holztechnologie und Nachwachsende Rohstoffe",
+  "fakultat_code": "HTN",
+  "forschungsbereich": "Biobased Fibre Materials / Naturfaserwerkstoffe",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "205",
+  "ofos_label": "Materialwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2017_18/MB19/BOKU_Wissensbilanz2017.pdf",
+  "_kuratiert": "BOKU WB2017 listet Gindl-Altmutter als 2017 Berufung. Berufungskommission wurde 22.6.2016 konstituiert (MB 2016-17/10). Hearing-Berufungs-Vortrag 24./25.5.2016 laut BOKU Berufungsvorträge-Archiv. Berufungs-Datum 2017 nicht im Mitteilungsblatt verifiziert (Monat Schätzung). Im 'Weitere Antrittsvorlesungen'-Bereich der BOKUonline ohne Datum gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
@@ -1454,7 +1934,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2017-10-02; Dienstantritt 1.10.2017"
  },
  {
   "name": "Günther Steger",
@@ -1489,7 +1970,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung 1.4.2017"
  },
  {
   "name": "Joachim Widder",
@@ -1524,7 +2006,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation und OTS 2017-10-02; Dienstantritt 1.3.2017"
  },
  {
   "name": "Marco Idzko",
@@ -1556,7 +2039,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2017-10-02; Dienstantritt 1.10.2017"
  },
  {
   "name": "Andrea Seier",
@@ -2574,7 +3058,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Jessika-Maria Cavalleri",
@@ -2607,7 +3092,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Birgit Rudloff",
@@ -2640,7 +3126,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.1.2017"
  },
  {
   "name": "Patricia Klarner",
@@ -2671,7 +3158,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.7.2017"
  },
  {
   "name": "Peter Hrncirik",
@@ -2754,6 +3242,391 @@
   "_ofos_auto": true
  },
  {
+  "name": "Antje Potthast",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Chemie nachwachsender Rohstoffe",
+  "fakultat_code": "DCH/CNR",
+  "forschungsbereich": "Chemie lignocellulosischer Materialien",
+  "art_berufung": "§99(3)",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Potthast als 2018 §99(3) Berufung. Antrittsvorlesung 6.3.2019.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Astrid Gühnemann",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Verkehrswesen",
+  "fakultat_code": null,
+  "forschungsbereich": "Verkehrswesen",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/universitaetsleitung/rektorat/stabsstellen/stabsstelle-veranstaltungsmanagement/themen/veranstaltungen-fotos-videos/veranstaltungsarchiv/veranstaltungen-2018/antrittsvorlesung-professorin-guehnemann-09032018",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Veranstaltungsarchiv 2018; Antrittsvorlesung 9.3.2018. Dienstbeginn vermutlich 2017, Jahr der Antrittsvorlesung als Näherung übernommen. Geschlecht 'Professorin' aus URL-Slug und Antrittsvorlesungs-Ankündigungstext.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Benjamin Kromoser",
+  "universitat": "BOKU",
+  "monat": "NOVEMBER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Hochbau, Holzbau und kreislaufgerechtes Bauen",
+  "fakultat_code": "IHB",
+  "forschungsbereich": "Biobasiertes Konstruieren (Stiftungsprofessur)",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Kromoser als 2018 §99(1) Berufung. Herkunft: TU Wien. Antrittsvorlesung 28.11.2018. §99(1) ist befristete Professur (i.d.R. 5 Jahre).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Christine Stumpp",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Bodenphysik und landeskulturelle Wasserwirtschaft",
+  "fakultat_code": "IBF",
+  "forschungsbereich": "Landeskulturelle Wasserwirtschaft und Bodenphysik",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "103",
+  "ofos_label": "Physik",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Stumpp als 2018 Berufung. Antrittsvorlesung 17.6.2019. Herkunft: Helmholtz Zentrum München. Berufungs-Datum 2018 nicht im Mitteilungsblatt verifiziert (Monat Schätzung).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ]
+ },
+ {
+  "name": "Friedrich Altmann",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Biochemie",
+  "fakultat_code": "DCH/BC",
+  "forschungsbereich": "Glykobiochemie",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Altmann als 2018 §99(3) Berufung. Antrittsvorlesung 6.3.2019.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Lukas Mach",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Department für Angewandte Genetik und Zellbiologie",
+  "fakultat_code": "DAGZ",
+  "forschungsbereich": "Zellbiologie",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Mach als 2018 §99(3) Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
+  "name": "Manfred Lexer",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Waldbau",
+  "fakultat_code": "WALDBAU",
+  "forschungsbereich": "Multifunktionale Planung von Waldressourcen",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "207",
+  "ofos_label": "Umweltingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Lexer als 2018 §99(3) Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ]
+ },
+ {
+  "name": "Petra Riefler",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Marketing und Innovation",
+  "fakultat_code": "IMI",
+  "forschungsbereich": "Agrarmarketing und Innovationsmanagement natürlicher Ressourcen",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "207",
+  "ofos_label": "Umweltingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Riefler als 2018 Berufung. Antrittsvorlesung 24.10.2018. Herkunft: FH Wiener Neustadt. Berufungs-Datum 2018 (Monat Schätzung basierend auf Antrittsvorlesung).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ]
+ },
+ {
+  "name": "Rupert Wimmer",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Holztechnologie und Nachwachsende Rohstoffe",
+  "fakultat_code": "HTN",
+  "forschungsbereich": "Naturstofftechnologie",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Wimmer als 2018 §99(3) Berufung. Antrittsvorlesung 11.11.2019.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Thomas Kirisits",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Forstentomologie, Forstpathologie und Forstschutz",
+  "fakultat_code": "IFFF",
+  "forschungsbereich": "Forstentomologie und Forstpathologie",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2018_19/MB15/BOKU_Wissensbilanz_2018.pdf",
+  "_kuratiert": "BOKU WB2018 listet Kirisits als 2018 Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ]
+ },
+ {
+  "name": "Werner Zollitsch",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2018,
+  "stufe": 1,
+  "fakultat": "Institut für Tierernährung, Tierische Lebensmittel und Ernährungswissenschaften (TTE)",
+  "fakultat_code": "NUWI",
+  "forschungsbereich": "Nachhaltigkeit tierischer Produktionssysteme",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://forschung.boku.ac.at/de/researcher/Werner-Zollitsch-6A7B32F633F30179",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-FIS-Profil; Profil nennt '2018 Universitätsprofessor für Nachhaltigkeit tierischer Produktionssysteme an der Universität für Bodenkultur Wien' (vorher 1998-2017 Ao.Univ.Professor für Tierernährung). §99(1) = Qualifikationsstelle, da vorher schon ao.Univ.Prof. an BOKU.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "monat_unsicher": true
+ },
+ {
   "name": "Alwin Köhler",
   "universitat": "MedUni Wien",
   "fakultat": null,
@@ -2782,7 +3655,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Dienstantritt 1.7.2018"
  },
  {
   "name": "Andreas Sönnichsen",
@@ -2814,7 +3688,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2018-10-01; Dienstantritt 1.10.2018"
  },
  {
   "name": "Matthias Preusser",
@@ -2849,7 +3724,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2018-10-01; Dienstantritt 1.10.2018"
  },
  {
   "name": "Paul Plener",
@@ -2884,7 +3760,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2018-03-30; Dienstantritt 1.4.2018"
  },
  {
   "name": "Thomas Berger",
@@ -2920,7 +3797,8 @@
   "wwtf_programme": [
    "LS",
    "CS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2018-10-31; Dienstantritt 1.11.2018"
  },
  {
   "name": "Alexa Färber",
@@ -3574,7 +4452,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Armon Rezai",
@@ -3605,7 +4485,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.12.2018, zuvor Forscher an der WU"
  },
  {
   "name": "Otto Randl",
@@ -3638,7 +4519,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn März 2018"
  },
  {
   "name": "Stefan Perner",
@@ -3669,7 +4551,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.9.2018"
  },
  {
   "name": "Zoltán Novotny-Farkas",
@@ -3702,7 +4585,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn 1.9.2018"
  },
  {
   "name": "Cristina Díaz Moreno",
@@ -3733,7 +4617,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 09.07.2019, Beginn 1.10.2019"
  },
  {
   "name": "Efrén García Grinda",
@@ -3764,7 +4649,213 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 09.07.2019, Beginn 1.10.2019"
+ },
+ {
+  "name": "Barbara Hinterstoisser",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Holztechnologie und Nachwachsende Rohstoffe",
+  "fakultat_code": "HTN",
+  "forschungsbereich": "Physikalische Chemie von Holz und Holzwerkstoffen",
+  "art_berufung": "§99(3)",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "103",
+  "ofos_label": "Physik",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Hinterstoisser als 2019 §99(3) Berufung. Antrittsvorlesung 11.11.2019.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
   "wwtf_programme": []
+ },
+ {
+  "name": "Harald E. Rieder",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Meteorologie und Klimatologie",
+  "fakultat_code": "IMK",
+  "forschungsbereich": "Meteorologie und Klimatologie",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "105",
+  "ofos_label": "Geowissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Rieder als 2019 Berufung. Antrittsvorlesung 17.6.2019. Herkunft: Universität Graz. Berufungs-Datum 2019 (Monat Schätzung basierend auf Antrittsvorlesung).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Henry Jäger",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Lebensmitteltechnologie",
+  "fakultat_code": "ILMT",
+  "forschungsbereich": "Lebensmitteltechnologie",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "204",
+  "ofos_label": "Chemieingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Jäger als 2019 Berufung. In BOKUonline Antrittsvorlesungs-Archiv 'Weitere' (ohne Datum).",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Josef Eitzinger",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Meteorologie und Klimatologie",
+  "fakultat_code": "IMK",
+  "forschungsbereich": "Agrarmeteorologie",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "105",
+  "ofos_label": "Geowissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Eitzinger als 2019 §99(3) Berufung. Antrittsvorlesung 28.4.2021.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Konrad Domig",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Lebensmittelqualitätssicherung",
+  "fakultat_code": "ILMQ",
+  "forschungsbereich": "Lebensmittelqualitätssicherung",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Domig als 2019 Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Yusak Susilo",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Verkehrswesen",
+  "fakultat_code": "IVE",
+  "forschungsbereich": "Digitalisierung und Automatisierung des Verkehrs- und Mobilitätssystems (BMK Stiftungsprofessur)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
+  "_kuratiert": "BOKU WB2019 listet Susilo als 2019 Berufung. Herkunft: KTH Stockholm. Antrittsvorlesung 8.11.2021 (BMK Stiftungsprofessur). OTS-Presseaussendung 3.11.2021 erwähnt 'bevor er 2019 an das Institut für Verkehrswesen der BOKU kam' – dies könnte auf eine §99(5) Laufbahnstelle 2019 und die §98-Stiftungsprofessur 2021 hindeuten.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "DH"
+  ]
  },
  {
   "name": "Daniel Aletaha",
@@ -3796,7 +4887,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2019-07-01; Dienstantritt 1.7.2019"
  },
  {
   "name": "Daniel Zimpfer",
@@ -3831,7 +4923,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2019-09-02; Dienstantritt 1.9.2019"
  },
  {
   "name": "Walter Klepetko",
@@ -3866,7 +4959,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2019-06-25; Wiederbestellung als Klinikleiter und Professur"
  },
  {
   "name": "Aleksandr Ovsianikov",
@@ -5621,7 +6715,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 02.03.2020, Beginn Sommersemester 2020"
  },
  {
   "name": "Mario Carpo",
@@ -5648,6 +6743,140 @@
   "ofos_bereich": "Technische Wissenschaften",
   "ofos_hauptgruppe_code": "21",
   "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 02.03.2020; Herkunft in der Meldung nicht genannt"
+ },
+ {
+  "name": "Fabian Pfrengle",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Organische Chemie",
+  "fakultat_code": "DCH/OC",
+  "forschungsbereich": "Organische Chemie",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/mitteilungsblatt/mitteilungsblaetter-2019-20/06-stueck-19122019",
+  "_kuratiert": "BOKU WB2020 listet Pfrengle als 2020 Berufung. BOKU Mitteilungsblatt 06_stueck_19122019 bestätigt: 'Ab 1.3.2020 wird dann der neu berufene Professor Fabian Pfrengle die Leitung [des Instituts für Organische Chemie] bis zum Ende der Amtsperiode übernehmen.' Herkunft: Max-Planck-Institut für Kolloid- und Grenzflächenforschung, Potsdam.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Johannes Konnerth",
+  "universitat": "BOKU",
+  "monat": "JÄNNER",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Holztechnologie und Nachwachsende Rohstoffe",
+  "fakultat_code": "HTN",
+  "forschungsbereich": "Technologie des Holzes",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
+  "_kuratiert": "BOKU WB2020 listet Konnerth als 2020 Berufung. Antrittsvorlesung 10.5.2021. Interne §98-Berufung.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Rainer Schuhmacher",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Bioanalytik und Agro-Metabolomics",
+  "fakultat_code": "IFA-Tulln/BAM",
+  "forschungsbereich": "Plant and Microbe Metabolomics",
+  "art_berufung": "§99(3)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
+  "_kuratiert": "BOKU WB2020 listet Schuhmacher als 2020 §99(3) Berufung. Interne §99(3)-Berufung.",
+  "_herkunft_research": null,
+  "monat_unsicher": true,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Stephan Hann",
+  "universitat": "BOKU",
+  "monat": "FEBRUAR",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Analytische Chemie",
+  "fakultat_code": "DCH/AC",
+  "forschungsbereich": "Analytische Chemie",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
+  "_kuratiert": "BOKU WB2020 listet Hann als 2020 Berufung. Antrittsvorlesung 20.6.2022. Institutsleitung ab 1.10.2020 (MB 01_stueck_15102020). Interne §98-Berufung.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
@@ -5684,7 +6913,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-02-14; Berufung Februar 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Edda Tschernko",
@@ -5717,7 +6948,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-04-01; Dienstantritt 1.4.2020"
  },
  {
   "name": "Elisabeth Förster-Waldl",
@@ -5752,7 +6984,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-12-02; Dienstantritt 1.12.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Eva Compérat",
@@ -5787,7 +7020,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-09-01; Dienstantritt 1.9.2020"
  },
  {
   "name": "Herwig Czech",
@@ -5818,7 +7052,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-05-04; Dienstantritt 2.5.2020"
  },
  {
   "name": "Konrad Hötzenecker",
@@ -5853,7 +7088,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-06; Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Mariann Pavone-Gyöngyösi",
@@ -5886,7 +7123,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-05; Assoziierte Professur, Dienstantritt 1.11.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Oskar Aszmann",
@@ -5921,7 +7159,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-03; Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Petra Heffeter",
@@ -5956,7 +7196,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-06; Assoziierte Professur, Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Romana Höftberger",
@@ -5990,7 +7232,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "CS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-02; Assoziierte Professur, Dienstantritt 1.11.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Xiaohui Rausch-Fan",
@@ -6020,7 +7263,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-09; Assoziierte Professur, Dienstantritt 1.11.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Aaron Maxwell Andrews",
@@ -8453,7 +9697,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Mitte September 2020"
  },
  {
   "name": "Christoph Krönke",
@@ -8484,7 +9729,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn September 2020"
  },
  {
   "name": "Georg Eckert",
@@ -8515,7 +9761,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Oktober 2020"
  },
  {
   "name": "Georg Kofler",
@@ -8546,7 +9793,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Oktober 2020"
  },
  {
   "name": "Jens Seiffert-Brockmann",
@@ -8577,7 +9825,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Mitte September 2020"
  },
  {
   "name": "Klaus Prettner",
@@ -8608,7 +9857,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn September 2020"
  },
  {
   "name": "Marie-Therese Claes",
@@ -8639,7 +9889,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Oktober 2020"
  },
  {
   "name": "Monika Polzin",
@@ -8670,7 +9921,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn September 2020"
  },
  {
   "name": "Verena Dorner",
@@ -8703,7 +9955,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "DH"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn August 2020"
  },
  {
   "name": "Viktoria H.S.E. Robertson",
@@ -8734,7 +9987,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Mitte September 2020"
  },
  {
   "name": "Angelika Kirchschlager",
@@ -9508,7 +10762,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Aristide Antonas",
@@ -9538,7 +10793,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Doireann O'Malley",
@@ -9568,7 +10824,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Francis Ruyter",
@@ -9598,7 +10855,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Heike Derwanz",
@@ -9628,7 +10886,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Michaela Eichwald",
@@ -9659,7 +10918,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn Sommersemester 2021, Paragraf nicht genannt"
  },
  {
   "name": "Nina von Mechow",
@@ -9689,7 +10949,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Sigrid Eyb-Green",
@@ -9719,7 +10980,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Thomas Winkler",
@@ -9750,7 +11012,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn Sommersemester 2021, Paragraf nicht genannt"
  },
  {
   "name": "Jakob Lena Knebl",
@@ -9781,7 +11044,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 02.06.2021, Beginn 1.10.2021"
  },
  {
   "name": "Julienne Lorz",
@@ -9812,7 +11076,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 14.06.2021, Masterstudium startet Oktober 2021"
  },
  {
   "name": "Leonhard Grond",
@@ -9843,7 +11108,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 16.09.2021, Beginn 1.10.2021, Professur gemeinsam mit Ruth Anderwald"
  },
  {
   "name": "Margarete Jahrmann",
@@ -9874,7 +11140,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 14.06.2021, Beginn 1.8.2021"
  },
  {
   "name": "Ruth Anderwald",
@@ -9905,7 +11172,149 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 16.09.2021, Beginn 1.10.2021, Professur gemeinsam mit Leonhard Grond"
+ },
+ {
+  "name": "Daniel Ennöckl",
+  "universitat": "BOKU",
+  "monat": "SEPTEMBER",
+  "year": 2021,
+  "stufe": 1,
+  "fakultat": "Institut für Rechtswissenschaften",
+  "fakultat_code": "REWI",
+  "forschungsbereich": "Öffentliches Recht (Schwerpunkt Klima- und Umweltschutzrecht)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "505",
+  "ofos_label": "Rechtswissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://science.apa.at/power-search/17942214035976234842",
+  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); 'seit September 2021 Universitätsprofessor und Leiter des Instituts für Rechtswissenschaften der BOKU'. Bestätigt durch Antrittsvorlesungs-Newsletter KW44/2022 (alumni.boku.wien).",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "5",
+  "ofos_bereich": "Sozialwissenschaften",
+  "ofos_hauptgruppe_code": "50",
+  "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Helmut Haberl",
+  "universitat": "BOKU",
+  "monat": "SEPTEMBER",
+  "year": 2021,
+  "stufe": 1,
+  "fakultat": "Institut für Soziale Ökologie",
+  "fakultat_code": null,
+  "forschungsbereich": "Sozial-ökologischer Stoffwechsel",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://science.apa.at/power-search/17942214035976234842",
+  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); gemeinsame Antrittsvorlesung mit Ennöckl am 10.11.2022 (alumni.boku.wien/newsletter KW44/2022). Dienstbeginn September 2021 (gleicher Zeitraum wie Ennöckl laut Pressetext).",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Stefanie Lemke",
+  "universitat": "BOKU",
+  "monat": "APRIL",
+  "year": 2021,
+  "stufe": 1,
+  "fakultat": "Institut für ... (aus BOKU-Kontext, nicht in Primärquelle eindeutig)",
+  "fakultat_code": "IEF",
+  "forschungsbereich": "Sustainable Food Systems (genaue Denomination aus BOKU-Kontext, nicht in Primärquelle eindeutig)",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Wissensbilanz 2020 (im Mitteilungsblatt 2020/21 Nr. 20); Berufungsverfahren 2020 erfolgreich abgeschlossen, 'die neue Professorin Stefanie Lemke mit 1. April 2021 starten'. Berufung 2020 verfahrenstechnisch, Dienstantritt 1.4.2021 → year: 2021.",
+  "_herkunft_research": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Yusak Susilo",
+  "universitat": "BOKU",
+  "monat": "NOVEMBER",
+  "year": 2021,
+  "stufe": 1,
+  "fakultat": "Institut für Verkehrswesen",
+  "fakultat_code": null,
+  "forschungsbereich": "Digitalisierung und Automatisierung im Verkehrs- und Mobilitätssystem (BMK Stiftungsprofessur)",
+  "art_berufung": "§99(5)",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://science.apa.at/power-search/10109067397815880845",
+  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); BMK Stiftungsprofessur (Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie), Antrittsvorlesung 8.11.2021.; Stiftungsgeber BMK",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "DH"
+  ],
+  "monat_unsicher": true
  },
  {
   "name": "Gerhard Prager",
@@ -9938,7 +11347,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Assoziierte Professur August 2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Herbert Kiss",
@@ -9970,7 +11381,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Assoziierte Professur 1.12.2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Jürgen Knoblich",
@@ -10005,7 +11417,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2021-04-01; Dienstantritt 1.4.2021"
  },
  {
   "name": "Kaan Boztug",
@@ -10035,7 +11448,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Assoziierte Professur 1.12.2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Oliver Kimberger",
@@ -10068,7 +11482,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung Juli 2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "monat_unsicher": true
  },
  {
   "name": "Oliver Strobel",
@@ -10103,7 +11519,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Dienstantritt 1.10.2021; korrigiert bei der Prüfung: Seite nennt Jänner 2021, Datensatz sagte Oktober 2021"
  },
  {
   "name": "Albana Ilo",
@@ -12476,7 +13893,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "ICT"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn September 2021"
  },
  {
   "name": "Ewald Aschauer",
@@ -12509,7 +13927,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Februar 2021"
  },
  {
   "name": "Florian Zapkau",
@@ -12540,7 +13959,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Juni 2021"
  },
  {
   "name": "Gabriel Felbermayr",
@@ -12571,7 +13991,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Oktober 2021"
  },
  {
   "name": "Gerlinde Fellner-Röhling",
@@ -12604,7 +14025,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "DH"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Oktober 2021"
  },
  {
   "name": "Jonas Bunte",
@@ -12635,7 +14057,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Anfang August 2021"
  },
  {
   "name": "Katrin Hummel",
@@ -12668,7 +14091,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Jänner 2021"
  },
  {
   "name": "Nils Wlömert",
@@ -12701,7 +14125,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "ICT"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Jänner 2021"
  },
  {
   "name": "Susann Fiedler",
@@ -12734,7 +14159,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "CS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Februar 2021"
  },
  {
   "name": "Wendy Chapple",
@@ -12765,7 +14191,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Beginn Juli 2021"
  },
  {
   "name": "Daniela Fally",
@@ -13196,7 +14623,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Verlängerung 2024 gemeldet"
  },
  {
   "name": "Despina Stokou",
@@ -13227,7 +14655,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn März 2022, Paragraf nicht genannt"
  },
  {
   "name": "IJsbrand Hummelen",
@@ -13258,7 +14687,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Quelle nennt § 99"
  },
  {
   "name": "Ines Weizman",
@@ -13289,7 +14719,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Quelle nennt § 99"
  },
  {
   "name": "Nora Schultz",
@@ -13320,7 +14751,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn Februar 2022, Paragraf nicht genannt"
  },
  {
   "name": "Romana Hagyo",
@@ -13351,7 +14783,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Quelle nennt § 99"
  },
  {
   "name": "Tizza Covi",
@@ -13382,13 +14815,14 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Quelle nennt § 99"
  },
  {
   "name": "Alfred Strauss",
   "universitat": "BOKU",
-  "fakultat": null,
-  "fakultat_code": null,
+  "fakultat": "Institut für ... (aus Antrittsvorlesungs-Archiv nicht eindeutig)",
+  "fakultat_code": "IKI",
   "forschungsbereich": "Ingenieurwissenschaften (Bauwesen)",
   "art_berufung": "§99(4)",
   "geschlecht": "M",
@@ -13409,6 +14843,78 @@
   "ofos_bereich": "Technische Wissenschaften",
   "ofos_hauptgruppe_code": "20",
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "BOKU Mitteilungsblatt 08_stueck_13012022 bestätigt Senatsaustritt 1.1.2022 'Univ.Prof. Dipl.-Ing. Dr. Alfred STRAUSS aufgrund seiner Berufung zum Universitätsprofessor als Mitglied des Mittelbaus'. Antrittsvorlesung 27.2.2023. §99(4) ist die typische 'Hausberufung' für langjährige Assoziierte Professoren. Strauss war 2016-2019 Institutsvorstand-Stv. IKI und ab 2024 Institutsleiter IKI (MB 14_stueck_23122024).",
+  "monat_unsicher": true
+ },
+ {
+  "name": "Andreas Holzinger",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2022,
+  "stufe": 1,
+  "fakultat": "Institut für Forsttechnik",
+  "fakultat_code": null,
+  "forschungsbereich": "Digitale Transformation in der Land- und Forstwirtschaft (Digital Transformation for smart farm and forest operations)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://science.apa.at/power-search/8370994691062739598",
+  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); explizit 'mit Wirkung vom 1. März 2022 zum Univ.-Prof. für Digitale Transformation für intelligente Land- und Forstwirtschaft an die Universität für Bodenkultur (BOKU) Wien berufen'. Antrittsvorlesung 7.11.2022 (alumni.boku.wien/newsletter KW44/2022).",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ESR",
+   "DH"
+  ],
+  "monat_unsicher": true
+ },
+ {
+  "name": "Stephan Hann",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2022,
+  "stufe": 1,
+  "fakultat": "Institut für Analytische Chemie",
+  "fakultat_code": null,
+  "forschungsbereich": "Analytische Chemie (Massenspektrometrie)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://science.apa.at/power-search/16887887536059910889",
+  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); Antrittsvorlesung 20.6.2022. Monat März als plausibler Dienstantritt vor der Antrittsvorlesung — genauer Dienstbeginn nicht in Primärquelle, Annahme.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
@@ -13448,7 +14954,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2022-11-04; Assoziierte Professur (§99(4)), Dienstantritt Anfang November 2022; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Tilman Kühn",
@@ -13479,7 +14986,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2022-11-22; Dienstantritt Mitte November 2022"
  },
  {
   "name": "Alexander Grüneis",
@@ -15367,7 +16875,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Peter M. Roth",
@@ -15398,7 +16907,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Alex Hofmann",
@@ -16208,7 +17718,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "ICT"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Plattform gemeinsam mit Anastassia Smirnova-Berlin"
  },
  {
   "name": "Alice Creischer",
@@ -16239,7 +17750,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Fachbereich gemeinsam mit Andreas Siekmann"
  },
  {
   "name": "Anastassia Smirnova-Berlin",
@@ -16272,7 +17784,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "ICT"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Plattform gemeinsam mit Alexander Sverdlov"
  },
  {
   "name": "Andreas Siekmann",
@@ -16303,7 +17816,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Fachbereich gemeinsam mit Alice Creischer"
  },
  {
   "name": "Emily Wardill",
@@ -16334,7 +17848,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; in der Meldung vom 1.3.2024 erneut begrüßt"
  },
  {
   "name": "Monika Kammer",
@@ -16365,7 +17880,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News"
  },
  {
   "name": "Annette Krauss",
@@ -16396,7 +17912,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023, Professur gemeinsam mit Sofia Bempeza"
  },
  {
   "name": "Boris Odehnal",
@@ -16429,7 +17946,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "MA"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Craig Green",
@@ -16460,7 +17978,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Ebba Fransén Waldhör",
@@ -16491,7 +18010,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Liz Haas",
@@ -16524,7 +18044,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "DH"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023, Leitung als Duo UBERMORGEN mit Luzius Bernhard"
  },
  {
   "name": "Luzius Bernhard",
@@ -16557,7 +18078,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "DH"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023, Leitung als Duo UBERMORGEN mit Liz Haas"
  },
  {
   "name": "Marina Vishmidt",
@@ -16588,7 +18110,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Petra Gruber",
@@ -16621,7 +18144,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Sam Jacob",
@@ -16652,7 +18176,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023"
  },
  {
   "name": "Sofia Bempeza",
@@ -16683,7 +18208,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023, Professur gemeinsam mit Annette Krauss"
  },
  {
   "name": "Clemens Aigner",
@@ -16718,7 +18244,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-06-24; Dienstantritt 1.7.2023"
  },
  {
   "name": "Josef Penninger",
@@ -16750,7 +18277,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2023-05-05; Dienstantritt 1.7.2023"
  },
  {
   "name": "Judith Aberle",
@@ -16785,7 +18313,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-05-14; Dienstantritt 1.6.2023; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Martin Fischer",
@@ -16818,7 +18347,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-05-06; Berufung 2023; korrigiert bei der Prüfung: Seite nennt Mai 2023, Datensatz sagte Juli 2023"
  },
  {
   "name": "Winfried Franz Pickl",
@@ -16853,7 +18383,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-05-03; Berufung Mai 2023"
  },
  {
   "name": "Amalio Fernandez-Pacheco Chicon",
@@ -19134,7 +20665,9 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher",
+  "monat_unsicher": true
  },
  {
   "name": "Amandine Savary",
@@ -20022,7 +21555,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn 1.3.2024, Fach und Paragraf nicht genannt"
  },
  {
   "name": "Nicole Sabella",
@@ -20053,7 +21587,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Professur gemeinsam mit Petra Hlaváčková, Paragraf nicht genannt"
  },
  {
   "name": "Petra Hlaváčková",
@@ -20080,6 +21615,39 @@
   "ofos_bereich": "Technische Wissenschaften",
   "ofos_hauptgruppe_code": "21",
   "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Professur gemeinsam mit Nicole Sabella, Paragraf nicht genannt"
+ },
+ {
+  "name": "Fernando Cordero",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2024,
+  "stufe": 1,
+  "fakultat": "Department für Naturwissenschaften und Nachwachsende Rohstoffe",
+  "fakultat_code": null,
+  "forschungsbereich": "Naturwissenschaften (Department für Naturwissenschaften und Nachwachsende Rohstoffe)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10450/BOKU_Wissensbilanz_2024.pdf",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Wissensbilanz 2024; '2024 zwei Berufungen nach § 98 UG 2002 (Fernando Cordero, Department für Naturwissenschaften und Nachwachsende)'. Zweite Person namentlich nicht genannt — bleibt offen.",
+  "_herkunft_research": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
@@ -20119,7 +21687,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-08-01; Dienstantritt 1.8.2024"
  },
  {
   "name": "Florian Krammer",
@@ -20151,7 +21720,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus OTS-Presseinformation MedUni Wien 2024-02-25; Dienstantritt 1.3.2024"
  },
  {
   "name": "Georg Stary",
@@ -20186,7 +21756,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-02-21; Assoziierte Professur (§99(4))"
  },
  {
   "name": "Nikolaus Klupp",
@@ -20218,7 +21789,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-04-02; Dienstantritt Anfang April 2024"
  },
  {
   "name": "Stanisa Raspopovic",
@@ -20248,7 +21820,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-08-06; Dienstantritt 1.8.2024"
  },
  {
   "name": "Ulrike Attenberger",
@@ -20283,7 +21856,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-08-01; Dienstantritt 15.7.2024; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
  },
  {
   "name": "Benedikt Stufler",
@@ -22121,7 +23695,8 @@
   "wwtf_programme": [
    "LS"
   ],
-  "_ofos_auto": true
+  "_ofos_auto": true,
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Sebastian Glatt",
@@ -22154,7 +23729,8 @@
   "zitierungen": null,
   "wwtf_programme": [
    "LS"
-  ]
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
  },
  {
   "name": "Axel Petri-Preis",
@@ -22815,7 +24391,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Paragraf nicht genannt"
  },
  {
   "name": "Alena J. Williams",
@@ -22846,7 +24423,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn in der Meldung nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Anna Schachinger",
@@ -22974,7 +24553,9 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn in der Meldung nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Susanne Brorson",
@@ -23041,7 +24622,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Paragraf nicht genannt"
  },
  {
   "name": "Wendelien van Oldenborgh",
@@ -23072,7 +24654,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Paragraf nicht genannt"
  },
  {
   "name": "Jakob Schillinger",
@@ -23507,7 +25090,7 @@
   "fakultat": "Institut für Verfahrens- und Energietechnik",
   "fakultat_code": "IVET",
   "forschungsbereich": "Thermochemische Biomasse-Umwandlung / Synthesegas / Wirbelschichtsysteme",
-  "art_berufung": "§99(5) Stiftungsprofessur (BEST)",
+  "art_berufung": "§99(5)",
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "BEST – Bioenergy and Sustainable Technologies GmbH",
@@ -23602,7 +25185,8 @@
    ],
    "openalex_id": "A5055660262"
   },
-  "openalex_id": "A5055660262"
+  "openalex_id": "A5055660262",
+  "_kuratiert": "; Stiftungsgeber BEST"
  },
  {
   "name": "Roland Ludwig",
@@ -25089,7 +26673,8 @@
    "openalex_id": "A5000207876"
   },
   "openalex_id": "A5000207876",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Alexander Karl Opitz",
@@ -25189,7 +26774,8 @@
   "publikationen": 139,
   "zitierungen": 3450,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Alois Humer",
@@ -25294,7 +26880,8 @@
   "publikationen": 58,
   "zitierungen": 685,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Andreas Steinboeck",
@@ -25382,7 +26969,8 @@
   "wwtf_programme": [
    "ICT"
   ],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Andrej Pustogow",
@@ -25481,7 +27069,8 @@
    "openalex_id": "A5066837955"
   },
   "openalex_id": "A5066837955",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Anna-Theresa Renner",
@@ -25572,7 +27161,8 @@
    "openalex_id": "A5052155642"
   },
   "openalex_id": "A5052155642",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Astrid Weiss",
@@ -25671,7 +27261,8 @@
    "openalex_id": "A5071826560"
   },
   "openalex_id": "A5071826560",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Emanuel Sallinger",
@@ -25780,7 +27371,8 @@
   ],
   "werdegang_auto": true,
   "vrg_id": "VRG18-013",
-  "vrg_call": 2018
+  "vrg_call": 2018,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Florian Rudroff",
@@ -25889,7 +27481,8 @@
   "publikationen": 141,
   "zitierungen": 4246,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Florian Toth",
@@ -26091,7 +27684,8 @@
   "publikationen": 122,
   "zitierungen": 1198,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Georg Pesch",
@@ -26191,7 +27785,8 @@
   "wwtf_programme": [
    "ESR"
   ],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Helmut Riedl Tragenreif",
@@ -26295,7 +27890,8 @@
    "openalex_id": "A5034573859"
   },
   "openalex_id": "A5034573859",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Ismail Ilkan Ceylan",
@@ -26390,7 +27986,8 @@
   },
   "openalex_id": "A5006230226",
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Iva Hunger Brezinova",
@@ -26491,7 +28088,8 @@
    "openalex_id": "A5035664973"
   },
   "openalex_id": "A5035664973",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Johannes Pistrol",
@@ -26553,7 +28151,8 @@
    "openalex_id": "A5027988662"
   },
   "openalex_id": "A5027988662",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Lukas Eberhardsteiner",
@@ -26620,7 +28219,8 @@
    "openalex_id": "A5048574016"
   },
   "openalex_id": "A5048574016",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Maren Podewitz",
@@ -26716,7 +28316,8 @@
    "openalex_id": "A5069355894"
   },
   "openalex_id": "A5069355894",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Markus Kubicek",
@@ -26817,7 +28418,8 @@
    "openalex_id": "A5091823777"
   },
   "openalex_id": "A5091823777",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Michael Schnuerch",
@@ -26891,7 +28493,8 @@
   "publikationen": 31,
   "zitierungen": 14,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Milica Vujovic",
@@ -26982,7 +28585,8 @@
    "openalex_id": "A5075146838"
   },
   "openalex_id": "A5075146838",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Mohammad N. Ivaki",
@@ -27083,7 +28687,8 @@
    "openalex_id": "A5019920891"
   },
   "openalex_id": "A5019920891",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Ottavia Zoboli",
@@ -27184,7 +28789,8 @@
    "openalex_id": "A5056607694"
   },
   "openalex_id": "A5056607694",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Paul Romatschke",
@@ -27288,7 +28894,8 @@
   "publikationen": 147,
   "zitierungen": 9962,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Renata Raidou",
@@ -27385,7 +28992,8 @@
    "openalex_id": "A5048468645"
   },
   "openalex_id": "A5048468645",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Teresa Liberto",
@@ -27479,7 +29087,8 @@
    "openalex_id": "A5065239059"
   },
   "openalex_id": "A5065239059",
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Thomas Sheppard",
@@ -27579,7 +29188,8 @@
   "publikationen": 114,
   "zitierungen": 1480,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Vasiliki Maria Archodoulaki",
@@ -27673,7 +29283,8 @@
   "publikationen": 89,
   "zitierungen": 1746,
   "wwtf_programme": [],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Wolfgang Kemmetmueller",
@@ -27722,7 +29333,8 @@
   "wwtf_programme": [
    "ICT"
   ],
-  "werdegang_auto": true
+  "werdegang_auto": true,
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
  },
  {
   "name": "Angela Stöger-Horwath",
@@ -30379,7 +31991,8 @@
   "zitierungen": 7191,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Jorge Sanchez-Chiong",
@@ -30418,7 +32031,8 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite + Neue Professuren 2025"
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite + Neue Professuren 2025",
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Julia Hagen",
@@ -30507,7 +32121,8 @@
   "zitierungen": 553,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Katharina Treutler",
@@ -30556,7 +32171,8 @@
   "zitierungen": 26,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Marie Christine Köberlein",
@@ -30658,7 +32274,8 @@
   "zitierungen": 335,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Michael Kitzberger",
@@ -30697,7 +32314,8 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Mischa Janisch",
@@ -30855,7 +32473,8 @@
   "zitierungen": 5005,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Sebastian Müller",
@@ -30989,7 +32608,8 @@
   "zitierungen": 7986,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Svetlana Makarova",
@@ -31084,7 +32704,8 @@
   "zitierungen": 1798,
   "wwtf_programme": [],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Wilhelm Spuller",
@@ -31122,7 +32743,8 @@
    "last_known_institutions": [],
    "openalex_id": null
   },
-  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite (Anton Bruckner Institut) + Neue Professuren 2025"
+  "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: mdw-Profilseite (Anton Bruckner Institut) + Neue Professuren 2025",
+  "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
   "name": "Imke Woelk",
@@ -31153,7 +32775,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Quelle nennt § 99a, Beginn 17.2.2026"
  },
  {
   "name": "Kathrin Rottmann",
@@ -31184,7 +32807,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Ersatzkraft für die Freistellung von Alena J. Williams bis 30.6.2026"
  },
  {
   "name": "Sophie Thun",

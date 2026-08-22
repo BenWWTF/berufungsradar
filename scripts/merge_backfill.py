@@ -30,7 +30,8 @@ BACKFILL_DIR = Path(__file__).resolve().parent / "backfill"
 # Felder, die bei bestehenden Datensätzen nachgetragen werden dürfen
 NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung",
                "geschlecht", "fakultat", "werdegang",
-               "herkunft", "herkunft_institution", "herkunft_land")
+               "herkunft", "herkunft_institution", "herkunft_land",
+               "_kuratiert", "monat_unsicher", "quelle")
 
 # Alles, was eine Quelle mitbringen kann, wird bei neuen Datensätzen übernommen.
 # Diese Liste ist dreimal zu kurz gewesen (Geschlecht, Werdegang, Herkunft), jedes

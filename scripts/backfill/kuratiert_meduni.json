@@ -25,7 +25,8 @@
   "herkunft_land": "Österreich",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/detailseite/2020/news-im-november-2020/petra-heffeter-tritt-eine-professur-im-fachbereich-experimentelle-onkologie-an/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-06; Assoziierte Professur, Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Xiaohui Rausch-Fan",
@@ -403,7 +404,8 @@
   "herkunft_land": "Deutschland",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/detailseite/2020/news-im-februar-2020/daniela-gompelmann-uebernimmt-professur-fuer-interventionelle-bronchiologie-an-der-meduni-wien/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-02-14; Berufung Februar 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Edda Tschernko",
@@ -459,7 +461,8 @@
   "herkunft_land": "Österreich",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/detailseite/2020/news-im-november-2020/oskar-aszmann-uebernimmt-professur-fuer-bionische-rekonstruktion-an-der-meduni-wien/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-03; Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Konrad Hötzenecker",
@@ -473,7 +476,8 @@
   "herkunft_land": "Österreich",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/detailseite/2020/news-im-oktober-2020/konrad-hoetzenecker-tritt-professur-fuer-lungentransplantation-an-1/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-06; Berufung November 2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Romana Höftberger",
@@ -543,7 +547,8 @@
   "herkunft_land": "Österreich",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2021/news-im-august-2021/gerhard-prager-tritt-professur-im-fachbereich-bariatrische-chirurgie-an/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Assoziierte Professur August 2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Herbert Kiss",
@@ -585,7 +590,8 @@
   "herkunft_land": "Österreich",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2021/news-im-juli-2021/oliver-kimberger-uebernimmt-professur-fuer-perioperatives-informationsmanagement/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung Juli 2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
-  "stufe": 1
+  "stufe": 1,
+  "monat_unsicher": true
  },
  {
   "name": "Tilman Kühn",

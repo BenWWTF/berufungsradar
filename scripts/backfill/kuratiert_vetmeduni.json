@@ -45,7 +45,8 @@
   "geschlecht": "W",
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2016/annemarie-kaesbohrer",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen",
+  "monat_unsicher": true
  },
  {
   "name": "Iwan Burgener",
@@ -57,7 +58,8 @@
   "geschlecht": "M",
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2016/iwan-burgener",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Monat der Meldung übernommen",
+  "monat_unsicher": true
  },
  {
   "name": "Paula Larenza Menzies",
@@ -69,7 +71,8 @@
   "geschlecht": "W",
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2016/paula-larenza-menzies",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Jessika-Maria Cavalleri",
@@ -105,7 +108,8 @@
   "geschlecht": "M",
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2018/rault-professur",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Monat nicht genannt, Studienjahresbeginn angenommen",
+  "monat_unsicher": true
  },
  {
   "name": "Peter M. Roth",
@@ -141,7 +145,8 @@
   "geschlecht": "M",
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2023/start-fuer-stiftungsprofessur-wiederkaeuermedizin-im-alpenraum",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher",
+  "monat_unsicher": true
  },
  {
   "name": "Doris Wilflingseder",

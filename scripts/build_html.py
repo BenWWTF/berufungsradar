@@ -283,19 +283,39 @@ function initGenderChart(rows) {
 // ─── CHART: TIMELINE (by month) ──────────────────────────
 function initTimelineChart(rows) {
   const ys = selectedYears();
+  // Datensätze ohne belegten Monat verfälschen die Monatskurve, deshalb hier
+  // ausgenommen und unter dem Diagramm ausgewiesen.
+  const belegt = rows.filter(d => !d.monat_unsicher);
+  const ohneMonat = rows.length - belegt.length;
+  const hinweis = document.getElementById("timeline-hinweis");
+  if (hinweis) {
+    hinweis.textContent = ohneMonat
+      ? `${ohneMonat} von ${rows.length} Berufungen sind ohne belegten Monat erfasst und hier nicht enthalten. `
+        + `Ihre Quelle nennt nur das Jahr.`
+      : "";
+  }
   const datasets = ys.map(y => ({
     label: String(y),
-    data: MONATEN.map(m => rows.filter(d => d.year === y && d.monat === m).length),
+    data: MONATEN.map(m => belegt.filter(d => d.year === y && d.monat === m).length),
     backgroundColor: ys.length === 1 ? "#0055A4" : yearColor(y),
     borderRadius: 4
   }));
+  // Bis drei Jahre nebeneinander lesbar, darüber werden die Balken zu dünn:
+  // dann gestapelt, damit die Monatsverteilung erkennbar bleibt.
+  const gestapelt = ys.length > 3;
   mountChart("timeline", "chart-timeline", {
     type: "bar",
     data: { labels: MONATEN.map(m => m.substring(0,3)), datasets },
     options: {
       responsive: true, maintainAspectRatio: true,
-      plugins: { legend: { display: ys.length > 1, position: "bottom" } },
-      scales: { y: { ticks: { stepSize: 1 } } }
+      plugins: {
+        legend: { display: ys.length > 1, position: "bottom" },
+        tooltip: { mode: gestapelt ? "index" : "nearest", intersect: !gestapelt },
+      },
+      scales: {
+        x: { stacked: gestapelt },
+        y: { stacked: gestapelt, ticks: { stepSize: gestapelt ? 5 : 1 } }
+      }
     }
   });
 }
@@ -620,6 +640,7 @@ function badgeArt(art) {
   if (art === "§98")    return `<span class="badge badge-98">§98 Univ.Prof</span>`;
   if (art === "§99(4)") return `<span class="badge badge-99">§99 Abs. 4</span>`;
   if (art === "§99(1)") return `<span class="badge badge-99">§99 Abs. 1</span>`;
+  if (art === "§99(3)") return `<span class="badge badge-99">§99 Abs. 3</span>`;
   if (art && art.startsWith("§99(5)")) return `<span class="badge badge-99">§99 Abs. 5 BEST</span>`;
   return `<span class="badge badge-unk">Unbekannt</span>`;
 }
@@ -1108,7 +1129,7 @@ function initInsights(rows) {
     `Frauenanteil: <strong>${Math.round(frauen / Math.max(1, total) * 100)}%</strong> (${frauen} von ${total}) — unter der 50%-Zielmarke des UG-Frauenförderungsgebots.`,
     `Stärkste Bereiche: ${bereichText}.`,
     (() => {
-      const spitze = Math.max(...monatCounts);
+      const spitze = Math.max(...monatCounts);   // enthält auch unsichere Monate
       if (!spitze) return '';
       const monat = topMonat.charAt(0) + topMonat.slice(1).toLowerCase();
       const zahl = plural(spitze, 'Berufung', 'Berufungen');

@@ -26,7 +26,8 @@
   "quelle": "https://www.wu.ac.at/presse/presseaussendungen/archiv/presseaussendungen-2016",
   "stufe": 1,
   "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; erstes Quartal 2016, genauer Beginn nicht genannt",
-  "geschlecht": "W"
+  "geschlecht": "W",
+  "monat_unsicher": true
  },
  {
   "name": "Sabine Frerichs",
@@ -39,7 +40,8 @@
   "quelle": "https://www.wu.ac.at/presse/presseaussendungen/archiv/presseaussendungen-2016",
   "stufe": 1,
   "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; erstes Quartal 2016, genauer Beginn nicht genannt",
-  "geschlecht": "W"
+  "geschlecht": "W",
+  "monat_unsicher": true
  },
  {
   "name": "Bettina Fuhrmann",
@@ -78,7 +80,8 @@
   "quelle": "https://www.wu.ac.at/presse/presseaussendungen/archiv/presseaussendungen-2016",
   "stufe": 1,
   "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Meldung 16.8.2016, Beginn nicht genannt",
-  "geschlecht": "M"
+  "geschlecht": "M",
+  "monat_unsicher": true
  },
  {
   "name": "Jürgen Essletzbichler",
@@ -91,7 +94,8 @@
   "quelle": "https://www.wu.ac.at/presse/presseaussendungen/archiv/presseaussendungen-2016",
   "stufe": 1,
   "_kuratiert": "Handrecherche 2026-08-21 aus WU-Presseaussendung; Meldung 16.8.2016, Beginn nicht genannt",
-  "geschlecht": "M"
+  "geschlecht": "M",
+  "monat_unsicher": true
  },
  {
   "name": "Margarethe Rammerstorfer",

@@ -71,6 +71,7 @@ STICHWORT = [
     (r"biomedizintechnik|biomedical engineering|medizintechnik|medical engineering|"
      r"medical physic|medizinische strahlenphysik|bildgebung|imaging", "206"),
     (r"medizinische biotechnolog|medical biotechnolog|gentherapie|zelltherapie", "304"),
+    (r"molekulare biotechnolog|molecular biotechnolog|bioprozesstechnik|bioprozess", "304"),
     # Naturwissenschaften
     (r"mathemat|analysis|geometrie|geometry|stochastik|statistik|statistic|"
      r"wahrscheinlichkeit|probability|numerik|numerical analysis|algebra|topolog", "101"),
@@ -110,7 +111,8 @@ STICHWORT = [
      r"industrial design|digital engineering", "211"),
     # Agrar und Veterinär
     (r"agrar|agricultur|pflanzenbau|crop|bodenkunde|soil|forst|forest|waldbau|"
-     r"gartenbau|nutztier|animal science|landwirtschaft", "401"),
+     r"gartenbau|nutztier|animal science|landwirtschaft|"
+     r"tierernährung|animal nutrition", "401"),
     (r"veterinär|veterinary|tiermedizin|tierschutz|tierhaltung|animal welfare|"
      r"labortierpathologie|fischgesundheit|schweinemedizin|wiederkäuer|"
      r"kleintier|pferde|bestandsbetreuung|nutztier", "403"),
