@@ -44,6 +44,26 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 Erfasst sind alle 9 öffentlichen Wiener Universitäten, die Berufungen gemäß §98,
 §99(1), §99(4) und §99(5) Stiftungsprofessuren (BEST) ausgesprochen haben.
 
+## 2b. Auswertungszeitraum: ab 2019
+
+Der Zeitraum beginnt mit **2019**, nicht früher. Der Grund ist strukturell, nicht
+eine Frage des Recherchefleißes: TU Wien führt seine Übersichtsseite „Neue
+Professor_innen **seit 2019**", die mdw hat ab 2019 durchgehende Jahresseiten.
+Diese beiden Häuser stellen zusammen rund die Hälfte aller Wiener Berufungen. Vor
+2019 existieren die Quellen nicht, weil die Universitäten erst damals begonnen
+haben, Berufungen systematisch zu publizieren.
+
+Geschätzte Abdeckung, gemessen an rund 110 Berufungen im Jahr:
+
+| Jahr | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Abdeckung | 15 % | 22 % | 43 % | 37 % | 45 % | 82 % | 70 % | 51 % | 78 % | 52 % | 86 % |
+
+Die 136 Datensätze der Jahre 2014 bis 2018 sind nicht verloren, sie liegen in
+`dashboard_data_vor2019.json`. Für Zeitreihen sind sie unbrauchbar, weil eine
+Abdeckung zwischen 15 und 45 Prozent jeden Trend zufällig aussehen lässt.
+`merge_backfill.py` übergeht Erntesätze vor 2019 und meldet, wie viele es waren.
+
 ## 2a. Datenbasis-Ausweitung (Backfill)
 
 Ziel ist die Abdeckung von zehn Jahren. Weil die Quellenlage je Universität und

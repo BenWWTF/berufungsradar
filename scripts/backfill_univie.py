@@ -41,7 +41,7 @@ UA = "Berufungsradar/1.0 (mailto:benjamin.missbach@wwtf.at)"
 CDX = ("http://web.archive.org/cdx/search/cdx?url=medienportal.univie.ac.at/uniview/"
        "professuren/*&collapse=urlkey&fl=original,timestamp&limit=3000&output=json")
 
-AB_JAHR = 2015          # frühere Jahrgänge liegen außerhalb des Zehnjahresfensters
+AB_JAHR = 2019          # Auswertungszeitraum beginnt 2019, siehe datenabdeckung.json
 
 MONATE = {
     "jänner": "JÄNNER", "januar": "JÄNNER", "februar": "FEBRUAR", "märz": "MÄRZ",

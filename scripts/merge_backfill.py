@@ -77,10 +77,14 @@ def main():
     if not quellen:
         raise SystemExit("keine Dateien in scripts/backfill/")
 
-    neu, bekannt, ergaenzt = [], 0, 0
+    neu, bekannt, ergaenzt, zu_alt = [], 0, 0, 0
     for datei in quellen:
         ernte = json.loads(datei.read_text())
         for e in ernte:
+            # Auswertungszeitraum ab 2019; ältere Ernte bleibt in der Quelldatei
+            if e["year"] < 2019:
+                zu_alt += 1
+                continue
             schluessel = (e["universitat"], e["year"], norm(e["name"]))
             treffer = lang.get(schluessel) or knapp.get(
                 (e["universitat"], e["year"], kurz(e["name"])))
@@ -111,6 +115,8 @@ def main():
     print(f"Quellen: {[q.name for q in quellen]}")
     print(f"  bereits erfasst: {bekannt} (davon {ergaenzt} Felder nachgetragen)")
     print(f"  neu:             {len(neu)}")
+    if zu_alt:
+        print(f"  vor 2019 übergangen: {zu_alt}")
     jahre = {}
     for e in neu:
         jahre[e["year"]] = jahre.get(e["year"], 0) + 1

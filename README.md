@@ -4,6 +4,13 @@ Interaktives Dashboard zur Visualisierung von Professorinnen- und Professorenber
 
 **Live:** https://benwwtf.github.io/berufungsradar
 
+## Auswertungszeitraum
+
+**2019 bis 2026.** TU Wien und mdw führen ihre Übersichten erst ab 2019, und diese
+beiden Häuser stellen rund die Hälfte aller Wiener Berufungen. Für frühere Jahre
+liegt die Abdeckung zwischen 15 und 45 Prozent, das trägt keine Zeitreihe. Die 136
+Datensätze aus 2014 bis 2018 liegen archiviert in `dashboard_data_vor2019.json`.
+
 ## Automatisierung
 
 Die Datenbasis wird per GitHub Action (`.github/workflows/datenbasis.yml`) aktualisiert:

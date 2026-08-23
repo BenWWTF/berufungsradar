@@ -1,5 +1,5 @@
 {
- "_hinweis": "Welche Universität ist für welches Jahr systematisch erfasst? Von Hand gepflegt, sobald eine Quelle geerntet ist. 'vollstaendig' heißt: es gibt eine Quelle, die alle Berufungen des Jahres nennt. Fehlt ein Jahr, ist es NICHT erfasst — das bedeutet nicht, dass es keine Berufungen gab.",
+ "_hinweis": "Welche Universität ist für welches Jahr systematisch erfasst? Der Auswertungszeitraum beginnt 2019, weil TU Wien und mdw ihre Übersichten erst ab dann führen und diese beiden Häuser fast die Hälfte aller Wiener Berufungen stellen. Datensätze aus 2014–2018 liegen in dashboard_data_vor2019.json und sind dort mit 15 bis 45 Prozent Abdeckung zu unvollständig für Zeitreihen. 'vollstaendig' heißt: es gibt eine Quelle, die alle Berufungen des Jahres nennt. Fehlt ein Jahr, ist es NICHT erfasst — das bedeutet nicht, dass es keine Berufungen gab.",
  "abdeckung": {
   "TU Wien": {
    "vollstaendig": [
@@ -25,10 +25,6 @@
     2025,
     2026
    ],
-   "teilweise": [
-    2014,
-    2017
-   ],
    "quelle": "Jahresseiten Neue Professuren; 2015, 2016 und 2018 ohne auffindbare Seite"
   },
   "Uni Wien": {
@@ -36,10 +32,6 @@
     2025
    ],
    "teilweise": [
-    2015,
-    2016,
-    2017,
-    2018,
     2019,
     2020,
     2021
@@ -54,10 +46,6 @@
     2025
    ],
    "teilweise": [
-    2014,
-    2015,
-    2017,
-    2018,
     2019,
     2021,
     2022,
@@ -67,14 +55,11 @@
   },
   "BOKU": {
    "vollstaendig": [
-    2017,
-    2018,
     2019,
     2020,
     2025
    ],
    "teilweise": [
-    2015,
     2021,
     2022,
     2024
@@ -86,9 +71,6 @@
     2025
    ],
    "teilweise": [
-    2016,
-    2017,
-    2018,
     2020,
     2021
    ],
@@ -100,7 +82,6 @@
     2026
    ],
    "teilweise": [
-    2016,
     2019,
     2020,
     2021,
@@ -126,10 +107,6 @@
     2025
    ],
    "teilweise": [
-    2014,
-    2016,
-    2017,
-    2018,
     2022,
     2023,
     2024
