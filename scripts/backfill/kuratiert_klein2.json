@@ -1,0 +1,58 @@
+[
+ {
+  "name": "Lars Fischer",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2024,
+  "art_berufung": null,
+  "forschungsbereich": "Architekturtheorie und Architekturentwurf (HTC)",
+  "fakultat": "Institut für Kunst und Architektur",
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2024/neuer-professor-fuer-architekturtheorie-und-architekturdesign-ab-1-10-lars-fischer",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Akademie-News 2024; og:description und Body-Text sagen 'Univ.prof. § 99 Architekturtheorie und Architekturentwurf HTC' — Quelle nennt nur §99 generisch, keinen Subparagraph. art_berufung=null per AUFTRAG-Regel (nur exakt §98, §99(1), §99(3), §99(4), §99(5)); Subparagraph-Vermerk in _kuratiert. Gemeinsame Professur mit Cornelia Escher, ab 1.10.2024.",
+  "stufe": 1
+ },
+ {
+  "name": "Cornelia Escher",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2024,
+  "art_berufung": null,
+  "forschungsbereich": "Architekturtheorie und Architekturentwurf (HTC)",
+  "fakultat": "Institut für Kunst und Architektur",
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2024/neuer-professor-fuer-architekturtheorie-und-architekturdesign-ab-1-10-lars-fischer",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Akademie-News 2024; og:description und Body-Text sagen 'Univ.prof. § 99 Architekturtheorie und Architekturentwurf HTC' — Quelle nennt nur §99 generisch, keinen Subparagraph. art_berufung=null per AUFTRAG-Regel (nur exakt §98, §99(1), §99(3), §99(4), §99(5)); Subparagraph-Vermerk in _kuratiert. Gemeinsame Professur mit Lars Fischer, ab 1.10.2024.",
+  "stufe": 1
+ },
+ {
+  "name": "Thilo Folkerts",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2024,
+  "art_berufung": "§98",
+  "forschungsbereich": "Architekturentwurf (Plattform Geographie Landschaften Städte)",
+  "fakultat": "Institut für Kunst und Architektur",
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2024/neuer-proferssor-fuer-architekturentwurf-ab-1-10-thilo-folkerts",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Akademie-News 2024; og:description bestätigt Univ.Prof. §98 Architekturentwurf (Plattform Geographie Landschaften Städte), ab 1.10.2024",
+  "stufe": 1
+ },
+ {
+  "name": "Noit Banai",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2024,
+  "art_berufung": "§98",
+  "forschungsbereich": "Diaspora Aesthetics",
+  "fakultat": "Institut für Kunst- und Kulturwissenschaften",
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2024/neue-proferssorin-fuer-diaspora-aesthetics-ab-1-10-noit-banai",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Akademie-News 2024; og:description bestätigt Univ.Prof. Diaspora Aesthetics, ab 1.10.2024",
+  "stufe": 1
+ }
+]

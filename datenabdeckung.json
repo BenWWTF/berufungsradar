@@ -34,9 +34,13 @@
    "teilweise": [
     2019,
     2020,
-    2021
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
    ],
-   "quelle": "CV-Seiten des früheren Medienportals im Webarchiv (unvollständig archiviert); 2022–2024 keine Quelle"
+   "quelle": "Kuratierung 2025; 2019-2020 aus dem Webarchiv (CV-Seiten des früheren Medienportals); 2021-2024 und 2026 aus den Uni-Wien-Leistungsberichten 2021-2024 (Primärquelle, alle Berufungen namentlich mit Paragraf und Vorinstitution; n=~190 zusätzliche Records in dieser Runde erfasst). 2026 teilweise erfasst (7 Records); vollständige 2026er Berufungen erscheinen erst im Leistungsbericht 2026 (vorauss. Mai 2027)."
   },
   "MedUni Wien": {
    "vollstaendig": [
@@ -62,19 +66,25 @@
    "teilweise": [
     2021,
     2022,
+    2023,
     2024
    ],
-   "quelle": "BOKU-Wissensbilanzen ab 2017 nennen die Berufungen namentlich mit Paragraf und Vorinstitution (Primärquelle), dazu APA-Science/OTS und das Mitteilungsblatt. 2016 und 2023 offen; für 2015/2016 nennen die Wissensbilanzen nur Wissenschaftszweige ohne Namen. Monate meist nicht belegt, weil die Wissensbilanz nur das Kalenderjahr angibt"
+   "quelle": "BOKU-Wissensbilanzen ab 2017 nennen die Berufungen namentlich mit Paragraf und Vorinstitution (Primärquelle), dazu APA-Science/OTS und das Mitteilungsblatt. 2016 und 2023 offen; für 2015/2016 nennen die Wissensbilanzen nur Wissenschaftszweige ohne Namen. Monate meist nicht belegt, weil die Wissensbilanz nur das Kalenderjahr angibt. Korrektur 2026-08-23: bestehender Eintrag Helmut Haberl 2021 §98 (APA-Science) ist nach BOKU-Wissensbilanz 2022 tatsächlich 2022 §99(4); Stephan Hann 2022 §98 wurde entfernt, da nicht in WB 2022 und nur Antrittsvorlesungs-basiert (Berufung wahrscheinlich 2020 §98 lt. WB 2020)."
   },
   "WU Wien": {
    "vollstaendig": [
     2025
    ],
    "teilweise": [
+    2019,
     2020,
-    2021
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
    ],
-   "quelle": "Kuratierung 2025; 2016–2021 von Hand aus den Presseaussendungen. 2019 und ab 2022 lädt das Archiv seine Meldungen dynamisch, dort fehlt die Quelle"
+   "quelle": "Kuratierung 2025; 2016-2021 von Hand aus den Presseaussendungen; 2019 und ab 2022 aus Web-Archiv-Snapshots der Presseaussendungs-Archive (n=23 Records in dieser Runde erfasst). 2022-2024 und 2026 noch lückenhaft, weil das dynamische Archiv nur unvollständig gespiegelt ist; eine WU-Wissensbilanz-Auswertung (Stand 2026) ist nicht öffentlich verfügbar."
   },
   "Angewandte": {
    "vollstaendig": [
@@ -100,7 +110,7 @@
     2024,
     2026
    ],
-   "quelle": "News-Meldungen der Akademie, von Hand erfasst; das Mitteilungsblatt enthält nur Ausschreibungen und Hearings"
+   "quelle": "News-Meldungen der Akademie, von Hand erfasst; das Mitteilungsblatt enthält nur Ausschreibungen und Hearings. 2024 teilweise: 4 Records (Fischer, Escher, Folkerts, Banai) aus og:description der News-Artikel; art_berufung bei Fischer/Escher auf null gesetzt, da Quelle nur generisch §99 nennt (kein Subparagraph). 2019, 2020, 2026 weiterhin offen."
   },
   "Vetmeduni Wien": {
    "vollstaendig": [

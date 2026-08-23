@@ -1,0 +1,1474 @@
+{
+ "Uni Wien": [
+  {
+   "name": "Andrii Chumak",
+   "year": 2019,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Birgit Englert",
+   "year": 2019,
+   "monat": "MAI",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Chris Thomale",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christian Griebler",
+   "year": 2019,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christine Riegel",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Elke Heiß",
+   "year": 2019,
+   "monat": "JUNI",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Elton Prifti",
+   "year": 2019,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Johannes Reitinger",
+   "year": 2019,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Lea Ann Dailey",
+   "year": 2019,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Mihaela Pavlicev",
+   "year": 2019,
+   "monat": "DEZEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Miranda Jakiša",
+   "year": 2019,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Monika Maria Pietrzak-Franger",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Peter Kruschwitz",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Philipp Grohs",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Thomas Németh",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Tijo Salverda",
+   "year": 2019,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Wolfgang Lutz",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Yavuz Köse",
+   "year": 2019,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Zekirija Sejdini",
+   "year": 2019,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Annie Waldherr",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Astrid Lembke",
+   "year": 2020,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Caroline Heinrich",
+   "year": 2020,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christa Cuchiero",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christian Koller",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Cornelia Zwischenberger",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Daniela Hohenwarter-Mayr",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Dietlind Hüchtker",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Elisabeth Brameshuber",
+   "year": 2020,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Franziska Felder",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jana Nikitin",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Johannes Moritz Jirak",
+   "year": 2020,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jutta Mueller",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jürgen Zanghellini",
+   "year": 2020,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Karl Stöger Mjur",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Lena Foljanty",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Magdalena Nieslony",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Martin Polz",
+   "year": 2020,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Nadia Steiber",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Norbert Schuch",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Rhoia Neidenbach",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Teresa Hiergeist",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Veronika Wöhrer",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Alexander Filipović",
+   "year": 2021,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Benjamin Schnieder",
+   "year": 2021,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Maria Leitner",
+   "year": 2021,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Markus Mezger",
+   "year": 2021,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Roberto Cerbino",
+   "year": 2021,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Angela Stöger-Horwath",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Assaf Pinkus",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Benedikt Graf",
+   "year": 2025,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Constanza Cordoni",
+   "year": 2025,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Dragana Damjanovic",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Elisa Tomat",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Elisabeth Hofer",
+   "year": 2025,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Eva Beaujouan",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Franziska Müller",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Friederike Sigler",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Johanna Ullrich",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Katharina Ivanyi",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Katharina Kraus",
+   "year": 2025,
+   "monat": "DEZEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Katharina Stornig",
+   "year": 2025,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Kevin Tierney",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Manuela Studer-Karlen",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Nina Mirnig",
+   "year": 2025,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Olaf Riss",
+   "year": 2025,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Olga Mula",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Reinhard J. Maurer",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Roger Frie",
+   "year": 2025,
+   "monat": "DEZEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Susanne Schwarz",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Zekirija Sejdini",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  }
+ ],
+ "WU Wien": [
+  {
+   "name": "Christina Schamp",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christoph Krönke",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Georg Eckert",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Georg Kofler",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jens Seiffert-Brockmann",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Klaus Prettner",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Marie-Therese Claes",
+   "year": 2020,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Monika Polzin",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Verena Dorner",
+   "year": 2020,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Viktoria H.S.E. Robertson",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Davor Svetinovic",
+   "year": 2021,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Ewald Aschauer",
+   "year": 2021,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Florian Zapkau",
+   "year": 2021,
+   "monat": "JUNI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Gabriel Felbermayr",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Gerlinde Fellner-Röhling",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jonas Bunte",
+   "year": 2021,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Katrin Hummel",
+   "year": 2021,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Nils Wlömert",
+   "year": 2021,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Susann Fiedler",
+   "year": 2021,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Wendy Chapple",
+   "year": 2021,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Lena Knappert",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Wolfgang Urbantschitsch",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Yan Anthea Zhang",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Yariv Brauner",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  }
+ ],
+ "BOKU": [
+  {
+   "name": "Barbara Hinterstoisser",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(3)"
+  },
+  {
+   "name": "Harald E. Rieder",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Henry Jäger",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Josef Eitzinger",
+   "year": 2019,
+   "monat": "JÄNNER",
+   "art_berufung": "§99(3)"
+  },
+  {
+   "name": "Konrad Domig",
+   "year": 2019,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Yusak Susilo",
+   "year": 2019,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Fabian Pfrengle",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Johannes Konnerth",
+   "year": 2020,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Rainer Schuhmacher",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§99(3)"
+  },
+  {
+   "name": "Stephan Hann",
+   "year": 2020,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Daniel Ennöckl",
+   "year": 2021,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Helmut Haberl",
+   "year": 2021,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Stefanie Lemke",
+   "year": 2021,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Yusak Susilo",
+   "year": 2021,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(5)"
+  },
+  {
+   "name": "Alfred Strauss",
+   "year": 2022,
+   "monat": "JÄNNER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Andreas Holzinger",
+   "year": 2022,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Stephan Hann",
+   "year": 2022,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Fernando Cordero",
+   "year": 2024,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christine Sheppard",
+   "year": 2025,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Katharina Gugerell",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Mario Pesendorfer",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Matthias Kuba",
+   "year": 2025,
+   "monat": "APRIL",
+   "art_berufung": "§99(5)"
+  },
+  {
+   "name": "Roland Ludwig",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sabine Seidel",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  }
+ ],
+ "MedUni Wien": [
+  {
+   "name": "Bertrand Lell",
+   "year": 2019,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Daniel Aletaha",
+   "year": 2019,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Daniel Zimpfer",
+   "year": 2019,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Karl Rössler",
+   "year": 2019,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Walter Klepetko",
+   "year": 2019,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Daniela Gompelmann",
+   "year": 2020,
+   "monat": "FEBRUAR",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Edda Tschernko",
+   "year": 2020,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Elisabeth Förster-Waldl",
+   "year": 2020,
+   "monat": "DEZEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Eva Compérat",
+   "year": 2020,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Herwig Czech",
+   "year": 2020,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Igor Adameyko",
+   "year": 2020,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Konrad Hötzenecker",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Mariann Pavone-Gyöngyösi",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Oskar Aszmann",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Petra Heffeter",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Romana Höftberger",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Xiaohui Rausch-Fan",
+   "year": 2020,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Gerhard Prager",
+   "year": 2021,
+   "monat": "AUGUST",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Herbert Kiss",
+   "year": 2021,
+   "monat": "DEZEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Jürgen Knoblich",
+   "year": 2021,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Kaan Boztug",
+   "year": 2021,
+   "monat": "DEZEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Oliver Kimberger",
+   "year": 2021,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Oliver Strobel",
+   "year": 2021,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Julia Walochnik",
+   "year": 2022,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Tilman Kühn",
+   "year": 2022,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Alice Assinger",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Clemens Aigner",
+   "year": 2023,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Egon Ogris",
+   "year": 2023,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Gernot Schabbauer",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Harun Fajkovic",
+   "year": 2023,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Johannes Gojo",
+   "year": 2023,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Josef Penninger",
+   "year": 2023,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Judith Aberle",
+   "year": 2023,
+   "monat": "JUNI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Martin Andreas",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Martin Fischer",
+   "year": 2023,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sabine Pleschberger",
+   "year": 2023,
+   "monat": "DEZEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Thomas Reiberger",
+   "year": 2023,
+   "monat": "NOVEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Winfried Franz Pickl",
+   "year": 2023,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Alexander Niessner",
+   "year": 2024,
+   "monat": "FEBRUAR",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Caroline Hutter",
+   "year": 2024,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christoph Juchem",
+   "year": 2024,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Florian Krammer",
+   "year": 2024,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Georg Stary",
+   "year": 2024,
+   "monat": "FEBRUAR",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Harald Kittler",
+   "year": 2024,
+   "monat": "DEZEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Johannes A. Schmid",
+   "year": 2024,
+   "monat": "FEBRUAR",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Nikolaus Klupp",
+   "year": 2024,
+   "monat": "APRIL",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Sebastian Schoppmann",
+   "year": 2024,
+   "monat": "MÄRZ",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Stanisa Raspopovic",
+   "year": 2024,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Ulrike Attenberger",
+   "year": 2024,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Andreas Zuckermann",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Balázs Hangya",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christian Loewe",
+   "year": 2025,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Christoph Arnoldner",
+   "year": 2025,
+   "monat": "MAI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Francesco Moscato",
+   "year": 2025,
+   "monat": "NOVEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Michael Bonelli",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Pascal Baltzer",
+   "year": 2025,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Stathis Megas",
+   "year": 2025,
+   "monat": "DEZEMBER",
+   "art_berufung": "§99(4)"
+  },
+  {
+   "name": "Stephan Polterauer",
+   "year": 2025,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Thomas Scherer",
+   "year": 2025,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Philipp Emanuel Bartko",
+   "year": 2026,
+   "monat": "FEBRUAR",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Robert Öllinger",
+   "year": 2026,
+   "monat": "APRIL",
+   "art_berufung": "§98"
+  }
+ ],
+ "Angewandte": [
+  {
+   "name": "Cristina Díaz Moreno",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Efrén García Grinda",
+   "year": 2019,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Antonia Birnbaum",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Mario Carpo",
+   "year": 2020,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jakob Lena Knebl",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Julienne Lorz",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Leonhard Grond",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Margarete Jahrmann",
+   "year": 2021,
+   "monat": "AUGUST",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Ruth Anderwald",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Annette Krauss",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Boris Odehnal",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Craig Green",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Ebba Fransén Waldhör",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Liz Haas",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Luzius Bernhard",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Marina Vishmidt",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Petra Gruber",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sam Jacob",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sofia Bempeza",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jakob Schillinger",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Jan Völker",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Tülay Atak",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sophie Thun",
+   "year": 2026,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  }
+ ],
+ "Vetmeduni Wien": [
+  {
+   "name": "Astrid Holzer",
+   "year": 2022,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Peter M. Roth",
+   "year": 2022,
+   "monat": "JÄNNER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Lorenz Khol",
+   "year": 2023,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Doris Wilflingseder",
+   "year": 2024,
+   "monat": "JULI",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sebastian Glatt",
+   "year": 2024,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Melanie Schären-Bannert",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Sonja Hartnack",
+   "year": 2025,
+   "monat": "SEPTEMBER",
+   "art_berufung": "§98"
+  }
+ ],
+ "Akademie": [
+  {
+   "name": "Andreas Rumpfhuber",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Aristide Antonas",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Doireann O'Malley",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Francis Ruyter",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Heike Derwanz",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Michaela Eichwald",
+   "year": 2021,
+   "monat": "MÄRZ",
+   "art_berufung": null
+  },
+  {
+   "name": "Nina von Mechow",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Sigrid Eyb-Green",
+   "year": 2021,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Thomas Winkler",
+   "year": 2021,
+   "monat": "MÄRZ",
+   "art_berufung": null
+  },
+  {
+   "name": "Alastair Mackinven",
+   "year": 2022,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Despina Stokou",
+   "year": 2022,
+   "monat": "MÄRZ",
+   "art_berufung": null
+  },
+  {
+   "name": "IJsbrand Hummelen",
+   "year": 2022,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Ines Weizman",
+   "year": 2022,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Nora Schultz",
+   "year": 2022,
+   "monat": "FEBRUAR",
+   "art_berufung": null
+  },
+  {
+   "name": "Romana Hagyo",
+   "year": 2022,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Tizza Covi",
+   "year": 2022,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Alexander Sverdlov",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Alice Creischer",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Anastassia Smirnova-Berlin",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§99(1)"
+  },
+  {
+   "name": "Andreas Siekmann",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Emily Wardill",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Monika Kammer",
+   "year": 2023,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Andrea Faraguna",
+   "year": 2024,
+   "monat": "MÄRZ",
+   "art_berufung": null
+  },
+  {
+   "name": "Nicole Sabella",
+   "year": 2024,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Petra Hlaváčková",
+   "year": 2024,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Agata Madejska",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Alena J. Williams",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Anna Schachinger",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Cat Dawson",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Susanne Brorson",
+   "year": 2025,
+   "monat": "MÄRZ",
+   "art_berufung": "§98"
+  },
+  {
+   "name": "Waltraud Indrist",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Wendelien van Oldenborgh",
+   "year": 2025,
+   "monat": "OKTOBER",
+   "art_berufung": null
+  },
+  {
+   "name": "Imke Woelk",
+   "year": 2026,
+   "monat": "FEBRUAR",
+   "art_berufung": null
+  },
+  {
+   "name": "Kathrin Rottmann",
+   "year": 2026,
+   "monat": "MÄRZ",
+   "art_berufung": "§99(1)"
+  }
+ ]
+}
