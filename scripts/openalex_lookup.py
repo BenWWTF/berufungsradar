@@ -471,14 +471,16 @@ def main():
             print(f"  ! not in data: {name}")
             continue
         result = process_entry(d, overrides)
-        if result is None:
-            continue                     # fehlgeschlagene Abfrage nicht merken
-        results[name] = result
-        time.sleep(2.0)  # OpenAlex drosselt bei Serien: pro Person fallen
-                         # Suchabfrage plus mehrere Werk-Seiten an
+        if result is not None:
+            results[name] = result
+            with OUT.open("w") as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+        time.sleep(10.0)  # OpenAlex drosselt bei Serien: pro Person fallen
+                         # Suchabfrage plus mehrere Werk-Seiten an; auch nach
+                         # einem Fehlschlag warten, sonst kaskadieren die 429er.
+                         # 2.0s reichte nicht (harter 429-Block, 2026-08-24),
+                         # hochgesetzt auf 10s.
 
-    with OUT.open("w") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
     print(f"\nWrote {len(results)} results → {OUT}")
 
 
