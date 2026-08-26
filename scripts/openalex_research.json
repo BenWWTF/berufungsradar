@@ -6744,21 +6744,6 @@
     "herkunft_land": "USA",
     "grants": []
   },
-  "Dietmar Feichtinger": {
-    "name": "Dietmar Feichtinger",
-    "openalex_id": "A5041168227",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 11,
-    "cited_by_count": 1,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "University Professor for Structural Engineering and Design. h-Index: 1 | Publikationen: 11 | Zitierungen: 1.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Gerald Schweiger": {
     "name": "Gerald Schweiger",
     "openalex_id": "A5008937752",
@@ -7236,77 +7221,6 @@
     "herkunft": "intern",
     "herkunft_institution": "TU Wien",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Bojana Rosic": {
-    "name": "Bojana Rosic",
-    "openalex_id": "A5062849809",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 79,
-    "cited_by_count": 722,
-    "h_index": 14,
-    "last_known_institutions": [
-      {
-        "name": "University of Twente",
-        "country": "NL",
-        "type": "education",
-        "years": [
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Thermoplastic Composites Research Center",
-        "country": "NL",
-        "type": "nonprofit",
-        "years": [
-          2021
-        ],
-        "most_recent": 2021
-      },
-      {
-        "name": "Technische Universität Braunschweig",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2020,
-          2019,
-          2018,
-          2017,
-          2016,
-          2015,
-          2014,
-          2013,
-          2012,
-          2011,
-          2009,
-          2008,
-          2007
-        ],
-        "most_recent": 2020
-      },
-      {
-        "name": "University of Kragujevac",
-        "country": "RS",
-        "type": "education",
-        "years": [
-          2013,
-          2007
-        ],
-        "most_recent": 2013
-      }
-    ],
-    "bio_text": "University Professor of Digital Engineering. h-Index: 14 | Publikationen: 79 | Zitierungen: 722. Forschungstätigkeit u.a. in RS, Niederlande, Deutschland.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of Twente",
-    "herkunft_land": "Niederlande",
     "grants": []
   },
   "Johann Auer": {
@@ -15413,21 +15327,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Sofia Bempeza": {
-    "name": "Sofia Bempeza",
-    "openalex_id": "A5114946839",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 2,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Kunst und Kommunikative Praxis. h-Index: 1 | Publikationen: 1 | Zitierungen: 2.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Steffen Waldherr": {
     "name": "Steffen Waldherr",
     "openalex_id": "A5038054569",
@@ -18284,21 +18183,6 @@
     "herkunft_land": "Schweiz",
     "grants": []
   },
-  "Lucile Dreidemy": {
-    "name": "Lucile Dreidemy",
-    "openalex_id": "A5009226470",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 3,
-    "cited_by_count": 16,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Zeitgeschichte: Österreichische Zeitgeschichte seit 1918 im internationalen Kontext. h-Index: 1 | Publikationen: 3 | Zitierungen: 16.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Ron Pinhasi": {
     "name": "Ron Pinhasi",
     "openalex_id": "A5036827132",
@@ -18611,21 +18495,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Astrid Mattes-Zippenfenig": {
-    "name": "Astrid Mattes-Zippenfenig",
-    "openalex_id": "A5049723441",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 1,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Social Science of Religion. h-Index: 1 | Publikationen: 1 | Zitierungen: 1.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
     "grants": []
   },
   "Martin Berens": {
@@ -19710,60 +19579,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Sándor Hites": {
-    "name": "Sándor Hites",
-    "openalex_id": "A5050339718",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 27,
-    "cited_by_count": 129,
-    "h_index": 3,
-    "last_known_institutions": [
-      {
-        "name": "Institute for Literary Studies",
-        "country": "HU",
-        "type": "facility",
-        "years": [
-          2023,
-          2022,
-          2021,
-          2017,
-          2014,
-          2012
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "ELTE Research Centre for the Humanities",
-        "country": "HU",
-        "type": "facility",
-        "years": [
-          2023,
-          2021,
-          2016,
-          2012
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Hungarian Academy of Sciences",
-        "country": "HU",
-        "type": "government",
-        "years": [
-          2017,
-          2016,
-          2014,
-          2012
-        ],
-        "most_recent": 2017
-      }
-    ],
-    "bio_text": "Ungarische Literatur im europäischen Kontext. h-Index: 3 | Publikationen: 27 | Zitierungen: 129.",
-    "herkunft": "extern",
-    "herkunft_institution": "Institute for Literary Studies",
-    "herkunft_land": "Ungarn",
     "grants": []
   },
   "Petra Sumasgutner": {
@@ -20882,40 +20697,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Aikaterini Douka": {
-    "name": "Aikaterini Douka",
-    "openalex_id": "A5063300056",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 2,
-    "cited_by_count": 61,
-    "h_index": 1,
-    "last_known_institutions": [
-      {
-        "name": "University of Oxford",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2016
-        ],
-        "most_recent": 2016
-      },
-      {
-        "name": "Oxford Archaeology",
-        "country": "GB",
-        "type": "nonprofit",
-        "years": [
-          2016
-        ],
-        "most_recent": 2016
-      }
-    ],
-    "bio_text": "Archaeological Science. h-Index: 1 | Publikationen: 2 | Zitierungen: 61.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of Oxford",
-    "herkunft_land": "Großbritannien",
     "grants": []
   },
   "Hannes Mikula": {
@@ -24414,21 +24195,6 @@
     "herkunft_land": "USA",
     "grants": []
   },
-  "Marius Lüdicke": {
-    "name": "Marius Lüdicke",
-    "openalex_id": "A5035797366",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 3,
-    "cited_by_count": 18,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Marketing in a Global Economy (Nachfolge Schlegelmilch). h-Index: 1 | Publikationen: 3 | Zitierungen: 18.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Gerhard Marschner": {
     "name": "Gerhard Marschner",
     "openalex_id": "A5003309949",
@@ -26921,21 +26687,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Anne Kühler": {
-    "name": "Anne Kühler",
-    "openalex_id": "A5141398652",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 3,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Rechtsethik und Rechtsphilosophie. h-Index: 1 | Publikationen: 1 | Zitierungen: 3.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Benedikt Stufler": {
     "name": "Benedikt Stufler",
     "openalex_id": "A5080408565",
@@ -27330,21 +27081,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Arne Moritz": {
-    "name": "Arne Moritz",
-    "openalex_id": "A5084457928",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 12,
-    "cited_by_count": 7,
-    "h_index": 2,
-    "last_known_institutions": [],
-    "bio_text": "Ethik in Schule und Gesellschaft. h-Index: 2 | Publikationen: 12 | Zitierungen: 7.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Harun Fajkovic": {
     "name": "Harun Fajkovic",
     "openalex_id": "A5075113407",
@@ -27489,44 +27225,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Music and Performing Arts Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Elias Moncef Bounatirou": {
-    "name": "Elias Moncef Bounatirou",
-    "openalex_id": "A5085473986",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 24,
-    "cited_by_count": 6,
-    "h_index": 1,
-    "last_known_institutions": [
-      {
-        "name": "Slavic Business Institute",
-        "country": "RU",
-        "type": "other",
-        "years": [
-          2019,
-          2016,
-          2002
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "Institute of Slavic Studies",
-        "country": "PL",
-        "type": "facility",
-        "years": [
-          2019,
-          2016,
-          2002
-        ],
-        "most_recent": 2019
-      }
-    ],
-    "bio_text": "Ostslawische Sprachwissenschaft unter besonderer Berücksichtigung der Russistik. h-Index: 1 | Publikationen: 24 | Zitierungen: 6. Forschungstätigkeit u.a. in Russland, Polen.",
-    "herkunft": "extern",
-    "herkunft_institution": "Slavic Business Institute",
-    "herkunft_land": "Russland",
     "grants": []
   },
   "Peter Weinberger": {
@@ -29305,52 +29003,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Ailsa Keating": {
-    "name": "Ailsa Keating",
-    "openalex_id": "A5050843802",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 18,
-    "cited_by_count": 87,
-    "h_index": 5,
-    "last_known_institutions": [
-      {
-        "name": "University of Cambridge",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2026,
-          2024,
-          2022,
-          2020
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Columbia University",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2015
-        ],
-        "most_recent": 2015
-      },
-      {
-        "name": "Massachusetts Institute of Technology",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2013
-        ],
-        "most_recent": 2013
-      }
-    ],
-    "bio_text": "Geometry. h-Index: 5 | Publikationen: 18 | Zitierungen: 87. Forschungstätigkeit u.a. in Großbritannien, USA.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of Cambridge",
-    "herkunft_land": "Großbritannien",
-    "grants": []
-  },
   "Nikolaus Klupp": {
     "name": "Nikolaus Klupp",
     "openalex_id": "A5035834533",
@@ -30296,21 +29948,6 @@
     "herkunft": "extern",
     "herkunft_institution": "Universidad de Granada",
     "herkunft_land": "Spanien",
-    "grants": []
-  },
-  "Dariya Manova": {
-    "name": "Dariya Manova",
-    "openalex_id": "A5042586069",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 4,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Neuere deutsche Literaturwissenschaft mit besonderer Berücksichtigung der Jugend- und Popkultur. h-Index: 1 | Publikationen: 1 | Zitierungen: 4.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
     "grants": []
   },
   "Johannes Gojo": {
@@ -33602,54 +33239,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Mario Carpo": {
-    "name": "Mario Carpo",
-    "openalex_id": "A5049237077",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 77,
-    "cited_by_count": 841,
-    "h_index": 11,
-    "last_known_institutions": [
-      {
-        "name": "University College London",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2026,
-          2024,
-          2023,
-          2022,
-          2020,
-          2014
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Université Paris Cité",
-        "country": "FR",
-        "type": "education",
-        "years": [
-          2007
-        ],
-        "most_recent": 2007
-      },
-      {
-        "name": "École Nationale Supérieure d'Architecture de Paris-La Villette",
-        "country": "FR",
-        "type": "education",
-        "years": [
-          2005
-        ],
-        "most_recent": 2005
-      }
-    ],
-    "bio_text": "Architekturtheorie. h-Index: 11 | Publikationen: 77 | Zitierungen: 841. Forschungstätigkeit u.a. in Frankreich, Großbritannien.",
-    "herkunft": "extern",
-    "herkunft_institution": "University College London",
-    "herkunft_land": "Großbritannien",
-    "grants": []
-  },
   "Philipp Emanuel Bartko": {
     "name": "Philipp Emanuel Bartko",
     "openalex_id": "A5011977867",
@@ -34863,21 +34452,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Britta Breser": {
-    "name": "Britta Breser",
-    "openalex_id": "A5115425197",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 2,
-    "cited_by_count": 2,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Demokratiebildung. h-Index: 1 | Publikationen: 2 | Zitierungen: 2.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "Vera Fischer": {
     "name": "Vera Fischer",
     "openalex_id": "A5072520236",
@@ -35493,52 +35067,6 @@
     "herkunft_land": null,
     "grants": []
   },
-  "Mischa Suter": {
-    "name": "Mischa Suter",
-    "openalex_id": "A5002315795",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 24,
-    "cited_by_count": 81,
-    "h_index": 5,
-    "last_known_institutions": [
-      {
-        "name": "Graduate Institute of International and Development Studies",
-        "country": "CH",
-        "type": "education",
-        "years": [
-          2025
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "University of Basel",
-        "country": "CH",
-        "type": "education",
-        "years": [
-          2020,
-          2017,
-          2016,
-          2014
-        ],
-        "most_recent": 2020
-      },
-      {
-        "name": "University of Zurich",
-        "country": "CH",
-        "type": "education",
-        "years": [
-          2012
-        ],
-        "most_recent": 2012
-      }
-    ],
-    "bio_text": "Sozial- und Kulturgeschichte des 19. und 20. Jahrhunderts. h-Index: 5 | Publikationen: 24 | Zitierungen: 81.",
-    "herkunft": "extern",
-    "herkunft_institution": "Graduate Institute of International and Development Studies",
-    "herkunft_land": "Schweiz",
-    "grants": []
-  },
   "Barbara Hinterstoisser": {
     "name": "Barbara Hinterstoisser",
     "openalex_id": "A5083299485",
@@ -35907,21 +35435,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Katja Weidner": {
-    "name": "Katja Weidner",
-    "openalex_id": "A5021674974",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 10,
-    "cited_by_count": 3,
-    "h_index": 1,
-    "last_known_institutions": [],
-    "bio_text": "Mittellateinische und Spätlateinische Philologie. h-Index: 1 | Publikationen: 10 | Zitierungen: 3.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
     "grants": []
   },
   "Lena Hornkohl": {
@@ -37760,53 +37273,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Marina Vishmidt": {
-    "name": "Marina Vishmidt",
-    "openalex_id": "A5016960794",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 67,
-    "cited_by_count": 362,
-    "h_index": 8,
-    "last_known_institutions": [
-      {
-        "name": "Goldsmiths University of London",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2022,
-          2021,
-          2020,
-          2019,
-          2018
-        ],
-        "most_recent": 2022
-      },
-      {
-        "name": "Purdue University West Lafayette",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2020
-        ],
-        "most_recent": 2020
-      },
-      {
-        "name": "Queen Mary University of London",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2008
-        ],
-        "most_recent": 2008
-      }
-    ],
-    "bio_text": "Kunsttheorie. h-Index: 8 | Publikationen: 67 | Zitierungen: 362. Forschungstätigkeit u.a. in Großbritannien, USA.",
-    "herkunft": "extern",
-    "herkunft_institution": "Goldsmiths University of London",
-    "herkunft_land": "Großbritannien",
-    "grants": []
-  },
   "Walter Werzowa": {
     "name": "Walter Werzowa",
     "openalex_id": "A5021731808",
@@ -38110,6 +37576,730 @@
     "herkunft": "extern",
     "herkunft_institution": "Universität für Weiterbildung Krems",
     "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Frank Lulei": {
+    "name": "Frank Lulei",
+    "openalex_id": "A5092508509",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 7,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "University Professor for Construction Industry and Construction Management. h-Index: 1 | Publikationen: 2 | Zitierungen: 7.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Barbara Bayer": {
+    "name": "Barbara Bayer",
+    "openalex_id": "A5071736019",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 128,
+    "cited_by_count": 4641,
+    "h_index": 41,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Incell Corporation (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of California, Santa Barbara",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ecologie microbienne",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ecosystem Sciences",
+        "country": "AU",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Microbiology of aquatic ecosystems. h-Index: 41 | Publikationen: 128 | Zitierungen: 4641. Forschungstätigkeit u.a. in Österreich, USA, Italien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Aleksandar Acev": {
+    "name": "Aleksandar Acev",
+    "openalex_id": "A5091100639",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "körperliche Gestaltung.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Daniela Gompelmann": {
+    "name": "Daniela Gompelmann",
+    "openalex_id": "A5012405471",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 343,
+    "cited_by_count": 4104,
+    "h_index": 37,
+    "last_known_institutions": [
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätsklinik für Chirurgie Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Johannes Kepler University of Linz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Interventionelle Bronchiologie. h-Index: 37 | Publikationen: 343 | Zitierungen: 4104. Forschungstätigkeit u.a. in Österreich, Deutschland, Großbritannien, Südafrika.",
+    "herkunft": "intern",
+    "herkunft_institution": "Comprehensive Cancer Center Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Mario Carpo": {
+    "name": "Mario Carpo",
+    "openalex_id": "A5049237077",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 77,
+    "cited_by_count": 841,
+    "h_index": 11,
+    "last_known_institutions": [
+      {
+        "name": "University College London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2020,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Université Paris Cité",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2007
+        ],
+        "most_recent": 2007
+      },
+      {
+        "name": "École Nationale Supérieure d'Architecture de Paris-La Villette",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2005
+        ],
+        "most_recent": 2005
+      }
+    ],
+    "bio_text": "Architekturtheorie. h-Index: 11 | Publikationen: 77 | Zitierungen: 841. Forschungstätigkeit u.a. in Frankreich, Großbritannien.",
+    "herkunft": "extern",
+    "herkunft_institution": "University College London",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Aikaterini Douka": {
+    "name": "Aikaterini Douka",
+    "openalex_id": "A5063300056",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 61,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Oxford Archaeology",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Archaeological Science. h-Index: 1 | Publikationen: 2 | Zitierungen: 61.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Oxford",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Marina Vishmidt": {
+    "name": "Marina Vishmidt",
+    "openalex_id": "A5016960794",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 67,
+    "cited_by_count": 362,
+    "h_index": 8,
+    "last_known_institutions": [
+      {
+        "name": "Goldsmiths University of London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Purdue University West Lafayette",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Queen Mary University of London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2008
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Kunsttheorie. h-Index: 8 | Publikationen: 67 | Zitierungen: 362. Forschungstätigkeit u.a. in Großbritannien, USA.",
+    "herkunft": "extern",
+    "herkunft_institution": "Goldsmiths University of London",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Dariya Manova": {
+    "name": "Dariya Manova",
+    "openalex_id": "A5042586069",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 4,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Neuere deutsche Literaturwissenschaft mit besonderer Berücksichtigung der Jugend- und Popkultur. h-Index: 1 | Publikationen: 1 | Zitierungen: 4.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Elias Moncef Bounatirou": {
+    "name": "Elias Moncef Bounatirou",
+    "openalex_id": "A5085473986",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 24,
+    "cited_by_count": 6,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "Slavic Business Institute",
+        "country": "RU",
+        "type": "other",
+        "years": [
+          2019,
+          2016,
+          2002
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Institute of Slavic Studies",
+        "country": "PL",
+        "type": "facility",
+        "years": [
+          2019,
+          2016,
+          2002
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Ostslawische Sprachwissenschaft unter besonderer Berücksichtigung der Russistik. h-Index: 1 | Publikationen: 24 | Zitierungen: 6. Forschungstätigkeit u.a. in Russland, Polen.",
+    "herkunft": "extern",
+    "herkunft_institution": "Slavic Business Institute",
+    "herkunft_land": "Russland",
+    "grants": []
+  },
+  "Katja Weidner": {
+    "name": "Katja Weidner",
+    "openalex_id": "A5021674974",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 10,
+    "cited_by_count": 3,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Mittellateinische und Spätlateinische Philologie. h-Index: 1 | Publikationen: 10 | Zitierungen: 3.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Astrid Mattes-Zippenfenig": {
+    "name": "Astrid Mattes-Zippenfenig",
+    "openalex_id": "A5049723441",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Social Science of Religion. h-Index: 1 | Publikationen: 1 | Zitierungen: 1.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Sofia Bempeza": {
+    "name": "Sofia Bempeza",
+    "openalex_id": "A5114946839",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 2,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Kunst und Kommunikative Praxis. h-Index: 1 | Publikationen: 1 | Zitierungen: 2.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Dietmar Feichtinger": {
+    "name": "Dietmar Feichtinger",
+    "openalex_id": "A5041168227",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 11,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "University Professor for Structural Engineering and Design. h-Index: 1 | Publikationen: 11 | Zitierungen: 1.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Marius Lüdicke": {
+    "name": "Marius Lüdicke",
+    "openalex_id": "A5035797366",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 3,
+    "cited_by_count": 18,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Marketing in a Global Economy (Nachfolge Schlegelmilch). h-Index: 1 | Publikationen: 3 | Zitierungen: 18.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Ailsa Keating": {
+    "name": "Ailsa Keating",
+    "openalex_id": "A5050843802",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 18,
+    "cited_by_count": 87,
+    "h_index": 5,
+    "last_known_institutions": [
+      {
+        "name": "University of Cambridge",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2022,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Columbia University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "Geometry. h-Index: 5 | Publikationen: 18 | Zitierungen: 87. Forschungstätigkeit u.a. in Großbritannien, USA.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Cambridge",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Anne Kühler": {
+    "name": "Anne Kühler",
+    "openalex_id": "A5141398652",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 3,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Rechtsethik und Rechtsphilosophie. h-Index: 1 | Publikationen: 1 | Zitierungen: 3.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Britta Breser": {
+    "name": "Britta Breser",
+    "openalex_id": "A5115425197",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 2,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Demokratiebildung. h-Index: 1 | Publikationen: 2 | Zitierungen: 2.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Arne Moritz": {
+    "name": "Arne Moritz",
+    "openalex_id": "A5084457928",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 12,
+    "cited_by_count": 7,
+    "h_index": 2,
+    "last_known_institutions": [],
+    "bio_text": "Ethik in Schule und Gesellschaft. h-Index: 2 | Publikationen: 12 | Zitierungen: 7.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Lucile Dreidemy": {
+    "name": "Lucile Dreidemy",
+    "openalex_id": "A5009226470",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 3,
+    "cited_by_count": 16,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Zeitgeschichte: Österreichische Zeitgeschichte seit 1918 im internationalen Kontext. h-Index: 1 | Publikationen: 3 | Zitierungen: 16.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Sándor Hites": {
+    "name": "Sándor Hites",
+    "openalex_id": "A5050339718",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 27,
+    "cited_by_count": 129,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "Institute for Literary Studies",
+        "country": "HU",
+        "type": "facility",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2017,
+          2014,
+          2012
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "ELTE Research Centre for the Humanities",
+        "country": "HU",
+        "type": "facility",
+        "years": [
+          2023,
+          2021,
+          2016,
+          2012
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Hungarian Academy of Sciences",
+        "country": "HU",
+        "type": "government",
+        "years": [
+          2017,
+          2016,
+          2014,
+          2012
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Ungarische Literatur im europäischen Kontext. h-Index: 3 | Publikationen: 27 | Zitierungen: 129.",
+    "herkunft": "extern",
+    "herkunft_institution": "Institute for Literary Studies",
+    "herkunft_land": "Ungarn",
+    "grants": []
+  },
+  "Mischa Suter": {
+    "name": "Mischa Suter",
+    "openalex_id": "A5002315795",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 24,
+    "cited_by_count": 81,
+    "h_index": 5,
+    "last_known_institutions": [
+      {
+        "name": "Graduate Institute of International and Development Studies",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Basel",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2020,
+          2017,
+          2016,
+          2014
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2012
+        ],
+        "most_recent": 2012
+      }
+    ],
+    "bio_text": "Sozial- und Kulturgeschichte des 19. und 20. Jahrhunderts. h-Index: 5 | Publikationen: 24 | Zitierungen: 81.",
+    "herkunft": "extern",
+    "herkunft_institution": "Graduate Institute of International and Development Studies",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Bojana Rosic": {
+    "name": "Bojana Rosic",
+    "openalex_id": "A5062849809",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 79,
+    "cited_by_count": 722,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Twente",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Thermoplastic Composites Research Center",
+        "country": "NL",
+        "type": "nonprofit",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Technische Universität Braunschweig",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Kragujevac",
+        "country": "RS",
+        "type": "education",
+        "years": [
+          2013,
+          2007
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "University Professor of Digital Engineering. h-Index: 14 | Publikationen: 79 | Zitierungen: 722. Forschungstätigkeit u.a. in RS, Niederlande, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Twente",
+    "herkunft_land": "Niederlande",
     "grants": []
   }
 }

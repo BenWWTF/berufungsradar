@@ -67,5 +67,77 @@
   "Michael Kitzberger": {
     "openalex_id": "none",
     "_note": "mdw, künstlerische Professur; OpenAlex-Treffer (Erlangen, Medizin) ist Namensvetter"
+  },
+  "Mario Carpo": {
+    "openalex_id": "A5049237077",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Architekturtheoretiker/-historiker; Institutionen (ENSA Paris, UCL) und Topics (Architecture/Art History, Computational Design) passen exakt zum Fach."
+  },
+  "Aikaterini Douka": {
+    "openalex_id": "A5063300056",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Archaeological Scientist, Institutionen University of Oxford + Oxford Archaeology passen exakt (bekannte Radiokarbondatierungs-Forscherin); OpenAlex-Topics wirken verrauscht (Wenig-Werke-Profil), Institutionen sind aber eindeutig."
+  },
+  "Marina Vishmidt": {
+    "openalex_id": "A5016960794",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Kunsttheoretikerin; Institutionen Goldsmiths/Queen Mary London und Topics (Art/Politics/Modernism, Political Economy) passen exakt zum Fach Kunsttheorie."
+  },
+  "Dariya Manova": {
+    "openalex_id": "A5042586069",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (German Literature/Culture, Pop-Culture-Bezug) passen exakt zum Fach; seltener Name, geringes Verwechslungsrisiko."
+  },
+  "Elias Moncef Bounatirou": {
+    "openalex_id": "A5085473986",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Slavic Business Institute, Institute of Slavic Studies) und Topics (Linguistics) passen exakt zum Fach Ostslawische Sprachwissenschaft; seltener Name."
+  },
+  "Katja Weidner": {
+    "openalex_id": "A5021674974",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Historical/Literary/Classical Antiquity Studies) passen zum Fach Mittellateinische Philologie; kein Institutions-Eintrag (Geisteswissenschaft, kleines Werk-Profil üblich), seltener Name."
+  },
+  "Astrid Mattes-Zippenfenig": {
+    "openalex_id": "A5049723441",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Migration, Social Capital, Urban Segregation) passen thematisch zu Social Science of Religion; sehr seltener Doppelname, praktisch kein Verwechslungsrisiko."
+  },
+  "Sofia Bempeza": {
+    "openalex_id": "A5114946839",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Gender Politics, Feminism/Media, Greek Studies) passen zu Kunst und Kommunikative Praxis; seltener Name."
+  },
+  "Dietmar Feichtinger": {
+    "openalex_id": "A5041168227",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Bekannter österreichischer Architekt (Brücken-/Hochbau); Topics (Urbanism/Landscape, Building Energy) passen zu Structural Engineering and Design."
+  },
+  "Marius Lüdicke": {
+    "openalex_id": "A5035797366",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Consumer Behavior in Brand Consumption) passen exakt zum Fach Marketing in a Global Economy; seltener Name."
+  },
+  "Ailsa Keating": {
+    "openalex_id": "A5050843802",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Cambridge, MIT, Columbia) und Topics (Geometric/Algebraic Topology) passen exakt zum Fach Geometry; bekannte Mathematikerin."
+  },
+  "Anne Kühler": {
+    "openalex_id": "A5141398652",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Law and Political Science, Economic/Social Issues) passen zu Rechtsethik und Rechtsphilosophie; seltener Name."
+  },
+  "Britta Breser": {
+    "openalex_id": "A5115425197",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Hannah Arendt's Political Philosophy, Peace/Human Rights Education) passen exakt zum Fach Demokratiebildung; seltener Name."
+  },
+  "Arne Moritz": {
+    "openalex_id": "A5084457928",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (Reformation/Early Modern Christianity, Augustinian Studies/Theology) passen zum theologienahen Fach Ethik in Schule und Gesellschaft; seltener Name."
+  },
+  "Lucile Dreidemy": {
+    "openalex_id": "A5009226470",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Topics (German Literature/Culture, European History/Politics) passen zu Zeitgeschichte Österreich; seltener französischer Name, geringes Verwechslungsrisiko."
+  },
+  "Sándor Hites": {
+    "openalex_id": "A5050339718",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Institute for Literary Studies, ELTE Research Centre for Humanities, Hungarian Academy of Sciences) passen exakt zum Fach Ungarische Literatur; sehr distinktiver Name."
+  },
+  "Mischa Suter": {
+    "openalex_id": "A5002315795",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Uni Basel, Uni Zürich, Graduate Institute Geneva) und Topics (European Political History) passen exakt zum Fach Sozial-/Kulturgeschichte 19./20. Jhdt; distinktiver Name."
+  },
+  "Bojana Rosic": {
+    "openalex_id": "A5062849809",
+    "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Uni Kragujevac, TU Braunschweig, Uni Twente) und Topics (Probabilistic Engineering, Structural Health Monitoring) passen zu Digital Engineering."
   }
 }

@@ -79,6 +79,8 @@ def main():
                 d["herkunft_institution"] = entry["herkunft_institution"]
                 if not d.get("herkunft_land") and entry.get("herkunft_land"):
                     d["herkunft_land"] = entry["herkunft_land"]
+                if not d.get("herkunft") and entry.get("herkunft"):
+                    d["herkunft"] = entry["herkunft"]
                 n_hk += 1
 
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
