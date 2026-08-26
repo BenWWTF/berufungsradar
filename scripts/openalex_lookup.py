@@ -475,11 +475,11 @@ def main():
             results[name] = result
             with OUT.open("w") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
-        time.sleep(10.0)  # OpenAlex drosselt bei Serien: pro Person fallen
+        time.sleep(25.0)  # OpenAlex drosselt bei Serien: pro Person fallen
                          # Suchabfrage plus mehrere Werk-Seiten an; auch nach
                          # einem Fehlschlag warten, sonst kaskadieren die 429er.
-                         # 2.0s reichte nicht (harter 429-Block, 2026-08-24),
-                         # hochgesetzt auf 10s.
+                         # 2.0s und 10.0s reichten beide nicht (harter 429-Block,
+                         # 2026-08-24), hochgesetzt auf 25s.
 
     print(f"\nWrote {len(results)} results → {OUT}")
 
