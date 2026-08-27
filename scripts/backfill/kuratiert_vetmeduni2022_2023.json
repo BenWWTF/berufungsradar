@@ -1,0 +1,50 @@
+[
+ {
+  "name": "Eva Schnabl-Feichter",
+  "universitat": "Vetmeduni Wien",
+  "monat": "OKTOBER",
+  "year": 2022,
+  "art_berufung": "§98",
+  "forschungsbereich": "Kleintierchirurgie",
+  "fakultat": "Klinische Abteilung für Kleintierchirurgie",
+  "herkunft": "intern",
+  "herkunft_institution": "Vetmeduni Wien",
+  "herkunft_land": "Österreich",
+  "werdegang": "Studium in Wien, erste praktische Erfahrung in England, chirurgische Ausbildung an der LMU München (Internship bis Diplomate ECVS, später Oberärztin). Nach weiteren klinischen Stationen Habilitation in Wien. Oktober 2022 Berufung zur Universitätsprofessorin für Kleintierchirurgie an der Vetmeduni Wien, Nachfolge von Prof. Gilles Dupré; seither auch Leiterin der Klinischen Abteilung für Kleintierchirurgie, Zahnheilkunde und Ophthalmologie.",
+  "quelle": "https://www.vetmeduni.ac.at/universitaet/infoservice/news/news-detail/erfolgsmessung-in-der-kleintier-chirurgie-eva-schnabl-feichter-im-portraet",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2022 (Kennzahl 1.A.2) nennt 2 §98-Berufungen 2022 in den Fächern 'Kleintierchirurgie' und 'Fischgesundheit' (letzteres = Astrid Holzer, bereits erfasst). Schnabl-Feichter über Vetmeduni-Newsportal identifiziert.",
+  "stufe": 1
+ },
+ {
+  "name": "Janina Burk",
+  "universitat": "Vetmeduni Wien",
+  "monat": null,
+  "year": 2023,
+  "art_berufung": "§98",
+  "forschungsbereich": "Physiologie",
+  "fakultat": "Institut für Physiologie und Pathophysiologie",
+  "herkunft": "extern",
+  "herkunft_institution": "Justus-Liebig-Universität Gießen",
+  "herkunft_land": "Deutschland",
+  "werdegang": "Studium Veterinärmedizin, 2009 Diplom Gießen. Promotion 2012 Leipzig. 2013-2019 Gruppenleiterin am Translationszentrum für Regenerative Medizin Leipzig. 2019 Weiterbildung Stem Cells and Regeneration, Bristol (UK). 2019-2023 Tenure-Track-Professur in Gießen. Seit 2023 Universitätsprofessorin für Physiologie an der Vetmeduni Wien, Forschungsschwerpunkt regenerative Medizin (mesenchymale Stromazellen, Sehnenregeneration).",
+  "quelle": "https://youngscience.oead.at/de/wissenschaftsvermittlung/wissenschaftsbotschafter-innen/botschafter-profile/683",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2023 (Kennzahl 1.A.2) nennt 3 §98-Berufungen 2023 in 'Anästhesie und Analgesie', 'Medizinische Biochemie' und 'Physiologie'. Burk über oead-Wissenschaftsbotschafterinnen-Profil und Institutsseite identifiziert (Physiologie). Die anderen beiden Fächer bleiben unbenannt — Recherche ergab nur bereits länger amtierende Personen (Larenza-Menzies seit 2015, Grebien seit 2019), keine passende 2023er Neuberufung gefunden.",
+  "stufe": 1
+ },
+ {
+  "name": "Claudia Bieber",
+  "universitat": "Vetmeduni Wien",
+  "monat": "JAENNER",
+  "year": 2023,
+  "art_berufung": "§99(1)",
+  "forschungsbereich": "Wildtierkunde",
+  "fakultat": "Forschungsinstitut für Wildtierkunde und Ökologie (FIWI)",
+  "herkunft": "intern",
+  "herkunft_institution": "Vetmeduni Wien / FIWI",
+  "herkunft_land": "Österreich",
+  "werdegang": "Seit Ende der 1990er Jahre am Forschungsinstitut für Wildtierkunde und Ökologie (FIWI) der Vetmeduni tätig, Wiederaufbau der Siebenschläfer-Forschung samt Freilandpopulation (1996, Wienerwald-Population seit 2006). Seit 15. Jänner 2023 Institutsleiterin des FIWI und Universitätsprofessorin für Wildtierkunde (§99 Abs.1 UG).",
+  "quelle": "https://www.vetmeduni.ac.at/forschung/aktuelles-aus-der-forschung/bilche-als-bioindikatoren-fuer-den-buchenmischwald",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2023 (Kennzahl 1.A.2) nennt 1 §99(1)-Berufung 2023 im Fach 'Wildtierkunde'. Bieber über FIWI-Institutsseite als neue Institutsleiterin ab 15.1.2023 identifiziert, zusätzlich bestätigt durch gemeinsamen Antrittsvorlesungs-Termin mit Astrid Holzer und Lorenz Khol.",
+  "stufe": 1
+ }
+]

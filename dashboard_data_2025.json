@@ -29297,12 +29297,157 @@
   "profil_url_auto": true
  },
  {
+  "name": "Eva Schnabl-Feichter",
+  "universitat": "Vetmeduni Wien",
+  "monat": "OKTOBER",
+  "year": 2022,
+  "stufe": 1,
+  "fakultat": "Klinische Abteilung für Kleintierchirurgie",
+  "fakultat_code": null,
+  "forschungsbereich": "Kleintierchirurgie",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "intern",
+  "herkunft_institution": "Vetmeduni Wien",
+  "herkunft_land": "Österreich",
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
+  "bio_text": null,
+  "werdegang": "Studium in Wien, erste praktische Erfahrung in England, chirurgische Ausbildung an der LMU München (Internship bis Diplomate ECVS, später Oberärztin). Nach weiteren klinischen Stationen Habilitation in Wien. Oktober 2022 Berufung zur Universitätsprofessorin für Kleintierchirurgie an der Vetmeduni Wien, Nachfolge von Prof. Gilles Dupré; seither auch Leiterin der Klinischen Abteilung für Kleintierchirurgie, Zahnheilkunde und Ophthalmologie.",
+  "profil_url": null,
+  "quelle": "https://www.vetmeduni.ac.at/universitaet/infoservice/news/news-detail/erfolgsmessung-in-der-kleintier-chirurgie-eva-schnabl-feichter-im-portraet",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2022 (Kennzahl 1.A.2) nennt 2 §98-Berufungen 2022 in den Fächern 'Kleintierchirurgie' und 'Fischgesundheit' (letzteres = Astrid Holzer, bereits erfasst). Schnabl-Feichter über Vetmeduni-Newsportal identifiziert.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
+  "name": "Lorenz Khol",
+  "universitat": "Vetmeduni Wien",
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Wiederkäuermedizin im Alpenraum (Stiftungsprofessur)",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "University of Veterinary Medicine Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "403",
+  "ofos_label": "Veterinärmedizin",
+  "bio_text": "Wiederkäuermedizin im Alpenraum (Stiftungsprofessur). h-Index: 12 | Publikationen: 48 | Zitierungen: 466. Forschungstätigkeit u.a. in Großbritannien, Österreich, USA, Schweiz.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Veterinary Medicine Vienna, 2005–2025 · Wiederkäuerklinik (CH), 2019 · University of Florida (US), 2011 · Texas A&M University (US), 2011 · Roslin Institute (GB), 2008.",
+  "profil_url": "https://openalex.org/A5012483206",
+  "monat": "OKTOBER",
+  "year": 2022,
+  "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2023/start-fuer-stiftungsprofessur-wiederkaeuermedizin-im-alpenraum",
+  "stufe": 1,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": 12,
+  "publikationen": 48,
+  "zitierungen": 466,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher Korrektur 2026-08-27: Jahr 2023→2022 und art_berufung §98→§99(1) laut Vetmeduni-Wissensbilanz 2022 (Kennzahl 1.A.2 listet 'Wiederkäuermedizin im Alpenraum' unter §99 Abs.1 mit Dienstantritt 2022; die bisherige Zuordnung zu 2023 dürfte aus dem Antrittsvorlesungs-Termin 2023 stammen, der später als der tatsächliche Dienstantritt lag).",
+  "monat_unsicher": true,
+  "_openalex": {
+   "works_count": 48,
+   "cited_by_count": 466,
+   "h_index": 12,
+   "last_known_institutions": [
+    {
+     "name": "University of Veterinary Medicine Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2020,
+      2019,
+      2017,
+      2016,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Wiederkäuerklinik",
+     "country": "CH",
+     "type": "healthcare",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "University of Florida",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2011
+     ],
+     "most_recent": 2011
+    },
+    {
+     "name": "Texas A&M University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2011
+     ],
+     "most_recent": 2011
+    },
+    {
+     "name": "Roslin Institute",
+     "country": "GB",
+     "type": "facility",
+     "years": [
+      2008
+     ],
+     "most_recent": 2008
+    }
+   ],
+   "openalex_id": "A5012483206"
+  },
+  "openalex_id": "A5012483206",
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Peter M. Roth",
   "universitat": "Vetmeduni Wien",
   "fakultat": null,
   "fakultat_code": null,
   "forschungsbereich": "Computational Medicine",
-  "art_berufung": "§98",
+  "art_berufung": "§99(1)",
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "Technische Universität Graz, Institut für Maschinelles Sehen und Grafik (ICG)",
@@ -29326,7 +29471,7 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_ofos_auto": true,
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation"
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation Korrektur 2026-08-27: art_berufung §98→§99(1) laut Vetmeduni-Wissensbilanz 2022 (Kennzahl 1.A.2 listet 'Computational Medicine' unter §99 Abs.1, nicht §98)."
  },
  {
   "name": "Andreas Schotter",
@@ -39854,8 +39999,83 @@
   "wwtf_programme": []
  },
  {
+  "name": "Claudia Bieber",
+  "universitat": "Vetmeduni Wien",
+  "monat": "JAENNER",
+  "year": 2023,
+  "stufe": 1,
+  "fakultat": "Forschungsinstitut für Wildtierkunde und Ökologie (FIWI)",
+  "fakultat_code": null,
+  "forschungsbereich": "Wildtierkunde",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": "intern",
+  "herkunft_institution": "Vetmeduni Wien / FIWI",
+  "herkunft_land": "Österreich",
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": null,
+  "werdegang": "Seit Ende der 1990er Jahre am Forschungsinstitut für Wildtierkunde und Ökologie (FIWI) der Vetmeduni tätig, Wiederaufbau der Siebenschläfer-Forschung samt Freilandpopulation (1996, Wienerwald-Population seit 2006). Seit 15. Jänner 2023 Institutsleiterin des FIWI und Universitätsprofessorin für Wildtierkunde (§99 Abs.1 UG).",
+  "profil_url": null,
+  "quelle": "https://www.vetmeduni.ac.at/forschung/aktuelles-aus-der-forschung/bilche-als-bioindikatoren-fuer-den-buchenmischwald",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2023 (Kennzahl 1.A.2) nennt 1 §99(1)-Berufung 2023 im Fach 'Wildtierkunde'. Bieber über FIWI-Institutsseite als neue Institutsleiterin ab 15.1.2023 identifiziert, zusätzlich bestätigt durch gemeinsamen Antrittsvorlesungs-Termin mit Astrid Holzer und Lorenz Khol.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
+  "name": "Janina Burk",
+  "universitat": "Vetmeduni Wien",
+  "monat": null,
+  "year": 2023,
+  "stufe": 1,
+  "fakultat": "Institut für Physiologie und Pathophysiologie",
+  "fakultat_code": null,
+  "forschungsbereich": "Physiologie",
+  "art_berufung": "§98",
+  "geschlecht": null,
+  "herkunft": "extern",
+  "herkunft_institution": "Justus-Liebig-Universität Gießen",
+  "herkunft_land": "Deutschland",
+  "ofos_code": "301",
+  "ofos_label": "Grundlagenmedizin",
+  "bio_text": null,
+  "werdegang": "Studium Veterinärmedizin, 2009 Diplom Gießen. Promotion 2012 Leipzig. 2013-2019 Gruppenleiterin am Translationszentrum für Regenerative Medizin Leipzig. 2019 Weiterbildung Stem Cells and Regeneration, Bristol (UK). 2019-2023 Tenure-Track-Professur in Gießen. Seit 2023 Universitätsprofessorin für Physiologie an der Vetmeduni Wien, Forschungsschwerpunkt regenerative Medizin (mesenchymale Stromazellen, Sehnenregeneration).",
+  "profil_url": null,
+  "quelle": "https://youngscience.oead.at/de/wissenschaftsvermittlung/wissenschaftsbotschafter-innen/botschafter-profile/683",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2023 (Kennzahl 1.A.2) nennt 3 §98-Berufungen 2023 in 'Anästhesie und Analgesie', 'Medizinische Biochemie' und 'Physiologie'. Burk über oead-Wissenschaftsbotschafterinnen-Profil und Institutsseite identifiziert (Physiologie). Die anderen beiden Fächer bleiben unbenannt — Recherche ergab nur bereits länger amtierende Personen (Larenza-Menzies seit 2015, Grebien seit 2019), keine passende 2023er Neuberufung gefunden.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
+ },
+ {
   "name": "Lorenz Khol",
   "universitat": "Vetmeduni Wien",
+  "monat": "MÄRZ",
+  "year": 2023,
+  "stufe": 1,
   "fakultat": null,
   "fakultat_code": null,
   "forschungsbereich": "Wiederkäuermedizin im Alpenraum (Stiftungsprofessur)",
@@ -39869,24 +40089,15 @@
   "bio_text": "Wiederkäuermedizin im Alpenraum (Stiftungsprofessur). h-Index: 12 | Publikationen: 48 | Zitierungen: 466. Forschungstätigkeit u.a. in Großbritannien, Österreich, USA, Schweiz.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Veterinary Medicine Vienna, 2005–2025 · Wiederkäuerklinik (CH), 2019 · University of Florida (US), 2011 · Texas A&M University (US), 2011 · Roslin Institute (GB), 2008.",
   "profil_url": "https://openalex.org/A5012483206",
-  "monat": "MÄRZ",
-  "year": 2023,
   "quelle": "https://www.vetmeduni.ac.at/presseinformationen-2023/start-fuer-stiftungsprofessur-wiederkaeuermedizin-im-alpenraum",
-  "stufe": 1,
+  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher",
+  "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "4",
   "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
   "ofos_hauptgruppe_code": "40",
   "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": 12,
-  "publikationen": 48,
-  "zitierungen": 466,
-  "wwtf_programme": [
-   "LS"
-  ],
-  "_kuratiert": "Handrecherche 2026-08-22 aus Vetmeduni-Presseinformation; Meldung nennt Oktober 2022 und März 2023, Beginn unsicher",
-  "monat_unsicher": true,
   "_openalex": {
    "works_count": 48,
    "cited_by_count": 466,
@@ -39958,8 +40169,15 @@
    "openalex_id": "A5012483206"
   },
   "openalex_id": "A5012483206",
+  "h_index": 12,
+  "publikationen": 48,
+  "zitierungen": 466,
+  "wwtf_programme": [
+   "LS"
+  ],
   "werdegang_auto": true,
-  "profil_url_auto": true
+  "profil_url_auto": true,
+  "monat_unsicher": true
  },
  {
   "name": "Christoph Kietaibl",
@@ -49778,6 +49996,41 @@
   "openalex_id": "A5056858893",
   "werdegang_auto": true,
   "profil_url_auto": true
+ },
+ {
+  "name": "Marion Bankstahl",
+  "universitat": "Vetmeduni Wien",
+  "monat": null,
+  "year": 2024,
+  "stufe": 1,
+  "fakultat": "Institut für Pharmakologie und Toxikologie",
+  "fakultat_code": null,
+  "forschungsbereich": "Pharmakologie und Toxikologie",
+  "art_berufung": "§98",
+  "geschlecht": null,
+  "herkunft": "extern",
+  "herkunft_institution": "Tierärztliche Hochschule Hannover",
+  "herkunft_land": "Deutschland",
+  "ofos_code": "301",
+  "ofos_label": "Grundlagenmedizin",
+  "bio_text": null,
+  "werdegang": "Studium der Veterinärmedizin an der Tierärztlichen Hochschule Hannover, dort auch fachtierärztliche Ausbildung Pharmakologie/Toxikologie sowie Versuchstierkunde. 2024 Berufung zur Universitätsprofessorin und Institutsleiterin für Pharmakologie und Toxikologie an der Vetmeduni Wien. Forschungsschwerpunkte: Vulnerabilität des Gehirns, artspezifische Schmerzwahrnehmung und angepasste Analgesie.",
+  "profil_url": null,
+  "quelle": "https://www.vetmeduni.ac.at/universitaet/infoservice/news/news-detail/impulse-aus-labor-und-garten-marion-bankstahl-im-portraet",
+  "_kuratiert": "Handrecherche 2026-08-27: Vetmeduni-Wissensbilanz 2024 (Kennzahl 1.A.2) nennt 4 §98-Berufungen 2024 in 'Öffentliches Veterinärwesen', 'Infektiologie' (=Wilflingseder, bereits erfasst), 'Pharmakologie und Toxikologie' und 'Systemgenetik' (=Glatt, bereits erfasst), sowie 1 §99(4)-Berufung ('Domestikation'). Bankstahl über Vetmeduni-Porträt identifiziert; genaue vorherige Position vor Vetmeduni nicht explizit in der Quelle genannt, nur Ausbildungsstationen in Hannover. 'Öffentliches Veterinärwesen' und 'Domestikation' bleiben unbenannt.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "LS"
+  ]
  },
  {
   "name": "Sebastian Glatt",

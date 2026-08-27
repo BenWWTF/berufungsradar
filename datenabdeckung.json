@@ -61,15 +61,14 @@
    "vollstaendig": [
     2019,
     2020,
-    2025
-   ],
-   "teilweise": [
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
    ],
-   "quelle": "BOKU-Wissensbilanzen ab 2017 nennen die Berufungen namentlich mit Paragraf und Vorinstitution (Primärquelle), dazu APA-Science/OTS und das Mitteilungsblatt. 2016 und 2023 offen; für 2015/2016 nennen die Wissensbilanzen nur Wissenschaftszweige ohne Namen. Monate meist nicht belegt, weil die Wissensbilanz nur das Kalenderjahr angibt. Korrektur 2026-08-23: bestehender Eintrag Helmut Haberl 2021 §98 (APA-Science) ist nach BOKU-Wissensbilanz 2022 tatsächlich 2022 §99(4); Stephan Hann 2022 §98 wurde entfernt, da nicht in WB 2022 und nur Antrittsvorlesungs-basiert (Berufung wahrscheinlich 2020 §98 lt. WB 2020)."
+   "teilweise": [],
+   "quelle": "BOKU-Wissensbilanzen ab 2017 nennen die Berufungen namentlich mit Paragraf und Vorinstitution (Primärquelle, Kapitel '5) Personalentwicklung und Nachwuchsförderung'), dazu APA-Science/OTS und das Mitteilungsblatt. 2016 offen; für 2015/2016 nennen die Wissensbilanzen nur Wissenschaftszweige ohne Namen. Monate meist nicht belegt, weil die Wissensbilanz nur das Kalenderjahr angibt. Korrektur 2026-08-23: bestehender Eintrag Helmut Haberl 2021 §98 (APA-Science) ist nach BOKU-Wissensbilanz 2022 tatsächlich 2022 §99(4); Stephan Hann 2022 §98 wurde entfernt, da nicht in WB 2022 und nur Antrittsvorlesungs-basiert (Berufung wahrscheinlich 2020 §98 lt. WB 2020). 2026-08-27: 2021-2024 gegen die vollständige Namensliste in Kapitel 5) der jeweiligen Wissensbilanz geprüft (2021: 2/2, 2022: 7/7, 2023: 1/1 — 2023 hatte laut WB nur eine einzige abgeschlossene Berufung, Georg Gratzer §99(4), mehrere §98-Verfahren liefen noch —, 2024: 3/3), alle deckten sich exakt mit dem Datenbestand. Damit 2019-2025 vollständig, nur 2026 (Bericht ~Mai 2027) noch offen."
   },
   "WU Wien": {
    "vollstaendig": [
@@ -116,14 +115,14 @@
   },
   "Vetmeduni Wien": {
    "vollstaendig": [
+    2022,
     2025
    ],
    "teilweise": [
-    2022,
     2023,
     2024
    ],
-   "quelle": "Presseinformationen, von Hand erfasst; 2019–2021 und 2015 keine auffindbaren Meldungen"
+   "quelle": "Presseinformationen, von Hand erfasst; 2019–2021 und 2015 keine auffindbaren Meldungen (2020 Ausnahme: Kyllar über Jahresbericht-Porträtbox gefunden, aber kein Gesamtnachweis). 2026-08-27: Wissensbilanzen 2022-2024 (Kennzahl 1.A.2) geprüft, geben nur Gesamtzahlen ohne Namen, aber die Fächerbezeichnungen der Kennzahl konnten fast durchgängig einzelnen Personen zugeordnet werden. 2022: 4/4 vollständig (Holzer, Schnabl-Feichter, Roth, Khol — Roth und Khol dabei korrigiert: eigentlich §99(1) statt §98, Khol zusätzlich von 2023 auf 2022 verschoben, da laut WB 2022 'Wiederkäuermedizin im Alpenraum' dort den Dienst antrat). 2023: 2/4 (Burk, Bieber bekannt; 'Anästhesie und Analgesie' und 'Medizinische Biochemie' offen — Recherche fand nur länger amtierende Personen, keine passende Neuberufung). 2024: 3/5 (Wilflingseder, Glatt, Bankstahl bekannt; 'Öffentliches Veterinärwesen' und 'Domestikation' offen)."
   }
  }
 }
