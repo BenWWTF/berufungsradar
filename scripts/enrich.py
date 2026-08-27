@@ -821,6 +821,8 @@ def stage6_openalex(data, dry=False):
         # bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
         # Ausnahme: 'verified' (manuell recherchierter Override) ist maßgeblich.
         hk = r.get("herkunft")
+        if hk in ("unbekannt", "—"):
+            hk = None
         conf = r.get("match_confidence")
         if conf == "low":
             continue

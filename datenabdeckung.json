@@ -55,7 +55,7 @@
     2022,
     2026
    ],
-   "quelle": "Presseinformationen und OTS-Meldungen, zwei Recherchedurchgänge, jede Angabe gegen die Quelle geprüft (Runde 1: 6 Daten korrigiert, 7 verworfen; Runde 2: 30 von 49 verworfen). 2016 ohne belegten Fall, 2022 mit zwei Einträgen weiterhin unvollständig"
+   "quelle": "Presseinformationen und OTS-Meldungen, zwei Recherchedurchgänge, jede Angabe gegen die Quelle geprüft (Runde 1: 6 Daten korrigiert, 7 verworfen; Runde 2: 30 von 49 verworfen). 2016 ohne belegten Fall. 2026-08-27: MedUni-Wissensbilanz 2022 (Mitteilungsblatt 33.Stück Nr.46) geprüft — Kennzahl 1.A.2 nennt Gesamtzahlen ohne Namen (2022: 9 Berufungen, 6×§98/1×§99.1/2×§99.4), aber wie bei Vetmeduni/Angewandte keine namentliche Auflistung. Marta Rizzi (§98, Klinisch Experimentelle Immunologie, aus Freiburg) per Presseaussendung ergänzt, damit 3 von 9 bekannt, 6 weiterhin offen — die alte Notiz '2022 mit zwei Einträgen weiterhin unvollständig' unterschätzte die Lücke deutlich."
   },
   "BOKU": {
    "vollstaendig": [
@@ -73,18 +73,18 @@
   },
   "WU Wien": {
    "vollstaendig": [
-    2025
-   ],
-   "teilweise": [
     2019,
     2020,
     2021,
     2022,
     2023,
     2024,
+    2025
+   ],
+   "teilweise": [
     2026
    ],
-   "quelle": "Kuratierung 2025; 2016-2021 von Hand aus den Presseaussendungen; 2019 und ab 2022 aus Web-Archiv-Snapshots der Presseaussendungs-Archive (n=23 Records in dieser Runde erfasst). 2022-2024 und 2026 noch lückenhaft, weil das dynamische Archiv nur unvollständig gespiegelt ist; eine WU-Wissensbilanz-Auswertung (Stand 2026) ist nicht öffentlich verfügbar."
+   "quelle": "Kuratierung 2025; 2016-2021 von Hand aus den Presseaussendungen; 2019 und ab 2022 aus Web-Archiv-Snapshots der Presseaussendungs-Archive (n=23 Records in dieser Runde erfasst). 2026-08-27: Korrektur — die WU-Wissensbilanz und Leistungsvereinbarungs-Monitoring-Berichte SIND öffentlich verfügbar (wu.ac.at/presse/publikationen/archiv-wissensbilanz) und enthalten für jedes Jahr ein vollständiges Kapitel 'Berufungen mit Dienstantritt <Jahr>' mit Namen, Datum, Department und Vorinstitution im Fließtext — die frühere Einschätzung war falsch. Alle 6 Berichte 2019-2024 geprüft: 2019 (4/4), 2021 (10/10), 2023 (11/11) und 2024 (2/2) deckten sich exakt mit dem bestehenden Datenbestand; 2020 und 2022 ergänzt (2020: +5 — Auer-Meyer, Jankowitsch, Pabel, Spies, Told; 2022: +3 — Mendling, Nešlehová, Schotter, alle §99a Doppelaffiliation/Teilzeit). 2026 noch offen, da der Bericht erst ca. Mai 2027 erscheint (gleiches Muster wie bei den anderen Häusern)."
   },
   "Angewandte": {
    "vollstaendig": [
