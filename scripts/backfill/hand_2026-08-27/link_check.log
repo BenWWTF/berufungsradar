@@ -1,0 +1,26 @@
+Link check of kuratiert_rest129.json quelle_werdegang fields, run 2026-08-27.
+129 URLs checked. 97 clean. 21 false positives (bot-blocking, confirmed OK via curl w/ browser UA). 11 genuine 404s below.
+
+GENUINE 404 — needs a replacement source or the werdegang/gap entry re-researched:
+404  Reinhard Prügl (WU Wien)        https://www.wu.ac.at/en/fb/team/univ-prof-dr-reinhard-pruegl
+404  Michael Alfred Anton (Uni Wien) https://www.univie.ac.at/en/research/research-overview/neue-professuren/detailansicht-en/artikel/univ-prof-dr-michael-a-anton-1/
+404  Robert Csapo (Uni Wien)         https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/univ-prof-mag-dr-robert-csapo-1/
+404  Kristina Dietz (Uni Wien)       https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/univ-prof-dipl-ing-dr-kristina-dietz/
+404  Nele Kampa (Uni Wien)           https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/univ-prof-dr-nele-kampa/
+404  Ulrike Zartler-Griessl (Uni Wien) https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/univ-prof-mag-dr-ulrike-zartler-griessl/
+404  Laura M. König (Uni Wien)       https://gesundheit-psy.univie.ac.at/team/laura-m-koenig/
+404  Elena Bacchin (Uni Wien)        https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/elena-bacchin-professur-fuer-geschichte-der-neuzeit-historische-europaforschung/
+404  Jory Lietard (Uni Wien)         https://informaconnect.com/tides/speakers/jory-lietard/
+404  Martin Rothgangel (Uni Wien)    https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/martin-rothgangel-professur-fuer-allgemeine-fachdidaktik/
+404  Tomasso Meozzi (Uni Wien)       https://fabulari.podigee.io/episodes?page=2
+
+FALSE POSITIVES (confirmed reachable, 200, via curl + browser User-Agent — python-requests default UA / short timeout was the cause):
+univie.ac.at subdomains (nunnenkamp, politikwissenschaft, zvr, ksa, physik, datascience, astro,
+  zeitgeschichte, geschichtsforschung, ipc) — slow / lightly bot-gated, all 200 on retry
+wikipedia.org (Fremuth, Marschnig, Widrich, Bernhard/Ubermorgen, Étienne) — 403 only for requests
+  lib default UA, 200 via curl with browser UA
+linkedin.com (Zhang, Wiedlack, Schulreich, Goranci, Jahrmann) — LinkedIn returns 999/405 to any
+  bot-like client incl. HEAD requests; profile URLs look structurally valid, can't be verified
+  headlessly, treat as unverifiable not broken
+oeaw.ac.at (Pradler) — 403 even with browser UA/curl, likely Cloudflare bot check; unverifiable
+  headlessly, not necessarily broken
