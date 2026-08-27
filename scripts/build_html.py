@@ -538,12 +538,17 @@ function initSankey(rows) {
   const nodeNames = [];
   const flows = {};
 
+  // Mehrere Stationen im Werdegang stehen chronologisch als "Land A/Land B/...";
+  // die Sankey zeigt nur die letzte (jüngste) Station als Herkunft, sonst entsteht
+  // pro Kombination ein eigener Knoten statt eines Flusses ins richtige Land.
+  const juengsteHerkunft = land => land.split("/").map(s => s.trim()).filter(Boolean).pop();
+
   rows.forEach(d => {
     let origin;
     if (d.herkunft === "intern") {
       origin = "Intern (Wien)";
     } else if (d.herkunft_land) {
-      origin = d.herkunft_land;
+      origin = juengsteHerkunft(d.herkunft_land);
     } else {
       origin = "Herkunft unbekannt";
     }
