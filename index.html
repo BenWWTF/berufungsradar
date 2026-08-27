@@ -29611,7 +29611,7 @@ function renderCards(data) {
     <div class="prof-card" id="card-${i}">
       <div class="card-header">
         <div class="card-name">${d.name}</div>
-        <div class="card-meta">${d.universitat} · ${d.monat} ${d.year}${d.fakultat_institut ? ' · ' + d.fakultat_institut : ''}</div>
+        <div class="card-meta">${d.universitat} · ${d.monat ? d.monat + ' ' : ''}${d.year}${d.fakultat_institut ? ' · ' + d.fakultat_institut : ''}</div>
       </div>
       <div class="card-body">
         <div class="card-research">${d.forschungsbereich}</div>
@@ -29989,7 +29989,7 @@ function renderVRG() {
             <td>${g.gast || '—'}</td>
             <td>${g.berufung
               ? `<button class="vrg-link" onclick="jumpToPerson('${g.name.replace(/'/g, "\\'")}')">` +
-                `${g.berufung.universitat}, ${g.berufung.monat.charAt(0) + g.berufung.monat.slice(1).toLowerCase()} ${g.berufung.jahr}</button>`
+                `${g.berufung.universitat}, ${g.berufung.monat ? g.berufung.monat.charAt(0) + g.berufung.monat.slice(1).toLowerCase() + ' ' : ''}${g.berufung.jahr}</button>`
               : '<span class="vrg-offen">keine erfasst</span>'}</td>
           </tr>`).join('')}
       </tbody>
