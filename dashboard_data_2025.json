@@ -689,8 +689,8 @@
   "herkunft": "intern",
   "herkunft_institution": "Medizinische Universität Wien",
   "herkunft_land": "Österreich",
-  "ofos_code": null,
-  "ofos_label": null,
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
   "bio_text": null,
   "werdegang": "Bereits zuvor an der Klinischen Abteilung für Rheumatologie der MedUni Wien tätig; Schwerpunkt Internationale Vernetzung und translationale Forschung; Hinweis auf langjährige MedUni-Wien-Zugehörigkeit in der Presseaussendung, explizite Vorstationen werden in der Quelle nicht aufgelistet (Pressetext fokussiert auf Forschungsausrichtung).",
   "profil_url": null,
@@ -700,16 +700,19 @@
   "stufe": 1,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
-  "ofos_bereich_code": null,
-  "ofos_bereich": null,
-  "ofos_hauptgruppe_code": null,
-  "ofos_hauptgruppe": null,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": [],
-  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2019-07-01; Dienstantritt 1.7.2019"
+  "wwtf_programme": [
+   "LS"
+  ],
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2019-07-01; Dienstantritt 1.7.2019",
+  "_ofos_auto": true
  },
  {
   "name": "Daniel Zimpfer",
@@ -3604,7 +3607,7 @@
   "herkunft_land": "Deutschland",
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften",
-  "bio_text": null,
+  "bio_text": "körperliche Gestaltung.",
   "werdegang": "Mit 1. Oktober 2019 trat Aleksandar Acev seine befristete Professur für körperliche Gestaltung an Max Reinhardt Seminar an. Geboren und aufgewachsen in Zagreb, studierte Acev an der Schule für Angewandte Künste in Zagreb und an der Moving Academy for Performing Arts in Amsterdam und widmete sich fortan dem körperbetonten Theater. Er arbeitete in internationalen Projekten als Darsteller und Regisseur. Als Choreograf wirkte er an zahlreichen Theaterproduktionen mit, etwa am Nationaltheater Rijeka, NT Skopje, Hebbel Theater Berlin, Brucknerhaus Linz, Landestheater Linz, Theater Exit, Theater ITD Zagreb. Als Pantomime-Solist hatte er zahlreiche Auftritte im kroatischen Fernsehen. Darüber hinaus engagierte er sich für Projekte, die neben künstlerischen Zielen die Lebens- und Sozialkompetenz der Teilnehmer_innen fokussieren, unter anderem ein UNESCO-Theaterprojekt für Flüchtlingskinder auf dem Balkan, ein Education-Projekt der Berliner Philharmoniker, Gefängnistheater in der JVA Tegel in Berlin und Ausbildungsprogramme für junge Künstler_innen in Osteuropa. Acev unterrichtete Körpersprache und Bewegungstechnik für Schauspieler_innen an der Anton Bruckner Privatuniversität in Linz, am Mime Centrum Berlin und an der Hochschule für Schauspiel Ernst Busch in Berlin. Von 2009 bis 2019 war er Lehrbeauftragter für das Fach Bühnenpräsenz für Sänger_innen und Musiker_innen an der Hochschule für Musik Hanns Eisler in Berlin. Als Gast unterrichtete er an Institutionen in 20 europäischen Ländern. &copy; Hanna Lippmann  ",
   "profil_url": "https://www.mdw.ac.at/aleksandar-acev/",
   "monat": "OKTOBER",
@@ -3617,11 +3620,11 @@
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
+   "works_count": 1,
+   "cited_by_count": 0,
+   "h_index": 0,
    "last_known_institutions": [],
-   "openalex_id": null
+   "openalex_id": "A5091100639"
   },
   "h_index": null,
   "publikationen": null,
@@ -4024,6 +4027,71 @@
   "openalex_id": "A5007766069"
  },
  {
+  "name": "Carolin Bohlmann",
+  "universitat": "Akademie",
+  "monat": null,
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Konservierung-Restaurierung",
+  "fakultat_code": null,
+  "forschungsbereich": "Konservierung und Restaurierung moderner und zeitgenössischer Kunst",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "Hamburger Bahnhof – Museum für Gegenwart, Berlin",
+  "herkunft_land": "Deutschland",
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": "Seit 2000 Restauratorin am Hamburger Bahnhof – Museum für Gegenwart, Berlin, zuletzt u.a. mit Projektleitung und Ausstellungskuration. 2020 Berufung zur Professorin für Konservierung-Restaurierung moderner und zeitgenössischer Kunst am Institut für Konservierung-Restaurierung der Akademie der bildenden Künste Wien, seither auch Institutsvorständin.",
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/institute/konservierung-restaurierung/institutsgeschichte",
+  "_kuratiert": "Handrecherche 2026-08-27: Akademie-Wissensbilanz 2020 (Kennzahl 1.A.2, Wissenschafts-/Kunstzweig 805 Konservierung und Restaurierung, §98, 1 Frau) plus Institutsgeschichte-Seite (nennt '2020 Carolin Bohlmann / Moderne und zeitgenössische Kunst') und Mitarbeiterinnen-Profil.",
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Katja Sterflinger",
+  "universitat": "Akademie",
+  "monat": null,
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für Naturwissenschaften und Technologie in der Kunst",
+  "fakultat_code": null,
+  "forschungsbereich": "Naturwissenschaften und Technologie in der Kunst",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "Universität für Bodenkultur Wien (BOKU)",
+  "herkunft_land": "Österreich",
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": "Studium Biologie, Dissertation 1995 zu mikrobiologischen Prozessen bei Alterung und Schädigung von Kunstwerken und Materialien. Ab 2000 an der Universität für Bodenkultur Wien (BOKU) tätig. 2020 Berufung zur Leiterin des Instituts für Naturwissenschaften und Technologie in der Kunst an der Akademie der bildenden Künste Wien.",
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/universitaet/mitarbeiterinnen/BE9B0758C796915A",
+  "_kuratiert": "Handrecherche 2026-08-27: Akademie-Wissensbilanz 2020 (Kennzahl 1.A.2, Wissenschafts-/Kunstzweig 107 Andere Naturwissenschaften, §98, 1 Frau) plus Mitarbeiterinnen-Profil der Akademie.",
+  "_herkunft_research": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
   "name": "Antonia Birnbaum",
   "universitat": "Angewandte",
   "fakultat": "Institut für Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung",
@@ -4362,7 +4430,7 @@
   "herkunft_land": "Deutschland",
   "ofos_code": null,
   "ofos_label": null,
-  "bio_text": null,
+  "bio_text": "Interventionelle Bronchiologie. h-Index: 37 | Publikationen: 343 | Zitierungen: 4104. Forschungstätigkeit u.a. in Österreich, Deutschland, Großbritannien, Südafrika.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Comprehensive Cancer Center Vienna, 2022–2026 · Universitätsklinik für Chirurgie Wien, 2020–2026 · Universitätszahnklinik Wien, 2021–2026 · Medical University of Vienna, 2020–2026 · Johannes Kepler University of Linz, 2024.",
   "profil_url": "https://openalex.org/A5012405471",
   "monat": "FEBRUAR",
@@ -4384,7 +4452,72 @@
   "monat_unsicher": true,
   "werdegang_auto": true,
   "profil_url_auto": true,
-  "openalex_id": "A5012405471"
+  "openalex_id": "A5012405471",
+  "_openalex": {
+   "works_count": 343,
+   "cited_by_count": 4104,
+   "h_index": 37,
+   "last_known_institutions": [
+    {
+     "name": "Comprehensive Cancer Center Vienna",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2022
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Universitätsklinik für Chirurgie Wien",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Universitätszahnklinik Wien",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2025,
+      2021
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Johannes Kepler University of Linz",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2024
+     ],
+     "most_recent": 2024
+    }
+   ],
+   "openalex_id": "A5012405471"
+  }
  },
  {
   "name": "Edda Tschernko",
@@ -5205,8 +5338,8 @@
   "herkunft": "intern",
   "herkunft_institution": "Medizinische Universität Wien",
   "herkunft_land": "Österreich",
-  "ofos_code": null,
-  "ofos_label": null,
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
   "bio_text": null,
   "werdegang": "Medizinstudium Wien; wiss. Mitarbeiterin Zentrum für Hirnforschung, Abt. Neuroimmunologie MedUni Wien; 2003–2010 Facharztausbildung Neuropathologie Klinisches Institut für Neurologie MedUni Wien; Habilitation 2011; 2012–2014 Erwin-Schrödinger-Auslandsstipendium, 2-jähriger Forschungsaufenthalt Hospital Clínic, Universität Barcelona; Rückkehr als Assoziierte Professorin nach Wien; seit 1.1.2020 Leiterin der Abteilung für Neuropathologie und Neurochemie.",
   "profil_url": null,
@@ -5216,18 +5349,20 @@
   "stufe": 1,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
-  "ofos_bereich_code": null,
-  "ofos_bereich": null,
-  "ofos_hauptgruppe_code": null,
-  "ofos_hauptgruppe": null,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [
+   "LS",
    "CS"
   ],
-  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-02; Assoziierte Professur, Dienstantritt 1.11.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet"
+  "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2020-11-02; Assoziierte Professur, Dienstantritt 1.11.2020; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
+  "_ofos_auto": true
  },
  {
   "name": "Xiaohui Rausch-Fan",
@@ -12383,8 +12518,8 @@
   "herkunft": "intern",
   "herkunft_institution": "Medizinische Universität Wien",
   "herkunft_land": "Österreich",
-  "ofos_code": "502",
-  "ofos_label": "Wirtschaftswissenschaften",
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
   "bio_text": null,
   "werdegang": "Promovierter Facharzt Anästhesiologie; MSc Statistik und Biometrie Universität Heidelberg; MBA Health Care Management MedUni Wien; 2-jähriger Studienaufenthalt Universitätsklinikum Inselspital Bern (Schweiz); aktuell Leiter der Trauma-Anästhesie und stellvertretender Leiter der Klinischen Abteilung für Allgemeine Anästhesie und Intensivmedizin der MedUni Wien; leitet Data-Science-Gruppe der Klinischen Abteilung und am Ludwig Boltzmann Institut für Digital Health and Patient Safety.",
   "profil_url": null,
@@ -12395,15 +12530,17 @@
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
-  "ofos_bereich_code": "5",
-  "ofos_bereich": "Sozialwissenschaften",
-  "ofos_hauptgruppe_code": "50",
-  "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": [],
+  "wwtf_programme": [
+   "LS"
+  ],
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation; Berufung Juli 2021; Monat nicht in der Quelle genannt, aus dem Meldedatum abgeleitet",
   "monat_unsicher": true
  },
@@ -13813,18 +13950,48 @@
   "fakultat_code": "E138",
   "forschungsbereich": "University Professor for Topological and Complex Materials",
   "art_berufung": "§98",
-  "geschlecht": null,
+  "geschlecht": "W",
   "herkunft": null,
   "herkunft_institution": null,
   "herkunft_land": null,
-  "ofos_code": null,
-  "ofos_label": null,
-  "bio_text": null,
+  "ofos_code": "103",
+  "ofos_label": "Physik",
+  "bio_text": "University Professor for Topological and Complex Materials. h-Index: 2 | Publikationen: 3 | Zitierungen: 37.",
   "werdegang": null,
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/g/univprof-dr-marta-gibert",
   "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
   "_kuratiert": null,
-  "_herkunft_research": null
+  "_herkunft_research": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": "Institut für Kernphysik",
+  "_openalex": {
+   "works_count": 3,
+   "cited_by_count": 37,
+   "h_index": 2,
+   "last_known_institutions": [
+    {
+     "name": "Pontifícia Universidade Católica de Campinas",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2005,
+      2003
+     ],
+     "most_recent": 2005
+    }
+   ],
+   "openalex_id": "A5056399919"
+  },
+  "h_index": 2,
+  "publikationen": 3,
+  "zitierungen": 37,
+  "wwtf_programme": []
  },
  {
   "name": "Maricruz Sanchez-Sanchez",
@@ -17221,10 +17388,10 @@
   "ofos_code": "602",
   "ofos_label": "Sprach- und Literaturwissenschaften",
   "bio_text": "Mittellateinische und Spätlateinische Philologie. h-Index: 1 | Publikationen: 10 | Zitierungen: 3.",
-  "werdegang": null,
+  "werdegang": "Studium der Klassischen Philologie. Wissenschaftliche Laufbahn u.a. an der Universität Freiburg. 2021 Assoziierte Professorin für Spät- und Mittellateinische Philologie an der Uni Wien (Institut für Klassische Philologie, Mittel- und Neulatein), 2021-2026 mit Tenure. Forschung u.a. zu materieller Literaturwissenschaft, digitaler Netzwerkanalyse und mittelalterlicher Erzähltheorie. 04/2026 Ruf auf eine W3-Professur für Lateinische Philologie des Mittelalters an die LMU München angenommen.",
   "profil_url": "https://openalex.org/A5021674974",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2021.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2021, S.61; Tenure-Track-Professur, §99(1)",
+  "quelle": "https://klassischephilologie.univie.ac.at/fileadmin/user_upload/i_klassischephilologie/CV_Weidner_28112022.pdf",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2021, S.61; Tenure-Track-Professur, §99(1) Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
@@ -22986,7 +23153,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "201",
   "ofos_label": "Bauingenieurwesen",
-  "bio_text": null,
+  "bio_text": "University Professor for Construction Industry and Construction Management. h-Index: 1 | Publikationen: 2 | Zitierungen: 7.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2023–2025.",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/l/univprof-dr-ing-frank-lulei",
   "monat": "DEZEMBER",
@@ -23000,11 +23167,22 @@
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
+   "works_count": 2,
+   "cited_by_count": 7,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2023
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5092508509"
   },
   "h_index": 1,
   "publikationen": 2,
@@ -24522,10 +24700,10 @@
   "ofos_code": "603",
   "ofos_label": "Philosophie, Ethik, Religion",
   "bio_text": "Social Science of Religion. h-Index: 1 | Publikationen: 1 | Zitierungen: 1.",
-  "werdegang": null,
+  "werdegang": "Studium Politikwissenschaft und Religionswissenschaft in Wien und Limerick, Dissertation zur Rolle von Religion in der Integrationspolitik. 2010-2018 diverse Forschungsprojekte an der Uni Wien (u.a. Mapping religiöser Vielfalt Wiens). Als PostDoc an der Österreichischen Akademie der Wissenschaften (ÖAW) in europäischen Projekten tätig, leitete ein Projekt zu Jugendreligiosität online/offline. 2018-2022 am Institut für Stadt- und Regionalforschung der ÖAW, Projekte zu Migration und Freiwilligenarbeit, Deradikalisierung und Zugehörigkeitsaushandlungen Jugendlicher. Seit 2022 Tenure-Track-Professorin für Social Science Research on Religion am Forschungszentrum Religion and Transformation in Contemporary Society, Uni Wien.",
   "profil_url": "https://openalex.org/A5049723441",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2022.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2022, S.65-67; Tenure-Track-Professur (6-Jahres-Vertrag, §99 Abs. 1 UG)",
+  "quelle": "https://homepage.univie.ac.at/astrid.mattes/?page_id=38",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2022, S.65-67; Tenure-Track-Professur (6-Jahres-Vertrag, §99 Abs. 1 UG) Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
@@ -24954,10 +25132,10 @@
   "ofos_code": "602",
   "ofos_label": "Sprach- und Literaturwissenschaften",
   "bio_text": "Neuere deutsche Literaturwissenschaft mit besonderer Berücksichtigung der Jugend- und Popkultur. h-Index: 1 | Publikationen: 1 | Zitierungen: 4.",
-  "werdegang": null,
+  "werdegang": "Studium an der Humboldt-Universität zu Berlin. Dissertation 'Sterbende Kohle und flüssiges Gold: Rohstoffnarrative in der Populärliteratur und Publizistik der deutschen Zwischenkriegszeit' (2021, 2. Preis der Geschwister-Boehringer-Ingelheim-Stiftung für Geisteswissenschaften). Seit 02/2022 TT-Professorin für Neuere deutsche Literaturwissenschaft mit besonderer Berücksichtigung der Jugend- und Popkultur am Institut für Germanistik, Uni Wien. Forschung zu deutscher Literatur vom 19. Jh. bis zur Gegenwart, Jugendliteraturgeschichte, Populär- und populärwissenschaftlicher Prosa, Arbeitswelt-Literatur und Neuer Sachlichkeit.",
   "profil_url": "https://openalex.org/A5042586069",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2022.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2022, S.65-67; Tenure-Track-Professur (6-Jahres-Vertrag, §99 Abs. 1 UG)",
+  "quelle": "https://www.germ.univie.ac.at/dariya-manova/",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2022, S.65-67; Tenure-Track-Professur (6-Jahres-Vertrag, §99 Abs. 1 UG) Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "6",
@@ -36367,10 +36545,10 @@
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
   "bio_text": "Rechtsethik und Rechtsphilosophie. h-Index: 1 | Publikationen: 1 | Zitierungen: 3.",
-  "werdegang": null,
+  "werdegang": "Studium Recht und Philosophie in Bern, Basel und Münster, Praktika u.a. bei der UNO New York, Lizentiat Uni Bern. Wissenschaftliche Assistentin am Lehrstuhl für Staats- und Verwaltungsrecht, Uni Basel; LL.M. Columbia Law School; Promotion 2010 Uni Bern. 2008-2012 Gerichtsschreiberin am Schweizerischen Bundesverwaltungsgericht. Ab 2012 Oberassistentin für Rechtsgrundlagen an der Rechtswissenschaftlichen Fakultät, Uni Zürich, dort 2020 Habilitation. Gastforschungsaufenthalte am Max-Planck-Institut für ausländisches öffentliches Recht und Völkerrecht (Heidelberg) und Fellowship am Zentrum für Vergleichendes Verfassungsrecht der Religion (Uni Luzern). Seit 02/2023 Professorin für Rechtsethik und Rechtsphilosophie an der Rechtswissenschaftlichen Fakultät, Uni Wien.",
   "profil_url": "https://openalex.org/A5141398652",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2023.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2023, S.72",
+  "quelle": "https://rechtsphilosophie.univie.ac.at/team/kuehler-anne/",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2023, S.72 Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
@@ -36810,10 +36988,10 @@
   "ofos_code": "503",
   "ofos_label": "Bildungswissenschaften",
   "bio_text": "Demokratiebildung. h-Index: 1 | Publikationen: 2 | Zitierungen: 2.",
-  "werdegang": null,
+  "werdegang": "Doktoratsstudium Politikwissenschaft an der Andrássy Universität Budapest, Lehramtsstudium Geschichte, Sozialkunde und Politische Bildung sowie Religion an der Karl-Franzens-Universität Graz, Master European Studies an der Donau-Universität Krems. 2010 Stagiaire bei der Europäischen Kommission (GD Kommunikation, Brüssel). 2010-2013 wissenschaftliche Mitarbeiterin bei der Österreichischen Gesellschaft für Europapolitik, Wien. 2013-2023 Professorin für Politische Bildung und Politikdidaktik an der Privaten Pädagogischen Hochschule Augustinum, Graz, daneben 2015-2019 Lehrbeauftragte an der Pädagogischen Hochschule Steiermark und 2016-2018 Leiterin des Regionalen Fachdidaktikzentrums (RFDZ) für Geschichte und politische Bildung, Graz. Seit 2023 Professorin für Demokratiebildung an der Uni Wien.",
   "profil_url": "https://openalex.org/A5115425197",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2023.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2023, S.73; befristet auf 3 Jahre, §99(1)",
+  "quelle": "https://lehrerinnenbildung.univie.ac.at/arbeitsbereiche/didaktik-der-politischen-bildung/team/breser-britta/",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2023, S.73; befristet auf 3 Jahre, §99(1) Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "5",
@@ -45855,10 +46033,10 @@
   "ofos_code": "503",
   "ofos_label": "Bildungswissenschaften",
   "bio_text": "Ethik in Schule und Gesellschaft. h-Index: 2 | Publikationen: 12 | Zitierungen: 7.",
-  "werdegang": null,
+  "werdegang": "Magister Artium 1999 an der Albert-Ludwigs-Universität Freiburg (Philosophie, Neuere und Neueste Geschichte, Neuere deutsche Literatur). 1997-2003 Stipendiat des Cusanuswerks, Bonn. 2000/01 Lehrauftrag am Institut für Philosophie, Uni Leipzig. Frühere Publikationsschwerpunkte in der (Geschichte der) Wissenschaftsphilosophie, seit 2019 Verschiebung des Forschungsschwerpunkts zu philosophischer Bildung, Fachdidaktik und philosophischer Praxis. Seit 03/2024 Professor für Ethik in Schule und Gesellschaft, Uni Wien.",
   "profil_url": "https://openalex.org/A5084457928",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2024, S.66; befristet auf 3 Jahre, §99(1)",
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/moritz-arne",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2024, S.66; befristet auf 3 Jahre, §99(1) Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "5",
@@ -45931,7 +46109,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "106",
   "ofos_label": "Biologie",
-  "bio_text": null,
+  "bio_text": "Microbiology of aquatic ecosystems. h-Index: 41 | Publikationen: 128 | Zitierungen: 4641. Forschungstätigkeit u.a. in Österreich, USA, Italien, Deutschland.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2015–2026 · Incell Corporation (United States) (US), 2025–2026 · University of California, Santa Barbara (US), 2020–2025 · Ecologie microbienne (FR), 2024–2025 · Ecosystem Sciences (AU), 2024.",
   "profil_url": "https://openalex.org/A5071736019",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
@@ -45953,7 +46131,75 @@
   ],
   "werdegang_auto": true,
   "profil_url_auto": true,
-  "openalex_id": "A5071736019"
+  "openalex_id": "A5071736019",
+  "_openalex": {
+   "works_count": 128,
+   "cited_by_count": 4641,
+   "h_index": 41,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2017,
+      2015
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Incell Corporation (United States)",
+     "country": "US",
+     "type": "company",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of California, Santa Barbara",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Ecologie microbienne",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2025,
+      2024
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Ecosystem Sciences",
+     "country": "AU",
+     "type": "facility",
+     "years": [
+      2024
+     ],
+     "most_recent": 2024
+    }
+   ],
+   "openalex_id": "A5071736019"
+  }
  },
  {
   "name": "Bernhard Woytek",
@@ -47806,10 +48052,10 @@
   "ofos_code": "601",
   "ofos_label": "Geschichte und Archäologie",
   "bio_text": "Zeitgeschichte: Österreichische Zeitgeschichte seit 1918 im internationalen Kontext. h-Index: 1 | Publikationen: 3 | Zitierungen: 16.",
-  "werdegang": null,
+  "werdegang": "2007-2012 Promotion in Germanistik und Geschichte an den Universitäten Straßburg und Wien (Cotutelle), mit Auszeichnung. 2008 Agrégation externe (Frankreich, 6. von 303 Kandidat*innen). 2009-2012 wissenschaftliche und Lehrassistentin (PreDoc) an der Université de Strasbourg sowie am Institut für Zeitgeschichte der Uni Wien. Ab 2014 Maître de conférences für Germanistik an der Université Toulouse II. Seit 2019 am Institut für Zeitgeschichte der Uni Wien, bis 03/2023 als PostDoc-Assistentin, danach als Senior Lecturer. Forschungs- und Gastaufenthalte u.a. University of Chicago (2013, Visiting Scholar) und Harvard University, Center for European Studies (2018/19). 2024 Habilitation zu 'Internationale Politik ohne Staatsakteure? Das Wiener Institut für Entwicklungsfragen und die sozialdemokratischen Nord-Süd-Netzwerke im globalen Kalten Krieg'. Seit 10/2024 Professorin für Zeitgeschichte: Österreichische Zeitgeschichte seit 1918 im internationalen Kontext, Uni Wien.",
   "profil_url": "https://openalex.org/A5009226470",
-  "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2024, S.66",
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/dreidemy-lucile",
+  "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Leistungsbericht 2024, S.66 Werdegang ergänzt 2026-08-27 aus Institutsseite/CV (Handrecherche).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "6",
