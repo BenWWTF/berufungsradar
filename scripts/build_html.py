@@ -768,7 +768,10 @@ function currentFilteredData() {
   });
 
   const by = {
-    monat:  (a, b) => MONATEN.indexOf(a.monat) - MONATEN.indexOf(b.monat),
+    monat:  (a, b) => {
+      const ai = MONATEN.indexOf(a.monat), bi = MONATEN.indexOf(b.monat);
+      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+    },
     name:   (a, b) => a.name.localeCompare(b.name, 'de'),
     hindex: (a, b) => (metricsOf(b).hIndex || -1) - (metricsOf(a).hIndex || -1),
     uni:    (a, b) => UNIS.indexOf(a.universitat) - UNIS.indexOf(b.universitat),
