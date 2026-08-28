@@ -117,14 +117,17 @@
   },
   "Vetmeduni Wien": {
    "vollstaendig": [
+    2020,
+    2021,
     2022,
     2025
    ],
    "teilweise": [
+    2019,
     2023,
     2024
    ],
-   "quelle": "Presseinformationen, von Hand erfasst; 2019–2021 und 2015 keine auffindbaren Meldungen (2020 Ausnahme: Kyllar über Jahresbericht-Porträtbox gefunden, aber kein Gesamtnachweis). 2026-08-27: Wissensbilanzen 2022-2024 (Kennzahl 1.A.2) geprüft, geben nur Gesamtzahlen ohne Namen, aber die Fächerbezeichnungen der Kennzahl konnten fast durchgängig einzelnen Personen zugeordnet werden. 2022: 4/4 vollständig (Holzer, Schnabl-Feichter, Roth, Khol — Roth und Khol dabei korrigiert: eigentlich §99(1) statt §98, Khol zusätzlich von 2023 auf 2022 verschoben, da laut WB 2022 'Wiederkäuermedizin im Alpenraum' dort den Dienst antrat). 2023: 2/4 (Burk, Bieber bekannt; 'Anästhesie und Analgesie' und 'Medizinische Biochemie' offen — Recherche fand nur länger amtierende Personen, keine passende Neuberufung). 2024: 3/5 (Wilflingseder, Glatt, Bankstahl bekannt; 'Öffentliches Veterinärwesen' und 'Domestikation' offen)."
+   "quelle": "Presseinformationen, von Hand erfasst; 2015 keine auffindbaren Meldungen. 2026-08-27: Wissensbilanzen 2019-2024 (Kennzahl 1.A.2) geprüft, geben nur Gesamtzahlen ohne Namen, aber die Fächerbezeichnungen der Kennzahl konnten fast durchgängig einzelnen Personen zugeordnet werden. 2019: Kennzahl nennt genau 1 Berufung (§99(1) 'Ernährungsphysiologie', intern, männlich) — bislang unbenannt, 0/1. 2020: Kennzahl bestätigt genau 3 Berufungen ('im Jahr 2020 drei Berufungen erfolgten') — deckt sich exakt mit Cavalleri, Dahlhoff, Kyllar, damit 3/3 vollständig. 2021: Kennzahl bestätigt genau 2 Berufungen (beide §98, Frauen, aus Deutschland) — deckt sich exakt mit Schwaiger, Dammhahn, damit 2/2 vollständig. 2022: 4/4 vollständig (Holzer, Schnabl-Feichter, Roth, Khol — Roth und Khol dabei korrigiert: eigentlich §99(1) statt §98, Khol zusätzlich von 2023 auf 2022 verschoben, da laut WB 2022 'Wiederkäuermedizin im Alpenraum' dort den Dienst antrat). 2023: 2/4 (Burk, Bieber bekannt; 'Anästhesie und Analgesie' und 'Medizinische Biochemie' offen — Recherche fand nur länger amtierende Personen, keine passende Neuberufung). 2024: 3/5 (Wilflingseder, Glatt, Bankstahl bekannt; 'Öffentliches Veterinärwesen' und 'Domestikation' offen)."
   }
  }
 }
