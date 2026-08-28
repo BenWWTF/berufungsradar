@@ -29,6 +29,8 @@
   },
   "Uni Wien": {
    "vollstaendig": [
+    2023,
+    2024,
     2025
    ],
    "teilweise": [
@@ -36,11 +38,9 @@
     2020,
     2021,
     2022,
-    2023,
-    2024,
     2026
    ],
-   "quelle": "Kuratierung 2025; 2019-2020 aus dem Webarchiv (CV-Seiten des früheren Medienportals); 2021-2024 und 2026 aus den Uni-Wien-Leistungsberichten 2021-2024 (Primärquelle, alle Berufungen namentlich mit Paragraf und Vorinstitution; n=~190 zusätzliche Records in dieser Runde erfasst). 2026 teilweise erfasst (7 Records); vollständige 2026er Berufungen erscheinen erst im Leistungsbericht 2026 (vorauss. Mai 2027)."
+   "quelle": "Kuratierung 2025; 2019-2020 aus dem Webarchiv (CV-Seiten des früheren Medienportals); 2021-2024 und 2026 aus den Uni-Wien-Leistungsberichten 2021-2024 (Primärquelle, alle Berufungen namentlich mit Paragraf und Vorinstitution; n=~190 zusätzliche Records in dieser Runde erfasst). 2026 teilweise erfasst (7 Records); vollständige 2026er Berufungen erscheinen erst im Leistungsbericht 2026 (vorauss. Mai 2027). 2026-08-28: 2023 (43/43) und 2024 (45/45) gegen die vollständige Namensliste im Leistungsbericht exakt abgeglichen, beide bestätigt vollständig. WICHTIGER BEFUND für 2019-2022: die Leistungsberichte trennen zwei Kategorien — eine namentlich gelistete Gruppe ('neue Professor*innen und Tenure-Track-Professor*innen', z.B. 2022: 38, 2023: 43, 2024: 45) UND eine separate, in mindestens 2019 NICHT namentlich genannte Gruppe von §99(4)-Beförderungen bestehender ao. Universitätsprofessor*innen (2019 allein: 30 Personen plus 1 §99a Opportunity-Hiring). Die Kopfzahlen unseres Bestands (2019:19, 2020:23, 2021:50, 2022:54) lassen sich dadurch nicht sauber gegen die einfache Schlagzeilenzahl abgleichen, da unklar ist, welche §99(4)-Fälle bereits anderweitig erfasst sind und welche nicht. Vor einer weiteren Vervollständigung müsste zuerst geklärt werden, ob/wie die unbenannte §99(4)-Gruppe strukturell aufgelöst werden kann (evtl. Mitteilungsblatt-Einzelausschreibungen) — mit einfachen Text-Suchen wie bei den anderen Häusern nicht lösbar."
   },
   "MedUni Wien": {
    "vollstaendig": [
