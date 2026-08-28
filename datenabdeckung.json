@@ -102,6 +102,7 @@
   },
   "Akademie": {
    "vollstaendig": [
+    2023,
     2025
    ],
    "teilweise": [
@@ -109,11 +110,10 @@
     2020,
     2021,
     2022,
-    2023,
     2024,
     2026
    ],
-   "quelle": "News-Meldungen der Akademie, von Hand erfasst; das Mitteilungsblatt enthält nur Ausschreibungen und Hearings. 2024 teilweise: 4 Records (Fischer, Escher, Folkerts, Banai) aus og:description der News-Artikel; art_berufung bei Fischer/Escher auf null gesetzt, da Quelle nur generisch §99 nennt (kein Subparagraph). 2026 weiterhin offen. 2019/2020 (2026-08-27): Wissensbilanz 1.A.2 nennt Gesamtzahlen ohne Namen (2019: 1 Berufung §99(1) Architektur m, unbekannt; 2020: 5 Berufungen — 3×§98 [davon 2 namentlich ermittelt: Bohlmann/Konservierung, Sterflinger/Naturwissenschaften], 2×§99(1) Architektur f+m, beide unbekannt). Die Wissensbilanzen 2019 und 2020 widersprechen sich zudem bei der §98-Zahl für 2019 (0 vs. 1) — ungeklärte Diskrepanz in der Akademie-eigenen Statistik. Rest weiterhin offen, da die Akademie im Gegensatz zu anderen Häusern keine systematischen Neuberufungs-Pressemeldungen für diese Jahre veröffentlicht hat."
+   "quelle": "News-Meldungen der Akademie, von Hand erfasst; das Mitteilungsblatt enthält nur Ausschreibungen und Hearings. 2024 teilweise: 4 Records (Fischer, Escher, Folkerts, Banai) aus og:description der News-Artikel; art_berufung bei Fischer/Escher auf null gesetzt, da Quelle nur generisch §99 nennt (kein Subparagraph). 2026 weiterhin offen. 2019/2020 (2026-08-27): Wissensbilanz 1.A.2 nennt Gesamtzahlen ohne Namen (2019: 1 Berufung §99(1) Architektur m, unbekannt; 2020: 5 Berufungen — 3×§98 [davon 2 namentlich ermittelt: Bohlmann/Konservierung, Sterflinger/Naturwissenschaften], 2×§99(1) Architektur f+m, beide unbekannt). Die Wissensbilanzen 2019 und 2020 widersprechen sich zudem bei der §98-Zahl für 2019 (0 vs. 1) — ungeklärte Diskrepanz in der Akademie-eigenen Statistik. 2023 (2026-08-28): Wissensbilanz-Kennzahl 1.A.2 nennt 8 Berufungen — Antonas (§98, Architektur ADP, zusätzlich zu seiner separaten 2021er §99-Professur an einer anderen Plattform/GLC) und Penzin (§99(1), Philosophie und ästhetische Theorie) ergänzt, damit 8/8 vollständig. 2021/2022/2024: Gesamtzahlen passen zum Bestand (8, 7, 6), aber die Fach-Unterkategorien lassen sich aus der PDF-Tabellenextraktion nicht zweifelsfrei einzelnen Personen zuordnen (ähnliche Mehrfachberufungs-Problematik wie bei Antonas), daher vorerst weiter teilweise trotz passender Kopfzahl. Rest (2019/2020) weiterhin offen, da die Akademie im Gegensatz zu anderen Häusern keine systematischen Neuberufungs-Pressemeldungen für diese Jahre veröffentlicht hat."
   },
   "Vetmeduni Wien": {
    "vollstaendig": [

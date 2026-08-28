@@ -1,0 +1,34 @@
+[
+ {
+  "name": "Aristide Antonas",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2023,
+  "art_berufung": "§98",
+  "forschungsbereich": "Architekturentwurf (Plattform Analoge Digitale Produktion, ADP)",
+  "fakultat": "Institut für Kunst und Architektur",
+  "herkunft": "intern",
+  "herkunft_institution": "Akademie der bildenden Künste Wien (zuvor §99-Professur Plattform GLC, seit 2021)",
+  "herkunft_land": "Österreich",
+  "werdegang": "Bereits seit 1. Oktober 2021 §99-Professor für Architekturentwurf (Plattform GLC) an der Akademie der bildenden Künste Wien (separater Datensatz). Seit 1. Oktober 2023 zusätzlich/neu §98-Professor für Architekturentwurf an der Plattform Analoge Digitale Produktion (ADP) desselben Instituts.",
+  "quelle": "https://www.akbild.ac.at/de/news/2023/neuer-professor-fuer-architekturentwurf-ab-1-10-aristide-antonas",
+  "_kuratiert": "Handrecherche 2026-08-28: Akademie-Wissensbilanz 2023 (Kennzahl 1.A.2) zeigt eine Lücke bei §98 Architektur 2023 (1 Person, männlich) gegenüber dem bestehenden Datenbestand (nur Sverdlov+Smirnova-Berlin, beide §99(1)). akbild-Newsmeldung 'Neuer Professor für Architekturentwurf ab 1.10: Aristide Antonas' (URL-Pfad /2023/) bestätigt eine zweite, separate §98-Berufung 2023 an einer anderen Plattform (ADP statt GLC) als die bestehende 2021er §99-Professur derselben Person.",
+  "stufe": 1
+ },
+ {
+  "name": "Alexei Penzin",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2023,
+  "art_berufung": "§99(1)",
+  "forschungsbereich": "Philosophie und ästhetische Theorie",
+  "fakultat": "Institut für Kunst- und Kulturwissenschaften",
+  "herkunft": "extern",
+  "herkunft_institution": "University of Wolverhampton",
+  "herkunft_land": "Vereinigtes Königreich",
+  "werdegang": "Promotion am Institut für Philosophie der Russischen Akademie der Wissenschaften, Moskau. Lehrtätigkeiten in kontinentaler Philosophie und ästhetischer Theorie an der University of Wolverhampton (UK), der University of Tromsø, der Fondazione Pistoletto u.a.; davor bereits Gastprofessur an der Akademie der bildenden Künste Wien. Mitglied der Gruppe Chto Delat. Seit 1. Oktober 2023 Universitätsprofessor (§99 Abs.1) für Philosophie und ästhetische Theorie am Institut für Kunst- und Kulturwissenschaften.",
+  "quelle": "https://www.akbild.ac.at/de/news/2023/neuer-professor-fuer-philosophie-und-aesthetische-theorie-ab-1-10-alexei-penzin",
+  "_kuratiert": "Handrecherche 2026-08-28: Akademie-Wissensbilanz 2023 (Kennzahl 1.A.2) nennt 1 Berufung 2023 im Fach '603 Philosophie, Ethik, Religion' (§99 Abs.1). akbild-Newsmeldung bestätigt Penzin, Dienstantritt 1.10.2023.",
+  "stufe": 1
+ }
+]
