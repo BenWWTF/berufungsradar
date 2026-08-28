@@ -44,18 +44,18 @@
   },
   "MedUni Wien": {
    "vollstaendig": [
+    2019,
     2020,
+    2021,
+    2022,
     2023,
     2024,
     2025
    ],
    "teilweise": [
-    2019,
-    2021,
-    2022,
     2026
    ],
-   "quelle": "Presseinformationen und OTS-Meldungen, zwei Recherchedurchgänge, jede Angabe gegen die Quelle geprüft (Runde 1: 6 Daten korrigiert, 7 verworfen; Runde 2: 30 von 49 verworfen). 2016 ohne belegten Fall. 2026-08-27: MedUni-Wissensbilanz 2022 (Mitteilungsblatt 33.Stück Nr.46) geprüft — Kennzahl 1.A.2 nennt Gesamtzahlen ohne Namen (2022: 9 Berufungen, 6×§98/1×§99.1/2×§99.4), aber wie bei Vetmeduni/Angewandte keine namentliche Auflistung. Marta Rizzi (§98, Klinisch Experimentelle Immunologie, aus Freiburg) per Presseaussendung ergänzt, damit 3 von 9 bekannt, 6 weiterhin offen — die alte Notiz '2022 mit zwei Einträgen weiterhin unvollständig' unterschätzte die Lücke deutlich."
+   "quelle": "Presseinformationen und OTS-Meldungen, zwei Recherchedurchgänge, jede Angabe gegen die Quelle geprüft (Runde 1: 6 Daten korrigiert, 7 verworfen; Runde 2: 30 von 49 verworfen). 2016 ohne belegten Fall. 2026-08-28: Die MedUni-Wissensbilanzen enthalten — anders als zunächst angenommen — direkt nach der Kennzahl-1.A.2-Tabelle einen Fließtext-Absatz, der jede Berufung des Jahres namentlich mit Datum und Vorinstitution nennt. 2019 (5/5: Rössler, Lell, Aletaha, Zaitsev, Zimpfer — Klepetko separat als 'Wiederbestellung' geführt, zählt laut Quelle nicht als Berufung), 2021 (20/20: unter anderem Knoblich, Rujescu, Langs, Kyrle, Strobel, Bock, Ankersmit, Aszmann, Jilma, Kuchler, Lanzenberger, Prager, Behringer, Haubensak, Kiss, Valent, Ay, Boztug, Leonard, Kimberger) und 2022 (9/9: Masel, Bergthaler, Müller, Mayr, Rizzi, Kühn, Walochnik, Barisani-Asenbauer, Gompelmann) je exakt gegen die Wissensbilanz-Namensliste abgeglichen und vollständig. Damit MedUni Wien 2019-2025 komplett, nur 2026 (Bericht noch nicht veröffentlicht) bleibt offen."
   },
   "BOKU": {
    "vollstaendig": [
