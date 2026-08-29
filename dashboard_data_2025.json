@@ -23510,7 +23510,7 @@
   "fakultat": "Institut für bildende Kunst",
   "fakultat_code": null,
   "forschungsbereich": "Gegenständliche Malerei",
-  "art_berufung": "§98",
+  "art_berufung": "§99(1)",
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "freischaffender Maler Wien (Mitbegründer galerie schleifmühlgasse 12 2005; Galerie 422, Grita Insam)",
@@ -23534,7 +23534,7 @@
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [],
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Verlängerung 2024 gemeldet; Handrecherche (Werdegang) via https://www.akbild.ac.at/de/news/2022/neue-professuren-ab-1-oktober-2022: Handrecherche 2026-08-24 aus Akademie-Berufungsmeldung 2022"
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Verlängerung 2024 gemeldet; Handrecherche (Werdegang) via https://www.akbild.ac.at/de/news/2022/neue-professuren-ab-1-oktober-2022: Handrecherche 2026-08-24 aus Akademie-Berufungsmeldung 2022 2026-08-29 korrigiert (war §98): Wissensbilanz 2022 nennt exakt EINE §98-Berufung für 2022, ausschließlich weiblich besetzt (Bildhauerei und Installation = Nora Schultz) — Mackinven (männlich) kann rein rechnerisch nicht §98 sein. Umklassifiziert zu §99(1)."
  },
  {
   "name": "Despina Stokou",
@@ -23638,7 +23638,7 @@
   "fakultat": "Institut für bildende Kunst",
   "fakultat_code": null,
   "forschungsbereich": "Bildhauerei und Installation",
-  "art_berufung": null,
+  "art_berufung": "§98",
   "geschlecht": "W",
   "herkunft": "extern",
   "herkunft_institution": "Harvard University, Department of Art, Film, and Visual Studies (2016–2021)",

@@ -116,8 +116,9 @@
   "fakultat": "Institut für bildende Kunst",
   "quelle": "https://www.akbild.ac.at/de/news/2022/neue-professorin-fuer-bildhauerei-und-installation-nora-schultz",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn Februar 2022, Paragraf nicht genannt",
-  "geschlecht": "W"
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Beginn Februar 2022, Paragraf nicht genannt 2026-08-29 ergänzt: Wissensbilanz 2022 (Kennzahl 1.A.2) bestätigt explizit im Fließtext: 'die einzige Professur nach §98 UG (Fachbereich Bildhauerei und Installation) wurde mit einer Frau besetzt' — Feld und Geschlecht stimmen exakt überein.",
+  "geschlecht": "W",
+  "art_berufung": "§98"
  },
  {
   "name": "Despina Stokou",
@@ -179,8 +180,8 @@
   "fakultat": "Institut für bildende Kunst",
   "quelle": "https://www.akbild.ac.at/de/news/2022/neue-professuren-ab-1-oktober-2022",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Verlängerung 2024 gemeldet",
-  "art_berufung": "§98",
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Verlängerung 2024 gemeldet 2026-08-29 korrigiert (war §98): Wissensbilanz 2022 nennt exakt EINE §98-Berufung für 2022, ausschließlich weiblich besetzt (Bildhauerei und Installation = Nora Schultz) — Mackinven (männlich) kann daher rein rechnerisch nicht §98 sein. Umklassifiziert zu §99(1), passend zum Muster 'wechselnde Professuren' in der Bildenden Kunst, das die Wissensbilanz explizit beschreibt (und zur eigenen Notiz 'Verlängerung 2024 gemeldet' passt, was auf eine befristete/rotierende Professur hindeutet).",
+  "art_berufung": "§99(1)",
   "geschlecht": "M"
  },
  {
