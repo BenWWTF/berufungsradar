@@ -63,11 +63,11 @@
   "universitat": "Akademie",
   "monat": "OKTOBER",
   "year": 2021,
-  "forschungsbereich": null,
+  "forschungsbereich": "Architektur",
   "fakultat": null,
   "quelle": "https://www.akbild.ac.at/de/news/2021/neue-professuren-und-tenure-track-stellen-an-der-akademie-ab-1.-oktober-2021",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt",
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt 2026-08-29 ergänzt: OpenAlex-Themenprofil (Topics: 'Urbanization and City Planning', 'Architecture and Computational Design') bestätigt Fachzuordnung Architektur, passend zu einer der 4 §99(1)-Architektur-Stellen der Kennzahl 1.A.2 2021.",
   "geschlecht": "M"
  },
  {
@@ -87,12 +87,13 @@
   "universitat": "Akademie",
   "monat": "OKTOBER",
   "year": 2021,
-  "forschungsbereich": null,
+  "forschungsbereich": "Konservierung-Restaurierung",
   "fakultat": null,
   "quelle": "https://www.akbild.ac.at/de/news/2021/neue-professuren-und-tenure-track-stellen-an-der-akademie-ab-1.-oktober-2021",
   "stufe": 1,
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt",
-  "geschlecht": "W"
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; Sammelmeldung Professuren und Tenure-Track ab 1.10.2021, Fach und Paragraf nicht genannt 2026-08-29 ergänzt: Wissensbilanz-2021-Fließtext direkt vor der Kennzahl-1.A.2-Tabelle beschreibt eine Qualifizierungsvereinbarung am Institut für Konservierung-Restaurierung, die 2021 'zur Assistenzprofessorin gem. §27 Abs.3 KV aufgerückt' ist — das ist KEINE §98/§99-UG-Berufung und taucht daher nicht in der Kennzahl-Tabelle auf (die nur §98/§99/§99a-Spalten hat). OpenAlex bestätigt ihr Feld als Konservierungswissenschaft (Cultural Heritage Materials, Conservation Techniques), passend zur Institutszuordnung. Erklärt die bisherige 9-vs-8-Kopfzahl-Diskrepanz vollständig: 8 echte Berufungen (6 Oktober-Sammelmeldung ohne Eyb-Green + Eichwald + Winkler) + 1 separate KV-Assistenzprofessur (Eyb-Green) = 9 im Bestand.",
+  "geschlecht": "W",
+  "art_berufung": "§27 Abs.3 KV (Assistenzprofessur, KEINE UG-Berufung)"
  },
  {
   "name": "Heike Derwanz",
