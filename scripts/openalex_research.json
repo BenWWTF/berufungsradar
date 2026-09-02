@@ -38301,5 +38301,3924 @@
     "herkunft_institution": "University of Twente",
     "herkunft_land": "Niederlande",
     "grants": []
+  },
+  "Yasamin Vali": {
+    "name": "Yasamin Vali",
+    "openalex_id": "A5010242561",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 46,
+    "cited_by_count": 112,
+    "h_index": 5,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Tehran",
+        "country": "IR",
+        "type": "education",
+        "years": [
+          2019,
+          2018,
+          2017,
+          2015,
+          2013,
+          2010
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Bildgebende Diagnostik. h-Index: 5 | Publikationen: 46 | Zitierungen: 112. Forschungstätigkeit u.a. in Österreich, IR.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas Staudinger": {
+    "name": "Thomas Staudinger",
+    "openalex_id": "A5057787103",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 264,
+    "cited_by_count": 8861,
+    "h_index": 0,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2010,
+          2007,
+          2003,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Star Technology and Research (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2020,
+          2019,
+          2017,
+          2016,
+          2014,
+          2013,
+          2012,
+          2008,
+          1998
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ford Foundation",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Intensivmedizin. Forschungstätigkeit u.a. in USA, Kanada, Österreich, Südkorea.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Michal Kyllar": {
+    "name": "Michal Kyllar",
+    "openalex_id": "A5042334051",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 29,
+    "cited_by_count": 502,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2008
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Veterinary Sciences Brno",
+        "country": "CZ",
+        "type": "education",
+        "years": [
+          2021,
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2009,
+          2008,
+          2005
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Yahoo (Spain)",
+        "country": "ES",
+        "type": "company",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Broadstairs College",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Janssen (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Histologie und Morphologie. h-Index: 10 | Publikationen: 29 | Zitierungen: 502. Forschungstätigkeit u.a. in Tschechien, Österreich, Spanien, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Melanie Dammhahn": {
+    "name": "Melanie Dammhahn",
+    "openalex_id": "A5074091552",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 127,
+    "cited_by_count": 3311,
+    "h_index": 31,
+    "last_known_institutions": [
+      {
+        "name": "Bielefeld University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Bielefeld",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Münster",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "FH Münster",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Wildtierkunde. h-Index: 31 | Publikationen: 127 | Zitierungen: 3311. Forschungstätigkeit u.a. in Österreich, Kanada, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Bielefeld University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Alice Auersperg": {
+    "name": "Alice Auersperg",
+    "openalex_id": "A5052062558",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 103,
+    "cited_by_count": 2217,
+    "h_index": 27,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Life Sciences in Lublin",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Life University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Newcastle University",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Comparative cognitive biology. h-Index: 27 | Publikationen: 103 | Zitierungen: 2217. Forschungstätigkeit u.a. in Österreich, Polen, Großbritannien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Eva Schnabl-Feichter": {
+    "name": "Eva Schnabl-Feichter",
+    "openalex_id": "A5091051303",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 27,
+    "cited_by_count": 459,
+    "h_index": 9,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2021,
+          2020,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Kleintierchirurgie. h-Index: 9 | Publikationen: 27 | Zitierungen: 459.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Peter M. Roth": {
+    "name": "Peter M. Roth",
+    "openalex_id": "A5014686562",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 222,
+    "cited_by_count": 10374,
+    "h_index": 43,
+    "last_known_institutions": [
+      {
+        "name": "Webster Vienna Private University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Goethe University Frankfurt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2005,
+          1992,
+          1989
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Goethe-Institute United Kingdom",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2025,
+          2005
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Computational Medicine. h-Index: 43 | Publikationen: 222 | Zitierungen: 10374. Forschungstätigkeit u.a. in Deutschland, Polen, Österreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Alba Hykollari": {
+    "name": "Alba Hykollari",
+    "openalex_id": "A5002467086",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 40,
+    "cited_by_count": 650,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2019,
+          2017
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Biochemie. h-Index: 14 | Publikationen: 40 | Zitierungen: 650. Forschungstätigkeit u.a. in Österreich, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Amelie Desvars-Larrive": {
+    "name": "Amelie Desvars-Larrive",
+    "openalex_id": "A5063196702",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 90,
+    "cited_by_count": 3426,
+    "h_index": 23,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Complexity Science Hub",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Science Hub",
+        "country": null,
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Veterinarians Without Borders",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "HBLFA Raumberg-Gumpenstein",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Infektionsepidemiologie. h-Index: 23 | Publikationen: 90 | Zitierungen: 3426. Forschungstätigkeit u.a. in Frankreich, MA, Schweden, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Borbala Foris": {
+    "name": "Borbala Foris",
+    "openalex_id": "A5008694630",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 28,
+    "cited_by_count": 396,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of British Columbia",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Animal Welfare Institute",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Research Institute for Farm Animal Biology (FBN)",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2021,
+          2019,
+          2018
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Zimmer Biomet (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2019,
+          2018
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Tierschutzwissenschaften. h-Index: 10 | Publikationen: 28 | Zitierungen: 396. Forschungstätigkeit u.a. in Kanada, USA, Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christof Bertram": {
+    "name": "Christof Bertram",
+    "openalex_id": "A5033800956",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 1024,
+    "cited_by_count": 1834,
+    "h_index": 23,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technische Hochschule Ingolstadt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Pathologie. h-Index: 23 | Publikationen: 1024 | Zitierungen: 1834. Forschungstätigkeit u.a. in Deutschland, Österreich, USA, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Claudia Bieber": {
+    "name": "Claudia Bieber",
+    "openalex_id": "A5073254881",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 62,
+    "cited_by_count": 2502,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Western Sydney University",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2019,
+          2018
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2017,
+          2012
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "University of New England",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "Wildtierkunde. h-Index: 24 | Publikationen: 62 | Zitierungen: 2502. Forschungstätigkeit u.a. in Österreich, Deutschland, Schweiz, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Elisabeth Varga": {
+    "name": "Elisabeth Varga",
+    "openalex_id": "A5041846986",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 108,
+    "cited_by_count": 2816,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Leibniz Institute of Freshwater Ecology and Inland Fisheries",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Agence Nationale de Sécurité Sanitaire de l’Alimentation, de l’Environnement et du Travail",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Analytische Chemie - Lebensmittel- und Umweltanalytik. h-Index: 29 | Publikationen: 108 | Zitierungen: 2816. Forschungstätigkeit u.a. in Dänemark, Kanada, Österreich, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Florian Grebien": {
+    "name": "Florian Grebien",
+    "openalex_id": "A5090966690",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 160,
+    "cited_by_count": 5076,
+    "h_index": 35,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2019,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "St Anna Children's Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "CeMM Research Center for Molecular Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2019,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Medizinische Biochemie. h-Index: 35 | Publikationen: 160 | Zitierungen: 5076. Forschungstätigkeit u.a. in Österreich, Spanien, Kanada, Israel.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Heidi Neubauer": {
+    "name": "Heidi Neubauer",
+    "openalex_id": "A5007387735",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 70,
+    "cited_by_count": 1948,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "South Australia Pathology",
+        "country": "AU",
+        "type": "nonprofit",
+        "years": [
+          2025,
+          2019,
+          2018,
+          2017,
+          2016,
+          2013
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of South Australia",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2025,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Centre for Cancer Biology",
+        "country": "AU",
+        "type": "facility",
+        "years": [
+          2025,
+          2019,
+          2018,
+          2017,
+          2016,
+          2013
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Molekulare Zellbiologie. h-Index: 25 | Publikationen: 70 | Zitierungen: 1948. Forschungstätigkeit u.a. in Australien, Österreich, Deutschland, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Janina Burk": {
+    "name": "Janina Burk",
+    "openalex_id": "A5053281165",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 72,
+    "cited_by_count": 1419,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "Leipzig University of Applied Sciences",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2021,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Leipzig University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Justus-Liebig-Universität Gießen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2019,
+          2018
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Physiologie. h-Index: 22 | Publikationen: 72 | Zitierungen: 1419. Forschungstätigkeit u.a. in Deutschland, Österreich, Mexiko, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martina Mosing": {
+    "name": "Martina Mosing",
+    "openalex_id": "A5078499243",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 153,
+    "cited_by_count": 1851,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2009,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2003
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Murdoch University",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2025,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2006
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Anästhesie und Analgesie. h-Index: 25 | Publikationen: 153 | Zitierungen: 1851. Forschungstätigkeit u.a. in Schweiz, Österreich, Großbritannien, Australien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Matthias Loretto": {
+    "name": "Matthias Loretto",
+    "openalex_id": "A5080960510",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 67,
+    "cited_by_count": 2283,
+    "h_index": 21,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Aarhus University",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Planck Institute of Animal Behavior",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Bewegungsökologie. h-Index: 21 | Publikationen: 67 | Zitierungen: 2283. Forschungstätigkeit u.a. in Österreich, Deutschland, Australien, Dänemark.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Susanne Kreuzer-Redmer": {
+    "name": "Susanne Kreuzer-Redmer",
+    "openalex_id": "A5071948832",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 56,
+    "cited_by_count": 540,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Institut für Tier-, Natur- und Umweltethik",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2014
+        ],
+        "most_recent": 2014
+      }
+    ],
+    "bio_text": "Nutrigenomik. h-Index: 15 | Publikationen: 56 | Zitierungen: 540. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Valeria Marasco": {
+    "name": "Valeria Marasco",
+    "openalex_id": "A5024495228",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 51,
+    "cited_by_count": 1139,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Poznań University of Life Sciences",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Konrad Lorenz Institute for Evolution and Cognition Research",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Glasgow",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2021,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Wildtierphysiologie. h-Index: 15 | Publikationen: 51 | Zitierungen: 1139. Forschungstätigkeit u.a. in USA, Österreich, Italien, Polen.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Barbara Metzler-Zebeli": {
+    "name": "Barbara Metzler-Zebeli",
+    "openalex_id": "A5009930217",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 187,
+    "cited_by_count": 5548,
+    "h_index": 42,
+    "last_known_institutions": [
+      {
+        "name": "Animal Welfare Institute",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Czech Academy of Sciences, Institute of Physiology",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Nachhaltige Pflanzenmetaboliten-Tier-Interaktionen. h-Index: 42 | Publikationen: 187 | Zitierungen: 5548. Forschungstätigkeit u.a. in Deutschland, Frankreich, Österreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Clair Firth": {
+    "name": "Clair Firth",
+    "openalex_id": "A5054397913",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 53,
+    "cited_by_count": 1159,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universidad Nacional",
+        "country": "CR",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Oxford BioMedica (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Baxter (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2015,
+          2013,
+          2011,
+          2010
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Öffentliches Veterinärwesen. h-Index: 17 | Publikationen: 53 | Zitierungen: 1159. Forschungstätigkeit u.a. in Österreich, CR, Kanada, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Evelyne Selberherr": {
+    "name": "Evelyne Selberherr",
+    "openalex_id": "A5078476941",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 39,
+    "cited_by_count": 671,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Food Science and Technology",
+        "country": "CN",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Food Science & Technology",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Agency for Quality Assurance and Accreditation Austria",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2023,
+          2021
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Mikrobiomforschung. h-Index: 14 | Publikationen: 39 | Zitierungen: 671. Forschungstätigkeit u.a. in Österreich, China, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Friederike Range": {
+    "name": "Friederike Range",
+    "openalex_id": "A5076854956",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 275,
+    "cited_by_count": 9061,
+    "h_index": 54,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Konrad Lorenz Institute for Evolution and Cognition Research",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2008,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Wolf Science Center",
+        "country": "AT",
+        "type": "archive",
+        "years": [
+          2024,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2008
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Domestikation. h-Index: 54 | Publikationen: 275 | Zitierungen: 9061. Forschungstätigkeit u.a. in Frankreich, Österreich, USA, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Gema Alama Bermejo": {
+    "name": "Gema Alama Bermejo",
+    "openalex_id": "A5076241328",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 36,
+    "cited_by_count": 528,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Centro Científico Tecnológico Patagónico",
+        "country": "AR",
+        "type": "facility",
+        "years": [
+          2026,
+          2022,
+          2020,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Parasitology",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Czech Academy of Sciences, Biology Centre",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Czech Academy of Sciences",
+        "country": "CZ",
+        "type": "government",
+        "years": [
+          2022,
+          2020
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Fischgesundheit. h-Index: 15 | Publikationen: 36 | Zitierungen: 528. Forschungstätigkeit u.a. in USA, Österreich, Argentinien, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ivana Calice": {
+    "name": "Ivana Calice",
+    "openalex_id": "A5072751513",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 10,
+    "cited_by_count": 39,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2021,
+          2016,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020,
+          2019
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Anästhesie, Analgesie und perioperative Intensivmedizin. h-Index: 4 | Publikationen: 10 | Zitierungen: 39.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Jule Michler": {
+    "name": "Jule Michler",
+    "openalex_id": "A5028182143",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 17,
+    "cited_by_count": 76,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Leipzig University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2013
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Physiologie. h-Index: 6 | Publikationen: 17 | Zitierungen: 76. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Katarzyna Sitnik": {
+    "name": "Katarzyna Sitnik",
+    "openalex_id": "A5018065520",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 45,
+    "cited_by_count": 2534,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Helmholtz Centre for Infection Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technical University of Denmark",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2023,
+          2021,
+          2018,
+          2016,
+          2015
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Lund University",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2015,
+          2014,
+          2012,
+          2010,
+          2009
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "University of Wrocław",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "Virologie. h-Index: 16 | Publikationen: 45 | Zitierungen: 2534. Forschungstätigkeit u.a. in Österreich, Schweden, Polen, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Marion Bankstahl": {
+    "name": "Marion Bankstahl",
+    "openalex_id": "A5041304153",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 85,
+    "cited_by_count": 2773,
+    "h_index": 32,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medizinische Hochschule Hannover",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "L3S Research Center",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Hannover, Foundation",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "The Schwarzman Animal Medical Center",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Pharmakologie und Toxikologie. h-Index: 32 | Publikationen: 85 | Zitierungen: 2773. Forschungstätigkeit u.a. in Österreich, Deutschland, USA, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Moritz Bünger": {
+    "name": "Moritz Bünger",
+    "openalex_id": "A5026601157",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 11,
+    "cited_by_count": 116,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Schweinemedizin mit Fokus auf Infektionskrankheiten. h-Index: 7 | Publikationen: 11 | Zitierungen: 116.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Nora Biermann": {
+    "name": "Nora Biermann",
+    "openalex_id": "A5020614563",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 19,
+    "cited_by_count": 100,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022,
+          2019,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Newmarket Equine Hospital",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Prince Edward Island",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2021,
+          2020,
+          2018,
+          2017,
+          2015
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Pferdechirurgie. h-Index: 7 | Publikationen: 19 | Zitierungen: 100. Forschungstätigkeit u.a. in Österreich, Kanada, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sebastian Glatt": {
+    "name": "Sebastian Glatt",
+    "openalex_id": "A5012531471",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 120,
+    "cited_by_count": 2666,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "Jagiellonian University",
+        "country": "PL",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Max Planck Computing and Data Facility",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "European Molecular Biology Laboratory",
+        "country": "DE",
+        "type": "government",
+        "years": [
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Systemgenetik. h-Index: 30 | Publikationen: 120 | Zitierungen: 2666. Forschungstätigkeit u.a. in Polen, Österreich, Großbritannien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Silvio Kau-Strebinger": {
+    "name": "Silvio Kau-Strebinger",
+    "openalex_id": "A5034526627",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 25,
+    "cited_by_count": 97,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Morpho (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Debrecen",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Austrian Cluster for Tissue Regeneration",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2025,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ludwig Boltzmann Institute for Traumatology, The Research Center in Cooperation with AUVA",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Morphologie. h-Index: 7 | Publikationen: 25 | Zitierungen: 97. Forschungstätigkeit u.a. in Ungarn, Österreich, USA, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stefanie Riemer": {
+    "name": "Stefanie Riemer",
+    "openalex_id": "A5061678929",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 73,
+    "cited_by_count": 1399,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2018,
+          2016,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Bern",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2018,
+          2016,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Sustainable Europe Research Institute",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Companion Animal Management. h-Index: 22 | Publikationen: 73 | Zitierungen: 1399. Forschungstätigkeit u.a. in USA, Schweiz, Österreich, Polen.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Bibiana Rojas Zuluaga": {
+    "name": "Bibiana Rojas Zuluaga",
+    "openalex_id": "A5102510796",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [
+      {
+        "name": "University of Jyväskylä",
+        "country": "FI",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Global Change Biology.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Jyväskylä",
+    "herkunft_land": "Finnland",
+    "grants": []
+  },
+  "Dagmar Trachsel": {
+    "name": "Dagmar Trachsel",
+    "openalex_id": "A5055087192",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 65,
+    "cited_by_count": 807,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Copenhagen",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Institut für Medizinische Biometrie, Informatik und Epidemiologie",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Freie Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Interne Pferdemedizin. h-Index: 15 | Publikationen: 65 | Zitierungen: 807. Forschungstätigkeit u.a. in Schweiz, Dänemark, Österreich, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Friederike Pohlin": {
+    "name": "Friederike Pohlin",
+    "openalex_id": "A5067107663",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 39,
+    "cited_by_count": 173,
+    "h_index": 8,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Onderstepoort Veterinary Academic Hospital",
+        "country": "ZA",
+        "type": "healthcare",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Pretoria",
+        "country": "ZA",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Wildtiermedizin. h-Index: 8 | Publikationen: 39 | Zitierungen: 173. Forschungstätigkeit u.a. in Österreich, USA, Südafrika, Indien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Janja Sirovnik": {
+    "name": "Janja Sirovnik",
+    "openalex_id": "A5074244938",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 18,
+    "cited_by_count": 214,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Centre of Biosciences of the Slovak Academy of Sciences",
+        "country": "SK",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Animal Biochemistry and Genetics of the Slovak Academy of Sciences",
+        "country": "SK",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Bern",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2021,
+          2018,
+          2017
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Justus-Liebig-Universität Gießen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2021,
+          2020
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Nachhaltigkeit und Tierschutz bei Nutztieren. h-Index: 7 | Publikationen: 18 | Zitierungen: 214. Forschungstätigkeit u.a. in Schweiz, Österreich, Deutschland, Slowakei.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Jennifer Kirwan": {
+    "name": "Jennifer Kirwan",
+    "openalex_id": "A5066828433",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 150,
+    "cited_by_count": 3182,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Delbrück Center",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Veterinary Metabolomics. h-Index: 28 | Publikationen: 150 | Zitierungen: 3182. Forschungstätigkeit u.a. in Österreich, Großbritannien, Deutschland, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Karin Unger": {
+    "name": "Karin Unger",
+    "openalex_id": "A5006688464",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 7,
+    "cited_by_count": 30,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Washington State University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Veterinary Medical Teaching Hospital",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "University of California, Davis",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Notfallmedizin. h-Index: 3 | Publikationen: 7 | Zitierungen: 30. Forschungstätigkeit u.a. in Österreich, USA, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Lea Liehmann": {
+    "name": "Lea Liehmann",
+    "openalex_id": "A5040207650",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 18,
+    "cited_by_count": 179,
+    "h_index": 8,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2021,
+          2020,
+          2017,
+          2012,
+          2010,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "WEK Tierarzt",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Weichteilchirurgie. h-Index: 8 | Publikationen: 18 | Zitierungen: 179. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Patrick Mikuni-Mester": {
+    "name": "Patrick Mikuni-Mester",
+    "openalex_id": "A5044998045",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 62,
+    "cited_by_count": 1268,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2010,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Competence Centre of Food Safety",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Interuniversity Cooperation Centre Water & Health",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Karl Landsteiner University of Health Sciences",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Innovative Lebensmittelhygienesysteme. h-Index: 22 | Publikationen: 62 | Zitierungen: 1268. Forschungstätigkeit u.a. in Großbritannien, Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Svenja Springer": {
+    "name": "Svenja Springer",
+    "openalex_id": "A5075482450",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 61,
+    "cited_by_count": 347,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Pittsburgh Medical Center",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2019
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Copenhagen",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2019
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Veterinärmedizinische Ethik. h-Index: 10 | Publikationen: 61 | Zitierungen: 347. Forschungstätigkeit u.a. in Dänemark, Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Tobias Käser": {
+    "name": "Tobias Käser",
+    "openalex_id": "A5110626515",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 62,
+    "cited_by_count": 1688,
+    "h_index": 20,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "North Carolina State University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "North Central State College",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "University of Saskatchewan",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Immunologie. h-Index: 20 | Publikationen: 62 | Zitierungen: 1688. Forschungstätigkeit u.a. in USA, Österreich, Kanada, Ungarn.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Jasmine Loveland": {
+    "name": "Jasmine Loveland",
+    "openalex_id": "A5076198397",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 32,
+    "cited_by_count": 740,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Max Planck Institute for Ornithology",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Max Planck Institute for Biological Intelligence",
+        "country": null,
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Exeter",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Genetische und epigenetische Grundlagen der Mensch-Tier-Wechselwirkung. h-Index: 14 | Publikationen: 32 | Zitierungen: 740. Forschungstätigkeit u.a. in Österreich, USA, Italien, Japan.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Karen Wagener": {
+    "name": "Karen Wagener",
+    "openalex_id": "A5024794251",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 45,
+    "cited_by_count": 829,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2023,
+          2021,
+          2019,
+          1960
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Wiederkäuerklinik",
+        "country": "CH",
+        "type": "healthcare",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Center for Pediatric Endocrinology Zurich",
+        "country": "CH",
+        "type": "facility",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Infektion und Inflammation des bovinen Reproduktionstrakts. h-Index: 13 | Publikationen: 45 | Zitierungen: 829. Forschungstätigkeit u.a. in Österreich, Schweiz.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martim Kaps": {
+    "name": "Martim Kaps",
+    "openalex_id": "A5004449074",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 80,
+    "cited_by_count": 843,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Roman L. Hruska U.S. Meat Animal Research Center",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Agricultural Research Service",
+        "country": "US",
+        "type": "government",
+        "years": [
+          2024,
+          1991
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "United States Department of Agriculture",
+        "country": "US",
+        "type": "government",
+        "years": [
+          2024,
+          1991
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Associated Press",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Reproduktionsmedizin. h-Index: 14 | Publikationen: 80 | Zitierungen: 843. Forschungstätigkeit u.a. in USA, Österreich, HR, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Megan Lambert": {
+    "name": "Megan Lambert",
+    "openalex_id": "A5089942902",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 57,
+    "cited_by_count": 608,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Flinders University",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Lund University",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2020,
+          2018,
+          2017
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Kognitive Ethologie. h-Index: 13 | Publikationen: 57 | Zitierungen: 608. Forschungstätigkeit u.a. in USA, Österreich, Australien, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Olga Makarova": {
+    "name": "Olga Makarova",
+    "openalex_id": "A5109829045",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 25,
+    "cited_by_count": 2552,
+    "h_index": 18,
+    "last_known_institutions": [
+      {
+        "name": "University of Leicester",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2020,
+          2015,
+          2014,
+          2011,
+          2009,
+          2004,
+          2000,
+          1998
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Max Planck Institute for Biophysical Chemistry",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2015,
+          2005,
+          2004,
+          2002
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "University of Michigan",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2011,
+          2008,
+          2002,
+          2000
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "Brunel University of London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2005,
+          2002
+        ],
+        "most_recent": 2005
+      }
+    ],
+    "bio_text": "Antibiotikaresistenzen in einem One Health Kontext. h-Index: 18 | Publikationen: 25 | Zitierungen: 2552. Forschungstätigkeit u.a. in Russland, USA, Deutschland, Großbritannien.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Leicester",
+    "herkunft_land": "Großbritannien",
+    "grants": []
+  },
+  "Robert Kofler": {
+    "name": "Robert Kofler",
+    "openalex_id": "A5044378025",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 105,
+    "cited_by_count": 7611,
+    "h_index": 36,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2018
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Genetics",
+        "country": "HU",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "CISC Semiconductor (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Genetik gesunder Heim- und Begleittiere. h-Index: 36 | Publikationen: 105 | Zitierungen: 7611. Forschungstätigkeit u.a. in Finnland, Österreich, Großbritannien, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sara Ricci": {
+    "name": "Sara Ricci",
+    "openalex_id": "A5070644950",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 71,
+    "cited_by_count": 636,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "Brno University of Technology",
+        "country": "CZ",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Los Alamos National Laboratory",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Università degli studi di Cassino e del Lazio Meridionale",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Center for Integrated Nanotechnologies",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Padua",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Tierernährung. h-Index: 13 | Publikationen: 71 | Zitierungen: 636. Forschungstätigkeit u.a. in Italien, USA, Spanien, Tschechien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Brno University of Technology",
+    "herkunft_land": "Tschechien",
+    "grants": []
+  },
+  "Surya Paudel": {
+    "name": "Surya Paudel",
+    "openalex_id": "A5002667839",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 51,
+    "cited_by_count": 550,
+    "h_index": 15,
+    "last_known_institutions": [
+      {
+        "name": "City University of Hong Kong",
+        "country": "HK",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hong Kong Jockey Club",
+        "country": "HK",
+        "type": "nonprofit",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Geflügelmedizin. h-Index: 15 | Publikationen: 51 | Zitierungen: 550. Forschungstätigkeit u.a. in Österreich, HK.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dieter Liebhart": {
+    "name": "Dieter Liebhart",
+    "openalex_id": "A5009155148",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 2483,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Poultry CRC",
+        "country": "AU",
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2025,
+          2013
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Animal Husbandry and Veterinary Department",
+        "country": "IN",
+        "type": "government",
+        "years": [
+          2011,
+          2006
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "St Michaels Hospital",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "Geflügelimmunologie. h-Index: 30 | Publikationen: 124 | Zitierungen: 2483. Forschungstätigkeit u.a. in Österreich, Indien, Ungarn, Großbritannien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Maik Dahlhoff": {
+    "name": "Maik Dahlhoff",
+    "openalex_id": "A5023390854",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 145,
+    "cited_by_count": 3198,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "MODUL University Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ludwig Boltzmann Institute for Digital Health and Prevention",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Institute for In Vitro Sciences",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "In-vivo- und In-vitro-Modelle. h-Index: 28 | Publikationen: 145 | Zitierungen: 3198. Forschungstätigkeit u.a. in Deutschland, Österreich, Neuseeland, Türkei.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }
