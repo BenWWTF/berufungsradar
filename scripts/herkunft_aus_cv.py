@@ -49,7 +49,7 @@ LAENDER = [
      r"\\bepfl\\b|eth zürich|eth zurich|\\bethz?\\b", "Schweiz"),
     (r"united kingdom|england|scotland|great britain|london|oxford|cambridge|"
      r"edinburgh|manchester|bristol|glasgow|imperial college|ucl|"
-     r"university of leeds|st andrews", "Großbritannien"),
+     r"university of leeds|st andrews", "Vereinigtes Königreich"),
     (r"united states|\\busa\\b|u\\.s\\.|harvard|stanford|massachusetts institute|"
      r"berkeley|yale|princeton|"
      r"columbia university|chicago|caltech|michigan|texas|boston|new york|"

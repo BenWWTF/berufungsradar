@@ -29,7 +29,7 @@ MAILTO = "benjamin.missbach@wwtf.at"
 
 COUNTRY_NAMES_DE = {
     "US": "USA",
-    "GB": "Großbritannien",
+    "GB": "Vereinigtes Königreich",
     "DE": "Deutschland",
     "FR": "Frankreich",
     "CH": "Schweiz",

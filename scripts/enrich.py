@@ -9,7 +9,8 @@ Stages (run with --stage N):
   4. TU Wien E-code → faculty name reverse map
   5. Herkunft research (manual data, see herkunft_research.json)
   6. OpenAlex bio enrichment for 26 entries (uses cached results)
-  7. Write enriched JSON
+  7. Herkunftsland-Aliase normalisieren (UK/Großbritannien/Vereinigtes Königreich)
+  8. Write enriched JSON
 
 Run with --dry to preview changes.
 """
@@ -845,6 +846,37 @@ def stage6_openalex(data, dry=False):
     return changes
 
 
+# Verschiedene Pipeline-Zweige (Handrecherche, OpenAlex-Übersetzung,
+# CV-Heuristik) schreiben denselben Staat unter unterschiedlichen Namen —
+# ohne diese Stelle zerfällt z.B. UK/Großbritannien/Vereinigtes Königreich
+# im Sankey, im Land-Filter und in der WWTF-Statistik in drei Knoten statt
+# einem. Kanonische Form: der amtliche deutsche Staatsname.
+LAND_ALIASES = {
+    "UK": "Vereinigtes Königreich",
+    "GB": "Vereinigtes Königreich",
+    "Großbritannien": "Vereinigtes Königreich",
+    "Great Britain": "Vereinigtes Königreich",
+    "United Kingdom": "Vereinigtes Königreich",
+}
+
+
+def stage7_land_normalize(data, dry=False):
+    """Normalize herkunft_land aliases (see LAND_ALIASES). Handles combo
+    values ('Land A/Land B', mit oder ohne Leerzeichen um den Slash)."""
+    changes = []
+    for d in data:
+        land = d.get("herkunft_land")
+        if not land:
+            continue
+        parts = [p.strip() for p in land.split("/")]
+        normalized = [LAND_ALIASES.get(p, p) for p in parts]
+        new_land = " / ".join(normalized)
+        if new_land != land:
+            changes.append(f"{d['name']}: {land!r} → {new_land!r}")
+            d["herkunft_land"] = new_land
+    return changes
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--stage", type=int, default=0, help="0 = all")
@@ -878,6 +910,11 @@ def main():
     if args.stage in (0, 6):
         changes = stage6_openalex(data, args.dry)
         print(f"[6] OpenAlex enrichment: {len(changes)} entries")
+        for c in changes:
+            print(f"    {c}")
+    if args.stage in (0, 7):
+        changes = stage7_land_normalize(data, args.dry)
+        print(f"[7] Herkunftsland normalisiert: {len(changes)} entries")
         for c in changes:
             print(f"    {c}")
 
