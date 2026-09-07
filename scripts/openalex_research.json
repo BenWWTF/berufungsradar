@@ -42220,5 +42220,5149 @@
     "herkunft_institution": "University of Veterinary Medicine Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Johannes Konnerth": {
+    "name": "Johannes Konnerth",
+    "openalex_id": "A5054386372",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 161,
+    "cited_by_count": 4660,
+    "h_index": 36,
+    "last_known_institutions": [
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Konrad Lorenz Institute for Evolution and Cognition Research",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2025,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Wood Science and Technology",
+        "country": "IN",
+        "type": "facility",
+        "years": [
+          2025,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Kompetenzzentrum Holz",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2023,
+          2019
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Max Planck Institute of Colloids and Interfaces",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Technologie des Holzes. h-Index: 36 | Publikationen: 161 | Zitierungen: 4660. Forschungstätigkeit u.a. in Österreich, JO, Deutschland, USA.",
+    "herkunft": "extern",
+    "herkunft_institution": "BOKU University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Jan Mendling": {
+    "name": "Jan Mendling",
+    "openalex_id": "A5062764959",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 722,
+    "cited_by_count": 25467,
+    "h_index": 0,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Weizenbaum Institute",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Ljubljana",
+        "country": "SI",
+        "type": "education",
+        "years": [
+          2021,
+          2013
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Prozessmanagement und Informationssysteme. Forschungstätigkeit u.a. in Österreich, Deutschland, SI, Australien.",
+    "herkunft": "intern",
+    "herkunft_institution": "Vienna University of Economics and Business",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Jeremy Joseph": {
+    "name": "Jeremy Joseph",
+    "openalex_id": "A5079552180",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 23,
+    "cited_by_count": 37121,
+    "h_index": 12,
+    "last_known_institutions": [
+      {
+        "name": "University of Colorado Boulder",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Howard Hughes Medical Institute",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "University of Colorado System",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "Orgel und Improvisation. h-Index: 12 | Publikationen: 23 | Zitierungen: 37121.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Colorado Boulder",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Christopher Wratil": {
+    "name": "Christopher Wratil",
+    "openalex_id": "A5079490300",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 672,
+    "cited_by_count": 1128,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Government of Lower Austria",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University College London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Harvard University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2019,
+          2018
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "University of Cologne",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Government. h-Index: 17 | Publikationen: 672 | Zitierungen: 1128. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Elisabeth Förster-Waldl": {
+    "name": "Elisabeth Förster-Waldl",
+    "openalex_id": "A5063775812",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 97,
+    "cited_by_count": 3310,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Zentrum für Kinderheilkunde",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2021,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätsklinik für Kinder und Jugendpsychiatrie",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2021,
+          2016,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2006,
+          2005,
+          2004,
+          2003,
+          1993
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Klinische Immunologie. h-Index: 30 | Publikationen: 97 | Zitierungen: 3310. Forschungstätigkeit u.a. in Österreich, Deutschland, Australien, Schweiz.",
+    "herkunft": "intern",
+    "herkunft_institution": "Comprehensive Cancer Center Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Markus Tiwald": {
+    "name": "Markus Tiwald",
+    "openalex_id": "A5081201768",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 39,
+    "cited_by_count": 39,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2016,
+          2004,
+          2001
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Duisburg-Essen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Neutestamentliche Bibelwissenschaft. h-Index: 2 | Publikationen: 39 | Zitierungen: 39. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Rainer Jankowitsch": {
+    "name": "Rainer Jankowitsch",
+    "openalex_id": "A5079072442",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 67,
+    "cited_by_count": 1501,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2018,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Wirtschaftsförderungsinstitut",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Credit Markets and Financial Intermediation. h-Index: 16 | Publikationen: 67 | Zitierungen: 1501.",
+    "herkunft": "intern",
+    "herkunft_institution": "Vienna University of Economics and Business",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Bernd Jilma": {
+    "name": "Bernd Jilma",
+    "openalex_id": "A5080941679",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 780,
+    "cited_by_count": 24473,
+    "h_index": 74,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1994
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2016,
+          2010,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2023,
+          2006
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Åbo Akademi University",
+        "country": "FI",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Klinische Pharmakologie. h-Index: 74 | Publikationen: 780 | Zitierungen: 24473. Forschungstätigkeit u.a. in Österreich, USA, Norwegen, Finnland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dongheui Lee": {
+    "name": "Dongheui Lee",
+    "openalex_id": "A5088081800",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 247,
+    "cited_by_count": 4324,
+    "h_index": 34,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Korea Advanced Institute of Science and Technology",
+        "country": "KR",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2014
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "University Professor for Autonomous Systems. h-Index: 34 | Publikationen: 247 | Zitierungen: 4324. Forschungstätigkeit u.a. in USA, Österreich, Südkorea, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martina Marchetti-Deschmann": {
+    "name": "Martina Marchetti-Deschmann",
+    "openalex_id": "A5016577904",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 215,
+    "cited_by_count": 3715,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2021,
+          2003,
+          2001
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Oncology Research",
+        "country": "CH",
+        "type": "facility",
+        "years": [
+          2025,
+          2019,
+          2017
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "University Professor for Mass Spectrometric Methods. h-Index: 33 | Publikationen: 215 | Zitierungen: 3715. Forschungstätigkeit u.a. in Italien, Österreich, USA, Russland.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Barbara Schulte": {
+    "name": "Barbara Schulte",
+    "openalex_id": "A5103150039",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 33,
+    "cited_by_count": 1287,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "Deutsche Rheuma-Liga",
+        "country": "DE",
+        "type": "other",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Radboud University Nijmegen",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2019,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "University Medical Center",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2019,
+          2016
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Radboud University Medical Center",
+        "country": "NL",
+        "type": "funder",
+        "years": [
+          2019,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Radboud Institute for Molecular Life Sciences",
+        "country": "NL",
+        "type": "facility",
+        "years": [
+          2019,
+          2016,
+          2015
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Schul- und Bildungsforschung im internationalen Vergleich. h-Index: 14 | Publikationen: 33 | Zitierungen: 1287. Forschungstätigkeit u.a. in Deutschland, Niederlande, USA, Belgien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Deutsche Rheuma-Liga",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Karl Kuchler": {
+    "name": "Karl Kuchler",
+    "openalex_id": "A5016873011",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 216,
+    "cited_by_count": 13179,
+    "h_index": 66,
+    "last_known_institutions": [
+      {
+        "name": "Max Perutz Labs",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2000
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Economics Center",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023,
+          2002,
+          1999,
+          1997,
+          1992
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Molekularbiologie. h-Index: 66 | Publikationen: 216 | Zitierungen: 13179. Forschungstätigkeit u.a. in Deutschland, Australien, Österreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Wulf Haubensak": {
+    "name": "Wulf Haubensak",
+    "openalex_id": "A5087716020",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 54,
+    "cited_by_count": 4715,
+    "h_index": 21,
+    "last_known_institutions": [
+      {
+        "name": "Research Institute of Molecular Pathology",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "California Institute of Technology",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2014,
+          2010,
+          2005
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2009
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Neuronale Zellbiologie. h-Index: 21 | Publikationen: 54 | Zitierungen: 4715. Forschungstätigkeit u.a. in USA, Deutschland, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martin Weißmann": {
+    "name": "Martin Weißmann",
+    "openalex_id": "A5009082154",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 163,
+    "cited_by_count": 3170,
+    "h_index": 30,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Central Institution for Meteorology and Geodynamics",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institut für ökologische Wirtschaftsforschung",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Utah",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Oklahoma",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Theoretische Meteorologie. h-Index: 30 | Publikationen: 163 | Zitierungen: 3170. Forschungstätigkeit u.a. in Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Michael Wimmer": {
+    "name": "Michael Wimmer",
+    "openalex_id": "A5040396291",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 415,
+    "cited_by_count": 6970,
+    "h_index": 43,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Frequentis (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Wisconsin–Madison",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Universität Hamburg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024,
+          2003
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Federal Office of Metrology and Surveying",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "University Professor for Computer Graphics. h-Index: 43 | Publikationen: 415 | Zitierungen: 6970. Forschungstätigkeit u.a. in Österreich, Südafrika, Frankreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Philipp Pilhofer": {
+    "name": "Philipp Pilhofer",
+    "openalex_id": "A5079659009",
+    "match_confidence": "medium",
+    "herkunft_verified": false,
+    "works_count": 22,
+    "cited_by_count": 18,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "University of Rostock",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024,
+          2022
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Institut für Tier-, Natur- und Umweltethik",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Kirchengeschichte (Reformations- und Protestantismusgeschichte). h-Index: 2 | Publikationen: 22 | Zitierungen: 18.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Rostock",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Daniel Zimpfer": {
+    "name": "Daniel Zimpfer",
+    "openalex_id": "A5028770050",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 605,
+    "cited_by_count": 9295,
+    "h_index": 51,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Graz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Graz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Shell (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Kinderherzchirurgie. h-Index: 51 | Publikationen: 605 | Zitierungen: 9295. Forschungstätigkeit u.a. in Österreich, USA, Israel, MN.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Iris Eisenberger": {
+    "name": "Iris Eisenberger",
+    "openalex_id": "A5042023129",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 66,
+    "cited_by_count": 510,
+    "h_index": 8,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2019,
+          2014,
+          2011,
+          2010,
+          2007,
+          2006
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Schott (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Universitätskinderklinik",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Institut für ökologische Wirtschaftsforschung",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Graz University of Technology",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Innovation und Öffentliches Recht. h-Index: 8 | Publikationen: 66 | Zitierungen: 510. Forschungstätigkeit u.a. in Österreich, Deutschland, Schweiz, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Federico Montinaro": {
+    "name": "Federico Montinaro",
+    "openalex_id": "A5063940668",
+    "match_confidence": "medium",
+    "herkunft_verified": false,
+    "works_count": 14,
+    "cited_by_count": 49,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "University of Tübingen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Byzantinistik. h-Index: 2 | Publikationen: 14 | Zitierungen: 49.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Tübingen",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Zsófia Lóránd": {
+    "name": "Zsófia Lóránd",
+    "openalex_id": "A5042851405",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 35,
+    "cited_by_count": 72,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Cambridge",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Göttingen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "European University Institute",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Geschlechtergeschichte politischer Ideen im mittleren und östlichen Europa im 20. Jahrhundert. h-Index: 4 | Publikationen: 35 | Zitierungen: 72. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Deutschland, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Frank Melzner": {
+    "name": "Frank Melzner",
+    "openalex_id": "A5089518171",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 278,
+    "cited_by_count": 9378,
+    "h_index": 47,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian-Albrechts-Universität zu Kiel",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2021,
+          2020,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Planck Institute for Extraterrestrial Physics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2013,
+          1997,
+          1994,
+          1993,
+          1986,
+          1985
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2009,
+          2007,
+          2006
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Marine Biologie. h-Index: 47 | Publikationen: 278 | Zitierungen: 9378. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Isabelle Schürch": {
+    "name": "Isabelle Schürch",
+    "openalex_id": "A5001405733",
+    "match_confidence": "medium",
+    "herkunft_verified": false,
+    "works_count": 28,
+    "cited_by_count": 6,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "University of Bern",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2018,
+          2014
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Wirtschafts- und Sozialgeschichte des Mittelalters (Mensch-Tier-Studien). h-Index: 1 | Publikationen: 28 | Zitierungen: 6.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Bern",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Kerstin Krellenberg": {
+    "name": "Kerstin Krellenberg",
+    "openalex_id": "A5079616115",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 85,
+    "cited_by_count": 2037,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "Institute for Urban and Regional Research",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2021
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "HTW Berlin - University of Applied Sciences",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Springer Nature (Germany)",
+        "country": "DE",
+        "type": "company",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Helmholtz Centre for Environmental Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2021,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Urban Studies. h-Index: 24 | Publikationen: 85 | Zitierungen: 2037. Forschungstätigkeit u.a. in Deutschland, Österreich, CL, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Elisabeth Brameshuber": {
+    "name": "Elisabeth Brameshuber",
+    "openalex_id": "A5058419180",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 39,
+    "cited_by_count": 40,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2021
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2019,
+          2016
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Arbeits- und Sozialrecht. h-Index: 4 | Publikationen: 39 | Zitierungen: 40.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ines Weizman": {
+    "name": "Ines Weizman",
+    "openalex_id": "A5047264674",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 25,
+    "cited_by_count": 21,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Bauhaus-Universität Weimar",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017,
+          2014
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Royal College of Art",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "London Metropolitan University",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2014,
+          2008
+        ],
+        "most_recent": 2014
+      }
+    ],
+    "bio_text": "Architekturtheorie und Architekturentwurf (HTC). h-Index: 2 | Publikationen: 25 | Zitierungen: 21. Forschungstätigkeit u.a. in Vereinigtes Königreich, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Bauhaus-Universität Weimar",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Dan Rujescu": {
+    "name": "Dan Rujescu",
+    "openalex_id": "A5043595820",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 902,
+    "cited_by_count": 59912,
+    "h_index": 111,
+    "last_known_institutions": [
+      {
+        "name": "Center for Neurosciences",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Martin Luther University Halle-Wittenberg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2016,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "deCODE Genetics (Iceland)",
+        "country": "IS",
+        "type": "company",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Iceland",
+        "country": "IS",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Psychiatrie. h-Index: 111 | Publikationen: 902 | Zitierungen: 59912. Forschungstätigkeit u.a. in Polen, PK, USA, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Gerhild Steinbuch": {
+    "name": "Gerhild Steinbuch",
+    "openalex_id": "A5093044403",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "Sprachkunst.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Glenn van de Ven": {
+    "name": "Glenn van de Ven",
+    "openalex_id": "A5051770664",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 547,
+    "cited_by_count": 22189,
+    "h_index": 73,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Astronomy",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Applied Astronomy",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "State Archives of Belgium",
+        "country": "BE",
+        "type": "archive",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Lyon 1 Université",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Theoretische extragalaktische Astrophysik. h-Index: 73 | Publikationen: 547 | Zitierungen: 22189. Forschungstätigkeit u.a. in Frankreich, Niederlande, Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Susann Fiedler": {
+    "name": "Susann Fiedler",
+    "openalex_id": "A5024420668",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 118,
+    "cited_by_count": 4801,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Max Planck Institute for Behavioral Economics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Wiener Krankenanstaltenverbund",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Reykjavík University",
+        "country": "IS",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Erfurt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Business and Psychology. h-Index: 28 | Publikationen: 118 | Zitierungen: 4801. Forschungstätigkeit u.a. in Österreich, Deutschland, IS, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Vienna University of Economics and Business",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Grace Wales Bonner": {
+    "name": "Grace Wales Bonner",
+    "openalex_id": "A5067600450",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Mode. h-Index: 1 | Publikationen: 2 | Zitierungen: 1.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Gramoz Goranci": {
+    "name": "Gramoz Goranci",
+    "openalex_id": "A5078315645",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 63,
+    "cited_by_count": 307,
+    "h_index": 9,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Copenhagen",
+        "country": "DK",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Michigan",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "FWF Austrian Science Fund",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "ETH Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2023,
+          2022
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Algorithms. h-Index: 9 | Publikationen: 63 | Zitierungen: 307. Forschungstätigkeit u.a. in Dänemark, Österreich, USA, Kanada.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Mechtild Widrich": {
+    "name": "Mechtild Widrich",
+    "openalex_id": "A5078963504",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 54,
+    "cited_by_count": 111,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "School of the Art Institute of Chicago",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024,
+          2016
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Jewish Museum",
+        "country": "US",
+        "type": "archive",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Chicago",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "ETH Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2013,
+          2012
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "European Automobile Manufacturers Association",
+        "country": "BE",
+        "type": "other",
+        "years": [
+          2013
+        ],
+        "most_recent": 2013
+      }
+    ],
+    "bio_text": "Bildende Kunst / Design / 803 Design — Abteilung für Ortsbezogene Kunst (Gastprofessur). h-Index: 6 | Publikationen: 54 | Zitierungen: 111. Forschungstätigkeit u.a. in USA, Schweiz, Deutschland, Vereinigtes Königreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "School of the Art Institute of Chicago",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Georg Langs": {
+    "name": "Georg Langs",
+    "openalex_id": "A5060814361",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 437,
+    "cited_by_count": 21899,
+    "h_index": 49,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Research Institute for Artificial Intelligence",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2020,
+          2015,
+          2014
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Cornell University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "GNA University",
+        "country": "IN",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Artificial Intelligence in Imaging. h-Index: 49 | Publikationen: 437 | Zitierungen: 21899. Forschungstätigkeit u.a. in Spanien, USA, Österreich, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Astrid Mach-Aigner": {
+    "name": "Astrid Mach-Aigner",
+    "openalex_id": "A5049196128",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 3289,
+    "h_index": 31,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bioscience Research",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Associate Professor of Synthetic Biology. h-Index: 31 | Publikationen: 124 | Zitierungen: 3289. Forschungstätigkeit u.a. in Österreich, Kanada, China, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Peter Schlögelhofer": {
+    "name": "Peter Schlögelhofer",
+    "openalex_id": "A5064638553",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 48,
+    "cited_by_count": 2122,
+    "h_index": 23,
+    "last_known_institutions": [
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2022,
+          2021,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2007,
+          2006,
+          2005,
+          2003,
+          2002,
+          1998
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Max Perutz Labs",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2007,
+          2006
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Stowers Institute for Medical Research",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2005
+        ],
+        "most_recent": 2005
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2005,
+          2002
+        ],
+        "most_recent": 2005
+      }
+    ],
+    "bio_text": "Meiosis Biologie. h-Index: 23 | Publikationen: 48 | Zitierungen: 2122. Forschungstätigkeit u.a. in USA, Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Burkhard Hess": {
+    "name": "Burkhard Hess",
+    "openalex_id": "A5003851944",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 312,
+    "cited_by_count": 480,
+    "h_index": 9,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Luxembourg",
+        "country": "LU",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Federal Ministry of Justice",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Max Planck Institute Luxemburg for International, European and Regulatory Procedural Law",
+        "country": "LU",
+        "type": "other",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2015,
+          2013
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Bergen",
+        "country": "NO",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Zivilverfahrensrecht. h-Index: 9 | Publikationen: 312 | Zitierungen: 480. Forschungstätigkeit u.a. in Österreich, Belgien, Luxemburg, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sarah Davies": {
+    "name": "Sarah Davies",
+    "openalex_id": "A5075126889",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 106,
+    "cited_by_count": 9487,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "University of Liverpool",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          1939,
+          1937
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Imperial College Healthcare NHS Trust",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2015
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Aintree University Hospitals NHS Foundation Trust",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "York Teaching Hospital NHS Foundation Trust",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "LifeArc",
+        "country": "GB",
+        "type": "nonprofit",
+        "years": [
+          2023,
+          2021,
+          2015
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Technosciences, Materiality and Digital Cultures. h-Index: 25 | Publikationen: 106 | Zitierungen: 9487. Forschungstätigkeit u.a. in Vereinigtes Königreich, Australien, USA, Spanien.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Liverpool",
+    "herkunft_land": "Vereinigtes Königreich",
+    "grants": []
+  },
+  "Alice Creischer": {
+    "name": "Alice Creischer",
+    "openalex_id": "A5065279170",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 7,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Kontextuelle Malerei. h-Index: 1 | Publikationen: 7 | Zitierungen: 1.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Laura M. König": {
+    "name": "Laura M. König",
+    "openalex_id": "A5080670617",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 172,
+    "cited_by_count": 2542,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Bayreuth",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Université Paris Nanterre",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Gesundheitspsychologie. h-Index: 25 | Publikationen: 172 | Zitierungen: 2542. Forschungstätigkeit u.a. in Österreich, Deutschland, Vereinigtes Königreich, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Katja Sterflinger": {
+    "name": "Katja Sterflinger",
+    "openalex_id": "A5049750776",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 174,
+    "cited_by_count": 7408,
+    "h_index": 44,
+    "last_known_institutions": [
+      {
+        "name": "Akademie der bildenden Künste Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2001
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Czech Academy of Sciences, Institute of Biotechnology",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Carl von Ossietzky Universität Oldenburg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1995
+        ],
+        "most_recent": 2002
+      }
+    ],
+    "bio_text": "Naturwissenschaften und Technologie in der Kunst. h-Index: 44 | Publikationen: 174 | Zitierungen: 7408. Forschungstätigkeit u.a. in Deutschland, Tschechien, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Akademie der bildenden Künste Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Agnes Dellinger": {
+    "name": "Agnes Dellinger",
+    "openalex_id": "A5035649657",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 48,
+    "cited_by_count": 1223,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Colorado Boulder",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Botany",
+        "country": "AZ",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Colorado System",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Plant-Animal Interactions. h-Index: 17 | Publikationen: 48 | Zitierungen: 1223. Forschungstätigkeit u.a. in Österreich, USA, AZ.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Fernando Cordero": {
+    "name": "Fernando Cordero",
+    "openalex_id": "A5035283189",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 340,
+    "cited_by_count": 11314,
+    "h_index": 55,
+    "last_known_institutions": [
+      {
+        "name": "Outcomes Research Consortium",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2026,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Georgia",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Andover Eye Associates",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Cohort (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Albert Einstein College of Medicine",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Naturwissenschaften (Department für Naturwissenschaften und Nachwachsende Rohstoffe). h-Index: 55 | Publikationen: 340 | Zitierungen: 11314. Forschungstätigkeit u.a. in Spanien, USA, PR, Frankreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Outcomes Research Consortium",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Cat Dawson": {
+    "name": "Cat Dawson",
+    "openalex_id": "A5042864812",
+    "match_confidence": "medium",
+    "herkunft_verified": false,
+    "works_count": 5,
+    "cited_by_count": 2,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "Smith Family",
+        "country": "AU",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Institut des sciences juridique et philosophique de la Sorbonne",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Université Paris 1 Panthéon-Sorbonne",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Massachusetts Amherst",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Transgender Studies. h-Index: 1 | Publikationen: 5 | Zitierungen: 2. Forschungstätigkeit u.a. in USA, Australien, Frankreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Smith Family",
+    "herkunft_land": "Australien",
+    "grants": []
+  },
+  "Michael Lysander Fremuth": {
+    "name": "Michael Lysander Fremuth",
+    "openalex_id": "A5007566774",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 97,
+    "cited_by_count": 58,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Ludwig Boltzmann Institute of Fundamental and Human Rights",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Ludwig Boltzmann Institute for Digital Health and Prevention",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2022,
+          2021
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "OPEC Fund for International Development",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Grund- und Menschenrechte. h-Index: 4 | Publikationen: 97 | Zitierungen: 58. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Edgar Weippl": {
+    "name": "Edgar Weippl",
+    "openalex_id": "A5083435816",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 430,
+    "cited_by_count": 6520,
+    "h_index": 39,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2012,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Music and Arts University of the City of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Informatik (IT-Sicherheit). h-Index: 39 | Publikationen: 430 | Zitierungen: 6520. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Deutschland, China.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "David Berry": {
+    "name": "David Berry",
+    "openalex_id": "A5011100190",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 270,
+    "cited_by_count": 16091,
+    "h_index": 59,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ecologie microbienne",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Loughborough University",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Ciência Viva",
+        "country": "PT",
+        "type": "government",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Humane Mikrobiomforschung. h-Index: 59 | Publikationen: 270 | Zitierungen: 16091. Forschungstätigkeit u.a. in USA, Österreich, Vereinigtes Königreich, GH.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stephanie Schroedter": {
+    "name": "Stephanie Schroedter",
+    "openalex_id": "A5041091592",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 47,
+    "cited_by_count": 7,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Heidelberg University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Freie Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017,
+          2012
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "University of Salzburg",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          1998
+        ],
+        "most_recent": 1998
+      }
+    ],
+    "bio_text": "Theorie der Rhythmik/Musik und Bewegung. h-Index: 2 | Publikationen: 47 | Zitierungen: 7. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Heidelberg University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Evelyn Rampler": {
+    "name": "Evelyn Rampler",
+    "openalex_id": "A5058984487",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 59,
+    "cited_by_count": 1440,
+    "h_index": 20,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Faculty (United Kingdom)",
+        "country": "GB",
+        "type": "company",
+        "years": [
+          2026,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Diplomatic Academy of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Boehringer Ingelheim (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Institute of Molecular Biotechnology",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Analytische Chemie. h-Index: 20 | Publikationen: 59 | Zitierungen: 1440. Forschungstätigkeit u.a. in Österreich, USA, Vereinigtes Königreich, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Laura Aikin": {
+    "name": "Laura Aikin",
+    "openalex_id": "A5057955242",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 3,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "Gesang.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Xiaohui Rausch-Fan": {
+    "name": "Xiaohui Rausch-Fan",
+    "openalex_id": "A5032773909",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 175,
+    "cited_by_count": 4998,
+    "h_index": 36,
+    "last_known_institutions": [
+      {
+        "name": "University Clinic of Traumatology",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2020,
+          2009
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2005
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Fujian Medical University",
+        "country": "CN",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "First Affiliated Hospital of Fujian Medical University",
+        "country": "CN",
+        "type": "healthcare",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Tianjin Stomatological Hospital",
+        "country": "CN",
+        "type": "healthcare",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Zahn-, Mund- und Kieferheilkunde (Parodontologie). h-Index: 36 | Publikationen: 175 | Zitierungen: 4998. Forschungstätigkeit u.a. in China, Österreich, Vereinigtes Königreich, Russland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Andreas Siekmann": {
+    "name": "Andreas Siekmann",
+    "openalex_id": "A5083832775",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 11,
+    "cited_by_count": 4,
+    "h_index": 1,
+    "last_known_institutions": [],
+    "bio_text": "Kontextuelle Malerei. h-Index: 1 | Publikationen: 11 | Zitierungen: 4.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Jan Fabian Ehmke": {
+    "name": "Jan Fabian Ehmke",
+    "openalex_id": "A5055063190",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 2422,
+    "h_index": 23,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Otto-von-Guericke-Universität Magdeburg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Business Analytics. h-Index: 23 | Publikationen: 124 | Zitierungen: 2422. Forschungstätigkeit u.a. in Österreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Andreas Bergthaler": {
+    "name": "Andreas Bergthaler",
+    "openalex_id": "A5068285493",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 157,
+    "cited_by_count": 7017,
+    "h_index": 43,
+    "last_known_institutions": [
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ludwig Boltzmann Gesellschaft",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "St Anna Children's Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "CeMM Research Center for Molecular Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Medical Microbiology and Hygiene",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Molekulare Immunologie. h-Index: 43 | Publikationen: 157 | Zitierungen: 7017. Forschungstätigkeit u.a. in Schweiz, Österreich, Australien, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Ludwig Boltzmann Institute Applied Diagnostics",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christian Koller": {
+    "name": "Christian Koller",
+    "openalex_id": "A5018277883",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 281,
+    "cited_by_count": 1943,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "Swiss Social Archives",
+        "country": "CH",
+        "type": "archive",
+        "years": [
+          2024,
+          2023,
+          2021,
+          2019,
+          2016,
+          2015
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2013,
+          2009
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Munich University of Applied Sciences",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Karlsruhe Institute of Technology",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Europäisches und internationales Zivilverfahrensrecht. h-Index: 24 | Publikationen: 281 | Zitierungen: 1943. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich, Südkorea.",
+    "herkunft": "extern",
+    "herkunft_institution": "Swiss Social Archives",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Thomas E. Dorner": {
+    "name": "Thomas E. Dorner",
+    "openalex_id": "A5013318666",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 336,
+    "cited_by_count": 8249,
+    "h_index": 48,
+    "last_known_institutions": [
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ludwig Boltzmann Institute for Age Research",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2024,
+          2023
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "St Anna Children's Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2020,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "AGO Austria",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Karl Landsteiner Society",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Gerontologie. h-Index: 48 | Publikationen: 336 | Zitierungen: 8249. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Talin Barisani-Asenbauer": {
+    "name": "Talin Barisani-Asenbauer",
+    "openalex_id": "A5031988288",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 134,
+    "cited_by_count": 3986,
+    "h_index": 31,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2003,
+          2002,
+          2001,
+          1997
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Collaborative Group (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Flinders University",
+        "country": "AU",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Queensland Eye Institute",
+        "country": "AU",
+        "type": "facility",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020,
+          2009,
+          2004,
+          2003,
+          2002,
+          2001,
+          1999,
+          1997,
+          1996,
+          1995
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Infektionsimmunologie. h-Index: 31 | Publikationen: 134 | Zitierungen: 3986. Forschungstätigkeit u.a. in Österreich, USA, Australien, Frankreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas R. Schmidt": {
+    "name": "Thomas R. Schmidt",
+    "openalex_id": "A5008610337",
+    "match_confidence": "medium",
+    "herkunft_verified": false,
+    "works_count": 255,
+    "cited_by_count": 4182,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "United States Air Force Academy",
+        "country": "US",
+        "type": "government",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Colorado Colorado Springs",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of California San Diego",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Electronic BioSciences (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of San Diego",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Medien- und Kommunikationsgeschichte (Journalismusforschung). h-Index: 29 | Publikationen: 255 | Zitierungen: 4182. Forschungstätigkeit u.a. in USA, Frankreich, TW, Indien.",
+    "herkunft": "extern",
+    "herkunft_institution": "United States Air Force Academy",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Elke Heiß": {
+    "name": "Elke Heiß",
+    "openalex_id": "A5086995430",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 172,
+    "cited_by_count": 10532,
+    "h_index": 45,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2010
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Universitas Gadjah Mada",
+        "country": "ID",
+        "type": "education",
+        "years": [
+          2010
+        ],
+        "most_recent": 2010
+      },
+      {
+        "name": "Universität Innsbruck",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2010
+        ],
+        "most_recent": 2010
+      }
+    ],
+    "bio_text": "Department für Pharmakognosie der Fakultät für Lebenswissenschaften. h-Index: 45 | Publikationen: 172 | Zitierungen: 10532. Forschungstätigkeit u.a. in USA, Österreich, ID, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Atakan Aral": {
+    "name": "Atakan Aral",
+    "openalex_id": "A5024162746",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 61,
+    "cited_by_count": 1010,
+    "h_index": 16,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Umeå University",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Istanbul Technical University",
+        "country": "TR",
+        "type": "education",
+        "years": [
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2009
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Information Systems Engineering. h-Index: 16 | Publikationen: 61 | Zitierungen: 1010. Forschungstätigkeit u.a. in Österreich, Türkei, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Monika De Frantz": {
+    "name": "Monika De Frantz",
+    "openalex_id": "A5064995970",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 21,
+    "cited_by_count": 187,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Hertie School",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "European University Institute",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2008,
+          2005
+        ],
+        "most_recent": 2008
+      },
+      {
+        "name": "London School of Economics and Political Science",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2008
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Politische Soziologie. h-Index: 7 | Publikationen: 21 | Zitierungen: 187. Forschungstätigkeit u.a. in Österreich, Deutschland, Italien, Vereinigtes Königreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Hertie School",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Florian Libisch": {
+    "name": "Florian Libisch",
+    "openalex_id": "A5022628108",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 149,
+    "cited_by_count": 8118,
+    "h_index": 43,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2006,
+          2005,
+          2004
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Instituto de Física Teórica",
+        "country": "ES",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2022,
+          2021,
+          2020,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Wienerberger (Czechia)",
+        "country": "CZ",
+        "type": "company",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "University Professor for Theoretical Solid-State Physics for Energy Materials. h-Index: 43 | Publikationen: 149 | Zitierungen: 8118. Forschungstätigkeit u.a. in Niederlande, Österreich, USA, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Wilhelm Behringer": {
+    "name": "Wilhelm Behringer",
+    "openalex_id": "A5074251810",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 237,
+    "cited_by_count": 5016,
+    "h_index": 35,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2002,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2015,
+          2012,
+          2009,
+          2008,
+          2007,
+          2006,
+          2004,
+          2002,
+          1999,
+          1998,
+          1997
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Université de Tours",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Jena University Hospital",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2013,
+          2004
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Notfallmedizin. h-Index: 35 | Publikationen: 237 | Zitierungen: 5016. Forschungstätigkeit u.a. in Frankreich, CL, Österreich, Israel.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Yllka Velaj": {
+    "name": "Yllka Velaj",
+    "openalex_id": "A5087656897",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 35,
+    "cited_by_count": 368,
+    "h_index": 11,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Centrum Wiskunde & Informatica",
+        "country": "NL",
+        "type": "facility",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "Institute for Scientific Interchange",
+        "country": "IT",
+        "type": "facility",
+        "years": [
+          2019,
+          2018
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "University of Chieti-Pescara",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Azienda USL di Pescara",
+        "country": "IT",
+        "type": "healthcare",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Algorithms for Scalable AI. h-Index: 11 | Publikationen: 35 | Zitierungen: 368. Forschungstätigkeit u.a. in Österreich, Niederlande, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christoph Fuchs": {
+    "name": "Christoph Fuchs",
+    "openalex_id": "A5081570060",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 241,
+    "cited_by_count": 7281,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätsklinikum Krems",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Fraunhofer Institute for Communication, Information Processing and Ergonomics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013,
+          2011
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technical University of Munich",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2011,
+          1987
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Betriebswirtschaftslehre – Marketing. h-Index: 33 | Publikationen: 241 | Zitierungen: 7281. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Schweiz, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Aikaterini Makri": {
+    "name": "Aikaterini Makri",
+    "openalex_id": "A5084229712",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 4,
+    "cited_by_count": 35,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Agricultural University of Athens",
+        "country": "GR",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Thessaly",
+        "country": "GR",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "International Business. h-Index: 2 | Publikationen: 4 | Zitierungen: 35. Forschungstätigkeit u.a. in Österreich, Griechenland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Agricultural University of Athens",
+    "herkunft_land": "Griechenland",
+    "grants": []
+  },
+  "Frank Scharnowski": {
+    "name": "Frank Scharnowski",
+    "openalex_id": "A5074536395",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 167,
+    "cited_by_count": 6226,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Complexity Science Hub",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Swiss Integrative Center for Human Health",
+        "country": "CH",
+        "type": "facility",
+        "years": [
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University Hospital Zurich",
+        "country": "CH",
+        "type": "healthcare",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Methoden der Psychologie. h-Index: 33 | Publikationen: 167 | Zitierungen: 6226. Forschungstätigkeit u.a. in Schweiz, Österreich, Deutschland, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Monika Rinck": {
+    "name": "Monika Rinck",
+    "openalex_id": "A5028284008",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 16,
+    "cited_by_count": 2,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Arts Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Sprachkunst. h-Index: 1 | Publikationen: 16 | Zitierungen: 2.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Applied Arts Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Carolin Bohlmann": {
+    "name": "Carolin Bohlmann",
+    "openalex_id": "A5007272607",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 10,
+    "cited_by_count": 14,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Akademie der bildenden Künste Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Technische Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          1999
+        ],
+        "most_recent": 1999
+      }
+    ],
+    "bio_text": "Konservierung und Restaurierung moderner und zeitgenössischer Kunst. h-Index: 2 | Publikationen: 10 | Zitierungen: 14. Forschungstätigkeit u.a. in Deutschland, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Akademie der bildenden Künste Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Nele Kampa": {
+    "name": "Nele Kampa",
+    "openalex_id": "A5036302984",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 34,
+    "cited_by_count": 353,
+    "h_index": 9,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Federal Ministry of Education, Science and Research",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Landesinstitut für Lehrerbildung und Schulentwicklung",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Schulpädagogik unter besonderer Berücksichtigung der Sekundarstufe. h-Index: 9 | Publikationen: 34 | Zitierungen: 353. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Andreas Nunnenkamp": {
+    "name": "Andreas Nunnenkamp",
+    "openalex_id": "A5053832149",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 153,
+    "cited_by_count": 5442,
+    "h_index": 40,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Nottingham",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Cambridge",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Equilibrium Research",
+        "country": "GB",
+        "type": "facility",
+        "years": [
+          2021,
+          2020
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Theoretical Many-Body Quantum Physics. h-Index: 40 | Publikationen: 153 | Zitierungen: 5442. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Schweiz, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Kerstin von Lingen": {
+    "name": "Kerstin von Lingen",
+    "openalex_id": "A5011280447",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 78,
+    "cited_by_count": 179,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2022,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Contemporary History",
+        "country": "SI",
+        "type": "archive",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Heidelberg University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2014
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Innovation Cluster (Canada)",
+        "country": "CA",
+        "type": "company",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Ludwig-Maximilians-Universität München",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Zeitgeschichte (vergleichende Diktatur-, Gewalt- und Genozidforschung). h-Index: 7 | Publikationen: 78 | Zitierungen: 179. Forschungstätigkeit u.a. in Australien, Österreich, Deutschland, Kanada.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Veronika Wöhrer": {
+    "name": "Veronika Wöhrer",
+    "openalex_id": "A5069056201",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 79,
+    "cited_by_count": 371,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2021
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Twitter (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Education Upper Austria",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Bildung und Ungleichheit. h-Index: 10 | Publikationen: 79 | Zitierungen: 371. Forschungstätigkeit u.a. in Österreich, USA, Schweiz, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Paul Peter Hager": {
+    "name": "Paul Peter Hager",
+    "openalex_id": "A5087112803",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 19,
+    "cited_by_count": 30,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Czech Academy of Sciences, Institute of Mathematics",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Foundations of Machine Learning in Finance. h-Index: 3 | Publikationen: 19 | Zitierungen: 30. Forschungstätigkeit u.a. in Österreich, Deutschland, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Martin Rothgangel": {
+    "name": "Martin Rothgangel",
+    "openalex_id": "A5073839249",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 170,
+    "cited_by_count": 389,
+    "h_index": 11,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2013
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Bar-Ilan University",
+        "country": "IL",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2022,
+          2017,
+          2015,
+          2013
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Allgemeine Fachdidaktik. h-Index: 11 | Publikationen: 170 | Zitierungen: 389. Forschungstätigkeit u.a. in Österreich, Australien, Israel, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Katharina Pabel": {
+    "name": "Katharina Pabel",
+    "openalex_id": "A5009543578",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 87,
+    "cited_by_count": 152,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "Center for International Environmental Law",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2007
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Johannes Kepler University of Linz",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2012
+        ],
+        "most_recent": 2012
+      }
+    ],
+    "bio_text": "Öffentliches Recht, Wirtschaftsrecht und Völkerrecht. h-Index: 3 | Publikationen: 87 | Zitierungen: 152. Forschungstätigkeit u.a. in Österreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Vienna University of Economics and Business",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }
