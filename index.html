@@ -6,12 +6,12 @@
     <title>Berufungsradar Wien</title>
     <meta
       name="description"
-      content="90 Professor:innen-Berufungen an 9 Wiener Universitäten 2025: Geschlecht, Herkunft, ÖFOS-Disziplinen, Mobilität und WWTF-Programmfelder. Ein Projekt des WWTF."
+      content="Professor:innen-Berufungen an Wiener Universitäten seit 2019: Geschlecht, Herkunft, ÖFOS-Disziplinen, Mobilität und WWTF-Programmfelder. Ein Projekt des WWTF."
     />
     <meta property="og:title" content="Berufungsradar Wien" />
     <meta
       property="og:description"
-      content="Interaktives Dashboard: Wer wurde 2025 an Wiener Universitäten berufen, woher kommen die Berufenen, welche Disziplinen sind vertreten?"
+      content="Interaktives Dashboard: Wer wurde seit 2019 an Wiener Universitäten berufen, woher kommen die Berufenen, welche Disziplinen sind vertreten?"
     />
     <meta property="og:type" content="website" />
     <meta
@@ -1142,7 +1142,7 @@
           >
             Sankey-Diagramm der Berufungsherkunft. Links: Herkunftsland (bei
             externen Berufungen) bzw. „Intern" (bei internen
-            Habilitationsstellen). Rechts: die 9 Wiener Universitäten. Die
+            Habilitationsstellen). Rechts: die Wiener Universitäten. Die
             Strichdicke entspricht der Anzahl der Berufungen.
           </p>
           <div id="sankey-container" class="sankey-fullwidth"></div>
@@ -1272,19 +1272,19 @@
 const MONATEN = ['JÄNNER','FEBRUAR','MÄRZ','APRIL','MAI','JUNI',
                  'JULI','AUGUST','SEPTEMBER','OKTOBER','NOVEMBER','DEZEMBER'];
 
-const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
-              "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"];
+const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien", "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien", "CEU"];
 
 const UNI_COLORS = {
-  "TU Wien": "#003366",
-  "Uni Wien": "#0055A4",
-  "MedUni Wien": "#DC2626",
-  "WU Wien": "#059669",
-  "BOKU": "#84CC16",
-  "mdw": "#7C3AED",
-  "Angewandte": "#DB2777",
-  "Akademie": "#0D9488",
-  "Vetmeduni Wien": "#D97706",
+ "TU Wien": "#003366",
+ "Uni Wien": "#0055A4",
+ "MedUni Wien": "#DC2626",
+ "WU Wien": "#059669",
+ "BOKU": "#84CC16",
+ "mdw": "#7C3AED",
+ "Angewandte": "#DB2777",
+ "Akademie": "#0D9488",
+ "Vetmeduni Wien": "#D97706",
+ "CEU": "#334155"
 };
 
 // WWTF-Programmfelder (heuristische ÖFOS-Zuordnung, siehe scripts/wwtf_enrich.py)

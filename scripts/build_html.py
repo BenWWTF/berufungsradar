@@ -32,6 +32,27 @@ HTML_PATH = ROOT / "index.html"
 with DATA_PATH.open() as f:
     DATA = json.load(f)
 
+# Universitäten und Farben: die 9 öffentlichen Wiener Unis haben eine feste,
+# kuratierte Reihenfolge/Farbe (WWTF-Designsystem). Jede weitere Universität,
+# die in DATA auftaucht (z.B. CEU), wird automatisch angehängt statt eine
+# hartcodierte Liste zu pflegen, die bei der naechsten neuen Uni wieder
+# stillschweigend falsche Zahlen/Charts produzieren wuerde.
+UNI_ORDER_BASIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
+                   "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"]
+UNI_COLORS_BASIS = {
+    "TU Wien": "#003366", "Uni Wien": "#0055A4", "MedUni Wien": "#DC2626",
+    "WU Wien": "#059669", "BOKU": "#84CC16", "mdw": "#7C3AED",
+    "Angewandte": "#DB2777", "Akademie": "#0D9488", "Vetmeduni Wien": "#D97706",
+}
+FALLBACK_UNI_COLORS = ["#334155", "#EA580C", "#0891B2", "#65A30D", "#9333EA"]
+
+_unis_in_data = sorted({d["universitat"] for d in DATA if d.get("universitat")})
+_neue_unis = [u for u in _unis_in_data if u not in UNI_ORDER_BASIS]
+UNIS = UNI_ORDER_BASIS + _neue_unis
+UNI_COLORS = dict(UNI_COLORS_BASIS)
+for _i, _u in enumerate(_neue_unis):
+    UNI_COLORS[_u] = FALLBACK_UNI_COLORS[_i % len(FALLBACK_UNI_COLORS)]
+
 
 # VRG-Gruppen: eigene Population, im Browser gebraucht für die Pipeline-Ansicht.
 # Die Zuordnung Berufung ↔ Gruppe kommt aus wwtf_enrich.py (vrg_id), hier wird
@@ -99,20 +120,9 @@ data_js = ",\n".join(data_to_js(d) for d in DATA)
 NEW_SCRIPT = r"""const MONATEN = ['JÄNNER','FEBRUAR','MÄRZ','APRIL','MAI','JUNI',
                  'JULI','AUGUST','SEPTEMBER','OKTOBER','NOVEMBER','DEZEMBER'];
 
-const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
-              "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"];
+const UNIS = __UNIS__;
 
-const UNI_COLORS = {
-  "TU Wien": "#003366",
-  "Uni Wien": "#0055A4",
-  "MedUni Wien": "#DC2626",
-  "WU Wien": "#059669",
-  "BOKU": "#84CC16",
-  "mdw": "#7C3AED",
-  "Angewandte": "#DB2777",
-  "Akademie": "#0D9488",
-  "Vetmeduni Wien": "#D97706",
-};
+const UNI_COLORS = __UNI_COLORS__;
 
 // WWTF-Programmfelder (heuristische ÖFOS-Zuordnung, siehe scripts/wwtf_enrich.py)
 const WWTF_PROG = {
@@ -1268,7 +1278,9 @@ NEW_SCRIPT_FINAL = (NEW_SCRIPT
                    .replace("__DATA__", data_js)
                    .replace("__STAND__", DATENSTAND)
                    .replace("__VRG__", json.dumps(VRG, ensure_ascii=False, indent=1))
-                   .replace("__ABDECKUNG__", json.dumps(ABDECKUNG, ensure_ascii=False, indent=1)))
+                   .replace("__ABDECKUNG__", json.dumps(ABDECKUNG, ensure_ascii=False, indent=1))
+                   .replace("__UNIS__", json.dumps(UNIS, ensure_ascii=False))
+                   .replace("__UNI_COLORS__", json.dumps(UNI_COLORS, ensure_ascii=False, indent=1)))
 
 # ─────────────────────────────────────────────────────────────────
 # 4. Read current HTML and replace script + data
