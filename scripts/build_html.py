@@ -649,6 +649,7 @@ function badgeArt(art) {
   if (art === "§99(5) Stiftungsprofessur (BEST)") return `<span class="badge badge-99">§99 Abs. 5 BEST</span>`;
   if (art === "§99(5) Laufbahnstelle") return `<span class="badge badge-99">§99 Abs. 5 LBS</span>`;
   if (art === "§99(6) Laufbahnstelle") return `<span class="badge badge-99">§99 Abs. 6 LBS</span>`;
+  if (art === "CEU (privat)") return `<span class="badge badge-unk">CEU (privat)</span>`;
   return `<span class="badge badge-unk">Unbekannt</span>`;
 }
 function badgeGeschlecht(g) {

@@ -15,6 +15,8 @@ Stages (run with --stage N):
 Run with --dry to preview changes.
 """
 
+from __future__ import annotations
+
 import json
 import re
 import argparse

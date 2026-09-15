@@ -12,6 +12,8 @@ Uses /authors?search=Name endpoint, takes the top result, and:
 Be polite: 1 request/sec, polite pool, mailto contact.
 """
 
+from __future__ import annotations
+
 import json
 import sys
 import time

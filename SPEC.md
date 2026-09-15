@@ -20,7 +20,7 @@ zentrale Fragen:
 3. **Welche Disziplinen sind vertreten?** — ÖFOS-2012-Klassifikation auf 1-, 2- und
    3-stelliger Ebene; thematische Überlappungen zwischen Universitäten.
 4. **Wie verteilt sich das auf die Universitäten?** — Aktivitätsprofile,
-   Berufungsmuster, Profile der 9 Wiener Universitäten.
+   Berufungsmuster, Profile der Wiener Universitäten.
 
 Das Dashboard richtet sich an Wissenschaftsmanager:innen, Forschungsförder­organisationen,
 Universitätsleitungen, Berufungskommissionen und Journalist:innen, die einen
@@ -42,7 +42,10 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | **Gesamt** | **90** | **100 % ÖFOS-Abdeckung** |
 
 Erfasst sind alle 9 öffentlichen Wiener Universitäten, die Berufungen gemäß §98,
-§99(1), §99(4) und §99(5) Stiftungsprofessuren (BEST) ausgesprochen haben.
+§99(1), §99(4) und §99(5) Stiftungsprofessuren (BEST) ausgesprochen haben, sowie die
+CEU (Central European University) als private, international akkreditierte Universität
+mit Sitz in Wien. Die CEU unterliegt nicht dem österreichischen Universitätsgesetz, ihre
+Berufungen tragen deshalb die eigene Kategorie "CEU (privat)" statt eines §-Codes.
 
 ## 2b. Auswertungszeitraum: ab 2019
 
