@@ -29,20 +29,32 @@ Neue Jahrgänge brauchen einen eigenen Scrape- und Recherchedurchgang.
 
 Letzte automatische Pruefung: 2026-09-01 (Prueflauf)
 
-## Datenstand (Juni 2026)
+## Datenstand (September 2026)
+
+Zeitraum 2019–2026, siehe `datenabdeckung.json` für die vollständige
+Methodik je Universität und Jahr.
 
 | Universität | Einträge | Status |
 |-------------|----------|--------|
-| TU Wien | 28 | ✅ Vollständig |
-| Universität Wien | 23 | ✅ Vollständig |
-| mdw – Musik und darst. Kunst | 11 | ✅ Vollständig |
-| Medizinische Universität Wien | 10 | ✅ Vollständig |
-| BOKU | 6 | ✅ Vollständig |
-| Universität für angewandte Kunst | 4 | ✅ Vollständig |
-| Akademie der bildenden Künste | 2 | ✅ Vollständig |
-| WU Wien | 4 | ✅ Vollständig |
-| Vetmeduni Wien | 2 | ✅ Vollständig |
-| **Gesamt** | **90** | **100% ÖFOS-Abdeckung** |
+| Uni Wien | 339 | 🟡 Teilweise (2019–2020 offen, Webarchiv-Lücke) |
+| TU Wien | 191 | ✅ Vollständig |
+| mdw | 104 | ✅ Vollständig |
+| MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
+| CEU | 84 | 🟡 Teilweise (HR-Snapshot, keine Kennzahl-Quelle, siehe unten) |
+| Vetmeduni Wien | 61 | 🟡 Teilweise (2019, 2023, 2024, 2026 offen) |
+| WU Wien | 55 | ✅ Vollständig (2026 laufend) |
+| Akademie | 42 | 🟡 Teilweise (2019, 2020, 2024, 2026 offen) |
+| Angewandte | 40 | 🟡 Teilweise (2024 offen) |
+| BOKU | 30 | ✅ Vollständig (2026 laufend) |
+| **Gesamt** | **1036** | **87% ÖFOS-Abdeckung (903/1036)** |
+
+"2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
+Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
+als die 9 öffentlichen Unis: die Quelle ist ein einmaliger HR-Datenexport
+der aktuell aktiven Fakultät, keine laufende Ankündigungsseite — frühere
+Berufungen von inzwischen ausgeschiedenen Personen fehlen deshalb
+systembedingt, siehe `scripts/backfill_ceu.py` und den CEU-Eintrag in
+`datenabdeckung.json`.
 
 ## Visualisierungen
 

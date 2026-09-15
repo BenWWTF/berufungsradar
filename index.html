@@ -38578,6 +38578,49 @@ const ABDECKUNG = {
     "ist": 1
    }
   }
+ },
+ "CEU": {
+  "vollstaendig": [],
+  "teilweise": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "quelle": "HR-Datenexport \"CEUPU_Faculty_2020-2026.xlsx\" (Personalliste der aktuell aktiven Fakultaet mit Rang-Historie je Person, bereitgestellt 2026-09-14), kein Scrape wie bei den 9 oeffentlichen Unis. Anders als dort gibt es fuer CEU KEINE unabhaengige Quelle, die alle Neuberufungen eines Jahres nennt (kein Wissensbilanz-Kennzahl-Aequivalent, keine oeffentliche \"Neue Professuren\"-Seite) -- deshalb kein Jahr als \"vollstaendig\" gefuehrt. Filterung in scripts/backfill_ceu.py: nur Klasse \"Faculty Member\" mit Professuren-Rang (Assistant/Associate/Full/University Professor), pro Person die frueheste Zeile als Ersternennung. Der Umzugsstichtag 2020-09-01 (Budapest -> Wien, 106 Personen) wurde ausgeschlossen, da er keine Neuberufung ist, sondern die Standortverlegung des bestehenden Lehrkoerpers. Methodenbedingte Untererfassung: der Export zeigt nur AKTUELL aktive Fakultaet, es fehlen also alle CEU-Neuberufungen, deren Person die Universitaet vor dem Exportdatum bereits wieder verlassen hat -- betrifft am ehesten die frueheren Jahre (2020-2022). Kein automatisierter Nachzug moeglich (keine oeffentliche Quelle zum Scrapen); scripts/backfill_ceu.py bei einem neuen Export manuell erneut laufen lassen.",
+  "soll_ist": {
+   "2020": {
+    "soll": null,
+    "ist": 11
+   },
+   "2021": {
+    "soll": null,
+    "ist": 34
+   },
+   "2022": {
+    "soll": null,
+    "ist": 23
+   },
+   "2023": {
+    "soll": null,
+    "ist": 2
+   },
+   "2024": {
+    "soll": null,
+    "ist": 8
+   },
+   "2025": {
+    "soll": null,
+    "ist": 4
+   },
+   "2026": {
+    "soll": null,
+    "ist": 2
+   }
+  }
  }
 };
 

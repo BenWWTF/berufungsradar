@@ -30,16 +30,20 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 
 | Universität | Einträge | Status |
 |---|---|---|
-| TU Wien | 28 | ✅ vollständig |
-| Universität Wien | 23 | ✅ vollständig |
-| mdw – Musik und darst. Kunst | 11 | ✅ vollständig |
-| Medizinische Universität Wien | 10 | ✅ vollständig |
-| BOKU | 6 | ✅ vollständig |
-| Universität für angewandte Kunst | 4 | ✅ vollständig |
-| Akademie der bildenden Künste | 2 | ✅ vollständig |
-| WU Wien | 4 | ✅ vollständig |
-| Vetmeduni Wien | 2 | ✅ vollständig |
-| **Gesamt** | **90** | **100 % ÖFOS-Abdeckung** |
+| Uni Wien | 339 | 🟡 teilweise (2019–2020 offen) |
+| TU Wien | 191 | ✅ vollständig |
+| mdw | 104 | ✅ vollständig |
+| MedUni Wien | 90 | ✅ vollständig (2026 laufend) |
+| CEU | 84 | 🟡 teilweise (HR-Snapshot, methodisch anders) |
+| Vetmeduni Wien | 61 | 🟡 teilweise (2019, 2023, 2024, 2026 offen) |
+| WU Wien | 55 | ✅ vollständig (2026 laufend) |
+| Akademie | 42 | 🟡 teilweise (2019, 2020, 2024, 2026 offen) |
+| Angewandte | 40 | 🟡 teilweise (2024 offen) |
+| BOKU | 30 | ✅ vollständig (2026 laufend) |
+| **Gesamt** | **1036** | **87 % ÖFOS-Abdeckung (903/1036)** |
+
+Details je Universität und Jahr, inklusive der jeweiligen Quelle und
+Begründung für offene Jahre, stehen in `datenabdeckung.json`.
 
 Erfasst sind alle 9 öffentlichen Wiener Universitäten, die Berufungen gemäß §98,
 §99(1), §99(4) und §99(5) Stiftungsprofessuren (BEST) ausgesprochen haben, sowie die
