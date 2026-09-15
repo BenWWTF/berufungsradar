@@ -78,7 +78,7 @@ STICHWORT = [
     (r"informatik|computer science|computing|software|algorithm|"
      r"künstliche intelligenz|artificial intelligence|machine learning|"
      r"maschinelles lernen|data science|datenbank|database|kryptograph|cryptograph|"
-     r"security|cyber|visualisierung|visual computing|graph|human-computer|"
+     r"security|cyber|visualisierung|visual computing|graph(?!ie)|human-computer|"
      r"mensch-maschine|robotik|robotics|netzwerk|networks", "102"),
     (r"physik|physics|photonik|photonic|quantum|quanten|astronom|astrophys", "103"),
     (r"chemie|chemistry|katalys|catalys|elektrochem|electrochem|"
@@ -190,11 +190,22 @@ def zuordnen(d):
                 code = c
                 break
     if not code:
-        text = " ".join(filter(None, [d.get("forschungsbereich"), d.get("fakultat"),
-                                      d.get("fakultat_institut")])).lower()
-        for muster, c in STICHWORT:
-            if re.search(muster, text):
-                code = c
+        # Fachbezeichnung zuerst allein pruefen: Fakultaetsnamen sind oft
+        # Sammelbegriffe (z.B. "Fakultaet fuer Philosophie und
+        # Bildungswissenschaft") und wuerden bei sofortiger Kombination das
+        # falsche Stichwort treffen, bevor die eigentliche Denomination dran
+        # waere.
+        for felder in ([d.get("forschungsbereich")],
+                       [d.get("forschungsbereich"), d.get("fakultat"),
+                        d.get("fakultat_institut")]):
+            text = " ".join(filter(None, felder)).lower()
+            if not text:
+                continue
+            for muster, c in STICHWORT:
+                if re.search(muster, text):
+                    code = c
+                    break
+            if code:
                 break
     return code
 
@@ -237,4 +248,9 @@ if __name__ == "__main__":
     assert zuordnen({"forschungsbereich": "Professur für Tonsatz"}) == "604"
     assert zuordnen({"forschungsbereich": "Universitätsprofessur für Öffentliches Recht"}) == "505"
     assert zuordnen({"forschungsbereich": "Nichts dergleichen"}) is None
+    assert zuordnen({"forschungsbereich": "Humangeographie"}) == "507", \
+        "graph-Substring-Bug: Geographie faelschlich als Informatik erkannt"
+    assert zuordnen({"forschungsbereich": "Philosophie",
+                      "fakultat": "Fakultaet fuer Philosophie und Bildungswissenschaft"}) == "603", \
+        "Fakultaetsname-Bug: Bildungswissenschaft im Fakultaetsnamen sticht die eigentliche Denomination aus"
     print("✓ Selbstcheck ok")
