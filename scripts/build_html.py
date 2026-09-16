@@ -40,11 +40,11 @@ with DATA_PATH.open() as f:
 UNI_ORDER_BASIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
                    "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"]
 UNI_COLORS_BASIS = {
-    "TU Wien": "#003366", "Uni Wien": "#0055A4", "MedUni Wien": "#DC2626",
-    "WU Wien": "#059669", "BOKU": "#84CC16", "mdw": "#7C3AED",
-    "Angewandte": "#DB2777", "Akademie": "#0D9488", "Vetmeduni Wien": "#D97706",
+    "TU Wien": "#005B94", "Uni Wien": "#008FD4", "MedUni Wien": "#C23640",
+    "WU Wien": "#A5D948", "BOKU": "#9D9D9C", "mdw": "#7FB8E0",
+    "Angewandte": "#9C2E33", "Akademie": "#6B8F2E", "Vetmeduni Wien": "#5A7F99",
 }
-FALLBACK_UNI_COLORS = ["#334155", "#EA580C", "#0891B2", "#65A30D", "#9333EA"]
+FALLBACK_UNI_COLORS = ["#3A3A38", "#4A9CC7", "#B23A3F", "#5C7A26", "#00456E"]
 
 _unis_in_data = sorted({d["universitat"] for d in DATA if d.get("universitat")})
 _neue_unis = [u for u in _unis_in_data if u not in UNI_ORDER_BASIS]
@@ -125,29 +125,33 @@ const UNIS = __UNIS__;
 const UNI_COLORS = __UNI_COLORS__;
 
 // WWTF-Programmfelder (heuristische ÖFOS-Zuordnung, siehe scripts/wwtf_enrich.py)
+// Corporate Design Manual 2024: "wir verwenden keine einzelnen
+// Farbkodierungen mehr fuer die Programme, sondern kommunizieren in
+// einheitlichen Farben" -- alle Programme in WWTF Blau, Unterscheidung
+// nur ueber das Label.
 const WWTF_PROG = {
-  LS:  { label: "Life Sciences", color: "#DC2626",
+  LS:  { label: "Life Sciences", color: "#008FD4",
          desc: "Biologie, Grundlagen- & klinische Medizin, Biotechnologie, Veterinärmedizin" },
-  ICT: { label: "Information & Communication Technology", color: "#2563EB",
+  ICT: { label: "Information & Communication Technology", color: "#008FD4",
          desc: "Informatik, Elektrotechnik, KI, Maschinelles Lernen" },
-  CS:  { label: "Cognitive Sciences", color: "#7C3AED",
+  CS:  { label: "Cognitive Sciences", color: "#008FD4",
          desc: "Psychologie, Neurowissenschaften, Kognition" },
-  ESR: { label: "Environmental Systems Research", color: "#059669",
+  ESR: { label: "Environmental Systems Research", color: "#008FD4",
          desc: "Umweltsysteme, Ökologie, Wasser, Agrar- & Waldforschung" },
-  DH:  { label: "Digital Humanism", color: "#D97706",
+  DH:  { label: "Digital Humanism", color: "#008FD4",
          desc: "Digitalisierung & Gesellschaft, Mensch-Maschine-Interaktion, KI-Ethik" },
-  MA:  { label: "Mathematik und …", color: "#0891B2",
+  MA:  { label: "Mathematik und …", color: "#008FD4",
          desc: "Mathematik in Verbindung mit Anwendungsfeldern" },
 };
 
 // ÖFOS Bereiche (1-stellig)
 const OFOS_BEREICH = {
-  1: { label: "Naturwissenschaften",   color: "#2563EB" },
-  2: { label: "Technische Wiss.",      color: "#D97706" },
-  3: { label: "Medizin & Gesundheit",  color: "#DC2626" },
-  4: { label: "Agrar & Veterinärmed.", color: "#65A30D" },
-  5: { label: "Sozialwissenschaften",  color: "#059669" },
-  6: { label: "Geisteswissenschaften", color: "#7C3AED" },
+  1: { label: "Naturwissenschaften",   color: "#008FD4" },
+  2: { label: "Technische Wiss.",      color: "#005B94" },
+  3: { label: "Medizin & Gesundheit",  color: "#C23640" },
+  4: { label: "Agrar & Veterinärmed.", color: "#6B8F2E" },
+  5: { label: "Sozialwissenschaften",  color: "#5A7F99" },
+  6: { label: "Geisteswissenschaften", color: "#9D9D9C" },
 };
 
 const DATA = [
@@ -169,8 +173,8 @@ const ABDECKUNG = __ABDECKUNG__;
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 // Zwölf unterscheidbare Farben: bei zehn Jahresreihen dürfen sich keine
 // zwei Jahre dieselbe Farbe teilen.
-const YEAR_COLORS = ["#0055A4", "#D97706", "#059669", "#7C3AED", "#DC2626", "#0891B2",
-                     "#65A30D", "#DB2777", "#4338CA", "#B45309", "#0F766E", "#78716C"];
+const YEAR_COLORS = ["#008FD4", "#005B94", "#C23640", "#6B8F2E", "#5A7F99", "#9D9D9C",
+                     "#7FB8E0", "#9C2E33", "#4A9CC7", "#A5D948", "#3A3A38", "#00456E"];
 let SELECTED_YEARS = new Set(YEARS);
 let VIEW = DATA.slice();
 
@@ -200,7 +204,7 @@ function inferBereich(d) {
 }
 
 function bereichColor(code) {
-  return (OFOS_BEREICH[code] || {}).color || "#9CA3AF";
+  return (OFOS_BEREICH[code] || {}).color || "#9D9D9C";
 }
 
 function bereichLabel(code) {
@@ -208,7 +212,7 @@ function bereichLabel(code) {
 }
 
 function uniColor(uni) {
-  return UNI_COLORS[uni] || "#6B7280";
+  return UNI_COLORS[uni] || "#6E6E6D";
 }
 
 // Strukturierte Metriken (aus wwtf_enrich.py), Fallback: bio_text-Regex
@@ -278,8 +282,8 @@ function initGenderChart(rows) {
     data: {
       labels: unis,
       datasets: [
-        { label: "Frauen", data: frauen, backgroundColor: "#9D174D", borderRadius: 4 },
-        { label: "Männer", data: maenner, backgroundColor: "#4C1D95", borderRadius: 4 }
+        { label: "Frauen", data: frauen, backgroundColor: "#C23640", borderRadius: 4 },
+        { label: "Männer", data: maenner, backgroundColor: "#005B94", borderRadius: 4 }
       ]
     },
     options: {
@@ -307,7 +311,7 @@ function initTimelineChart(rows) {
   const datasets = ys.map(y => ({
     label: String(y),
     data: MONATEN.map(m => belegt.filter(d => d.year === y && d.monat === m).length),
-    backgroundColor: ys.length === 1 ? "#0055A4" : yearColor(y),
+    backgroundColor: ys.length === 1 ? "#008FD4" : yearColor(y),
     borderRadius: 4
   }));
   // Bis drei Jahre nebeneinander lesbar, darüber werden die Balken zu dünn:
@@ -464,7 +468,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
           .attr("class", "heatmap-value")
           .attr("x", j * cellW + (cellW - 2) / 2)
           .attr("y", i * cellH + (cellH - 2) / 2 + 4)
-          .attr("fill", v > max * 0.5 ? "white" : "#1A1A2E")
+          .attr("fill", v > max * 0.5 ? "white" : "#181715")
           .text(v);
       }
     });
@@ -486,7 +490,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("y", -12)
       .attr("text-anchor", "middle")
       .attr("font-size", "10px")
-      .attr("fill", "#6B7280")
+      .attr("fill", "#6E6E6D")
       .text(bereichLabel(b));
   });
 
@@ -521,7 +525,7 @@ function initOFOSChart(rows) {
         data: sorted.map(e => e[1]),
         backgroundColor: sorted.map(e => {
           const d = rows.find(x => (x.ofos_label || "Andere") === e[0]);
-          return d ? bereichColor(inferBereich(d)) : "#9CA3AF";
+          return d ? bereichColor(inferBereich(d)) : "#9D9D9C";
         }),
         borderRadius: 4
       }]
@@ -597,8 +601,8 @@ function initSankey(rows) {
 
   // Origin colors
   const originColors = {
-    "Intern (Wien)": "#92400E",
-    "Herkunft unbekannt": "#9CA3AF",
+    "Intern (Wien)": "#6E6E6D",
+    "Herkunft unbekannt": "#9D9D9C",
   };
 
   // Links
@@ -607,7 +611,7 @@ function initSankey(rows) {
     .join("path")
     .attr("d", d3.sankeyLinkHorizontal())
     .attr("fill", "none")
-    .attr("stroke", d => originColors[d.source.name] || "#6B7280")
+    .attr("stroke", d => originColors[d.source.name] || "#6E6E6D")
     .attr("stroke-width", d => Math.max(1, d.width))
     .attr("opacity", 0.35)
     .on("mouseover", (event, d) => {
@@ -644,7 +648,7 @@ function initSankey(rows) {
     .attr("y", d => (d.y1 + d.y0) / 2)
     .attr("dy", "0.35em")
     .attr("text-anchor", d => d.x0 < W / 2 ? "start" : "end")
-    .attr("fill", "#1A1A2E")
+    .attr("fill", "#181715")
     .attr("font-size", "13px")
     .attr("font-weight", "500")
     .text(d => `${d.name} (${d.value})`);
@@ -883,6 +887,20 @@ function exportCSV() {
   a.download = `berufungsradar_wien_${yearLabel().replace(/[^0-9]+/g, '_')}_${rows.length}_eintraege.csv`;
   a.click();
   URL.revokeObjectURL(a.href);
+}
+
+function populateUniFilter() {
+  const sel = document.getElementById('filter-uni');
+  sel.innerHTML = '';
+  const alle = document.createElement('option');
+  alle.value = '';
+  alle.textContent = `Alle Universitäten (${UNIS.length})`;
+  sel.appendChild(alle);
+  UNIS.forEach(u => {
+    const opt = document.createElement('option');
+    opt.textContent = u;
+    sel.appendChild(opt);
+  });
 }
 
 function populateLandFilter() {
@@ -1268,6 +1286,7 @@ document.addEventListener('DOMContentLoaded', () => {
     YEARS.length > 1
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
+  populateUniFilter();
   populateLandFilter();
   applyState();
 });
