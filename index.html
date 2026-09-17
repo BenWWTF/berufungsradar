@@ -402,7 +402,11 @@
         background: var(--white);
         border-bottom: 2px solid var(--border);
         position: sticky;
-        top: 86px;
+        /* Kein hartcodierter Pixelwert: --header-h wird per JS aus der
+           tatsaechlichen Kopfzeilenhoehe berechnet (syncStickyOffsets),
+           damit eine kuenftige Kopfzeilenaenderung (Logo, Zeilenumbruch,
+           Schriftgroesse) hier nie wieder stillschweigend falsch wird. */
+        top: var(--header-h, 86px);
         z-index: 90;
         overflow-x: auto;
         scrollbar-width: none;
@@ -593,7 +597,9 @@
 
       /* ── Filter Bar ───────────────────────────────────────── */
       #filter-bar {
-        scroll-margin-top: 150px;
+        /* wie bei #tab-nav: aus der echten Hoehe von Header+Tabs berechnet,
+           nicht hartcodiert -- siehe syncStickyOffsets() */
+        scroll-margin-top: var(--sticky-stack-h, 150px);
         background: var(--white);
         border-radius: var(--radius);
         box-shadow: var(--shadow);
@@ -40089,6 +40095,24 @@ function attachYearSliderEvents(track) {
 }
 
 // ─── INIT ────────────────────────────────────────────────
+// ─── STICKY-OFFSETS ──────────────────────────────────────
+// #tab-nav (sticky) und #filter-bar (scroll-margin-top) muessen wissen,
+// wie hoch der sticky Header + Tab-Leiste tatsaechlich sind. Frueher
+// stand hier ein hartcodierter Pixelwert, der beim naechsten
+// Kopfzeilen-Redesign (z.B. Logo hinzugefuegt) stillschweigend falsch
+// wurde -- die Tabs klebten dann zu hoch, Inhalte darunter wirkten
+// abgeschnitten beim Scrollen. Jetzt wird die echte Hoehe gemessen und
+// bei jeder Groessenaenderung automatisch nachgezogen.
+function syncStickyOffsets() {
+  const header = document.getElementById('site-header');
+  const tabNav = document.getElementById('tab-nav');
+  if (!header || !tabNav) return;
+  const headerH = header.getBoundingClientRect().height;
+  const tabNavH = tabNav.getBoundingClientRect().height;
+  document.documentElement.style.setProperty('--header-h', `${headerH}px`);
+  document.documentElement.style.setProperty('--sticky-stack-h', `${headerH + tabNavH}px`);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('header-stand').textContent =
     `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
@@ -40099,6 +40123,11 @@ document.addEventListener('DOMContentLoaded', () => {
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
   populateUniFilter();
   populateLandFilter();
+  syncStickyOffsets();
+  window.addEventListener('resize', syncStickyOffsets);
+  if (window.ResizeObserver) {
+    new ResizeObserver(syncStickyOffsets).observe(document.getElementById('site-header'));
+  }
   applyState();
 });
 

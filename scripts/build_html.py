@@ -1372,6 +1372,24 @@ function attachYearSliderEvents(track) {
 }
 
 // ─── INIT ────────────────────────────────────────────────
+// ─── STICKY-OFFSETS ──────────────────────────────────────
+// #tab-nav (sticky) und #filter-bar (scroll-margin-top) muessen wissen,
+// wie hoch der sticky Header + Tab-Leiste tatsaechlich sind. Frueher
+// stand hier ein hartcodierter Pixelwert, der beim naechsten
+// Kopfzeilen-Redesign (z.B. Logo hinzugefuegt) stillschweigend falsch
+// wurde -- die Tabs klebten dann zu hoch, Inhalte darunter wirkten
+// abgeschnitten beim Scrollen. Jetzt wird die echte Hoehe gemessen und
+// bei jeder Groessenaenderung automatisch nachgezogen.
+function syncStickyOffsets() {
+  const header = document.getElementById('site-header');
+  const tabNav = document.getElementById('tab-nav');
+  if (!header || !tabNav) return;
+  const headerH = header.getBoundingClientRect().height;
+  const tabNavH = tabNav.getBoundingClientRect().height;
+  document.documentElement.style.setProperty('--header-h', `${headerH}px`);
+  document.documentElement.style.setProperty('--sticky-stack-h', `${headerH + tabNavH}px`);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('header-stand').textContent =
     `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
@@ -1382,6 +1400,11 @@ document.addEventListener('DOMContentLoaded', () => {
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
   populateUniFilter();
   populateLandFilter();
+  syncStickyOffsets();
+  window.addEventListener('resize', syncStickyOffsets);
+  if (window.ResizeObserver) {
+    new ResizeObserver(syncStickyOffsets).observe(document.getElementById('site-header'));
+  }
   applyState();
 });
 """
