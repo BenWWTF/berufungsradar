@@ -84,7 +84,11 @@ def openalex_search_author(name: str) -> dict | None:
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
                 data = json.loads(r.read())
-            return data.get("results", [None])[0]
+            # "results" kann als leere Liste vorkommen (Suche erfolgreich,
+            # null Treffer) -- das ist kein Fehler, sondern ein echtes
+            # Negativergebnis und darf nicht als IndexError krachen.
+            ergebnisse = data.get("results") or []
+            return ergebnisse[0] if ergebnisse else None
         except Exception as e:
             code = getattr(e, "code", None)
             if code == 429 and versuch < 2:
