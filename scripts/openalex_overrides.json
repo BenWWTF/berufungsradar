@@ -139,5 +139,45 @@
   "Bojana Rosic": {
     "openalex_id": "A5062849809",
     "_note": "geprüft 2026-08-26 (automatischer low-confidence-Treffer manuell verifiziert via Institution/Topic-Abgleich): Institutionen (Uni Kragujevac, TU Braunschweig, Uni Twente) und Topics (Probabilistic Engineering, Structural Health Monitoring) passen zu Digital Engineering."
+  },
+  "Cameran Hooshang Ashraf": {
+    "openalex_id": "A5026723791",
+    "_note": "geprüft 2026-09-17: automatische Suche scheiterte am vollen Namen; unter 'Cameran Ashraf' eindeutiger Treffer (Digital-Rights-/Internetpolitik-Forscher), passt zu Public Policy."
+  },
+  "David Sanford Weberman": {
+    "openalex_id": "A5020817600",
+    "_note": "geprüft 2026-09-17: unter 'David Weberman' eindeutiger Treffer (Philosoph, works=36/cited=3260), klar von Namensvetter mit 1 Werk unterschieden."
+  },
+  "Eloise Marie Adde": {
+    "openalex_id": "A5085597759",
+    "_note": "geprüft 2026-09-17: publiziert als 'Éloïse Adde' (Diakritikum fehlte in unserer Schreibweise); CEU-Affiliation bestätigt, von Namensvetterin 'Adde-Vomáčka' (Uni Luxemburg) unterschieden."
+  },
+  "Inga Teta Winkler": {
+    "openalex_id": "A5102783009",
+    "_note": "geprüft 2026-09-17: unter 'Inga T. Winkler' Treffer mit works=65/cited=1622 (Menschenrechte Wasser/Sanitär, passt zu Legal Studies), klar von Namensvetterin mit 3 Werken unterschieden."
+  },
+  "Ruben Mnacakanjan": {
+    "openalex_id": "A5003501797",
+    "_note": "geprüft 2026-09-17: publiziert als 'Ruben Mnatsakanian' (andere Transliteration); CEU-Affiliation + Topics (Arctic/Russian Environmental Policy, Transboundary Water Resources) bestätigen den Treffer, von russischem Geodäsie-Namensvetter (Moscow State University) unterschieden."
+  },
+  "Szergej Licsagin": {
+    "openalex_id": "A5010368996",
+    "_note": "geprüft 2026-09-17: ungarische Schreibweise von 'Sergey Lychagin'; CEU zusammen mit Wirtschafts-Instituten (NBER, MIT, Hungarian National Bank) in der Affiliationshistorie, Topics (Economics/Trade/Regional Economics) passen zum Fach; einzelne verrauschte Fremdaffiliationen ignoriert."
+  },
+  "Alexios Rigas Antypas": {
+    "openalex_id": "A5013043523",
+    "_note": "geprüft 2026-09-17: unter 'Alexios Antypas' Treffer mit CEU + Centre for European Policy Studies-Affiliation, Topics (Environmental Policy/CSR) passen exakt; von Namensvetter mit nur 1 Werk unterschieden."
+  },
+  "Diana Anna Urgene Vorsatz": {
+    "openalex_id": "A5014111135",
+    "_note": "geprüft 2026-09-17: automatische Suche fand nichts, weil in den Daten der volle Name statt Publikationsname 'Diána Ürge-Vorsatz' steht; CEU-Affiliation und works=158/cited=21927 (IPCC-WG3-Ko-Vorsitzende) bestätigen den Treffer eindeutig."
+  },
+  "Yusaf Hussein Akbar": {
+    "openalex_id": "A5046416530",
+    "_note": "geprüft 2026-09-17: unter 'Yusaf H. Akbar' Treffer mit CEU-Affiliation und works=124/cited=800, klar von zwei Namensvettern (5 bzw. 9 Werke) unterschieden."
+  },
+  "Dagmar Gotthardt-Pötsch": {
+    "openalex_id": "A5084085147",
+    "_note": "geprüft 2026-09-17: publiziert als 'Dagmar Gotthardt' (ohne Doppelname); Affiliationen University of Vienna + 'Institute of Pharmacology' bestätigen den Treffer trotz immunologielastiger Topics (CAR-T-Zelltherapie ist pharmakologienahe Forschung)."
   }
 }

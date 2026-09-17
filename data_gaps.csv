@@ -1,14 +1,4 @@
 name;universitaet;fehlend;nur_auto_befuellt;uni_suche;google
-Dagmar Gotthardt-Pötsch;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Dagmar%20Gotthardt-P%C3%B6tsch;https://www.google.com/search?q=Dagmar%20Gotthardt-P%C3%B6tsch+Vetmeduni%20Wien+Professur
-Alexios Rigas Antypas;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Alexios%20Rigas%20Antypas+CEU+Professur
-Cameran Hooshang Ashraf;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Cameran%20Hooshang%20Ashraf+CEU+Professur
-David Sanford Weberman;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=David%20Sanford%20Weberman+CEU+Professur
-Diana Anna Urgene Vorsatz;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Diana%20Anna%20Urgene%20Vorsatz+CEU+Professur
-Eloise Marie Adde;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Eloise%20Marie%20Adde+CEU+Professur
-Inga Teta Winkler;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Inga%20Teta%20Winkler+CEU+Professur
-Ruben Mnacakanjan;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Ruben%20Mnacakanjan+CEU+Professur
-Szergej Licsagin;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Szergej%20Licsagin+CEU+Professur
-Yusaf Hussein Akbar;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Yusaf%20Hussein%20Akbar+CEU+Professur
 Christoph J. H. Rademacher;Uni Wien;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Christoph%20J.%20H.%20Rademacher;https://www.google.com/search?q=Christoph%20J.%20H.%20Rademacher+Uni%20Wien+Professur
 Olga Makarova;Vetmeduni Wien;Werdegang/CV, Profil-Link, Herkunftsinstitution, Herkunftsland, Institut;;https://www.vetmeduni.ac.at/suche?q=Olga%20Makarova;https://www.google.com/search?q=Olga%20Makarova+Vetmeduni%20Wien+Professur
 Sofia Bempeza;Angewandte;Werdegang/CV, Herkunftsinstitution, Herkunftsland, Institut;Profil-Link;https://www.dieangewandte.at/suche?q=Sofia%20Bempeza;https://www.google.com/search?q=Sofia%20Bempeza+Angewandte+Professur
@@ -240,6 +230,7 @@ Stephan Hann;BOKU;Institut;;https://boku.ac.at/suche?q=Stephan%20Hann;https://ww
 Yusak Susilo;BOKU;Institut;;https://boku.ac.at/suche?q=Yusak%20Susilo;https://www.google.com/search?q=Yusak%20Susilo+BOKU+Professur
 Yusak Susilo;BOKU;Institut;;https://boku.ac.at/suche?q=Yusak%20Susilo;https://www.google.com/search?q=Yusak%20Susilo+BOKU+Professur
 Alexander Etkind;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Alexander%20Etkind+CEU+Professur
+Alexios Rigas Antypas;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Alexios%20Rigas%20Antypas+CEU+Professur
 Alíz Horvath;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Al%C3%ADz%20Horvath+CEU+Professur
 Anand Murugesan;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Anand%20Murugesan+CEU+Professur
 Andras Danis;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Andras%20Danis+CEU+Professur
@@ -254,12 +245,16 @@ Azzurra Ruggeri;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Azzurr
 Balazs Vedres;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Balazs%20Vedres+CEU+Professur
 Baukje Van Den Berg;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Baukje%20Van%20Den%20Berg+CEU+Professur
 Bjorn Bremer;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Bjorn%20Bremer+CEU+Professur
+Cameran Hooshang Ashraf;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Cameran%20Hooshang%20Ashraf+CEU+Professur
 Claudio Sopranzetti;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Claudio%20Sopranzetti+CEU+Professur
 Cristina Corduneanu-Huci;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Cristina%20Corduneanu-Huci+CEU+Professur
 Daniel Monterescu;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Daniel%20Monterescu+CEU+Professur
 Daniel Weitzel;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Daniel%20Weitzel+CEU+Professur
+David Sanford Weberman;CEU;Institut;Profil-Link;;https://www.google.com/search?q=David%20Sanford%20Weberman+CEU+Professur
+Diana Anna Urgene Vorsatz;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Diana%20Anna%20Urgene%20Vorsatz+CEU+Professur
 Dora Piroska;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Dora%20Piroska+CEU+Professur
 Elisa Omodei;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Elisa%20Omodei+CEU+Professur
+Eloise Marie Adde;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Eloise%20Marie%20Adde+CEU+Professur
 Emese Lafferton;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Emese%20Lafferton+CEU+Professur
 Erin Jenne;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Erin%20Jenne+CEU+Professur
 Erno Teglas;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Erno%20Teglas+CEU+Professur
@@ -267,6 +262,7 @@ Federico Battiston;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Fed
 Florian Weiler;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Florian%20Weiler+CEU+Professur
 Gabor Simonovits;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Gabor%20Simonovits+CEU+Professur
 Hanoch Ben-Yami;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Hanoch%20Ben-Yami+CEU+Professur
+Inga Teta Winkler;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Inga%20Teta%20Winkler+CEU+Professur
 Inna Melnykovska;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Inna%20Melnykovska+CEU+Professur
 Johanna Sofia Kristina Markkula;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Johanna%20Sofia%20Kristina%20Markkula+CEU+Professur
 Jonathan Frank Kominsky;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Jonathan%20Frank%20Kominsky+CEU+Professur
@@ -288,9 +284,12 @@ Petra Kralj Novak;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Petr
 Prem Kumar Rajaram;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Prem%20Kumar%20Rajaram+CEU+Professur
 Qiong Miranda Wu;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Qiong%20Miranda%20Wu+CEU+Professur
 Robert Lieli;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Robert%20Lieli+CEU+Professur
+Ruben Mnacakanjan;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Ruben%20Mnacakanjan+CEU+Professur
 Shalini Randeria;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Shalini%20Randeria+CEU+Professur
+Szergej Licsagin;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Szergej%20Licsagin+CEU+Professur
 Tolga Esmer;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Tolga%20Esmer+CEU+Professur
 Tomy Lee;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Tomy%20Lee+CEU+Professur
+Yusaf Hussein Akbar;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Yusaf%20Hussein%20Akbar+CEU+Professur
 Yussef Al Tamimi;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Yussef%20Al%20Tamimi+CEU+Professur
 Éva Fodor;CEU;Institut;Profil-Link;;https://www.google.com/search?q=%C3%89va%20Fodor+CEU+Professur
 Alexander Niessner;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Alexander%20Niessner;https://www.google.com/search?q=Alexander%20Niessner+MedUni%20Wien+Professur
@@ -730,6 +729,7 @@ Borbala Foris;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetm
 Christof Bertram;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Christof%20Bertram;https://www.google.com/search?q=Christof%20Bertram+Vetmeduni%20Wien+Professur
 Clair Firth;Vetmeduni Wien;Institut;Profil-Link;https://www.vetmeduni.ac.at/suche?q=Clair%20Firth;https://www.google.com/search?q=Clair%20Firth+Vetmeduni%20Wien+Professur
 Claudia Bieber;Vetmeduni Wien;Institut;Profil-Link;https://www.vetmeduni.ac.at/suche?q=Claudia%20Bieber;https://www.google.com/search?q=Claudia%20Bieber+Vetmeduni%20Wien+Professur
+Dagmar Gotthardt-Pötsch;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Dagmar%20Gotthardt-P%C3%B6tsch;https://www.google.com/search?q=Dagmar%20Gotthardt-P%C3%B6tsch+Vetmeduni%20Wien+Professur
 Dagmar Trachsel;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Dagmar%20Trachsel;https://www.google.com/search?q=Dagmar%20Trachsel+Vetmeduni%20Wien+Professur
 Dieter Liebhart;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Dieter%20Liebhart;https://www.google.com/search?q=Dieter%20Liebhart+Vetmeduni%20Wien+Professur
 Doris Wilflingseder;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Doris%20Wilflingseder;https://www.google.com/search?q=Doris%20Wilflingseder+Vetmeduni%20Wien+Professur

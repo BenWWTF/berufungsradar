@@ -48255,10 +48255,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Szergej Licsagin": {
-    "name": "Szergej Licsagin",
-    "_openalex": "not found"
-  },
   "Dorith Geva": {
     "name": "Dorith Geva",
     "openalex_id": "A5014007791",
@@ -50931,10 +50927,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Cameran Hooshang Ashraf": {
-    "name": "Cameran Hooshang Ashraf",
-    "_openalex": "not found"
-  },
   "Mats Koster": {
     "name": "Mats Koster",
     "openalex_id": "A5079589629",
@@ -52234,10 +52226,6 @@
   },
   "Dalibor Karvay": {
     "name": "Dalibor Karvay",
-    "_openalex": "not found"
-  },
-  "Inga Teta Winkler": {
-    "name": "Inga Teta Winkler",
     "_openalex": "not found"
   },
   "Josef Eitzinger": {
@@ -54548,10 +54536,6 @@
     "herkunft_land": null,
     "grants": []
   },
-  "Diana Anna Urgene Vorsatz": {
-    "name": "Diana Anna Urgene Vorsatz",
-    "_openalex": "not found"
-  },
   "Alexander Etkind": {
     "name": "Alexander Etkind",
     "openalex_id": "A5070407612",
@@ -54757,10 +54741,6 @@
     "herkunft_institution": "Central European University",
     "herkunft_land": "Österreich",
     "grants": []
-  },
-  "Eloise Marie Adde": {
-    "name": "Eloise Marie Adde",
-    "_openalex": "not found"
   },
   "Katharina Schröder": {
     "name": "Katharina Schröder",
@@ -57682,10 +57662,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "David Sanford Weberman": {
-    "name": "David Sanford Weberman",
-    "_openalex": "not found"
-  },
   "Monika Maria Pietrzak-Franger": {
     "name": "Monika Maria Pietrzak-Franger",
     "_openalex": "not found"
@@ -58161,10 +58137,6 @@
     "herkunft_institution": "Central European University",
     "herkunft_land": "Österreich",
     "grants": []
-  },
-  "Dagmar Gotthardt-Pötsch": {
-    "name": "Dagmar Gotthardt-Pötsch",
-    "_openalex": "not found"
   },
   "Lisa Isola": {
     "name": "Lisa Isola",
@@ -62394,10 +62366,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Yusaf Hussein Akbar": {
-    "name": "Yusaf Hussein Akbar",
-    "_openalex": "not found"
-  },
   "Julienne Lorz": {
     "name": "Julienne Lorz",
     "openalex_id": "A5114900257",
@@ -63545,10 +63513,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Alexios Rigas Antypas": {
-    "name": "Alexios Rigas Antypas",
-    "_openalex": "not found"
-  },
   "Eva Maria Riedl-Buschan": {
     "name": "Eva Maria Riedl-Buschan",
     "_openalex": "not found"
@@ -64122,8 +64086,604 @@
     "name": "Philipp Nykrin",
     "_openalex": "not found"
   },
+  "Alexios Rigas Antypas": {
+    "name": "Alexios Rigas Antypas",
+    "openalex_id": "A5013043523",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 13,
+    "cited_by_count": 146,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2012,
+          2006
+        ],
+        "most_recent": 2012
+      },
+      {
+        "name": "Centre for European Policy Studies",
+        "country": "BE",
+        "type": "nonprofit",
+        "years": [
+          2006
+        ],
+        "most_recent": 2006
+      }
+    ],
+    "bio_text": "Environmental Sciences and Policy. h-Index: 4 | Publikationen: 13 | Zitierungen: 146. Forschungstätigkeit u.a. in Österreich, Belgien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "David Sanford Weberman": {
+    "name": "David Sanford Weberman",
+    "openalex_id": "A5020817600",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 36,
+    "cited_by_count": 3260,
+    "h_index": 9,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "University of Wisconsin–Madison",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2005,
+          1998,
+          1996,
+          1992
+        ],
+        "most_recent": 2005
+      },
+      {
+        "name": "Georgia State University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2002,
+          1999
+        ],
+        "most_recent": 2002
+      },
+      {
+        "name": "Hess (United States)",
+        "country": "US",
+        "type": "company",
+        "years": [
+          1996
+        ],
+        "most_recent": 1996
+      }
+    ],
+    "bio_text": "Philosophy. h-Index: 9 | Publikationen: 36 | Zitierungen: 3260. Forschungstätigkeit u.a. in USA, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Yusaf Hussein Akbar": {
+    "name": "Yusaf Hussein Akbar",
+    "openalex_id": "A5046416530",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 124,
+    "cited_by_count": 800,
+    "h_index": 13,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018,
+          2015,
+          2014,
+          2011,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitas Islam Negeri Maulana Malik Ibrahim",
+        "country": "ID",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Kuwait Petroleum Corporation (Kuwait)",
+        "country": "KW",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Kuwait Oil Company (Kuwait)",
+        "country": "KW",
+        "type": "company",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Can Tho University",
+        "country": "VN",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Economics. h-Index: 13 | Publikationen: 124 | Zitierungen: 800. Forschungstätigkeit u.a. in Ungarn, VN, Österreich, KW.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Eloise Marie Adde": {
+    "name": "Eloise Marie Adde",
+    "openalex_id": "A5085597759",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 29,
+    "cited_by_count": 30,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "UCLouvain Saint-Louis Brussels",
+        "country": "BE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Luxembourg",
+        "country": "LU",
+        "type": "education",
+        "years": [
+          2018,
+          2017
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Vatican Secret Archives",
+        "country": "VA",
+        "type": "archive",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Luxembourg Institute of Science and Technology",
+        "country": "LU",
+        "type": "nonprofit",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Historical Studies. h-Index: 2 | Publikationen: 29 | Zitierungen: 30. Forschungstätigkeit u.a. in Luxemburg, Österreich, VA, Kanada.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Diana Anna Urgene Vorsatz": {
+    "name": "Diana Anna Urgene Vorsatz",
+    "openalex_id": "A5014111135",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 158,
+    "cited_by_count": 21927,
+    "h_index": 47,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2015,
+          2013,
+          2012,
+          2009,
+          2007,
+          2005,
+          2002
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Chalmers University of Technology",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Centro Escolar University Makati",
+        "country": "PH",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Regional Environmental Center for Central and Eastern Europe",
+        "country": "HU",
+        "type": "other",
+        "years": [
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "International Institute for Applied Systems Analysis",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2012
+        ],
+        "most_recent": 2012
+      }
+    ],
+    "bio_text": "Environmental Sciences and Policy. h-Index: 47 | Publikationen: 158 | Zitierungen: 21927. Forschungstätigkeit u.a. in Österreich, USA, PH, Niederlande.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
   "Ruben Mnacakanjan": {
     "name": "Ruben Mnacakanjan",
-    "_openalex": "not found"
+    "openalex_id": "A5003501797",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 18,
+    "cited_by_count": 322,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2013
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Environmental Sciences and Policy. h-Index: 6 | Publikationen: 18 | Zitierungen: 322.",
+    "herkunft": "extern",
+    "herkunft_institution": "Central European University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Cameran Hooshang Ashraf": {
+    "name": "Cameran Hooshang Ashraf",
+    "openalex_id": "A5026723791",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 12,
+    "cited_by_count": 90,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "Wikimedia Foundation",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2021,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Ludovika University of Public Service",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2021,
+          2020
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Public Policy. h-Index: 3 | Publikationen: 12 | Zitierungen: 90. Forschungstätigkeit u.a. in Ungarn, Österreich, USA.",
+    "herkunft": "extern",
+    "herkunft_institution": "Wikimedia Foundation",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Inga Teta Winkler": {
+    "name": "Inga Teta Winkler",
+    "openalex_id": "A5102783009",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 65,
+    "cited_by_count": 1622,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "Wageningen University & Research",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Department of Social Sciences",
+        "country": "RU",
+        "type": "government",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Human Rights Watch",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Columbia University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020,
+          2017
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Legal Studies. h-Index: 17 | Publikationen: 65 | Zitierungen: 1622. Forschungstätigkeit u.a. in USA, Deutschland, Österreich, Russland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Wageningen University & Research",
+    "herkunft_land": "Niederlande",
+    "grants": []
+  },
+  "Dagmar Gotthardt-Pötsch": {
+    "name": "Dagmar Gotthardt-Pötsch",
+    "openalex_id": "A5084085147",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 100,
+    "cited_by_count": 1891,
+    "h_index": 21,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Veterinary Medicine Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Karl Landsteiner University of Health Sciences",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institute of Pharmacology",
+        "country": "CZ",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2015,
+          2014,
+          2012
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of California, San Francisco",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2023,
+          2020,
+          2017
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Pharmakologie. h-Index: 21 | Publikationen: 100 | Zitierungen: 1891. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Tschechien.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Veterinary Medicine Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Szergej Licsagin": {
+    "name": "Szergej Licsagin",
+    "openalex_id": "A5010368996",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 23,
+    "cited_by_count": 327,
+    "h_index": 8,
+    "last_known_institutions": [
+      {
+        "name": "Wunschbaby Institut für Kinderwunsch",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Austrian Institute of Economic Research",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Korean Society of Ginseng",
+        "country": "KR",
+        "type": "other",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Central European University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2017,
+          2014,
+          2013,
+          2011,
+          2010
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Economics. h-Index: 8 | Publikationen: 23 | Zitierungen: 327. Forschungstätigkeit u.a. in Indien, USA, Österreich, Ungarn.",
+    "herkunft": "extern",
+    "herkunft_institution": "Wunschbaby Institut für Kinderwunsch",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }
