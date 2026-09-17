@@ -1248,33 +1248,127 @@ function renderAll() {
   renderYearBar();
 }
 
-// ─── JAHRES-PILLS ────────────────────────────────────────
+// ─── JAHRES-SLIDER ───────────────────────────────────────
+// Ersetzt die fruehere Pill-Reihe (9 Buttons, die auf schmalen
+// Bildschirmen umbrachen) durch einen Zwei-Griff-Regler: eine Zeile,
+// per Ziehen oder Pfeiltasten bedienbar. Trade-off gegenueber den Pills:
+// nur zusammenhaengende Zeitraeume waehlbar (z.B. 2020-2022), keine
+// beliebige Mehrfachauswahl mehr (z.B. nicht mehr nur 2019+2023+2026).
+function yearIndex(y) { return YEARS.indexOf(y); }
+function yearPct(i) { return YEARS.length > 1 ? (i / (YEARS.length - 1)) * 100 : 0; }
+function currentYearRange() {
+  const ys = selectedYears();
+  return [ys[0], ys[ys.length - 1]];
+}
+
 function renderYearBar() {
+  const track = document.getElementById('year-slider-track');
+  if (!track.dataset.built) {
+    let ticks = '', labels = '';
+    YEARS.forEach((y, i) => {
+      const p = yearPct(i);
+      ticks += `<button type="button" class="year-slider-tick" style="left:${p}%" data-year="${y}" aria-label="${y} auswaehlen"></button>`;
+      labels += `<span class="year-slider-label" style="left:${p}%">'${String(y).slice(2)}</span>`;
+    });
+    track.innerHTML = `<div class="year-slider-range" id="year-slider-range"></div>${ticks}` +
+      `<div class="year-slider-handle" data-handle="low" role="slider" tabindex="0" aria-label="Zeitraum von"
+            aria-valuemin="${YEARS[0]}" aria-valuemax="${YEARS[YEARS.length - 1]}"></div>` +
+      `<div class="year-slider-handle" data-handle="high" role="slider" tabindex="0" aria-label="Zeitraum bis"
+            aria-valuemin="${YEARS[0]}" aria-valuemax="${YEARS[YEARS.length - 1]}"></div>`;
+    document.getElementById('year-slider-labels').innerHTML = labels;
+    track.dataset.built = '1';
+    attachYearSliderEvents(track);
+  }
+  const [low, high] = currentYearRange();
+  positionYearHandles(low, high);
   const alleAktiv = SELECTED_YEARS.size === YEARS.length;
-  document.getElementById('year-pills').innerHTML = [
-    `<button class="year-pill${alleAktiv ? ' active' : ''}" onclick="setAllYears()">Alle Jahre</button>`
-  ].concat(YEARS.map(y =>
-    `<button class="year-pill${SELECTED_YEARS.has(y) ? ' active' : ''}" onclick="toggleYear(${y})">${y}</button>`
-  )).join('');
+  document.getElementById('year-all-btn').classList.toggle('active', alleAktiv);
   document.getElementById('year-summary').textContent =
     `${yearLabel()} · ${VIEW.length} von ${DATA.length} Berufungen`;
 }
 
-function toggleYear(y) {
-  if (SELECTED_YEARS.has(y)) {
-    if (SELECTED_YEARS.size === 1) return;   // nie leer auswählen
-    SELECTED_YEARS.delete(y);
-  } else {
-    SELECTED_YEARS.add(y);
-  }
+function positionYearHandles(low, high) {
+  const track = document.getElementById('year-slider-track');
+  const lowH = track.querySelector('[data-handle="low"]');
+  const highH = track.querySelector('[data-handle="high"]');
+  const range = document.getElementById('year-slider-range');
+  const lowPct = yearPct(yearIndex(low)), highPct = yearPct(yearIndex(high));
+  lowH.style.left = lowPct + '%';
+  highH.style.left = highPct + '%';
+  lowH.setAttribute('aria-valuenow', low);
+  highH.setAttribute('aria-valuenow', high);
+  range.style.left = lowPct + '%';
+  range.style.width = Math.max(0, highPct - lowPct) + '%';
+}
+
+function setYearRange(low, high) {
+  if (low > high) { const t = low; low = high; high = t; }
+  const set = new Set();
+  YEARS.forEach(y => { if (y >= low && y <= high) set.add(y); });
+  SELECTED_YEARS = set;
   renderAll();
   writeStateToHash();
 }
 
 function setAllYears() {
-  SELECTED_YEARS = new Set(YEARS);
-  renderAll();
-  writeStateToHash();
+  setYearRange(YEARS[0], YEARS[YEARS.length - 1]);
+}
+
+function attachYearSliderEvents(track) {
+  let dragging = null; // 'low' | 'high'
+
+  function nearestYearFromClientX(clientX) {
+    const rect = track.getBoundingClientRect();
+    const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+    const frac = rect.width ? x / rect.width : 0;
+    const idx = Math.round(frac * (YEARS.length - 1));
+    return YEARS[Math.max(0, Math.min(YEARS.length - 1, idx))];
+  }
+
+  track.querySelectorAll('.year-slider-handle').forEach(h => {
+    h.addEventListener('pointerdown', e => {
+      dragging = h.dataset.handle;
+      h.setPointerCapture(e.pointerId);
+      e.preventDefault();  // verhindert Text-Selektion beim Ziehen ...
+      h.focus();           // ... nimmt aber auch den Fokus mit, deshalb explizit
+    });
+    h.addEventListener('keydown', e => {
+      const [low, high] = currentYearRange();
+      const which = h.dataset.handle;
+      let l = low, hi = high;
+      const step = (delta) => {
+        if (which === 'low') l = Math.max(YEARS[0], Math.min(high, low + delta));
+        else hi = Math.max(low, Math.min(YEARS[YEARS.length - 1], high + delta));
+      };
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') step(-1);
+      else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') step(1);
+      else if (e.key === 'Home') { if (which === 'low') l = YEARS[0]; else hi = low; }
+      else if (e.key === 'End') { if (which === 'high') hi = YEARS[YEARS.length - 1]; else l = high; }
+      else return;
+      e.preventDefault();
+      setYearRange(l, hi);
+    });
+  });
+
+  track.addEventListener('pointermove', e => {
+    if (!dragging) return;
+    const y = nearestYearFromClientX(e.clientX);
+    const [low, high] = currentYearRange();
+    if (dragging === 'low') setYearRange(Math.min(y, high), high);
+    else setYearRange(low, Math.max(y, low));
+  });
+  track.addEventListener('pointerup', () => { dragging = null; });
+  track.addEventListener('pointercancel', () => { dragging = null; });
+
+  track.addEventListener('click', e => {
+    if (e.target.closest('.year-slider-handle')) return;
+    const y = nearestYearFromClientX(e.clientX);
+    const [low, high] = currentYearRange();
+    const distLow = Math.abs(yearIndex(y) - yearIndex(low));
+    const distHigh = Math.abs(yearIndex(y) - yearIndex(high));
+    if (distLow <= distHigh) setYearRange(y, high);
+    else setYearRange(low, y);
+  });
 }
 
 // ─── INIT ────────────────────────────────────────────────
