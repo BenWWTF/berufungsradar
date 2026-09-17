@@ -2376,7 +2376,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "101",
   "ofos_label": "Mathematik",
-  "bio_text": null,
+  "bio_text": "opens in new window , Associate Professor for Computational Logic. h-Index: 8 | Publikationen: 36 | Zitierungen: 203. Forschungstätigkeit u.a. in Russland, Österreich, Vereinigtes Königreich, Neuseeland.",
   "werdegang": "Studium Mathematik an der State University of Novosibirsk, dort Promotion 2008 (mit einjährigem Aufenthalt an der University of Notre Dame, USA). 2008–2015 am Kurt-Gödel-Forschungszentrum für Mathematische Logik der Universität Wien (Habilitation 2013). FWF-Elise-Richter-Stipendium. Seit 2015 an der TU Wien, 2016 Anerkennung der Habilitation (Thema: Algorithmic properties of equivalence relations). 10/2019 Associate Professor.",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/b/associate-prof-dipl-ing-mag-drtechn-ekaterina-benavente-fokina",
   "monat": "OKTOBER",
@@ -2390,21 +2390,76 @@
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Statistik und Wahrscheinlichkeitstheorie",
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
+   "works_count": 36,
+   "cited_by_count": 203,
+   "h_index": 8,
+   "last_known_institutions": [
+    {
+     "name": "Penza State University",
+     "country": "RU",
+     "type": "education",
+     "years": [
+      2025,
+      2024
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2020,
+      2019,
+      2018,
+      2015
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "University of Liverpool",
+     "country": "GB",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "Victoria University of Wellington",
+     "country": "NZ",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2016,
+      2012,
+      2011
+     ],
+     "most_recent": 2016
+    }
+   ],
+   "openalex_id": "A5084954961"
   },
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 8,
+  "publikationen": 36,
+  "zitierungen": 203,
   "wwtf_programme": [
    "MA"
   ],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
-  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite"
+  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
+  "openalex_id": "A5084954961"
  },
  {
   "name": "Iva Kovacic",
@@ -3421,9 +3476,9 @@
   "herkunft_land": "Deutschland",
   "ofos_code": "602",
   "ofos_label": "Sprach- und Literaturwissenschaften",
-  "bio_text": null,
+  "bio_text": "Neuere deutsche Literatur (Literatur- und Medientheorie). h-Index: 5 | Publikationen: 99 | Zitierungen: 166. Forschungstätigkeit u.a. in Österreich, Deutschland.",
   "werdegang": "1969 in Rheinfelden (Baden) geboren. Zuvor am Institut für deutsche Literatur der Humboldt-Universität zu Berlin tätig. Seit 2019 Professor für Neuere deutsche Literatur mit Schwerpunkt Literatur- und Medientheorie am Institut für Germanistik, Universität Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5025348117",
   "quelle": "https://www.germ.univie.ac.at/burkhardt-wolf/",
   "_kuratiert": "Handrecherche 2026-08-28 über medienportal.univie.ac.at 'Neue Professuren im September 2019' (Google-Cache-Snippet). Monat nicht eindeutig belegt.",
   "_herkunft_research": null,
@@ -3433,17 +3488,62 @@
   "ofos_hauptgruppe_code": "60",
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 5,
+  "publikationen": 99,
+  "zitierungen": 166,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 99,
+   "cited_by_count": 166,
+   "h_index": 5,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2021,
+      2020
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Humboldt-Universität zu Berlin",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2018,
+      2017,
+      2016
+     ],
+     "most_recent": 2018
+    },
+    {
+     "name": "German Central Institute for Social Issues",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2012
+     ],
+     "most_recent": 2012
+    },
+    {
+     "name": "Berlin Heart (Germany)",
+     "country": "DE",
+     "type": "company",
+     "years": [
+      2006
+     ],
+     "most_recent": 2006
+    }
+   ],
+   "openalex_id": "A5025348117"
+  },
+  "openalex_id": "A5025348117",
+  "profil_url_auto": true
  },
  {
   "name": "Chris Thomale",
@@ -5435,7 +5535,7 @@
   "geschlecht": "W",
   "ofos_code": "602",
   "ofos_label": "Sprach- und Literaturwissenschaften",
-  "bio_text": null,
+  "bio_text": "Anglistische Kultur- und Literaturwissenschaft. h-Index: 7 | Publikationen: 59 | Zitierungen: 184. Forschungstätigkeit u.a. in Österreich, Deutschland.",
   "werdegang": "1997-2002 Studium der Anglistik, Amerikanistik und Pädagogik an der Jagiellonen-Universität in Krakau, Polen und an der Université d’Avignon et des Pays de Vaucluse, Avignon, Frankreich · 2003-2006 Promotion an der Johannes-Gutenberg Universität Mainz, International Performance and Media Studies · 2007-2014 Habilitation an der Universität Siegen, Institut für Anglistik und Amerikanistik · 2011-2012 Volkswagen Visiting Fellow, Washington University in St. Louis, USA, Department of Anthropology · 2015 BritCult Award der Deutschen Gesellschaft für das Studium britischer Kulturen für die Habilitationsschrift · 2017/2018 DAAD Visiting Scholar, Deutsches Haus, New York University, USA und Macquarie University, Sydney, Australien · 2011-2019 Mitherausgeberin der Adaptation (Oxford University Press), UK; 2019 Elect Trustee of the Association of Adaptation Studies · 2014-2019 Vertretungsprofessorin, Universität Hamburg, Institut für Anglistik und Amerikanistik",
   "profil_url": "https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-dr-phil-habil-monika-maria-pietrzak-franger/",
   "monat": "OKTOBER",
@@ -5450,21 +5550,56 @@
   "ofos_hauptgruppe_code": "60",
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 7,
+  "publikationen": 59,
+  "zitierungen": 184,
   "wwtf_programme": [],
   "herkunft": "extern",
   "herkunft_institution": "Universität Hamburg",
   "herkunft_land": "Deutschland",
   "_herkunft_research": "Herkunft aus bereits vorhandenem, kuratiertem Werdegang-Text manuell extrahiert (2026-09-15), keine neue Recherche.",
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 59,
+   "cited_by_count": 184,
+   "h_index": 7,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Universität Hamburg",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2017,
+      2014
+     ],
+     "most_recent": 2017
+    },
+    {
+     "name": "University of Siegen",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2012,
+      2011,
+      2008
+     ],
+     "most_recent": 2012
+    }
+   ],
+   "openalex_id": "A5049070133"
+  },
+  "openalex_id": "A5049070133"
  },
  {
   "name": "Moritz Grosse-Wentrup",
@@ -13579,9 +13714,9 @@
   "herkunft_land": null,
   "ofos_code": "104",
   "ofos_label": "Chemie",
-  "bio_text": null,
+  "bio_text": "Molecular Drug Targeting. h-Index: 35 | Publikationen: 133 | Zitierungen: 3766. Forschungstätigkeit u.a. in USA, Österreich, Deutschland, Kanada.",
   "werdegang": "BSc/MSc Molecular Biotechnology und PhD Biophysical Chemistry Universität zu Lübeck 2001-2009, PostDoc am Scripps Research Institute, La Jolla, 2009-2011. Seit September 2020 Professor für Molecular Drug Targeting am Department für Pharmazeutische Wissenschaften, Universität Wien. Forschung zu Glykan-bindenden Proteinen, C-Typ-Lektinrezeptoren.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5090253001",
   "quelle": "https://mdt.univie.ac.at/",
   "_kuratiert": "Handrecherche 2026-08-28 über medienportal.univie.ac.at 'Neue Professuren im September 2020' (Google-Cache-Snippet). Unmittelbare Vorinstitution vor Wien nicht eindeutig ermittelt.",
   "_herkunft_research": null,
@@ -13593,17 +13728,91 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 35,
+  "publikationen": 133,
+  "zitierungen": 3766,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 133,
+   "cited_by_count": 3766,
+   "h_index": 35,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Max Perutz Labs",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Vienna Biocenter",
+     "country": "AT",
+     "type": "other",
+     "years": [
+      2025,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Max Planck Institute of Colloids and Interfaces",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Johannes Gutenberg University Mainz",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5090253001"
+  },
+  "openalex_id": "A5090253001",
+  "profil_url_auto": true
  },
  {
   "name": "Cornelia Zwischenberger",
@@ -15012,7 +15221,7 @@
   "geschlecht": "M",
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
-  "bio_text": null,
+  "bio_text": "Medizinrecht. h-Index: 5 | Publikationen: 125 | Zitierungen: 263. Forschungstätigkeit u.a. in Österreich, Deutschland, Niederlande.",
   "werdegang": "1995-1999 Diplomstudium der Rechtswissenschaften an den Universitäten Wien und Paris II · 1999-Juli 2001 Doktoratsstudium der Rechtswissenschaften (mit Auszeichnung), Universität Wien · 2000-2001 Gerichtspraxis am BG Wien Innere Stadt, dem JGH Wien sowie dem ASG Wien · 1999-2008 Vertrags‑ bzw Universitätsassistent am Institut für Staats- und Verwaltungsrecht der Universität Wien · 2004-2005 Postgraduales Masterstudium (MJur) an der Universität Oxford mit Schwerpunkt Wirtschafts- und Europarecht (mit Auszeichnung) · 2008 Habilitation für Verfassungs- und Verwaltungsrecht mit einer Arbeit zum österreichischen Krankenanstaltenrecht · 2009 Rechtsanwaltsanwärter bei bpv Hügel Rechtsanwälte OEG Wien · 2009-2020 Universitätsprofessor am Institut für Öffentliches Recht und Politikwissenschaft der Karl-Franzens-Universität Graz; dort unter anderem Institutsleiter, langjähriges Mitglied der Curricula-Kommission der Rechtswissenschaftlichen Fakultät und Mitglied des Arbeitskreises für Gleichbehandlungsfragen · 2019-2020 Sprecher des interdisziplinären Profilbildenden Bereichs \"smart regulation\" an der Universität Graz",
   "profil_url": "https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-mag-dr-karl-stoeger-mjur/",
   "monat": "OKTOBER",
@@ -15027,21 +15236,81 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 5,
+  "publikationen": 125,
+  "zitierungen": 263,
   "wwtf_programme": [],
   "herkunft": "extern",
   "herkunft_institution": "Universitätsprofessor am Institut für Öffentliches Recht und Politikwissenschaft der Karl-…",
   "herkunft_land": "Österreich",
   "_herkunft_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 125,
+   "cited_by_count": 263,
+   "h_index": 5,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2007
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Schott (Germany)",
+     "country": "DE",
+     "type": "company",
+     "years": [
+      2024,
+      2020
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Altrecht GGZ",
+     "country": "NL",
+     "type": "healthcare",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University of Graz",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2011,
+      2010
+     ],
+     "most_recent": 2020
+    }
+   ],
+   "openalex_id": "A5080190256"
+  },
+  "openalex_id": "A5080190256"
  },
  {
   "name": "Kerstin Krellenberg",
@@ -18447,9 +18716,9 @@
   "herkunft_land": "Österreich",
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
-  "bio_text": null,
+  "bio_text": "Arbeitsrecht und Sozialrecht mit Schwerpunkt Digitalisierung in der Arbeitswelt. h-Index: 1 | Publikationen: 88 | Zitierungen: 7. Forschungstätigkeit u.a. in Österreich, Israel, Schweiz.",
   "werdegang": "Vor dem Wechsel an die WU assoziierte Professorin an der Universität Salzburg. Seit 1. März 2020 Professorin für Arbeitsrecht und Sozialrecht mit Schwerpunkt Digitalisierung in der Arbeitswelt am Department für Arbeitsrecht und Sozialrecht, WU Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5061761382",
   "quelle": "https://www.wu.ac.at/fileadmin/wu/h/structure/about/publications/Wissensbilanz/Wissensbilanz2020_LV_Monitoring_WU_Wien.pdf",
   "_kuratiert": "Handrecherche 2026-08-27 aus WU-Wissensbilanz 2020, Kapitel 'Berufungen mit Dienstantritt 2020' (Fließtext-Porträt).",
   "_herkunft_research": null,
@@ -18461,19 +18730,54 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 1,
+  "publikationen": 88,
+  "zitierungen": 7,
   "wwtf_programme": [
    "DH"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 88,
+   "cited_by_count": 7,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "Vienna University of Economics and Business",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "College of Law and Business",
+     "country": "IL",
+     "type": "nonprofit",
+     "years": [
+      2019,
+      2016,
+      2015,
+      2009
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "Kantonsspital Graubünden",
+     "country": "CH",
+     "type": "healthcare",
+     "years": [
+      2002
+     ],
+     "most_recent": 2002
+    }
+   ],
+   "openalex_id": "A5061761382"
+  },
+  "openalex_id": "A5061761382",
+  "profil_url_auto": true
  },
  {
   "name": "Verena Dorner",
@@ -20986,9 +21290,9 @@
   "herkunft_land": "Vereinigtes Königreich",
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
-  "bio_text": null,
+  "bio_text": "Economics. h-Index: 2 | Publikationen: 3 | Zitierungen: 66. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich.",
   "werdegang": "Seit August 2021 Assistant Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5068051609",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -20997,18 +21301,49 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 2,
+  "publikationen": 3,
+  "zitierungen": 66,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 3,
+   "cited_by_count": 66,
+   "h_index": 2,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2023
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "IZA - Institute of Labor Economics",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University College London",
+     "country": "GB",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    }
+   ],
+   "openalex_id": "A5068051609"
+  },
+  "openalex_id": "A5068051609",
+  "profil_url_auto": true
  },
  {
   "name": "Anand Murugesan",
@@ -21498,9 +21833,9 @@
   "herkunft_land": "USA",
   "ofos_code": "603",
   "ofos_label": "Philosophie, Ethik, Religion",
-  "bio_text": null,
+  "bio_text": "Philosophy. h-Index: 6 | Publikationen: 12 | Zitierungen: 240. Forschungstätigkeit u.a. in USA, Österreich, Vereinigtes Königreich.",
   "werdegang": "Seit August 2021 Assistant Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5073613333",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -21509,18 +21844,59 @@
   "ofos_hauptgruppe_code": "60",
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 6,
+  "publikationen": 12,
+  "zitierungen": 240,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 12,
+   "cited_by_count": 240,
+   "h_index": 6,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of North Carolina at Chapel Hill",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2025,
+      2020
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Dartmouth College",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "Dartmouth Hospital",
+     "country": "GB",
+     "type": "healthcare",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    }
+   ],
+   "openalex_id": "A5073613333"
+  },
+  "openalex_id": "A5073613333",
+  "profil_url_auto": true
  },
  {
   "name": "Austin Nichols",
@@ -22502,9 +22878,9 @@
   "herkunft_land": "Deutschland",
   "ofos_code": "601",
   "ofos_label": "Geschichte und Archäologie",
-  "bio_text": null,
+  "bio_text": "Historical Studies. h-Index: 5 | Publikationen: 24 | Zitierungen: 67. Forschungstätigkeit u.a. in Russland, Deutschland, Österreich.",
   "werdegang": "Seit Mai 2021 Associate Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5010810221",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -22515,18 +22891,73 @@
   "ofos_hauptgruppe_code": "60",
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 5,
+  "publikationen": 24,
+  "zitierungen": 67,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 24,
+   "cited_by_count": 67,
+   "h_index": 5,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2024,
+      2021,
+      2018,
+      2013,
+      2011,
+      2007,
+      2004,
+      2003
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Russian Academy of Sciences",
+     "country": "RU",
+     "type": "government",
+     "years": [
+      2016
+     ],
+     "most_recent": 2016
+    },
+    {
+     "name": "Russian Orthodox Institute Sacred Ioann Bogolslov",
+     "country": "RU",
+     "type": "education",
+     "years": [
+      2016
+     ],
+     "most_recent": 2016
+    },
+    {
+     "name": "S.I. Vavilov Institute for the History of Science and Technology",
+     "country": "RU",
+     "type": "facility",
+     "years": [
+      2016
+     ],
+     "most_recent": 2016
+    },
+    {
+     "name": "Max Planck Society",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2008
+     ],
+     "most_recent": 2008
+    }
+   ],
+   "openalex_id": "A5010810221"
+  },
+  "openalex_id": "A5010810221",
+  "profil_url_auto": true
  },
  {
   "name": "Luca Varadi",
@@ -23630,9 +24061,9 @@
   "herkunft_land": "Frankreich",
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
-  "bio_text": null,
+  "bio_text": "Economics. h-Index: 6 | Publikationen: 33 | Zitierungen: 271. Forschungstätigkeit u.a. in USA, Österreich, Frankreich, Ungarn.",
   "werdegang": "Seit August 2021 Associate Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5043232246",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -23641,18 +24072,81 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 6,
+  "publikationen": 33,
+  "zitierungen": 271,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 33,
+   "cited_by_count": 271,
+   "h_index": 6,
+   "last_known_institutions": [
+    {
+     "name": "Central European Institute of Technology",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Centre for Economic Policy Research",
+     "country": "GB",
+     "type": "nonprofit",
+     "years": [
+      2025,
+      2024,
+      2020,
+      2019
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Institut d'Etudes Politiques de Paris",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2024,
+      2023,
+      2022,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2011
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "National Bureau of Economic Research",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5043232246"
+  },
+  "openalex_id": "A5043232246",
+  "profil_url_auto": true
  },
  {
   "name": "Éva Fodor",
@@ -24549,9 +25043,9 @@
   "herkunft_land": "Österreich",
   "ofos_code": "302",
   "ofos_label": "Klinische Medizin",
-  "bio_text": null,
+  "bio_text": "Thoraxchirurgie. h-Index: 50 | Publikationen: 363 | Zitierungen: 8643. Forschungstätigkeit u.a. in USA, Österreich, Israel, Schweiz.",
   "werdegang": "Facharzt für Herz-, Thorax- und Allgemeinchirurgie an der Universitätsklinik für Thoraxchirurgie, MedUni Wien. Übernahm mit 1. September 2021 eine Professur (§99 Abs.4) im Fachbereich Thoraxchirurgie.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5065162127",
   "quelle": "https://www.meduniwien.ac.at/web/fileadmin/content/serviceeinrichtungen/rechtsabteilung/mitteilungsblaetter_2021-22/27_Mitteilungsblatt_31052022_Wissensbilanz_2021.pdf",
   "_kuratiert": "Handrecherche 2026-08-28: MedUni-Wissensbilanz 2021, Fließtext-Absatz nach Kennzahl 1.A.2.",
   "_herkunft_research": null,
@@ -24563,19 +25057,105 @@
   "ofos_hauptgruppe_code": "30",
   "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 50,
+  "publikationen": 363,
+  "zitierungen": 8643,
   "wwtf_programme": [
    "LS"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 363,
+   "cited_by_count": 8643,
+   "h_index": 50,
+   "last_known_institutions": [
+    {
+     "name": "Österreichische Gesellschaft für Parodontologie",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Austrian Cluster for Tissue Regeneration",
+     "country": "AT",
+     "type": "other",
+     "years": [
+      2026,
+      2024,
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2021,
+      2020,
+      2011,
+      2007,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      1999
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Statistics Austria",
+     "country": "AT",
+     "type": "government",
+     "years": [
+      2025,
+      2022
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5065162127"
+  },
+  "openalex_id": "A5065162127",
+  "profil_url_auto": true
  },
  {
   "name": "Herbert Kiss",
@@ -33022,7 +33602,7 @@
   "herkunft_land": "Vereinigtes Königreich",
   "ofos_code": "603",
   "ofos_label": "Philosophie, Ethik, Religion",
-  "bio_text": null,
+  "bio_text": "Moralphilosophie und Politische Philosophie. h-Index: 11 | Publikationen: 22 | Zitierungen: 1124. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Tschechien, USA.",
   "werdegang": "MPhysPhil in Physics and Philosophy (Balliol College, University of Oxford 2003–2007), Stipendium der Studienstiftung des Deutschen Volkes. 2007/08 Presidential Scholarship am MIT. PhD in Philosophy am Department of Philosophy and Linguistics, MIT 2007–2012. 2012–2021 Lecturer/Senior Lecturer in Philosophy an der University of Cambridge (2012–2021 Fellow, Sidney Sussex College). 2016 CRASSH Early Career Fellowship, 2019–2021 Leverhulme Research Fellowship. Ab 09/2021 Professor of Moral and Political Philosophy an der Uni Wien.",
   "profil_url": "https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-dr-paulina-sliwa/",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2021.pdf",
@@ -33034,17 +33614,69 @@
   "ofos_hauptgruppe_code": "60",
   "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 11,
+  "publikationen": 22,
+  "zitierungen": 1124,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 22,
+   "cited_by_count": 1124,
+   "h_index": 11,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2024,
+      2023,
+      2022
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Cambridge",
+     "country": "GB",
+     "type": "education",
+     "years": [
+      2026,
+      2019,
+      2015
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Hochschule Campus Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Czech Academy of Sciences, Institute of Philosophy",
+     "country": "CZ",
+     "type": "facility",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Massachusetts Institute of Technology",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2012
+     ],
+     "most_recent": 2012
+    }
+   ],
+   "openalex_id": "A5029842389"
+  },
+  "openalex_id": "A5029842389"
  },
  {
   "name": "Philip-Ronald Nigst",
@@ -33616,7 +34248,7 @@
   "herkunft_land": "USA",
   "ofos_code": "101",
   "ofos_label": "Mathematik",
-  "bio_text": null,
+  "bio_text": "Pharmaceutical Bioanalysis. h-Index: 25 | Publikationen: 76 | Zitierungen: 1939. Forschungstätigkeit u.a. in USA, Österreich, NG.",
   "werdegang": "Mag. pharm. Dr., Studium Pharmazie. 2015–2020 Research Associate am Department of Molecular Medicine, Scripps Research (La Jolla, USA). 07/2020–2021 Professional Scientific Collaborator an der Scripps Research. 2021 Assistant Professor (Tenure-Track) am Department für Pharmazeutische Wissenschaften, Division of Pharmaceutical Chemistry, Uni Wien.",
   "profil_url": "https://pharmchem.univie.ac.at/research/staff-members-by-name/khom-sophia/",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2021.pdf",
@@ -33630,19 +34262,94 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 25,
+  "publikationen": 76,
+  "zitierungen": 1939,
   "wwtf_programme": [
    "MA"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 76,
+   "cited_by_count": 1939,
+   "h_index": 25,
+   "last_known_institutions": [
+    {
+     "name": "Scripps Research Institute",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2026,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2018,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Plateau State University",
+     "country": "NG",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Scripps Institution of Oceanography",
+     "country": "US",
+     "type": "facility",
+     "years": [
+      2022,
+      2020
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Torrey Pines Institute For Molecular Studies",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2022,
+      2020
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5004795848"
+  },
+  "openalex_id": "A5004795848"
  },
  {
   "name": "Steffen Waldherr",
@@ -38351,9 +39058,9 @@
   "herkunft_land": "USA",
   "ofos_code": "501",
   "ofos_label": "Psychologie",
-  "bio_text": null,
+  "bio_text": "Cognitive Science. h-Index: 16 | Publikationen: 80 | Zitierungen: 823. Forschungstätigkeit u.a. in USA, Deutschland, Österreich.",
   "werdegang": "Seit August 2022 Associate Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5032300212",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -38364,20 +39071,81 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 16,
+  "publikationen": 80,
+  "zitierungen": 823,
   "wwtf_programme": [
    "CS"
   ],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 80,
+   "cited_by_count": 823,
+   "h_index": 16,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Cornell University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Deutsche Energy Agency (Germany)",
+     "country": "DE",
+     "type": "company",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of California San Diego",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "UC San Diego Health System",
+     "country": "US",
+     "type": "healthcare",
+     "years": [
+      2021,
+      2019
+     ],
+     "most_recent": 2021
+    }
+   ],
+   "openalex_id": "A5032300212"
+  },
+  "openalex_id": "A5032300212",
+  "profil_url_auto": true
  },
  {
   "name": "Federico Battiston",
@@ -48017,7 +48785,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "504",
   "ofos_label": "Soziologie",
-  "bio_text": null,
+  "bio_text": "Familiensoziologie. h-Index: 14 | Publikationen: 71 | Zitierungen: 920. Forschungstätigkeit u.a. in Österreich, USA.",
   "werdegang": "Diplomstudium Soziologie Uni Wien 1990–1996, Postgraduate Institut für Höhere Studien Wien 1996–1998, Promotion Soziologie Uni Wien 2000. Forschungsaufenthalte Taras Shevchenko National University Kiew und Belarusian State University Minsk 1998–2000, wissenschaftliche Mitarbeiterin am Institut für Höhere Studien 1998–2000. 2000–2007 Wissenschaftliche Mitarbeiterin am European Centre for Social Welfare Policy and Research (Wien, Childhood Youth Families). 2007–2008 Universitätslektorin am Institut für Soziologie, Uni Wien. 2008–2014 Universitätsassistentin Soziologie. 2014–2017 Assistenzprofessorin, 2015 Habilitation. 2017–2022 Assoziierte Professorin für Familiensoziologie. Ab 02/2022 Univ.Prof. für Familiensoziologie am Institut für Soziologie, Uni Wien. Studienprogrammleiterin SPL 23 Soziologie seit 2018.",
   "profil_url": "https://www.univie.ac.at/forschung/forschung-im-ueberblick/neue-professuren/neue-professuren/artikel/univ-prof-mag-dr-ulrike-zartler-griessl/",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2022.pdf",
@@ -48031,17 +48799,63 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 14,
+  "publikationen": 71,
+  "zitierungen": 920,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 71,
+   "cited_by_count": 920,
+   "h_index": 14,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2012,
+      2011,
+      2010
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Universität Innsbruck",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Theodore Roosevelt High School",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2024,
+      2018,
+      2015
+     ],
+     "most_recent": 2024
+    }
+   ],
+   "openalex_id": "A5066490363"
+  },
+  "openalex_id": "A5066490363"
  },
  {
   "name": "Valeska Huber",
@@ -54509,7 +55323,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "203",
   "ofos_label": "Maschinenbau",
-  "bio_text": null,
+  "bio_text": "Associate Professor for Measurement Systems. h-Index: 18 | Publikationen: 94 | Zitierungen: 958. Forschungstätigkeit u.a. in Österreich, USA, Deutschland.",
   "werdegang": "MSc. und PhD (sub auspiciis) in Elektrotechnik an der TU Wien 2014 und 2018. PostDoc an der Advanced Mechatronic Systems Group, ACIN der TU Wien (12/2017–07/2021), 08/2021–09/2023 Tenure-Track Assistant Professor, 09/2023 Habilitation im Fach Measurement Systems und Berufung zum Assoc.Prof. sowie Director des CD-Labors für Precision Measurements in Motion.",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/c/associate-prof-dipl-ing-drtechn-ernst-karl-csencsics",
   "monat": "SEPTEMBER",
@@ -54523,19 +55337,88 @@
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Signalverarbeitung und Sprachkommunikation",
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
+   "works_count": 94,
+   "cited_by_count": 958,
+   "h_index": 18,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Christian Doppler Laboratory for Thermoelectricity",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2017,
+      2016
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Motion Control (United States)",
+     "country": "US",
+     "type": "company",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Institute of Automation",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2023,
+      2022
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of Applied Sciences Technikum Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2022,
+      2021
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5048523710"
   },
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 18,
+  "publikationen": 94,
+  "zitierungen": 958,
   "wwtf_programme": [],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
-  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien Team-Profil"
+  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien Team-Profil",
+  "openalex_id": "A5048523710"
  },
  {
   "name": "Fazel Ansari Chaharsoughi",
@@ -60476,7 +61359,7 @@
   "herkunft_land": "Deutschland",
   "ofos_code": "106",
   "ofos_label": "Biologie",
-  "bio_text": null,
+  "bio_text": "Mechanistic Cell Biology. h-Index: 19 | Publikationen: 40 | Zitierungen: 2245. Forschungstätigkeit u.a. in Österreich, Deutschland.",
   "werdegang": "MSc Molecular Life Sciences cum laude, Universität Nijmegen 2003–2009. Promotion 2013 Universität Wien (Research Institute of Molecular Pathology / IMP, Jan-Michael Peters). 2015–2023 PostDoc am Max-Planck-Institut für molekulare Physiologie, Dortmund (Andrea Musacchio). 08/2023 Group Leader an den Max Perutz Labs, Uni Wien, Assistant Professor (Tenure-Track).",
   "profil_url": "https://www.maxperutzlabs.ac.at/fileadmin/user_upload/Groups/G_J/Huis/HuisintVeld_20251103_CV.pdf",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2023.pdf",
@@ -60488,19 +61371,79 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 19,
+  "publikationen": 40,
+  "zitierungen": 2245,
   "wwtf_programme": [
    "LS"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 40,
+   "cited_by_count": 2245,
+   "h_index": 19,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Max Perutz Labs",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Vienna Biocenter",
+     "country": "AT",
+     "type": "other",
+     "years": [
+      2025,
+      2016,
+      2014,
+      2013
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Max Planck Institute of Molecular Physiology",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2016
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Research Institute of Molecular Pathology",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2016,
+      2014,
+      2013,
+      2010
+     ],
+     "most_recent": 2016
+    }
+   ],
+   "openalex_id": "A5032442106"
+  },
+  "openalex_id": "A5032442106"
  },
  {
   "name": "Rhoia Clara Neidenbach",
@@ -61146,7 +62089,7 @@
   "herkunft_land": "Schweden",
   "ofos_code": "101",
   "ofos_label": "Mathematik",
-  "bio_text": null,
+  "bio_text": "Computational Optimization. h-Index: 13 | Publikationen: 39 | Zitierungen: 864. Forschungstätigkeit u.a. in Schweden, Österreich, Schweiz, Deutschland.",
   "werdegang": "PhD 2015 Kyiv National University. Postdocs an der TU Graz (2015/16), Universität Göttingen (2017–2019) und EPFL Lausanne (2019/20). 2020–2023 Assistant Professor an der Linköping University (Schweden, WASP Faculty Assistant Professor). 03/2023 Assistant Professor in Computational Optimization an der Fakultät für Mathematik, Uni Wien.",
   "profil_url": "https://ymalitsky.com/",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2023.pdf",
@@ -61158,19 +62101,71 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 13,
+  "publikationen": 39,
+  "zitierungen": 864,
   "wwtf_programme": [
    "MA"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 39,
+   "cited_by_count": 864,
+   "h_index": 13,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2023
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Linköping University",
+     "country": "SE",
+     "type": "education",
+     "years": [
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "École Polytechnique Fédérale de Lausanne",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "University of Göttingen",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2020,
+      2019,
+      2018
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Graz University of Technology",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2018
+     ],
+     "most_recent": 2018
+    }
+   ],
+   "openalex_id": "A5108689235"
+  },
+  "openalex_id": "A5108689235"
  },
  {
   "name": "Zsófia Lóránd",
@@ -66722,9 +67717,9 @@
   "herkunft_land": "Österreich",
   "ofos_code": "105",
   "ofos_label": "Geowissenschaften",
-  "bio_text": null,
+  "bio_text": "Environmental Sciences and Policy. h-Index: 5 | Publikationen: 20 | Zitierungen: 84. Forschungstätigkeit u.a. in Österreich, Ungarn.",
   "werdegang": "Seit August 2024 Assistant Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5035580850",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -66735,18 +67730,42 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 5,
+  "publikationen": 20,
+  "zitierungen": 84,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 20,
+   "cited_by_count": 84,
+   "h_index": 5,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2023,
+      2009,
+      2008
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Regional Environmental Center for Central and Eastern Europe",
+     "country": "HU",
+     "type": "other",
+     "years": [
+      2009
+     ],
+     "most_recent": 2009
+    }
+   ],
+   "openalex_id": "A5035580850"
+  },
+  "openalex_id": "A5035580850",
+  "profil_url_auto": true
  },
  {
   "name": "Yussef Al Tamimi",
@@ -69540,7 +70559,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "102",
   "ofos_label": "Informatik",
-  "bio_text": null,
+  "bio_text": "University Professor for Knowledge Representation and Reasoning. h-Index: 23 | Publikationen: 128 | Zitierungen: 1734. Forschungstätigkeit u.a. in Frankreich, Österreich, Italien, Russland.",
   "werdegang": "Informatik-Studium Universidad de las Américas, Puebla (Mexiko, magna cum laude). European Master's Program in Computational Logic (M.Sc., 2006–2008, gemeinsames Programm Portugal/Deutschland/Österreich, TU Wien). Promotion 2010 an der TU Wien („Query Answering in Expressive Description Logics“). 2015 Tenure-Track-Position, 2021 Habilitation und Assoc.Prof., 07/2024 Univ.Prof. für Knowledge Representation and Reasoning.",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/o/univprof-drtechn-maria-magdalena-ortiz-de-la-fuente-msc",
   "monat": "JULI",
@@ -69554,21 +70573,89 @@
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Computergraphik und Algorithmen",
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
+   "works_count": 128,
+   "cited_by_count": 1734,
+   "h_index": 23,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Institute of Philosophy",
+     "country": "RU",
+     "type": "facility",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Umeå University",
+     "country": "SE",
+     "type": "education",
+     "years": [
+      2024,
+      2023
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2021,
+      2018
+     ],
+     "most_recent": 2021
+    },
+    {
+     "name": "Institute of Informatics of the Slovak Academy of Sciences",
+     "country": "SK",
+     "type": "facility",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    }
+   ],
+   "openalex_id": "A5082472539"
   },
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 23,
+  "publikationen": 128,
+  "zitierungen": 1734,
   "wwtf_programme": [
    "ICT"
   ],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
-  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite"
+  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
+  "openalex_id": "A5082472539"
  },
  {
   "name": "Michael Harasek",
@@ -70381,7 +71468,7 @@
   "herkunft_land": "Schweiz",
   "ofos_code": "203",
   "ofos_label": "Maschinenbau",
-  "bio_text": null,
+  "bio_text": "opens in new window , University Professor for Power Electronics. h-Index: 31 | Publikationen: 84 | Zitierungen: 3351. Forschungstätigkeit u.a. in Österreich, Schweiz.",
   "werdegang": "Studium Elektrotechnik TU Wien (mit Auszeichnung), Promotion 1999 (Optimization and experimental analysis of the Vienna Rectifier). 1996 Gastwissenschaftler an der University of Tokyo (Masada-Ohsaki Laboratory), PostDoc an der TU Wien. 2001–2008 Senior Assistant am Power Electronics Systems Laboratory (PES) der ETH Zürich, Co-Founder und Managing Director des ETH-Spin-offs Gecko-Research GmbH. 2008–2018 Principal Scientist, ab 2018 Senior Principal Scientist bei ABB Corporate Research, Schwerpunkt kompakte Mittelspannungs-Konvertersysteme. 2022 ABB E-Mobility, Research Strategies, Patente und IP. 04/2024 Univ.Prof. für Power Electronics an der TU Wien.",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/d/univprof-dipling-drtechn-uwe-wilhelm-drofenik",
   "monat": "APRIL",
@@ -70395,19 +71482,91 @@
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": "Institut für Festkörperelektronik",
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
+   "works_count": 84,
+   "cited_by_count": 3351,
+   "h_index": 31,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2002,
+      2000
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "ABB (Switzerland)",
+     "country": "CH",
+     "type": "company",
+     "years": [
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "ETH Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2015,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003
+     ],
+     "most_recent": 2015
+    },
+    {
+     "name": "Swiss Finance Institute",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2011
+     ],
+     "most_recent": 2011
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2003,
+      2002,
+      1999
+     ],
+     "most_recent": 2003
+    }
+   ],
+   "openalex_id": "A5055111804"
   },
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 31,
+  "publikationen": 84,
+  "zitierungen": 3351,
   "wwtf_programme": [],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
-  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite"
+  "_kuratiert": "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
+  "openalex_id": "A5055111804"
  },
  {
   "name": "Viktor Sverdlov",
@@ -72673,7 +73832,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
-  "bio_text": null,
+  "bio_text": "Österreichische Rechts- und Verfassungsgeschichte. h-Index: 2 | Publikationen: 55 | Zitierungen: 28. Forschungstätigkeit u.a. in USA, Österreich, Deutschland, Russland.",
   "werdegang": "Studium der Rechtswissenschaften (Mag., Dr., LL.M.). 03/2020–07/2020 Marie Jahoda-Stipendiatin (Uni Wien, Rechtswissenschaftliche Fakultät). 08/2020–09/2024 Universitätsassistentin PostDoc am Institut für Rechts- und Verfassungsgeschichte der Uni Wien (Team Olechowski). 2022–2024 Research Fellow und Lehrbeauftragte an der Fakultät für Rechtswissenschaften der Universität Regensburg (Lehrstuhlteam Löhnig). Seit 10/2024 Assistenzprofessorin für Österreichische Rechts- und Verfassungsgeschichte an der Uni Wien.",
   "profil_url": "https://rechtsgeschichte.univie.ac.at/fileadmin/user_upload/i_rechtsgeschichte/Taetigkeitsberichte/Taetigkeitsbericht_2024.pdf",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
@@ -72685,17 +73844,64 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 2,
+  "publikationen": 55,
+  "zitierungen": 28,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 55,
+   "cited_by_count": 28,
+   "h_index": 2,
+   "last_known_institutions": [
+    {
+     "name": "Metrogiprotrans (Russia)",
+     "country": "RU",
+     "type": "company",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "National Heritage Board of Poland",
+     "country": "PL",
+     "type": "government",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Praktisk-Teologiske Seminar",
+     "country": "NO",
+     "type": "other",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "All-Russia Research Institute of Legumes and Groat Crops",
+     "country": "RU",
+     "type": "facility",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Altrecht GGZ",
+     "country": "NL",
+     "type": "healthcare",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5013114803"
+  },
+  "openalex_id": "A5013114803"
  },
  {
   "name": "Kerstin Hämel",
@@ -74315,7 +75521,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "106",
   "ofos_label": "Biologie",
-  "bio_text": null,
+  "bio_text": "Complex Systems Science in Microbiome Research. h-Index: 14 | Publikationen: 39 | Zitierungen: 1050. Forschungstätigkeit u.a. in USA, Österreich, Israel, Australien.",
   "werdegang": "Ausbildung und Forschung in den Bereichen Marine Microbiology, Genomik und Microbial Ecology. Mitglied des FWF-geförderten Exzellenzclusters CoE an der Uni Wien. Assistant Professor an der Division of Microbial Ecology, Uni Wien. Detaillierte Vorstationen aus der Webrecherche nicht eindeutig ermittelbar; anzunehmen PostDoc-Phase an einer israelischen oder US-Forschungseinrichtung vor Wien.",
   "profil_url": "https://dome.univie.ac.at/pollak-pasternak",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
@@ -74327,19 +75533,74 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 14,
+  "publikationen": 39,
+  "zitierungen": 1050,
   "wwtf_programme": [
    "LS"
   ],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 39,
+   "cited_by_count": 1050,
+   "h_index": 14,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Terrestrial Ecosystem Research Network",
+     "country": "AU",
+     "type": "facility",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Ecologie microbienne",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Vassar College",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2024
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Massachusetts Institute of Technology",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2018
+     ],
+     "most_recent": 2024
+    }
+   ],
+   "openalex_id": "A5025989078"
+  },
+  "openalex_id": "A5025989078"
  },
  {
   "name": "Stefan Michael Wagner",
@@ -74357,7 +75618,7 @@
   "herkunft_land": "Deutschland",
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
-  "bio_text": null,
+  "bio_text": "Betriebswirtschaftslehre – Innovations- und Technologiemanagement. h-Index: 49 | Publikationen: 228 | Zitierungen: 18730. Forschungstätigkeit u.a. in Deutschland, USA, Österreich, Vereinigtes Königreich.",
   "werdegang": "Diplom-Kfm. (2001), MBR (2004), Dr. oec. publ. (2005), Habilitation (2010) an der LMU München. 2011–2012 Assistenzprofessor an der ESMT Berlin. 2013–2022 Außerordentliche Professur, 2022 Professur an der ESMT European School of Management and Technology, Berlin. Gastprofessuren u. a. an der Pontificia Universidad Católica de Chile, University of Melbourne. Ab 10/2024 Univ.Prof. für Betriebswirtschaftslehre, Uni Wien.",
   "profil_url": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/wagner-stefan",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
@@ -74371,17 +75632,97 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 49,
+  "publikationen": 228,
+  "zitierungen": 18730,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 228,
+   "cited_by_count": 18730,
+   "h_index": 49,
+   "last_known_institutions": [
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2024,
+      2023,
+      2022,
+      2021,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Austrian Academy of Sciences",
+     "country": "AT",
+     "type": "government",
+     "years": [
+      2023,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Goethe University Frankfurt",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2022,
+      2016,
+      2008,
+      2001
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University Hospital Frankfurt",
+     "country": "DE",
+     "type": "healthcare",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University of Alberta",
+     "country": "CA",
+     "type": "education",
+     "years": [
+      2018
+     ],
+     "most_recent": 2018
+    }
+   ],
+   "openalex_id": "A5073284900"
+  },
+  "openalex_id": "A5073284900"
  },
  {
   "name": "Tomasso Meozzi",
@@ -74399,7 +75740,7 @@
   "herkunft_land": "Österreich",
   "ofos_code": "509",
   "ofos_label": "Andere Sozialwissenschaften",
-  "bio_text": null,
+  "bio_text": "Italienische Literatur-, Kultur-, Medienwissenschaft. h-Index: 1 | Publikationen: 23 | Zitierungen: 2. Forschungstätigkeit u.a. in Österreich, Deutschland, Italien.",
   "werdegang": "Promotion in Italianistik. WS 2024/25 Tenure-Track Professor für Italienische Literatur, Kultur, Medien an der Uni Wien. Forschungsschwerpunkte u. a. Mehrsprachigkeit in der Migrationsliteratur und literarische Verhandlung der COVID-19-Pandemie. Detaillierte Vorstationen aus der Webrecherche nicht eindeutig ermittelbar; letzte Station vermutlich Universität Graz (Konferenzbeitrag 04/2024) oder eine italienische Universität.",
   "profil_url": "https://homepage.univie.ac.at/tommaso.meozzi/",
   "quelle": "https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2024.pdf",
@@ -74411,17 +75752,47 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 1,
+  "publikationen": 23,
+  "zitierungen": 2,
   "wwtf_programme": [],
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 23,
+   "cited_by_count": 2,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "University of Bonn",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2018
+     ],
+     "most_recent": 2018
+    },
+    {
+     "name": "University of Florence",
+     "country": "IT",
+     "type": "education",
+     "years": [
+      2016,
+      2014
+     ],
+     "most_recent": 2016
+    }
+   ],
+   "openalex_id": "A5004009116"
+  },
+  "openalex_id": "A5004009116"
  },
  {
   "name": "Tuğrul Kurt",
@@ -78567,9 +79938,9 @@
   "herkunft_land": "Schweiz",
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
-  "bio_text": null,
+  "bio_text": "Economics. h-Index: 3 | Publikationen: 23 | Zitierungen: 75. Forschungstätigkeit u.a. in Österreich, Deutschland.",
   "werdegang": "Seit August 2025 Assistant Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5034317428",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -78580,18 +79951,42 @@
   "ofos_hauptgruppe_code": "50",
   "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 3,
+  "publikationen": 23,
+  "zitierungen": 75,
   "wwtf_programme": [],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 23,
+   "cited_by_count": 75,
+   "h_index": 3,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Technical University of Munich",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5034317428"
+  },
+  "openalex_id": "A5034317428",
+  "profil_url_auto": true
  },
  {
   "name": "Jascha Gruebel",
@@ -78609,9 +80004,9 @@
   "herkunft_land": "Niederlande",
   "ofos_code": "102",
   "ofos_label": "Informatik",
-  "bio_text": null,
+  "bio_text": "Network and Data Science. h-Index: 13 | Publikationen: 54 | Zitierungen: 520. Forschungstätigkeit u.a. in USA, SG, Österreich, Schweiz.",
   "werdegang": "Seit Oktober 2025 Assistant Professor an der CEU (Central European University), Wien.",
-  "profil_url": null,
+  "profil_url": "https://openalex.org/A5081738167",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
   "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
@@ -78620,20 +80015,82 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
+  "h_index": 13,
+  "publikationen": 54,
+  "zitierungen": 520,
   "wwtf_programme": [
    "ICT"
   ],
   "_ofos_auto": true,
   "_openalex": {
-   "works_count": null,
-   "cited_by_count": null,
-   "h_index": null,
-   "last_known_institutions": [],
-   "openalex_id": null
-  }
+   "works_count": 54,
+   "cited_by_count": 520,
+   "h_index": 13,
+   "last_known_institutions": [
+    {
+     "name": "Central European University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Institute for Biomedical Engineering",
+     "country": "CH",
+     "type": "facility",
+     "years": [
+      2026,
+      2025,
+      2024
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Wageningen University & Research",
+     "country": "NL",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Harvard University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2022
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "ETH Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5081738167"
+  },
+  "openalex_id": "A5081738167",
+  "profil_url_auto": true
  },
  {
   "name": "Lena Riemer",

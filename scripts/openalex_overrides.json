@@ -179,5 +179,113 @@
   "Dagmar Gotthardt-Pötsch": {
     "openalex_id": "A5084085147",
     "_note": "geprüft 2026-09-17: publiziert als 'Dagmar Gotthardt' (ohne Doppelname); Affiliationen University of Vienna + 'Institute of Pharmacology' bestätigen den Treffer trotz immunologielastiger Topics (CAR-T-Zelltherapie ist pharmakologienahe Forschung)."
+  },
+  "Burkhardt Johannes Wolf": {
+    "openalex_id": "A5025348117",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Burkhardt Wolf' eindeutiger Treffer mit institutionellem Match auf 'Uni Wien' (works=99, cited=166)."
+  },
+  "Christoph J. H. Rademacher": {
+    "openalex_id": "A5090253001",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Christoph Rademacher' eindeutiger Treffer mit institutionellem Match auf 'Uni Wien' (works=133, cited=3766)."
+  },
+  "Alice Elisabeth Kugler": {
+    "openalex_id": "A5068051609",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Alice Kugler' eindeutiger Treffer mit institutionellem Match auf 'CEU' (works=3, cited=66)."
+  },
+  "Asya Julia Passinsky": {
+    "openalex_id": "A5073613333",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Asya Passinsky' eindeutiger Treffer mit institutionellem Match auf 'CEU' (works=12, cited=240)."
+  },
+  "Karl Philip Hall": {
+    "openalex_id": "A5010810221",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Karl Hall' eindeutiger Treffer mit institutionellem Match auf 'CEU' (works=24, cited=67)."
+  },
+  "Paulina Anna Sliwa": {
+    "openalex_id": "A5029842389",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Paulina Sliwa' eindeutiger Treffer mit institutionellem Match auf 'Uni Wien' (works=22, cited=1124)."
+  },
+  "Eva Hilde Elsa Wittenberg": {
+    "openalex_id": "A5032300212",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Eva Wittenberg' eindeutiger Treffer mit institutionellem Match auf 'CEU' (works=80, cited=823)."
+  },
+  "Ernst Karl Csencsics": {
+    "openalex_id": "A5048523710",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Ernst Csencsics' eindeutiger Treffer mit institutionellem Match auf 'TU Wien' (works=94, cited=958)."
+  },
+  "Uwe Wilhelm Drofenik": {
+    "openalex_id": "A5055111804",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Uwe Drofenik' eindeutiger Treffer mit institutionellem Match auf 'TU Wien' (works=84, cited=3351)."
+  },
+  "Stefan Michael Wagner": {
+    "openalex_id": "A5073284900",
+    "_note": "geprüft 2026-09-17 (automatisierter Namensvarianten-Retry): unter Kurzform 'Stefan Wagner' eindeutiger Treffer mit institutionellem Match auf 'Uni Wien' (works=228, cited=18730)."
+  },
+  "Pim Joannes Huis in 't Veld": {
+    "openalex_id": "A5032442106",
+    "_note": "geprüft 2026-09-17: zwei OpenAlex-Profile für dieselbe Person (identische Topics Mitose/Mikrotubuli, gleiche Uni-Wien/Max-Perutz-Labs-Affiliation); works=40/cited=2245 ist das vollständige Profil, die zweite ID (1 Werk) ein Fragment-Duplikat."
+  },
+  "Christoph Manfred Drobner": {
+    "openalex_id": "A5034317428",
+    "_note": "geprüft 2026-09-17: drei Kandidaten namens Christoph Drobner; A5034317428 (works=23/cited=75, Behavioral Economics, CEU+TU München) ist das substanzielle Profil, die anderen zwei (je 2 Werke, keine Topics) sind Fragment-Duplikate."
+  },
+  "Ekaterina Benavente-Fokina": {
+    "openalex_id": "A5084954961",
+    "_note": "geprüft 2026-09-17: publiziert als 'Ekaterina Fokina' (Doppelname in Stammdaten); TU-Wien-Affiliation bestätigt den Treffer."
+  },
+  "Karl Stöger Mjur": {
+    "openalex_id": "A5080190256",
+    "_note": "geprüft 2026-09-17: 'Mjur'-Suffix in Stammdaten ist ein Datenartefakt; unter 'Karl Stöger' Treffer mit works=125 (Uni Wien + MedUni Wien), passt zu Medizinrecht; von Namensvetter mit 2 Werken unterschieden."
+  },
+  "Henrik Jan Ankersmit": {
+    "openalex_id": "A5065162127",
+    "_note": "geprüft 2026-09-17: richtige Schreibweise ist 'Hendrik' (nicht 'Henrik'); works=363/cited=8643 an der MedUni Wien passt eindeutig zu Thoraxchirurgie."
+  },
+  "Sophia Khom-Steinkellner": {
+    "openalex_id": "A5004795848",
+    "_note": "geprüft 2026-09-17: publiziert als 'Sophia Khom' (ohne Doppelname); Uni-Wien-Affiliation bestätigt den Treffer."
+  },
+  "Ulrike Zartler-Griessl": {
+    "openalex_id": "A5066490363",
+    "_note": "geprüft 2026-09-17: publiziert als 'Ulrike Zartler' (ohne Doppelname); Uni-Wien-Affiliation und works=71/cited=920 passen zu Familiensoziologie."
+  },
+  "Yurii Malitskyi": {
+    "openalex_id": "A5108689235",
+    "_note": "geprüft 2026-09-17: publiziert als 'Yura Malitsky' (andere Transliteration); Uni-Wien-Affiliation und Fachgebiet (Optimization) passen exakt."
+  },
+  "Victor Lagutov": {
+    "openalex_id": "A5035580850",
+    "_note": "geprüft 2026-09-17: Namensschreibweise 'Viktor' statt 'Victor'; CEU-Affiliation und Fach (Environmental Sciences and Policy) passen exakt."
+  },
+  "Maria Magdalena Ortiz De La Fuente": {
+    "openalex_id": "A5082472539",
+    "_note": "geprüft 2026-09-17: publiziert als 'Magdalena Ortiz' (bekannte Knowledge-Representation-Forscherin); TU-Wien-Affiliation und works=128/cited=1734 bestätigen den Treffer eindeutig."
+  },
+  "Shaul Pollak Pasternak": {
+    "openalex_id": "A5025989078",
+    "_note": "geprüft 2026-09-17: publiziert als 'Shaul Pollak' (ohne zweiten Nachnamen); Uni-Wien-Affiliation bestätigt den Treffer."
+  },
+  "Tomasso Meozzi": {
+    "openalex_id": "A5004009116",
+    "_note": "geprüft 2026-09-17: korrekte Schreibweise 'Tommaso' (Doppel-m); Uni-Wien-Affiliation bestätigt den einzigen Treffer."
+  },
+  "Jascha Gruebel": {
+    "openalex_id": "A5081738167",
+    "_note": "geprüft 2026-09-17: publiziert mit Umlaut als 'Jascha Grübel'; CEU-Affiliation bestätigt den Treffer."
+  },
+  "Monika Maria Pietrzak-Franger": {
+    "openalex_id": "A5049070133",
+    "_note": "geprüft 2026-09-17: publiziert als 'Monika Pietrzak-Franger' (ohne Mittelnamen); Uni-Wien-Affiliation direkt gelistet, Topics (Shakespeare/Literaturkritik, Cinema/Media Studies) passen exakt zu Anglistik."
+  },
+  "Zsofia Luca Barany": {
+    "openalex_id": "A5043232246",
+    "_note": "geprüft 2026-09-17: publiziert als 'Zsófia Bárány' (Diakritika fehlten, Mittelname 'Luca' weggelassen); CEU direkt in Affiliationsliste, Topics (Lohnungleichheit, Wirtschaftswachstum) passen exakt zu Economics."
+  },
+  "Susanne Auer-Meyer": {
+    "openalex_id": "A5061761382",
+    "_note": "geprüft 2026-09-17: publiziert als 'Susanne Auer-Mayer' (Mayer statt Meyer); works=88 mit WU-Wien-Affiliation bestätigt den Treffer eindeutig."
+  },
+  "Kamila Maria Staudigl-Ciechkowicz": {
+    "openalex_id": "A5013114803",
+    "_note": "geprüft 2026-09-17: publiziert als 'Kamila Staudigl-Ciechowicz' (ein 'k' weniger); Uni-Wien-Affiliation und Topics (Law and Political Science, Historical Legal Studies) passen exakt zu Rechtsgeschichte trotz verrauschter Fremdaffiliationen (Twitter, Lexmark u.a. sind OpenAlex-Fehlzuordnungen)."
   }
 }
