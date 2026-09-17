@@ -47625,5 +47625,183 @@
     "herkunft_institution": "Medical University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Ernst Strouhal": {
+    "name": "Ernst Strouhal",
+    "openalex_id": "A5057307916",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 8,
+    "cited_by_count": 7,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Arts Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021,
+          2011,
+          2000
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Kulturwissenschaften. h-Index: 1 | Publikationen: 8 | Zitierungen: 7.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Applied Arts Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sebastian Felten": {
+    "name": "Sebastian Felten",
+    "openalex_id": "A5051839083",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 46,
+    "cited_by_count": 156,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2022,
+          2020,
+          2019,
+          1970
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hochschule Campus Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Institut für Zeitgeschichte München–Berlin",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "TU Bergakademie Freiberg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "King's College London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2022,
+          2017,
+          2015
+        ],
+        "most_recent": 2022
+      }
+    ],
+    "bio_text": "Wissenschaftsgeschichte der Frühen Neuzeit. h-Index: 6 | Publikationen: 46 | Zitierungen: 156. Forschungstätigkeit u.a. in Österreich, Deutschland, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Christoph Traxler": {
+    "name": "Christoph Traxler",
+    "openalex_id": "A5089387318",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 84,
+    "cited_by_count": 885,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "VRVis GmbH (Austria)",
+        "country": "AT",
+        "type": "company",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of St Andrews",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2018
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2012,
+          2010,
+          1998,
+          1996
+        ],
+        "most_recent": 2012
+      },
+      {
+        "name": "Justus-Liebig-Universität Gießen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          1999,
+          1997,
+          1996,
+          1994
+        ],
+        "most_recent": 1999
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          1996
+        ],
+        "most_recent": 1996
+      }
+    ],
+    "bio_text": "Klavier. h-Index: 14 | Publikationen: 84 | Zitierungen: 885. Forschungstätigkeit u.a. in Österreich, Vereinigtes Königreich, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "VRVis GmbH (Austria)",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }

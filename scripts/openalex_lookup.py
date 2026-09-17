@@ -29,6 +29,14 @@ OVERRIDES = ROOT / "scripts" / "openalex_overrides.json"
 UA = "Berufungsradar/1.0 (mailto:benjamin.missbach@wwtf.at)"
 MAILTO = "benjamin.missbach@wwtf.at"
 
+# API-Key liegt bewusst AUSSERHALB des (oeffentlichen!) Repos, damit er nie
+# versehentlich committet wird. Ohne Key laeuft das Script weiter, nur mit
+# dem viel kleineren anonymen Tagesbudget (siehe OpenAlex-Doku: ein
+# kostenloser Key gibt ein Vielfaches des Budgets ohne Key).
+_KEY_PATH = Path.home() / ".berufungsradar_openalex_key"
+API_KEY = _KEY_PATH.read_text().strip() if _KEY_PATH.exists() else None
+API_KEY_PARAM = f"&api_key={API_KEY}" if API_KEY else ""
+
 COUNTRY_NAMES_DE = {
     "US": "USA",
     "GB": "Vereinigtes Königreich",
@@ -78,7 +86,7 @@ COUNTRY_NAMES_DE = {
 def openalex_search_author(name: str) -> dict | None:
     """Return top match or None."""
     q = urllib.parse.quote(name)
-    url = f"https://api.openalex.org/authors?search={q}&per_page=3&mailto={MAILTO}"
+    url = f"https://api.openalex.org/authors?search={q}&per_page=3&mailto={MAILTO}{API_KEY_PARAM}"
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     for versuch in range(3):
         try:
@@ -103,7 +111,7 @@ def openalex_search_author(name: str) -> dict | None:
 
 def openalex_get_author(author_id: str) -> dict | None:
     """Fetch a specific author by ID (for verified overrides)."""
-    url = f"https://api.openalex.org/authors/{author_id}?mailto={MAILTO}"
+    url = f"https://api.openalex.org/authors/{author_id}?mailto={MAILTO}{API_KEY_PARAM}"
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
@@ -118,7 +126,7 @@ def openalex_get_works(author_id: str, per_page=200) -> list:
     works = []
     cursor = "*"
     while cursor:
-        url = f"https://api.openalex.org/works?filter=authorships.author.id:{author_id}&per_page={per_page}&cursor={cursor}&mailto={MAILTO}"
+        url = f"https://api.openalex.org/works?filter=authorships.author.id:{author_id}&per_page={per_page}&cursor={cursor}&mailto={MAILTO}{API_KEY_PARAM}"
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
