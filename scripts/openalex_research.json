@@ -75175,5 +75175,187 @@
     "herkunft_institution": "Universität Zürich, Institut für Politikwissenschaft (Postdoc)",
     "herkunft_land": "Schweiz",
     "grants": []
+  },
+  "Iman Issa": {
+    "name": "Iman Issa",
+    "openalex_id": "A5019526545",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 9,
+    "cited_by_count": 114,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "Mansoura University",
+        "country": "EG",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "King Saud University",
+        "country": "SA",
+        "type": "education",
+        "years": [
+          2023,
+          2021,
+          2020,
+          2015
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Bildhauerei (performative Bildhauerei, Nachfolge Monica Bonvicini). h-Index: 4 | Publikationen: 9 | Zitierungen: 114. Forschungstätigkeit u.a. in EG, SA.",
+    "herkunft": "extern",
+    "herkunft_institution": "King Saud University",
+    "herkunft_land": "SA",
+    "grants": []
+  },
+  "Miya Yoshida": {
+    "name": "Miya Yoshida",
+    "openalex_id": "A5083039760",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 25,
+    "cited_by_count": 240,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "New York Hospital Queens",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Island Hospital",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "UC Irvine Health",
+        "country": "US",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Western University of Health Sciences",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Scripps Research Institute",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2016,
+          2013
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Künstlerische Forschung (Leitung Zentrum Fokus Forschung). h-Index: 6 | Publikationen: 25 | Zitierungen: 240. Forschungstätigkeit u.a. in USA, Japan.",
+    "herkunft": "extern",
+    "herkunft_institution": "UC Irvine Health",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "David Gissen": {
+    "name": "David Gissen",
+    "openalex_id": "A5042154274",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 34,
+    "cited_by_count": 133,
+    "h_index": 5,
+    "last_known_institutions": [
+      {
+        "name": "New School",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2024,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Parsons School of Design",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "California College of the Arts",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2016,
+          2015,
+          2007
+        ],
+        "most_recent": 2016
+      },
+      {
+        "name": "Pennsylvania State University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2006
+        ],
+        "most_recent": 2006
+      },
+      {
+        "name": "Harvard University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          1985
+        ],
+        "most_recent": 1985
+      }
+    ],
+    "bio_text": "Architektur (IKA, Plattformen HTC/GLC). h-Index: 5 | Publikationen: 34 | Zitierungen: 133.",
+    "herkunft": "extern",
+    "herkunft_institution": "California College of the Arts",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Sam Chermayeff": {
+    "name": "Sam Chermayeff",
+    "openalex_id": "A5059811841",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 4,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "Architekturentwurf 1 (Institut für Architektur, Nachfolge Díaz Moreno/García Grinda).",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
   }
 }

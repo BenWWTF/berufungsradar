@@ -75,5 +75,19 @@
     "herkunft_land": "Österreich",
     "source": "https://www.soz.univie.ac.at/ana-mijic/",
     "note": "Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
+  },
+  "Sam Chermayeff": {
+    "herkunft": "extern",
+    "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
+    "herkunft_land": null,
+    "source": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+    "note": "Angewandte-News 20.09.2024: Gründungspartner der Büros, Projekte in Berlin und New York; Land nicht eindeutig"
+  },
+  "David Gissen": {
+    "herkunft": "extern",
+    "herkunft_institution": "California College of the Arts (12 Jahre Professor); 2019 Eero Saarinen Professor, Yale University",
+    "herkunft_land": "USA",
+    "source": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
+    "note": "UCLA AUD 2020"
   }
 }

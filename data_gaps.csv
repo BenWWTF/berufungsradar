@@ -1,4 +1,6 @@
 name;universitaet;fehlend;nur_auto_befuellt;uni_suche;google
+Iman Issa;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Iman%20Issa+Akademie+Professur
+Miya Yoshida;Angewandte;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Miya%20Yoshida;https://www.google.com/search?q=Miya%20Yoshida+Angewandte+Professur
 Farsam Salimi;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Farsam%20Salimi;https://www.google.com/search?q=Farsam%20Salimi+Uni%20Wien+Professur
 Olga Makarova;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Olga%20Makarova;https://www.google.com/search?q=Olga%20Makarova+Vetmeduni%20Wien+Professur
 Charles David Shaw;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Charles%20David%20Shaw+CEU+Professur
@@ -10,9 +12,11 @@ Paul Voss;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland
 Tyanif Rico-Rodriguez;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Tyanif%20Rico-Rodriguez+CEU+Professur
 Sarah Davies;Uni Wien;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Sarah%20Davies;https://www.google.com/search?q=Sarah%20Davies+Uni%20Wien+Professur
 Sara Ricci;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Sara%20Ricci;https://www.google.com/search?q=Sara%20Ricci+Vetmeduni%20Wien+Professur
+Sam Chermayeff;Angewandte;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Sam%20Chermayeff;https://www.google.com/search?q=Sam%20Chermayeff+Angewandte+Professur
 Bouchra Khalili;Angewandte;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Bouchra%20Khalili;https://www.google.com/search?q=Bouchra%20Khalili+Angewandte+Professur
 Michael Carnegie La Belle;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Michael%20Carnegie%20La%20Belle+CEU+Professur
 Farsam Salimi;Uni Wien;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Farsam%20Salimi;https://www.google.com/search?q=Farsam%20Salimi+Uni%20Wien+Professur
+David Gissen;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=David%20Gissen+Akademie+Professur
 Alexis Rider;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Alexis%20Rider;https://www.google.com/search?q=Alexis%20Rider+Uni%20Wien+Professur
 Ana Mijić;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Ana%20Miji%C4%87;https://www.google.com/search?q=Ana%20Miji%C4%87+Uni%20Wien+Professur
 Johannes Müller;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Johannes%20M%C3%BCller;https://www.google.com/search?q=Johannes%20M%C3%BCller+Uni%20Wien+Professur
@@ -887,6 +891,7 @@ Alba Hykollari;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vet
 Alice Auersperg;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Alice%20Auersperg;https://www.google.com/search?q=Alice%20Auersperg+Vetmeduni%20Wien+Professur
 Amelie Desvars-Larrive;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Amelie%20Desvars-Larrive;https://www.google.com/search?q=Amelie%20Desvars-Larrive+Vetmeduni%20Wien+Professur
 Astrid Holzer;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Astrid%20Holzer;https://www.google.com/search?q=Astrid%20Holzer+Vetmeduni%20Wien+Professur
+Barbara Metzler-Zebeli;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Barbara%20Metzler-Zebeli;https://www.google.com/search?q=Barbara%20Metzler-Zebeli+Vetmeduni%20Wien+Professur
 Barbara Metzler-Zebeli;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Barbara%20Metzler-Zebeli;https://www.google.com/search?q=Barbara%20Metzler-Zebeli+Vetmeduni%20Wien+Professur
 Borbala Foris;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Borbala%20Foris;https://www.google.com/search?q=Borbala%20Foris+Vetmeduni%20Wien+Professur
 Christof Bertram;Vetmeduni Wien;Institut;Werdegang/CV, Profil-Link;https://www.vetmeduni.ac.at/suche?q=Christof%20Bertram;https://www.google.com/search?q=Christof%20Bertram+Vetmeduni%20Wien+Professur

@@ -1,5 +1,95 @@
 [
  {
+  "name": "David Gissen",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Institut für Kunst und Architektur",
+  "fakultat_code": null,
+  "forschungsbereich": "Architektur (IKA, Plattformen HTC/GLC)",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "California College of the Arts (12 Jahre Professor); 2019 Eero Saarinen Professor, Yale University",
+  "herkunft_land": "USA",
+  "ofos_code": "211",
+  "ofos_label": "Andere Technische Wissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
+  "_kuratiert": "Handrecherche 2026-09-24: UCLA AUD 2020: 'University Professor (2019-20) at the Academy of Fine Arts, Vienna'; IKA-Archiv W19 Projekt Gissen/Herold. Yale nennt es 'visiting academic position'. Passt auf die einzige Berufung der Wissensbilanz 2019 (§99(1), Architektur, männlich); Zuordnung ist Schluss aus Fach, Jahr und Geschlecht, Monat aus Wintersemester 2019/20 abgeleitet.",
+  "_herkunft_research": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "21",
+  "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 34,
+   "cited_by_count": 133,
+   "h_index": 5,
+   "last_known_institutions": [
+    {
+     "name": "New School",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2024,
+      2020
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Parsons School of Design",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "California College of the Arts",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2016,
+      2015,
+      2007
+     ],
+     "most_recent": 2016
+    },
+    {
+     "name": "Pennsylvania State University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2006
+     ],
+     "most_recent": 2006
+    },
+    {
+     "name": "Harvard University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      1985
+     ],
+     "most_recent": 1985
+    }
+   ],
+   "openalex_id": "A5042154274"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
   "name": "Cristina Díaz Moreno",
   "universitat": "Angewandte",
   "fakultat": "Institut für Architektur",
@@ -8437,6 +8527,113 @@
   "wwtf_programme": []
  },
  {
+  "name": "Barbara Metzler-Zebeli",
+  "universitat": "Vetmeduni Wien",
+  "monat": null,
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Department für Biomedizinische Wissenschaften",
+  "fakultat_code": null,
+  "forschungsbereich": "Ernährungsphysiologie",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": "intern",
+  "herkunft_institution": "Veterinärmedizinische Universität Wien",
+  "herkunft_land": "Österreich",
+  "ofos_code": "301",
+  "ofos_label": "Grundlagenmedizin",
+  "bio_text": "Nachhaltige Pflanzenmetaboliten-Tier-Interaktionen. h-Index: 42 | Publikationen: 187 | Zitierungen: 5548. Forschungstätigkeit u.a. in Deutschland, Frankreich, Österreich, USA.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Animal Welfare Institute (US), 2026 · University of Veterinary Medicine Vienna, 2012–2026 · Christian Doppler Laboratory for Thermoelectricity, 2024–2025 · University of Vienna, 2022 · Czech Academy of Sciences, Institute of Physiology (CZ), 2022.",
+  "profil_url": "https://openalex.org/A5009930217",
+  "quelle": "https://www.vetmeduni.ac.at/fileadmin/v/z/mitteilungsblatt/organisation/Archiv/Wissensbilanz_2019.pdf",
+  "_kuratiert": "Handrecherche 2026-09-24: Wissensbilanz 2019, Kennzahl 1.A.2 (S. 117): einzige Berufung 2019, §99 Abs. 1 UG, Fach Ernährungsphysiologie, Frau, eigene Universität. Name über Mitteilungsblatt 2018/19 14. Stück (Gastprofessur Ernährungsphysiologie §99(1), 5 Jahre, mit Abteilungsleitung) und Webarchiv 14.08.2020 (Leitung Abteilung Ernährungsphysiologie: Univ.-Prof. Barbara Metzler-Zebeli). Die Laufbahnstelle ab Oktober 2024 ist ein eigener Datensatz.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 187,
+   "cited_by_count": 5548,
+   "h_index": 42,
+   "last_known_institutions": [
+    {
+     "name": "Animal Welfare Institute",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Veterinary Medicine Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Christian Doppler Laboratory for Thermoelectricity",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2025,
+      2024
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Czech Academy of Sciences, Institute of Physiology",
+     "country": "CZ",
+     "type": "facility",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5009930217"
+  },
+  "openalex_id": "A5009930217",
+  "h_index": 42,
+  "publikationen": 187,
+  "zitierungen": 5548,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Almut Köster",
   "universitat": "WU Wien",
   "monat": "SEPTEMBER",
@@ -9281,6 +9478,69 @@
   },
   "openalex_id": "A5007272607",
   "profil_url_auto": true
+ },
+ {
+  "name": "Iman Issa",
+  "universitat": "Akademie",
+  "monat": null,
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Institut für bildende Kunst",
+  "fakultat_code": null,
+  "forschungsbereich": "Bildhauerei (performative Bildhauerei, Nachfolge Monica Bonvicini)",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2020/iman-issa-wird-professorin-fuer-bildhauerei",
+  "_kuratiert": "Handrecherche 2026-09-24: Akademie-News 2020 'Iman Issa wird Professorin für Bildhauerei'; PARNASS 23.01.2020 (berufen); SKD 2024: '2020 Professur für performative Bildhauerei'. Vermutlich die dritte, bisher unbenannte §98-Berufung der Wissensbilanz 2020; Paragraf in keiner Quelle genannt.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 9,
+   "cited_by_count": 114,
+   "h_index": 4,
+   "last_known_institutions": [
+    {
+     "name": "Mansoura University",
+     "country": "EG",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "King Saud University",
+     "country": "SA",
+     "type": "education",
+     "years": [
+      2023,
+      2021,
+      2020,
+      2015
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5019526545"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
  },
  {
   "name": "Katja Sterflinger",
@@ -58355,60 +58615,6 @@
   "_note": " Geschlecht aus Vorname inferiert (M)."
  },
  {
-  "name": "Emily Wardill",
-  "universitat": "Akademie",
-  "fakultat": "Institut für bildende Kunst",
-  "fakultat_code": null,
-  "forschungsbereich": "Kunst und Film",
-  "art_berufung": "§98",
-  "geschlecht": "W",
-  "herkunft": "extern",
-  "herkunft_institution": "freischaffend (vorherige Lehraufträge an Kunstakademie Malmö, Städelschule u.a.)",
-  "herkunft_land": "Vereinigtes Königreich",
-  "ofos_code": "604",
-  "ofos_label": "Kunstwissenschaften",
-  "bio_text": null,
-  "werdegang": "Arbeitet in den Bereichen Film, Video, Skulptur, Fotografie und Installation; Ausstellungen in KW Berlin, Secession Wien, Gulbenkian Project Spaces Lissabon, SMK Kopenhagen, de Appel Amsterdam, List Centre MIT Boston, ICA London, Serpentine Gallery, Hayward Gallery, MUMOK Wien, MOCA Miami; 54. Biennale Venedig, 19. Biennale Sydney, GHOST 2565 Bangkok 2022; Lehrtätigkeit Kunstakademie Malmö, Uni der Künste Helsinki, Maumaus Lissabon, UBC, Central Saint Martins, Akademie der Bildenden Künste München, School of the Art Institute Chicago, National Art School Sydney, Städelschule, Goldsmiths, CCA San Francisco",
-  "profil_url": "https://www.akbild.ac.at/de/news/2024/neue-professor_innen-ab-1-3.2024",
-  "monat": "OKTOBER",
-  "year": 2023,
-  "quelle": "https://www.akbild.ac.at/de/news/2023/neue-professor_in-fuer-kunst-und-film-ab-1-10-emily-wardill",
-  "stufe": 1,
-  "_ofos_auto": true,
-  "ofos_bereich_code": "6",
-  "ofos_bereich": "Geisteswissenschaften",
-  "ofos_hauptgruppe_code": "60",
-  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
-  "fakultat_institut": null,
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
-  "wwtf_programme": [],
-  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; in der Meldung vom 1.3.2024 erneut begrüßt; Handrecherche (Werdegang) via https://www.akbild.ac.at/de/news/2024/neue-professor_innen-ab-1-3.2024: Handrecherche 2026-08-24 aus Akademie-Berufungsmeldung 2024",
-  "_openalex": {
-   "works_count": 34,
-   "cited_by_count": 1,
-   "h_index": 1,
-   "last_known_institutions": [
-    {
-     "name": "Royal Academy of Fine Arts",
-     "country": "SE",
-     "type": "archive",
-     "years": [
-      2020,
-      2019,
-      2018,
-      2016,
-      2015,
-      2013
-     ],
-     "most_recent": 2020
-    }
-   ],
-   "openalex_id": "A5009823363"
-  }
- },
- {
   "name": "Monika Kammer",
   "universitat": "Akademie",
   "fakultat": "Institut für Konservierung-Restaurierung",
@@ -72923,6 +73129,60 @@
   }
  },
  {
+  "name": "Emily Wardill",
+  "universitat": "Akademie",
+  "fakultat": "Institut für bildende Kunst",
+  "fakultat_code": null,
+  "forschungsbereich": "Kunst und Film",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend (vorherige Lehraufträge an Kunstakademie Malmö, Städelschule u.a.)",
+  "herkunft_land": "Vereinigtes Königreich",
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": "Arbeitet in den Bereichen Film, Video, Skulptur, Fotografie und Installation; Ausstellungen in KW Berlin, Secession Wien, Gulbenkian Project Spaces Lissabon, SMK Kopenhagen, de Appel Amsterdam, List Centre MIT Boston, ICA London, Serpentine Gallery, Hayward Gallery, MUMOK Wien, MOCA Miami; 54. Biennale Venedig, 19. Biennale Sydney, GHOST 2565 Bangkok 2022; Lehrtätigkeit Kunstakademie Malmö, Uni der Künste Helsinki, Maumaus Lissabon, UBC, Central Saint Martins, Akademie der Bildenden Künste München, School of the Art Institute Chicago, National Art School Sydney, Städelschule, Goldsmiths, CCA San Francisco",
+  "profil_url": "https://www.akbild.ac.at/de/news/2024/neue-professor_innen-ab-1-3.2024",
+  "monat": "MÄRZ",
+  "year": 2024,
+  "quelle": "https://www.akbild.ac.at/de/news/2023/neue-professor_in-fuer-kunst-und-film-ab-1-10-emily-wardill",
+  "stufe": 1,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [],
+  "_kuratiert": "Handrecherche 2026-08-22 aus akbild-News; in der Meldung vom 1.3.2024 erneut begrüßt; Handrecherche (Werdegang) via https://www.akbild.ac.at/de/news/2024/neue-professor_innen-ab-1-3.2024: Handrecherche 2026-08-24 aus Akademie-Berufungsmeldung 2024 2026-09-24: Jahr 2023→2024 korrigiert: Akademie-News 'Neue Professor_innen ab 1.3.2024' (Universitätsprofessur § 98 Kunst und Zeit | Film) und Mitarbeiter_innen-Liste SoSe 2024; die ursprünglich angekündigte Besetzung ab 1.10.2023 wurde verschoben.",
+  "_openalex": {
+   "works_count": 34,
+   "cited_by_count": 1,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "Royal Academy of Fine Arts",
+     "country": "SE",
+     "type": "archive",
+     "years": [
+      2020,
+      2019,
+      2018,
+      2016,
+      2015,
+      2013
+     ],
+     "most_recent": 2020
+    }
+   ],
+   "openalex_id": "A5009823363"
+  }
+ },
+ {
   "name": "Lars Fischer",
   "universitat": "Akademie",
   "monat": "OKTOBER",
@@ -73576,6 +73836,139 @@
   },
   "openalex_id": "A5086871394",
   "profil_url_auto": true
+ },
+ {
+  "name": "Miya Yoshida",
+  "universitat": "Angewandte",
+  "monat": "SEPTEMBER",
+  "year": 2024,
+  "stufe": 1,
+  "fakultat": "Zentrum Fokus Forschung",
+  "fakultat_code": null,
+  "forschungsbereich": "Künstlerische Forschung (Leitung Zentrum Fokus Forschung)",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.dieangewandte.at/en/news/news/news_detail?news_id=1722998534412",
+  "_kuratiert": "Handrecherche 2026-09-24: Angewandte-News 07.08.2024 (Professur ab September 2024); Mitteilungsblatt 2023/24 Stück 17 Nr. 42: Universitätsprofessur Künstlerische Forschung, befristet auf fünf Jahre (§ 99.1), spätestens 1.9.2024, 20 Wochenstunden. Deckt die §99(1)-Frau der WB-2025-Vergleichsspalte 2024.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 25,
+   "cited_by_count": 240,
+   "h_index": 6,
+   "last_known_institutions": [
+    {
+     "name": "New York Hospital Queens",
+     "country": "US",
+     "type": "healthcare",
+     "years": [
+      2025,
+      2022,
+      2021,
+      2020,
+      2019
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Island Hospital",
+     "country": "US",
+     "type": "healthcare",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "UC Irvine Health",
+     "country": "US",
+     "type": "healthcare",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Western University of Health Sciences",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2017
+     ],
+     "most_recent": 2017
+    },
+    {
+     "name": "Scripps Research Institute",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2016,
+      2013
+     ],
+     "most_recent": 2016
+    }
+   ],
+   "openalex_id": "A5083039760"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Sam Chermayeff",
+  "universitat": "Angewandte",
+  "monat": "OKTOBER",
+  "year": 2024,
+  "stufe": 1,
+  "fakultat": "Institut für Architektur (I oA)",
+  "fakultat_code": null,
+  "forschungsbereich": "Architekturentwurf 1 (Institut für Architektur, Nachfolge Díaz Moreno/García Grinda)",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
+  "herkunft_land": null,
+  "ofos_code": "211",
+  "ofos_label": "Andere Technische Wissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+  "_kuratiert": "Handrecherche 2026-09-24: Angewandte-News 20.09.2024 'Sam Chermayeff wird Professor für Architekturentwurf 1'; e-flux 24.09.2024: ab Oktober 2024. Paragraf in keiner Quelle genannt.",
+  "_herkunft_research": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "21",
+  "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 4,
+   "cited_by_count": 0,
+   "h_index": 0,
+   "last_known_institutions": [],
+   "openalex_id": "A5059811841"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
  },
  {
   "name": "Fernando Cordero",
