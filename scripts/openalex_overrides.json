@@ -287,5 +287,73 @@
   "Kamila Maria Staudigl-Ciechkowicz": {
     "openalex_id": "A5013114803",
     "_note": "geprüft 2026-09-17: publiziert als 'Kamila Staudigl-Ciechowicz' (ein 'k' weniger); Uni-Wien-Affiliation und Topics (Law and Political Science, Historical Legal Studies) passen exakt zu Rechtsgeschichte trotz verrauschter Fremdaffiliationen (Twitter, Lexmark u.a. sind OpenAlex-Fehlzuordnungen)."
+  },
+  "Anna Seidel": {
+    "openalex_id": "A5121011857",
+    "herkunft": "extern",
+    "herkunft_institution": "Humboldt-Universität zu Berlin, Institut für Slawistik und Hungarologie",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Research Associate HU Berlin 2023–2025; OpenAlex zersplittert, Metriken unterschätzt. Quelle: https://ucrisportal.univie.ac.at/en/persons/anna-seidel/"
+  },
+  "Nickolas Panayiotis Roubekas": {
+    "openalex_id": "A5070406846",
+    "herkunft": "extern",
+    "herkunft_institution": "Aristotle University of Thessaloniki, Department of Theology",
+    "herkunft_land": "Griechenland",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Assistant Professor AUTh 08/2024–11/2025, davor Universitätsassistent Wien 2017–2023. Quelle: https://pub.orcid.org/v3.0/0000-0001-8537-0622/record"
+  },
+  "Riza Yildirim": {
+    "openalex_id": "A5040689853",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Position vor 07/2025 nicht belegt; Herkunft bewusst offen, damit OpenAlex nicht TOBB 2015 einsetzt. Quelle: https://iits.univie.ac.at/ueber-uns/riza-yildirim"
+  },
+  "Jennifer Meyer": {
+    "openalex_id": "A5043201141",
+    "herkunft": "extern",
+    "herkunft_institution": "IPN – Leibniz-Institut für die Pädagogik der Naturwissenschaften und Mathematik, Kiel",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Nachwuchsgruppenleiterin IPN Kiel; OpenAlex über ORCID 0000-0002-5714-3198. Quelle: https://ucrisportal.univie.ac.at/en/persons/jennifer-meyer/"
+  },
+  "Pere Gelabert Xirinachs": {
+    "openalex_id": "A5048553894",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Department für Evolutionäre Anthropologie",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Postdoc Evolutionäre Anthropologie Wien seit 2019. Quelle: https://lifesciences.univie.ac.at/news-events/newsordner/einzelansicht/news/pere-gelabert-receives-erc-starting-grant/"
+  },
+  "Alexis Rider": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – Postdoc Cambridge; OpenAlex nur zersplitterte Profile"
+  },
+  "Johannes Müller": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – 9 Jahre JLU Gießen bis 30.6.2025; OpenAlex-Profil mit Namensvetter vermischt, daher keine Metriken"
+  },
+  "Regina Fritz-Klinger": {
+    "openalex_id": "A5088293708",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Bern, Historisches Institut",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): PostDoc Bern, seit 2025 TT Zeitgeschichte Wien; publiziert als Regina Fritz. Quelle: https://zeitgeschichte.univie.ac.at/lucile-dreidemy/, https://pub.orcid.org/v3.0/0000-0002-7460-2165/employments"
+  },
+  "Ana Mijić": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
+  },
+  "Karen Azari": {
+    "openalex_id": "A5135461119",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zürich (Postdoc)",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): PhD ISTA, Postdoc ETH Zürich; früher publiziert als Karen Klein (vermischtes OpenAlex-Profil nicht verwendet). Quelle: https://homepage.univie.ac.at/karen.azari/"
+  },
+  "Reto Bürgisser": {
+    "openalex_id": "A5065460186",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Zürich, Institut für Politikwissenschaft (Postdoc)",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Postdoc UZH 02/2020–07/2025, TT Wien ab 08/2025. Quelle: https://retobuergisser.com/media/burgisser_cv.pdf"
   }
 }

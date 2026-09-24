@@ -66386,49 +66386,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Alexis Rider": {
-    "name": "Alexis Rider",
-    "openalex_id": "A5092840226",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 17,
-    "h_index": 1,
-    "last_known_institutions": [
-      {
-        "name": "University of London",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "School of Advanced Study",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Institute of Historical Research",
-        "country": "GB",
-        "type": "facility",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      }
-    ],
-    "bio_text": "Historische Dimensionen des Anthropozäns. h-Index: 1 | Publikationen: 1 | Zitierungen: 17.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of London",
-    "herkunft_land": "Vereinigtes Königreich",
-    "grants": []
-  },
   "Juliane Schiel": {
     "name": "Juliane Schiel",
     "openalex_id": "A5011245866",
@@ -66655,89 +66612,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Johannes Müller": {
-    "name": "Johannes Müller",
-    "openalex_id": "A5012807288",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 218,
-    "cited_by_count": 17979,
-    "h_index": 51,
-    "last_known_institutions": [
-      {
-        "name": "Christian-Albrechts-Universität zu Kiel",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2026
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Humboldt-Universität zu Berlin",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2026,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019,
-          2018,
-          1994,
-          1993,
-          1991,
-          1988,
-          1979,
-          1978,
-          1976,
-          1975
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "GlobalFoundries (Germany)",
-        "country": "DE",
-        "type": "company",
-        "years": [
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019,
-          2018
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Fraunhofer Institute for Digital Medicine",
-        "country": "DE",
-        "type": "facility",
-        "years": [
-          2024
-        ],
-        "most_recent": 2024
-      },
-      {
-        "name": "University of Namur",
-        "country": "BE",
-        "type": "education",
-        "years": [
-          2020
-        ],
-        "most_recent": 2020
-      }
-    ],
-    "bio_text": "Soziologische Aspekte von Sport, Bewegung und Gesundheit. h-Index: 51 | Publikationen: 218 | Zitierungen: 17979. Forschungstätigkeit u.a. in USA, Belgien, Deutschland, China.",
-    "herkunft": "extern",
-    "herkunft_institution": "Christian-Albrechts-Universität zu Kiel",
-    "herkunft_land": "Deutschland",
     "grants": []
   },
   "Monika Stempkowski": {
@@ -67644,74 +67518,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Anna Seidel": {
-    "name": "Anna Seidel",
-    "openalex_id": "A5024608308",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 28,
-    "cited_by_count": 2253,
-    "h_index": 11,
-    "last_known_institutions": [
-      {
-        "name": "Beiersdorf (Germany)",
-        "country": "DE",
-        "type": "company",
-        "years": [
-          2025,
-          2024,
-          2023,
-          2022,
-          2021
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Medizinische Hochschule Hannover",
-        "country": "DE",
-        "type": "education",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "University of California, Berkeley",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "Kyoto University",
-        "country": "JP",
-        "type": "education",
-        "years": [
-          2021,
-          2018,
-          2017,
-          2016
-        ],
-        "most_recent": 2021
-      },
-      {
-        "name": "Kyoto University Hospital",
-        "country": "JP",
-        "type": "healthcare",
-        "years": [
-          2017
-        ],
-        "most_recent": 2017
-      }
-    ],
-    "bio_text": "West Slavic Literatures and Cultures. h-Index: 11 | Publikationen: 28 | Zitierungen: 2253. Forschungstätigkeit u.a. in Deutschland, Japan, Kanada, Vereinigtes Königreich.",
-    "herkunft": "extern",
-    "herkunft_institution": "Beiersdorf (Germany)",
-    "herkunft_land": "Deutschland",
-    "grants": []
-  },
   "Andreas Gulyas": {
     "name": "Andreas Gulyas",
     "openalex_id": "A5076548088",
@@ -67836,75 +67642,6 @@
     "herkunft": "extern",
     "herkunft_institution": "University of Copenhagen",
     "herkunft_land": "Dänemark",
-    "grants": []
-  },
-  "Reto Bürgisser": {
-    "name": "Reto Bürgisser",
-    "openalex_id": "A5065460186",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 27,
-    "cited_by_count": 581,
-    "h_index": 11,
-    "last_known_institutions": [
-      {
-        "name": "University of Zurich",
-        "country": "CH",
-        "type": "education",
-        "years": [
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "ZHAW Zurich University of Applied Sciences",
-        "country": "CH",
-        "type": null,
-        "years": [
-          2024,
-          2022,
-          2020
-        ],
-        "most_recent": 2024
-      },
-      {
-        "name": "European Commission",
-        "country": "BE",
-        "type": "government",
-        "years": [
-          2023
-        ],
-        "most_recent": 2023
-      },
-      {
-        "name": "University of Bern",
-        "country": "CH",
-        "type": "education",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      },
-      {
-        "name": "European University Institute",
-        "country": "IT",
-        "type": "education",
-        "years": [
-          2019,
-          2017
-        ],
-        "most_recent": 2019
-      }
-    ],
-    "bio_text": "Politikwissenschaft mit dem Schwerpunkt Sozialpolitikforschung. h-Index: 11 | Publikationen: 27 | Zitierungen: 581. Forschungstätigkeit u.a. in Schweiz, Belgien, Italien.",
-    "herkunft": "extern",
-    "herkunft_institution": "University of Zurich",
-    "herkunft_land": "Schweiz",
     "grants": []
   },
   "Katharina Kitzinger": {
@@ -68032,10 +67769,6 @@
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
-  },
-  "Nickolas Panayiotis Roubekas": {
-    "name": "Nickolas Panayiotis Roubekas",
-    "_openalex": "not found"
   },
   "Anna Antoniou": {
     "name": "Anna Antoniou",
@@ -68204,31 +67937,6 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Pere Gelabert Xirinachs": {
-    "name": "Pere Gelabert Xirinachs",
-    "openalex_id": "A5096733106",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 1,
-    "cited_by_count": 1,
-    "h_index": 1,
-    "last_known_institutions": [
-      {
-        "name": "Institut de Biologia Evolutiva",
-        "country": "ES",
-        "type": "facility",
-        "years": [
-          2017
-        ],
-        "most_recent": 2017
-      }
-    ],
-    "bio_text": "Paleogenomics. h-Index: 1 | Publikationen: 1 | Zitierungen: 1.",
-    "herkunft": "extern",
-    "herkunft_institution": "Institut de Biologia Evolutiva",
-    "herkunft_land": "Spanien",
     "grants": []
   },
   "Marcus Sperling": {
@@ -69052,82 +68760,6 @@
     "herkunft_land": "Österreich",
     "grants": []
   },
-  "Ana Mijić": {
-    "name": "Ana Mijić",
-    "openalex_id": "A5088123066",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 187,
-    "cited_by_count": 2524,
-    "h_index": 32,
-    "last_known_institutions": [
-      {
-        "name": "Imperial College London",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2026,
-          2025,
-          2024,
-          2023,
-          2022,
-          2021,
-          2020,
-          2019,
-          2018,
-          2017,
-          2016,
-          2015,
-          2014,
-          2013,
-          2012,
-          2010
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "Imperial Valley College",
-        "country": "US",
-        "type": "education",
-        "years": [
-          2025
-        ],
-        "most_recent": 2025
-      },
-      {
-        "name": "Greater London Authority",
-        "country": "GB",
-        "type": "government",
-        "years": [
-          2024
-        ],
-        "most_recent": 2024
-      },
-      {
-        "name": "NIHR Imperial Biomedical Research Centre",
-        "country": "GB",
-        "type": "facility",
-        "years": [
-          2022
-        ],
-        "most_recent": 2022
-      },
-      {
-        "name": "Kensington College of Business",
-        "country": "GB",
-        "type": "education",
-        "years": [
-          2019
-        ],
-        "most_recent": 2019
-      }
-    ],
-    "bio_text": "Qualitative Sozialforschung. h-Index: 32 | Publikationen: 187 | Zitierungen: 2524. Forschungstätigkeit u.a. in Vereinigtes Königreich, USA, Irland.",
-    "herkunft": "extern",
-    "herkunft_institution": "Imperial College London",
-    "herkunft_land": "Vereinigtes Königreich",
-    "grants": []
-  },
   "Benjamin Vernot": {
     "name": "Benjamin Vernot",
     "openalex_id": "A5008182805",
@@ -69202,78 +68834,6 @@
     "herkunft": "extern",
     "herkunft_institution": "Max Planck Institute for Evolutionary Anthropology",
     "herkunft_land": "Deutschland",
-    "grants": []
-  },
-  "Jennifer Meyer": {
-    "name": "Jennifer Meyer",
-    "openalex_id": "A5051963191",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 24,
-    "cited_by_count": 1773,
-    "h_index": 10,
-    "last_known_institutions": [
-      {
-        "name": "British Ecological Society",
-        "country": "GB",
-        "type": "other",
-        "years": [
-          2026,
-          2024,
-          2023,
-          2022,
-          2021,
-          2019,
-          2017,
-          2016,
-          2015,
-          2014,
-          2013
-        ],
-        "most_recent": 2026
-      },
-      {
-        "name": "British Psychological Society",
-        "country": "GB",
-        "type": "other",
-        "years": [
-          2017
-        ],
-        "most_recent": 2017
-      },
-      {
-        "name": "British Pharmacological Society",
-        "country": "GB",
-        "type": "other",
-        "years": [
-          2017
-        ],
-        "most_recent": 2017
-      },
-      {
-        "name": "National Institutes of Health",
-        "country": "US",
-        "type": "government",
-        "years": [
-          2013
-        ],
-        "most_recent": 2013
-      },
-      {
-        "name": "National Human Genome Research Institute",
-        "country": "US",
-        "type": "facility",
-        "years": [
-          2013,
-          2012
-        ],
-        "most_recent": 2013
-      }
-    ],
-    "bio_text": "Pädagogische Diagnostik und Beratung in der Schule. h-Index: 10 | Publikationen: 24 | Zitierungen: 1773. Forschungstätigkeit u.a. in USA, Vereinigtes Königreich.",
-    "herkunft": "extern",
-    "herkunft_institution": "British Ecological Society",
-    "herkunft_land": "Vereinigtes Königreich",
     "grants": []
   },
   "Jillian Petersen": {
@@ -69555,41 +69115,6 @@
     "herkunft": "extern",
     "herkunft_institution": "Austrian Academy of Sciences",
     "herkunft_land": "Österreich",
-    "grants": []
-  },
-  "Riza Yildirim": {
-    "name": "Riza Yildirim",
-    "openalex_id": "A5040689853",
-    "match_confidence": "low",
-    "herkunft_verified": false,
-    "works_count": 24,
-    "cited_by_count": 146,
-    "h_index": 7,
-    "last_known_institutions": [
-      {
-        "name": "TOBB University of Economics and Technology",
-        "country": "TR",
-        "type": "education",
-        "years": [
-          2015,
-          2011
-        ],
-        "most_recent": 2015
-      },
-      {
-        "name": "Ankara University",
-        "country": "TR",
-        "type": "education",
-        "years": [
-          2011
-        ],
-        "most_recent": 2011
-      }
-    ],
-    "bio_text": "Alevitisch-theologische Studien. h-Index: 7 | Publikationen: 24 | Zitierungen: 146.",
-    "herkunft": "extern",
-    "herkunft_institution": "TOBB University of Economics and Technology",
-    "herkunft_land": "Türkei",
     "grants": []
   },
   "Hannes Fellner": {
@@ -69971,10 +69496,6 @@
     "herkunft_land": "USA",
     "grants": []
   },
-  "Regina Fritz-Klinger": {
-    "name": "Regina Fritz-Klinger",
-    "_openalex": "not found"
-  },
   "Kolja Lichy": {
     "name": "Kolja Lichy",
     "openalex_id": "A5027356733",
@@ -70105,31 +69626,6 @@
     "herkunft_land": "Deutschland",
     "grants": []
   },
-  "Karen Azari": {
-    "name": "Karen Azari",
-    "openalex_id": "A5135461119",
-    "match_confidence": "high",
-    "herkunft_verified": false,
-    "works_count": 3,
-    "cited_by_count": 1,
-    "h_index": 1,
-    "last_known_institutions": [
-      {
-        "name": "University of Vienna",
-        "country": "AT",
-        "type": "education",
-        "years": [
-          2026
-        ],
-        "most_recent": 2026
-      }
-    ],
-    "bio_text": "Theoretical Computer Science. h-Index: 1 | Publikationen: 3 | Zitierungen: 1.",
-    "herkunft": "unbekannt",
-    "herkunft_institution": null,
-    "herkunft_land": null,
-    "grants": []
-  },
   "David Konrad": {
     "name": "David Konrad",
     "openalex_id": "A5059497514",
@@ -70228,6 +69724,445 @@
     "herkunft": "intern",
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Riza Yildirim": {
+    "name": "Riza Yildirim",
+    "openalex_id": "A5040689853",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 24,
+    "cited_by_count": 146,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "TOBB University of Economics and Technology",
+        "country": "TR",
+        "type": "education",
+        "years": [
+          2015,
+          2011
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "Ankara University",
+        "country": "TR",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "Alevitisch-theologische Studien. h-Index: 7 | Publikationen: 24 | Zitierungen: 146.",
+    "herkunft": null,
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Anna Seidel": {
+    "name": "Anna Seidel",
+    "openalex_id": "A5121011857",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 2,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "West Slavic Literatures and Cultures.",
+    "herkunft": "extern",
+    "herkunft_institution": "Humboldt-Universität zu Berlin, Institut für Slawistik und Hungarologie",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Alexis Rider": {
+    "name": "Alexis Rider",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Regina Fritz-Klinger": {
+    "name": "Regina Fritz-Klinger",
+    "openalex_id": "A5088293708",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 53,
+    "cited_by_count": 53,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "University of Bern",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          10000,
+          2019
+        ],
+        "most_recent": 10000
+      },
+      {
+        "name": "Institute of Psychology",
+        "country": "RU",
+        "type": "facility",
+        "years": [
+          10000
+        ],
+        "most_recent": 10000
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2020,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institut für Zeitgeschichte München–Berlin",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Federal Ministry for the Interior",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Nationalsozialismus und Holocaust in Österreich und Europa. h-Index: 3 | Publikationen: 53 | Zitierungen: 53. Forschungstätigkeit u.a. in Schweiz, Österreich, Deutschland, Russland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Bern, Historisches Institut",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Nickolas Panayiotis Roubekas": {
+    "name": "Nickolas Panayiotis Roubekas",
+    "openalex_id": "A5070406846",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 59,
+    "cited_by_count": 124,
+    "h_index": 4,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Aristotle University of Thessaloniki",
+        "country": "GR",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Aberdeen",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2015,
+          2014
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "University of South Africa",
+        "country": "ZA",
+        "type": "education",
+        "years": [
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2014
+      }
+    ],
+    "bio_text": "Religionstheorien. h-Index: 4 | Publikationen: 59 | Zitierungen: 124. Forschungstätigkeit u.a. in Österreich, Südafrika, Vereinigtes Königreich, Griechenland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Aristotle University of Thessaloniki, Department of Theology",
+    "herkunft_land": "Griechenland",
+    "grants": []
+  },
+  "Karen Azari": {
+    "name": "Karen Azari",
+    "openalex_id": "A5135461119",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 3,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Theoretical Computer Science. h-Index: 1 | Publikationen: 3 | Zitierungen: 1.",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zürich (Postdoc)",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Jennifer Meyer": {
+    "name": "Jennifer Meyer",
+    "openalex_id": "A5043201141",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 102,
+    "cited_by_count": 1767,
+    "h_index": 20,
+    "last_known_institutions": [
+      {
+        "name": "Leibniz Institute for Science and Mathematics Education",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Pädagogische Hochschule Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Christian-Albrechts-Universität zu Kiel",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "FernUniversität in Hagen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Pädagogische Diagnostik und Beratung in der Schule. h-Index: 20 | Publikationen: 102 | Zitierungen: 1767. Forschungstätigkeit u.a. in Frankreich, Schweiz, Deutschland, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "IPN – Leibniz-Institut für die Pädagogik der Naturwissenschaften und Mathematik, Kiel",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Pere Gelabert Xirinachs": {
+    "name": "Pere Gelabert Xirinachs",
+    "openalex_id": "A5048553894",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 67,
+    "cited_by_count": 1340,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universitat Autònoma de Barcelona",
+        "country": "ES",
+        "type": "education",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Universität Greifswald",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Helmholtz Centre for Infection Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Public Health Department",
+        "country": "IN",
+        "type": "government",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Paleogenomics. h-Index: 17 | Publikationen: 67 | Zitierungen: 1340. Forschungstätigkeit u.a. in Spanien, Österreich, Israel, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Department für Evolutionäre Anthropologie",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Johannes Müller": {
+    "name": "Johannes Müller",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Ana Mijić": {
+    "name": "Ana Mijić",
+    "_openalex": "not found",
+    "match_confidence": "verified"
+  },
+  "Reto Bürgisser": {
+    "name": "Reto Bürgisser",
+    "openalex_id": "A5065460186",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 27,
+    "cited_by_count": 581,
+    "h_index": 11,
+    "last_known_institutions": [
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "ZHAW Zurich University of Applied Sciences",
+        "country": "CH",
+        "type": null,
+        "years": [
+          2024,
+          2022,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "European Commission",
+        "country": "BE",
+        "type": "government",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Bern",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "European University Institute",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2019,
+          2017
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Politikwissenschaft mit dem Schwerpunkt Sozialpolitikforschung. h-Index: 11 | Publikationen: 27 | Zitierungen: 581. Forschungstätigkeit u.a. in Schweiz, Belgien, Italien.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Zürich, Institut für Politikwissenschaft (Postdoc)",
+    "herkunft_land": "Schweiz",
     "grants": []
   }
 }

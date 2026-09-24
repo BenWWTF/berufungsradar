@@ -33,5 +33,26 @@
     "herkunft_land": "Österreich",
     "source": "BOKU Presseaussendung 03.10.2025 + Repositorium",
     "note": "BOKU-interner Habilitations-Track; bisher am Institut für Waldökologie der BOKU."
+  },
+  "Alexis Rider": {
+    "herkunft": "extern",
+    "herkunft_institution": "University of Cambridge (Making Climate History)",
+    "herkunft_land": "Vereinigtes Königreich",
+    "source": "https://alexisrider.com/About",
+    "note": "Postdoc Cambridge; OpenAlex nur zersplitterte Profile"
+  },
+  "Johannes Müller": {
+    "herkunft": "extern",
+    "herkunft_institution": "Justus-Liebig-Universität Gießen, Institut für Sportwissenschaft",
+    "herkunft_land": "Deutschland",
+    "source": "https://www.uni-giessen.de/en/faculties/f06/department-of-sports-science/res_e/social-science-of-sport/news/News",
+    "note": "9 Jahre JLU Gießen bis 30.6.2025; OpenAlex-Profil mit Namensvetter vermischt, daher keine Metriken"
+  },
+  "Ana Mijić": {
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Institut für Soziologie",
+    "herkunft_land": "Österreich",
+    "source": "https://www.soz.univie.ac.at/ana-mijic/",
+    "note": "Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
   }
 }
