@@ -14,7 +14,8 @@ Diakritika entfernt. Zweiter Schlüssel ist Vorname+Nachname ohne Mittelnamen,
 weil die Unis Mittelnamen unterschiedlich führen (Thomas Lennon Sheppard vs
 Thomas Sheppard).
 
-Aufruf: python3 scripts/merge_backfill.py [--dry]
+Aufruf: python3 scripts/merge_backfill.py [--dry] [backfill/datei.json ...]
+        (ohne Dateiangabe: alle Dateien in scripts/backfill/)
 """
 
 import json
@@ -31,7 +32,7 @@ BACKFILL_DIR = Path(__file__).resolve().parent / "backfill"
 NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung",
                "geschlecht", "fakultat", "werdegang",
                "herkunft", "herkunft_institution", "herkunft_land",
-               "_kuratiert", "monat_unsicher", "quelle")
+               "_kuratiert", "monat_unsicher", "quelle", "stellentyp")
 
 # Alles, was eine Quelle mitbringen kann, wird bei neuen Datensätzen übernommen.
 # Diese Liste ist dreimal zu kurz gewesen (Geschlecht, Werdegang, Herkunft), jedes
@@ -40,7 +41,7 @@ NACHTRAGBAR = ("fakultat_code", "profil_url", "forschungsbereich", "art_berufung
 UEBERNEHMEN = ("fakultat", "fakultat_code", "forschungsbereich", "art_berufung",
                "geschlecht", "herkunft", "herkunft_institution", "herkunft_land",
                "ofos_code", "ofos_label", "bio_text", "werdegang", "profil_url",
-               "quelle", "_kuratiert", "_herkunft_research")
+               "quelle", "_kuratiert", "_herkunft_research", "stellentyp")
 
 # Felder, deren automatisch erzeugte Fassung von der Quelle überschrieben werden
 # darf: ein Lebenslauf aus der Uni-Seite ist besser als die aus OpenAlex
@@ -73,7 +74,9 @@ def main():
         lang[(d["universitat"], d["year"], norm(d["name"]))] = d
         knapp.setdefault((d["universitat"], d["year"], kurz(d["name"])), d)
 
-    quellen = sorted(BACKFILL_DIR.glob("*.json")) if BACKFILL_DIR.exists() else []
+    quellen = [BACKFILL_DIR.parent / a for a in sys.argv[1:] if a.endswith(".json")]
+    if not quellen and BACKFILL_DIR.exists():
+        quellen = sorted(BACKFILL_DIR.glob("*.json"))
     if not quellen:
         raise SystemExit("keine Dateien in scripts/backfill/")
 

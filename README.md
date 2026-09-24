@@ -36,7 +36,7 @@ Methodik je Universität und Jahr.
 
 | Universität | Einträge | Status |
 |-------------|----------|--------|
-| Uni Wien | 339 | 🟡 Teilweise (2019–2020 offen, Webarchiv-Lücke) |
+| Uni Wien | 477 | ✅ Vollständig (Personalliste der Uni, 2026 laufend) |
 | TU Wien | 191 | ✅ Vollständig |
 | mdw | 104 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
@@ -46,7 +46,7 @@ Methodik je Universität und Jahr.
 | Akademie | 42 | 🟡 Teilweise (2019, 2020, 2024, 2026 offen) |
 | Angewandte | 40 | 🟡 Teilweise (2024 offen) |
 | BOKU | 30 | ✅ Vollständig (2026 laufend) |
-| **Gesamt** | **1036** | **87% ÖFOS-Abdeckung (903/1036)** |
+| **Gesamt** | **1174** | **99% ÖFOS-Abdeckung (1161/1174)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
@@ -83,7 +83,7 @@ git push origin main
 ## Datenquellen
 
 - TU Wien: Öffentliche Berufungsmeldungen
-- Universität Wien: Öffentliche Personalpages
+- Universität Wien: Öffentliche Personalpages; Personalliste der Dienstantritte UP/TT 2019–09/2026 (Uni Wien an WWTF, 24.09.2026)
 - MedUni Wien, BOKU, WU Wien, mdw, Vetmeduni, Angewandte, Akademie der bildenden Künste: öffentliche Berufungsbekanntmachungen
 - OpenAlex: Forschungsmetriken (h-Index, Publikationen, Zitierungen), Affiliations
 
