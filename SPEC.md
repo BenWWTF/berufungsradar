@@ -35,12 +35,12 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | mdw | 104 | ✅ vollständig |
 | MedUni Wien | 90 | ✅ vollständig (2026 laufend) |
 | CEU | 84 | 🟡 teilweise (HR-Snapshot, methodisch anders) |
-| Vetmeduni Wien | 61 | 🟡 teilweise (2019, 2023, 2024, 2026 offen) |
+| Vetmeduni Wien | 62 | ✅ vollständig (2026 laufend) |
 | WU Wien | 55 | ✅ vollständig (2026 laufend) |
-| Akademie | 42 | 🟡 teilweise (2019, 2020, 2024, 2026 offen) |
-| Angewandte | 40 | 🟡 teilweise (2024 offen) |
+| Akademie | 44 | 🟡 teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
+| Angewandte | 42 | ✅ vollständig |
 | BOKU | 30 | ✅ vollständig (2026 laufend) |
-| **Gesamt** | **1092** | **100 % ÖFOS-Abdeckung (1092/1092)** |
+| **Gesamt** | **1097** | **100 % ÖFOS-Abdeckung (1097/1097)** |
 
 Details je Universität und Jahr, inklusive der jeweiligen Quelle und
 Begründung für offene Jahre, stehen in `datenabdeckung.json`.

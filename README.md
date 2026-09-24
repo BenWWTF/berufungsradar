@@ -41,12 +41,12 @@ Methodik je Universität und Jahr.
 | mdw | 104 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
 | CEU | 84 | 🟡 Teilweise (HR-Snapshot, keine Kennzahl-Quelle, siehe unten) |
-| Vetmeduni Wien | 61 | 🟡 Teilweise (2019, 2023, 2024, 2026 offen) |
+| Vetmeduni Wien | 62 | ✅ Vollständig (2026 laufend) |
 | WU Wien | 55 | ✅ Vollständig (2026 laufend) |
-| Akademie | 42 | 🟡 Teilweise (2019, 2020, 2024, 2026 offen) |
-| Angewandte | 40 | 🟡 Teilweise (2024 offen) |
+| Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
+| Angewandte | 42 | ✅ Vollständig |
 | BOKU | 30 | ✅ Vollständig (2026 laufend) |
-| **Gesamt** | **1092** | **100% ÖFOS-Abdeckung (1092/1092)** |
+| **Gesamt** | **1097** | **100% ÖFOS-Abdeckung (1097/1097)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders

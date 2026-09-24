@@ -1,0 +1,66 @@
+[
+ {
+  "name": "Barbara Metzler-Zebeli",
+  "universitat": "Vetmeduni Wien",
+  "year": 2019,
+  "monat": null,
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "forschungsbereich": "Ernährungsphysiologie",
+  "fakultat": "Department für Biomedizinische Wissenschaften",
+  "herkunft": "intern",
+  "herkunft_institution": "Veterinärmedizinische Universität Wien",
+  "herkunft_land": "Österreich",
+  "quelle": "https://www.vetmeduni.ac.at/fileadmin/v/z/mitteilungsblatt/organisation/Archiv/Wissensbilanz_2019.pdf",
+  "_kuratiert": "Handrecherche 2026-09-24: Wissensbilanz 2019, Kennzahl 1.A.2 (S. 117): einzige Berufung 2019, §99 Abs. 1 UG, Fach Ernährungsphysiologie, Frau, eigene Universität. Name über Mitteilungsblatt 2018/19 14. Stück (Gastprofessur Ernährungsphysiologie §99(1), 5 Jahre, mit Abteilungsleitung) und Webarchiv 14.08.2020 (Leitung Abteilung Ernährungsphysiologie: Univ.-Prof. Barbara Metzler-Zebeli). Die Laufbahnstelle ab Oktober 2024 ist ein eigener Datensatz."
+ },
+ {
+  "name": "Miya Yoshida",
+  "universitat": "Angewandte",
+  "year": 2024,
+  "monat": "SEPTEMBER",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "forschungsbereich": "Künstlerische Forschung (Leitung Zentrum Fokus Forschung)",
+  "fakultat": "Zentrum Fokus Forschung",
+  "quelle": "https://www.dieangewandte.at/en/news/news/news_detail?news_id=1722998534412",
+  "_kuratiert": "Handrecherche 2026-09-24: Angewandte-News 07.08.2024 (Professur ab September 2024); Mitteilungsblatt 2023/24 Stück 17 Nr. 42: Universitätsprofessur Künstlerische Forschung, befristet auf fünf Jahre (§ 99.1), spätestens 1.9.2024, 20 Wochenstunden. Deckt die §99(1)-Frau der WB-2025-Vergleichsspalte 2024."
+ },
+ {
+  "name": "Sam Chermayeff",
+  "universitat": "Angewandte",
+  "year": 2024,
+  "monat": "OKTOBER",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "forschungsbereich": "Architekturentwurf 1 (Institut für Architektur, Nachfolge Díaz Moreno/García Grinda)",
+  "fakultat": "Institut für Architektur (I oA)",
+  "quelle": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+  "_kuratiert": "Handrecherche 2026-09-24: Angewandte-News 20.09.2024 'Sam Chermayeff wird Professor für Architekturentwurf 1'; e-flux 24.09.2024: ab Oktober 2024. Paragraf in keiner Quelle genannt."
+ },
+ {
+  "name": "Iman Issa",
+  "universitat": "Akademie",
+  "year": 2020,
+  "monat": null,
+  "art_berufung": null,
+  "geschlecht": "W",
+  "forschungsbereich": "Bildhauerei (performative Bildhauerei, Nachfolge Monica Bonvicini)",
+  "fakultat": "Institut für bildende Kunst",
+  "quelle": "https://www.akbild.ac.at/de/news/2020/iman-issa-wird-professorin-fuer-bildhauerei",
+  "_kuratiert": "Handrecherche 2026-09-24: Akademie-News 2020 'Iman Issa wird Professorin für Bildhauerei'; PARNASS 23.01.2020 (berufen); SKD 2024: '2020 Professur für performative Bildhauerei'. Vermutlich die dritte, bisher unbenannte §98-Berufung der Wissensbilanz 2020; Paragraf in keiner Quelle genannt."
+ },
+ {
+  "name": "David Gissen",
+  "universitat": "Akademie",
+  "year": 2019,
+  "monat": "OKTOBER",
+  "monat_unsicher": true,
+  "art_berufung": null,
+  "geschlecht": "M",
+  "forschungsbereich": "Architektur (IKA, Plattformen HTC/GLC)",
+  "fakultat": "Institut für Kunst und Architektur",
+  "quelle": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
+  "_kuratiert": "Handrecherche 2026-09-24: UCLA AUD 2020: 'University Professor (2019-20) at the Academy of Fine Arts, Vienna'; IKA-Archiv W19 Projekt Gissen/Herold. Yale nennt es 'visiting academic position'. Passt auf die einzige Berufung der Wissensbilanz 2019 (§99(1), Architektur, männlich); Zuordnung ist Schluss aus Fach, Jahr und Geschlecht, Monat aus Wintersemester 2019/20 abgeleitet."
+ }
+]
