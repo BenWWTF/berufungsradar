@@ -212,6 +212,8 @@ def infer_herkunft(d: dict, author: dict) -> dict:
     If extern, give institution + country.
     Strategy: find the latest affiliation that is NOT the current uni.
     If none such, the author is intern (has been at this uni all along).
+    Only affiliations BEFORE the appointment year count: OpenAlex also lists
+    the years after the appointment, and those always show the new uni.
     """
     if not author:
         return {}
@@ -286,6 +288,9 @@ def infer_herkunft(d: dict, author: dict) -> dict:
                     "country": inst.get("country_code", ""),
                 }
             )
+    ab = d.get("year")
+    if ab:
+        flat = [e for e in flat if (e.get("year") or 0) < ab]
     flat.sort(key=lambda x: x.get("year") or 0, reverse=True)
     # Walk down: find the latest entry that is NOT the current uni
     target = None
@@ -328,13 +333,13 @@ def infer_herkunft(d: dict, author: dict) -> dict:
                 if target["country"] == "AT"
                 else target["country"],
             }
-    # Long-career rule: if the person was at the current uni within 3 years
-    # of "now" (i.e. 2023+), they're INTERNAL — they came back / were promoted.
+    # Long-career rule: if the person was at the current uni within the 3 years
+    # before the appointment, they're INTERNAL — they came back / were promoted.
     # This catches TU Wien lifers who took 2-year sabbaticals to OFAI/ÖAW/etc.
     for entry in flat:
         if (
             AUSTRIAN_UNIS_TO_NOWUNI.get(entry["name"], entry["name"]) == uni_now
-            and entry.get("year", 0) >= 2023
+            and entry.get("year", 0) >= (ab or 2026) - 3
         ):
             return {
                 "herkunft": "intern",

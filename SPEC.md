@@ -30,7 +30,7 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 
 | Universität | Einträge | Status |
 |---|---|---|
-| Uni Wien | 339 | 🟡 teilweise (2019–2020 offen) |
+| Uni Wien | 396 | 🟡 teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 191 | ✅ vollständig |
 | mdw | 104 | ✅ vollständig |
 | MedUni Wien | 90 | ✅ vollständig (2026 laufend) |
@@ -40,7 +40,7 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | Akademie | 42 | 🟡 teilweise (2019, 2020, 2024, 2026 offen) |
 | Angewandte | 40 | 🟡 teilweise (2024 offen) |
 | BOKU | 30 | ✅ vollständig (2026 laufend) |
-| **Gesamt** | **1036** | **87 % ÖFOS-Abdeckung (903/1036)** |
+| **Gesamt** | **1093** | **99 % ÖFOS-Abdeckung (1087/1093)** |
 
 Details je Universität und Jahr, inklusive der jeweiligen Quelle und
 Begründung für offene Jahre, stehen in `datenabdeckung.json`.
@@ -104,7 +104,7 @@ unterschiedlich führen (Thomas Lennon Sheppard vs Thomas Sheppard).
 |---|---|---|
 | TU Wien | Übersichtsseite mit Akkordeon je Jahr, 2019–2026 | erledigt |
 | mdw | Jahresseiten „Neue Professuren <Jahr>" | erledigt, 2015/2016/2018 ohne Seite |
-| Uni Wien | CV-Seiten des früheren Medienportals im Webarchiv | teilweise, siehe unten |
+| Uni Wien | Webarchiv-CV-Seiten, Leistungsberichte, Wissensbilanzen | 2019–2020 teilweise, siehe unten |
 | BOKU | Presseaussendungen je Jahr plus Antrittsvorlesungs-Archiv | dünn: 13 einschlägige Meldungen 2015–2026 |
 | MedUni Wien, WU Wien | keine strukturierte Quelle gefunden | offen |
 | Angewandte, Akademie, Vetmeduni | verstreute News, vor 2019 Handarbeit | offen |

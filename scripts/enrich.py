@@ -816,19 +816,19 @@ def stage6_openalex(data, dry=False):
             "last_known_institutions": r.get("last_known_institutions", []),
             "openalex_id": r.get("openalex_id"),
         }
+        # Fail-safe: low-confidence Treffer (Namensvetter) nie mergen, auch
+        # nicht den bio_text: wwtf_enrich liest die Metriken daraus zurück.
+        if r.get("match_confidence") == "low":
+            continue
         # Add bio_text if missing
         if not d.get("bio_text") and r.get("bio_text"):
             d["bio_text"] = r.get("bio_text")
         # Apply herkunft if unknown or institution missing.
-        # Fail-safe: low-confidence Treffer (Namensvetter) nie mergen;
-        # bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
+        # Bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
         # Ausnahme: 'verified' (manuell recherchierter Override) ist maßgeblich.
         hk = r.get("herkunft")
         if hk in ("unbekannt", "—"):
             hk = None
-        conf = r.get("match_confidence")
-        if conf == "low":
-            continue
         existing = d.get("herkunft")
         if r.get("herkunft_verified") and hk:
             d["herkunft"] = hk
