@@ -37,7 +37,7 @@ Methodik je Universität und Jahr.
 | Universität | Einträge | Status |
 |-------------|----------|--------|
 | Uni Wien | 477 | ✅ Vollständig (Personalliste der Uni, 2026 laufend) |
-| TU Wien | 191 | ✅ Vollständig |
+| TU Wien | 190 | ✅ Vollständig |
 | mdw | 104 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
 | CEU | 84 | 🟡 Teilweise (HR-Snapshot, keine Kennzahl-Quelle, siehe unten) |
@@ -46,7 +46,7 @@ Methodik je Universität und Jahr.
 | Akademie | 42 | 🟡 Teilweise (2019, 2020, 2024, 2026 offen) |
 | Angewandte | 40 | 🟡 Teilweise (2024 offen) |
 | BOKU | 30 | ✅ Vollständig (2026 laufend) |
-| **Gesamt** | **1174** | **99% ÖFOS-Abdeckung (1161/1174)** |
+| **Gesamt** | **1173** | **100% ÖFOS-Abdeckung (1173/1173)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders

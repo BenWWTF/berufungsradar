@@ -420,6 +420,9 @@ def process_entry(d: dict, overrides: dict) -> dict:
     for key in ("herkunft", "herkunft_institution", "herkunft_land"):
         if ov.get(key):
             hk[key] = ov[key]
+    if ov.get("herkunft") == "unbekannt":
+        # bewusst offen gelassen: auch die geschätzte Institution verwerfen
+        hk = {"herkunft": None, "herkunft_institution": None, "herkunft_land": None}
     return {
         "name": name,
         "openalex_id": author_id,

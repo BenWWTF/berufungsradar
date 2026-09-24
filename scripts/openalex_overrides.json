@@ -287,5 +287,228 @@
   "Kamila Maria Staudigl-Ciechkowicz": {
     "openalex_id": "A5013114803",
     "_note": "geprüft 2026-09-17: publiziert als 'Kamila Staudigl-Ciechowicz' (ein 'k' weniger); Uni-Wien-Affiliation und Topics (Law and Political Science, Historical Legal Studies) passen exakt zu Rechtsgeschichte trotz verrauschter Fremdaffiliationen (Twitter, Lexmark u.a. sind OpenAlex-Fehlzuordnungen)."
+  },
+  "Barbara Soukup-Kirchner": {
+    "openalex_id": "A5028936812",
+    "herkunft": "extern",
+    "herkunft_institution": "Österreichische Akademie der Wissenschaften, Austrian Centre for Digital Humanities",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): ÖAW/ACDH 2018–2019, davor lange Uni Wien; publiziert als Barbara Soukup. Quelle: https://www.germ.univie.ac.at/barbara-soukup/"
+  },
+  "Robert Woodward": {
+    "openalex_id": "A5009141076",
+    "herkunft": "extern",
+    "herkunft_institution": "Imperial College London, Department of Chemical Engineering",
+    "herkunft_land": "Vereinigtes Königreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc Imperial ab 2014. Quelle: https://blogs.rsc.org/cc/2020/06/03/chemcomm-milestones-rob-woodward/"
+  },
+  "Wenjie Tang": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – aus Publikationsaffiliationen NUS 2017–2020; OpenAlex-Profil mit Namensvettern vermischt, daher keine Metriken"
+  },
+  "Anna Seidel": {
+    "openalex_id": "A5121011857",
+    "herkunft": "extern",
+    "herkunft_institution": "Humboldt-Universität zu Berlin, Institut für Slawistik und Hungarologie",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Research Associate HU Berlin 2023–2025; OpenAlex zersplittert, Metriken unterschätzt. Quelle: https://ucrisportal.univie.ac.at/en/persons/anna-seidel/"
+  },
+  "Nickolas Panayiotis Roubekas": {
+    "openalex_id": "A5070406846",
+    "herkunft": "extern",
+    "herkunft_institution": "Aristotle University of Thessaloniki, Department of Theology",
+    "herkunft_land": "Griechenland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Assistant Professor AUTh 08/2024–11/2025, davor Universitätsassistent Wien 2017–2023. Quelle: https://pub.orcid.org/v3.0/0000-0001-8537-0622/record"
+  },
+  "Riza Yildirim": {
+    "openalex_id": "A5040689853",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Position vor 07/2025 nicht belegt; Herkunft bewusst offen, damit OpenAlex nicht TOBB 2015 einsetzt. Quelle: https://iits.univie.ac.at/ueber-uns/riza-yildirim"
+  },
+  "Felix Niggemann": {
+    "openalex_id": "A5093460390",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Zürich, Department of Business Administration",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc UZH seit 2020. Quelle: https://sites.google.com/view/felix-p-niggemann"
+  },
+  "Maria Bremer": {
+    "openalex_id": "A5014159856",
+    "herkunft": "extern",
+    "herkunft_institution": "Ruhr-Universität Bochum, Kunstgeschichtliches Institut",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Akademische Rätin RUB seit 2021. Quelle: https://kgi.ruhr-uni-bochum.de/institut/personen/dr-maria-bremer/"
+  },
+  "Johann Schelkshorn": {
+    "openalex_id": "A5053811622",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Institut für Christliche Philosophie",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): ao. Univ.-Prof. Wien 2007–2019 (publiziert als Hans Schelkshorn). Quelle: https://de.wikipedia.org/wiki/Hans_Schelkshorn"
+  },
+  "Thomas Nikolai Kiesel": {
+    "openalex_id": "A5033980792",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Fakultät für Physik (VCQ)",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Publikationen 2015–2019 mit Affiliation Fakultät für Physik Wien, FWF-START Y 952; publiziert als Nikolai Kiesel. Quelle: https://kiesel.univie.ac.at/"
+  },
+  "Rémi-Armand Tchokothe": {
+    "openalex_id": "A5074755753",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Bayreuth",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Assistant Professor Bayreuth 2013–2020. Quelle: https://pub.orcid.org/v3.0/0000-0003-1764-6206/employments"
+  },
+  "Kirsten Lee Bierbaum": {
+    "openalex_id": "A5001163687",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Osnabrück, Kunsthistorisches Institut (Verwaltungsprofessur)",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Verwaltungsprofessur Osnabrück 2021–2023. Quelle: https://kunstgeschichte.univie.ac.at/ueber-uns/mitarbeiterinnen/professoreninnen/bierbaum-kirsten-lee/bierbaum-lebenslauf/"
+  },
+  "Jennifer Meyer": {
+    "openalex_id": "A5043201141",
+    "herkunft": "extern",
+    "herkunft_institution": "IPN – Leibniz-Institut für die Pädagogik der Naturwissenschaften und Mathematik, Kiel",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Nachwuchsgruppenleiterin IPN Kiel; OpenAlex über ORCID 0000-0002-5714-3198. Quelle: https://ucrisportal.univie.ac.at/en/persons/jennifer-meyer/"
+  },
+  "Pere Gelabert Xirinachs": {
+    "openalex_id": "A5048553894",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Department für Evolutionäre Anthropologie",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc Evolutionäre Anthropologie Wien seit 2019. Quelle: https://lifesciences.univie.ac.at/news-events/newsordner/einzelansicht/news/pere-gelabert-receives-erc-starting-grant/"
+  },
+  "Anke Charton": {
+    "openalex_id": "A5066541372",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Institut für Theater-, Film- und Medienwissenschaft",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): TT 2020, Assoz. Prof. 2024, UP ab 01.09.2026. Quelle: https://homepage.univie.ac.at/anke.charton/?page_id=58"
+  },
+  "Johanna Böttcher": {
+    "openalex_id": "A5004886714",
+    "herkunft": "extern",
+    "herkunft_institution": "Psychologische Hochschule Berlin",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Professorin PHB seit 2019. Quelle: https://pub.orcid.org/v3.0/0000-0002-8220-9291/employments"
+  },
+  "Sebastian Kronenberger": {
+    "openalex_id": "A5003287884",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Mannheim, Area Accounting and Taxation",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Assistant Professor Mannheim seit 08/2020; Wien-Berufung nur durch Personalliste belegt. Quelle: https://www.bwl.uni-mannheim.de/en/simons/team/dr-sebastian-kronenberger/"
+  },
+  "Paula Wojcik": {
+    "openalex_id": "A5091115841",
+    "herkunft": "extern",
+    "herkunft_institution": "Friedrich-Schiller-Universität Jena",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc FSU Jena 2012–09/2019. Quelle: https://pub.orcid.org/v3.0/0000-0003-3727-8885/employments"
+  },
+  "Joao Matos": {
+    "openalex_id": "A5012540233",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zürich, Institute of Biochemistry",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Assistant Professor ETH Zürich 2014–08/2020. Quelle: https://pub.orcid.org/v3.0/0000-0002-3754-3709/employments"
+  },
+  "Sandra Hindriks": {
+    "openalex_id": "A5004620116",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Konstanz, Lehrstuhl für Kunstwissenschaft",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Post-doc Konstanz 2015–2020. Quelle: https://pub.orcid.org/v3.0/0000-0002-8782-3266/employments"
+  },
+  "Alexis Rider": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – Postdoc Cambridge; OpenAlex nur zersplitterte Profile"
+  },
+  "Johannes Müller": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – 9 Jahre JLU Gießen bis 30.6.2025; OpenAlex-Profil mit Namensvetter vermischt, daher keine Metriken"
+  },
+  "Regina Fritz-Klinger": {
+    "openalex_id": "A5088293708",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Bern, Historisches Institut",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): PostDoc Bern, seit 2025 TT Zeitgeschichte Wien; publiziert als Regina Fritz. Quelle: https://zeitgeschichte.univie.ac.at/lucile-dreidemy/, https://pub.orcid.org/v3.0/0000-0002-7460-2165/employments"
+  },
+  "Armin Granulo": {
+    "openalex_id": "A5043953519",
+    "herkunft": "extern",
+    "herkunft_institution": "Ludwig-Maximilians-Universität München",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc LMU München. Quelle: https://www.som.lmu.de/de/fakultaet/personenuebersicht/kontaktseite/armin-granulo-c026eb5e.html"
+  },
+  "Julia Told": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – Professorin Innsbruck seit 02/2023 (davor WU Wien); OpenAlex stark zersplittert"
+  },
+  "Theresa Büchter": {
+    "openalex_id": "A5005506573",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Kassel, Institut für Mathematik",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): PostDoc Kassel. Quelle: https://www.univie.ac.at/aktuelles/neue-professuren/detail/buechter-theresa"
+  },
+  "Rabea Kohnen": {
+    "openalex_id": "A5086292614",
+    "herkunft": "extern",
+    "herkunft_institution": "Ruhr-Universität Bochum (Juniorprofessur)",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Juniorprofessorin Bochum 2016–2019; laut Institutsseite ab 1.4.2026 Professur in Münster. Quelle: https://www.germ.univie.ac.at/rabea-kohnen/"
+  },
+  "Nicole Kandioler-Biet": {
+    "openalex_id": "A5007920454",
+    "herkunft": "intern",
+    "herkunft_institution": "Universität Wien, Institut für Theater-, Film- und Medienwissenschaft",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Universitätsassistentin (Post-doc) tfm Wien ab 2018, TT 2020. Quelle: https://tfm.univie.ac.at/ueber-uns/personal/nicole-kandioler/"
+  },
+  "Tim Neu": {
+    "openalex_id": "A5047926859",
+    "herkunft": "extern",
+    "herkunft_institution": "Ruhr-Universität Bochum, Historisches Institut (Juniorprofessur)",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Juniorprofessor Bochum 2017–2020; OpenAlex über ORCID 0000-0002-2529-0898. Quelle: https://ifg.univie.ac.at/fileadmin/user_upload/i_geschichte/Ueber_uns/MitarbeiterInnen/Neu/CV_Homepage.pdf"
+  },
+  "Ana Mijić": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-09-24: kein sauberes Profil – Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
+  },
+  "Karen Azari": {
+    "openalex_id": "A5135461119",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zürich (Postdoc)",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): PhD ISTA, Postdoc ETH Zürich; früher publiziert als Karen Klein (vermischtes OpenAlex-Profil nicht verwendet). Quelle: https://homepage.univie.ac.at/karen.azari/"
+  },
+  "Reto Bürgisser": {
+    "openalex_id": "A5065460186",
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Zürich, Institut für Politikwissenschaft (Postdoc)",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Postdoc UZH 02/2020–07/2025, TT Wien ab 08/2025. Quelle: https://retobuergisser.com/media/burgisser_cv.pdf"
+  },
+  "Coralie Rippl-Uhlenhut": {
+    "openalex_id": "A5043046072",
+    "herkunft": "extern",
+    "herkunft_institution": "Julius-Maximilians-Universität Würzburg (Professurvertretung)",
+    "herkunft_land": "Deutschland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Vertretung Würzburg 2024–2025, zugleich PD an der UZH. Quelle: https://www.germanistik.uni-wuerzburg.de/mediaevistik/team/rippl-uhlenhut-coralie/"
+  },
+  "Konstantinos Vlasopoulos": {
+    "openalex_id": "A5086240432",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Crete, Department of History and Archaeology",
+    "herkunft_land": "Griechenland",
+    "_note": "geprüft 2026-09-24 (Personalliste Uni Wien): Identität über Name + Fach (Professor of Ancient History, Kreta, 2025–26 beurlaubt); Wien-Berufung nur durch Personalliste belegt. Quelle: https://www.history-archaeology.uoc.gr/en/the-department/research-and-teaching-staff-2/kostas-vlasopoulos/"
   }
 }
