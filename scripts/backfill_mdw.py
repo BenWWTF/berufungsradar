@@ -44,6 +44,7 @@ SEITEN = {
     2025: "https://www.mdw.ac.at/2026/",
     2026: "https://www.mdw.ac.at/neue-professuren-2026/",
 }
+INDEX = "https://www.mdw.ac.at/neue_professuren"
 
 MONATE = {
     "jänner": "JÄNNER", "januar": "JÄNNER", "februar": "FEBRUAR", "märz": "MÄRZ",
@@ -187,8 +188,20 @@ def parse_jahr(jahr, url):
     return treffer
 
 
+def neue_jahre():
+    """Jahresseiten, die nach 2026 dazukommen, stehen auf der Übersichtsseite."""
+    req = urllib.request.Request(INDEX, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=45) as r:
+        index = r.read().decode("utf-8", errors="replace")
+    return {int(j): url for url, j in re.findall(
+        r'href="([^"]+)"[^>]*>\s*Neue Professuren (20\d\d)\s*<', index)
+        if int(j) > max(SEITEN)}
+
+
 def main():
     alle = []
+    if "--offline" not in sys.argv:
+        SEITEN.update(neue_jahre())
     for jahr in sorted(SEITEN):
         gefunden = parse_jahr(jahr, SEITEN[jahr])
         print(f"   {jahr}: {len(gefunden)}")
