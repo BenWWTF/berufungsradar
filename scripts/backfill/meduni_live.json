@@ -1,0 +1,72 @@
+[
+ {
+  "name": "Peter Marhofer",
+  "universitat": "MedUni Wien",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "art_berufung": "§99(1)",
+  "forschungsbereich": "Kinderanästhesie",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-oktober-2026/peter-marhofer-uebernimmt-professur-fuer-kinderanaesthesie/",
+  "stufe": 1
+ },
+ {
+  "name": "Thomas Staudinger",
+  "universitat": "MedUni Wien",
+  "monat": "AUGUST",
+  "year": 2026,
+  "art_berufung": "§99(4)",
+  "forschungsbereich": "Intensivmedizin",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-august-2026/thomas-staudinger-uebernimmt-professur-im-fachbereich-intensivmedizin/",
+  "stufe": 1
+ },
+ {
+  "name": "Sigrid Sandner",
+  "universitat": "MedUni Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "art_berufung": "§99(4)",
+  "forschungsbereich": "Kardiovaskuläre Medizin",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juli-2026/sigrid-sandner-uebernimmt-professur-im-fachbereich-kardiovaskulaere-medizin/",
+  "stufe": 1
+ },
+ {
+  "name": "Thomas E. Dorner",
+  "universitat": "MedUni Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "art_berufung": "§98",
+  "forschungsbereich": "Gerontologie",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juli-2026/thomas-e-dorner-uebernimmt-professur-fuer-gerontologie-an-der-meduni-wien/",
+  "stufe": 1
+ },
+ {
+  "name": "Oliver Kimberger",
+  "universitat": "MedUni Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "art_berufung": "§99(4)",
+  "forschungsbereich": "Anästhesie",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juli-2026/oliver-kimberger-uebernimmt-professur-im-fachbereich-anaesthesie/",
+  "stufe": 1
+ },
+ {
+  "name": "Franz König",
+  "universitat": "MedUni Wien",
+  "monat": "JUNI",
+  "year": 2026,
+  "art_berufung": "§99(4)",
+  "forschungsbereich": "Medizinische Statistik",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juni-2026/franz-koenig-uebernimmt-professur-im-fachbereich-medizinische-statistik-an-der-meduni-wien/",
+  "stufe": 1
+ },
+ {
+  "name": "Pedro Wendel Garcia",
+  "universitat": "MedUni Wien",
+  "monat": "JUNI",
+  "year": 2026,
+  "art_berufung": "§99(5)",
+  "forschungsbereich": null,
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juni-2026/pedro-wendel-garcia-uebernimmt-tenure-track-assistenzprofessur-an-der-meduni-wien/",
+  "stufe": 1
+ }
+]
