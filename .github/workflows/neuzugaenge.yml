@@ -1,30 +1,47 @@
 name: Neuzugänge suchen
 
-# Wöchentlich die drei Unis mit laufend gepflegter "Neue Professuren"-Seite
-# ernten (TU Wien, mdw, Uni Wien) und Neuzugänge als Pull Request vorschlagen.
-# Kein Direkt-Commit: das Dashboard ist öffentlich, Stufe-1-Datensätze
-# brauchen einen Blick, bevor sie live gehen. Der PR-Branch wird bei jedem
-# Lauf neu von main aufgebaut, offene Vorschläge sammeln sich also nicht an.
+# Wöchentlich zwei Durchgänge:
+#
+#  suchen      Quellen, die verlässlich genug für Datensätze sind: die
+#              "Neue Professuren"-Seiten von TU Wien, mdw und Uni Wien sowie
+#              die Berufungsmeldungen von MedUni und Akademie (festes
+#              Titelmuster). Neuzugänge kommen als Pull Request, nicht als
+#              Direkt-Commit: das Dashboard ist öffentlich, Stufe-1-Datensätze
+#              brauchen einen Blick, bevor sie live gehen. Der PR-Branch wird
+#              bei jedem Lauf neu von main aufgebaut.
+#
+#  kandidaten  Presse und Verzeichnisse von WU, Angewandte, BOKU, Vetmeduni
+#              (und ein Lebenszeichen-Check für CEU). Zu unscharf für
+#              Datensätze, deshalb ein Issue zur Handprüfung. Committet nur
+#              den Suchstand (scripts/kandidaten/stand.json) direkt nach main.
+#
+# Mitte Juni zusätzlich eine Erinnerung, die Wissensbilanzen abzugleichen:
+# nur sie nennen für die Unis ohne Übersichtsseite alle Berufungen eines Jahres.
 on:
   schedule:
     - cron: "0 4 * * 1"     # montags 04:00 UTC
+    - cron: "0 5 15 6 *"    # Wissensbilanz-Erinnerung
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 # Gleiche Gruppe wie datenbasis.yml: beide schreiben dashboard_data_2025.json
 concurrency:
   group: datenbasis
   cancel-in-progress: false
 
+env:
+  GH_TOKEN: ${{ github.token }}
+
 jobs:
   suchen:
+    if: github.event.schedule != '0 5 15 6 *'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      GH_TOKEN: ${{ github.token }}
       OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       BRANCH: neuzugaenge
     steps:
@@ -36,7 +53,7 @@ jobs:
           # Seine Ernte geht weder in den Merge noch in den Commit: die
           # Datei ist schon geschrieben, wenn der Selbstcheck anschlägt.
           ok="" fehler=""
-          for q in tuwien mdw univie_live; do
+          for q in tuwien mdw univie_live meduni_live akbild_live; do
             if python3 "scripts/backfill_$q.py"; then
               ok="$ok backfill/$q.json"
             else
@@ -83,3 +100,50 @@ jobs:
           echo "### ⚠️ Selbstcheck fehlgeschlagen:$FEHLER" >> "$GITHUB_STEP_SUMMARY"
           echo "Die Seite hat vermutlich ihren Aufbau geändert. Die übrigen Quellen sind gelaufen." >> "$GITHUB_STEP_SUMMARY"
           exit 1
+
+  kandidaten:
+    # Läuft auch, wenn ein Parser in "suchen" gescheitert ist
+    needs: suchen
+    if: always() && github.event.schedule != '0 5 15 6 *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kandidaten suchen
+        run: python3 scripts/kandidaten.py > "$RUNNER_TEMP/kandidaten.md"
+
+      - name: Issue anlegen
+        run: |
+          if [ ! -s "$RUNNER_TEMP/kandidaten.md" ]; then
+            echo "Keine neuen Kandidaten." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          cat "$RUNNER_TEMP/kandidaten.md" >> "$GITHUB_STEP_SUMMARY"
+          gh issue create --title "Berufungskandidaten KW $(date -u +%V)/$(date -u +%Y)" \
+            --body-file "$RUNNER_TEMP/kandidaten.md"
+
+      - name: Suchstand sichern
+        run: |
+          git diff --quiet -- scripts/kandidaten/stand.json && exit 0
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/kandidaten/stand.json
+          git commit -q -m "Kandidatensuche: Stand $(date -u +%Y-%m-%d)"
+          git pull -q --rebase
+          git push
+
+  erinnerung:
+    if: github.event.schedule == '0 5 15 6 *'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wissensbilanz-Erinnerung
+        run: |
+          jahr=$(( $(date -u +%Y) - 1 ))
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Wissensbilanzen $jahr abgleichen" \
+            --body "Die Wissensbilanzen $jahr sollten veröffentlicht sein. Sie sind für MedUni, BOKU, WU, Angewandte, Akademie und Vetmeduni die einzige Quelle, die alle Berufungen eines Jahres nennt (Kennzahl 1.A.2 bzw. Personalteil).
+
+          - [ ] Namenslisten $jahr gegen den Bestand abgleichen, Fehlende als \`kuratiert_*.json\` erfassen
+          - [ ] \`soll_ist\` in \`datenabdeckung.json\` nachtragen
+          - [ ] Uni Wien: Leistungsbericht $jahr gegen die laufend erfasste Liste prüfen"
