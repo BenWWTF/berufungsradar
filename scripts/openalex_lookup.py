@@ -15,6 +15,7 @@ Be polite: 1 request/sec, polite pool, mailto contact.
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 import urllib.parse
@@ -34,7 +35,9 @@ MAILTO = "benjamin.missbach@wwtf.at"
 # dem viel kleineren anonymen Tagesbudget (siehe OpenAlex-Doku: ein
 # kostenloser Key gibt ein Vielfaches des Budgets ohne Key).
 _KEY_PATH = Path.home() / ".berufungsradar_openalex_key"
-API_KEY = _KEY_PATH.read_text().strip() if _KEY_PATH.exists() else None
+# In GitHub Actions kommt er als Secret OPENALEX_API_KEY
+API_KEY = os.environ.get("OPENALEX_API_KEY") or (
+    _KEY_PATH.read_text().strip() if _KEY_PATH.exists() else None)
 API_KEY_PARAM = f"&api_key={API_KEY}" if API_KEY else ""
 
 COUNTRY_NAMES_DE = {

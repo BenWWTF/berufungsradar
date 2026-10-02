@@ -42,6 +42,12 @@ MONATE = {
 # Namensbestandteile enthalten keine Punkte, akademische Grade fast immer
 # ("Dipl.-Ing.", "Dr.rer.soc.oec.", "phil."). Punkt-Token fliegen deshalb raus,
 # die punktlosen Grade stehen als Liste daneben.
+# Tippfehler auf der TU-Seite selbst. Ohne Korrektur legt der wöchentliche
+# Merge jedes Mal eine Dublette an.
+NAMENSFEHLER = {
+    "Maria Gibert": "Marta Gibert",     # Profil-URL und Bestand: marta-gibert
+}
+
 GRADE_OHNE_PUNKT = {
     "univ", "prof", "profin", "dr", "drin", "mag", "maga", "dipl", "ing", "di",
     "msc", "ma", "bsc", "ba", "phd", "mba", "doz", "habil", "techn", "mont",
@@ -160,6 +166,7 @@ def parse():
         link = re.search(r'href="(/[^"]*new-professors[^"]*)"', roh)
 
         name = namensform(name_roh)
+        name = NAMENSFEHLER.get(name, name)
         if not name or " " not in name:
             continue
         eintraege.append({

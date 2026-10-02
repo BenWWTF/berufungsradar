@@ -1,0 +1,85 @@
+name: Neuzugänge suchen
+
+# Wöchentlich die drei Unis mit laufend gepflegter "Neue Professuren"-Seite
+# ernten (TU Wien, mdw, Uni Wien) und Neuzugänge als Pull Request vorschlagen.
+# Kein Direkt-Commit: das Dashboard ist öffentlich, Stufe-1-Datensätze
+# brauchen einen Blick, bevor sie live gehen. Der PR-Branch wird bei jedem
+# Lauf neu von main aufgebaut, offene Vorschläge sammeln sich also nicht an.
+on:
+  schedule:
+    - cron: "0 4 * * 1"     # montags 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Gleiche Gruppe wie datenbasis.yml: beide schreiben dashboard_data_2025.json
+concurrency:
+  group: datenbasis
+  cancel-in-progress: false
+
+jobs:
+  suchen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      BRANCH: neuzugaenge
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Quellen ernten
+        run: |
+          # Ein kaputter Parser darf die anderen Quellen nicht blockieren.
+          # Seine Ernte geht weder in den Merge noch in den Commit: die
+          # Datei ist schon geschrieben, wenn der Selbstcheck anschlägt.
+          ok="" fehler=""
+          for q in tuwien mdw univie_live; do
+            if python3 "scripts/backfill_$q.py"; then
+              ok="$ok backfill/$q.json"
+            else
+              fehler="$fehler backfill_$q.py"
+              git checkout -- "scripts/backfill/$q.json"
+            fi
+          done
+          echo "OK=$ok" >> "$GITHUB_ENV"
+          echo "FEHLER=$fehler" >> "$GITHUB_ENV"
+
+      - name: Mergen
+        if: env.OK != ''
+        run: |
+          python3 scripts/merge_backfill.py $OK
+          python3 scripts/neuzugaenge.py > "$RUNNER_TEMP/bericht.md"
+
+      - name: Anreichern und Pull Request
+        if: env.OK != ''
+        run: |
+          if [ ! -s "$RUNNER_TEMP/bericht.md" ]; then
+            echo "Keine Neuzugänge." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          bash scripts/update.sh
+          cat "$RUNNER_TEMP/bericht.md" >> "$GITHUB_STEP_SUMMARY"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A
+          git commit -q -m "Neuzugänge $(date -u +%Y-%m-%d)"
+          git push -f origin "$BRANCH"
+
+          titel="Neuzugänge $(date -u +%Y-%m-%d)"
+          if gh pr view "$BRANCH" --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr edit "$BRANCH" --title "$titel" --body-file "$RUNNER_TEMP/bericht.md"
+          else
+            gh pr create --head "$BRANCH" --base main --title "$titel" --body-file "$RUNNER_TEMP/bericht.md"
+          fi
+
+      - name: Parser-Fehler melden
+        if: env.FEHLER != ''
+        run: |
+          echo "### ⚠️ Selbstcheck fehlgeschlagen:$FEHLER" >> "$GITHUB_STEP_SUMMARY"
+          echo "Die Seite hat vermutlich ihren Aufbau geändert. Die übrigen Quellen sind gelaufen." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
