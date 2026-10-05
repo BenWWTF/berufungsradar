@@ -75357,5 +75357,370 @@
     "herkunft_institution": null,
     "herkunft_land": null,
     "grants": []
+  },
+  "Claudia Larcher": {
+    "name": "Claudia Larcher",
+    "openalex_id": "A5119508704",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "postdigitale Kunst.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Sofia Rodrigues Boito": {
+    "name": "Sofia Rodrigues Boito",
+    "openalex_id": "A5010035696",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 13,
+    "cited_by_count": 4,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "Universidade Estadual de Campinas (UNICAMP)",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universidade de São Paulo",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2018,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Gender und Space. h-Index: 1 | Publikationen: 13 | Zitierungen: 4.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universidade de São Paulo",
+    "herkunft_land": "Brasilien",
+    "grants": []
+  },
+  "Pedro Wendel Garcia": {
+    "name": "Pedro Wendel Garcia",
+    "openalex_id": "A5068548810",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 195,
+    "cited_by_count": 4563,
+    "h_index": 32,
+    "last_known_institutions": [
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University Hospital Zurich",
+        "country": "CH",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Geneva",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "h-Index: 32 | Publikationen: 195 | Zitierungen: 4563. Forschungstätigkeit u.a. in Schweiz, CL, Österreich, Spanien.",
+    "herkunft": "intern",
+    "herkunft_institution": "Vienna General Hospital",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Noelia Barrabés Rabanal": {
+    "name": "Noelia Barrabés Rabanal",
+    "openalex_id": "A5057064513",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 1,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "Associate Professor of Size Control in Metal Nanocluster Analysis.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Lutz Robbers": {
+    "name": "Lutz Robbers",
+    "openalex_id": "A5002507187",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 20,
+    "cited_by_count": 1,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "RWTH Aachen University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Architekturtheorie und Architekturentwurf HTC. h-Index: 1 | Publikationen: 20 | Zitierungen: 1.",
+    "herkunft": "extern",
+    "herkunft_institution": "RWTH Aachen University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Ulrike Müller": {
+    "name": "Ulrike Müller",
+    "openalex_id": "A5101928593",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 167,
+    "cited_by_count": 17395,
+    "h_index": 60,
+    "last_known_institutions": [
+      {
+        "name": "Heidelberg University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          1978
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technische Universität Braunschweig",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2014,
+          2012,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "Max Planck Institute for Brain Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2014,
+          2012,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2009,
+          2002,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Kunst und Bild I Figuration. h-Index: 60 | Publikationen: 167 | Zitierungen: 17395. Forschungstätigkeit u.a. in Vereinigtes Königreich, Frankreich, USA, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Heidelberg University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Peter Marhofer": {
+    "name": "Peter Marhofer",
+    "openalex_id": "A5082498519",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 267,
+    "cited_by_count": 12565,
+    "h_index": 57,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1998
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Goethe University Frankfurt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Assistance Publique – Hôpitaux de Paris",
+        "country": "FR",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Linköping University Hospital",
+        "country": "SE",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Hospital Universitario Río Hortega",
+        "country": "ES",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Kinderanästhesie. h-Index: 57 | Publikationen: 267 | Zitierungen: 12565. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich, Südafrika.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }
