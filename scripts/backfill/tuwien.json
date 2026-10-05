@@ -7,7 +7,19 @@
   "art_berufung": "§98",
   "forschungsbereich": "University Professor of Integrated Quantum (Bio)Sensing",
   "fakultat_code": "E163/E164",
-  "profil_url": null,
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/k/univprof-dipl-ing-drrernat-siegfried-krainer",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "stufe": 1
+ },
+ {
+  "name": "Noelia Barrabés Rabanal",
+  "universitat": "TU Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "art_berufung": "§99(4)",
+  "forschungsbereich": "Associate Professor of Size Control in Metal Nanocluster Analysis",
+  "fakultat_code": "E165",
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/b/associate-prof-dr-noelia-barrabes-rabanal",
   "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
   "stufe": 1
  },
@@ -852,18 +864,6 @@
   "stufe": 1
  },
  {
-  "name": "Dietmar Feichtinger",
-  "universitat": "TU Wien",
-  "monat": "OKTOBER",
-  "year": 2023,
-  "art_berufung": "§98",
-  "forschungsbereich": "University Professor for Structural Engineering and Design",
-  "fakultat_code": "E253",
-  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/f/univprof-arch-dipl-ing-dietmar-feichtinger",
-  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
-  "stufe": 1
- },
- {
   "name": "Amalio Fernandez-Pacheco Chicon",
   "universitat": "TU Wien",
   "monat": "OKTOBER",
@@ -872,6 +872,18 @@
   "forschungsbereich": "MSc PhD , University Professor for Advanced Material Interfaces and Heterostructures",
   "fakultat_code": "E134",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/f/univprof-amalio-fernandez-pacheco-chicon-msc-phd",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "stufe": 1
+ },
+ {
+  "name": "Dietmar Feichtinger",
+  "universitat": "TU Wien",
+  "monat": "OKTOBER",
+  "year": 2023,
+  "art_berufung": "§98",
+  "forschungsbereich": "University Professor of Structural Engineering and Design",
+  "fakultat_code": "E253",
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/f/univprof-arch-dipl-ing-dietmar-feichtinger",
   "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
   "stufe": 1
  },
@@ -1644,7 +1656,7 @@
   "stufe": 1
  },
  {
-  "name": "Maria Gibert",
+  "name": "Marta Gibert",
   "universitat": "TU Wien",
   "monat": "SEPTEMBER",
   "year": 2021,
@@ -2040,18 +2052,6 @@
   "stufe": 1
  },
  {
-  "name": "Karl Kirchner",
-  "universitat": "TU Wien",
-  "monat": "APRIL",
-  "year": 2020,
-  "art_berufung": "§98",
-  "forschungsbereich": "University Professor for Base Metal Catalysis",
-  "fakultat_code": "E163",
-  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/k/univprof-dipl-ing-drtechn-karl-kirchner",
-  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
-  "stufe": 1
- },
- {
   "name": "Laura Kovacs",
   "universitat": "TU Wien",
   "monat": "APRIL",
@@ -2060,6 +2060,18 @@
   "forschungsbereich": "University Professor for Automated Program Reasoning",
   "fakultat_code": "E192",
   "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/k/univprof-dipl-ing-drtechn-laura-kovacs",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "stufe": 1
+ },
+ {
+  "name": "Karl Kirchner",
+  "universitat": "TU Wien",
+  "monat": "APRIL",
+  "year": 2020,
+  "art_berufung": "§98",
+  "forschungsbereich": "University Professor for Base Metal Catalysis",
+  "fakultat_code": "E163",
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/k/univprof-dipl-ing-drtechn-karl-kirchner",
   "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
   "stufe": 1
  },

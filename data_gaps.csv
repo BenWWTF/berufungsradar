@@ -1,5 +1,9 @@
 name;universitaet;fehlend;nur_auto_befuellt;uni_suche;google
+Claudia Larcher;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Claudia%20Larcher+Akademie+Professur
 Iman Issa;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Iman%20Issa+Akademie+Professur
+Lutz Robbers;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Lutz%20Robbers+Akademie+Professur
+Sofia Rodrigues Boito;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Sofia%20Rodrigues%20Boito+Akademie+Professur
+Ulrike Müller;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Ulrike%20M%C3%BCller+Akademie+Professur
 Miya Yoshida;Angewandte;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Miya%20Yoshida;https://www.google.com/search?q=Miya%20Yoshida+Angewandte+Professur
 Farsam Salimi;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Farsam%20Salimi;https://www.google.com/search?q=Farsam%20Salimi+Uni%20Wien+Professur
 Olga Makarova;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Olga%20Makarova;https://www.google.com/search?q=Olga%20Makarova+Vetmeduni%20Wien+Professur
@@ -13,6 +17,7 @@ Tyanif Rico-Rodriguez;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, H
 Sarah Davies;Uni Wien;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Sarah%20Davies;https://www.google.com/search?q=Sarah%20Davies+Uni%20Wien+Professur
 Sara Ricci;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Sara%20Ricci;https://www.google.com/search?q=Sara%20Ricci+Vetmeduni%20Wien+Professur
 Sam Chermayeff;Angewandte;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Sam%20Chermayeff;https://www.google.com/search?q=Sam%20Chermayeff+Angewandte+Professur
+Noelia Barrabés Rabanal;TU Wien;Werdegang/CV, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, OpenAlex-Metriken;;https://www.tuwien.at/suche?tx_solr[q]=Noelia%20Barrab%C3%A9s%20Rabanal;https://www.google.com/search?q=Noelia%20Barrab%C3%A9s%20Rabanal+TU%20Wien+Professur
 Bouchra Khalili;Angewandte;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Bouchra%20Khalili;https://www.google.com/search?q=Bouchra%20Khalili+Angewandte+Professur
 Michael Carnegie La Belle;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Michael%20Carnegie%20La%20Belle+CEU+Professur
 Farsam Salimi;Uni Wien;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Farsam%20Salimi;https://www.google.com/search?q=Farsam%20Salimi+Uni%20Wien+Professur
@@ -385,11 +390,14 @@ Maxim Zaitsev;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/
 Michael Bonelli;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Michael%20Bonelli;https://www.google.com/search?q=Michael%20Bonelli+MedUni%20Wien+Professur
 Nikolaus Klupp;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Nikolaus%20Klupp;https://www.google.com/search?q=Nikolaus%20Klupp+MedUni%20Wien+Professur
 Oliver Kimberger;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Oliver%20Kimberger;https://www.google.com/search?q=Oliver%20Kimberger+MedUni%20Wien+Professur
+Oliver Kimberger;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Oliver%20Kimberger;https://www.google.com/search?q=Oliver%20Kimberger+MedUni%20Wien+Professur
 Oliver Strobel;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Oliver%20Strobel;https://www.google.com/search?q=Oliver%20Strobel+MedUni%20Wien+Professur
 Oskar Aszmann;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Oskar%20Aszmann;https://www.google.com/search?q=Oskar%20Aszmann+MedUni%20Wien+Professur
 Oskar Aszmann;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Oskar%20Aszmann;https://www.google.com/search?q=Oskar%20Aszmann+MedUni%20Wien+Professur
 Pascal Baltzer;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Pascal%20Baltzer;https://www.google.com/search?q=Pascal%20Baltzer+MedUni%20Wien+Professur
 Paul A. Kyrle;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Paul%20A.%20Kyrle;https://www.google.com/search?q=Paul%20A.%20Kyrle+MedUni%20Wien+Professur
+Pedro Wendel Garcia;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Pedro%20Wendel%20Garcia;https://www.google.com/search?q=Pedro%20Wendel%20Garcia+MedUni%20Wien+Professur
+Peter Marhofer;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Peter%20Marhofer;https://www.google.com/search?q=Peter%20Marhofer+MedUni%20Wien+Professur
 Peter Valent;MedUni Wien;Institut;Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Peter%20Valent;https://www.google.com/search?q=Peter%20Valent+MedUni%20Wien+Professur
 Petra Heffeter;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Petra%20Heffeter;https://www.google.com/search?q=Petra%20Heffeter+MedUni%20Wien+Professur
 Philipp Emanuel Bartko;MedUni Wien;Institut;Werdegang/CV, Profil-Link;https://www.meduniwien.ac.at/web/index.php?id=suche&L=0&q=Philipp%20Emanuel%20Bartko;https://www.google.com/search?q=Philipp%20Emanuel%20Bartko+MedUni%20Wien+Professur
@@ -485,7 +493,7 @@ Benjamin Schnieder;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?
 Benjamin Vernot;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Benjamin%20Vernot;https://www.google.com/search?q=Benjamin%20Vernot+Uni%20Wien+Professur
 Bernardo Ballesteros Petrella;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Bernardo%20Ballesteros%20Petrella;https://www.google.com/search?q=Bernardo%20Ballesteros%20Petrella+Uni%20Wien+Professur
 Bernhard Lutz;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Bernhard%20Lutz;https://www.google.com/search?q=Bernhard%20Lutz+Uni%20Wien+Professur
-Bernhard Standl;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Bernhard%20Standl;https://www.google.com/search?q=Bernhard%20Standl+Uni%20Wien+Professur
+Bernhard Standl;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Bernhard%20Standl;https://www.google.com/search?q=Bernhard%20Standl+Uni%20Wien+Professur
 Bernhard Woytek;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Bernhard%20Woytek;https://www.google.com/search?q=Bernhard%20Woytek+Uni%20Wien+Professur
 Birgit Englert;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Birgit%20Englert;https://www.google.com/search?q=Birgit%20Englert+Uni%20Wien+Professur
 Birgit Nemec;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Birgit%20Nemec;https://www.google.com/search?q=Birgit%20Nemec+Uni%20Wien+Professur
@@ -573,7 +581,7 @@ Hans Kainz;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.ht
 Harald Eberhard;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Harald%20Eberhard;https://www.google.com/search?q=Harald%20Eberhard+Uni%20Wien+Professur
 Harald Fadinger;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Harald%20Fadinger;https://www.google.com/search?q=Harald%20Fadinger+Uni%20Wien+Professur
 Helen Ahner;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Helen%20Ahner;https://www.google.com/search?q=Helen%20Ahner+Uni%20Wien+Professur
-Helmut Reimitz;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Helmut%20Reimitz;https://www.google.com/search?q=Helmut%20Reimitz+Uni%20Wien+Professur
+Helmut Reimitz;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Helmut%20Reimitz;https://www.google.com/search?q=Helmut%20Reimitz+Uni%20Wien+Professur
 Himani Sachdeva;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Himani%20Sachdeva;https://www.google.com/search?q=Himani%20Sachdeva+Uni%20Wien+Professur
 Igor Yanovich;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Igor%20Yanovich;https://www.google.com/search?q=Igor%20Yanovich+Uni%20Wien+Professur
 Iris Eisenberger;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Iris%20Eisenberger;https://www.google.com/search?q=Iris%20Eisenberger+Uni%20Wien+Professur
@@ -594,7 +602,7 @@ Jia Min Chin;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.
 Jillian Petersen;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Jillian%20Petersen;https://www.google.com/search?q=Jillian%20Petersen+Uni%20Wien+Professur
 Jim Rheingans;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Jim%20Rheingans;https://www.google.com/search?q=Jim%20Rheingans+Uni%20Wien+Professur
 Johanna Ullrich;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Johanna%20Ullrich;https://www.google.com/search?q=Johanna%20Ullrich+Uni%20Wien+Professur
-Johannes Carl;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Johannes%20Carl;https://www.google.com/search?q=Johannes%20Carl+Uni%20Wien+Professur
+Johannes Carl;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Johannes%20Carl;https://www.google.com/search?q=Johannes%20Carl+Uni%20Wien+Professur
 Johannes Kirchmair;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Johannes%20Kirchmair;https://www.google.com/search?q=Johannes%20Kirchmair+Uni%20Wien+Professur
 Johannes Reitinger;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Johannes%20Reitinger;https://www.google.com/search?q=Johannes%20Reitinger+Uni%20Wien+Professur
 Johannes Reitinger;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Johannes%20Reitinger;https://www.google.com/search?q=Johannes%20Reitinger+Uni%20Wien+Professur
@@ -687,7 +695,7 @@ Michael Waibel;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/searc
 Michael Zumstein;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Michael%20Zumstein;https://www.google.com/search?q=Michael%20Zumstein+Uni%20Wien+Professur
 Mihaela Pavlicev;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Mihaela%20Pavlicev;https://www.google.com/search?q=Mihaela%20Pavlicev+Uni%20Wien+Professur
 Miranda Jakiša;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Miranda%20Jaki%C5%A1a;https://www.google.com/search?q=Miranda%20Jaki%C5%A1a+Uni%20Wien+Professur
-Mischa Suter;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Mischa%20Suter;https://www.google.com/search?q=Mischa%20Suter+Uni%20Wien+Professur
+Mischa Suter;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Mischa%20Suter;https://www.google.com/search?q=Mischa%20Suter+Uni%20Wien+Professur
 Mitja Zdouc;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Mitja%20Zdouc;https://www.google.com/search?q=Mitja%20Zdouc+Uni%20Wien+Professur
 Monika Bernold;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Monika%20Bernold;https://www.google.com/search?q=Monika%20Bernold+Uni%20Wien+Professur
 Monika De Frantz;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Monika%20De%20Frantz;https://www.google.com/search?q=Monika%20De%20Frantz+Uni%20Wien+Professur
@@ -766,7 +774,7 @@ Sudeshna Boro Saikia;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.htm
 Susanne Maria Reiterer;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Susanne%20Maria%20Reiterer;https://www.google.com/search?q=Susanne%20Maria%20Reiterer+Uni%20Wien+Professur
 Susanne Schwarz;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Susanne%20Schwarz;https://www.google.com/search?q=Susanne%20Schwarz+Uni%20Wien+Professur
 Suzana Jovicic;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Suzana%20Jovicic;https://www.google.com/search?q=Suzana%20Jovicic+Uni%20Wien+Professur
-Sándor Hites;Uni Wien;Institut;Werdegang/CV, Profil-Link;https://ufind.univie.ac.at/de/search.html?query=S%C3%A1ndor%20Hites;https://www.google.com/search?q=S%C3%A1ndor%20Hites+Uni%20Wien+Professur
+Sándor Hites;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=S%C3%A1ndor%20Hites;https://www.google.com/search?q=S%C3%A1ndor%20Hites+Uni%20Wien+Professur
 Tabea Ott;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Tabea%20Ott;https://www.google.com/search?q=Tabea%20Ott+Uni%20Wien+Professur
 Tatyana Krivobokova;Uni Wien;Institut;Profil-Link;https://ufind.univie.ac.at/de/search.html?query=Tatyana%20Krivobokova;https://www.google.com/search?q=Tatyana%20Krivobokova+Uni%20Wien+Professur
 Teresa Hiergeist;Uni Wien;Institut;;https://ufind.univie.ac.at/de/search.html?query=Teresa%20Hiergeist;https://www.google.com/search?q=Teresa%20Hiergeist+Uni%20Wien+Professur

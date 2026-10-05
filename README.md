@@ -46,7 +46,7 @@ Methodik je Universität und Jahr.
 | Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 42 | ✅ Vollständig |
 | BOKU | 30 | ✅ Vollständig (2026 laufend) |
-| **Gesamt** | **1097** | **100% ÖFOS-Abdeckung (1097/1097)** |
+| **Gesamt** | **1105** | **100% ÖFOS-Abdeckung (1102/1105)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders

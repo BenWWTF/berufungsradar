@@ -40,7 +40,7 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | Akademie | 44 | 🟡 teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 42 | ✅ vollständig |
 | BOKU | 30 | ✅ vollständig (2026 laufend) |
-| **Gesamt** | **1097** | **100 % ÖFOS-Abdeckung (1097/1097)** |
+| **Gesamt** | **1105** | **100 % ÖFOS-Abdeckung (1102/1105)** |
 
 Details je Universität und Jahr, inklusive der jeweiligen Quelle und
 Begründung für offene Jahre, stehen in `datenabdeckung.json`.

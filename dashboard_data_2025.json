@@ -79886,7 +79886,8 @@
   "h_index": 23,
   "publikationen": 111,
   "zitierungen": 5354,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professorin-fuer-kunst-und-bild-figuration-ab-1-10-anna-schachinger"
  },
  {
   "name": "Cat Dawson",
@@ -80000,7 +80001,8 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
-  }
+  },
+  "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professorin-brorson"
  },
  {
   "name": "Waltraud Indrist",
@@ -86142,7 +86144,9 @@
     }
    ],
    "openalex_id": "A5112532072"
-  }
+  },
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/graf-benedikt",
+  "stellentyp": "Universitätsprofessur"
  },
  {
   "name": "Benedikt Warth",
@@ -88389,7 +88393,9 @@
    ],
    "openalex_id": "A5039756505"
   },
-  "openalex_id": "A5039756505"
+  "openalex_id": "A5039756505",
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/ullrich-johanna",
+  "stellentyp": "Universitätsprofessur"
  },
  {
   "name": "Johannes Kirchmair",
@@ -95249,6 +95255,49 @@
   "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
+  "name": "Claudia Larcher",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "postdigitale Kunst",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-claudia-larcher",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 1,
+   "cited_by_count": 0,
+   "h_index": 0,
+   "last_known_institutions": [],
+   "openalex_id": "A5119508704"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "DH"
+  ]
+ },
+ {
   "name": "Imke Woelk",
   "universitat": "Akademie",
   "fakultat": "Institut für Kunst und Architektur",
@@ -95336,6 +95385,254 @@
    ],
    "openalex_id": "A5087673675"
   }
+ },
+ {
+  "name": "Lutz Robbers",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Architekturtheorie und Architekturentwurf HTC",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "211",
+  "ofos_label": "Andere Technische Wissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neuer-professor-lutz-robbers",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "21",
+  "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 20,
+   "cited_by_count": 1,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "RWTH Aachen University",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2015
+     ],
+     "most_recent": 2015
+    }
+   ],
+   "openalex_id": "A5002507187"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Sofia Rodrigues Boito",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Gender und Space",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-sofia-boito",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 13,
+   "cited_by_count": 4,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "Universidade Estadual de Campinas (UNICAMP)",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Universidade de São Paulo",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2024,
+      2022,
+      2018,
+      2016,
+      2015,
+      2014
+     ],
+     "most_recent": 2024
+    }
+   ],
+   "openalex_id": "A5010035696"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Ulrike Müller",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Kunst und Bild I Figuration",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-ulrike-mueller",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 167,
+   "cited_by_count": 17395,
+   "h_index": 60,
+   "last_known_institutions": [
+    {
+     "name": "Heidelberg University",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      1978
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Technische Universität Braunschweig",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Max Planck Society",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2014,
+      2012,
+      2009,
+      2008,
+      2007,
+      2006
+     ],
+     "most_recent": 2014
+    },
+    {
+     "name": "Max Planck Institute for Brain Research",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2014,
+      2012,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000,
+      1999,
+      1998
+     ],
+     "most_recent": 2014
+    },
+    {
+     "name": "University of Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2009,
+      2002,
+      2000,
+      1999,
+      1998,
+      1997,
+      1996,
+      1995,
+      1994
+     ],
+     "most_recent": 2009
+    }
+   ],
+   "openalex_id": "A5101928593"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
  },
  {
   "name": "Sophie Thun",
@@ -95847,6 +96144,363 @@
    "openalex_id": "A5073812680"
   },
   "openalex_id": "A5073812680",
+  "profil_url_auto": true
+ },
+ {
+  "name": "Oliver Kimberger",
+  "universitat": "MedUni Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Anästhesie",
+  "art_berufung": "§99(4)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "Vienna General Hospital",
+  "herkunft_land": "Österreich",
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
+  "bio_text": "Perioperatives Informationsmanagement. h-Index: 39 | Publikationen: 192 | Zitierungen: 4955. Forschungstätigkeit u.a. in Schweiz, Österreich, Portugal, USA.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Vienna General Hospital, 2009–2026 · Austrian Institute for Health Technology Assessment GmbH, 2020–2026 · Deutsche Gesellschaft für Anästhesiologie und Intensivmedizin (DE), 2026 · Medical University of Vienna, 2002–2026 · University of Lisbon (PT), 2025.",
+  "profil_url": "https://openalex.org/A5073340029",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juli-2026/oliver-kimberger-uebernimmt-professur-im-fachbereich-anaesthesie/",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 192,
+   "cited_by_count": 4955,
+   "h_index": 39,
+   "last_known_institutions": [
+    {
+     "name": "Vienna General Hospital",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2025,
+      2022,
+      2021,
+      2020,
+      2015,
+      2012,
+      2011,
+      2010,
+      2009
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Austrian Institute for Health Technology Assessment GmbH",
+     "country": "AT",
+     "type": "nonprofit",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Deutsche Gesellschaft für Anästhesiologie und Intensivmedizin",
+     "country": "DE",
+     "type": "other",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Lisbon",
+     "country": "PT",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5073340029"
+  },
+  "openalex_id": "A5073340029",
+  "h_index": 39,
+  "publikationen": 192,
+  "zitierungen": 4955,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
+  "name": "Pedro Wendel Garcia",
+  "universitat": "MedUni Wien",
+  "monat": "JUNI",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": null,
+  "art_berufung": "§99(5)",
+  "geschlecht": null,
+  "herkunft": "intern",
+  "herkunft_institution": "Vienna General Hospital",
+  "herkunft_land": "Österreich",
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": "h-Index: 32 | Publikationen: 195 | Zitierungen: 4563. Forschungstätigkeit u.a. in Schweiz, CL, Österreich, Spanien.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Zurich (CH), 2020–2026 · Vienna General Hospital, 2025–2026 · University Hospital Zurich (CH), 2020–2026 · Medical University of Vienna, 2025–2026 · University of Geneva (CH), 2025.",
+  "profil_url": "https://openalex.org/A5068548810",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-juni-2026/pedro-wendel-garcia-uebernimmt-tenure-track-assistenzprofessur-an-der-meduni-wien/",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 195,
+   "cited_by_count": 4563,
+   "h_index": 32,
+   "last_known_institutions": [
+    {
+     "name": "University of Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Vienna General Hospital",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University Hospital Zurich",
+     "country": "CH",
+     "type": "healthcare",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of Geneva",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    }
+   ],
+   "openalex_id": "A5068548810"
+  },
+  "openalex_id": "A5068548810",
+  "h_index": 32,
+  "publikationen": 195,
+  "zitierungen": 4563,
+  "wwtf_programme": [],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
+  "name": "Peter Marhofer",
+  "universitat": "MedUni Wien",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Kinderanästhesie",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "Medical University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
+  "bio_text": "Kinderanästhesie. h-Index: 57 | Publikationen: 267 | Zitierungen: 12565. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich, Südafrika.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Medical University of Vienna, 1998–2026 · Goethe University Frankfurt (DE), 2023 · Assistance Publique – Hôpitaux de Paris (FR), 2023 · Linköping University Hospital (SE), 2023 · Hospital Universitario Río Hortega (ES), 2023.",
+  "profil_url": "https://openalex.org/A5082498519",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-oktober-2026/peter-marhofer-uebernimmt-professur-fuer-kinderanaesthesie/",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 267,
+   "cited_by_count": 12565,
+   "h_index": 57,
+   "last_known_institutions": [
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000,
+      1998
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Goethe University Frankfurt",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Assistance Publique – Hôpitaux de Paris",
+     "country": "FR",
+     "type": "healthcare",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Linköping University Hospital",
+     "country": "SE",
+     "type": "healthcare",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Hospital Universitario Río Hortega",
+     "country": "ES",
+     "type": "healthcare",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5082498519"
+  },
+  "openalex_id": "A5082498519",
+  "h_index": 57,
+  "publikationen": 267,
+  "zitierungen": 12565,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "werdegang_auto": true,
   "profil_url_auto": true
  },
  {
@@ -97613,6 +98267,47 @@
   "_kuratiert": "Handrecherche (Werdegang) via https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/l/associate-prof-marcin-lis-phd: Handrecherche 2026-08-26 aus TU-Wien-Personenseite (direkt abgerufen)."
  },
  {
+  "name": "Noelia Barrabés Rabanal",
+  "universitat": "TU Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": "E165",
+  "forschungsbereich": "Associate Professor of Size Control in Metal Nanocluster Analysis",
+  "art_berufung": "§99(4)",
+  "geschlecht": null,
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/b/associate-prof-dr-noelia-barrabes-rabanal",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": "Institut für Materialchemie",
+  "_openalex": {
+   "works_count": 1,
+   "cited_by_count": 0,
+   "h_index": 0,
+   "last_known_institutions": [],
+   "openalex_id": "A5057064513"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
   "name": "Peter Knees",
   "universitat": "TU Wien",
   "fakultat": null,
@@ -98304,7 +98999,7 @@
   "ofos_code": "102",
   "ofos_label": "Informatik",
   "bio_text": "Didactics of Computer Science. h-Index: 9 | Publikationen: 46 | Zitierungen: 308. Forschungstätigkeit u.a. in Österreich, Deutschland.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Karlsruhe University of Education (DE), 2019–2026 · University of Education Freiburg (DE), 2022 · TU Wien, 2017–2018 · University of Vienna, 2012–2016 · Pädagogische Hochschule Wien, 2016.",
+  "werdegang": "2005–2008 Lehramtsstudium Informatik und Geschichte (Mag. rer. nat.), Universität Wien · 2008–2018 AHS-Lehrer für Informatik und Geschichte am GRG 10 Laaer-Berg-Straße, Wien · 2008–2010 Wissenschaftlicher Mitarbeiter im Projekt Theorie und Praxis der Fachdidaktik, Universität Wien · 2010–2014 Doktorand und wissenschaftlicher Mitarbeiter an der Fakultät für Informatik, Universität Wien · 2014 Promotion (Dr. techn.) an der Fakultät für Informatik, Universität Wien. Dissertation: Conceptual Modelling and Implementation of Person-Centred Computer Science Education at Secondary School Level · 2015 Fulbright Postdoctoral Research Fellow, Missouri State University, USA · 2016–2018 Postdoc im Projekt START Informatik, Technische Universität Wien · 2018–2022 Tenure-Track-Professor (W1) für Informatik und ihre Didaktik, Pädagogische Hochschule Karlsruhe · 2022–2026 Professor (W3) für Informatik und ihre Didaktik, Pädagogische Hochschule Karlsruhe · seit August 2026 Professur für Didactics of Computer Science, Fakultät für Informatik und Zentrum für Lehrer*innenbildung, Universität Wien",
   "profil_url": "https://openalex.org/A5003509249",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/standl-bernhard",
   "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Website 'Neue Professuren' (Detail-Seite); laut Profil 2022-2026 W3-Prof an PH Karlsruhe, seit August 2026 an Uni Wien",
@@ -98387,7 +99082,6 @@
    "openalex_id": "A5003509249"
   },
   "openalex_id": "A5003509249",
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "stellentyp": null
  },
@@ -99458,7 +100152,7 @@
   "ofos_code": "601",
   "ofos_label": "Geschichte und Archäologie",
   "bio_text": "Geschichte Europas im Frühen Mittelalter. h-Index: 9 | Publikationen: 71 | Zitierungen: 711. Forschungstätigkeit u.a. in USA, CL, Österreich.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Princeton University (US), 2011–2026 · Institute for Medieval Research, 2026 · Millennium Science Initiative (CL), 2021 · Millennium Engineering and Integration (United States) (US), 2021 · Princeton Public Schools (US), 2012.",
+  "werdegang": "1998 Staatsexamen am Institut für Österreichische Geschichtsforschung, Mitglied des Instituts für Österreichische Geschichtsforschung · 1999 PhD, Universität Wien · 1999-2002 post-doc am des Instituts für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften · 2002 tenure track position am Instituts für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften · 2004-2008 Leiter der Arbeitsgruppe Frühmittelalter am Institut für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften · 2005 Unbefristete Stelle als Principal Investigator am Institut für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften · 2005-2006 Visiting Fellow am Netherland Institute for Advanced Studies (NIAS) - research group “Rulers, History and Exegesis. The Formation of a Political Identity in the Carolingian Empire” · 2008-2013 Assistant Professor of History, History Department, Princeton University · 2009-10 Executive director des Shelby Cullom Davis Center for Historical Studies, Princeton University · 2013 – Ernennung zum Full Professor, History Department, Princeton University · 2014/15 and 2015/16 Old Dominion Fellow, Council of Humanities, Princeton University · 2016/17 Visiting Research Fellow, Sonderforschungsbereich Visions of community. Comparative approaches to ethnicity, region and empire in Christianity, Islam and Buddhism, Vienna, Austrian Academy of Sciences · 2017 (Frühling) Professeur invité an der École des Hautes Études en Sciences Sociales, Paris · 2018-2022 Executive Committee des Shelby Cullom Davis Center for Historical Studies, Princeton University · 2021/22: Visiting researcher, Center for Advanced Study, University of Tübingen · 2019-2023 Direktor des Program in Medieval Studies, Princeton University · 2023 Wahl zum Fellow der Medieval Academy of America · 2023 Ernennung zum Shelby Cullom Davis ’30 Professor of European History, History Department, Princeton University · 2025 Leiter des Digital Lab am Institut für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften · 2026 Direktor des Instituts für Mittelalterforschung an der Österreichischen Akademie der Wissenschaften, mit 1. Juli 2026 · seit Juli 2026 Professur für die Geschichte des frühen Mittelalters, Historisch-Kulturwissenschaftlichen Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5071266227",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/reimitz-helmut",
   "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Website 'Neue Professuren' (Detail-Seite); laut Profil seit Juli 2026",
@@ -99536,7 +100230,6 @@
    "openalex_id": "A5071266227"
   },
   "openalex_id": "A5071266227",
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "stellentyp": null
  },
@@ -99764,7 +100457,7 @@
   "ofos_code": "503",
   "ofos_label": "Bildungswissenschaften",
   "bio_text": "Bewegungs- und Sportpädagogik – Diversität und Gesundheit. h-Index: 36 | Publikationen: 88 | Zitierungen: 9935. Forschungstätigkeit u.a. in Österreich, Griechenland, Deutschland.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Metropolitan Hospital (GR), 2010–2020 · Universitätsklinik für Strahlentherapie (DE), 2007–2013 · Medical University of Vienna, 2005–2011 · University of Vienna, 2009 · Vienna General Hospital, 2007–2009.",
+  "werdegang": "2011-2014 Bachelor of Arts Sportwissenschaft, Universität Stuttgart, Deutschland · 2013-2017 Bachelor of Science Psychologie, FernUniversität Hagen, Deutschland · 2014-2016 Master Sportwissenschaft mit dem Schwerpunkt Gesundheitsförderung, Universität Tübingen, Deutschland · 2017-2023 Wissenschaftlicher Mitarbeiter am Department für Sportwissenschaft und Sport, Friedrich-Alexander-Universität Erlangen-Nürnberg, Deutschland · 2021 Promotion in der Sportwissenschaft, Friedrich-Alexander-Universität Erlangen-Nürnberg, Deutschland · 2022 Forschungsaufenthalt am Center for Clinical Research and Prevention (CCRP) des Frederiksberg Hospital, Copenhagen, Dänemark · 2023-2026 Postdoctoral Fellow am Institute for Physical Activity and Nutrition (IPAN) der Deakin University, Australien · 2024-2025 Cotutelle Postdoctoral Research Fellow am Centre for Physical Activity, Sport and Exercise Sciences (PASES) der Coventry University, United Kingdom · 2026 DFG Heisenberg Fellow / TUM Junior Fellow am Department für Gesundheit und Sport der Technischen Universität München, Deutschland · seit September 2026 Tenure Track-Professur für Sportpädagogik: Gesundheit und Diversität (mit DFG Heisenberg Förderung), Institut für Sport- und Bewegungswissenschaft, Universität Wien",
   "profil_url": "https://openalex.org/A5023459879",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/carl-johannes",
   "_kuratiert": "2026-09-09: univie-Detailseite nennt nur Titel/Fach, kein CV. Websuche fand einen namensgleichen Sportwissenschaftler (FAU Erlangen-Nürnberg, PhD 2021, seit Herbst 2023 Deakin University Melbourne, seit 01.03.2026 TUM) — zeitlich unvereinbar mit einer parallelen Wien-Berufung zum 01.09.2026 (könnte nicht gleichzeitig TUM und Wien antreten), daher NICHT übernommen, auch wenn ein zweiter Rechercheversuch densel­ben Namensvetter unkritisch als Treffer gemeldet hatte. Fakultät/Institut sind strukturell verifiziert (ZSU ist eigenständige Fakultätseinheit der Uni Wien mit ISBW als Institut); Vorinstitution/Werdegang der tatsächlichen Person bleiben offen — Follow-up nötig (österreichische Quellen, ZSU-Personalseite, ggf. direkte Anfrage).",
@@ -99850,7 +100543,6 @@
    "openalex_id": "A5023459879"
   },
   "openalex_id": "A5023459879",
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "stellentyp": null
  },
@@ -100690,7 +101382,7 @@
   "ofos_code": "601",
   "ofos_label": "Geschichte und Archäologie",
   "bio_text": "Sozial- und Kulturgeschichte des 19. und 20. Jahrhunderts. h-Index: 5 | Publikationen: 24 | Zitierungen: 81.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Graduate Institute of International and Development Studies (CH), 2025 · University of Basel (CH), 2014–2020 · University of Zurich (CH), 2012.",
+  "werdegang": "2001–2004 Leitung Musikprogramm Kulturzentrum Rote Fabrik, Zürich · 2008 Lizentiat Allgemeine Geschichte, Englische Literaturwissenschaft, Sozial- und Wirtschaftsgeschichte, Universität Zürich · 2008-2012 wissenschaftlicher Mitarbeiter, Forschungsstelle für Sozial- und Wirtschaftsgeschichte, Universität Zürich · 2012 Visiting Scholar, University of Michigan · 2013 Doc Mobility Grant, Schweizerischer Nationalfonds (SNF): Visiting Graduate Student, University of Chicago · 2014 Promotion, Universität Zürich · 2013–2017 wissenschaftlicher Mitarbeiter, Departement Geschichte, Universität Basel · 2017–2020 Advanced Postdoc Mobility Grant, SNF: CUNY Graduate Center NYC, Humboldt-Universität zu Berlin, Universität Wien, Duke University · 2021 SNF Eccellenza Professor, Department of International History and Politics, Geneva Graduate Institute of International and Development Studies · 2022 Habilitation, Universität Basel · 2025 Fellow, Davis Center for Historical Studies, Princeton University · 2026 Senior Fellow, Collegium Helveticum (Swiss Institute for Advanced Studies) · Seit August 2026 Professur für Sozial- und Kulturgeschichte des 19. und 20. Jahrhunderts, Historisch-Kulturwissenschaftliche Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5002315795",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/suter-mischa",
   "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Website 'Neue Professuren' (Detail-Seite); Dienstantritt laut Profil 'Seit August 2026'",
@@ -100743,7 +101435,6 @@
    ],
    "openalex_id": "A5002315795"
   },
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "openalex_id": "A5002315795",
   "stellentyp": null
@@ -101371,7 +102062,7 @@
   "ofos_code": "602",
   "ofos_label": "Sprach- und Literaturwissenschaften",
   "bio_text": "Ungarische Literatur im europäischen Kontext. h-Index: 3 | Publikationen: 27 | Zitierungen: 129.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Institute for Literary Studies (HU), 2012–2023 · ELTE Research Centre for the Humanities (HU), 2012–2023 · Hungarian Academy of Sciences (HU), 2012–2017.",
+  "werdegang": "1993–1998 Studium der Ungarischen Literatur, Sprachwissenschaft und Philosophie an der Eötvös-Loránd-Universität Budapest (Ungarn) · 1998 Master of Philosophy (MPhil) in Ungarischer Sprache und Literatur, Eötvös-Loránd- Universität · 1998–2005 Ph.D. in Literaturwissenschaft, Eötvös-Loránd-Universität und Universität Amsterdam (Niederlande) · 2003–2019 Wissenschaftlicher Mitarbeiter, Institut für Literaturwissenschaft, Ungarische Akademie der Wissenschaften · 2006–2009 Bolyai-Forschungsstipendium, Ungarische Akademie der Wissenschaften · 2012 Gastwissenschafter, Institute for Advanced Studies in the Humanities, University of Edinburgh (UK) · 2012–2013 Gastprofessor, Babeș-Bolyai-Universität Cluj/Kolozsvár (Rumänien) · 2015–2017, 2025–2026 Gastprofessor, Centre for European and Eurasian Studies, Munk School of Global Affairs & Public Policy (Kanada) · 2019–2025 Wissenschaftlicher Mitarbeiter, HUN-REN Forschungszentrum für Geisteswissenschaften · 2019–2024 Leiter der Lendület-Forschungsgruppe \"Die politische Ökonomie der ungarischen Literatur\", Ungarische Akademie der Wissenschaften · 2025–2026 Wissenschaftlicher Mitarbeiter, Eötvös-Loránd-Universität Forschungszentrum für Geisteswissenschaften · seit August 2026 Tenure Track-Professur für Ungarische Literatur im europäischen Kontext, Philologisch-Kulturwissenschaftliche Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5050339718",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/hites-sandor",
   "_kuratiert": "Handrecherche 2026-08-23 aus Uni-Wien-Website 'Neue Professuren' (Detail-Seite); Tenure-Track-Professur seit August 2026",
@@ -101432,7 +102123,6 @@
    ],
    "openalex_id": "A5050339718"
   },
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "openalex_id": "A5050339718",
   "stellentyp": null,
@@ -101996,7 +102686,8 @@
   "openalex_id": "A5014211536",
   "profil_url_auto": true,
   "_geschlecht_inferred": true,
-  "_note": " Geschlecht aus Vorname inferiert (W)."
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "stellentyp": "Universitätsprofessur"
  },
  {
   "name": "Viorela Dan",
