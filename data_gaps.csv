@@ -1,6 +1,8 @@
 name;universitaet;fehlend;nur_auto_befuellt;uni_suche;google
 Iman Issa;Akademie;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Iman%20Issa+Akademie+Professur
 Miya Yoshida;Angewandte;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.dieangewandte.at/suche?q=Miya%20Yoshida;https://www.google.com/search?q=Miya%20Yoshida+Angewandte+Professur
+Axel Körner;BOKU;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://boku.ac.at/suche?q=Axel%20K%C3%B6rner;https://www.google.com/search?q=Axel%20K%C3%B6rner+BOKU+Professur
+Bianca Vienni-Baptista;BOKU;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://boku.ac.at/suche?q=Bianca%20Vienni-Baptista;https://www.google.com/search?q=Bianca%20Vienni-Baptista+BOKU+Professur
 Farsam Salimi;Uni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://ufind.univie.ac.at/de/search.html?query=Farsam%20Salimi;https://www.google.com/search?q=Farsam%20Salimi+Uni%20Wien+Professur
 Olga Makarova;Vetmeduni Wien;Werdegang/CV, Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;https://www.vetmeduni.ac.at/suche?q=Olga%20Makarova;https://www.google.com/search?q=Olga%20Makarova+Vetmeduni%20Wien+Professur
 Charles David Shaw;CEU;Profil-Link, Kurzbeschreibung, Herkunftsinstitution, Herkunftsland, Institut, OpenAlex-Metriken;;;https://www.google.com/search?q=Charles%20David%20Shaw+CEU+Professur
@@ -232,11 +234,15 @@ Alfred Strauss;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?
 Andreas Holzinger;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Andreas%20Holzinger;https://www.google.com/search?q=Andreas%20Holzinger+BOKU+Professur
 Barbara Hinterstoisser;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Barbara%20Hinterstoisser;https://www.google.com/search?q=Barbara%20Hinterstoisser+BOKU+Professur
 Benjamin Kromoser;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Benjamin%20Kromoser;https://www.google.com/search?q=Benjamin%20Kromoser+BOKU+Professur
+Birgit Fürst-Waltl;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Birgit%20F%C3%BCrst-Waltl;https://www.google.com/search?q=Birgit%20F%C3%BCrst-Waltl+BOKU+Professur
+Christian Scheidl;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Christian%20Scheidl;https://www.google.com/search?q=Christian%20Scheidl+BOKU+Professur
 Christina Schäffer;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Christina%20Sch%C3%A4ffer;https://www.google.com/search?q=Christina%20Sch%C3%A4ffer+BOKU+Professur
 Daniel Ennöckl;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Daniel%20Enn%C3%B6ckl;https://www.google.com/search?q=Daniel%20Enn%C3%B6ckl+BOKU+Professur
+Fabian Fassnacht;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Fabian%20Fassnacht;https://www.google.com/search?q=Fabian%20Fassnacht+BOKU+Professur
 Fabian Pfrengle;BOKU;Institut;;https://boku.ac.at/suche?q=Fabian%20Pfrengle;https://www.google.com/search?q=Fabian%20Pfrengle+BOKU+Professur
 Georg Gratzer;BOKU;Institut;;https://boku.ac.at/suche?q=Georg%20Gratzer;https://www.google.com/search?q=Georg%20Gratzer+BOKU+Professur
 Gerald Striedner;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Gerald%20Striedner;https://www.google.com/search?q=Gerald%20Striedner+BOKU+Professur
+Gernot Bodner;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Gernot%20Bodner;https://www.google.com/search?q=Gernot%20Bodner+BOKU+Professur
 Harald E. Rieder;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Harald%20E.%20Rieder;https://www.google.com/search?q=Harald%20E.%20Rieder+BOKU+Professur
 Helmut Haberl;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Helmut%20Haberl;https://www.google.com/search?q=Helmut%20Haberl+BOKU+Professur
 Henry Jäger;BOKU;Institut;;https://boku.ac.at/suche?q=Henry%20J%C3%A4ger;https://www.google.com/search?q=Henry%20J%C3%A4ger+BOKU+Professur
@@ -244,6 +250,7 @@ Johannes Buyel;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?
 Johannes Konnerth;BOKU;Institut;;https://boku.ac.at/suche?q=Johannes%20Konnerth;https://www.google.com/search?q=Johannes%20Konnerth+BOKU+Professur
 Josef Eitzinger;BOKU;Institut;;https://boku.ac.at/suche?q=Josef%20Eitzinger;https://www.google.com/search?q=Josef%20Eitzinger+BOKU+Professur
 Katharina Gugerell;BOKU;Institut;;https://boku.ac.at/suche?q=Katharina%20Gugerell;https://www.google.com/search?q=Katharina%20Gugerell+BOKU+Professur
+Katharina Keiblinger;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Katharina%20Keiblinger;https://www.google.com/search?q=Katharina%20Keiblinger+BOKU+Professur
 Konrad Domig;BOKU;Institut;Werdegang/CV, Profil-Link;https://boku.ac.at/suche?q=Konrad%20Domig;https://www.google.com/search?q=Konrad%20Domig+BOKU+Professur
 Mario Pesendorfer;BOKU;Institut;;https://boku.ac.at/suche?q=Mario%20Pesendorfer;https://www.google.com/search?q=Mario%20Pesendorfer+BOKU+Professur
 Matthias Kuba;BOKU;Institut;;https://boku.ac.at/suche?q=Matthias%20Kuba;https://www.google.com/search?q=Matthias%20Kuba+BOKU+Professur
@@ -254,7 +261,6 @@ Roland Ludwig;BOKU;Institut;;https://boku.ac.at/suche?q=Roland%20Ludwig;https://
 Sabine Seidel;BOKU;Institut;;https://boku.ac.at/suche?q=Sabine%20Seidel;https://www.google.com/search?q=Sabine%20Seidel+BOKU+Professur
 Stefanie Lemke;BOKU;Institut;;https://boku.ac.at/suche?q=Stefanie%20Lemke;https://www.google.com/search?q=Stefanie%20Lemke+BOKU+Professur
 Stephan Hann;BOKU;Institut;;https://boku.ac.at/suche?q=Stephan%20Hann;https://www.google.com/search?q=Stephan%20Hann+BOKU+Professur
-Yusak Susilo;BOKU;Institut;;https://boku.ac.at/suche?q=Yusak%20Susilo;https://www.google.com/search?q=Yusak%20Susilo+BOKU+Professur
 Yusak Susilo;BOKU;Institut;;https://boku.ac.at/suche?q=Yusak%20Susilo;https://www.google.com/search?q=Yusak%20Susilo+BOKU+Professur
 Alexander Etkind;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Alexander%20Etkind+CEU+Professur
 Alexios Rigas Antypas;CEU;Institut;Profil-Link;;https://www.google.com/search?q=Alexios%20Rigas%20Antypas+CEU+Professur

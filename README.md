@@ -45,8 +45,8 @@ Methodik je Universität und Jahr.
 | WU Wien | 55 | ✅ Vollständig (2026 laufend) |
 | Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 42 | ✅ Vollständig |
-| BOKU | 30 | ✅ Vollständig (2026 laufend) |
-| **Gesamt** | **1097** | **100% ÖFOS-Abdeckung (1097/1097)** |
+| BOKU | 36 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
+| **Gesamt** | **1103** | **100% ÖFOS-Abdeckung (1103/1103)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders

@@ -779,7 +779,7 @@
  {
   "name": "Harald E. Rieder",
   "universitat": "BOKU",
-  "monat": "MÄRZ",
+  "monat": "FEBRUAR",
   "year": 2019,
   "stufe": 1,
   "fakultat": "Institut für Meteorologie und Klimatologie",
@@ -796,9 +796,9 @@
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Central Institution for Meteorology and Geodynamics, 2024–2026 · Senckenberg Biodiversity and Climate Research Centre (DE), 2026 · BOKU University, 2008–2026 · International Institute for Applied Systems Analysis, 2025 · Düsseldorf University Hospital (DE), 2025.",
   "profil_url": "https://openalex.org/A5024042872",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
-  "_kuratiert": "BOKU WB2019 listet Rieder als 2019 Berufung. Antrittsvorlesung 17.6.2019. Herkunft: Universität Graz. Berufungs-Datum 2019 (Monat Schätzung basierend auf Antrittsvorlesung).",
+  "_kuratiert": "BOKU WB2019 listet Rieder als 2019 Berufung. Antrittsvorlesung 17.6.2019. Herkunft: Universität Graz. Berufungs-Datum 2019 (Monat Schätzung basierend auf Antrittsvorlesung). Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): FEBRUAR (vorher MÄRZ).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "_ofos_auto": true,
   "ofos_bereich_code": "1",
   "ofos_bereich": "Naturwissenschaften",
@@ -1101,7 +1101,7 @@
  {
   "name": "Konrad Domig",
   "universitat": "BOKU",
-  "monat": "MÄRZ",
+  "monat": "OKTOBER",
   "year": 2019,
   "stufe": 1,
   "fakultat": "Institut für Lebensmittelqualitätssicherung",
@@ -1118,9 +1118,9 @@
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 2002–2026 · Institute of Food Science & Technology (GB), 2024 · Bundesamt für Wasserwirtschaft, 2022 · Bahir Dar University (ET), 2022 · Institute of Food Science (IT), 2010–2019.",
   "profil_url": "https://openalex.org/A5070116600",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
-  "_kuratiert": "BOKU WB2019 listet Domig als 2019 Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet.",
+  "_kuratiert": "BOKU WB2019 listet Domig als 2019 Berufung. Antrittsvorlesung nicht in BOKUonline Antrittsvorlesungs-Archiv gelistet. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): OKTOBER (vorher MÄRZ).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "ofos_bereich_code": "4",
   "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
   "ofos_hauptgruppe_code": "40",
@@ -1217,7 +1217,7 @@
  {
   "name": "Yusak Susilo",
   "universitat": "BOKU",
-  "monat": "JÄNNER",
+  "monat": "OKTOBER",
   "year": 2019,
   "stufe": 1,
   "fakultat": "Institut für Verkehrswesen",
@@ -1234,9 +1234,9 @@
   "werdegang": "Dr. Eng. (Civil Engineering Systems) 2005 an der Kyoto University, Japan. 2006/07 Postdoc an der TU Delft, 2007–2011 Lecturer / Senior Lecturer in Transport and Spatial Planning an der University of the West of England, Bristol. 2011–2013 Assistant Professor, 2013–2016 Associate Professor, 2016–2019 Full Professor in Transport Analysis and Policy an der KTH Royal Institute of Technology, Stockholm. Habilitation (Docent) an der KTH 2012. Seit 10/2019 BMK Stiftungsprofessur für Digitalisierung und Automatisierung im Verkehrs- und Mobilitätssystem an der BOKU Wien.",
   "profil_url": "https://boku.ac.at/lawi/verk/personen/yusak-susilo",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2019_20/MB16/BOKU_Wissensbilanz_2019_ES.pdf",
-  "_kuratiert": "BOKU WB2019 listet Susilo als 2019 Berufung. Herkunft: KTH Stockholm. Antrittsvorlesung 8.11.2021 (BMK Stiftungsprofessur). OTS-Presseaussendung 3.11.2021 erwähnt 'bevor er 2019 an das Institut für Verkehrswesen der BOKU kam' – dies könnte auf eine §99(5) Laufbahnstelle 2019 und die §98-Stiftungsprofessur 2021 hindeuten.",
+  "_kuratiert": "BOKU WB2019 listet Susilo als 2019 Berufung. Herkunft: KTH Stockholm. Antrittsvorlesung 8.11.2021 (BMK Stiftungsprofessur). OTS-Presseaussendung 3.11.2021 erwähnt 'bevor er 2019 an das Institut für Verkehrswesen der BOKU kam' – dies könnte auf eine §99(5) Laufbahnstelle 2019 und die §98-Stiftungsprofessur 2021 hindeuten. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): OKTOBER (vorher JÄNNER). Eintrag 2021 (§99(5), Antrittsvorlesung 8.11.2021) als Dublette entfernt.",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "_ofos_auto": true,
   "ofos_bereich_code": "2",
   "ofos_bereich": "Technische Wissenschaften",
@@ -8263,7 +8263,7 @@
  {
   "name": "Johannes Konnerth",
   "universitat": "BOKU",
-  "monat": "JÄNNER",
+  "monat": "APRIL",
   "year": 2020,
   "stufe": 1,
   "fakultat": "Institut für Holztechnologie und Nachwachsende Rohstoffe",
@@ -8280,9 +8280,9 @@
   "werdegang": "Bereits seit 01/2005 Assoc. Prof. für Holzmaterialwissenschaften an der BOKU, mit Habilitation 2012 (BOKU). Auslandsaufenthalte u. a. an der University of Tennessee/Knoxville (USA) und der ETH Zürich. Vor der BOKU-Karriere 2003/04 technischer Einkauf/Qualitätsmanagement bei Tecnoform S.p.A. (Bologna) und 2001–2003 Verkauf bei TTM Massivholz GmbH (Heiligenkreiz). Ausbildung: HTL Maschinenbau und FH-Studiengang Holztechnologie (Salzburg), Doktorat an der BOKU (2005–2008). Berufung zum Univ.Prof. für Holztechnologie 04/2020.",
   "profil_url": "https://forschung.boku.ac.at/de/researcher/Johannes-Konnerth-F24AC51B6A103D9F",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
-  "_kuratiert": "BOKU WB2020 listet Konnerth als 2020 Berufung. Antrittsvorlesung 10.5.2021. Interne §98-Berufung.",
+  "_kuratiert": "BOKU WB2020 listet Konnerth als 2020 Berufung. Antrittsvorlesung 10.5.2021. Interne §98-Berufung. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): APRIL (vorher JÄNNER).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "ofos_bereich_code": "2",
   "ofos_bereich": "Technische Wissenschaften",
   "ofos_hauptgruppe_code": "20",
@@ -8493,7 +8493,7 @@
  {
   "name": "Stephan Hann",
   "universitat": "BOKU",
-  "monat": "FEBRUAR",
+  "monat": "OKTOBER",
   "year": 2020,
   "stufe": 1,
   "fakultat": "Institut für Analytische Chemie",
@@ -8510,7 +8510,7 @@
   "werdegang": "Bereits seit 2001 an der BOKU: 2001–2005 Assistent und Habilitation im Fach Analytische Chemie (Thema: Platingruppenelemente in Umwelt- und biologischen Matrizes via ICP-MS), 2005–2020 Assoziierter Professor am Institut für Analytische Chemie der BOKU. Berufung zum vollen Universitätsprofessor mit 1.10.2020, gleichzeitig Leiter des Instituts für Analytische Chemie.",
   "profil_url": "https://forschung.boku.ac.at/en/researcher/Stephan-Hann-21EB7DD55F3AE04A",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2020_21/MB20/BOKU_Wissensbilanz-2020.pdf",
-  "_kuratiert": "BOKU WB2020 listet Hann als 2020 Berufung. Antrittsvorlesung 20.6.2022. Institutsleitung ab 1.10.2020 (MB 01_stueck_15102020). Interne §98-Berufung.",
+  "_kuratiert": "BOKU WB2020 listet Hann als 2020 Berufung. Antrittsvorlesung 20.6.2022. Institutsleitung ab 1.10.2020 (MB 01_stueck_15102020). Interne §98-Berufung. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): OKTOBER (vorher FEBRUAR).",
   "_herkunft_research": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "1",
@@ -8617,7 +8617,8 @@
    ],
    "openalex_id": "A5015735297"
   },
-  "openalex_id": "A5015735297"
+  "openalex_id": "A5015735297",
+  "monat_unsicher": false
  },
  {
   "name": "Cameran Hooshang Ashraf",
@@ -21588,113 +21589,6 @@
    "openalex_id": "A5021576921"
   },
   "openalex_id": "A5021576921"
- },
- {
-  "name": "Yusak Susilo",
-  "universitat": "BOKU",
-  "monat": "NOVEMBER",
-  "year": 2021,
-  "stufe": 1,
-  "fakultat": "Institut für Verkehrswesen",
-  "fakultat_code": null,
-  "forschungsbereich": "Digitalisierung und Automatisierung im Verkehrs- und Mobilitätssystem (BMK Stiftungsprofessur)",
-  "art_berufung": "§99(5)",
-  "geschlecht": "M",
-  "herkunft": "intern",
-  "herkunft_institution": "BOKU, Institut für Verkehrswesen (BMK Stiftungsprofessur seit 10/2019)",
-  "herkunft_land": "Österreich",
-  "ofos_code": "201",
-  "ofos_label": "Bauingenieurwesen",
-  "bio_text": "Digitalisierung und Automatisierung des Verkehrs- und Mobilitätssystems (BMK Stiftungsprofessur). h-Index: 46 | Publikationen: 328 | Zitierungen: 7797. Forschungstätigkeit u.a. in Japan, Kanada, Schweden, Rumänien.",
-  "werdegang": "Bereits seit 10/2019 Inhaber der BMK Stiftungsprofessur an der BOKU (vorher Full Professor an der KTH Royal Institute of Technology, Stockholm, 2016–2019). Der 2021-Datensatz (Nov 2021, §99(5)) entspricht einer Reklassifizierung bzw. Verlängerung der bestehenden Stiftungsprofessur, nicht einer neuen Berufung von extern.",
-  "profil_url": "https://boku.ac.at/lawi/verk/personen/yusak-susilo",
-  "quelle": "https://science.apa.at/power-search/10109067397815880845",
-  "_kuratiert": "Handrecherche 2026-08-22 aus APA-Science (BOKU-Presseaussendung); BMK Stiftungsprofessur (Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie), Antrittsvorlesung 8.11.2021.; Stiftungsgeber BMK",
-  "_herkunft_research": null,
-  "_ofos_auto": true,
-  "ofos_bereich_code": "2",
-  "ofos_bereich": "Technische Wissenschaften",
-  "ofos_hauptgruppe_code": "20",
-  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
-  "fakultat_institut": null,
-  "h_index": 46,
-  "publikationen": 328,
-  "zitierungen": 7797,
-  "wwtf_programme": [
-   "DH"
-  ],
-  "monat_unsicher": true,
-  "_openalex": {
-   "works_count": 328,
-   "cited_by_count": 7797,
-   "h_index": 46,
-   "last_known_institutions": [
-    {
-     "name": "Ministry of Land, Infrastructure, Transport and Tourism",
-     "country": "JP",
-     "type": "government",
-     "years": [
-      2026,
-      2025
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "BOKU University",
-     "country": "AT",
-     "type": "education",
-     "years": [
-      2026,
-      2025,
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "Transport Research Institute",
-     "country": "RO",
-     "type": "facility",
-     "years": [
-      2025
-     ],
-     "most_recent": 2025
-    },
-    {
-     "name": "KTH Royal Institute of Technology",
-     "country": "SE",
-     "type": "education",
-     "years": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016,
-      2015,
-      2014,
-      2013,
-      2012,
-      2011
-     ],
-     "most_recent": 2020
-    },
-    {
-     "name": "Swedish Transport Administration",
-     "country": "SE",
-     "type": "government",
-     "years": [
-      2018,
-      2014
-     ],
-     "most_recent": 2018
-    }
-   ],
-   "openalex_id": "A5083252784"
-  },
-  "openalex_id": "A5083252784"
  },
  {
   "name": "Alice Elisabeth Kugler",
@@ -37964,7 +37858,7 @@
  {
   "name": "Benjamin Kromoser",
   "universitat": "BOKU",
-  "monat": null,
+  "monat": "FEBRUAR",
   "year": 2022,
   "stufe": 1,
   "fakultat": "Department für Bautechnik und Naturgefahren",
@@ -37981,9 +37875,9 @@
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Landscape Institute (GB), 2026 · Petra University (JO), 2026 · Green Chemistry (PL), 2024–2026 · Holzbau Deutschland-Institut (DE), 2026 · BOKU University, 2018–2026.",
   "profil_url": "https://openalex.org/A5006892540",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2022 (Mitteilungsblatt 2022/23 Nr. 22, 07.06.2023, /fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf); '3. Benjamin Kromoser, Department für Bautechnik und Naturgefahren: Ressourceneffizienter Hochbau (§ 98)'. Vorinstitution: 'University of Alberta, Edmonton' (Kanada). Kalenderjahr 2022 ist das Berufungsjahr; konkreter Monat nicht in WB genannt.",
+  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2022 (Mitteilungsblatt 2022/23 Nr. 22, 07.06.2023, /fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf); '3. Benjamin Kromoser, Department für Bautechnik und Naturgefahren: Ressourceneffizienter Hochbau (§ 98)'. Vorinstitution: 'University of Alberta, Edmonton' (Kanada). Kalenderjahr 2022 ist das Berufungsjahr; konkreter Monat nicht in WB genannt. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): FEBRUAR (vorher None).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "_ofos_auto": true,
   "ofos_bereich_code": "2",
   "ofos_bereich": "Technische Wissenschaften",
@@ -38435,7 +38329,7 @@
  {
   "name": "Johannes Buyel",
   "universitat": "BOKU",
-  "monat": null,
+  "monat": "APRIL",
   "year": 2022,
   "stufe": 1,
   "fakultat": "Department für Biotechnologie",
@@ -38452,9 +38346,9 @@
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 2022–2026 · RWTH Aachen University (DE), 2012–2024 · Fraunhofer Institute for Molecular Biology and Applied Ecology (DE), 2012–2023 · Gesellschaft zur Förderung angewandter Informatik (DE), 2016–2019 · Fraunhofer Institute for Production Technology IPT (DE), 2018.",
   "profil_url": "https://openalex.org/A5080120118",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2022 (Mitteilungsblatt 2022/23 Nr. 22, 07.06.2023, /fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf); '1. Johannes Buyel, Department für Biotechnologie: Downstream Processing (§ 98)'. Vorinstitution: 'RWTH Aachen, c/o Fraunhofer-Institut IME' (Deutschland). Kalenderjahr 2022 ist das Berufungsjahr; konkreter Monat nicht in WB genannt.",
+  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2022 (Mitteilungsblatt 2022/23 Nr. 22, 07.06.2023, /fileadmin/data/H01000/mitteilungsblatt/MB_2022_23/MB22/BOKU_Wissensbilanz_2022_ES_high.pdf); '1. Johannes Buyel, Department für Biotechnologie: Downstream Processing (§ 98)'. Vorinstitution: 'RWTH Aachen, c/o Fraunhofer-Institut IME' (Deutschland). Kalenderjahr 2022 ist das Berufungsjahr; konkreter Monat nicht in WB genannt. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): APRIL (vorher None).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "ofos_bereich_code": "3",
   "ofos_bereich": "Medizin, Gesundheitswissenschaften",
   "ofos_hauptgruppe_code": "30",
@@ -67719,30 +67613,30 @@
   "stufe": 1,
   "fakultat": "Department für Naturwissenschaften und Nachwachsende Rohstoffe",
   "fakultat_code": null,
-  "forschungsbereich": "Naturwissenschaften (Department für Naturwissenschaften und Nachwachsende Rohstoffe)",
+  "forschungsbereich": "Mathematik",
   "art_berufung": "§98",
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "Universität Bielefeld, Fakultät für Mathematik (Akademischer Oberrat)",
   "herkunft_land": "Deutschland",
-  "ofos_code": "401",
-  "ofos_label": "Agrarwissenschaften",
+  "ofos_code": "101",
+  "ofos_label": "Mathematik",
   "bio_text": null,
   "werdegang": "Promotion in Mathematik an der Université Pierre et Marie Curie (Sorbonne). Lehr- und Forschungsassistent (ATER) an der Sorbonne Université 2007–2010, dort Chargé de T.D. und ATER in Mathematik. 2010–2012 PostDoc an der Universität Wien (Fakultät für Mathematik, Gruppe Walter Schachermayer, Mathematical Finance). 2013–2022 Wissenschaftlicher Mitarbeiter (PostDoc) an der Universität Bielefeld in der Gruppe Bio-Mathematik von Ellen Baake. 10/2022–09/2024 Akademischer Oberrat an der Universität Bielefeld. Berufung 03/2024 zum Universitätsprofessor für Mathematik an der BOKU Wien.",
   "profil_url": "https://forschung.boku.ac.at/de/researcher/Fernando-Cordero-C55549F0B13A76B2",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/H10090/H10400/H10450/BOKU_Wissensbilanz_2024.pdf",
-  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Wissensbilanz 2024; '2024 zwei Berufungen nach § 98 UG 2002 (Fernando Cordero, Department für Naturwissenschaften und Nachwachsende)'. Zweite Person namentlich nicht genannt — bleibt offen.",
+  "_kuratiert": "Handrecherche 2026-08-22 aus BOKU-Wissensbilanz 2024; '2024 zwei Berufungen nach § 98 UG 2002 (Fernando Cordero, Department für Naturwissenschaften und Nachwachsende)'. Zweite Person namentlich nicht genannt — bleibt offen. Denomination Mathematik lt. BOKU, Übersicht der Professuren ab 2019 (10/2026).",
   "_herkunft_research": null,
-  "ofos_bereich_code": "4",
-  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
-  "ofos_hauptgruppe_code": "40",
-  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
   "wwtf_programme": [
-   "ESR"
+   "MA"
   ],
   "_openalex": {
    "works_count": 340,
@@ -67808,8 +67702,7 @@
     }
    ],
    "openalex_id": "A5035283189"
-  },
-  "_ofos_auto": true
+  }
  },
  {
   "name": "Matthias Neuner",
@@ -67916,7 +67809,7 @@
  {
   "name": "Melanie Pichler",
   "universitat": "BOKU",
-  "monat": null,
+  "monat": "SEPTEMBER",
   "year": 2024,
   "stufe": 1,
   "fakultat": "Department für Wirtschafts- und Sozialwissenschaften",
@@ -67933,9 +67826,9 @@
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 1998–2026 · University of Vienna, 2013–2023 · Institute for New Media (DE), 2023 · University of Klagenfurt, 2017–2019 · Institute for Social Anthropology, 2017.",
   "profil_url": "https://openalex.org/A5081401902",
   "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2024_25/MB30/BOKU_Wissensbilanz_2024_72dpi.pdf",
-  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2024 (Mitteilungsblatt 2024/25 Nr. 30, 04.06.2025, /fileadmin/data/H01000/mitteilungsblatt/MB_2024_25/MB30/BOKU_Wissensbilanz_2024_72dpi.pdf); '2. Melanie Pichler, Department für Wirtschafts- und Sozialwissenschaften: Soziale Ökologie (§ 98 UG 2002)'. Hausberufung. Zweite der zwei 2024er §98-Berufungen — der bestehende kuratiert_boku.json-Eintrag für Fernando Cordero (Universität Bielefeld) hatte explizit auf 'zweite Person namentlich nicht genannt — bleibt offen' verwiesen, was mit dieser WB-Auswertung aufgelöst ist. Kalenderjahr 2024 ist das Berufungsjahr; konkreter Monat nicht in WB genannt.",
+  "_kuratiert": "Handrecherche 2026-08-23 aus BOKU-Wissensbilanz 2024 (Mitteilungsblatt 2024/25 Nr. 30, 04.06.2025, /fileadmin/data/H01000/mitteilungsblatt/MB_2024_25/MB30/BOKU_Wissensbilanz_2024_72dpi.pdf); '2. Melanie Pichler, Department für Wirtschafts- und Sozialwissenschaften: Soziale Ökologie (§ 98 UG 2002)'. Hausberufung. Zweite der zwei 2024er §98-Berufungen — der bestehende kuratiert_boku.json-Eintrag für Fernando Cordero (Universität Bielefeld) hatte explizit auf 'zweite Person namentlich nicht genannt — bleibt offen' verwiesen, was mit dieser WB-Auswertung aufgelöst ist. Kalenderjahr 2024 ist das Berufungsjahr; konkreter Monat nicht in WB genannt. Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): SEPTEMBER (vorher None).",
   "_herkunft_research": null,
-  "monat_unsicher": true,
+  "monat_unsicher": false,
   "_ofos_auto": true,
   "ofos_bereich_code": "1",
   "ofos_bereich": "Naturwissenschaften",
@@ -80215,6 +80108,84 @@
   "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: dieAngewandte, News 1748313739115 + IoA-Profilseite"
  },
  {
+  "name": "Christian Scheidl",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2025,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Naturgefahren und Risikomanagement",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "BOKU University",
+  "herkunft_land": "Österreich",
+  "ofos_code": "207",
+  "ofos_label": "Umweltingenieurwesen (Naturgefahren)",
+  "bio_text": "Naturgefahren und Risikomanagement. h-Index: 17 | Publikationen: 80 | Zitierungen: 1212. Forschungstätigkeit u.a. in Schweiz, Österreich.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 2008–2026 · Swiss Federal Institute for Forest, Snow and Landscape Research (CH), 2014.",
+  "profil_url": "https://openalex.org/A5002546461",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 03/2025.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 80,
+   "cited_by_count": 1212,
+   "h_index": 17,
+   "last_known_institutions": [
+    {
+     "name": "BOKU University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2017,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2008
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+     "country": "CH",
+     "type": "facility",
+     "years": [
+      2014
+     ],
+     "most_recent": 2014
+    }
+   ],
+   "openalex_id": "A5002546461"
+  },
+  "openalex_id": "A5002546461",
+  "h_index": 17,
+  "publikationen": 80,
+  "zitierungen": 1212,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Christine Sheppard",
   "universitat": "BOKU",
   "fakultat": "Institut für Botanik",
@@ -80230,7 +80201,7 @@
   "bio_text": "Antrittsvorlesung 27.04.2026 \"Öko-evolutionäre Dynamik gebietsfremder Pflanzen und einheimischer Gemeinschaften\". Forschungsschwerpunkt: Pflanzendiversität unter globalem Wandel, Faktoren für Invasionserfolg, Reaktionen einheimischer Pflanzengemeinschaften.",
   "werdegang": "ausführlicher Werdegang in Presseaussendung 23.04.2026; Schwerpunkt: ökologische und evolutionäre Prozesse bei Pflanzeninvasionen",
   "profil_url": "https://boku.ac.at/.../presseaussendungen-2026/23042026-presseeinladung-antrittsvorlesung-christine-sheppard",
-  "monat": "NOVEMBER",
+  "monat": "SEPTEMBER",
   "year": 2025,
   "ofos_bereich_code": "1",
   "ofos_bereich": "Naturwissenschaften",
@@ -80308,7 +80279,116 @@
    ],
    "openalex_id": "A5000485248"
   },
-  "openalex_id": "A5000485248"
+  "openalex_id": "A5000485248",
+  "monat_unsicher": false,
+  "_kuratiert": "Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): SEPTEMBER (vorher NOVEMBER)."
+ },
+ {
+  "name": "Fabian Fassnacht",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2025,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Geomatik",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "Freie Universität Berlin",
+  "herkunft_land": "Deutschland",
+  "ofos_code": "207",
+  "ofos_label": "Umweltingenieurwesen (Geomatik)",
+  "bio_text": "Geomatik. h-Index: 39 | Publikationen: 756 | Zitierungen: 6388. Forschungstätigkeit u.a. in Deutschland, Österreich.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Freie Universität Berlin (DE), 2022–2026 · BOKU University, 2026 · Karlsruhe Institute of Technology (DE), 2014–2023 · Universität Ulm (DE), 2020 · University of Freiburg (DE), 2012–2015.",
+  "profil_url": "https://openalex.org/A5063873988",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 03/2025.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 756,
+   "cited_by_count": 6388,
+   "h_index": 39,
+   "last_known_institutions": [
+    {
+     "name": "Freie Universität Berlin",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "BOKU University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Karlsruhe Institute of Technology",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Universität Ulm",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "University of Freiburg",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2015,
+      2014,
+      2013,
+      2012
+     ],
+     "most_recent": 2015
+    }
+   ],
+   "openalex_id": "A5063873988"
+  },
+  "openalex_id": "A5063873988",
+  "h_index": 39,
+  "publikationen": 756,
+  "zitierungen": 6388,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Katharina Gugerell",
@@ -80326,7 +80406,7 @@
   "bio_text": "Transdisziplinäre Landschaftsplanung. \"Wissenschaft und Gesellschaft sollen nicht nebeneinander, sondern miteinander Wissen produzieren.\" Schwerpunkte: partizipative Planung, Serious Games, biokulturelle Vielfalt in Bergregionen. Institutsleitung seit 2025.",
   "werdegang": "Diss BOKU 2008–2012; Habilitation 2020 BOKU; Visiting Assoc. Prof. University of Johannesburg + Saken Seifullin Kazakh Agrotechnical University. Internationales Netzwerk: NL, PL, DK, FI, KZ, AM, CN, ET, ZA",
   "profil_url": "https://boku.ac.at/.../presseaussendungen-2026/11032026-antrittsvorlesung-von-katharina-gugerell",
-  "monat": "OKTOBER",
+  "monat": "JUNI",
   "year": 2025,
   "ofos_bereich_code": "5",
   "ofos_bereich": "Sozialwissenschaften",
@@ -80406,7 +80486,109 @@
    ],
    "openalex_id": "A5032575380"
   },
-  "openalex_id": "A5032575380"
+  "openalex_id": "A5032575380",
+  "monat_unsicher": false,
+  "_kuratiert": "Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): JUNI (vorher OKTOBER)."
+ },
+ {
+  "name": "Katharina Keiblinger",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2025,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Bodenmikrobiologie",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "BOKU University",
+  "herkunft_land": "Österreich",
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
+  "bio_text": "Bodenmikrobiologie. h-Index: 35 | Publikationen: 188 | Zitierungen: 6872.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 2011–2026 · AIT Austrian Institute of Technology GmbH, 2020 · Austrian Research Centre for Forests, 2010–2012 · TU Wien, 2006–2008.",
+  "profil_url": "https://openalex.org/A5001652710",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2025.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 188,
+   "cited_by_count": 6872,
+   "h_index": 35,
+   "last_known_institutions": [
+    {
+     "name": "BOKU University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "AIT Austrian Institute of Technology GmbH",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Austrian Research Centre for Forests",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2012,
+      2010
+     ],
+     "most_recent": 2012
+    },
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2008,
+      2006
+     ],
+     "most_recent": 2008
+    }
+   ],
+   "openalex_id": "A5001652710"
+  },
+  "openalex_id": "A5001652710",
+  "h_index": 35,
+  "publikationen": 188,
+  "zitierungen": 6872,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Mario Pesendorfer",
@@ -80424,7 +80606,7 @@
   "bio_text": "Antrittsvorlesung Anfang Oktober 2025. Institut und Forschungsbereich in nächster Recherche-Session nachschärfen.",
   "werdegang": "— (Vervollständigung in nächster Session)",
   "profil_url": "https://boku.ac.at/.../presseaussendungen-2025/03102025-antrittsvorlesung-univ-prof-mario-pesendorfer",
-  "monat": "OKTOBER",
+  "monat": "APRIL",
   "year": 2025,
   "ofos_bereich_code": "4",
   "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
@@ -80516,7 +80698,9 @@
   "zitierungen": 1518,
   "wwtf_programme": [
    "ESR"
-  ]
+  ],
+  "monat_unsicher": false,
+  "_kuratiert": "Antrittsmonat lt. BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): APRIL (vorher OKTOBER)."
  },
  {
   "name": "Matthias Kuba",
@@ -80524,7 +80708,7 @@
   "fakultat": "Institut für Verfahrens- und Energietechnik",
   "fakultat_code": "IVET",
   "forschungsbereich": "Thermochemische Biomasse-Umwandlung / Synthesegas / Wirbelschichtsysteme",
-  "art_berufung": "§99(5)",
+  "art_berufung": null,
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "BEST – Bioenergy and Sustainable Technologies GmbH",
@@ -80620,7 +80804,7 @@
    "openalex_id": "A5055660262"
   },
   "openalex_id": "A5055660262",
-  "_kuratiert": "; Stiftungsgeber BEST"
+  "_kuratiert": "Stiftungsgeber BEST Art der Berufung offen: §99(5) war nur aus dem Stiftungsgeber abgeleitet."
  },
  {
   "name": "Roland Ludwig",
@@ -95375,6 +95559,383 @@
    "openalex_id": null
   },
   "_werdegang_research": "Web-Recherche 2026-08-21, Quelle: dieAngewandte, News 1758854538598 + Wikipedia"
+ },
+ {
+  "name": "Axel Körner",
+  "universitat": "BOKU",
+  "monat": "FEBRUAR",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Nachhaltiges Gestalten und Bauen (BMLRT-Stiftungsprofessur für Nachhaltiges Gestalten und Bauen – Neues Europäisches Bauhaus)",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "201",
+  "ofos_label": "Bauingenieurwesen (Architektur)",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 02/2026.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "20",
+  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 107,
+   "cited_by_count": 415,
+   "h_index": 12,
+   "last_known_institutions": [
+    {
+     "name": "University of Stuttgart",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2026,
+      2023,
+      2022,
+      2019,
+      2017,
+      2016
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University College London",
+     "country": "GB",
+     "type": "education",
+     "years": [
+      2024,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2005,
+      2003,
+      2001,
+      2000
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Leipzig University",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Tianjin Conservatory of Music",
+     "country": "CN",
+     "type": "education",
+     "years": [
+      2017
+     ],
+     "most_recent": 2017
+    },
+    {
+     "name": "Sichuan Fine Arts Institute",
+     "country": "CN",
+     "type": "education",
+     "years": [
+      2017
+     ],
+     "most_recent": 2017
+    }
+   ],
+   "openalex_id": "A5017365759"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Bianca Vienni-Baptista",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Transformative Nachhaltigkeitswissenschaften",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "509",
+  "ofos_label": "Andere Sozialwissenschaften (Nachhaltigkeitsforschung)",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": "5",
+  "ofos_bereich": "Sozialwissenschaften",
+  "ofos_hauptgruppe_code": "50",
+  "ofos_hauptgruppe": "Sozialwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 91,
+   "cited_by_count": 673,
+   "h_index": 11,
+   "last_known_institutions": [
+    {
+     "name": "ETH Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "American Association For The Advancement of Science",
+     "country": "US",
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Utrecht University",
+     "country": "NL",
+     "type": "education",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Forschungsinstitut für Biologischen Landbau",
+     "country": "CH",
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "Climate KIC",
+     "country": "NL",
+     "type": "nonprofit",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5041888428"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Birgit Fürst-Waltl",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Tierzucht und Tiergenetik",
+  "art_berufung": "§98",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "BOKU University",
+  "herkunft_land": "Österreich",
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften (Tierzucht)",
+  "bio_text": "Tierzucht und Tiergenetik. h-Index: 25 | Publikationen: 163 | Zitierungen: 1908. Forschungstätigkeit u.a. in Österreich, TH.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 1995–2026 · Gregor Mendel Institute of Molecular Plant Biology, 2023–2024 · Silpakorn University (TH), 2009.",
+  "profil_url": "https://openalex.org/A5031761509",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 163,
+   "cited_by_count": 1908,
+   "h_index": 25,
+   "last_known_institutions": [
+    {
+     "name": "BOKU University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      1997,
+      1995
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Gregor Mendel Institute of Molecular Plant Biology",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2024,
+      2023
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Silpakorn University",
+     "country": "TH",
+     "type": "education",
+     "years": [
+      2009
+     ],
+     "most_recent": 2009
+    }
+   ],
+   "openalex_id": "A5031761509"
+  },
+  "openalex_id": "A5031761509",
+  "h_index": 25,
+  "publikationen": 163,
+  "zitierungen": 1908,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
+  "name": "Gernot Bodner",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Pflanzenbau",
+  "art_berufung": "§98",
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "BOKU University",
+  "herkunft_land": "Österreich",
+  "ofos_code": "401",
+  "ofos_label": "Agrarwissenschaften",
+  "bio_text": "Pflanzenbau. h-Index: 34 | Publikationen: 146 | Zitierungen: 5008.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: BOKU University, 2007–2026.",
+  "profil_url": "https://openalex.org/A5051932079",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "4",
+  "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
+  "ofos_hauptgruppe_code": "40",
+  "ofos_hauptgruppe": "Agrarwissenschaften, Veterinärmedizin (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 146,
+   "cited_by_count": 5008,
+   "h_index": 34,
+   "last_known_institutions": [
+    {
+     "name": "BOKU University",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007
+     ],
+     "most_recent": 2026
+    }
+   ],
+   "openalex_id": "A5051932079"
+  },
+  "openalex_id": "A5051932079",
+  "h_index": 34,
+  "publikationen": 146,
+  "zitierungen": 5008,
+  "wwtf_programme": [
+   "ESR"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Daniel Weitzel",

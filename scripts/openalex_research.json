@@ -70346,5 +70346,465 @@
     "herkunft_institution": null,
     "herkunft_land": null,
     "grants": []
+  },
+  "Fabian Fassnacht": {
+    "name": "Fabian Fassnacht",
+    "openalex_id": "A5063873988",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 756,
+    "cited_by_count": 6388,
+    "h_index": 39,
+    "last_known_institutions": [
+      {
+        "name": "Freie Universität Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Karlsruhe Institute of Technology",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Universität Ulm",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "University of Freiburg",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Geomatik. h-Index: 39 | Publikationen: 756 | Zitierungen: 6388. Forschungstätigkeit u.a. in Deutschland, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Freie Universität Berlin",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Christian Scheidl": {
+    "name": "Christian Scheidl",
+    "openalex_id": "A5002546461",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 80,
+    "cited_by_count": 1212,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2017,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+        "country": "CH",
+        "type": "facility",
+        "years": [
+          2014
+        ],
+        "most_recent": 2014
+      }
+    ],
+    "bio_text": "Naturgefahren und Risikomanagement. h-Index: 17 | Publikationen: 80 | Zitierungen: 1212. Forschungstätigkeit u.a. in Schweiz, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "BOKU University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Birgit Fürst-Waltl": {
+    "name": "Birgit Fürst-Waltl",
+    "openalex_id": "A5031761509",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 163,
+    "cited_by_count": 1908,
+    "h_index": 25,
+    "last_known_institutions": [
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          1997,
+          1995
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Gregor Mendel Institute of Molecular Plant Biology",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2024,
+          2023
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Silpakorn University",
+        "country": "TH",
+        "type": "education",
+        "years": [
+          2009
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Tierzucht und Tiergenetik. h-Index: 25 | Publikationen: 163 | Zitierungen: 1908. Forschungstätigkeit u.a. in Österreich, TH.",
+    "herkunft": "extern",
+    "herkunft_institution": "BOKU University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Bianca Vienni-Baptista": {
+    "name": "Bianca Vienni-Baptista",
+    "openalex_id": "A5041888428",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 91,
+    "cited_by_count": 673,
+    "h_index": 11,
+    "last_known_institutions": [
+      {
+        "name": "ETH Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "American Association For The Advancement of Science",
+        "country": "US",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Utrecht University",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Forschungsinstitut für Biologischen Landbau",
+        "country": "CH",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Climate KIC",
+        "country": "NL",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Transformative Nachhaltigkeitswissenschaften. h-Index: 11 | Publikationen: 91 | Zitierungen: 673. Forschungstätigkeit u.a. in Deutschland, USA, Brasilien, UY.",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zurich",
+    "herkunft_land": "Schweiz",
+    "grants": []
+  },
+  "Katharina Keiblinger": {
+    "name": "Katharina Keiblinger",
+    "openalex_id": "A5001652710",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 188,
+    "cited_by_count": 6872,
+    "h_index": 35,
+    "last_known_institutions": [
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "AIT Austrian Institute of Technology GmbH",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Austrian Research Centre for Forests",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2012,
+          2010
+        ],
+        "most_recent": 2012
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2008,
+          2006
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Bodenmikrobiologie. h-Index: 35 | Publikationen: 188 | Zitierungen: 6872.",
+    "herkunft": "extern",
+    "herkunft_institution": "BOKU University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Axel Körner": {
+    "name": "Axel Körner",
+    "openalex_id": "A5017365759",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 107,
+    "cited_by_count": 415,
+    "h_index": 12,
+    "last_known_institutions": [
+      {
+        "name": "University of Stuttgart",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2023,
+          2022,
+          2019,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University College London",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2005,
+          2003,
+          2001,
+          2000
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Leipzig University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Tianjin Conservatory of Music",
+        "country": "CN",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Sichuan Fine Arts Institute",
+        "country": "CN",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Nachhaltiges Gestalten und Bauen (BMLRT-Stiftungsprofessur für Nachhaltiges Gestalten und Bauen – Neues Europäisches Bauhaus). h-Index: 12 | Publikationen: 107 | Zitierungen: 415. Forschungstätigkeit u.a. in Deutschland, China, USA, Slowakei.",
+    "herkunft": "extern",
+    "herkunft_institution": "University College London",
+    "herkunft_land": "Vereinigtes Königreich",
+    "grants": []
+  },
+  "Gernot Bodner": {
+    "name": "Gernot Bodner",
+    "openalex_id": "A5051932079",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 146,
+    "cited_by_count": 5008,
+    "h_index": 34,
+    "last_known_institutions": [
+      {
+        "name": "BOKU University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Pflanzenbau. h-Index: 34 | Publikationen: 146 | Zitierungen: 5008.",
+    "herkunft": "extern",
+    "herkunft_institution": "BOKU University",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }

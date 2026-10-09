@@ -1,0 +1,86 @@
+[
+ {
+  "name": "Fabian Fassnacht",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2025,
+  "art_berufung": "§98",
+  "forschungsbereich": "Geomatik",
+  "geschlecht": "M",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 03/2025.",
+  "stufe": 1
+ },
+ {
+  "name": "Christian Scheidl",
+  "universitat": "BOKU",
+  "monat": "MÄRZ",
+  "year": 2025,
+  "art_berufung": "§98",
+  "forschungsbereich": "Naturgefahren und Risikomanagement",
+  "geschlecht": "M",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 03/2025.",
+  "stufe": 1
+ },
+ {
+  "name": "Katharina Keiblinger",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2025,
+  "art_berufung": "§98",
+  "forschungsbereich": "Bodenmikrobiologie",
+  "geschlecht": "W",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2025.",
+  "stufe": 1
+ },
+ {
+  "name": "Axel Körner",
+  "universitat": "BOKU",
+  "monat": "FEBRUAR",
+  "year": 2026,
+  "art_berufung": "§98",
+  "forschungsbereich": "Nachhaltiges Gestalten und Bauen (BMLRT-Stiftungsprofessur für Nachhaltiges Gestalten und Bauen – Neues Europäisches Bauhaus)",
+  "geschlecht": "M",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 02/2026.",
+  "stufe": 1
+ },
+ {
+  "name": "Bianca Vienni-Baptista",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "art_berufung": "§98",
+  "forschungsbereich": "Transformative Nachhaltigkeitswissenschaften",
+  "geschlecht": "W",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "stufe": 1
+ },
+ {
+  "name": "Gernot Bodner",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "art_berufung": "§98",
+  "forschungsbereich": "Pflanzenbau",
+  "geschlecht": "M",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "stufe": 1
+ },
+ {
+  "name": "Birgit Fürst-Waltl",
+  "universitat": "BOKU",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "art_berufung": "§98",
+  "forschungsbereich": "Tierzucht und Tiergenetik",
+  "geschlecht": "W",
+  "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
+  "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
+  "stufe": 1
+ }
+]
