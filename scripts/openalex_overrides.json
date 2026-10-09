@@ -355,5 +355,16 @@
     "herkunft_institution": "Universität Zürich, Institut für Politikwissenschaft (Postdoc)",
     "herkunft_land": "Schweiz",
     "_note": "geprüft 2026-09-24 (Uni-Wien-Neuzugang 2025): Postdoc UZH 02/2020–07/2025, TT Wien ab 08/2025. Quelle: https://retobuergisser.com/media/burgisser_cv.pdf"
+  },
+  "Bianca Vienni-Baptista": {
+    "openalex_id": "A5041888428",
+    "herkunft": "extern",
+    "herkunft_institution": "ETH Zürich",
+    "herkunft_land": "Schweiz",
+    "_note": "geprüft 2026-10-09: Inter-/Transdisziplinaritätsforschung, ETH Zürich 2019-2026, keine Wien-Historie vor Berufung (BOKU §98, 10/2026)"
+  },
+  "Axel Körner": {
+    "openalex_id": "none",
+    "_note": "geprüft 2026-10-09: A5017365759 vermischt den Architekten (Uni Stuttgart, bioinspirierte Faserverbund-Strukturen) mit dem gleichnamigen Historiker (UCL, italienische Oper); Metriken unbrauchbar. Herkunft über herkunft_research.json"
   }
 }

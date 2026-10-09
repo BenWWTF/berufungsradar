@@ -68,5 +68,12 @@
     "herkunft_land": "USA",
     "source": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
     "note": "UCLA AUD 2020"
+  },
+  "Axel Körner": {
+    "herkunft": "extern",
+    "herkunft_institution": "Universität Stuttgart",
+    "herkunft_land": "Deutschland",
+    "source": "OpenAlex-Affiliationen seiner Architektur-Publikationen 2016-2026 (u.a. FlectoLine 2026, Timbr Foldr 2022)",
+    "note": "Architekt, bioinspirierte adaptive Faserverbund- und Holzstrukturen an der Universität Stuttgart; keine Wien-Historie vor Berufung."
   }
 }

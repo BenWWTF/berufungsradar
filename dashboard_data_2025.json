@@ -95571,9 +95571,9 @@
   "forschungsbereich": "Nachhaltiges Gestalten und Bauen (BMLRT-Stiftungsprofessur für Nachhaltiges Gestalten und Bauen – Neues Europäisches Bauhaus)",
   "art_berufung": "§98",
   "geschlecht": "M",
-  "herkunft": null,
-  "herkunft_institution": null,
-  "herkunft_land": null,
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Stuttgart",
+  "herkunft_land": "Deutschland",
   "ofos_code": "201",
   "ofos_label": "Bauingenieurwesen (Architektur)",
   "bio_text": null,
@@ -95581,7 +95581,7 @@
   "profil_url": null,
   "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
   "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 02/2026.",
-  "_herkunft_research": null,
+  "_herkunft_research": "OpenAlex-Affiliationen seiner Architektur-Publikationen 2016-2026 (u.a. FlectoLine 2026, Timbr Foldr 2022)",
   "stellentyp": null,
   "ofos_bereich_code": "2",
   "ofos_bereich": "Technische Wissenschaften",
@@ -95589,83 +95589,11 @@
   "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "_openalex": {
-   "works_count": 107,
-   "cited_by_count": 415,
-   "h_index": 12,
-   "last_known_institutions": [
-    {
-     "name": "University of Stuttgart",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2026,
-      2023,
-      2022,
-      2019,
-      2017,
-      2016
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "University College London",
-     "country": "GB",
-     "type": "education",
-     "years": [
-      2024,
-      2022,
-      2021,
-      2020,
-      2019,
-      2018,
-      2017,
-      2016,
-      2015,
-      2014,
-      2013,
-      2012,
-      2011,
-      2010,
-      2009,
-      2008,
-      2005,
-      2003,
-      2001,
-      2000
-     ],
-     "most_recent": 2024
-    },
-    {
-     "name": "Leipzig University",
-     "country": "DE",
-     "type": "education",
-     "years": [
-      2024,
-      2023,
-      2022
-     ],
-     "most_recent": 2024
-    },
-    {
-     "name": "Tianjin Conservatory of Music",
-     "country": "CN",
-     "type": "education",
-     "years": [
-      2017
-     ],
-     "most_recent": 2017
-    },
-    {
-     "name": "Sichuan Fine Arts Institute",
-     "country": "CN",
-     "type": "education",
-     "years": [
-      2017
-     ],
-     "most_recent": 2017
-    }
-   ],
-   "openalex_id": "A5017365759"
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
+   "last_known_institutions": [],
+   "openalex_id": null
   },
   "h_index": null,
   "publikationen": null,
@@ -95683,14 +95611,14 @@
   "forschungsbereich": "Transformative Nachhaltigkeitswissenschaften",
   "art_berufung": "§98",
   "geschlecht": "W",
-  "herkunft": null,
-  "herkunft_institution": null,
-  "herkunft_land": null,
+  "herkunft": "extern",
+  "herkunft_institution": "ETH Zürich",
+  "herkunft_land": "Schweiz",
   "ofos_code": "509",
   "ofos_label": "Andere Sozialwissenschaften (Nachhaltigkeitsforschung)",
-  "bio_text": null,
-  "werdegang": null,
-  "profil_url": null,
+  "bio_text": "Transformative Nachhaltigkeitswissenschaften. h-Index: 11 | Publikationen: 91 | Zitierungen: 673. Forschungstätigkeit u.a. in Deutschland, USA, Brasilien, UY.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: ETH Zurich (CH), 2019–2026 · American Association For The Advancement of Science (US), 2023 · Utrecht University (NL), 2023 · Forschungsinstitut für Biologischen Landbau (CH), 2023 · Climate KIC (NL), 2023.",
+  "profil_url": "https://openalex.org/A5041888428",
   "quelle": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026)",
   "_kuratiert": "BOKU, Übersicht der Professuren ab 2019 (an WWTF übermittelt 10/2026): §98, Antritt 10/2026.",
   "_herkunft_research": null,
@@ -95760,10 +95688,13 @@
    ],
    "openalex_id": "A5041888428"
   },
-  "h_index": null,
-  "publikationen": null,
-  "zitierungen": null,
-  "wwtf_programme": []
+  "h_index": 11,
+  "publikationen": 91,
+  "zitierungen": 673,
+  "wwtf_programme": [],
+  "openalex_id": "A5041888428",
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Birgit Fürst-Waltl",
