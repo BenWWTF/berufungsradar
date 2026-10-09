@@ -70724,5 +70724,95 @@
     "name": "Axel Körner",
     "_openalex": "not found",
     "match_confidence": "verified"
+  },
+  "Julia Told": {
+    "name": "Julia Told",
+    "openalex_id": "A5037499021",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 34,
+    "cited_by_count": 15,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "Vienna University of Economics and Business",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2017
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Zivilrecht. h-Index: 2 | Publikationen: 34 | Zitierungen: 15.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Anke Charton": {
+    "name": "Anke Charton",
+    "openalex_id": "A5066541372",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 31,
+    "cited_by_count": 3,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Theater- und Medienkulturen der Neuzeit. h-Index: 1 | Publikationen: 31 | Zitierungen: 3.",
+    "herkunft": "extern",
+    "herkunft_institution": "Centre National de la Recherche Scientifique",
+    "herkunft_land": "Frankreich",
+    "grants": []
+  },
+  "Theresa Büchter": {
+    "name": "Theresa Büchter",
+    "openalex_id": "A5005506573",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 30,
+    "cited_by_count": 60,
+    "h_index": 6,
+    "last_known_institutions": [
+      {
+        "name": "University of Kassel",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Didaktik der Mathematik. h-Index: 6 | Publikationen: 30 | Zitierungen: 60.",
+    "herkunft": "extern",
+    "herkunft_institution": "University of Kassel",
+    "herkunft_land": "Deutschland",
+    "grants": []
   }
 }

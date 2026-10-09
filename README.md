@@ -36,7 +36,7 @@ Methodik je Universität und Jahr.
 
 | Universität | Einträge | Status |
 |-------------|----------|--------|
-| Uni Wien | 396 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
+| Uni Wien | 398 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ Vollständig |
 | mdw | 104 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
@@ -46,7 +46,7 @@ Methodik je Universität und Jahr.
 | Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 42 | ✅ Vollständig |
 | BOKU | 36 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1103** | **100% ÖFOS-Abdeckung (1103/1103)** |
+| **Gesamt** | **1105** | **100% ÖFOS-Abdeckung (1105/1105)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
