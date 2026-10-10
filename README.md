@@ -36,7 +36,7 @@ Methodik je Universität und Jahr.
 
 | Universität | Einträge | Status |
 |-------------|----------|--------|
-| Uni Wien | 465 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
+| Uni Wien | 471 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ Vollständig |
 | mdw | 117 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
@@ -46,7 +46,7 @@ Methodik je Universität und Jahr.
 | Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 41 | ✅ Vollständig |
 | BOKU | 63 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1211** | **100% ÖFOS-Abdeckung (1211/1211)** |
+| **Gesamt** | **1217** | **100% ÖFOS-Abdeckung (1217/1217)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
@@ -59,7 +59,7 @@ systembedingt, siehe `scripts/backfill_ceu.py` und den CEU-Eintrag in
 ## Verbleib der Berufenen
 
 `abgaenge.json` führt Berufene, die ihre Universität nachweislich wieder
-verlassen haben (50 zugeordnet): Ziel, Land, Jahr, Art (Professur
+verlassen haben (55 zugeordnet): Ziel, Land, Jahr, Art (Professur
 anderswo, Befristung beendet, Ruhestand, Wirtschaft) und eine öffentliche
 Quelle je Eintrag. Die Datei ist von Hand kuratiert; aufgenommen wird nur,
 was eine öffentliche Quelle ausdrücklich sagt. `wwtf_enrich.py` hängt den

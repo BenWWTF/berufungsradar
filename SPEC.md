@@ -30,7 +30,7 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 
 | Universität | Einträge | Status |
 |---|---|---|
-| Uni Wien | 465 | 🟡 teilweise (2019–2020 offen, 2026 laufend) |
+| Uni Wien | 471 | 🟡 teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ vollständig |
 | mdw | 117 | ✅ vollständig |
 | MedUni Wien | 90 | ✅ vollständig (2026 laufend) |
@@ -40,7 +40,7 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | Akademie | 44 | 🟡 teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 41 | ✅ vollständig |
 | BOKU | 63 | ✅ vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1211** | **100 % ÖFOS-Abdeckung (1211/1211)** |
+| **Gesamt** | **1217** | **100 % ÖFOS-Abdeckung (1217/1217)** |
 
 Details je Universität und Jahr, inklusive der jeweiligen Quelle und
 Begründung für offene Jahre, stehen in `datenabdeckung.json`.

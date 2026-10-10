@@ -76785,5 +76785,388 @@
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Oliver H. Heckl": {
+    "name": "Oliver H. Heckl",
+    "openalex_id": "A5052823118",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 146,
+    "cited_by_count": 2855,
+    "h_index": 29,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Christian Doppler Laboratory for Thermoelectricity",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2024,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "type": "government",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "Joint Institute for Laboratory Astrophysics",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2018
+      },
+      {
+        "name": "University of Colorado Boulder",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Mid-IR Spektroskopie. h-Index: 29 | Publikationen: 146 | Zitierungen: 2855. Forschungstätigkeit u.a. in USA, Österreich, Schweiz, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sabine Grenz": {
+    "name": "Sabine Grenz",
+    "openalex_id": "A5052960890",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 91,
+    "cited_by_count": 260,
+    "h_index": 7,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023,
+          2012,
+          2011,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Göttingen",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2022,
+          2015
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Gothenburg",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2009
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Gender Studies. h-Index: 7 | Publikationen: 91 | Zitierungen: 260. Forschungstätigkeit u.a. in Österreich, Deutschland, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Rémi-Armand Tchokothe": {
+    "name": "Rémi-Armand Tchokothe",
+    "openalex_id": "A5074755753",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 49,
+    "cited_by_count": 27,
+    "h_index": 3,
+    "last_known_institutions": [
+      {
+        "name": "University of Verona",
+        "country": "IT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "University of Bayreuth",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020,
+          2019,
+          2017,
+          2014,
+          2011,
+          2008
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Rhodes University",
+        "country": "ZA",
+        "type": "education",
+        "years": [
+          2019
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "French Institute for Research in Africa",
+        "country": "NG",
+        "type": "nonprofit",
+        "years": [
+          2008
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Comparative Literature with a focus on African Literature. h-Index: 3 | Publikationen: 49 | Zitierungen: 27. Forschungstätigkeit u.a. in Italien, Österreich, Südafrika, NG.",
+    "herkunft": "extern",
+    "herkunft_institution": "Rhodes University",
+    "herkunft_land": "Südafrika",
+    "grants": []
+  },
+  "Nils Carqueville": {
+    "name": "Nils Carqueville",
+    "openalex_id": "A5068367322",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 46,
+    "cited_by_count": 810,
+    "h_index": 17,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Laboratoire d'Annecy de Physique Théorique",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Université Savoie Mont Blanc",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2022
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Universitätszahnklinik Wien",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Mathematical Physics. h-Index: 17 | Publikationen: 46 | Zitierungen: 810. Forschungstätigkeit u.a. in Frankreich, Österreich, Deutschland, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Ourania Kounadi": {
+    "name": "Ourania Kounadi",
+    "openalex_id": "A5085083925",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 45,
+    "cited_by_count": 726,
+    "h_index": 14,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "International Institute for Geo-Information Science and Earth Observation",
+        "country": "NL",
+        "type": "facility",
+        "years": [
+          2023,
+          2022,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Twente",
+        "country": "NL",
+        "type": "education",
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "University of Salzburg",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ],
+        "most_recent": 2018
+      }
+    ],
+    "bio_text": "Digital Geography. h-Index: 14 | Publikationen: 45 | Zitierungen: 726. Forschungstätigkeit u.a. in Österreich, Niederlande.",
+    "herkunft": "extern",
+    "herkunft_institution": "International Institute for Geo-Information Science and Earth Observation",
+    "herkunft_land": "Niederlande",
+    "grants": []
+  },
+  "Agnethe Siquans": {
+    "name": "Agnethe Siquans",
+    "openalex_id": "A5065850064",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 63,
+    "cited_by_count": 33,
+    "h_index": 2,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2011
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Alttestamentliche Bibelwissenschaft. h-Index: 2 | Publikationen: 63 | Zitierungen: 33.",
+    "herkunft": "intern",
+    "herkunft_institution": "University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }

@@ -1,5 +1,18 @@
 [
  {
+  "name": "Agnethe Siquans",
+  "universitat": "Uni Wien",
+  "year": 2019,
+  "monat": null,
+  "art_berufung": null,
+  "stellentyp": null,
+  "fakultat": "Katholisch-Theologische Fakultät",
+  "forschungsbereich": "Alttestamentliche Bibelwissenschaft",
+  "quelle": "https://web.archive.org/web/20201125132455/https://ktf.univie.ac.at/fileadmin/user_upload/f_ktf/2019/Kurzinterviews_ProfessorInnen_neu.pdf",
+  "_kuratiert": "Öffentliche Quelle: \"Die Katholisch-Theologische Fakultät freut sich, dass mit dem neuen Studienjahr eine neue Professorin und fünf neue Professoren ernannt wurden. [...] Univ.-Prof. Dr. Agnethe Siquans nach einem interna\"",
+  "stufe": 1
+ },
+ {
   "name": "Barbara Soukup-Kirchner",
   "universitat": "Uni Wien",
   "year": 2019,
@@ -533,6 +546,19 @@
   "stufe": 1
  },
  {
+  "name": "Nils Carqueville",
+  "universitat": "Uni Wien",
+  "year": 2020,
+  "monat": "FEBRUAR",
+  "art_berufung": "§99(1)",
+  "stellentyp": "Tenure Track-Professur",
+  "fakultat": "Fakultät für Physik",
+  "forschungsbereich": "Mathematical Physics",
+  "quelle": "https://web.archive.org/web/20230530022335/https://physik.univie.ac.at/en/news/news-detail/news/assistant-professorship-for-nils-carqueville/",
+  "_kuratiert": "Öffentliche Quelle: \"Assistant professorship for Nils Carqueville since 1st February 2020 06.03.2020\"",
+  "stufe": 1
+ },
+ {
   "name": "Nils Morten Kriege",
   "universitat": "Uni Wien",
   "year": 2020,
@@ -572,6 +598,32 @@
   "stufe": 1
  },
  {
+  "name": "Oliver H. Heckl",
+  "universitat": "Uni Wien",
+  "year": 2020,
+  "monat": "JUNI",
+  "art_berufung": "§99(1)",
+  "stellentyp": "Tenure Track-Professur",
+  "fakultat": "Fakultät für Physik",
+  "forschungsbereich": "Mid-IR Spektroskopie",
+  "quelle": "https://web.archive.org/web/20230530010543/https://physik.univie.ac.at/en/news/news-detail/news/assistant-professorship-for-oliver-heckl-since-1st-june-2020-1/",
+  "_kuratiert": "Öffentliche Quelle: \"Assistant professorship for Oliver Heckl since 1st June 2020 08.07.2020\"",
+  "stufe": 1
+ },
+ {
+  "name": "Ourania Kounadi",
+  "universitat": "Uni Wien",
+  "year": 2020,
+  "monat": "DEZEMBER",
+  "art_berufung": "§99(1)",
+  "stellentyp": "Tenure Track-Professur",
+  "fakultat": "Fakultät für Geowissenschaften, Geographie und Astronomie",
+  "forschungsbereich": "Digital Geography",
+  "quelle": "https://geographie.univie.ac.at/en/datensammlungen/aktuelles-nachrichten/archiv-liste/page/8",
+  "_kuratiert": "Öffentliche Quelle: \"04.12.2020 Rania Kounadi started in December as Tenure-Track Professor for the field of \"Digital Geography\" (Assistant Professor)\"",
+  "stufe": 1
+ },
+ {
   "name": "Robert Woodward",
   "universitat": "Uni Wien",
   "year": 2020,
@@ -582,6 +634,32 @@
   "forschungsbereich": "Applied Materials Chemistry",
   "quelle": "https://orcid.org/0000-0003-0834-5137",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"University of Vienna | Materials Chemistry and Research | Tenure-Track Assistant Professor of Applied Materials Chemistry | 2020-07 to present\"",
+  "stufe": 1
+ },
+ {
+  "name": "Rémi-Armand Tchokothe",
+  "universitat": "Uni Wien",
+  "year": 2020,
+  "monat": "OKTOBER",
+  "art_berufung": "§99(1)",
+  "stellentyp": "Tenure Track-Professur",
+  "fakultat": "Philologisch-Kulturwissenschaftliche Fakultät",
+  "forschungsbereich": "Comparative Literature with a focus on African Literature",
+  "quelle": "https://web.archive.org/web/20221007124431/https://afrika.univie.ac.at/en/about-us/employees/scientific-staff/tchokothe-remi/",
+  "_kuratiert": "Öffentliche Quelle: \"Rémi Armand Tchokothe has been a Tenure-Track Professor in Comparative Literature with a Focus on African Literatures (Department of African Studies and Department of Comparative Literature) since Oct\"",
+  "stufe": 1
+ },
+ {
+  "name": "Sabine Grenz",
+  "universitat": "Uni Wien",
+  "year": 2020,
+  "monat": null,
+  "art_berufung": "§99(1)",
+  "stellentyp": "Tenure Track-Professur",
+  "fakultat": "Fakultät für Philosophie und Bildungswissenschaft und Fakultät für Sozialwissenschaften",
+  "forschungsbereich": "Gender Studies",
+  "quelle": "https://web.archive.org/web/20230129220424/https://bildungswissenschaft.univie.ac.at/en/gender-studies/personnel/sabine-grenz/",
+  "_kuratiert": "Öffentliche Quelle: \"Since 2020 Sabine Grenz is Ass.-Prof. for Gender Studies in the Faculty of Philosophy and Education as well as the Faculty of Social Sciences. [...] From 2017-2020, she was Univ.-Prof. for Gender Stud\"",
   "stufe": 1
  },
  {

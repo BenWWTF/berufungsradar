@@ -2059,10 +2059,10 @@
   "abgang": {
    "abgang_jahr": 2021,
    "abgang_monat": null,
-   "ziel": null,
-   "ziel_land": null,
+   "ziel": "Universitätsklinikum Freiburg",
+   "ziel_land": "Deutschland",
    "art": "unbekannt",
-   "quelle": "https://mpbmt.meduniwien.ac.at/ueber-uns/was-das-zentrum-einzigartig-macht/"
+   "quelle": "https://www.med.uni-freiburg.de/en/faculty/our-professors-1/zaitsev"
   }
  },
  {
@@ -3423,6 +3423,71 @@
   "werdegang_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M)."
+ },
+ {
+  "name": "Agnethe Siquans",
+  "universitat": "Uni Wien",
+  "monat": null,
+  "year": 2019,
+  "stufe": 1,
+  "fakultat": "Katholisch-Theologische Fakultät",
+  "fakultat_code": null,
+  "forschungsbereich": "Alttestamentliche Bibelwissenschaft",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": "intern",
+  "herkunft_institution": "University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "603",
+  "ofos_label": "Philosophie, Ethik, Religion",
+  "bio_text": "Alttestamentliche Bibelwissenschaft. h-Index: 2 | Publikationen: 63 | Zitierungen: 33.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2011–2026.",
+  "profil_url": "https://openalex.org/A5065850064",
+  "quelle": "https://web.archive.org/web/20201125132455/https://ktf.univie.ac.at/fileadmin/user_upload/f_ktf/2019/Kurzinterviews_ProfessorInnen_neu.pdf",
+  "_kuratiert": "Öffentliche Quelle: \"Die Katholisch-Theologische Fakultät freut sich, dass mit dem neuen Studienjahr eine neue Professorin und fünf neue Professoren ernannt wurden. [...] Univ.-Prof. Dr. Agnethe Siquans nach einem interna\"",
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 63,
+   "cited_by_count": 33,
+   "h_index": 2,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2024,
+      2021,
+      2020,
+      2019,
+      2017,
+      2016,
+      2015,
+      2014,
+      2011
+     ],
+     "most_recent": 2026
+    }
+   ],
+   "openalex_id": "A5065850064"
+  },
+  "openalex_id": "A5065850064",
+  "h_index": 2,
+  "publikationen": 63,
+  "zitierungen": 33,
+  "wwtf_programme": [],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Andreas Kowatsch",
@@ -20767,6 +20832,109 @@
   "wwtf_programme": []
  },
  {
+  "name": "Nils Carqueville",
+  "universitat": "Uni Wien",
+  "monat": "FEBRUAR",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Fakultät für Physik",
+  "fakultat_code": null,
+  "forschungsbereich": "Mathematical Physics",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "101",
+  "ofos_label": "Mathematik",
+  "bio_text": "Mathematical Physics. h-Index: 17 | Publikationen: 46 | Zitierungen: 810. Forschungstätigkeit u.a. in Frankreich, Österreich, Deutschland, Vereinigtes Königreich.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2015–2025 · Centre National de la Recherche Scientifique (FR), 2022 · Laboratoire d'Annecy de Physique Théorique (FR), 2022 · Université Savoie Mont Blanc (FR), 2022 · Universitätszahnklinik Wien, 2021.",
+  "profil_url": "https://openalex.org/A5068367322",
+  "quelle": "https://web.archive.org/web/20230530022335/https://physik.univie.ac.at/en/news/news-detail/news/assistant-professorship-for-nils-carqueville/",
+  "_kuratiert": "Öffentliche Quelle: \"Assistant professorship for Nils Carqueville since 1st February 2020 06.03.2020\"",
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 46,
+   "cited_by_count": 810,
+   "h_index": 17,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2016,
+      2015
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Centre National de la Recherche Scientifique",
+     "country": "FR",
+     "type": "government",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Laboratoire d'Annecy de Physique Théorique",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Université Savoie Mont Blanc",
+     "country": "FR",
+     "type": "education",
+     "years": [
+      2022
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Universitätszahnklinik Wien",
+     "country": "AT",
+     "type": "healthcare",
+     "years": [
+      2021
+     ],
+     "most_recent": 2021
+    }
+   ],
+   "openalex_id": "A5068367322"
+  },
+  "openalex_id": "A5068367322",
+  "h_index": 17,
+  "publikationen": 46,
+  "zitierungen": 810,
+  "wwtf_programme": [
+   "MA"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Nils Morten Kriege",
   "universitat": "Uni Wien",
   "monat": "MAI",
@@ -21167,6 +21335,115 @@
   "stellentyp": null
  },
  {
+  "name": "Oliver H. Heckl",
+  "universitat": "Uni Wien",
+  "monat": "JUNI",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Fakultät für Physik",
+  "fakultat_code": null,
+  "forschungsbereich": "Mid-IR Spektroskopie",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": "Mid-IR Spektroskopie. h-Index: 29 | Publikationen: 146 | Zitierungen: 2855. Forschungstätigkeit u.a. in USA, Österreich, Schweiz, Deutschland.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2018–2026 · Christian Doppler Laboratory for Thermoelectricity, 2020–2024 · National Institute of Standards and Technology (US), 2015–2018 · Joint Institute for Laboratory Astrophysics (US), 2015–2018 · University of Colorado Boulder (US), 2016–2018.",
+  "profil_url": "https://openalex.org/A5052823118",
+  "quelle": "https://web.archive.org/web/20230530010543/https://physik.univie.ac.at/en/news/news-detail/news/assistant-professorship-for-oliver-heckl-since-1st-june-2020-1/",
+  "_kuratiert": "Öffentliche Quelle: \"Assistant professorship for Oliver Heckl since 1st June 2020 08.07.2020\"",
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 146,
+   "cited_by_count": 2855,
+   "h_index": 29,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Christian Doppler Laboratory for Thermoelectricity",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2024,
+      2020
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "National Institute of Standards and Technology",
+     "country": "US",
+     "type": "government",
+     "years": [
+      2018,
+      2017,
+      2016,
+      2015
+     ],
+     "most_recent": 2018
+    },
+    {
+     "name": "Joint Institute for Laboratory Astrophysics",
+     "country": "US",
+     "type": "facility",
+     "years": [
+      2018,
+      2017,
+      2016,
+      2015
+     ],
+     "most_recent": 2018
+    },
+    {
+     "name": "University of Colorado Boulder",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2018,
+      2017,
+      2016
+     ],
+     "most_recent": 2018
+    }
+   ],
+   "openalex_id": "A5052823118"
+  },
+  "openalex_id": "A5052823118",
+  "h_index": 29,
+  "publikationen": 146,
+  "zitierungen": 2855,
+  "wwtf_programme": [],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Oliver Hahn",
   "universitat": "Uni Wien",
   "monat": "OKTOBER",
@@ -21267,6 +21544,111 @@
   "openalex_id": "A5010597978",
   "profil_url_auto": true,
   "stellentyp": null
+ },
+ {
+  "name": "Ourania Kounadi",
+  "universitat": "Uni Wien",
+  "monat": "DEZEMBER",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Fakultät für Geowissenschaften, Geographie und Astronomie",
+  "fakultat_code": null,
+  "forschungsbereich": "Digital Geography",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "International Institute for Geo-Information Science and Earth Observation",
+  "herkunft_land": "Niederlande",
+  "ofos_code": "102",
+  "ofos_label": "Informatik",
+  "bio_text": "Digital Geography. h-Index: 14 | Publikationen: 45 | Zitierungen: 726. Forschungstätigkeit u.a. in Österreich, Niederlande.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2021–2026 · International Institute for Geo-Information Science and Earth Observation (NL), 2018–2023 · University of Twente (NL), 2018–2023 · University of Salzburg, 2013–2018.",
+  "profil_url": "https://openalex.org/A5085083925",
+  "quelle": "https://geographie.univie.ac.at/en/datensammlungen/aktuelles-nachrichten/archiv-liste/page/8",
+  "_kuratiert": "Öffentliche Quelle: \"04.12.2020 Rania Kounadi started in December as Tenure-Track Professor for the field of \"Digital Geography\" (Assistant Professor)\"",
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 45,
+   "cited_by_count": 726,
+   "h_index": 14,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "International Institute for Geo-Information Science and Earth Observation",
+     "country": "NL",
+     "type": "facility",
+     "years": [
+      2023,
+      2022,
+      2020,
+      2019,
+      2018
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of Twente",
+     "country": "NL",
+     "type": "education",
+     "years": [
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of Salzburg",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013
+     ],
+     "most_recent": 2018
+    }
+   ],
+   "openalex_id": "A5085083925"
+  },
+  "openalex_id": "A5085083925",
+  "h_index": 14,
+  "publikationen": 45,
+  "zitierungen": 726,
+  "wwtf_programme": [
+   "ICT",
+   "DH"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Rhoia Neidenbach",
@@ -21591,6 +21973,198 @@
   "stellentyp": null,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W)."
+ },
+ {
+  "name": "Rémi-Armand Tchokothe",
+  "universitat": "Uni Wien",
+  "monat": "OKTOBER",
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Philologisch-Kulturwissenschaftliche Fakultät",
+  "fakultat_code": null,
+  "forschungsbereich": "Comparative Literature with a focus on African Literature",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "extern",
+  "herkunft_institution": "Rhodes University",
+  "herkunft_land": "Südafrika",
+  "ofos_code": "602",
+  "ofos_label": "Sprach- und Literaturwissenschaften",
+  "bio_text": "Comparative Literature with a focus on African Literature. h-Index: 3 | Publikationen: 49 | Zitierungen: 27. Forschungstätigkeit u.a. in Italien, Österreich, Südafrika, NG.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Verona (IT), 2021 · University of Vienna, 2021 · University of Bayreuth (DE), 2008–2020 · Rhodes University (ZA), 2019 · French Institute for Research in Africa (NG), 2008.",
+  "profil_url": "https://openalex.org/A5074755753",
+  "quelle": "https://web.archive.org/web/20221007124431/https://afrika.univie.ac.at/en/about-us/employees/scientific-staff/tchokothe-remi/",
+  "_kuratiert": "Öffentliche Quelle: \"Rémi Armand Tchokothe has been a Tenure-Track Professor in Comparative Literature with a Focus on African Literatures (Department of African Studies and Department of Comparative Literature) since Oct\"",
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 49,
+   "cited_by_count": 27,
+   "h_index": 3,
+   "last_known_institutions": [
+    {
+     "name": "University of Verona",
+     "country": "IT",
+     "type": "education",
+     "years": [
+      2021
+     ],
+     "most_recent": 2021
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2021
+     ],
+     "most_recent": 2021
+    },
+    {
+     "name": "University of Bayreuth",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2020,
+      2019,
+      2017,
+      2014,
+      2011,
+      2008
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Rhodes University",
+     "country": "ZA",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    },
+    {
+     "name": "French Institute for Research in Africa",
+     "country": "NG",
+     "type": "nonprofit",
+     "years": [
+      2008
+     ],
+     "most_recent": 2008
+    }
+   ],
+   "openalex_id": "A5074755753"
+  },
+  "openalex_id": "A5074755753",
+  "h_index": 3,
+  "publikationen": 49,
+  "zitierungen": 27,
+  "wwtf_programme": [],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
+  "name": "Sabine Grenz",
+  "universitat": "Uni Wien",
+  "monat": null,
+  "year": 2020,
+  "stufe": 1,
+  "fakultat": "Fakultät für Philosophie und Bildungswissenschaft und Fakultät für Sozialwissenschaften",
+  "fakultat_code": null,
+  "forschungsbereich": "Gender Studies",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": "intern",
+  "herkunft_institution": "University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "605",
+  "ofos_label": "Andere Geisteswissenschaften",
+  "bio_text": "Gender Studies. h-Index: 7 | Publikationen: 91 | Zitierungen: 260. Forschungstätigkeit u.a. in Österreich, Deutschland, Schweden.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2017–2025 · Humboldt-Universität zu Berlin (DE), 2005–2023 · University of Göttingen (DE), 2015–2022 · University of Gothenburg (SE), 2009.",
+  "profil_url": "https://openalex.org/A5052960890",
+  "quelle": "https://web.archive.org/web/20230129220424/https://bildungswissenschaft.univie.ac.at/en/gender-studies/personnel/sabine-grenz/",
+  "_kuratiert": "Öffentliche Quelle: \"Since 2020 Sabine Grenz is Ass.-Prof. for Gender Studies in the Faculty of Philosophy and Education as well as the Faculty of Social Sciences. [...] From 2017-2020, she was Univ.-Prof. for Gender Stud\"",
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 91,
+   "cited_by_count": 260,
+   "h_index": 7,
+   "last_known_institutions": [
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2017
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Humboldt-Universität zu Berlin",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2023,
+      2012,
+      2011,
+      2007,
+      2006,
+      2005
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of Göttingen",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2022,
+      2015
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University of Gothenburg",
+     "country": "SE",
+     "type": "education",
+     "years": [
+      2009
+     ],
+     "most_recent": 2009
+    }
+   ],
+   "openalex_id": "A5052960890"
+  },
+  "openalex_id": "A5052960890",
+  "h_index": 7,
+  "publikationen": 91,
+  "zitierungen": 260,
+  "wwtf_programme": [],
+  "werdegang_auto": true,
+  "profil_url_auto": true
  },
  {
   "name": "Sabine Pahl",
@@ -25297,7 +25871,15 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_ofos_auto": true,
-  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite"
+  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite",
+  "abgang": {
+   "abgang_jahr": 2022,
+   "abgang_monat": null,
+   "ziel": "Hochschule für Musik und Theater Leipzig",
+   "ziel_land": "Deutschland",
+   "art": "Professur",
+   "quelle": "https://www.propstei-leipzig.de/gemeinde/download/2287/167/17"
+  }
  },
  {
   "name": "Friderikke-Maria Hörbe",
@@ -25554,7 +26136,15 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_ofos_auto": true,
-  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite"
+  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite",
+  "abgang": {
+   "abgang_jahr": 2022,
+   "abgang_monat": null,
+   "ziel": null,
+   "ziel_land": null,
+   "art": "Befristung beendet",
+   "quelle": "https://www.mdw.ac.at/magazin/?p=5792"
+  }
  },
  {
   "name": "Johannes Hiemetsberger",
@@ -25776,7 +26366,15 @@
   "zitierungen": null,
   "wwtf_programme": [],
   "_ofos_auto": true,
-  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite"
+  "_kuratiert": "Handrecherche (Werdegang) via https://www.mdw.ac.at/1545/: Handrecherche 2026-08-24 aus mdw-Berufungsmeldung 2020 (1545) / Personenseite",
+  "abgang": {
+   "abgang_jahr": 2023,
+   "abgang_monat": null,
+   "ziel": null,
+   "ziel_land": null,
+   "art": "unbekannt",
+   "quelle": "https://sturminger.com/wp-content/uploads/Michael_Sturminger_de2025.pdf"
+  }
  },
  {
   "name": "Sonja Korak",
@@ -27968,9 +28566,9 @@
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
   "abgang": {
-   "abgang_jahr": 2023,
-   "abgang_monat": 8,
-   "ziel": "University of Sussex (seit 2025 King's College London)",
+   "abgang_jahr": null,
+   "abgang_monat": null,
+   "ziel": "King's College London (über University of Sussex)",
    "ziel_land": "Vereinigtes Königreich",
    "art": "Professur",
    "quelle": "https://www.kcl.ac.uk/people/aysu-senyuz"
@@ -42849,6 +43447,14 @@
    "h_index": null,
    "last_known_institutions": [],
    "openalex_id": null
+  },
+  "abgang": {
+   "abgang_jahr": 2023,
+   "abgang_monat": 9,
+   "ziel": null,
+   "ziel_land": null,
+   "art": "Befristung beendet",
+   "quelle": "https://www.akbild.ac.at/de/news/2022/neue-professorin-fuer-kontextuelle-malerei-despina-stokou"
   }
  },
  {
@@ -66318,7 +66924,15 @@
   },
   "stellentyp": null,
   "_geschlecht_inferred": true,
-  "_note": " Geschlecht aus Vorname inferiert (M)."
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "abgang": {
+   "abgang_jahr": 2026,
+   "abgang_monat": 9,
+   "ziel": "University of Cambridge",
+   "ziel_land": "Vereinigtes Königreich",
+   "art": "Professur",
+   "quelle": "https://www.divinity.cam.ac.uk/news/faculty-divinity-makes-its-first-ever-full-appointment-buddhist-studies"
+  }
  },
  {
   "name": "Desirée Schmuck",

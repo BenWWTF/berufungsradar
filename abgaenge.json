@@ -44,6 +44,17 @@
   "zitat": "IKA \"Former Faculty\": Cornelia Escher | Univ.-Prof. | 2024|25"
  },
  {
+  "name": "Despina Stokou",
+  "universitat": "Akademie",
+  "abgang_jahr": 2023,
+  "abgang_monat": 9,
+  "ziel": null,
+  "ziel_land": null,
+  "art": "Befristung beendet",
+  "quelle": "https://www.akbild.ac.at/de/news/2022/neue-professorin-fuer-kontextuelle-malerei-despina-stokou",
+  "zitat": "Ab März 2022 wird sie als Nachfolgerin von Ashley Hans Scheirl (für drei Semester) die Professur des Fachbereichs Kontextuelle Malerei innehaben."
+ },
+ {
   "name": "Ines Weizman",
   "universitat": "Akademie",
   "abgang_jahr": 2024,
@@ -156,9 +167,9 @@
  {
   "name": "Aysu Senyuz",
   "universitat": "CEU",
-  "abgang_jahr": 2023,
-  "abgang_monat": 8,
-  "ziel": "University of Sussex (seit 2025 King's College London)",
+  "abgang_jahr": null,
+  "abgang_monat": null,
+  "ziel": "King's College London (über University of Sussex)",
   "ziel_land": "Vereinigtes Königreich",
   "art": "Professur",
   "quelle": "https://www.kcl.ac.uk/people/aysu-senyuz",
@@ -235,11 +246,11 @@
   "universitat": "MedUni Wien",
   "abgang_jahr": 2021,
   "abgang_monat": null,
-  "ziel": null,
-  "ziel_land": null,
+  "ziel": "Universitätsklinikum Freiburg",
+  "ziel_land": "Deutschland",
   "art": "unbekannt",
-  "quelle": "https://mpbmt.meduniwien.ac.at/ueber-uns/was-das-zentrum-einzigartig-macht/",
-  "zitat": "2019 Maxim Zaitsev übernimmt Professur (§98) für Magnetresonanzphysik [...] 2021 Prof. Zaitsev verlässt MedUni Wien 2022 Ausschreibung Professur für MR-Physik"
+  "quelle": "https://www.med.uni-freiburg.de/en/faculty/our-professors-1/zaitsev",
+  "zitat": "2019-2021 University Professor for Magnetic Resonance Physics,Scientific Director of the Centre for High-Field Magnetic Resonance, ... Medical University of Vienna, Vienna, Austria Since 2022 W3-Professor for Medical Physics"
  },
  {
   "name": "Josef Weinbub",
@@ -306,6 +317,17 @@
   "art": "andere",
   "quelle": "https://lehrerinnenbildung.univie.ac.at/arbeitsbereiche/didaktik-der-politischen-bildung/team/breser-britta/",
   "zitat": "Tätigkeitsbereiche April 2023 bis März 2026: Professorin für Demokratiebildung"
+ },
+ {
+  "name": "Christopher Jones",
+  "universitat": "Uni Wien",
+  "abgang_jahr": 2026,
+  "abgang_monat": 9,
+  "ziel": "University of Cambridge",
+  "ziel_land": "Vereinigtes Königreich",
+  "art": "Professur",
+  "quelle": "https://www.divinity.cam.ac.uk/news/faculty-divinity-makes-its-first-ever-full-appointment-buddhist-studies",
+  "zitat": "We are delighted to announce that Dr Chris Jones will be taking up the position of Assistant Professor in Buddhist Studies at the Faculty in September this year."
  },
  {
   "name": "Claudine Kraft",
@@ -561,6 +583,17 @@
   "zitat": "Professor of Composition at the Conservatoire de Paris From September 2025, I will be teaching composition at the Conservatoire national supérieur de musique et de danse de Paris ."
  },
  {
+  "name": "Florian Maierl",
+  "universitat": "mdw",
+  "abgang_jahr": 2022,
+  "abgang_monat": null,
+  "ziel": "Hochschule für Musik und Theater Leipzig",
+  "ziel_land": "Deutschland",
+  "art": "Professur",
+  "quelle": "https://www.propstei-leipzig.de/gemeinde/download/2287/167/17",
+  "zitat": "Der gebürtige Oberösterreicher studierte in Wien und Helsinki und lehrte an der Musikuniversität Wien sowie am Mozarteum Salzburg, ehe er 2022 eine Professur für Chorleitung an der HMT Leipzig übernahm."
+ },
+ {
   "name": "Hermine Haselböck-Littasy",
   "universitat": "mdw",
   "abgang_jahr": 2025,
@@ -572,6 +605,17 @@
   "zitat": "Von 2022 bis 2024 war sie neben ihrer Tätigkeit an der KUG Universitätsprofessorin für Gesang an der mdw Wien . Seit 2025 ist Hermine Haselböck Universitätsprofessorin an der Kunstuniversität Graz sowie Institutsvorständin des Instituts Gesang."
  },
  {
+  "name": "Jessica Hausner",
+  "universitat": "mdw",
+  "abgang_jahr": 2022,
+  "abgang_monat": null,
+  "ziel": null,
+  "ziel_land": null,
+  "art": "Befristung beendet",
+  "quelle": "https://www.mdw.ac.at/magazin/?p=5792",
+  "zitat": "Für die kommenden zwei Jahre hat die Filmakademie Wien Jessica Hausner als Regie-Professorin gewinnen können."
+ },
+ {
   "name": "Malte Kob",
   "universitat": "mdw",
   "abgang_jahr": null,
@@ -581,5 +625,16 @@
   "art": "Professur",
   "quelle": "https://www.mdw.ac.at/instas/stimmforschung/",
   "zitat": "Seit Oktober 2025 leitet Univ.-Prof. Dr.sc.hum. Marie Christine Köberlein die Forschungstätigkeit."
+ },
+ {
+  "name": "Michael Sturminger",
+  "universitat": "mdw",
+  "abgang_jahr": 2023,
+  "abgang_monat": null,
+  "ziel": null,
+  "ziel_land": null,
+  "art": "unbekannt",
+  "quelle": "https://sturminger.com/wp-content/uploads/Michael_Sturminger_de2025.pdf",
+  "zitat": "Von 2018 bis 2023 lehrte er als Universitätsprofessor für Musiktheaterregie und Dramatische Darstellung an der Universität für Musik und darstellende Kunst Wien."
  }
 ]
