@@ -29,24 +29,24 @@ Neue Jahrgänge brauchen einen eigenen Scrape- und Recherchedurchgang.
 
 Letzte automatische Pruefung: 2026-10-01 (Prueflauf)
 
-## Datenstand (September 2026)
+## Datenstand (Oktober 2026)
 
 Zeitraum 2019–2026, siehe `datenabdeckung.json` für die vollständige
 Methodik je Universität und Jahr.
 
 | Universität | Einträge | Status |
 |-------------|----------|--------|
-| Uni Wien | 398 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
+| Uni Wien | 465 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ Vollständig |
-| mdw | 104 | ✅ Vollständig |
+| mdw | 117 | ✅ Vollständig |
 | MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
 | CEU | 84 | 🟡 Teilweise (HR-Snapshot, keine Kennzahl-Quelle, siehe unten) |
 | Vetmeduni Wien | 62 | ✅ Vollständig (2026 laufend) |
 | WU Wien | 55 | ✅ Vollständig (2026 laufend) |
 | Akademie | 44 | 🟡 Teilweise (2020 offen: zwei §99(1)-Architekturstellen) |
 | Angewandte | 42 | ✅ Vollständig |
-| BOKU | 36 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1105** | **100% ÖFOS-Abdeckung (1105/1105)** |
+| BOKU | 63 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
+| **Gesamt** | **1212** | **100% ÖFOS-Abdeckung (1212/1212)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
@@ -55,6 +55,26 @@ der aktuell aktiven Fakultät, keine laufende Ankündigungsseite — frühere
 Berufungen von inzwischen ausgeschiedenen Personen fehlen deshalb
 systembedingt, siehe `scripts/backfill_ceu.py` und den CEU-Eintrag in
 `datenabdeckung.json`.
+
+## Verbleib der Berufenen
+
+`abgaenge.json` führt Berufene, die ihre Universität nachweislich wieder
+verlassen haben (50 zugeordnet): Ziel, Land, Jahr, Art (Professur
+anderswo, Befristung beendet, Ruhestand, Wirtschaft) und eine öffentliche
+Quelle je Eintrag. Die Datei ist von Hand kuratiert; aufgenommen wird nur,
+was eine öffentliche Quelle ausdrücklich sagt. `wwtf_enrich.py` hängt den
+Weggang als `abgang` an die jüngste Berufung der Person, das Dashboard zeigt
+ihn auf der Profilkarte und als Filter "Verbleib".
+
+Kandidaten liefern zwei Skripte, deren Ergebnisse nicht ins Repo gehen
+(`scripts/.abgaenge_cache/`), sondern als Prüfliste dienen:
+
+- `scripts/abgaenge.py`: OpenAlex-Affiliationen; verschwindet die berufende
+  Uni zwei Jahre lang und taucht eine neue Institution auf, ist das ein
+  Kandidat (ORCID bestätigt, wo vorhanden). Gut die Hälfte der Kandidaten
+  hält der Prüfung stand; Jahre und Ziele hinken oft ein bis drei Jahre nach.
+- `scripts/abgaenge_fl.py`: die Monatsrubrik "Habilitationen und Berufungen"
+  von Forschung & Lehre, gefiltert auf Rufe aus und nach Wien.
 
 ## Visualisierungen
 
@@ -108,6 +128,7 @@ Jeder Eintrag im `DATA`-Array enthält:
   ofos_hauptgruppe,       // Hauptgruppen-Bezeichnung
   grants,                 // Array von Fördergebernamen
   wwtf_programme,         // Array von WWTF-Programmfeld-Kürzeln: LS|ICT|CS|ESR|DH|MA
+  abgang,                 // {abgang_jahr, abgang_monat, ziel, ziel_land, art, quelle} oder fehlt
   h_index, publikationen, zitierungen,  // strukturierte OpenAlex-Metriken
   openalex_id,            // OpenAlex-Autoren-ID (sofern gefunden)
   bio_text,               // Freitext mit "h-Index: X | Publikationen: Y | Zitierungen: Z"

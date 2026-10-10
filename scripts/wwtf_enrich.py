@@ -6,6 +6,7 @@ Stage 5: WWTF-Anreicherung.
    extrahieren + openalex_id aus openalex_research.json übernehmen.
 2. wwtf_programme: heuristische Zuordnung ÖFOS-Code/-Label → WWTF-Programmfelder.
 3. vrg_id / vrg_call: Abgleich mit vrg_grantees.json (Vienna Research Groups).
+4. abgang: Abgleich mit abgaenge.json (öffentlich belegte Weggänge).
 
 Läuft nach enrich.py, vor build_html.py. Idempotent.
 """
@@ -20,6 +21,7 @@ DATA_PATH = ROOT / "dashboard_data_2025.json"
 OA_PATH = ROOT / "scripts" / "openalex_research.json"
 VRG_PATH = ROOT / "vrg_grantees.json"
 VRG_OVERRIDES = ROOT / "scripts" / "vrg_overrides.json"
+ABGAENGE_PATH = ROOT / "abgaenge.json"
 
 # WWTF-Programmfelder (Kürzel → Anzeige)
 PROGRAMMES = {
@@ -112,6 +114,32 @@ def verknuepfe_vrg(data):
     return treffer
 
 
+def verknuepfe_abgaenge(data):
+    """Setzt "abgang" auf die jüngste Berufung einer Person an der Uni, die sie verlassen hat.
+
+    abgaenge.json ist von Hand kuratiert: nur Weggänge mit öffentlicher Quelle.
+    Einträge ohne Berufung im Radar (etwa VRG-Leitungen) bleiben unverknüpft.
+    """
+    for d in data:
+        d.pop("abgang", None)
+    if not ABGAENGE_PATH.exists():
+        return 0
+    abgaenge = {(namensschluessel(a["name"]), a["universitat"]): a
+                for a in json.loads(ABGAENGE_PATH.read_text())}
+    juengste = {}
+    for d in data:
+        k = (namensschluessel(d["name"]), d["universitat"])
+        if k in abgaenge and (k not in juengste or d["year"] > juengste[k]["year"]):
+            juengste[k] = d
+    for k, d in juengste.items():
+        a = abgaenge[k]
+        d["abgang"] = {f: a.get(f) for f in ("abgang_jahr", "abgang_monat", "ziel", "ziel_land", "art", "quelle")}
+    ohne = sorted(a["name"] for k, a in abgaenge.items() if k not in juengste)
+    print(f"  Abgänge: {len(juengste)} von {len(abgaenge)} einer Berufung zugeordnet"
+          + (f" (ohne Berufung: {', '.join(ohne)})" if ohne else ""))
+    return len(juengste)
+
+
 def extract_metrics(bio):
     m = {}
     if not bio:
@@ -156,6 +184,7 @@ def main():
             n_prog += 1
 
     verknuepfe_vrg(data)
+    verknuepfe_abgaenge(data)
 
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
 

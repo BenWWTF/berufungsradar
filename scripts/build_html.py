@@ -163,6 +163,8 @@ const DATENSTAND = "__STAND__";
 // Vienna Research Groups: eigene Population, überschneidet sich nur teils
 // mit den Berufungen. Deshalb eigene Liste statt nur eines Häkchens.
 const VRG = __VRG__;
+const ABGANG_ART = {'Befristung beendet': 'befristete Professur beendet', 'Ruhestand': 'Ruhestand',
+                    'Industrie': 'Wechsel in die Wirtschaft', 'Professur': 'Professur an anderer Einrichtung'};
 
 // Welche Uni ist für welches Jahr systematisch erfasst? Ohne diese Angabe
 // liest man Lücken als "keine Berufungen" — bei halb aufgebautem Backfill
@@ -712,6 +714,16 @@ function renderCards(data) {
       ? `<span class="badge badge-vrg" title="Vienna Research Group ${d.vrg_id}">WWTF VRG ${d.vrg_call}</span>`
       : '';
 
+    const ab = d.abgang;
+    const abgangBadge = ab
+      ? `<span class="badge badge-abgang" title="Öffentlich belegt: nicht mehr an der berufenden Universität">${
+          ab.art === 'Ruhestand' ? 'Im Ruhestand' : 'Nicht mehr an der ' + d.universitat}${ab.abgang_jahr ? ' (' + ab.abgang_jahr + ')' : ''}</span>`
+      : '';
+    const abgangDetail = ab && (ab.ziel || ab.quelle)
+      ? `<div class="card-bio" style="margin-top:4px">Verbleib: ${ab.ziel ? ab.ziel + (ab.ziel_land ? ', ' + ab.ziel_land : '') : (ABGANG_ART[ab.art] || 'nicht bekannt')}${
+          ab.quelle ? ` · <a href="${ab.quelle}" target="_blank" rel="noopener">Quelle</a>` : ''}</div>`
+      : '';
+
     const wwtfBadges = (d.wwtf_programme || []).map(p =>
       `<span class="badge badge-grant" title="${WWTF_PROG[p].desc}">WWTF: ${WWTF_PROG[p].label}</span>`
     ).join('');
@@ -733,12 +745,14 @@ function renderCards(data) {
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
           ${vrgBadge}
+          ${abgangBadge}
           ${ofosBadge}
           ${wwtfBadges}
         </div>
         ${metricsHtml}
         ${bioPreview ? `<div class="card-bio">${bioPreview}${d.bio_text.length > 200 ? '…' : ''}</div>` : ''}
         ${herkunftDetail}
+        ${abgangDetail}
         <div class="card-footer">
           ${d.werdegang
             ? `<button class="card-expand-btn" onclick="toggleWerdegang(this, ${i})">▶ Werdegang anzeigen</button>`
@@ -760,7 +774,7 @@ function toggleWerdegang(btn, i) {
 // ─── FILTER + SORT + URL-STATE ───────────────────────────
 const FILTER_IDS = ['search-input','filter-uni','filter-geschlecht','filter-herkunft',
                     'filter-art','filter-bereich','filter-land','filter-wwtf',
-                    'filter-vrg','sort-select'];
+                    'filter-vrg','filter-verbleib','sort-select'];
 
 function currentFilteredData() {
   const q       = document.getElementById('search-input').value.toLowerCase();
@@ -772,6 +786,7 @@ function currentFilteredData() {
   const land    = document.getElementById('filter-land').value;
   const wwtf    = document.getElementById('filter-wwtf').value;
   const vrg     = document.getElementById('filter-vrg').value;
+  const verbleib = document.getElementById('filter-verbleib').value;
   const sort    = document.getElementById('sort-select').value;
 
   const filtered = VIEW.filter(d => {
@@ -786,6 +801,8 @@ function currentFilteredData() {
     else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
     if (vrg === 'ja' && !d.vrg_id) return false;
     if (vrg === 'nein' && d.vrg_id) return false;
+    if (verbleib === 'weg' && !d.abgang) return false;
+    if (verbleib === 'da' && d.abgang) return false;
     return true;
   });
 
