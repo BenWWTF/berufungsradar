@@ -55,34 +55,36 @@ MONATE = {
 
 # Die mdw formuliert in drei Varianten. Alle drei nennen Monat, Person, Fach
 # und Institut, zwei davon zusätzlich das Geschlecht über Pronomen oder Titel.
-DATUM = (r"(?:Mit|Ab|Seit)\s+\d{1,2}\.?\s*(?P<monat>Jänner|Januar|Februar|März|April|Mai|"
+DATUM = (r"(?:Mit|Ab|Seit|Am)\s+\d{1,2}\.?\s*(?P<monat>Jänner|Januar|Februar|März|April|Mai|"
          r"Juni|Juli|August|September|Oktober|November|Dezember)\s*(?P<jahr>\d{4})?\s+")
 ORT = r"(?:am|an der|an dem|an|beim|bei der|in der)\s+(?P<institut>[^.]{3,120}?)"
 
 MUSTER = [
     # … trat/tritt <Name> seine/ihre Professur für <Fach> am <Institut> an.
     re.compile(DATUM + r"(?:trat|tritt)\s+(?P<vorlauf>.{0,200}?)\s+(?P<pronomen>seine|ihre)\s+"
-               r"(?:neue\s+|befristete\s+)*Professur\s+(?:für|in|im|der)?\s*"
-               r"(?P<fach>.+?)\s+" + ORT + r"\s+an\.", re.S),
+               r"(?:neue\s+|befristete\s+)*Professur\s+"
+               # ohne "für <Fach>" (Kirchschlager 2020) darf das Fach nicht in den
+               # nächsten Satz weiterlaufen, deshalb kein Punkt im Fach
+               r"(?:(?:für|in|im|der)\s+(?P<fach>[^.]+?)\s+)?" + ORT + r"(?:\s+an)?\.", re.S),  # "an" fehlt mitunter (Schuen 2024)
     # … wurde <Name> zur Professorin für <Fach> am <Institut> berufen.
     re.compile(DATUM + r"wurde\s+(?P<vorlauf>.{0,200}?)\s+(?:auf\s+[^.]{0,30}?\s+)?"
                r"zu(?:r|m)\s+(?P<titel>Professorin|Professor)\s+(?:für|in)\s+"
-               r"(?P<fach>.+?)\s+" + ORT + r"\s+berufen\.", re.S),
+               r"(?P<fach>[^.]+?)\s+" + ORT + r"\s+berufen\.", re.S),
     # … kam <Name> als Universitätsprofessor für <Fach> am <Institut> an die mdw.
     re.compile(DATUM + r"kam\s+(?P<vorlauf>.{0,200}?)\s+als\s+"
                r"(?:Universitäts)?(?P<titel>Professorin|Professor)\s+(?:für|in)\s+"
-               r"(?P<fach>.+?)\s+" + ORT + r"\s+an\s+die\s+mdw", re.S),
+               r"(?P<fach>[^.]+?)\s+" + ORT + r"\s+an\s+die\s+mdw", re.S),
     # Ältere Jahresseiten sind Porträttexte mit anderer Satzstellung:
     # "<Name> erhielt im Oktober 2014 eine unbefristete Professur für <Fach> am <Institut>."
     re.compile(r"(?P<vorlauf>[^.]{5,200}?)\s+erhielt\s+(?:im|mit)\s+(?P<monat>Jänner|Januar|"
                r"Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|"
                r"Dezember)\s*(?P<jahr>\d{4})?\s+(?:eine|die)\s+(?:unbefristete\s+|befristete\s+)?"
-               r"Professur\s+(?:für|in)\s+(?P<fach>.+?)\s+" + ORT + r"\.", re.S),
+               r"Professur\s+(?:für|in)\s+(?P<fach>[^.]+?)\s+" + ORT + r"\.", re.S),
     # "<Name> tritt mit 1. Oktober am <Institut> seine Professur für <Fach> an der mdw an."
     re.compile(r"(?P<vorlauf>[^.]{5,200}?)\s+(?:tritt|trat)\s+mit\s+\d{1,2}\.?\s*(?P<monat>Jänner|"
                r"Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|"
                r"Dezember)\s*(?P<jahr>\d{4})?\s+" + ORT + r"\s+(?P<pronomen>seine|ihre)\s+"
-               r"Professur\s+(?:für|in)\s+(?P<fach>.+?)\s+an\s+der\s+mdw\s+an\.", re.S),
+               r"Professur\s+(?:für|in)\s+(?P<fach>[^.]+?)\s+an\s+der\s+mdw\s+an\.", re.S),
 ]
 
 # Verbindungswörter, die zu einem Namen gehören dürfen
@@ -113,7 +115,7 @@ def name_aus(vorlauf):
     while len(teile) > 2 and teile[0].lower() in {
         "pianist", "pianistin", "geiger", "geigerin", "sängerin", "sänger",
         "usa", "professor", "professorin", "dirigent", "dirigentin", "komponist",
-        "komponistin", "schauspieler", "schauspielerin",
+        "komponistin", "schauspieler", "schauspielerin", "kammersänger", "kammersängerin",
     }:
         teile.pop(0)
     # Auf den Porträtseiten steht der Name als Überschrift direkt vor dem Satz.
@@ -178,7 +180,7 @@ def parse_jahr(jahr, url):
                 "monat": MONATE[felder["monat"].lower()],
                 "year": int(felder["jahr"]) if felder.get("jahr") else jahr,
                 "art_berufung": "§98",
-                "forschungsbereich": re.sub(r"\s+", " ", felder["fach"]).strip(" ,;") or None,
+                "forschungsbereich": re.sub(r"\s+", " ", felder["fach"] or "").strip(" ,;") or None,
                 "fakultat": re.sub(r"\s+", " ", felder["institut"]).strip(" ,;") or None,
                 "geschlecht": geschlecht,
                 "profil_url": None,
@@ -226,7 +228,9 @@ def main():
 if __name__ == "__main__":
     daten = main()
     assert len(daten) > 60, f"nur {len(daten)} Einträge"
-    assert all(d["name"] and d["forschungsbereich"] for d in daten)
+    assert all(d["name"] for d in daten)
+    # Ohne Fach nur Meldungen, die keins nennen; viele heißt: Muster greift nicht mehr
+    assert sum(not d["forschungsbereich"] for d in daten) <= 3
     assert all(d["geschlecht"] in ("W", "M") for d in daten)
     haffner = [d for d in daten if d["name"] == "Eszter Haffner"]
     assert haffner and haffner[0]["year"] == 2023 and haffner[0]["geschlecht"] == "W", haffner
