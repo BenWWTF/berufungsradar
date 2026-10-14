@@ -1019,15 +1019,15 @@
                     title="Zur Übersicht">Berufungsradar Wien</button>
           </h1>
           <div class="period" id="header-period">
-            Suchzeitraum: Berufungsjahr 2025 (1.&nbsp;Jänner&nbsp;–&nbsp;31.&nbsp;Dezember&nbsp;2025)
+            Suchzeitraum: –
           </div>
           <div class="subtitle" id="header-subtitle">
-            <span id="header-stand">9 Wiener Universitäten · Datenstand Juni 2026</span>
+            <span id="header-stand">Wiener Universitäten · Datenstand –</span>
           </div>
         </div>
         <div class="header-right">
           <div class="header-badge" id="header-badge">
-            90 Berufungen · 9 Universitäten
+            –
           </div>
           <a class="wwtf-logo" href="https://www.wwtf.at" target="_blank" rel="noopener" title="Ein Projekt des WWTF">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 63.8" role="img" aria-label="WWTF Logo">
@@ -1103,10 +1103,10 @@
         <!-- KPI row -->
         <div id="kpi-row">
           <div class="kpi-card">
-            <div class="kpi-value" id="kpi-total">51</div>
+            <div class="kpi-value" id="kpi-total">–</div>
             <div class="kpi-label">Berufungen gesamt</div>
             <div class="kpi-sub" id="kpi-total-sub">
-              9 Wiener Universitäten · 2025
+              –
             </div>
           </div>
           <div class="kpi-card" style="border-top-color: #c23640">
@@ -1367,9 +1367,10 @@
 
     <!-- ── Footer ──────────────────────────────────────────── -->
     <footer id="site-footer">
-      Berufungsradar Wien · WWTF · Datenquellen: Universitäts-Websites (TU
-      Wien, Uni Wien, MedUni Wien, BOKU, WU Wien, mdw, Vetmeduni, Angewandte),
-      OpenAlex ·
+      Berufungsradar Wien · WWTF · Datenquellen: Universitäts-Websites (<span id="footer-unis"
+        >TU Wien, Uni Wien, MedUni Wien, WU Wien, BOKU, mdw, Angewandte,
+        Akademie, Vetmeduni Wien, CEU</span
+      >), OpenAlex ·
       <a
         href="https://benwwtf.github.io/berufungsradar"
         style="color: var(--accent)"
@@ -1387,7 +1388,7 @@
         style="color: var(--accent)"
         >Rohdaten (JSON, CC-BY 4.0)</a
       >
-      · Datenstand: <span id="footer-stand">Juni 2026</span>
+      · Datenstand: <span id="footer-stand">–</span>
     </footer>
 
     <!-- ══════════════════════════════════════════════════════
@@ -48733,6 +48734,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('header-stand').textContent =
     `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
   document.getElementById('footer-stand').textContent = DATENSTAND;
+  document.getElementById('footer-unis').textContent = UNIS.join(', ');
   document.getElementById('header-period').textContent =
     YEARS.length > 1
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`
