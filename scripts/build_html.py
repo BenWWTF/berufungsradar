@@ -346,20 +346,44 @@ function initYearChart(rows) {
     return;
   }
   card.style.display = "";
+  const counts = ys.map(y => rows.filter(d => d.year === y).length);
+  // Das laufende Jahr ist unvollständig und würde den Schnitt drücken.
+  const laufend = new Date().getFullYear();
+  const basis = ys.filter(y => y !== laufend);
+  const schnittJahre = basis.length ? basis : ys;
+  const schnitt = schnittJahre.reduce((s, y) => s + counts[ys.indexOf(y)], 0) / schnittJahre.length;
+  const spanne = schnittJahre.length > 1
+    ? `${schnittJahre[0]}–${schnittJahre[schnittJahre.length - 1]}`
+    : String(schnittJahre[0]);
   mountChart("years", "chart-years", {
     type: "bar",
     data: {
       labels: ys.map(String),
       datasets: [{
         label: "Berufungen",
-        data: ys.map(y => rows.filter(d => d.year === y).length),
+        data: counts,
         backgroundColor: ys.map(yearColor),
-        borderRadius: 4
+        borderRadius: 4,
+        order: 1
+      }, {
+        type: "line",
+        order: 0,
+        backgroundColor: "transparent",
+        label: `Durchschnitt ${spanne}: ${Math.round(schnitt)} pro Jahr`,
+        data: ys.map(() => schnitt),
+        borderColor: "#181715",
+        borderWidth: 1.5,
+        borderDash: [6, 4],
+        pointRadius: 0,
+        pointHoverRadius: 0
       }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: true, position: "bottom", labels: { filter: i => i.datasetIndex === 1 } },
+        tooltip: { filter: i => i.datasetIndex === 0 }
+      },
       scales: { y: { ticks: { stepSize: 1 } } }
     }
   });
@@ -1411,6 +1435,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('header-stand').textContent =
     `${UNIS.length} Wiener Universitäten · Datenstand ${DATENSTAND}`;
   document.getElementById('footer-stand').textContent = DATENSTAND;
+  document.getElementById('footer-unis').textContent = UNIS.join(', ');
   document.getElementById('header-period').textContent =
     YEARS.length > 1
       ? `Suchzeitraum: Berufungsjahre ${YEARS[0]}–${YEARS[YEARS.length - 1]}`
