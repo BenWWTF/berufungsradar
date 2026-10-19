@@ -118,5 +118,15 @@
   "geschlecht": "M",
   "quelle": "https://www.akbild.ac.at/de/news/2026/neuer-professor-lutz-robbers",
   "stufe": 1
+ },
+ {
+  "name": "Eve Tuck",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "forschungsbereich": "Indigenous Studies",
+  "geschlecht": "W",
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-fuer-indigenous-studies-ab-1-10-eve-tuck",
+  "stufe": 1
  }
 ]
