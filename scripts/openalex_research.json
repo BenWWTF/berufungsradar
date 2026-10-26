@@ -77168,5 +77168,538 @@
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Ulrike Müller": {
+    "name": "Ulrike Müller",
+    "openalex_id": "A5101928593",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 181,
+    "cited_by_count": 16960,
+    "h_index": 60,
+    "last_known_institutions": [
+      {
+        "name": "Heidelberg University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          1978
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Technische Universität Braunschweig",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "Max Planck Society",
+        "country": "DE",
+        "type": "nonprofit",
+        "years": [
+          2014,
+          2012,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "Max Planck Institute for Brain Research",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2014,
+          2012,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998
+        ],
+        "most_recent": 2014
+      },
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2009,
+          2002,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ],
+        "most_recent": 2009
+      }
+    ],
+    "bio_text": "Kunst und Bild I Figuration. h-Index: 60 | Publikationen: 181 | Zitierungen: 16960. Forschungstätigkeit u.a. in Vereinigtes Königreich, Frankreich, USA, Deutschland.",
+    "herkunft": "extern",
+    "herkunft_institution": "Heidelberg University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Lutz Robbers": {
+    "name": "Lutz Robbers",
+    "openalex_id": "A5002507187",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 27,
+    "cited_by_count": 2,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "RWTH Aachen University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2015
+        ],
+        "most_recent": 2015
+      }
+    ],
+    "bio_text": "Architekturtheorie und Architekturentwurf HTC. h-Index: 1 | Publikationen: 27 | Zitierungen: 2.",
+    "herkunft": "extern",
+    "herkunft_institution": "RWTH Aachen University",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Claudia Larcher": {
+    "name": "Claudia Larcher",
+    "openalex_id": "A5119508704",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 2,
+    "cited_by_count": 0,
+    "h_index": 0,
+    "last_known_institutions": [],
+    "bio_text": "postdigitale Kunst.",
+    "herkunft": "unbekannt",
+    "herkunft_institution": null,
+    "herkunft_land": null,
+    "grants": []
+  },
+  "Florian Reindl": {
+    "name": "Florian Reindl",
+    "openalex_id": "A5031367556",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 183,
+    "cited_by_count": 3860,
+    "h_index": 28,
+    "last_known_institutions": [
+      {
+        "name": "University of Applied Sciences Technikum Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of High Energy Physics",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "MBI - Marietta-Blau-Institut für Teilchenphysik",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Associate Professor of Direct search for Dark Matter. h-Index: 28 | Publikationen: 183 | Zitierungen: 3860. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Italien.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Peter Marhofer": {
+    "name": "Peter Marhofer",
+    "openalex_id": "A5082498519",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 269,
+    "cited_by_count": 11936,
+    "h_index": 55,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1998
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Goethe University Frankfurt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Assistance Publique – Hôpitaux de Paris",
+        "country": "FR",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Linköping University Hospital",
+        "country": "SE",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Hospital Universitario Río Hortega",
+        "country": "ES",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Kinderanästhesie. h-Index: 55 | Publikationen: 269 | Zitierungen: 11936. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich, Südafrika.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Eve Tuck": {
+    "name": "Eve Tuck",
+    "openalex_id": "A5006403342",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 93,
+    "cited_by_count": 14689,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "New York University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University of Toronto",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2022,
+          2021,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "SUNY New Paltz",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "State University of New York",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2013,
+          2011,
+          2010
+        ],
+        "most_recent": 2013
+      },
+      {
+        "name": "Santé, vulnérabilités et relations de genre au Sud",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2008
+        ],
+        "most_recent": 2008
+      }
+    ],
+    "bio_text": "Indigenous Studies. h-Index: 33 | Publikationen: 93 | Zitierungen: 14689. Forschungstätigkeit u.a. in USA, Kanada, Frankreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "New York University",
+    "herkunft_land": "USA",
+    "grants": []
+  },
+  "Sofia Rodrigues Boito": {
+    "name": "Sofia Rodrigues Boito",
+    "openalex_id": "A5010035696",
+    "match_confidence": "low",
+    "herkunft_verified": false,
+    "works_count": 22,
+    "cited_by_count": 4,
+    "h_index": 1,
+    "last_known_institutions": [
+      {
+        "name": "Universidade Estadual de Campinas (UNICAMP)",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universidade de São Paulo",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2018,
+          2016,
+          2015,
+          2014
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Escola de Comunicações e Artes da Universidade de São Paulo",
+        "country": "BR",
+        "type": "education",
+        "years": [
+          2023,
+          2014
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Gender und Space. h-Index: 1 | Publikationen: 22 | Zitierungen: 4.",
+    "herkunft": "extern",
+    "herkunft_institution": "Universidade de São Paulo",
+    "herkunft_land": "Brasilien",
+    "grants": []
+  },
+  "Noelia Barrabés Rabanal": {
+    "name": "Noelia Barrabés Rabanal",
+    "openalex_id": "A5048108617",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 72,
+    "cited_by_count": 2058,
+    "h_index": 27,
+    "last_known_institutions": [
+      {
+        "name": "TU Wien",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institut Charles Gerhardt Montpellier",
+        "country": "FR",
+        "type": "facility",
+        "years": [
+          2022,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "University of Geneva",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2015,
+          2014
+        ],
+        "most_recent": 2015
+      },
+      {
+        "name": "École Nationale Supérieure de Chimie de Montpellier",
+        "country": "FR",
+        "type": "education",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      },
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country": "FR",
+        "type": "government",
+        "years": [
+          2011
+        ],
+        "most_recent": 2011
+      }
+    ],
+    "bio_text": "Associate Professor of Size Control in Metal Nanocluster Analysis. h-Index: 27 | Publikationen: 72 | Zitierungen: 2058. Forschungstätigkeit u.a. in Schweiz, Frankreich, Vereinigtes Königreich, Österreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "TU Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
   }
 }
