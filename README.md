@@ -27,7 +27,7 @@ zu 92 Tage liegen.
 Wichtig: der Lauf frischt die Anreicherung auf, er findet keine neuen Berufungen.
 Neue Jahrgänge brauchen einen eigenen Scrape- und Recherchedurchgang.
 
-Letzte automatische Pruefung: 2026-10-01 (Prueflauf)
+Letzte automatische Pruefung: 2026-11-01 (Prueflauf)
 
 ## Datenstand (Oktober 2026)
 
