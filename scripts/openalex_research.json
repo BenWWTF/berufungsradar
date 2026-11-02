@@ -77168,5 +77168,1469 @@
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Gregor Kasprian": {
+    "name": "Gregor Kasprian",
+    "openalex_id": "A5046829499",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 488,
+    "cited_by_count": 6964,
+    "h_index": 41,
+    "last_known_institutions": [
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2024,
+          2011,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Hadassah Medical Center",
+        "country": "IL",
+        "type": "healthcare",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2025,
+          2020
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Semmelweis University",
+        "country": "HU",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Neuroradiologie. h-Index: 41 | Publikationen: 488 | Zitierungen: 6964. Forschungstätigkeit u.a. in Ungarn, USA, Österreich, Kanada.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Gerda Egger": {
+    "name": "Gerda Egger",
+    "openalex_id": "A5072260744",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 171,
+    "cited_by_count": 12221,
+    "h_index": 45,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2006,
+          2003,
+          2002,
+          1999,
+          1998,
+          1997
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2020,
+          2019
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ludwig Boltzmann Institute Applied Diagnostics",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2006,
+          2005
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Ludwig Boltzmann Gesellschaft",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Tumorbiologie (Epigenetik). h-Index: 45 | Publikationen: 171 | Zitierungen: 12221. Forschungstätigkeit u.a. in USA, Österreich, Vereinigtes Königreich, SI.",
+    "herkunft": "intern",
+    "herkunft_institution": "Ludwig Boltzmann Institute for Cancer Research",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sabine Steiner": {
+    "name": "Sabine Steiner",
+    "openalex_id": "A5048322920",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 228,
+    "cited_by_count": 6097,
+    "h_index": 40,
+    "last_known_institutions": [
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2005,
+          2004,
+          2003
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Helmholtz Munich",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University Hospital Leipzig",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Sana Kliniken Leipziger Land",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Angiologie. h-Index: 40 | Publikationen: 228 | Zitierungen: 6097. Forschungstätigkeit u.a. in Österreich, Kanada, Deutschland, USA.",
+    "herkunft": "extern",
+    "herkunft_institution": "Helmholtz Munich",
+    "herkunft_land": "Deutschland",
+    "grants": []
+  },
+  "Peter Marhofer": {
+    "name": "Peter Marhofer",
+    "openalex_id": "A5082498519",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 269,
+    "cited_by_count": 11921,
+    "h_index": 55,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1998
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Goethe University Frankfurt",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Assistance Publique – Hôpitaux de Paris",
+        "country": "FR",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Linköping University Hospital",
+        "country": "SE",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Hospital Universitario Río Hortega",
+        "country": "ES",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      }
+    ],
+    "bio_text": "Kinderanästhesie. h-Index: 55 | Publikationen: 269 | Zitierungen: 11921. Forschungstätigkeit u.a. in Deutschland, Österreich, Vereinigtes Königreich, Südafrika.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Thomas Niederkrotenthaler": {
+    "name": "Thomas Niederkrotenthaler",
+    "openalex_id": "A5022881605",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 340,
+    "cited_by_count": 9534,
+    "h_index": 44,
+    "last_known_institutions": [
+      {
+        "name": "Public Health Agency of Canada",
+        "country": "CA",
+        "type": "government",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2020,
+          2017,
+          2013
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Karolinska Institutet",
+        "country": "SE",
+        "type": "education",
+        "years": [
+          2025,
+          2023,
+          2022,
+          2021,
+          2020,
+          2014
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "University Hospitals Bristol NHS Foundation Trust",
+        "country": "GB",
+        "type": "healthcare",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      }
+    ],
+    "bio_text": "Public Health (Suizidprävention). h-Index: 44 | Publikationen: 340 | Zitierungen: 9534. Forschungstätigkeit u.a. in USA, Österreich, Kanada, Australien.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sabine Eichinger-Hasenauer": {
+    "name": "Sabine Eichinger-Hasenauer",
+    "openalex_id": "A5053093013",
+    "match_confidence": "verified",
+    "herkunft_verified": true,
+    "works_count": 225,
+    "cited_by_count": 14728,
+    "h_index": 53,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1992,
+          1991
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Canadian Venous Thromboembolism Clinical Trials and Outcomes Research (CanVECTOR) Network",
+        "country": "CA",
+        "type": "nonprofit",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Universitätsmedizin Greifswald",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "Paul Ehrlich Institut",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2021
+        ],
+        "most_recent": 2021
+      },
+      {
+        "name": "McMaster University",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2021,
+          2010
+        ],
+        "most_recent": 2021
+      }
+    ],
+    "bio_text": "Hämatologie und Hämostaseologie. h-Index: 53 | Publikationen: 225 | Zitierungen: 14728. Forschungstätigkeit u.a. in USA, Österreich, Italien, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medizinische Universität Wien",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Nicole Concin": {
+    "name": "Nicole Concin",
+    "openalex_id": "A5025519748",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 327,
+    "cited_by_count": 12423,
+    "h_index": 51,
+    "last_known_institutions": [
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2023,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2012,
+          2011,
+          2009,
+          2008,
+          2007,
+          2004,
+          2003,
+          2000
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Innsbruck Medical University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2003,
+          2001
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Universität Innsbruck",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2003,
+          2001
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "AGO Austria",
+        "country": "AT",
+        "type": "nonprofit",
+        "years": [
+          2025,
+          2022
+        ],
+        "most_recent": 2025
+      }
+    ],
+    "bio_text": "Gynäkologie (gynäkologische Onkologie). h-Index: 51 | Publikationen: 327 | Zitierungen: 12423. Forschungstätigkeit u.a. in Italien, Österreich, USA, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Comprehensive Cancer Center Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Robert Kralovics": {
+    "name": "Robert Kralovics",
+    "openalex_id": "A5007091163",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 266,
+    "cited_by_count": 19811,
+    "h_index": 62,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "CeMM Research Center for Molecular Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ],
+        "most_recent": 2025
+      },
+      {
+        "name": "Enamine (Ukraine)",
+        "country": "UA",
+        "type": "company",
+        "years": [
+          2020
+        ],
+        "most_recent": 2020
+      },
+      {
+        "name": "St Anna Children's Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2010
+        ],
+        "most_recent": 2010
+      }
+    ],
+    "bio_text": "Translational Hematology. h-Index: 62 | Publikationen: 266 | Zitierungen: 19811. Forschungstätigkeit u.a. in Österreich, Frankreich, Deutschland, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dimitri Tsiantoulas": {
+    "name": "Dimitri Tsiantoulas",
+    "openalex_id": "A5046157248",
+    "match_confidence": "verified",
+    "herkunft_verified": false,
+    "works_count": 60,
+    "cited_by_count": 3015,
+    "h_index": 24,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Cambridge",
+        "country": "GB",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2019,
+          2018,
+          2017,
+          2016,
+          2014,
+          2012
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2023
+        ],
+        "most_recent": 2023
+      },
+      {
+        "name": "Austrian Academy of Sciences",
+        "country": "AT",
+        "type": "government",
+        "years": [
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2019
+      },
+      {
+        "name": "CeMM Research Center for Molecular Medicine",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2019
+      }
+    ],
+    "bio_text": "Cardiovascular Immunology. h-Index: 24 | Publikationen: 60 | Zitierungen: 3015. Forschungstätigkeit u.a. in Niederlande, Österreich, Frankreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Bernhard Baumann": {
+    "name": "Bernhard Baumann",
+    "openalex_id": "A5017593170",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 412,
+    "cited_by_count": 7436,
+    "h_index": 46,
+    "last_known_institutions": [
+      {
+        "name": "Innsbruck Medical University",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Universität Innsbruck",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Institute of Biomedical Physics",
+        "country": "VN",
+        "type": "facility",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2015,
+          2013,
+          2010,
+          2009,
+          2007
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Medizinische Physik. h-Index: 46 | Publikationen: 412 | Zitierungen: 7436. Forschungstätigkeit u.a. in USA, Österreich, Frankreich, Schweden.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Stefan Schaller": {
+    "name": "Stefan Schaller",
+    "openalex_id": "A5011843565",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 226,
+    "cited_by_count": 7353,
+    "h_index": 39,
+    "last_known_institutions": [
+      {
+        "name": "University of Zurich",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "TUM Klinikum",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University Hospital Zurich",
+        "country": "CH",
+        "type": "healthcare",
+        "years": [
+          2026
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Berlin Institute of Health at Charité - Universitätsmedizin Berlin",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Anästhesie und anästhesiologische Intensivmedizin. h-Index: 39 | Publikationen: 226 | Zitierungen: 7353. Forschungstätigkeit u.a. in Polen, Schweiz, USA, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Innsbruck Medical University",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Kathryn Hoffmann": {
+    "name": "Kathryn Hoffmann",
+    "openalex_id": "A5010947391",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 159,
+    "cited_by_count": 1480,
+    "h_index": 22,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2024,
+          2023,
+          2020,
+          2015,
+          2013
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Maine-Dartmouth Family Medicine Residency",
+        "country": "US",
+        "type": "other",
+        "years": [
+          2016
+        ],
+        "most_recent": 2016
+      }
+    ],
+    "bio_text": "Primary Care Medicine. h-Index: 22 | Publikationen: 159 | Zitierungen: 1480. Forschungstätigkeit u.a. in Österreich, USA.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Dea Slade": {
+    "name": "Dea Slade",
+    "openalex_id": "A5036704290",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 61,
+    "cited_by_count": 3486,
+    "h_index": 20,
+    "last_known_institutions": [
+      {
+        "name": "Max Perutz Labs",
+        "country": "AT",
+        "type": "facility",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Comprehensive Cancer Center Vienna",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Vienna Biocenter",
+        "country": "AT",
+        "type": "other",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "MedAustron",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2026,
+          2025,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ],
+        "most_recent": 2026
+      }
+    ],
+    "bio_text": "Molecular Radiation Biology. h-Index: 20 | Publikationen: 61 | Zitierungen: 3486. Forschungstätigkeit u.a. in Österreich, Frankreich, HR, Vereinigtes Königreich.",
+    "herkunft": "intern",
+    "herkunft_institution": "Comprehensive Cancer Center Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Roland Beisteiner": {
+    "name": "Roland Beisteiner",
+    "openalex_id": "A5046600663",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 184,
+    "cited_by_count": 3624,
+    "h_index": 33,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2004,
+          1995,
+          1993,
+          1992
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2004,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993
+        ],
+        "most_recent": 2004
+      },
+      {
+        "name": "Vienna General Hospital",
+        "country": "AT",
+        "type": "healthcare",
+        "years": [
+          2004,
+          2002,
+          2001,
+          2000,
+          1999,
+          1992,
+          1991
+        ],
+        "most_recent": 2004
+      },
+      {
+        "name": "Klinik und Poliklinik für Neurologie",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          1995
+        ],
+        "most_recent": 1995
+      }
+    ],
+    "bio_text": "Experimentelle Hirnstimulation (Stiftungsprofessur). h-Index: 33 | Publikationen: 184 | Zitierungen: 3624. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Elisabeth Puchhammer-Stöckl": {
+    "name": "Elisabeth Puchhammer-Stöckl",
+    "openalex_id": "A5080263209",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 234,
+    "cited_by_count": 7909,
+    "h_index": 52,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2004,
+          1992
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "University of Alberta",
+        "country": "CA",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University of Basel",
+        "country": "CH",
+        "type": "education",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "University Hospital of Basel",
+        "country": "CH",
+        "type": "healthcare",
+        "years": [
+          2024,
+          2020
+        ],
+        "most_recent": 2024
+      },
+      {
+        "name": "Charité – Universitätsmedizin Berlin",
+        "country": "DE",
+        "type": "healthcare",
+        "years": [
+          2024
+        ],
+        "most_recent": 2024
+      }
+    ],
+    "bio_text": "Virologie. h-Index: 52 | Publikationen: 234 | Zitierungen: 7909. Forschungstätigkeit u.a. in Österreich, Kanada, Schweiz, Deutschland.",
+    "herkunft": "intern",
+    "herkunft_institution": "Medical University of Vienna",
+    "herkunft_land": "Österreich",
+    "grants": []
+  },
+  "Sarah Melzer": {
+    "name": "Sarah Melzer",
+    "openalex_id": "A5036522459",
+    "match_confidence": "high",
+    "herkunft_verified": false,
+    "works_count": 28,
+    "cited_by_count": 1336,
+    "h_index": 10,
+    "last_known_institutions": [
+      {
+        "name": "Medical University of Vienna",
+        "country": "AT",
+        "type": "education",
+        "years": [
+          2026,
+          2024
+        ],
+        "most_recent": 2026
+      },
+      {
+        "name": "Howard Hughes Medical Institute",
+        "country": "US",
+        "type": "facility",
+        "years": [
+          2022,
+          2020,
+          2018
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "Harvard University",
+        "country": "US",
+        "type": "education",
+        "years": [
+          2022,
+          2020
+        ],
+        "most_recent": 2022
+      },
+      {
+        "name": "German Cancer Research Center",
+        "country": "DE",
+        "type": "facility",
+        "years": [
+          2017,
+          2015,
+          2013,
+          2012
+        ],
+        "most_recent": 2017
+      },
+      {
+        "name": "Heidelberg University",
+        "country": "DE",
+        "type": "education",
+        "years": [
+          2017,
+          2016,
+          2015,
+          2013,
+          2012
+        ],
+        "most_recent": 2017
+      }
+    ],
+    "bio_text": "Cognitive Science/Neuroscience. h-Index: 10 | Publikationen: 28 | Zitierungen: 1336. Forschungstätigkeit u.a. in USA, Deutschland, Österreich.",
+    "herkunft": "extern",
+    "herkunft_institution": "Howard Hughes Medical Institute",
+    "herkunft_land": "USA",
+    "grants": []
   }
 }

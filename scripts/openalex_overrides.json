@@ -366,5 +366,16 @@
   "Axel Körner": {
     "openalex_id": "none",
     "_note": "geprüft 2026-10-09: A5017365759 vermischt den Architekten (Uni Stuttgart, bioinspirierte Faserverbund-Strukturen) mit dem gleichnamigen Historiker (UCL, italienische Oper); Metriken unbrauchbar. Herkunft über herkunft_research.json"
+  },
+  "Sabine Eichinger-Hasenauer": {
+    "openalex_id": "A5053093013",
+    "herkunft": "intern",
+    "herkunft_institution": "Medizinische Universität Wien",
+    "herkunft_land": "Österreich",
+    "_note": "geprüft 2026-11-02: Hämatologin (Thrombose/Hämostase), AKH/MedUni Wien seit den 1990ern; die Suche traf den Namensvetter A5110933365 (20 Werke, Bayer). §99(4)-Professorinnencall ist intern."
+  },
+  "Dimitri Tsiantoulas": {
+    "openalex_id": "A5046157248",
+    "_note": "geprüft 2026-11-02: publiziert als Dimitrios Tsiantoulas (kardiovaskuläre Immunologie, Leiden/CeMM/MedUni Wien), Suche nach 'Dimitri' fand nichts"
   }
 }

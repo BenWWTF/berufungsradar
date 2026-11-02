@@ -693,6 +693,9 @@ NAME_GENDER = {
     "ailsa": "W",
     "alba": "W",
     "albert": "M",
+    # Ergänzt 2026-11-02 für die MedUni-Personalliste
+    "dea": "W",
+    "dimitri": "M",
     "alexandra": "W",
     "alexei": "M",
     "alexios": "M",

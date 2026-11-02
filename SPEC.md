@@ -33,14 +33,14 @@ schnellen, datenbasierten Überblick über den Wiener Berufungsmarkt 2025 suchen
 | Uni Wien | 471 | 🟡 teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ vollständig |
 | mdw | 117 | ✅ vollständig |
-| MedUni Wien | 90 | ✅ vollständig (2026 laufend) |
+| MedUni Wien | 107 | ✅ vollständig (Personalliste, 2026 laufend) |
 | CEU | 84 | 🟡 teilweise (HR-Snapshot, methodisch anders) |
 | Vetmeduni Wien | 62 | ✅ vollständig (2026 laufend) |
 | WU Wien | 55 | ✅ vollständig (2026 laufend) |
 | Akademie | 42 | 🟡 teilweise (2019 und 2020 offen) |
 | Angewandte | 41 | ✅ vollständig |
 | BOKU | 63 | ✅ vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1215** | **100 % ÖFOS-Abdeckung (1215/1215)** |
+| **Gesamt** | **1232** | **100 % ÖFOS-Abdeckung (1232/1232)** |
 
 Details je Universität und Jahr, inklusive der jeweiligen Quelle und
 Begründung für offene Jahre, stehen in `datenabdeckung.json`.
@@ -106,7 +106,8 @@ unterschiedlich führen (Thomas Lennon Sheppard vs Thomas Sheppard).
 | mdw | Jahresseiten „Neue Professuren <Jahr>" | erledigt, 2015/2016/2018 ohne Seite |
 | Uni Wien | Webarchiv-CV-Seiten, Leistungsberichte, Wissensbilanzen | 2019–2020 teilweise, siehe unten |
 | BOKU | Presseaussendungen je Jahr plus Antrittsvorlesungs-Archiv | dünn: 13 einschlägige Meldungen 2015–2026 |
-| MedUni Wien, WU Wien | keine strukturierte Quelle gefunden | offen |
+| MedUni Wien | Presseinformationen, Wissensbilanz-Fließtext, seit 10/2026 Personalliste der Uni | erledigt, siehe `scripts/pruefung/meduni_hr_abgleich.md` |
+| WU Wien | keine strukturierte Quelle gefunden | offen |
 | Angewandte, Akademie, Vetmeduni | verstreute News, vor 2019 Handarbeit | offen |
 
 **Was das Mitteilungsblatt nicht leistet.** Die Projektnotizen nannten die
@@ -472,9 +473,12 @@ Hinweis steht über der Tabelle.
 
 ## 7. Bekannte Einschränkungen
 
-1. **§99(4) Zuordnung Stathis Megas**: ein MedUni-Wien-Eintrag ist als §99(4)
-   (intern) geführt, obgleich der OpenAlex-Track eine externe Karriere zeigt.
-   Möglicher Datenfehler in der Originalquelle; bei nächster Aktualisierung zu prüfen.
+1. **Paragraf der MedUni-Einträge 2025** (erledigt 02.11.2026): die Einträge
+   trugen durchgehend §98. Laut Presseinformationen sind Bonelli, Polterauer
+   und Zuckermann §99(1), Loewe, Moscato und Scherer §99(4), Stathis Megas
+   §99(5)-Laufbahnstelle. Offen bleiben fünf Jahreswidersprüche zwischen
+   Personalliste und Presseinformation (Czech, Köhler, Lell, Penninger,
+   Zimpfer), siehe `scripts/pruefung/meduni_hr_abgleich.md`.
 2. **3 fehlende `bio_text`-Felder** (Iva Hunger Brezinova, Mischa Janisch,
    Wilhelm Spuller): keine OpenAlex-Treffer (rein künstlerische bzw. Industrie-Karrieren).
 3. **Christine Sheppard (BOKU)**: Herkunftsinstitution und -land nicht öffentlich
@@ -531,6 +535,7 @@ Mitteilung an benjamin.missbach@wwtf.at.
 | 09.06.2026 | `f4c5072` | UNIS-Array-Fix, ÖFOS-Kategorienamen auf Heatmap-Achsen |
 | 09.07.2026 | — | WWTF-Perspektive-Tab, strukturierte Metriken, CSV-Export, Sortierung, teilbare Filter-Links, Kernaussagen-Boxen, Farb-Fix Uni Wien/MedUni Wien |
 | 09.07.2026 | — | 9. Universität ergänzt (Akademie der bildenden Künste: Brorson, Schachinger → 90 Einträge); fail-safe Datenstrategie: OpenAlex-Lookup für alle Einträge mit Match-Validierung + Negativ-Cache, fill_gaps.py (Werdegang/Profil-Links auto, manuell > API > generiert), audit_gaps.py (data_gaps.csv), update.sh; Geschlechts-Badges m/f |
+| 02.11.2026 | — | MedUni Wien: Personalliste der Uni eingespielt (`backfill_meduni_hr.py`): 17 neue Datensätze (90 → 107), 20 Korrekturen an Paragraf/Monat, Abgleichbericht in `scripts/pruefung/`; Gesamt 1232 |
 
 ## 11. Kontakt
 

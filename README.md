@@ -29,7 +29,7 @@ Neue Jahrgänge brauchen einen eigenen Scrape- und Recherchedurchgang.
 
 Letzte automatische Pruefung: 2026-11-01 (Prueflauf)
 
-## Datenstand (Oktober 2026)
+## Datenstand (November 2026)
 
 Zeitraum 2019–2026, siehe `datenabdeckung.json` für die vollständige
 Methodik je Universität und Jahr.
@@ -39,14 +39,14 @@ Methodik je Universität und Jahr.
 | Uni Wien | 471 | 🟡 Teilweise (2019–2020 offen, 2026 laufend) |
 | TU Wien | 190 | ✅ Vollständig |
 | mdw | 117 | ✅ Vollständig |
-| MedUni Wien | 90 | ✅ Vollständig (2026 laufend) |
+| MedUni Wien | 107 | ✅ Vollständig (Personalliste der Uni, 2026 laufend) |
 | CEU | 84 | 🟡 Teilweise (HR-Snapshot, keine Kennzahl-Quelle, siehe unten) |
 | Vetmeduni Wien | 62 | ✅ Vollständig (2026 laufend) |
 | WU Wien | 55 | ✅ Vollständig (2026 laufend) |
 | Akademie | 42 | 🟡 Teilweise (2019 und 2020 offen) |
 | Angewandte | 41 | ✅ Vollständig |
 | BOKU | 63 | ✅ Vollständig für §98 (2026 laufend), §99 nur aus öffentlichen Quellen |
-| **Gesamt** | **1215** | **100% ÖFOS-Abdeckung (1215/1215)** |
+| **Gesamt** | **1232** | **100% ÖFOS-Abdeckung (1232/1232)** |
 
 "2026 laufend" heißt: das Jahr ist noch nicht abgeschlossen, keine Lücke im
 Sinne von `datenabdeckung.json`. CEU ist privat und läuft methodisch anders
@@ -104,7 +104,8 @@ git push origin main
 
 - TU Wien: Öffentliche Berufungsmeldungen
 - Universität Wien: Öffentliche Personalpages; Leistungsberichte und Wissensbilanzen
-- MedUni Wien, BOKU, WU Wien, mdw, Vetmeduni, Angewandte, Akademie der bildenden Künste: öffentliche Berufungsbekanntmachungen
+- MedUni Wien: Presseinformationen und Wissensbilanz-Fließtext; Personalliste der aktiven Professor:innen mit Dienstantritt (MedUni Wien an WWTF, 10/2026)
+- BOKU, WU Wien, mdw, Vetmeduni, Angewandte, Akademie der bildenden Künste: öffentliche Berufungsbekanntmachungen
 - OpenAlex: Forschungsmetriken (h-Index, Publikationen, Zitierungen), Affiliations
 
 ## Datenstruktur
