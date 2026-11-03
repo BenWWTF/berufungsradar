@@ -149,6 +149,10 @@ def hole(url):
 
 def text(seite):
     t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", seite, flags=re.S)
+    # Absatz- und Blockgrenzen zählen als Satzende: fehlt in einem Eintrag das
+    # abschließende "an." (Resetarits 2026), liefe das Muster sonst in den
+    # nächsten Eintrag hinein und verschluckte dessen Person (Czirak 2026).
+    t = re.sub(r"</(?:p|li|h[1-6]|div)>|<(?:hr|br)\b[^>]*>", " . ", t, flags=re.I)
     t = re.sub(r"<[^>]+>", " ", t)
     t = html.unescape(t)                    # deckt á, š, ç, ndash … ab
     t = re.sub(r"\s+", " ", t)

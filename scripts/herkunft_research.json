@@ -1,79 +1,408 @@
 {
-  "Iva Hunger Brezinova": {
-    "herkunft": "intern",
-    "herkunft_institution": "TU Wien (Institut für Theoretische Physik)",
-    "herkunft_land": "Österreich",
-    "source": "TU Wien Profil + PhD TU Wien 2012 sub auspiciis praesidentis",
-    "note": "War bereits vor Berufung als Senior Scientist am Institut für Theoretische Physik / Photonik der TU Wien tätig."
-  },
-  "Mischa Janisch": {
-    "herkunft": "extern",
-    "herkunft_institution": "Blue Wonder Productions / selbständiger Musikproduzent",
-    "herkunft_land": "Österreich",
-    "source": "mdw Antrittsvorlesung Okt 2025, NEW SOUNDS'26",
-    "note": "Etablierter Musikproduzent und Mastering Engineer (Gold/Platinum-Auszeichnungen); keine institutionelle Voranbindung an mdw vor Berufung."
-  },
-  "Wilhelm Spuller": {
-    "herkunft": "intern",
-    "herkunft_institution": "mdw – Universität für Musik und darstellende Kunst Wien",
-    "herkunft_land": "Österreich",
-    "source": "mdw Profil (wilhelm-spuller.mdw.ac.at)",
-    "note": "Studium und bisherige Lehrtätigkeit an der mdw; neuerlich berufen, nun mit Direktor-Funktion am Anton Bruckner Institut."
-  },
-  "Jorge Sanchez-Chiong": {
-    "herkunft": "intern",
-    "herkunft_institution": "mdw – Universität für Musik und darstellende Kunst Wien",
-    "herkunft_land": "Österreich",
-    "source": "mdw Profil (jorge-sanchez-chiong.mdw.ac.at)",
-    "note": "Bereits seit 2022 Professor für Medienkomposition an der mdw; ab Okt 2025 zusätzlich Professur für Elektroakustische Komposition."
-  },
-  "Mario Pesendorfer": {
-    "herkunft": "intern",
-    "herkunft_institution": "Universität für Bodenkultur (BOKU) — Waldökologie",
-    "herkunft_land": "Österreich",
-    "source": "BOKU Presseaussendung 03.10.2025 + Repositorium",
-    "note": "BOKU-interner Habilitations-Track; bisher am Institut für Waldökologie der BOKU."
-  },
-  "Alexis Rider": {
-    "herkunft": "extern",
-    "herkunft_institution": "University of Cambridge (Making Climate History)",
-    "herkunft_land": "Vereinigtes Königreich",
-    "source": "https://alexisrider.com/About",
-    "note": "Postdoc Cambridge; OpenAlex nur zersplitterte Profile"
-  },
-  "Johannes Müller": {
-    "herkunft": "extern",
-    "herkunft_institution": "Justus-Liebig-Universität Gießen, Institut für Sportwissenschaft",
-    "herkunft_land": "Deutschland",
-    "source": "https://www.uni-giessen.de/en/faculties/f06/department-of-sports-science/res_e/social-science-of-sport/news/News",
-    "note": "9 Jahre JLU Gießen bis 30.6.2025; OpenAlex-Profil mit Namensvetter vermischt, daher keine Metriken"
-  },
-  "Ana Mijić": {
-    "herkunft": "intern",
-    "herkunft_institution": "Universität Wien, Institut für Soziologie",
-    "herkunft_land": "Österreich",
-    "source": "https://www.soz.univie.ac.at/ana-mijic/",
-    "note": "Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
-  },
-  "Sam Chermayeff": {
-    "herkunft": "extern",
-    "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
-    "herkunft_land": null,
-    "source": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
-    "note": "Angewandte-News 20.09.2024: Gründungspartner der Büros, Projekte in Berlin und New York; Land nicht eindeutig"
-  },
-  "David Gissen": {
-    "herkunft": "extern",
-    "herkunft_institution": "California College of the Arts (12 Jahre Professor); 2019 Eero Saarinen Professor, Yale University",
-    "herkunft_land": "USA",
-    "source": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
-    "note": "UCLA AUD 2020"
-  },
-  "Axel Körner": {
-    "herkunft": "extern",
-    "herkunft_institution": "Universität Stuttgart",
-    "herkunft_land": "Deutschland",
-    "source": "OpenAlex-Affiliationen seiner Architektur-Publikationen 2016-2026 (u.a. FlectoLine 2026, Timbr Foldr 2022)",
-    "note": "Architekt, bioinspirierte adaptive Faserverbund- und Holzstrukturen an der Universität Stuttgart; keine Wien-Historie vor Berufung."
-  }
+ "Iva Hunger Brezinova": {
+  "herkunft": "intern",
+  "herkunft_institution": "TU Wien (Institut für Theoretische Physik)",
+  "herkunft_land": "Österreich",
+  "source": "TU Wien Profil + PhD TU Wien 2012 sub auspiciis praesidentis",
+  "note": "War bereits vor Berufung als Senior Scientist am Institut für Theoretische Physik / Photonik der TU Wien tätig."
+ },
+ "Mischa Janisch": {
+  "herkunft": "extern",
+  "herkunft_institution": "Blue Wonder Productions / selbständiger Musikproduzent",
+  "herkunft_land": "Österreich",
+  "source": "mdw Antrittsvorlesung Okt 2025, NEW SOUNDS'26",
+  "note": "Etablierter Musikproduzent und Mastering Engineer (Gold/Platinum-Auszeichnungen); keine institutionelle Voranbindung an mdw vor Berufung."
+ },
+ "Wilhelm Spuller": {
+  "herkunft": "intern",
+  "herkunft_institution": "mdw – Universität für Musik und darstellende Kunst Wien",
+  "herkunft_land": "Österreich",
+  "source": "mdw Profil (wilhelm-spuller.mdw.ac.at)",
+  "note": "Studium und bisherige Lehrtätigkeit an der mdw; neuerlich berufen, nun mit Direktor-Funktion am Anton Bruckner Institut."
+ },
+ "Jorge Sanchez-Chiong": {
+  "herkunft": "intern",
+  "herkunft_institution": "mdw – Universität für Musik und darstellende Kunst Wien",
+  "herkunft_land": "Österreich",
+  "source": "mdw Profil (jorge-sanchez-chiong.mdw.ac.at)",
+  "note": "Bereits seit 2022 Professor für Medienkomposition an der mdw; ab Okt 2025 zusätzlich Professur für Elektroakustische Komposition."
+ },
+ "Mario Pesendorfer": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität für Bodenkultur (BOKU) — Waldökologie",
+  "herkunft_land": "Österreich",
+  "source": "BOKU Presseaussendung 03.10.2025 + Repositorium",
+  "note": "BOKU-interner Habilitations-Track; bisher am Institut für Waldökologie der BOKU."
+ },
+ "Alexis Rider": {
+  "herkunft": "extern",
+  "herkunft_institution": "University of Cambridge (Making Climate History)",
+  "herkunft_land": "Vereinigtes Königreich",
+  "source": "https://alexisrider.com/About",
+  "note": "Postdoc Cambridge; OpenAlex nur zersplitterte Profile"
+ },
+ "Johannes Müller": {
+  "herkunft": "extern",
+  "herkunft_institution": "Justus-Liebig-Universität Gießen, Institut für Sportwissenschaft",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.uni-giessen.de/en/faculties/f06/department-of-sports-science/res_e/social-science-of-sport/news/News",
+  "note": "9 Jahre JLU Gießen bis 30.6.2025; OpenAlex-Profil mit Namensvetter vermischt, daher keine Metriken"
+ },
+ "Ana Mijić": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien, Institut für Soziologie",
+  "herkunft_land": "Österreich",
+  "source": "https://www.soz.univie.ac.at/ana-mijic/",
+  "note": "Senior Postdoc Institut für Soziologie Wien 2021–2023; OpenAlex-Profil enthält einige Namensvetter-Werke; OpenAlex-Profil vermischt, daher keine Metriken"
+ },
+ "Sam Chermayeff": {
+  "herkunft": "extern",
+  "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
+  "herkunft_land": null,
+  "source": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+  "note": "Angewandte-News 20.09.2024: Gründungspartner der Büros, Projekte in Berlin und New York; Land nicht eindeutig"
+ },
+ "David Gissen": {
+  "herkunft": "extern",
+  "herkunft_institution": "California College of the Arts (12 Jahre Professor); 2019 Eero Saarinen Professor, Yale University",
+  "herkunft_land": "USA",
+  "source": "https://aud.ucla.edu/news-events/events/lecture-david-gissen",
+  "note": "UCLA AUD 2020"
+ },
+ "Axel Körner": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Stuttgart",
+  "herkunft_land": "Deutschland",
+  "source": "OpenAlex-Affiliationen seiner Architektur-Publikationen 2016-2026 (u.a. FlectoLine 2026, Timbr Foldr 2022)",
+  "note": "Architekt, bioinspirierte adaptive Faserverbund- und Holzstrukturen an der Universität Stuttgart; keine Wien-Historie vor Berufung."
+ },
+ "Adam Czirak": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Wien (Institut für Theater-, Film- und Medienwissenschaft)",
+  "herkunft_land": "Österreich",
+  "source": "https://www.mdw.ac.at/adam-czirak",
+  "note": "2020–2026 Senior Lecturer an der Universität Wien, zuvor FU Berlin; seit Okt. 2026 Professur Dramaturgie am Max Reinhardt Seminar."
+ },
+ "Iman Issa": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.akbild.ac.at/de/news/2020/iman-issa-wird-professorin-fuer-bildhauerei; https://en.wikipedia.org/wiki/Iman_Issa; https://www.galeriethoman.com/artists/84170/iman-issa/",
+  "note": "Die Akademie-Meldung 2020 beschreibt sie als freischaffende Künstlerin, die in Berlin lebt und arbeitet (2017 DAAD-Berliner Künstlerprogramm); ältere Biografien nennen zusätzlich eine Teilzeit-Lehrtätigkeit an der Cooper Union New York ohne Jahresangaben, eine Hauptanstellung vor 2020 ist nirgends belegt."
+ },
+ "Sofia Bempeza": {
+  "herkunft": "extern",
+  "herkunft_institution": "Leuphana Universität Lüneburg",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.dieangewandte.at/presse/universitaet_fuer_angewandte_kunst_wien_startet_mit_acht_neuen_professuren_und_mit_neuem_rektorat_ins_neue_studienjahr; https://fis.leuphana.de/en/persons/sofia-bempeza/",
+  "note": "Die Angewandte-Presseaussendung (25.09.2023) nennt als bisherige Lehrorte Leuphana Universität Lüneburg, ZHdK und F+F Zürich; das Leuphana-Portal listet Lecturer am Institut für Philosophie und Kunstwissenschaft 2018–2021 und eine Adjunct-Juniorprofessur Kulturtheorie 2020; für 2021–2023 ist keine institutionelle Anstellung belegt (freie Künstlerin, Athen/Zürich)."
+ },
+ "Miya Yoshida": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.dieangewandte.at/en/news/news/news_detail?news_id=1722998534412; https://base.uni-ak.ac.at/showroom/en/miya-yoshida-CrZC; https://eu-japanfest.org/meet-up/wp-content/uploads/2023/11/CV_Miya-Yoshida.pdf",
+  "note": "Ihr CV (Nov. 2023) nennt 'lives and works in Berlin' und als letzte Hochschulpositionen Associate Researcher InterArt FU Berlin (2008–2016) und Postdoc Leuphana Lüneburg (2012–14); 2022–23 arbeitete sie als freie Kuratorin (Kunsthaus Dresden, after the butcher Berlin), keine Anstellung an der Angewandte vor 2024 belegt."
+ },
+ "Johannes Schmidt": {
+  "herkunft": "intern",
+  "herkunft_institution": "BOKU",
+  "herkunft_land": "Österreich",
+  "source": "https://forschung.boku.ac.at/en/researcher/467C8E2D0CF96572; https://homepage.boku.ac.at/jschmidt",
+  "note": "BOKU-Forschungsportal: 2017–2019 Assistant Professor (BOKU, Institut für nachhaltige Wirtschaftsentwicklung, nach Habilitation März 2017), 2020 Associate Professor (BOKU); Doktorat 2007–2010 ebenfalls BOKU."
+ },
+ "Timothy James Causon": {
+  "herkunft": "intern",
+  "herkunft_institution": "BOKU",
+  "herkunft_land": "Österreich",
+  "source": "https://forschung.boku.ac.at/en/researcher/F55F47B2534D2F5B",
+  "note": "BOKU-Forschungsportal: 2014–2018 Senior Scientist am Institut für Analytische Chemie der BOKU, 2018–2021 Habilitation (venia docendi) an der BOKU, 2022 Associate Professor am selben Institut; davor Lise-Meitner-Fellow JKU Linz (2013–14)."
+ },
+ "Charles David Shaw": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU (Budapest)",
+  "herkunft_land": "Ungarn",
+  "source": "https://web.archive.org/web/2018id_/https://history.ceu.edu/people/charles-shaw; https://web.archive.org/web/2020id_/https://history.ceu.edu/people/charles-shaw; https://www.demdigest.org/search/hungary/page/4/",
+  "note": "Archivierte CEU-Department-of-History-Seiten 2018 und 2020 führen ihn bereits als Assistant Professor (Budapest, Nador u. 11); laut NYT-Zitat zog er 2015 nach Ungarn, um an der CEU zu lehren (Harriman-Postdoc 2015–16 abgelehnt), der HR-Eintrag Okt. 2020 ist also ein Folgevertrag am Standort Wien."
+ },
+ "Chris LaRoche": {
+  "herkunft": "extern",
+  "herkunft_institution": "University of Alberta",
+  "herkunft_land": "Kanada",
+  "source": "https://www.duckofminerva.com/author/christopher-david-laroche",
+  "note": "Autorenbiografie: 'Before joining CEU, Chris was a postdoctoral researcher at the University of Alberta's China Institute and a fellow at the Trudeau Centre ... University of Toronto'; PhD Political Science University of Toronto (Kandidat noch 2018); genaue Jahre des Postdocs nicht angegeben."
+ },
+ "Hyaesin Yoon": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU (Budapest)",
+  "herkunft_land": "Ungarn",
+  "source": "https://web.archive.org/web/2019id_/https://gender.ceu.edu/people/hyaesin-yoon; https://www.uu.nl/staff/IHHansen/CV",
+  "note": "Archivierte CEU-Gender-Studies-Seite 2019 führt sie als Assistant Professor und Director of Doctoral Studies in Budapest (Zrinyi u. 14); eine Utrechter CV nennt sie als Betreuerin einer CEU-Dissertation 2017–2023; heute Associate Professor an der CEU Wien."
+ },
+ "Dorith Geva": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU (Budapest/Wien)",
+  "herkunft_land": "Ungarn",
+  "source": "https://www.univie.ac.at/en/news/new-professorships/details/geva-dorit; https://politikwissenschaft.univie.ac.at/en/about-us/staff/geva/",
+  "note": "Universität-Wien-Profil: 2011–2014 Assistant Professor, 2014–2021 Associate Professor und 2021–2023 Professor am Department of Sociology and Social Anthropology der CEU, zudem 2019–2022 Dean of Academic Affairs; die Full-Professur 2021 ist eine interne Beförderung."
+ },
+ "Paul Voss": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Bonn",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.hec.edu/fr/faculty-research/faculty-directory/faculty-member/voss-paul",
+  "note": "HEC-Paris-Profil: PhD Economics Universität Bonn (Bonn Graduate School of Economics) 2021, davor Visiting PhD Student LSE; 2021–2023 Assistant Professor of Finance an der CEU Wien, seit 2023 HEC Paris."
+ },
+ "Lena Riemer": {
+  "herkunft": "extern",
+  "herkunft_institution": "Stiftung Mercator (Mercator Fellowship on International Affairs)",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.stiftung-mercator.de/en/fellows/dr-lena-riemer/; https://research.ceu.edu/en/persons/lena-riemer/; https://climate.law.columbia.edu/content/lena-riemer",
+  "note": "Mercator Fellowship on International Affairs Oktober 2023 bis September 2024 mit Stationen bei der Comisión Mexicana para la Defensa y Promoción de los Derechos Humanos (Mexiko-Stadt) und der IOM; davor PhD FU Berlin und LL.M. Yale; Beschäftigung Okt.–Dez. 2024 nicht belegt."
+ },
+ "Tyanif Rico-Rodriguez": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU",
+  "herkunft_land": "Österreich",
+  "source": "https://web.archive.org/web/20251205113325id_/http://ir.ceu.edu/ohpa/people; https://people.ceu.edu/tyanif_rico-rodriguez; https://societyoffellows.org/member/tyanif-rico-rodriguez/",
+  "note": "Die am 05.12.2025 archivierte OHPA-Seite der CEU führt sie als 'currently Postdoctoral Researcher at The Open Society Hub for the Politics of the Anthropocene (OHPA) at Central European University'; davor Postdoc Universität Bielefeld (CALAS) und Landhaus Fellow Rachel Carson Center München (2024/25)."
+ },
+ "Dietmar Feichtinger": {
+  "herkunft": "extern",
+  "herkunft_institution": "Dietmar Feichtinger Architectes (eigenes Büro, Paris)",
+  "herkunft_land": "Frankreich",
+  "source": "https://www.tuwien.at/tu-wien/aktuelles/news/news/neue-professuren-oktober-2023; https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/f/univprof-arch-dipl-ing-dietmar-feichtinger",
+  "note": "Practising architect: moved to Paris after graduating at TU Graz (1988), founded Dietmar Feichtinger Architectes in Paris in 1994 (Vienna branch since 2002), earlier lecturer at Uni Innsbruck (1994-1998) and ENSA Paris La Villette; appointed University Professor for Hochbaukonstruktion und Entwerfen at TU Wien on 1 Oct 2023. No prior TU Wien position stated."
+ },
+ "Barbara Soukup-Kirchner": {
+  "herkunft": "extern",
+  "herkunft_institution": "Österreichische Akademie der Wissenschaften (ACDH-CH)",
+  "herkunft_land": "Österreich",
+  "source": "https://homepage.univie.ac.at/barbara.soukup/CVSoukup_June2026.pdf",
+  "note": "CV: Assistant Professor for Sociolinguistics of German in Austria, Uni Wien Dept of German since 2019; immediately before that Elise Richter Research Fellow at the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH), Austrian Academy of Sciences, 2018-2019 (and 2014-2018 at Uni Wien Dept of English and American Studies, so she has a long prior Uni Wien history)."
+ },
+ "Johann Schelkshorn": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://katholisch.at/aktuelles/128639/schelkshorn-gegenwartskritik-durch-christliche-philosophie; https://ktf.univie.ac.at/fileadmin/user_upload/f_ktf/2020/ktf-news_Ausgabe_1_2020.pdf",
+  "note": "Appointed Professor of Christian Philosophy at Uni Wien on 1 Oct 2019; previously ao. Professor at the same faculty since 2007 and head of the Institut für Christliche Philosophie since 2016."
+ },
+ "Paula Wojcik": {
+  "herkunft": "extern",
+  "herkunft_institution": "Friedrich-Schiller-Universität Jena",
+  "herkunft_land": "Deutschland",
+  "source": "https://complit.univie.ac.at/en/news-events/news-events/news/new-assistant-professorship-starting-winter-semester-201920/",
+  "note": "Department news: assistant professor (tenure track) for World Literature at Uni Wien from winter semester 2019/20; previously junior professor for world literature at the research centre 'Laboratory Enlightenment', Friedrich Schiller University Jena."
+ },
+ "Thomas Nikolai Kiesel": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://oeaw.ac.at/esq/home/esq-faculty/nicolai-kiesel; https://www.fwf.ac.at/en/research-radar/10.55776/Y952; https://aspelmeyer.univie.ac.at/details/news/nikolai-kiesel-receives-feodor-lynen-research-fellowship; https://kiesel.univie.ac.at/news/detailansicht/associate-professorship-for-nikolai-kiesel",
+  "note": "In Vienna since 2009 (Feodor Lynen fellow in the Aspelmeyer group), START prize 2016 with project hosted at Universität Wien from Jan 2017, listed as Assistant Professor and START group leader at the Faculty of Physics; associate professorship conferred Sept 2022. No non-Vienna position found between 2009 and 2019, but no dated CV stating his exact title in 2018."
+ },
+ "Joao Matos": {
+  "herkunft": "extern",
+  "herkunft_institution": "ETH Zürich",
+  "herkunft_land": "Schweiz",
+  "source": "https://cienciavitae.pt/portal/pt/BE16-2BB4-50D8; https://www.univie.ac.at/fileadmin/user_upload/univie/dokumente/Leistungsberichte_Entwicklungsplaene/Leistungsbericht_2020.pdf",
+  "note": "Assistant professor at ETH Zürich from 2014; PI/professor at Max Perutz Labs, Universität Wien from 1 Sept 2020; Leistungsbericht 2020 states he came 'von der ETH Zürich'."
+ },
+ "Matthias Lehmann": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Bonn",
+  "herkunft_land": "Deutschland",
+  "source": "https://ae-info.org/ae/User/Lehmann_Matthias/CV; https://eur-int-comp-law.univie.ac.at/fileadmin/user_upload/i_deicl/CV_Lehmann_2020_10_23.pdf",
+  "note": "2014-2020 chair and director of the Institute for Private International and Comparative Law, University of Bonn; since Sept 2020 chair for Private Law, Private International Law and Comparative Law at Uni Wien (2009-2014 Halle-Wittenberg)."
+ },
+ "Nicole Kandioler-Biet": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://orcid.org/0000-0002-7338-4063",
+  "note": "ORCID employment: Post-doc Researcher, University of Vienna, 4 Jan 2018 - 30 Sept 2020; Tenure Track Professor, Dept of Theatre, Film and Media Studies, University of Vienna from 1 Oct 2020."
+ },
+ "Robert Woodward": {
+  "herkunft": "extern",
+  "herkunft_institution": "Imperial College London",
+  "herkunft_land": "Vereinigtes Königreich",
+  "source": "https://orcid.org/0000-0003-0834-5137; https://mc.univie.ac.at/news/details/news/welcome-rob",
+  "note": "ORCID employment: Postdoctoral Research Associate, Imperial College London, Feb 2014 - June 2020; Tenure-Track Assistant Professor of Applied Materials Chemistry, University of Vienna from 13 July 2020."
+ },
+ "Sandra Hindriks": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Konstanz",
+  "herkunft_land": "Deutschland",
+  "source": "https://orcid.org/0000-0002-8782-3266; https://kunstgeschichte.univie.ac.at/en/staff/professors/hindriks-sandra/hindriks-cv",
+  "note": "ORCID and institute CV: full-time academic assistant at the Chair of Art History (Prof. Karin Leonhard), Universität Konstanz, 2015-2020; tenure-track assistant professor at Uni Wien Dept of Art History from Oct 2020 (2014-2015 Universität Bonn)."
+ },
+ "Sarah Davies": {
+  "herkunft": "extern",
+  "herkunft_institution": "University of Copenhagen",
+  "herkunft_land": "Dänemark",
+  "source": "https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-sarah-davies-bsc-mscphd; https://sts.univie.ac.at/ueber-uns/sarah-davies/",
+  "note": "Uni Wien CV page: 2012-2019 Marie Curie Research Fellow / Assistant Professor / Associate Professor, University of Copenhagen (habilitation there 2017); Professor of Technosciences, Materiality and Digital Cultures at Uni Wien since Feb 2020."
+ },
+ "Kirsten Lee Bierbaum": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Osnabrück",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.tu-dortmund.de/en/university/newly-appointed-professors/prof-kirsten-lee-bierbaum/",
+  "note": "TU Dortmund CV: 2021-2023 Vertretungsprofessur (administrative professorship) for Art of the Middle Ages, Universität Osnabrück; 2011-2021 research assistant, Universität zu Köln; 2023-2024 professorship for Early Modern Art History with a Focus on Italy, Uni Wien; since March 2024 TU Dortmund."
+ },
+ "Farsam Salimi": {
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://mtbl.univie.ac.at/storage/media/mtbl02/2025_2026/2025_2026_273.pdf; http://web.archive.org/web/20250503073521/https://ales.univie.ac.at/fileadmin/user_upload/i_strafrecht/Reindl-Krauskopf/FS/CV_Neu.pdf",
+  "note": "Wissensbilanz 2025 (S. 71) führt Salimi ohne Herkunftsangabe (Hausberufung); sein CV: 2015–2019 Assistenzprofessor, seit 2019 Assoziierter Professor am Institut für Strafrecht und Kriminologie der Universität Wien, Habilitation 2021, Ruf JKU Linz 2024 abgelehnt, seit 3/2025 Universitätsprofessor Uni Wien."
+ },
+ "Riza Yildirim": {
+  "herkunft": "extern",
+  "herkunft_institution": "Emory University",
+  "herkunft_land": "USA",
+  "source": "https://mtbl.univie.ac.at/storage/media/mtbl02/2025_2026/2025_2026_273.pdf; https://etd.library.emory.edu/concern/etds/j6731517g; https://islamicstudies.stanford.edu/events/neither-nor-outside-turkish-nation-akps-alevi-policies-historical-perspective-riza-yildirim",
+  "note": "Wissensbilanz 2025 (S. 71): \"Riza Yildirim (Tenure Track-Professur für Alevitisch-theologische Studien) von der Emory University\"; zweite Dissertation (Religious Studies) an der Emory University, Spring 2024; Stanford-Bio 2026 nennt Lehrtätigkeit an TOBB (Ankara, bis 2016), Emory, Agnes Scott College und Uni Wien; Begrüßung als TT-Professor am IITS am 15.07.2025."
+ },
+ "Armin Granulo": {
+  "herkunft": "extern",
+  "herkunft_institution": "LMU München",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/granulo-armin",
+  "note": "Uni-Wien-Ankündigung: 2025–2026 Akademischer Rat a. Z. am Institut für Marktorientierte Unternehmensführung der LMU München (davor 2021–2025 Postdoc TU München), ab Oktober 2026 Tenure-Track-Professur Uni Wien."
+ },
+ "Felix Niggemann": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Zürich",
+  "herkunft_land": "Schweiz",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/niggemann-felix",
+  "note": "Uni-Wien-Ankündigung: 2020–2026 Postdoktorand an der Universität Zürich (2025 Visiting Assistant Professor Carnegie Mellon University), seit Oktober 2026 Tenure-Track-Professur Uni Wien."
+ },
+ "Johanna Böttcher": {
+  "herkunft": "extern",
+  "herkunft_institution": "Psychologische Hochschule Berlin",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/boettcher-johanna",
+  "note": "Uni-Wien-Ankündigung: 2019–2026 Professur für Klinische Psychologie und Psychotherapie an der Psychologischen Hochschule Berlin, seit Oktober 2026 Professur Uni Wien."
+ },
+ "Konstantinos Vlasopoulos": {
+  "herkunft": "extern",
+  "herkunft_institution": "University of Crete",
+  "herkunft_land": "Griechenland",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/vlasopoulos-konstantinos",
+  "note": "Uni-Wien-Ankündigung: 2015–2026 an der Universität Kreta (Assistant Prof. 2015–2019, Associate Prof. 2019–2024, Professor 2024–2026), zugleich ERC-Projektleiter am Institute for Mediterranean Studies; ab Oktober 2026 Professur Uni Wien."
+ },
+ "Maria Bremer": {
+  "herkunft": "extern",
+  "herkunft_institution": "Ruhr-Universität Bochum",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/bremer-maria",
+  "note": "Laut Uni-Wien-CV 2021–2026 Akademische Rätin a. Z. und Stiftungsprofessur Museale Praxis an der Ruhr-Universität Bochum (dazwischen nur Gastprofessuren Angewandte Wien WS 2024/25 und Turin März 2026), seit Oktober 2026 Tenure-Track-Professur Museum Studies Uni Wien."
+ },
+ "Sebastian Kronenberger": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Mannheim",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/kronenberger-sebastian",
+  "note": "Laut Uni-Wien-CV 2020–2026 Akademischer Rat an der Universität Mannheim (2023–2026 PI im DFG TRR 266), ab 1.10.2026 Tenure-Track-Professur Financial Accounting Uni Wien."
+ },
+ "Olga Makarova": {
+  "herkunft": "intern",
+  "herkunft_institution": "Veterinärmedizinische Universität Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://pub.orcid.org/v3.0/0000-0003-4767-9711/employments; https://www.vetmed.fu-berlin.de/service/Newsletter/2021-03-05-Newsletter-FBVetMed-0016.pdf; https://www.vetmeduni.ac.at/oeffentliches-veterinaerwesen/ueber-uns/wissenschaftlerinnen/makarova-olga",
+  "note": "Laut ORCID seit 09/2021 Assistant Professor (Tenure Track, 'Mechanisms for Antimicrobial Resistance in the One Health Context', Ruf laut FU-Berlin-Newsletter 03/2021 vom Institut für Tier- und Umwelthygiene der FU Berlin angenommen) an der Vetmeduni Wien, Profilseite führt sie inzwischen als Assoz.Prof.; der Dienstantritt 09/2026 in der Vetmeduni-Liste entspricht damit sehr wahrscheinlich der Tenure-Überleitung nach fünf Jahren, Vorposition also intern. Falls die Zeile doch den TT-Antritt 09/2021 meint, wäre die Herkunft extern (Freie Universität Berlin, Deutschland)."
+ },
+ "Albert Sassmann": {
+  "herkunft": "intern",
+  "herkunft_institution": "mdw – Universität für Musik und darstellende Kunst Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://www.mdw.ac.at/1225/",
+  "note": "Laut mdw-Seite 'Neue Professuren 2019' unterrichtet Sassmann seit 2004 am Ludwig van Beethoven Institut der mdw; Professur für Klavier ab 1.10.2019."
+ },
+ "Krassimira Stoyanova": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend (Wiener Staatsoper, regelmäßiger Gast)",
+  "herkunft_land": "Österreich",
+  "source": "https://www.mdw.ac.at/1225/; https://www.profil.at/gesellschaft/sopranistin-krassimira-stoyanova-saengerinnen-371951; https://www.salzburgerfestspiele.at/en/a/krassimira-stoyanova",
+  "note": "International freischaffende Sopranistin mit Wohnsitz in Wien (profil), seit 1998 regelmäßig an der Wiener Staatsoper (Kammersängerin 2009) sowie an Met, Scala, Salzburger Festspiele etc.; keine vorherige Lehr- oder Hochschulanstellung belegt, Professur für Gesang an der mdw ab 1.10.2019."
+ },
+ "Antanina Kalechyts": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend (zuletzt Lehrende an der Kunstuniversität Graz bis 2017)",
+  "herkunft_land": "Österreich",
+  "source": "https://www.mdw.ac.at/1545/; https://www.mdw.ac.at/iok/?PageId=3792; https://www.sirene.at/kuenstler/kalechyts-antanina/; https://choralschola.at/ensembleleitung/antanina-kalechyts",
+  "note": "Laut mdw-Institutsseite 2009–2017 Lehrende an der Kunstuniversität Graz (Dirigierklassen, Opernstudio, zuletzt Lektorin für Gregorianik; Doktorat 2016 bei Franz Karl Praßl), ab 2016 musikalische Assistentin bei Neue Oper Wien und ab 2018 Dirigentin des Ensembles Reconsil in Wien, also 2017–2020 freischaffend in Wien; Professur für Gregorianik und Liturgik an der mdw ab 1.3.2020. Keine Quelle belegt eine mdw-Lehrtätigkeit vor 2020."
+ },
+ "Sian Edwards": {
+  "herkunft": "extern",
+  "herkunft_institution": "Royal Academy of Music London",
+  "herkunft_land": "Vereinigtes Königreich",
+  "source": "https://www.mdw.ac.at/magazin/2022/04/29/musik-ist-eine-lebendige-kunst-die-sich-staendig-weiterentwickelt/?lang=en; https://www.ram.ac.uk/people/sian-edwards",
+  "note": "mdw-Magazin (April 2022) nennt sie als amtierende Head of Conducting der Royal Academy of Music (seit 2013) mit Antritt der mdw-Professur zum Wintersemester 2022/23; RAM-Profil bestätigt die Position seit 2013."
+ },
+ "George Sioros": {
+  "herkunft": "extern",
+  "herkunft_institution": "University of Plymouth",
+  "herkunft_land": "Vereinigtes Königreich",
+  "source": "https://mdw.ac.at/george-sioros; https://www.plymouth.ac.uk/staff/george-sioros; https://feup.academia.edu/GeorgeSioros",
+  "note": "mdw-Profil: nach Postdoc am RITMO Centre (Universität Oslo) als Senior Lecturer an der University of Plymouth (Creative Computing, ICCMR) tätig, bevor er im Oktober 2024 die Professur an der mdw antrat; Plymouth-Seite führt ihn als Lecturer in Creative Computing (exakte Jahre nicht genannt)."
+ },
+ "Alex Grube": {
+  "herkunft": "extern",
+  "herkunft_institution": "Musikhochschule Münster",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.uni-muenster.de/news/view.php?cmdid=9046; https://www.bonedo.de/?p=282456; https://soundbetter.com/profiles/421045-alex-grube",
+  "note": "Professor für E-Bass/Popularmusik an der Musikhochschule Münster seit Wintersemester 2016/17 (Uni-Münster-Meldung 2017, bonedo 30.01.2017), 2025 noch als 'Prof. Alex Grube' im Münsteraner Meisterkurs-Flyer geführt (Suchtreffer, Flyer selbst nicht abrufbar); lebt in Hamburg; dass der mdw-Professor mit dem Münsteraner Bassisten identisch ist, ist nicht durch eine mdw-Biografie belegt, aber Name, Fach und Profil passen."
+ },
+ "Alexander Riedmüller-Rezzani": {
+  "herkunft": "extern",
+  "herkunft_institution": "Hochschule für Musik Franz Liszt Weimar",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.rhythmiker.de/; https://www.nordkolleg.de/seminare/dozenten/details/dozent/riedmueller/",
+  "note": "Eigene Vita: 2024–2026 wissenschaftlicher Mitarbeiter im Projekt MusiGeNuM an der HfM Franz Liszt Weimar, davor 2021–2024 Fachgruppenleiter EMP an der Musikschule Leo Kestenberg Berlin und 2018–2021 wiss. Mitarbeiter HfMT Hamburg, seit 2011 freiberuflicher Referent; Professur Rhythmik/Musik und Bewegung an der mdw ab 1.10.2026 (Bachelor Rhythmik an der mdw 2007–2011)."
+ },
+ "Fred Kelemen": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.filmportal.de/en/print/224927; https://www.writv.us.edu.pl/en/wykladowcy/fred-kelemen/; https://sp.amu.cz/en/predmet300MKFK.html",
+  "note": "Freischaffender Regisseur und Kameramann (u.a. für Béla Tarr), seit 2004 eigene Produktionsfirma Kino Kombat Filmmanufactur in Berlin, seit 1995 Gastdozent/Meisterkurse an diversen Filmhochschulen (dffb Berlin, HBK Saar Max-Ophüls-Gastprofessur 2012, Filmschule Łódź, FAMU Prag WS 2025/26); keine feste Anstellung vor 2026 nachweisbar, Ort nicht ausdrücklich belegt (geboren und ausgebildet in Berlin, Firma in Deutschland)."
+ },
+ "Kathrin Resetarits": {
+  "herkunft": "intern",
+  "herkunft_institution": "mdw – Filmakademie Wien",
+  "herkunft_land": "Österreich",
+  "source": "https://blog.zhdk.ch/zfiction/?p=3716; https://www.europaeischeliteraturtage.at/en/authors/kathrin-resetarits/1632",
+  "note": "ZHdK-Profil (2022) nennt sie 'Senior Lecturer at the Vienna Film Academy in the Department of Screenwriting and Dramaturgy'; weitere Profile beschreiben sie als Lehrende für Drehbuch und Dramaturgie an der Filmakademie Wien (laut einem Profil seit 2011) sowie Gastdozentin an der DFFB Berlin."
+ },
+ "Michael Palm": {
+  "herkunft": "extern",
+  "herkunft_institution": "Hochschule für Fernsehen und Film München",
+  "herkunft_land": "Deutschland",
+  "source": "https://hff-muenchen.de/en_EN/professoren-landingpage; https://media02.culturebase.org/data/docs-hff/Studienhandbuch2526final.pdf; https://www.zem-brandenburg.de/?p=1087",
+  "note": "HFF München führt ihn seit 2019 gemeinsam mit Beatrice Babin als Inhaber des Lehrstuhls Montage (auch im HFF-Studienhandbuch 2025/26 als Prof. Michael Palm, Lehrstuhl Montage); davor 1998–2015 Lektor an der Filmakademie Wien, Lehrtätigkeit an mdw und Kunstuniversität Linz."
+ },
+ "Oliver Urbanski": {
+  "herkunft": "extern",
+  "herkunft_institution": "freischaffend",
+  "herkunft_land": "Deutschland",
+  "source": "https://www.schaubuehne.de/en/people/oliver-urbanski-.html; https://www.crew-united.com/de/Oliver-Urbanski_82679.html; https://brandenburgertheater.de/kokosConnect/pdfs/0292ad89-25c9-f011-9da5-9c8e9957b62f.pdf",
+  "note": "Berliner Schauspieler und Musiker (geb. 1975, Ernst Busch 1999–2003), nach Jahren als Ensemblemitglied des Berliner Ensembles freischaffend tätig (Schaubühne, Bar jeder Vernunft, St. Pauli Theater, Brandenburger Theater 2025/26 als Regisseur); crew-united führt ihn mit Wohnort Berlin; kein festes Engagement oder Lehrposition unmittelbar vor 2026 belegt."
+ },
+ "Sebastian Breit": {
+  "herkunft": "extern",
+  "herkunft_institution": "Wiener Staatsoper / Wiener Philharmoniker",
+  "herkunft_land": "Österreich",
+  "source": "https://www.rondomagazin.de/en/kuenstler/Sebastian+Breit/; https://slippedisc.com/?p=660486",
+  "note": "Seit 2019 Solo-Oboist der Wiener Staatsoper und der Wiener Philharmoniker (Mitglied der Philharmoniker ab 2022); studierte selbst an der mdw bei Harald Hörth, aber keine Lehrposition an der mdw vor 2026 belegt."
+ },
+ "Thomas Fleißner": {
+  "herkunft": "extern",
+  "herkunft_institution": "Mozarteumorchester Salzburg",
+  "herkunft_land": "Österreich",
+  "source": "https://www.mozarteumorchester-freunde.at/musiker-interviews/thomas-fleissner/; https://philblech.at/die-musiker/?lang=en",
+  "note": "Koordinierter Solotrompeter des Mozarteumorchesters Salzburg seit 2020 (Substitut ab 2019), davor 2012–2020 Trompeter am Stadttheater Klagenfurt / Kärntner Sinfonieorchester; Studium an der mdw bei Josef Pomberger und Martin Mühlfellner; keine mdw-Lehrposition vor 2026 belegt."
+ }
 }
