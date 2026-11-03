@@ -236,7 +236,6 @@ Hauptgruppen (2-stellig). Jeder 3-stellige Code wird automatisch in
 | … | … | … |
 
 Im Dashboard werden alle drei Ebenen sichtbar:
-- **Top-15-Balkendiagramm** (3-stellig) – konkrete Disziplinen
 - **Bereichs-Balkendiagramm** (1-stellig) – grobe Verteilung
 - **Heatmap Universität × Bereich** (1-stellig) – Aktivitätsprofile
 - **ÖFOS-Label auf jeder Profilkarte** (3-stellig mit Sub-Bezeichnung)
@@ -490,11 +489,11 @@ Programm, Call-Jahr minus Berufungsjahr) und Tabelle im WWTF-Tab; Badge
 den Stufen irgendwann / vor der Berufung / nach der Berufung / nur VRG / ohne.
 Alles folgt der Jahresauswahl.
 
-### 6.8b Fachprofile (Tab „Fachprofile")
+### 6.8b Forschungsthemen (Tab „Forschungsthemen")
 
 **Frage:** in welchen Subfeldern arbeiten die Berufenen, und wer arbeitet an X?
 Die ÖFOS-Codes beschreiben die Widmung der Professur und sind zu grob
-(„Informatik"). Die Fachprofile beschreiben das Werk der Person.
+(„Informatik"). Die Publikationsprofile beschreiben das Werk der Person.
 
 **Subfeld-Definition:** OpenAlex-Topics, eine aus den Publikationen gelernte
 Taxonomie mit vier Ebenen (4 Domänen, 26 Felder, ~250 Subfelder, >4500 Topics).
@@ -616,7 +615,7 @@ Mitteilung an benjamin.missbach@wwtf.at.
 | 09.06.2026 | `f4c5072` | UNIS-Array-Fix, ÖFOS-Kategorienamen auf Heatmap-Achsen |
 | 09.07.2026 | — | WWTF-Perspektive-Tab, strukturierte Metriken, CSV-Export, Sortierung, teilbare Filter-Links, Kernaussagen-Boxen, Farb-Fix Uni Wien/MedUni Wien |
 | 09.07.2026 | — | 9. Universität ergänzt (Akademie der bildenden Künste: Brorson, Schachinger → 90 Einträge); fail-safe Datenstrategie: OpenAlex-Lookup für alle Einträge mit Match-Validierung + Negativ-Cache, fill_gaps.py (Werdegang/Profil-Links auto, manuell > API > generiert), audit_gaps.py (data_gaps.csv), update.sh; Geschlechts-Badges m/f |
-| 03.11.2026 | — | WWTF-Projektdatenbank eingespielt (`wwtf_projekte.json`, 652 Projekte): `wwtf_foerderung` je Berufung, KPI, Diagramme, Filter und Badge; Tab „Fachprofile": Publikationsprofile aus OpenAlex (Subfelder, Begriffe, Textvektoren), Stichwort- und semantische Suche, Subfeld-Explorer |
+| 03.11.2026 | — | WWTF-Projektdatenbank eingespielt (`wwtf_projekte.json`, 652 Projekte): `wwtf_foerderung` je Berufung, KPI, Diagramme, Filter und Badge; Tab „Forschungsthemen": Publikationsprofile aus OpenAlex (Subfelder, Begriffe, Textvektoren), Stichwort- und semantische Suche, Subfeld-Explorer |
 | 02.11.2026 | — | MedUni Wien: Personalliste der Uni eingespielt (`backfill_meduni_hr.py`): 17 neue Datensätze (90 → 107), 20 Korrekturen an Paragraf/Monat, Abgleichbericht in `scripts/pruefung/`; Gesamt 1232 |
 
 ## 11. Kontakt

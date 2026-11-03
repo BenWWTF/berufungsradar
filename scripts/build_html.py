@@ -531,40 +531,6 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
   });
 }
 
-// ─── CHART: ÖFOS 3-STELLIG TOP 15 ────────────────────────
-function initOFOSChart(rows) {
-  const counts = {};
-  rows.forEach(d => {
-    const lbl = d.ofos_label || "Andere";
-    counts[lbl] = (counts[lbl] || 0) + 1;
-  });
-  const sorted = Object.entries(counts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 15);
-
-  mountChart("ofos", "chart-ofos", {
-    type: "bar",
-    data: {
-      labels: sorted.map(e => e[0]),
-      datasets: [{
-        label: "Anzahl",
-        data: sorted.map(e => e[1]),
-        backgroundColor: sorted.map(e => {
-          const d = rows.find(x => (x.ofos_label || "Andere") === e[0]);
-          return d ? bereichColor(inferBereich(d)) : "#9D9D9C";
-        }),
-        borderRadius: 4
-      }]
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: { x: { ticks: { stepSize: 1 } } }
-    }
-  });
-}
 
 // ─── D3 SANKEY (Herkunft → Universität) ───────────────────
 function initSankey(rows) {
@@ -1684,7 +1650,7 @@ function fpExport() {
   const blob = new Blob(['\ufeff' + zeilen.join('\r\n')], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `fachprofile_${(FP.subfeld || FP.query || 'suche').replace(/[^\w\-]+/g, '_').slice(0, 40)}.csv`;
+  a.download = `forschungsthemen_${(FP.subfeld || FP.query || 'suche').replace(/[^\w\-]+/g, '_').slice(0, 40)}.csv`;
   a.click();
   URL.revokeObjectURL(a.href);
 }
@@ -1749,7 +1715,6 @@ function renderOverview(rows) {
   initTimelineChart(rows);
   initYearChart(rows);
   initBereichChart(rows);
-  initOFOSChart(rows);
   initHeatmap(rows);
 }
 
@@ -1968,7 +1933,7 @@ print(f"✓ Built {HTML_PATH} ({len(new_html)} bytes)")
 # ─────────────────────────────────────────────────────────────────
 RENDERERS = [
     "initKPIs", "initInsights", "initGenderChart", "initTimelineChart",
-    "initYearChart", "initBereichChart", "initOFOSChart", "initHeatmap",
+    "initYearChart", "initBereichChart", "initHeatmap",
     "initSankey", "initWWTF", "renderCards", "initFachprofile", "renderFoerderung",
 ]
 for fn in RENDERERS:

@@ -95,9 +95,9 @@ Schreibweisen stehen in `scripts/wwtf_overrides.json`. Stand November 2026:
 Das Dashboard zeigt es als KPI und Block „WWTF-Förderung der Berufenen" im
 WWTF-Tab, als Badge auf der Karte und als Filter „WWTF-Förderung".
 
-## Fachprofile
+## Forschungsthemen
 
-Der Tab „Fachprofile" beantwortet, woran die Berufenen tatsächlich publizieren,
+Der Tab „Forschungsthemen" beantwortet, woran die Berufenen tatsächlich publizieren,
 unabhängig von der ÖFOS-Denomination der Professur. Drei Stufen, nur die letzte
 Datei geht ins Repo:
 
@@ -123,11 +123,10 @@ Pipeline läuft von Hand nach einem neuen Jahrgang, nicht in der GitHub Action.
 - **Kernaussagen-Boxen** – automatisch berechnete Takeaways auf Übersicht, WWTF- und Mobilitäts-Tab
 - **VRG-Pipeline (WWTF-Tab)** – 35 Vienna Research Groups der Calls 2010–2025 mit Gastinstitution und, wo erfasst, der späteren Professur; Badge und Filter auf den Personenkarten
 - **WWTF-Förderung der Berufenen (WWTF-Tab)** – Abgleich mit der gesamten Projektdatenbank: Personen je Programm, Call-Jahr relativ zur Berufung, Liste mit Projektlinks
-- **Fachprofile (eigener Tab)** – Stichwort- und semantische Suche über die Publikationsprofile, Subfeld-Explorer (OpenAlex-Taxonomie), CSV-Export der Trefferliste
+- **Forschungsthemen (eigener Tab)** – Stichwort- und semantische Suche über die Publikationsprofile, Subfeld-Explorer (OpenAlex-Taxonomie), CSV-Export der Trefferliste
 - **Mobilität (Sankey)** – Herkunftsland (14 Länder) → Wiener Universitäten (9 öffentliche + CEU), volle Breite
 - **ÖFOS-Bereiche (1-stellig)** – Hauptkategorien 1–6
 - **Universitäten × ÖFOS-Bereich (Heatmap)** – Aktivitätsprofile der 9 Unis
-- **ÖFOS-Fachbereiche (3-stellig, Top 15)** – Feinere Gliederung
 - **Geschlecht × Universität** – Gestapeltes Balkendiagramm über alle Unis
 - **Timeline** – Berufungen nach Monat (12 Monate)
 - **Profilkarten** – Filterbare, sortierbare Karten (Monat, Name, h-Index, Uni) mit Werdegang, Metriken, Fördergebern; Filter für WWTF-Programmfeld
