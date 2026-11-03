@@ -33,7 +33,7 @@
     <link rel="apple-touch-icon" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- D3 v7 -->
@@ -54,26 +54,61 @@
       }
 
       :root {
-        /* WWTF Corporate Design Manual 2024 */
-        --primary: #008fd4; /* WWTF Blau */
-        --accent: #005b94; /* WWTF Dunkelblau (Sekundaerfarbe) */
-        --accent2: #4a9cc7; /* helle Abstufung von WWTF Blau */
-        --light: #e6f4fb;
-        --border: #bfe0f2;
-        --text: #181715; /* WWTF Schwarz */
-        --muted: #6e6e6d; /* Abstufung von WWTF Grau, textfaehiger Kontrast */
-        --white: #ffffff;
-        --radius: 8px;
-        --shadow: 0 2px 8px rgba(0, 91, 148, 0.12);
+        /* WWTF Design System (tokens.json): Farben */
+        --wwtf-blau: #008fd3;
+        --wwtf-dunkelblau: #005b94;
+        --wwtf-koralle: #ec6a61;
+        --wwtf-gelbgruen: #bad150;
+        --wwtf-grau: #9d9d9c;
+        --wwtf-schwarz: #181715;
+        --wwtf-weiss: #ffffff;
+        --wwtf-blau-75: #40acdd;
+        --wwtf-blau-50: #80cee6;
+        --wwtf-blau-25: #bfe2f2;
+        --wwtf-blau-10: #e6f4fb;
+        --grey-700: #4c4c4b;
+        --grey-500: #9d9d9c;
+        --grey-300: #cfcfce;
+        --grey-200: #e4e4e3;
+        --grey-100: #f2f2f1;
+        --grey-050: #f8f8f7;
+        /* Koralle und Gelbgruen sind Flaechenfarben; als Text die abgedunkelten
+           Ableitungen des Design Systems (Badge/Notice) */
+        --text-positive: #5c7300;
+        --text-alert: #c11624;
+        --tint-positive: #f1f6dc;
+        --tint-alert: #fdeae8;
 
-        /* OeFOS-Bereiche: Abstufungen der WWTF-Primaer-/Sekundaerfarben,
-           keine neuen Farbtoene (Corporate Design Manual S.11) */
-        --c-nat: #008fd4; /* 1xx Naturwiss */
-        --c-tech: #005b94; /* 2xx Technik */
-        --c-med: #c23640; /* 3xx Medizin, Abstufung von Koralle */
-        --c-soz: #6b8f2e; /* 5xx Sozialwiss, Abstufung von Gelbgruen */
-        --c-gei: #5a7f99; /* 6xx Geisteswiss, Blaugrau-Abstufung */
-        --c-unk: #9d9d9c; /* unklassifiziert, WWTF Grau */
+        --text-default: var(--wwtf-schwarz);
+        --text-muted: var(--grey-700);
+        --text-link: var(--wwtf-blau);
+        --text-link-hover: var(--wwtf-dunkelblau);
+        --surface-page: var(--wwtf-weiss);
+        --surface-subtle: var(--grey-050);
+        --surface-brand-tint: var(--wwtf-blau-10);
+        --border-default: var(--grey-200);
+        --border-strong: var(--grey-300);
+        --radius-sm: 3px;
+        --radius-md: 6px;
+        --radius-lg: 10px;
+        --radius-pill: 999px;
+        --shadow-sm: 0 1px 2px rgba(24, 23, 21, 0.06);
+        --shadow-md: 0 2px 8px rgba(24, 23, 21, 0.08);
+        --shadow-focus: 0 0 0 3px rgba(0, 143, 212, 0.35);
+        --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+        --duration-fast: 120ms;
+        --duration-base: 200ms;
+
+        /* Kurznamen, die die Regeln unten verwenden */
+        --primary: var(--wwtf-blau);
+        --accent: var(--wwtf-dunkelblau);
+        --light: var(--wwtf-blau-10);
+        --border: var(--border-default);
+        --text: var(--text-default);
+        --muted: var(--text-muted);
+        --white: var(--wwtf-weiss);
+        --radius: var(--radius-md);
+        --shadow: none;
       }
 
       html {
@@ -82,9 +117,30 @@
 
       body {
         font-family: "Source Sans 3", "Source Sans Pro", sans-serif;
-        background: #f0f4f8;
+        background: var(--surface-page);
         color: var(--text);
-        line-height: 1.5;
+        line-height: 1.45;
+        -webkit-font-smoothing: antialiased;
+      }
+      a {
+        color: var(--text-link);
+        text-decoration: none;
+        transition: color var(--duration-fast) var(--ease-standard);
+      }
+      a:hover {
+        color: var(--text-link-hover);
+        text-decoration: underline;
+      }
+      button:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      a:focus-visible {
+        outline: none;
+        box-shadow: var(--shadow-focus);
+      }
+      ::selection {
+        background: var(--wwtf-blau-25);
+        color: var(--wwtf-schwarz);
       }
 
       /* ── Header ───────────────────────────────────────────── */
@@ -96,7 +152,6 @@
         color: var(--text);
         padding: 0 24px;
         border-bottom: 1px solid var(--border);
-        box-shadow: 0 2px 12px rgba(0, 91, 148, 0.08);
       }
       #site-header .header-inner {
         max-width: 1280px;
@@ -126,30 +181,28 @@
         text-underline-offset: 3px;
       }
       #site-header .home-btn:focus-visible {
-        outline: 2px solid var(--primary);
-        outline-offset: 3px;
-        border-radius: 3px;
+        box-shadow: var(--shadow-focus);
+        border-radius: var(--radius-sm);
       }
       #site-header .period {
         font-size: 0.82rem;
         font-weight: 600;
         margin-top: 4px;
-        color: #cfe0f0;
+        color: var(--text-link);
       }
       #site-header .subtitle {
         font-size: 0.78rem;
-        opacity: 0.72;
+        color: var(--muted);
         font-weight: 400;
         margin-top: 2px;
       }
       #site-header .header-badge {
-        background: rgba(0, 143, 212, 0.08);
-        border: 1px solid rgba(0, 143, 212, 0.25);
-        color: var(--accent);
-        border-radius: 20px;
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
+        border-radius: var(--radius-pill);
         padding: 4px 12px;
         font-size: 0.75rem;
-        font-weight: 500;
+        font-weight: 600;
         white-space: nowrap;
       }
       #site-header .header-right {
@@ -165,7 +218,6 @@
       #site-header .wwtf-logo svg {
         height: 34px;
         width: auto;
-        border-radius: 4px;
       }
 
       /* ── Datenabdeckung ───────────────────────────────────── */
@@ -193,13 +245,13 @@
         color: var(--text);
       }
       .ab-voll {
-        background: #bfe3c8;
+        background: var(--wwtf-gelbgruen);
       }
       .ab-teil {
-        background: #fde9b8;
+        background: var(--wwtf-blau-25);
       }
       .ab-leer {
-        background: #eef2f7;
+        background: var(--grey-100);
       }
       td.ab-leer {
         color: var(--muted);
@@ -225,13 +277,13 @@
 
       /* ── VRG ──────────────────────────────────────────────── */
       .badge-vrg {
-        background: var(--accent);
-        color: #fff;
+        background: var(--wwtf-schwarz);
+        color: var(--wwtf-weiss);
       }
       .badge-abgang {
-        background: var(--surface, #fff);
+        background: var(--wwtf-weiss);
         color: var(--muted);
-        border: 1px dashed var(--muted);
+        border: 1px dashed var(--grey-500);
       }
       .vrg-table {
         width: 100%;
@@ -250,16 +302,14 @@
       }
       .vrg-table td {
         padding: 7px 10px 7px 0;
-        border-bottom: 1px solid #eef2f7;
+        border-bottom: 1px solid var(--border);
         vertical-align: top;
       }
       .vrg-table tr.vrg-berufen {
-        background: #f2f8ff;
+        background: var(--surface-brand-tint);
       }
       .vrg-table a {
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 500;
+        font-weight: 600;
       }
       .vrg-table a:hover {
         text-decoration: underline;
@@ -352,7 +402,7 @@
         border-radius: 50%;
         background: var(--primary);
         border: 2px solid var(--white);
-        box-shadow: 0 1px 4px rgba(0, 91, 148, 0.4);
+        box-shadow: var(--shadow-md);
         transform: translate(-50%, -50%);
         cursor: grab;
         touch-action: none;
@@ -361,8 +411,7 @@
         cursor: grabbing;
       }
       .year-slider-handle:focus-visible {
-        outline: 2px solid var(--accent);
-        outline-offset: 2px;
+        box-shadow: var(--shadow-focus);
       }
       .year-slider-labels {
         position: relative;
@@ -375,21 +424,27 @@
         color: var(--muted);
         white-space: nowrap;
       }
+      /* Button "secondary" (sm) aus dem Design System; aktiv = "primary" */
       .year-pill {
         font-family: inherit;
-        font-size: 0.8rem;
-        font-weight: 500;
+        font-size: 0.875rem;
+        font-weight: 600;
         padding: 5px 13px;
-        border-radius: 16px;
-        border: 1px solid var(--border);
-        background: var(--white);
-        color: var(--text);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--wwtf-blau);
+        background: transparent;
+        color: var(--wwtf-blau);
         cursor: pointer;
-        transition: background 0.12s, color 0.12s, border-color 0.12s;
+        transition: background var(--duration-fast) var(--ease-standard), color var(--duration-fast) var(--ease-standard);
       }
       .year-pill:hover {
-        border-color: var(--accent);
-        color: var(--accent);
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
+      }
+      .year-pill.active:hover {
+        background: var(--wwtf-dunkelblau);
+        border-color: var(--wwtf-dunkelblau);
+        color: var(--white);
       }
       .year-pill.active {
         background: var(--primary);
@@ -405,7 +460,7 @@
       /* ── Tab Navigation ───────────────────────────────────── */
       #tab-nav {
         background: var(--white);
-        border-bottom: 2px solid var(--border);
+        border-bottom: 1px solid var(--border);
         position: sticky;
         /* Kein hartcodierter Pixelwert: --header-h wird per JS aus der
            tatsaechlichen Kopfzeilenhoehe berechnet (syncStickyOffsets),
@@ -432,14 +487,14 @@
         cursor: pointer;
         padding: 14px 20px;
         font-family: inherit;
-        font-size: 0.88rem;
-        font-weight: 500;
-        color: var(--muted);
-        border-bottom: 3px solid transparent;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text);
+        border-bottom: 2px solid transparent;
         white-space: nowrap;
         transition:
-          color 0.15s,
-          border-color 0.15s;
+          color var(--duration-fast) var(--ease-standard),
+          border-color var(--duration-fast) var(--ease-standard);
       }
       .tab-btn:hover {
         color: var(--accent);
@@ -465,40 +520,41 @@
 
       /* ── Section Headers ──────────────────────────────────── */
       .section-title {
-        font-size: 1.05rem;
+        font-size: 1.125rem;
         font-weight: 700;
-        color: var(--primary);
+        color: var(--text);
         margin-bottom: 16px;
-        padding-bottom: 8px;
-        border-bottom: 2px solid var(--light);
       }
 
       /* ── KPI Row ──────────────────────────────────────────── */
+      /* Stat-Band des Design Systems: Kennzahlen auf surface-subtle,
+         getrennt durch Haarlinien, keine Farbbalken (KEINE Balken) */
       #kpi-row {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 16px;
         margin-bottom: 32px;
+        background: var(--surface-subtle);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        overflow: hidden;
       }
       .kpi-card {
-        background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
         padding: 20px 18px;
-        border-top: 4px solid var(--accent);
+        /* Haarlinien zwischen den Zellen; die aeusseren schneidet overflow:hidden ab */
+        box-shadow: 1px 1px 0 0 var(--border);
       }
       .kpi-card .kpi-value {
-        font-size: 2.2rem;
+        font-size: 2.25rem;
         font-weight: 700;
         color: var(--primary);
-        line-height: 1;
+        line-height: 1.1;
+        letter-spacing: -0.01em;
       }
       .kpi-card .kpi-label {
-        font-size: 0.78rem;
-        color: var(--muted);
+        font-size: 0.875rem;
+        color: var(--text);
         margin-top: 6px;
-        font-weight: 500;
-        letter-spacing: 0.5px;
+        font-weight: 600;
       }
       .kpi-card .kpi-sub {
         font-size: 0.75rem;
@@ -509,16 +565,17 @@
       /* ── Chart cards ──────────────────────────────────────── */
       .chart-card {
         background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
         padding: 24px;
         margin-bottom: 24px;
       }
       .chart-card h3 {
-        font-size: 0.92rem;
-        font-weight: 600;
-        color: var(--primary);
-        margin-bottom: 18px;
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.15;
+        margin-bottom: 14px;
       }
       .chart-row {
         display: grid;
@@ -570,7 +627,7 @@
       .heatmap-label {
         font-family: "Source Sans 3", "Source Sans Pro", sans-serif;
         font-size: 12px;
-        fill: #1a1a2e;
+        fill: #181715;
       }
       .heatmap-value {
         pointer-events: none;
@@ -584,10 +641,10 @@
       /* ── Tooltip ──────────────────────────────────────────── */
       #tooltip {
         position: fixed;
-        background: rgba(0, 20, 50, 0.92);
+        background: var(--wwtf-schwarz);
         color: #fff;
         padding: 10px 14px;
-        border-radius: 6px;
+        border-radius: var(--radius-sm);
         font-size: 0.8rem;
         pointer-events: none;
         opacity: 0;
@@ -605,9 +662,9 @@
         /* wie bei #tab-nav: aus der echten Hoehe von Header+Tabs berechnet,
            nicht hartcodiert -- siehe syncStickyOffsets() */
         scroll-margin-top: var(--sticky-stack-h, 150px);
-        background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
+        background: var(--surface-subtle);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
         padding: 18px 20px;
         margin-bottom: 20px;
         display: flex;
@@ -618,18 +675,19 @@
       #filter-bar input,
       #filter-bar select {
         font-family: inherit;
-        font-size: 0.85rem;
+        font-size: 0.875rem;
         padding: 8px 12px;
-        border: 1.5px solid var(--border);
-        border-radius: 6px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-sm);
         color: var(--text);
         background: var(--white);
         outline: none;
-        transition: border-color 0.15s;
+        transition: border-color var(--duration-fast) var(--ease-standard);
       }
       #filter-bar input:focus,
       #filter-bar select:focus {
-        border-color: var(--accent);
+        border-color: var(--wwtf-blau);
+        box-shadow: var(--shadow-focus);
       }
       #filter-bar input {
         min-width: 200px;
@@ -644,20 +702,22 @@
         margin-left: auto;
         white-space: nowrap;
       }
+      /* Button "secondary" */
       .btn-reset {
-        background: none;
-        border: 1.5px solid var(--border);
-        padding: 8px 14px;
-        border-radius: 6px;
+        background: transparent;
+        border: 1px solid var(--wwtf-blau);
+        padding: 7px 14px;
+        border-radius: var(--radius-sm);
         font-family: inherit;
-        font-size: 0.82rem;
+        font-size: 0.875rem;
+        font-weight: 600;
         cursor: pointer;
-        color: var(--muted);
-        transition: all 0.15s;
+        color: var(--wwtf-blau);
+        transition: background var(--duration-fast) var(--ease-standard), color var(--duration-fast) var(--ease-standard);
       }
       .btn-reset:hover {
-        border-color: var(--accent);
-        color: var(--accent);
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
       }
 
       /* ── Professor Cards ──────────────────────────────────── */
@@ -668,27 +728,24 @@
       }
       .prof-card {
         background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        border: 1.5px solid var(--border);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border);
         overflow: hidden;
-        transition:
-          box-shadow 0.18s,
-          transform 0.18s;
+        transition: box-shadow var(--duration-base) var(--ease-standard);
       }
       .prof-card:hover {
-        box-shadow: 0 6px 20px rgba(0, 51, 102, 0.15);
-        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
       }
       .card-header {
-        background: var(--light);
+        background: var(--surface-subtle);
         padding: 14px 16px;
         border-bottom: 1px solid var(--border);
       }
       .card-name {
-        font-size: 0.97rem;
+        font-size: 1.05rem;
         font-weight: 700;
-        color: var(--primary);
+        color: var(--text);
+        line-height: 1.15;
       }
       .card-meta {
         font-size: 0.78rem;
@@ -710,48 +767,38 @@
         gap: 5px;
         margin-bottom: 10px;
       }
+      /* Badge des Design Systems: Pille, caption, Semibold; Toene brand,
+         neutral, positive, alert, dark. Koralle/Gelbgruen nur als Tint. */
       .badge {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         font-weight: 600;
-        padding: 3px 8px;
-        border-radius: 12px;
-        letter-spacing: 0.2px;
+        padding: 2px 10px;
+        border-radius: var(--radius-pill);
+        line-height: 1.4;
       }
-      .badge-98 {
-        background: #e6f4fb;
-        color: #005b94;
-      }
-      .badge-99 {
-        background: #e0edf4;
-        color: #00456e;
-      }
-      .badge-unk {
-        background: #f1f1f0;
-        color: #6e6e6d;
+      .badge-98,
+      .badge-99,
+      .badge-unk,
+      .badge-intern {
+        background: var(--grey-100);
+        color: var(--grey-700);
       }
       .badge-f {
-        background: #fbe6e7;
-        color: #b23a3f;
+        background: var(--tint-alert);
+        color: var(--text-alert);
       }
       .badge-m {
-        background: #e6eef4;
-        color: #1f3a52;
-      }
-      .badge-intern {
-        background: #f1f1f0;
-        color: #5c5c5b;
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
       }
       .badge-extern {
-        background: #eef6de;
-        color: #5c7a26;
+        background: var(--tint-positive);
+        color: var(--text-positive);
       }
-      .badge-ofos {
-        background: var(--light);
-        color: var(--accent); /* --primary auf Weiss faellt bei Kleinschrift unter WCAG AA (3.6:1) */
-      }
+      .badge-ofos,
       .badge-grant {
-        background: var(--light);
-        color: var(--accent);
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
       }
 
       .card-bio {
@@ -782,7 +829,7 @@
         align-items: center;
         justify-content: space-between;
         padding-top: 10px;
-        border-top: 1px solid var(--light);
+        border-top: 1px solid var(--border);
       }
       .card-expand-btn {
         background: none;
@@ -790,15 +837,17 @@
         cursor: pointer;
         font-family: inherit;
         font-size: 0.78rem;
-        color: var(--accent);
-        font-weight: 500;
+        color: var(--text-link);
+        font-weight: 600;
         padding: 0;
+      }
+      .card-expand-btn:hover {
+        color: var(--text-link-hover);
+        text-decoration: underline;
       }
       .card-link {
         font-size: 0.78rem;
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 500;
+        font-weight: 600;
       }
       .card-link:hover {
         text-decoration: underline;
@@ -819,8 +868,8 @@
       /* ── Datenstatus ──────────────────────────────────────── */
       #datenstatus {
         background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
         padding: 24px;
         margin-top: 28px;
       }
@@ -845,13 +894,13 @@
         flex-shrink: 0;
       }
       .status-dot.active {
-        background: #10b981;
+        background: var(--wwtf-gelbgruen);
       }
       .status-dot.pending {
-        background: #f59e0b;
+        background: var(--wwtf-koralle);
       }
       .status-dot.inactive {
-        background: #e5e7eb;
+        background: var(--grey-200);
       }
       .status-item .status-name {
         font-size: 0.85rem;
@@ -866,36 +915,51 @@
       /* ── Footer ───────────────────────────────────────────── */
       #site-footer {
         text-align: center;
-        padding: 20px;
-        font-size: 0.75rem;
-        color: var(--muted);
-        border-top: 1px solid var(--border);
-        background: var(--white);
+        padding: 28px 24px;
+        font-size: 0.8rem;
+        line-height: 1.6;
+        color: var(--grey-300);
+        background: var(--wwtf-schwarz);
         margin-top: 40px;
+      }
+      #site-footer a {
+        color: var(--wwtf-blau-50) !important;
       }
 
       /* ── Insights (Kernaussagen) ──────────────────────────── */
       .insights {
-        background: var(--white);
-        border-left: 4px solid var(--accent);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
+        background: var(--surface-brand-tint);
+        border-radius: var(--radius-md);
         padding: 18px 22px;
         margin-bottom: 24px;
       }
       .insights h4 {
-        font-size: 0.78rem;
-        font-weight: 700;
-        letter-spacing: 0.6px;
-        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--wwtf-dunkelblau);
         margin-bottom: 8px;
       }
+      /* Striche als Aufzaehlungszeichen (Iconography: dashed bullets in text-link) */
       .insights ul {
         margin: 0;
-        padding-left: 18px;
-        font-size: 0.85rem;
-        line-height: 1.65;
+        padding: 0;
+        list-style: none;
+        font-size: 0.9rem;
+        line-height: 1.55;
         color: var(--text);
+      }
+      .insights li {
+        padding-left: 18px;
+        position: relative;
+      }
+      .insights li::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        color: var(--text-link);
+        font-weight: 700;
       }
 
       /* ── WWTF-Perspektive ─────────────────────────────────── */
@@ -907,15 +971,14 @@
       }
       .prog-card {
         background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        border-top: 4px solid var(--accent);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border);
         padding: 18px 20px;
       }
       .prog-card h4 {
-        font-size: 0.95rem;
+        font-size: 1rem;
         font-weight: 700;
-        color: var(--primary);
+        color: var(--text);
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -924,7 +987,7 @@
       .prog-card .prog-count {
         font-size: 1.4rem;
         font-weight: 700;
-        color: var(--accent);
+        color: var(--primary);
       }
       .prog-card .prog-desc {
         font-size: 0.75rem;
@@ -937,15 +1000,15 @@
         align-items: center;
         gap: 8px;
         padding: 7px 10px;
-        border-radius: 6px;
-        border: 1px solid var(--light);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border);
         margin-bottom: 6px;
         font-size: 0.8rem;
         cursor: pointer;
-        transition: background 0.12s;
+        transition: background var(--duration-fast) var(--ease-standard);
       }
       .person-chip:hover {
-        background: var(--light);
+        background: var(--surface-brand-tint);
       }
       .person-chip .chip-name {
         font-weight: 600;
@@ -968,25 +1031,28 @@
       #filter-bar input {
         min-width: 0;
       }
+      /* Button "primary" */
       .btn-export {
-        background: var(--accent);
+        background: var(--wwtf-blau);
         color: var(--white);
-        border: none;
-        border-radius: 6px;
-        padding: 8px 14px;
+        border: 1px solid var(--wwtf-blau);
+        border-radius: var(--radius-sm);
+        padding: 7px 14px;
         font-family: inherit;
-        font-size: 0.8rem;
+        font-size: 0.875rem;
         font-weight: 600;
         cursor: pointer;
+        transition: background var(--duration-fast) var(--ease-standard);
       }
       .btn-export:hover {
-        background: var(--primary);
+        background: var(--wwtf-dunkelblau);
+        border-color: var(--wwtf-dunkelblau);
       }
 
       /* ── WWTF-Förderung ───────────────────────────────────── */
       .badge-wwtf {
-        background: var(--accent);
-        color: #fff;
+        background: var(--wwtf-schwarz);
+        color: var(--wwtf-weiss);
       }
       .sub-h {
         font-size: 0.82rem;
@@ -1013,13 +1079,14 @@
       .fp-row input,
       .fp-row select {
         font-family: inherit;
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 9px 12px;
-        border: 1.5px solid var(--border);
-        border-radius: 6px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-sm);
         color: var(--text);
         background: var(--white);
         outline: none;
+        transition: border-color var(--duration-fast) var(--ease-standard);
       }
       .fp-row input {
         flex: 1 1 320px;
@@ -1027,12 +1094,13 @@
       }
       .fp-row input:focus,
       .fp-row select:focus {
-        border-color: var(--primary);
+        border-color: var(--wwtf-blau);
+        box-shadow: var(--shadow-focus);
       }
       .fp-modes {
         display: inline-flex;
-        border: 1.5px solid var(--border);
-        border-radius: 6px;
+        border: 1px solid var(--wwtf-blau);
+        border-radius: var(--radius-sm);
         overflow: hidden;
       }
       .fp-mode {
@@ -1040,8 +1108,9 @@
         font-size: 0.82rem;
         padding: 8px 12px;
         border: 0;
-        background: var(--white);
-        color: var(--muted);
+        background: transparent;
+        color: var(--wwtf-blau);
+        font-weight: 600;
         cursor: pointer;
       }
       .fp-mode.active {
@@ -1063,15 +1132,16 @@
       }
       .fp-beispiel {
         font: inherit;
-        padding: 3px 10px;
-        border-radius: 12px;
-        border: 1px solid var(--border);
-        background: var(--white);
-        color: var(--accent);
+        font-weight: 600;
+        padding: 2px 10px;
+        border-radius: var(--radius-pill);
+        border: 0;
+        background: var(--surface-brand-tint);
+        color: var(--wwtf-dunkelblau);
         cursor: pointer;
       }
       .fp-beispiel:hover {
-        background: var(--light);
+        background: var(--wwtf-blau-25);
       }
       .fp-layout {
         display: grid;
@@ -1088,9 +1158,8 @@
       }
       .fp-hit {
         background: var(--white);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        border: 1.5px solid var(--border);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border);
         padding: 14px 18px;
         margin-bottom: 12px;
       }
@@ -1103,8 +1172,8 @@
       .fp-hit-name {
         font: inherit;
         font-weight: 700;
-        font-size: 0.98rem;
-        color: var(--accent);
+        font-size: 1.05rem;
+        color: var(--text);
         background: none;
         border: 0;
         padding: 0;
@@ -1112,6 +1181,7 @@
         text-align: left;
       }
       .fp-hit-name:hover {
+        color: var(--text-link-hover);
         text-decoration: underline;
       }
       .fp-hit-meta {
@@ -1146,11 +1216,12 @@
         margin-top: 8px;
       }
       .fp-chip {
-        font-size: 0.72rem;
-        padding: 2px 8px;
-        border-radius: 10px;
-        background: var(--light);
-        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 2px 10px;
+        border-radius: var(--radius-pill);
+        background: var(--grey-100);
+        color: var(--grey-700);
       }
       .fp-chip.hit {
         background: var(--primary);
@@ -1199,11 +1270,11 @@
         font-variant-numeric: tabular-nums;
       }
       .fp-domain {
-        font-size: 0.72rem;
+        font-size: 0.75rem;
         font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: 0.4px;
-        color: var(--muted);
+        letter-spacing: 0.02em;
+        color: var(--wwtf-dunkelblau);
         margin: 12px 0 4px;
       }
       .fp-leer {
@@ -1356,22 +1427,22 @@
               –
             </div>
           </div>
-          <div class="kpi-card" style="border-top-color: #c23640">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-frauen">–</div>
             <div class="kpi-label">Frauen</div>
             <div class="kpi-sub" id="kpi-frauen-pct">–</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #005b94">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-maenner">–</div>
             <div class="kpi-label">Männer</div>
             <div class="kpi-sub" id="kpi-maenner-pct">–</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #008fd4">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-extern">–</div>
             <div class="kpi-label">Extern (§98)</div>
             <div class="kpi-sub" id="kpi-extern-sub">Wettbewerbsberufungen</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #00456e">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-intern">–</div>
             <div class="kpi-label">Intern (§99 Abs. 4)</div>
             <div class="kpi-sub" id="kpi-intern-sub">Qualifikationsstellen</div>
@@ -1445,22 +1516,22 @@
             <div class="kpi-label">In WWTF-Programmfeldern</div>
             <div class="kpi-sub" id="kpi-wwtf-total-sub">–</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #6b8f2e">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-wwtf-extern">–</div>
             <div class="kpi-label">davon extern rekrutiert</div>
             <div class="kpi-sub" id="kpi-wwtf-extern-sub">–</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #c23640">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-wwtf-frauen">–</div>
             <div class="kpi-label">Frauenanteil</div>
             <div class="kpi-sub">in WWTF-Programmfeldern</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #6e6e6d">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-wwtf-hindex">–</div>
             <div class="kpi-label">Median h-Index</div>
             <div class="kpi-sub" id="kpi-wwtf-hindex-sub">–</div>
           </div>
-          <div class="kpi-card" style="border-top-color: #005b94">
+          <div class="kpi-card">
             <div class="kpi-value" id="kpi-wwtf-gefoerdert">–</div>
             <div class="kpi-label">Vom WWTF gefördert</div>
             <div class="kpi-sub" id="kpi-wwtf-gefoerdert-sub">–</div>
@@ -1722,16 +1793,16 @@ const MONATEN = ['JÄNNER','FEBRUAR','MÄRZ','APRIL','MAI','JUNI',
 const UNIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien", "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien", "CEU"];
 
 const UNI_COLORS = {
- "TU Wien": "#005B94",
- "Uni Wien": "#008FD4",
- "MedUni Wien": "#C23640",
- "WU Wien": "#A5D948",
- "BOKU": "#9D9D9C",
- "mdw": "#7FB8E0",
- "Angewandte": "#9C2E33",
- "Akademie": "#6B8F2E",
- "Vetmeduni Wien": "#5A7F99",
- "CEU": "#3A3A38"
+ "TU Wien": "#005b94",
+ "Uni Wien": "#008fd3",
+ "MedUni Wien": "#ec6a61",
+ "WU Wien": "#bad150",
+ "BOKU": "#9d9d9c",
+ "mdw": "#80cee6",
+ "Angewandte": "#c11624",
+ "Akademie": "#5c7300",
+ "Vetmeduni Wien": "#40acdd",
+ "CEU": "#181715"
 };
 
 // WWTF-Programmfelder (heuristische ÖFOS-Zuordnung, siehe scripts/wwtf_enrich.py)
@@ -1740,28 +1811,28 @@ const UNI_COLORS = {
 // einheitlichen Farben" -- alle Programme in WWTF Blau, Unterscheidung
 // nur ueber das Label.
 const WWTF_PROG = {
-  LS:  { label: "Life Sciences", color: "#008FD4",
+  LS:  { label: "Life Sciences", color: "#008fd3",
          desc: "Biologie, Grundlagen- & klinische Medizin, Biotechnologie, Veterinärmedizin" },
-  ICT: { label: "Information & Communication Technology", color: "#008FD4",
+  ICT: { label: "Information & Communication Technology", color: "#008fd3",
          desc: "Informatik, Elektrotechnik, KI, Maschinelles Lernen" },
-  CS:  { label: "Cognitive Sciences", color: "#008FD4",
+  CS:  { label: "Cognitive Sciences", color: "#008fd3",
          desc: "Psychologie, Neurowissenschaften, Kognition" },
-  ESR: { label: "Environmental Systems Research", color: "#008FD4",
+  ESR: { label: "Environmental Systems Research", color: "#008fd3",
          desc: "Umweltsysteme, Ökologie, Wasser, Agrar- & Waldforschung" },
-  DH:  { label: "Digital Humanism", color: "#008FD4",
+  DH:  { label: "Digital Humanism", color: "#008fd3",
          desc: "Digitalisierung & Gesellschaft, Mensch-Maschine-Interaktion, KI-Ethik" },
-  MA:  { label: "Mathematik und …", color: "#008FD4",
+  MA:  { label: "Mathematik und …", color: "#008fd3",
          desc: "Mathematik in Verbindung mit Anwendungsfeldern" },
 };
 
 // ÖFOS Bereiche (1-stellig)
 const OFOS_BEREICH = {
-  1: { label: "Naturwissenschaften",   color: "#008FD4" },
-  2: { label: "Technische Wiss.",      color: "#005B94" },
-  3: { label: "Medizin & Gesundheit",  color: "#C23640" },
-  4: { label: "Agrar & Veterinärmed.", color: "#6B8F2E" },
-  5: { label: "Sozialwissenschaften",  color: "#5A7F99" },
-  6: { label: "Geisteswissenschaften", color: "#9D9D9C" },
+  1: { label: "Naturwissenschaften",   color: "#008fd3" },
+  2: { label: "Technische Wiss.",      color: "#005b94" },
+  3: { label: "Medizin & Gesundheit",  color: "#ec6a61" },
+  4: { label: "Agrar & Veterinärmed.", color: "#bad150" },
+  5: { label: "Sozialwissenschaften",  color: "#40acdd" },
+  6: { label: "Geisteswissenschaften", color: "#9d9d9c" },
 };
 
 const DATA = [
@@ -48601,8 +48672,8 @@ const ABDECKUNG = {
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 // Zwölf unterscheidbare Farben: bei zehn Jahresreihen dürfen sich keine
 // zwei Jahre dieselbe Farbe teilen.
-const YEAR_COLORS = ["#008FD4", "#005B94", "#C23640", "#6B8F2E", "#5A7F99", "#9D9D9C",
-                     "#7FB8E0", "#9C2E33", "#4A9CC7", "#A5D948", "#3A3A38", "#00456E"];
+const YEAR_COLORS = ["#008fd3", "#005b94", "#ec6a61", "#bad150", "#9d9d9c", "#40acdd",
+                     "#80cee6", "#c11624", "#5c7300", "#181715", "#4c4c4b", "#bfe2f2"];
 let SELECTED_YEARS = new Set(YEARS);
 let VIEW = DATA.slice();
 
@@ -48621,6 +48692,13 @@ function yearLabel() {
 
 // Chart.js-Instanzen müssen vor dem Neuzeichnen zerstört werden
 const CHARTS = {};
+// Chart.js auf das Design System: Schrift, Textfarbe, Haarlinien
+if (window.Chart) {
+  Chart.defaults.font.family = '"Source Sans 3", "Source Sans Pro", sans-serif';
+  Chart.defaults.font.size = 13;
+  Chart.defaults.color = '#4c4c4b';
+  Chart.defaults.borderColor = '#e4e4e3';
+}
 function mountChart(key, canvasId, config) {
   if (CHARTS[key]) CHARTS[key].destroy();
   CHARTS[key] = new Chart(document.getElementById(canvasId), config);
@@ -48632,7 +48710,7 @@ function inferBereich(d) {
 }
 
 function bereichColor(code) {
-  return (OFOS_BEREICH[code] || {}).color || "#9D9D9C";
+  return (OFOS_BEREICH[code] || {}).color || "#9d9d9c";
 }
 
 function bereichLabel(code) {
@@ -48640,7 +48718,7 @@ function bereichLabel(code) {
 }
 
 function uniColor(uni) {
-  return UNI_COLORS[uni] || "#6E6E6D";
+  return UNI_COLORS[uni] || "#4c4c4b";
 }
 
 // Strukturierte Metriken (aus wwtf_enrich.py), Fallback: bio_text-Regex
@@ -48710,8 +48788,8 @@ function initGenderChart(rows) {
     data: {
       labels: unis,
       datasets: [
-        { label: "Frauen", data: frauen, backgroundColor: "#C23640", borderRadius: 4 },
-        { label: "Männer", data: maenner, backgroundColor: "#005B94", borderRadius: 4 }
+        { label: "Frauen", data: frauen, backgroundColor: "#ec6a61", borderRadius: 3 },
+        { label: "Männer", data: maenner, backgroundColor: "#005b94", borderRadius: 3 }
       ]
     },
     options: {
@@ -48739,7 +48817,7 @@ function initTimelineChart(rows) {
   const datasets = ys.map(y => ({
     label: String(y),
     data: MONATEN.map(m => belegt.filter(d => d.year === y && d.monat === m).length),
-    backgroundColor: ys.length === 1 ? "#008FD4" : yearColor(y),
+    backgroundColor: ys.length === 1 ? "#008fd3" : yearColor(y),
     borderRadius: 4
   }));
   // Bis drei Jahre nebeneinander lesbar, darüber werden die Balken zu dünn:
@@ -48879,12 +48957,12 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
 
   // Color scale
   const colorScale = (v) => {
-    if (v === 0) return "#F3F4F6";
+    if (v === 0) return "#f2f2f1";
     const t = v / Math.max(1, max);
-    // Light blue to deep blue
-    const r = Math.round(229 - t * 200);
-    const g = Math.round(231 - t * 200);
-    const b = Math.round(235 - t * 150);
+    // Abstufung von WWTF Blau: blau-10 (230,244,251) bis Dunkelblau (0,91,148)
+    const r = Math.round(230 - t * 230);
+    const g = Math.round(244 - t * 153);
+    const b = Math.round(251 - t * 103);
     return `rgb(${r}, ${g}, ${b})`;
   };
 
@@ -48942,7 +49020,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("y", -12)
       .attr("text-anchor", "middle")
       .attr("font-size", "10px")
-      .attr("fill", "#6E6E6D")
+      .attr("fill", "#4c4c4b")
       .text(bereichLabel(b));
   });
 
@@ -49019,8 +49097,8 @@ function initSankey(rows) {
 
   // Origin colors
   const originColors = {
-    "Intern (Wien)": "#6E6E6D",
-    "Herkunft unbekannt": "#9D9D9C",
+    "Intern (Wien)": "#4c4c4b",
+    "Herkunft unbekannt": "#cfcfce",
   };
 
   // Links
@@ -49029,7 +49107,7 @@ function initSankey(rows) {
     .join("path")
     .attr("d", d3.sankeyLinkHorizontal())
     .attr("fill", "none")
-    .attr("stroke", d => originColors[d.source.name] || "#6E6E6D")
+    .attr("stroke", d => originColors[d.source.name] || "#4c4c4b")
     .attr("stroke-width", d => Math.max(1, d.width))
     .attr("opacity", 0.35)
     .on("mouseover", (event, d) => {
@@ -49459,7 +49537,7 @@ function initWWTF(rows) {
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
       </div>`;
     }).join('');
-    return `<div class="prog-card" style="border-top-color:${WWTF_PROG[p].color}">
+    return `<div class="prog-card">
       <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
       <div class="prog-desc">${WWTF_PROG[p].desc}</div>
       ${chips}
@@ -49528,7 +49606,7 @@ function renderFoerderung(rows) {
     type: 'bar',
     data: {
       labels: progs.map(p => p[0]),
-      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#005B94', borderRadius: 4 }]
+      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#008fd3', borderRadius: 3 }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
@@ -49554,7 +49632,7 @@ function renderFoerderung(rows) {
       labels: labels.map(x => (x === lo && lo === -15 ? '≤' : '') + (x > 0 ? '+' : '') + x),
       datasets: [{
         data: labels.map(x => diffs[x] || 0),
-        backgroundColor: labels.map(x => x < 0 ? '#008FD4' : x === 0 ? '#9D9D9C' : '#005B94'),
+        backgroundColor: labels.map(x => x < 0 ? '#008fd3' : x === 0 ? '#9d9d9c' : '#005b94'),
         borderRadius: 3
       }]
     },
@@ -49771,8 +49849,8 @@ const FP = {
   modus: 'stichwort', query: '', subfeld: null, timer: null, letzte: [],
 };
 const FP_DOMAIN_COLOR = {
-  'Physical Sciences': '#005B94', 'Life Sciences': '#008FD4',
-  'Health Sciences': '#C23640', 'Social Sciences': '#6B8F2E',
+  'Physical Sciences': '#005b94', 'Life Sciences': '#008fd3',
+  'Health Sciences': '#ec6a61', 'Social Sciences': '#bad150',
 };
 // Englisch, weil die Begriffsprofile aus englischen Publikationen stammen;
 // deutsche Anfragen versteht nur der semantische Modus.
@@ -49920,7 +49998,7 @@ function fpSubfeldListe(personen) {
     .map(([dom, liste]) => `<div class="fp-domain">${dom}</div>` + liste.map(([name, c]) => `
       <button class="fp-sub-row ${FP.subfeld === name ? 'active' : ''}" onclick="fpSubfeld(${JSON.stringify(name).replace(/"/g, '&quot;')})" title="${c} Personen mit Schwerpunkt ${name}">
         <div><div class="fp-sub-name">${name}</div>
-          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9D9D9C'}"></span></div></div>
+          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9d9d9c'}"></span></div></div>
         <div class="fp-sub-n">${c}</div>
       </button>`).join('')).join('')
     || '<div class="fp-leer">Keine Profile im gewählten Zeitraum.</div>';

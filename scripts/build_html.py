@@ -39,12 +39,15 @@ with DATA_PATH.open() as f:
 # stillschweigend falsche Zahlen/Charts produzieren wuerde.
 UNI_ORDER_BASIS = ["TU Wien", "Uni Wien", "MedUni Wien", "WU Wien",
                    "BOKU", "mdw", "Angewandte", "Akademie", "Vetmeduni Wien"]
+# Diagrammfarben aus dem WWTF Design System: Blau, Dunkelblau, Koralle,
+# Gelbgruen, Grau und die Abstufungen von Blau; fuer zehn Reihen dazu die
+# abgedunkelten Text-Ableitungen von Koralle und Gelbgruen.
 UNI_COLORS_BASIS = {
-    "TU Wien": "#005B94", "Uni Wien": "#008FD4", "MedUni Wien": "#C23640",
-    "WU Wien": "#A5D948", "BOKU": "#9D9D9C", "mdw": "#7FB8E0",
-    "Angewandte": "#9C2E33", "Akademie": "#6B8F2E", "Vetmeduni Wien": "#5A7F99",
+    "TU Wien": "#005b94", "Uni Wien": "#008fd3", "MedUni Wien": "#ec6a61",
+    "WU Wien": "#bad150", "BOKU": "#9d9d9c", "mdw": "#80cee6",
+    "Angewandte": "#c11624", "Akademie": "#5c7300", "Vetmeduni Wien": "#40acdd",
 }
-FALLBACK_UNI_COLORS = ["#3A3A38", "#4A9CC7", "#B23A3F", "#5C7A26", "#00456E"]
+FALLBACK_UNI_COLORS = ["#181715", "#4c4c4b", "#bfe2f2", "#cfcfce"]
 
 _unis_in_data = sorted({d["universitat"] for d in DATA if d.get("universitat")})
 _neue_unis = [u for u in _unis_in_data if u not in UNI_ORDER_BASIS]
@@ -130,28 +133,28 @@ const UNI_COLORS = __UNI_COLORS__;
 // einheitlichen Farben" -- alle Programme in WWTF Blau, Unterscheidung
 // nur ueber das Label.
 const WWTF_PROG = {
-  LS:  { label: "Life Sciences", color: "#008FD4",
+  LS:  { label: "Life Sciences", color: "#008fd3",
          desc: "Biologie, Grundlagen- & klinische Medizin, Biotechnologie, Veterinärmedizin" },
-  ICT: { label: "Information & Communication Technology", color: "#008FD4",
+  ICT: { label: "Information & Communication Technology", color: "#008fd3",
          desc: "Informatik, Elektrotechnik, KI, Maschinelles Lernen" },
-  CS:  { label: "Cognitive Sciences", color: "#008FD4",
+  CS:  { label: "Cognitive Sciences", color: "#008fd3",
          desc: "Psychologie, Neurowissenschaften, Kognition" },
-  ESR: { label: "Environmental Systems Research", color: "#008FD4",
+  ESR: { label: "Environmental Systems Research", color: "#008fd3",
          desc: "Umweltsysteme, Ökologie, Wasser, Agrar- & Waldforschung" },
-  DH:  { label: "Digital Humanism", color: "#008FD4",
+  DH:  { label: "Digital Humanism", color: "#008fd3",
          desc: "Digitalisierung & Gesellschaft, Mensch-Maschine-Interaktion, KI-Ethik" },
-  MA:  { label: "Mathematik und …", color: "#008FD4",
+  MA:  { label: "Mathematik und …", color: "#008fd3",
          desc: "Mathematik in Verbindung mit Anwendungsfeldern" },
 };
 
 // ÖFOS Bereiche (1-stellig)
 const OFOS_BEREICH = {
-  1: { label: "Naturwissenschaften",   color: "#008FD4" },
-  2: { label: "Technische Wiss.",      color: "#005B94" },
-  3: { label: "Medizin & Gesundheit",  color: "#C23640" },
-  4: { label: "Agrar & Veterinärmed.", color: "#6B8F2E" },
-  5: { label: "Sozialwissenschaften",  color: "#5A7F99" },
-  6: { label: "Geisteswissenschaften", color: "#9D9D9C" },
+  1: { label: "Naturwissenschaften",   color: "#008fd3" },
+  2: { label: "Technische Wiss.",      color: "#005b94" },
+  3: { label: "Medizin & Gesundheit",  color: "#ec6a61" },
+  4: { label: "Agrar & Veterinärmed.", color: "#bad150" },
+  5: { label: "Sozialwissenschaften",  color: "#40acdd" },
+  6: { label: "Geisteswissenschaften", color: "#9d9d9c" },
 };
 
 const DATA = [
@@ -175,8 +178,8 @@ const ABDECKUNG = __ABDECKUNG__;
 const YEARS = [...new Set(DATA.map(d => d.year))].sort((a, b) => a - b);
 // Zwölf unterscheidbare Farben: bei zehn Jahresreihen dürfen sich keine
 // zwei Jahre dieselbe Farbe teilen.
-const YEAR_COLORS = ["#008FD4", "#005B94", "#C23640", "#6B8F2E", "#5A7F99", "#9D9D9C",
-                     "#7FB8E0", "#9C2E33", "#4A9CC7", "#A5D948", "#3A3A38", "#00456E"];
+const YEAR_COLORS = ["#008fd3", "#005b94", "#ec6a61", "#bad150", "#9d9d9c", "#40acdd",
+                     "#80cee6", "#c11624", "#5c7300", "#181715", "#4c4c4b", "#bfe2f2"];
 let SELECTED_YEARS = new Set(YEARS);
 let VIEW = DATA.slice();
 
@@ -195,6 +198,13 @@ function yearLabel() {
 
 // Chart.js-Instanzen müssen vor dem Neuzeichnen zerstört werden
 const CHARTS = {};
+// Chart.js auf das Design System: Schrift, Textfarbe, Haarlinien
+if (window.Chart) {
+  Chart.defaults.font.family = '"Source Sans 3", "Source Sans Pro", sans-serif';
+  Chart.defaults.font.size = 13;
+  Chart.defaults.color = '#4c4c4b';
+  Chart.defaults.borderColor = '#e4e4e3';
+}
 function mountChart(key, canvasId, config) {
   if (CHARTS[key]) CHARTS[key].destroy();
   CHARTS[key] = new Chart(document.getElementById(canvasId), config);
@@ -206,7 +216,7 @@ function inferBereich(d) {
 }
 
 function bereichColor(code) {
-  return (OFOS_BEREICH[code] || {}).color || "#9D9D9C";
+  return (OFOS_BEREICH[code] || {}).color || "#9d9d9c";
 }
 
 function bereichLabel(code) {
@@ -214,7 +224,7 @@ function bereichLabel(code) {
 }
 
 function uniColor(uni) {
-  return UNI_COLORS[uni] || "#6E6E6D";
+  return UNI_COLORS[uni] || "#4c4c4b";
 }
 
 // Strukturierte Metriken (aus wwtf_enrich.py), Fallback: bio_text-Regex
@@ -284,8 +294,8 @@ function initGenderChart(rows) {
     data: {
       labels: unis,
       datasets: [
-        { label: "Frauen", data: frauen, backgroundColor: "#C23640", borderRadius: 4 },
-        { label: "Männer", data: maenner, backgroundColor: "#005B94", borderRadius: 4 }
+        { label: "Frauen", data: frauen, backgroundColor: "#ec6a61", borderRadius: 3 },
+        { label: "Männer", data: maenner, backgroundColor: "#005b94", borderRadius: 3 }
       ]
     },
     options: {
@@ -313,7 +323,7 @@ function initTimelineChart(rows) {
   const datasets = ys.map(y => ({
     label: String(y),
     data: MONATEN.map(m => belegt.filter(d => d.year === y && d.monat === m).length),
-    backgroundColor: ys.length === 1 ? "#008FD4" : yearColor(y),
+    backgroundColor: ys.length === 1 ? "#008fd3" : yearColor(y),
     borderRadius: 4
   }));
   // Bis drei Jahre nebeneinander lesbar, darüber werden die Balken zu dünn:
@@ -453,12 +463,12 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
 
   // Color scale
   const colorScale = (v) => {
-    if (v === 0) return "#F3F4F6";
+    if (v === 0) return "#f2f2f1";
     const t = v / Math.max(1, max);
-    // Light blue to deep blue
-    const r = Math.round(229 - t * 200);
-    const g = Math.round(231 - t * 200);
-    const b = Math.round(235 - t * 150);
+    // Abstufung von WWTF Blau: blau-10 (230,244,251) bis Dunkelblau (0,91,148)
+    const r = Math.round(230 - t * 230);
+    const g = Math.round(244 - t * 153);
+    const b = Math.round(251 - t * 103);
     return `rgb(${r}, ${g}, ${b})`;
   };
 
@@ -516,7 +526,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("y", -12)
       .attr("text-anchor", "middle")
       .attr("font-size", "10px")
-      .attr("fill", "#6E6E6D")
+      .attr("fill", "#4c4c4b")
       .text(bereichLabel(b));
   });
 
@@ -593,8 +603,8 @@ function initSankey(rows) {
 
   // Origin colors
   const originColors = {
-    "Intern (Wien)": "#6E6E6D",
-    "Herkunft unbekannt": "#9D9D9C",
+    "Intern (Wien)": "#4c4c4b",
+    "Herkunft unbekannt": "#cfcfce",
   };
 
   // Links
@@ -603,7 +613,7 @@ function initSankey(rows) {
     .join("path")
     .attr("d", d3.sankeyLinkHorizontal())
     .attr("fill", "none")
-    .attr("stroke", d => originColors[d.source.name] || "#6E6E6D")
+    .attr("stroke", d => originColors[d.source.name] || "#4c4c4b")
     .attr("stroke-width", d => Math.max(1, d.width))
     .attr("opacity", 0.35)
     .on("mouseover", (event, d) => {
@@ -1033,7 +1043,7 @@ function initWWTF(rows) {
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
       </div>`;
     }).join('');
-    return `<div class="prog-card" style="border-top-color:${WWTF_PROG[p].color}">
+    return `<div class="prog-card">
       <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
       <div class="prog-desc">${WWTF_PROG[p].desc}</div>
       ${chips}
@@ -1102,7 +1112,7 @@ function renderFoerderung(rows) {
     type: 'bar',
     data: {
       labels: progs.map(p => p[0]),
-      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#005B94', borderRadius: 4 }]
+      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#008fd3', borderRadius: 3 }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
@@ -1128,7 +1138,7 @@ function renderFoerderung(rows) {
       labels: labels.map(x => (x === lo && lo === -15 ? '≤' : '') + (x > 0 ? '+' : '') + x),
       datasets: [{
         data: labels.map(x => diffs[x] || 0),
-        backgroundColor: labels.map(x => x < 0 ? '#008FD4' : x === 0 ? '#9D9D9C' : '#005B94'),
+        backgroundColor: labels.map(x => x < 0 ? '#008fd3' : x === 0 ? '#9d9d9c' : '#005b94'),
         borderRadius: 3
       }]
     },
@@ -1345,8 +1355,8 @@ const FP = {
   modus: 'stichwort', query: '', subfeld: null, timer: null, letzte: [],
 };
 const FP_DOMAIN_COLOR = {
-  'Physical Sciences': '#005B94', 'Life Sciences': '#008FD4',
-  'Health Sciences': '#C23640', 'Social Sciences': '#6B8F2E',
+  'Physical Sciences': '#005b94', 'Life Sciences': '#008fd3',
+  'Health Sciences': '#ec6a61', 'Social Sciences': '#bad150',
 };
 // Englisch, weil die Begriffsprofile aus englischen Publikationen stammen;
 // deutsche Anfragen versteht nur der semantische Modus.
@@ -1494,7 +1504,7 @@ function fpSubfeldListe(personen) {
     .map(([dom, liste]) => `<div class="fp-domain">${dom}</div>` + liste.map(([name, c]) => `
       <button class="fp-sub-row ${FP.subfeld === name ? 'active' : ''}" onclick="fpSubfeld(${JSON.stringify(name).replace(/"/g, '&quot;')})" title="${c} Personen mit Schwerpunkt ${name}">
         <div><div class="fp-sub-name">${name}</div>
-          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9D9D9C'}"></span></div></div>
+          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9d9d9c'}"></span></div></div>
         <div class="fp-sub-n">${c}</div>
       </button>`).join('')).join('')
     || '<div class="fp-leer">Keine Profile im gewählten Zeitraum.</div>';
