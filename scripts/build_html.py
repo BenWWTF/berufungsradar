@@ -1043,11 +1043,13 @@ function initWWTF(rows) {
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
       </div>`;
     }).join('');
-    return `<div class="prog-card">
-      <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
-      <div class="prog-desc">${WWTF_PROG[p].desc}</div>
-      ${chips}
-    </div>`;
+    return `<details class="prog-card">
+      <summary>
+        <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
+        <div class="prog-desc">${WWTF_PROG[p].desc}</div>
+      </summary>
+      <div class="prog-people">${chips}</div>
+    </details>`;
   }).join('');
 
   renderVRG();

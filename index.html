@@ -967,6 +967,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
         gap: 18px;
+        align-items: start;
         margin-top: 20px;
       }
       .prog-card {
@@ -992,7 +993,38 @@
       .prog-card .prog-desc {
         font-size: 0.75rem;
         color: var(--muted);
-        margin: 4px 0 12px;
+        margin: 4px 0 0;
+      }
+      .prog-card summary {
+        list-style: none;
+        cursor: pointer;
+        position: relative;
+        padding-right: 22px;
+      }
+      .prog-card summary::-webkit-details-marker {
+        display: none;
+      }
+      .prog-card summary::after {
+        content: "";
+        position: absolute;
+        right: 4px;
+        top: 8px;
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid var(--muted);
+        border-bottom: 2px solid var(--muted);
+        transform: rotate(45deg);
+        transition: transform var(--duration-fast) var(--ease-standard);
+      }
+      .prog-card[open] summary::after {
+        transform: rotate(-135deg);
+        top: 12px;
+      }
+      .prog-card summary:hover h4 {
+        color: var(--primary);
+      }
+      .prog-card .prog-people {
+        margin-top: 12px;
       }
       .person-chip {
         display: flex;
@@ -49537,11 +49569,13 @@ function initWWTF(rows) {
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
       </div>`;
     }).join('');
-    return `<div class="prog-card">
-      <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
-      <div class="prog-desc">${WWTF_PROG[p].desc}</div>
-      ${chips}
-    </div>`;
+    return `<details class="prog-card">
+      <summary>
+        <h4>${WWTF_PROG[p].label} <span class="prog-count">${people.length}</span></h4>
+        <div class="prog-desc">${WWTF_PROG[p].desc}</div>
+      </summary>
+      <div class="prog-people">${chips}</div>
+    </details>`;
   }).join('');
 
   renderVRG();
