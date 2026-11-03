@@ -965,9 +965,8 @@
       /* ── WWTF-Perspektive ─────────────────────────────────── */
       .prog-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-        gap: 18px;
-        align-items: start;
+        grid-template-columns: 1fr;
+        gap: 12px;
         margin-top: 20px;
       }
       .prog-card {
@@ -1024,6 +1023,9 @@
         color: var(--primary);
       }
       .prog-card .prog-people {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 6px;
         margin-top: 12px;
       }
       .person-chip {
@@ -1034,7 +1036,6 @@
         padding: 7px 10px;
         border-radius: var(--radius-sm);
         border: 1px solid var(--border);
-        margin-bottom: 6px;
         font-size: 0.8rem;
         cursor: pointer;
         transition: background var(--duration-fast) var(--ease-standard);
@@ -1402,6 +1403,14 @@
           class="tab-btn"
           role="tab"
           aria-selected="false"
+          onclick="switchTab('fachprofile')"
+        >
+          Forschungsthemen
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
           onclick="switchTab('wwtf')"
         >
           WWTF-Perspektive
@@ -1413,14 +1422,6 @@
           onclick="switchTab('mobilitaet')"
         >
           Mobilität
-        </button>
-        <button
-          class="tab-btn"
-          role="tab"
-          aria-selected="false"
-          onclick="switchTab('fachprofile')"
-        >
-          Forschungsthemen
         </button>
         <button
           class="tab-btn"
