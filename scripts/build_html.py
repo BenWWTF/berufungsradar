@@ -211,6 +211,20 @@ function mountChart(key, canvasId, config) {
 }
 
 // ─── HELPERS ─────────────────────────────────────────────
+// Lange Achsenbeschriftung für schmale Diagramme auf mehrere Zeilen umbrechen
+// (Chart.js zeichnet ein Array als mehrzeiliges Label, statt es abzuschneiden)
+function wrapLabel(text, canvasId, max = 16) {
+  const w = document.getElementById(canvasId).parentElement.clientWidth;
+  if (w >= 560 || text.length <= max) return text;
+  const lines = [];
+  text.split(' ').forEach(word => {
+    const last = lines[lines.length - 1];
+    if (last && (last + ' ' + word).length <= max) lines[lines.length - 1] = last + ' ' + word;
+    else lines.push(word);
+  });
+  return lines;
+}
+
 function inferBereich(d) {
   return d.ofos_bereich_code || String(Math.floor(parseInt(d.ofos_code || 999) / 100));
 }
@@ -437,7 +451,11 @@ const container = document.getElementById("heatmap-container");
 container.innerHTML = "";
 const W = container.clientWidth || 700;
 const H = 380;
-const margin = { top: 50, right: 30, bottom: 30, left: 130 };
+// Schmal (Handy): Spaltenköpfe nur als Nummer, Namen in einer Legende darunter
+const narrow = W < 560;
+const margin = narrow
+  ? { top: 30, right: 4, bottom: 10, left: 92 }
+  : { top: 50, right: 30, bottom: 30, left: 130 };
   const innerW = W - margin.left - margin.right;
   const innerH = H - margin.top - margin.bottom;
 
@@ -520,6 +538,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("font-weight", "700")
       .attr("fill", bereichColor(b))
       .text(b);
+    if (narrow) return;
     g.append("text")
       .attr("class", "heatmap-label")
       .attr("x", j * cellW + (cellW - 2) / 2)
@@ -539,6 +558,15 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("text-anchor", "end")
       .text(u.length > 18 ? u.replace("Universität Wien", "Uni Wien").replace("Medizinische Universität Wien", "MedUni") : u);
   });
+
+  if (narrow) {
+    const legende = document.createElement("p");
+    legende.className = "heatmap-legende";
+    legende.innerHTML = bereichKeys
+      .map(b => `<span><strong style="color:${bereichColor(b)}">${b}</strong> ${bereichLabel(b)}</span>`)
+      .join("");
+    container.appendChild(legende);
+  }
 }
 
 
@@ -548,6 +576,11 @@ function initSankey(rows) {
   container.innerHTML = "";
   const W = container.clientWidth || 1000;
   const H = Math.max(600, W * 0.6);
+  // Schmal (Handy): nur die größten Herkunftsknoten einzeln, der Rest als
+  // "Weitere Länder", sonst überlagern sich rund 50 Beschriftungen
+  const narrow = W < 560;
+  const MAX_ORIGINS = narrow ? 10 : Infinity;
+  const WEITERE = "Weitere Länder";
 
   // Group origins
   // left = Herkunft (Land, oder "Intern"), right = Universität
@@ -559,15 +592,18 @@ function initSankey(rows) {
   // pro Kombination ein eigener Knoten statt eines Flusses ins richtige Land.
   const juengsteHerkunft = land => land.split("/").map(s => s.trim()).filter(Boolean).pop();
 
+  const originOf = d => d.herkunft === "intern" ? "Intern (Wien)"
+    : d.herkunft_land ? juengsteHerkunft(d.herkunft_land)
+    : "Herkunft unbekannt";
+  const originCount = {};
+  rows.forEach(d => { const o = originOf(d); originCount[o] = (originCount[o] || 0) + 1; });
+  const ranked = Object.keys(originCount).sort((a, b) => originCount[b] - originCount[a]);
+  const einzeln = new Set(ranked.length > MAX_ORIGINS ? ranked.slice(0, MAX_ORIGINS - 1) : ranked);
+  const weitere = ranked.filter(o => !einzeln.has(o));
+
   rows.forEach(d => {
-    let origin;
-    if (d.herkunft === "intern") {
-      origin = "Intern (Wien)";
-    } else if (d.herkunft_land) {
-      origin = juengsteHerkunft(d.herkunft_land);
-    } else {
-      origin = "Herkunft unbekannt";
-    }
+    const raw = originOf(d);
+    const origin = einzeln.has(raw) ? raw : WEITERE;
     const dest = d.universitat;
     const key = `${origin}→${dest}`;
     flows[key] = flows[key] || { origin, dest, count: 0 };
@@ -592,8 +628,8 @@ function initSankey(rows) {
     .attr("viewBox", `0 0 ${W} ${H}`);
 
   const sankey = d3.sankey()
-    .nodeWidth(24)
-    .nodePadding(12)
+    .nodeWidth(narrow ? 14 : 24)
+    .nodePadding(narrow ? 10 : 12)
     .extent([[10, 10], [W - 10, H - 20]]);
 
   const graph = sankey({
@@ -636,7 +672,8 @@ function initSankey(rows) {
     .attr("rx", 3)
     .attr("fill", d => originColors[d.name] || uniColor(d.name))
     .on("mouseover", (event, d) => showTooltip(
-      `<strong>${d.name}</strong><br>${d.value} Berufung${d.value > 1 ? "en" : ""}`,
+      `<strong>${d.name}</strong><br>${d.value} Berufung${d.value > 1 ? "en" : ""}` +
+      (d.name === WEITERE ? `<br>${weitere.map(o => `${o} (${originCount[o]})`).join(", ")}` : ""),
       event
     ))
     .on("mousemove", moveTooltip)
@@ -651,7 +688,7 @@ function initSankey(rows) {
     .attr("dy", "0.35em")
     .attr("text-anchor", d => d.x0 < W / 2 ? "start" : "end")
     .attr("fill", "#181715")
-    .attr("font-size", "13px")
+    .attr("font-size", narrow ? "11px" : "13px")
     .attr("font-weight", "500")
     .text(d => `${d.name} (${d.value})`);
 }
@@ -689,12 +726,44 @@ function renderCards(data) {
   document.getElementById("filter-count").textContent =
     `${data.length} von ${VIEW.length} Einträgen`;
 
+  CARDS.data = data;
+  CARDS.shown = 0;
+  if (CARDS.observer) CARDS.observer.disconnect();
   if (data.length === 0) {
     grid.innerHTML = '<div style="padding:40px; text-align:center; color:var(--muted); grid-column:1/-1">Keine Einträge gefunden.</div>';
     return;
   }
+  grid.innerHTML = '';
+  renderMoreCards();
+}
 
-  grid.innerHTML = data.map((d, i) => {
+// Alle Karten auf einmal sind über 1000 Knoten-Bäume und auf dem Handy
+// eine 400.000 px lange Seite. Deshalb in Paketen, nachgeladen kurz bevor
+// das Ende der Liste in Sicht kommt.
+const CARDS = { data: [], shown: 0, step: 60, observer: null };
+
+function renderMoreCards(all) {
+  const grid = document.getElementById("cards-grid");
+  const sentinel = document.getElementById("cards-more");
+  if (sentinel) sentinel.remove();
+  const end = all ? CARDS.data.length : Math.min(CARDS.data.length, CARDS.shown + CARDS.step);
+  grid.insertAdjacentHTML('beforeend',
+    CARDS.data.slice(CARDS.shown, end).map((d, k) => cardHtml(d, CARDS.shown + k)).join(''));
+  CARDS.shown = end;
+  if (CARDS.shown >= CARDS.data.length) return;
+  grid.insertAdjacentHTML('beforeend',
+    `<button id="cards-more" class="cards-more" onclick="renderMoreCards()">Weitere anzeigen (${CARDS.data.length - CARDS.shown} verbleibend)</button>`);
+  if ('IntersectionObserver' in window) {
+    if (CARDS.observer) CARDS.observer.disconnect();
+    CARDS.observer = new IntersectionObserver(e => {
+      if (e[0].isIntersecting) renderMoreCards();
+    }, { rootMargin: '800px 0px' });
+    CARDS.observer.observe(document.getElementById("cards-more"));
+  }
+}
+window.addEventListener('beforeprint', () => renderMoreCards(true));
+
+function cardHtml(d, i) {
     const metrics = metricsOf(d);
     const bioPreview = d.bio_text
       ? d.bio_text.replace(/h-Index:[^|]+\|[^|]+\|[^|]+/i, '').trim().substring(0, 200)
@@ -776,7 +845,6 @@ function renderCards(data) {
         ${d.werdegang ? `<div class="card-werdegang" id="wg-${i}">${d.werdegang}</div>` : ''}
       </div>
     </div>`;
-  }).join('');
 }
 
 function toggleWerdegang(btn, i) {
@@ -839,6 +907,20 @@ function currentFilteredData() {
 function applyFilters() {
   renderCards(currentFilteredData());
   writeStateToHash();
+  syncFilterToggle();
+}
+
+// Handy: Filter-Knopf zeigt die Zahl aktiver Filter (Suche und Sortierung zählen nicht)
+function syncFilterToggle() {
+  const n = FILTER_IDS.filter(id => id !== 'search-input' && id !== 'sort-select'
+    && document.getElementById(id).value).length;
+  document.getElementById('filter-toggle').textContent = n ? `Filter (${n})` : 'Filter';
+}
+
+function toggleFilterPanel() {
+  const bar = document.getElementById('filter-bar');
+  const open = bar.classList.toggle('open');
+  document.getElementById('filter-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
 function resetFilters() {
@@ -1012,7 +1094,7 @@ function initWWTF(rows) {
   mountChart("wwtfProg", "chart-wwtf-prog", {
     type: 'bar',
     data: {
-      labels: progKeys.map(p => WWTF_PROG[p].label),
+      labels: progKeys.map(p => wrapLabel(WWTF_PROG[p].label, 'chart-wwtf-prog')),
       datasets: [{
         data: counts,
         backgroundColor: progKeys.map(p => WWTF_PROG[p].color),
@@ -1022,7 +1104,7 @@ function initWWTF(rows) {
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false } },
-      scales: { x: { ticks: { stepSize: 2 } } }
+      scales: { x: { ticks: { stepSize: 2 } }, y: { ticks: { autoSkip: false } } }
     }
   });
 
@@ -1041,6 +1123,7 @@ function initWWTF(rows) {
       return `<div class="person-chip" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')" title="${d.forschungsbereich || ''}">
         <span class="chip-name">${d.name}</span>
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
+        ${d.forschungsbereich ? `<span class="touch-only chip-sub">${d.forschungsbereich}</span>` : ''}
       </div>`;
     }).join('');
     return `<details class="prog-card">
@@ -1113,13 +1196,13 @@ function renderFoerderung(rows) {
   mountChart('wwtfFoerd', 'chart-wwtf-foerderung', {
     type: 'bar',
     data: {
-      labels: progs.map(p => p[0]),
+      labels: progs.map(p => wrapLabel(p[0], 'chart-wwtf-foerderung')),
       datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#008fd3', borderRadius: 3 }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${plural(c.raw, 'Person', 'Personen')}` } } },
-      scales: { x: { ticks: { precision: 0 } } }
+      scales: { x: { ticks: { precision: 0 } }, y: { ticks: { autoSkip: false } } }
     }
   });
 
@@ -1168,7 +1251,8 @@ function renderFoerderung(rows) {
           <td>${d.universitat} ${d.year}</td>
           <td>${d.wwtf_foerderung.map(f =>
             `<a href="${f.url}" target="_blank" rel="noopener" title="${(f.titel || '').replace(/"/g, '&quot;')}">${f.id}</a> <span class="vrg-feld">${f.rolle}${
-              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>`).join('<br>')}</td>
+              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>${
+              f.titel ? `<span class="touch-only proj-titel">${f.titel}</span>` : ''}`).join('<br>')}</td>
         </tr>`).join('')}
       </tbody>
     </table>`;
@@ -1585,7 +1669,7 @@ async function fpRender() {
   if (!roh && !FP.subfeld) {
     box.innerHTML = `<div class="fp-leer">${plural(personen.length, 'Publikationsprofil', 'Publikationsprofile')} im gewählten Zeitraum` +
       (ohne ? `, ${ohne} Personen ohne OpenAlex-Profil` : '') +
-      `.<br>Suchbegriff eingeben oder rechts ein Subfeld wählen.</div>`;
+      `.<br>Suchbegriff eingeben oder ein Subfeld aus der Liste wählen.</div>`;
     FP.letzte = [];
     return;
   }
@@ -1693,6 +1777,22 @@ function activateTabPanel(name) {
     btn.classList.toggle('active', on);
     btn.setAttribute('aria-selected', on ? 'true' : 'false');
   });
+  // aktiven Tab in den sichtbaren Teil der Leiste holen, ohne die Seite zu bewegen
+  const nav = document.getElementById('tab-nav');
+  const btn = document.querySelector('.tab-btn.active');
+  if (nav && btn) {
+    const l = btn.offsetLeft - 24, r = btn.offsetLeft + btn.offsetWidth + 24;
+    if (l < nav.scrollLeft) nav.scrollLeft = l;
+    else if (r > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = r - nav.clientWidth;
+  }
+}
+
+// Tab-Leiste auf schmalen Bildschirmen: Randverlauf nur dort, wo noch Tabs folgen
+function syncNavFade() {
+  const nav = document.getElementById('tab-nav');
+  const rest = nav.scrollWidth - nav.clientWidth - nav.scrollLeft;
+  nav.classList.toggle('more-right', rest > 2);
+  nav.classList.toggle('more-left', nav.scrollLeft > 2);
 }
 
 // Tabwechsel legt einen History-Eintrag an, damit der Zurück-Button
@@ -1711,7 +1811,7 @@ function renderTab(name) {
   if (name === 'wwtf' && TAB_DIRTY.wwtf) { initWWTF(VIEW); TAB_DIRTY.wwtf = false; }
   if (name === 'mobilitaet' && TAB_DIRTY.mobilitaet) { initSankey(VIEW); TAB_DIRTY.mobilitaet = false; }
   if (name === 'fachprofile' && TAB_DIRTY.fachprofile) { initFachprofile(VIEW); TAB_DIRTY.fachprofile = false; }
-  if (name === 'alle') renderCards(currentFilteredData());
+  if (name === 'alle') { renderCards(currentFilteredData()); syncFilterToggle(); }
 }
 
 function activeTabName() {
@@ -1877,7 +1977,9 @@ function syncStickyOffsets() {
   const header = document.getElementById('site-header');
   const tabNav = document.getElementById('tab-nav');
   if (!header || !tabNav) return;
-  const headerH = header.getBoundingClientRect().height;
+  // Auf dem Handy scrollt die Kopfzeile mit (position: static) und zählt nicht
+  const headerH = getComputedStyle(header).position === 'sticky'
+    ? header.getBoundingClientRect().height : 0;
   const tabNavH = tabNav.getBoundingClientRect().height;
   document.documentElement.style.setProperty('--header-h', `${headerH}px`);
   document.documentElement.style.setProperty('--sticky-stack-h', `${headerH + tabNavH}px`);
@@ -1897,6 +1999,12 @@ document.addEventListener('DOMContentLoaded', () => {
   fpInit();
   syncStickyOffsets();
   window.addEventListener('resize', syncStickyOffsets);
+  syncNavFade();
+  if (window.matchMedia('(max-width: 640px)').matches) {
+    document.querySelectorAll('.table-details').forEach(el => el.removeAttribute('open'));
+  }
+  window.addEventListener('resize', syncNavFade);
+  document.getElementById('tab-nav').addEventListener('scroll', syncNavFade, { passive: true });
   if (window.ResizeObserver) {
     new ResizeObserver(syncStickyOffsets).observe(document.getElementById('site-header'));
   }

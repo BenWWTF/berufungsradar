@@ -36,12 +36,12 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- D3 v7 -->
-    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <!-- D3 (Version fixiert, damit ein neues Release die Seite nicht unbemerkt ändert) -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <!-- D3 Sankey plugin -->
     <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
-    <!-- Chart.js v4 -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <!-- Chart.js (Version fixiert) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
 
     <style>
       /* ── Reset & Base ─────────────────────────────────────── */
@@ -531,7 +531,7 @@
          getrennt durch Haarlinien, keine Farbbalken (KEINE Balken) */
       #kpi-row {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
         margin-bottom: 32px;
         background: var(--surface-subtle);
         border: 1px solid var(--border);
@@ -596,6 +596,55 @@
           flex-wrap: wrap;
         }
       }
+      /* Handy: nur die Tab-Leiste bleibt beim Scrollen stehen. Die Kopfzeile
+         scrollt weg und steht kompakt in einer Zeile (Titel links, Logo
+         rechts); der Badge wiederholt nur die Zeitraumleiste. */
+      @media (max-width: 640px) {
+        #site-header {
+          position: static;
+          padding: 0 16px;
+        }
+        #site-header .header-inner,
+        #site-header .header-right {
+          flex-wrap: nowrap;
+          align-items: flex-start;
+        }
+        #site-header h1 {
+          font-size: 1.15rem;
+        }
+        #site-header .header-badge {
+          display: none;
+        }
+        #site-header .wwtf-logo svg {
+          height: 26px;
+        }
+        #tab-nav {
+          top: 0;
+        }
+        #tab-nav .tab-inner {
+          padding: 0 8px;
+        }
+        .tab-btn {
+          padding: 12px 12px;
+          font-size: 0.9rem;
+        }
+        #main {
+          padding: 20px 16px 48px;
+        }
+      }
+      /* Ausblendung am Rand zeigt, dass die Tab-Leiste weitergeht */
+      #tab-nav.more-right {
+        -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+        mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+      }
+      #tab-nav.more-left {
+        -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 48px), transparent);
+        mask-image: linear-gradient(to left, #000 calc(100% - 48px), transparent);
+      }
+      #tab-nav.more-left.more-right {
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 48px, #000 calc(100% - 48px), transparent);
+        mask-image: linear-gradient(to right, transparent, #000 48px, #000 calc(100% - 48px), transparent);
+      }
 
       /* ── Sankey ───────────────────────────────────────────── */
       #sankey-container svg text {
@@ -628,6 +677,14 @@
         font-family: "Source Sans 3", "Source Sans Pro", sans-serif;
         font-size: 12px;
         fill: #181715;
+      }
+      .heatmap-legende {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 14px;
+        margin-top: 8px;
+        font-size: 0.78rem;
+        color: var(--muted);
       }
       .heatmap-value {
         pointer-events: none;
@@ -696,6 +753,66 @@
       #filter-bar select {
         min-width: 150px;
       }
+      /* Desktop: der Wrapper ist layoutneutral, die Felder bleiben Flex-Kinder
+         der Leiste. Handy: nur Suchfeld und Filter-Knopf, Rest klappt auf. */
+      .filter-more {
+        display: contents;
+      }
+      .filter-toggle {
+        display: none;
+      }
+      @media (max-width: 640px) {
+        #filter-bar {
+          padding: 14px;
+          gap: 10px;
+        }
+        #filter-bar input,
+        #filter-bar select {
+          font-size: 16px; /* unter 16px zoomt iOS Safari beim Fokus */
+        }
+        #filter-bar input {
+          min-width: 0;
+        }
+        .filter-toggle {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          min-height: 44px;
+          padding: 0 14px;
+          font: inherit;
+          font-weight: 600;
+          color: var(--wwtf-blau);
+          background: var(--white);
+          border: 1px solid var(--wwtf-blau);
+          border-radius: var(--radius-sm);
+          cursor: pointer;
+        }
+        .filter-toggle[aria-expanded="true"] {
+          background: var(--surface-brand-tint);
+        }
+        .filter-more {
+          display: none;
+        }
+        #filter-bar.open .filter-more {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+          width: 100%;
+        }
+        #filter-bar.open .filter-more select {
+          min-width: 0;
+          width: 100%;
+          min-height: 44px;
+        }
+        #filter-bar .btn-reset,
+        #filter-bar .btn-export {
+          min-height: 44px;
+        }
+        #filter-count {
+          margin-left: 0;
+          width: 100%;
+        }
+      }
       #filter-count {
         font-size: 0.82rem;
         color: var(--muted);
@@ -723,7 +840,7 @@
       /* ── Professor Cards ──────────────────────────────────── */
       #cards-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
         gap: 16px;
       }
       .prof-card {
@@ -875,7 +992,7 @@
       }
       .status-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
         gap: 12px;
         margin-top: 14px;
       }
@@ -1024,7 +1141,7 @@
       }
       .prog-card .prog-people {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
         gap: 6px;
         margin-top: 12px;
       }
@@ -1057,6 +1174,21 @@
         color: var(--muted);
         margin-top: 20px;
         line-height: 1.5;
+      }
+
+      .cards-more {
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin-top: 8px;
+        padding: 12px 20px;
+        min-height: 44px;
+        font: inherit;
+        font-weight: 600;
+        color: var(--primary);
+        background: var(--white);
+        border: 1px solid var(--primary);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
       }
 
       /* ── Karten-Toolbar (Sortierung + Export) ─────────────── */
@@ -1326,6 +1458,110 @@
         }
       }
 
+      /* ── Touch: Tippflächen mindestens rund 40–44px ───────────
+         Nur bei grober Zeigerbedienung, damit das Desktop-Layout bleibt. */
+      @media (pointer: coarse) {
+        .year-slider-tick::before,
+        .year-slider-handle::before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 36px;
+          height: 36px;
+          transform: translate(-50%, -50%);
+        }
+        .year-slider-handle::before {
+          width: 44px;
+          height: 44px;
+        }
+        .fp-beispiel {
+          min-height: 36px;
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+        .fp-beispiele {
+          row-gap: 8px;
+        }
+        .card-link,
+        .card-expand-btn {
+          display: inline-flex;
+          align-items: center;
+          min-height: 44px;
+        }
+        .foerderung-liste li {
+          padding: 6px 0;
+        }
+        .foerderung-liste a,
+        .card-bio a,
+        .vrg-table a,
+        .vrg-link {
+          display: inline-block;
+          padding: 8px 0;
+        }
+      }
+      @media (max-width: 640px) {
+        .person-chip {
+          flex-wrap: wrap;
+          row-gap: 2px;
+        }
+        .person-chip .chip-meta {
+          white-space: normal;
+        }
+      }
+
+      /* Touch-Geräte haben keinen Hover: was sonst im title-Tooltip steht,
+         wird dort sichtbar angezeigt */
+      .touch-only {
+        display: none;
+      }
+      @media (hover: none) {
+        .touch-only {
+          display: block;
+        }
+        .person-chip {
+          flex-wrap: wrap;
+        }
+        .chip-sub {
+          width: 100%;
+          font-size: 0.72rem;
+          color: var(--muted);
+        }
+        .proj-titel {
+          font-size: 0.72rem;
+          color: var(--muted);
+          margin-bottom: 4px;
+        }
+      }
+
+      /* Scrollschatten: ein Schatten am Rand, solange die Tabelle seitlich
+         weitergeht (Hintergründe mit attachment local/scroll) */
+      .scroll-x {
+        background:
+          linear-gradient(to right, var(--white) 30%, rgba(255, 255, 255, 0)) left / 32px 100% no-repeat local,
+          linear-gradient(to left, var(--white) 30%, rgba(255, 255, 255, 0)) right / 32px 100% no-repeat local,
+          radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.14), transparent) left / 12px 100% no-repeat scroll,
+          radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.14), transparent) right / 12px 100% no-repeat scroll;
+      }
+      @media (max-width: 640px) {
+        /* ungerade Kachelzahl im Zweierraster: letzte Kachel über die volle Breite */
+        #kpi-row > .kpi-card:last-child:nth-child(odd) {
+          grid-column: 1 / -1;
+        }
+      }
+
+      /* Lange Tabellen: auf dem Desktop offen, auf dem Handy zugeklappt
+         (siehe DOMContentLoaded in build_html.py) */
+      .table-details > summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--primary);
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+      }
+
       /* ── Print ────────────────────────────────────────────── */
       @media print {
         #site-header {
@@ -1492,18 +1728,18 @@
         <div class="chart-row">
           <div class="chart-card">
             <h3>Berufungen nach Universität &amp; Geschlecht</h3>
-            <canvas id="chart-gender" height="220"></canvas>
+            <canvas id="chart-gender" role="img" aria-label="Balkendiagramm: Berufungen nach Universität und Geschlecht" height="220"></canvas>
           </div>
           <div class="chart-card">
             <h3>Berufungen nach Monat</h3>
-            <canvas id="chart-timeline" height="220"></canvas>
+            <canvas id="chart-timeline" role="img" aria-label="Balkendiagramm: Berufungen nach Monat, gestapelt nach Jahr" height="220"></canvas>
             <p id="timeline-hinweis" style="font-size: 0.74rem; color: var(--muted); margin-top: 10px"></p>
           </div>
         </div>
 
         <div class="chart-card">
           <h3>Datenabdeckung: welche Universität ist für welches Jahr erfasst?</h3>
-          <div id="abdeckung" style="overflow-x: auto"></div>
+          <div id="abdeckung" class="scroll-x" style="overflow-x: auto"></div>
         </div>
 
         <div class="chart-card" id="card-years" style="display: none">
@@ -1512,14 +1748,14 @@
             Erscheint, sobald mehr als ein Jahr ausgewählt ist.
           </p>
           <div style="height: 260px; position: relative">
-            <canvas id="chart-years"></canvas>
+            <canvas id="chart-years" role="img" aria-label="Balkendiagramm: Berufungen pro Jahr"></canvas>
           </div>
         </div>
 
         <div class="chart-card">
           <h3>ÖFOS-Bereiche (1-stellig) — über alle Universitäten</h3>
           <div style="height: 340px; position: relative">
-            <canvas id="chart-bereich"></canvas>
+            <canvas id="chart-bereich" role="img" aria-label="Balkendiagramm: Berufungen nach ÖFOS-Bereich"></canvas>
           </div>
         </div>
 
@@ -1534,7 +1770,7 @@
           </p>
           <div
             id="heatmap-container"
-            style="height: 380px; position: relative"
+            style="min-height: 380px; position: relative"
           ></div>
         </div>
 
@@ -1585,7 +1821,7 @@
             und Cognitive Sciences).
           </p>
           <div style="height: 280px; position: relative">
-            <canvas id="chart-wwtf-prog"></canvas>
+            <canvas id="chart-wwtf-prog" role="img" aria-label="Balkendiagramm: Berufungen nach WWTF-Programmfeld"></canvas>
           </div>
         </div>
 
@@ -1614,23 +1850,29 @@
             <div>
               <h4 class="sub-h">Nach Programm</h4>
               <div style="height: 260px; position: relative">
-                <canvas id="chart-wwtf-foerderung"></canvas>
+                <canvas id="chart-wwtf-foerderung" role="img" aria-label="Balkendiagramm: WWTF-geförderte Berufene nach Förderprogramm"></canvas>
               </div>
             </div>
             <div>
               <h4 class="sub-h">Zeitpunkt relativ zur Berufung</h4>
               <div style="height: 260px; position: relative">
-                <canvas id="chart-wwtf-zeitbezug"></canvas>
+                <canvas id="chart-wwtf-zeitbezug" role="img" aria-label="Balkendiagramm: WWTF-Projektrollen nach Call-Jahr relativ zum Berufungsjahr"></canvas>
               </div>
             </div>
           </div>
-          <div id="foerderung-tabelle" style="overflow-x: auto; margin-top: 18px"></div>
+          <details class="table-details" open>
+            <summary>Alle Berufenen mit WWTF-Projekt</summary>
+            <div id="foerderung-tabelle" class="scroll-x" style="overflow-x: auto; margin-top: 12px"></div>
+          </details>
         </div>
         <div class="chart-card">
           <h3>VRG-Pipeline: von der Vienna Research Group zur Professur</h3>
           <p id="vrg-summary" style="font-size: 0.86rem; margin-bottom: 6px"></p>
           <p id="vrg-hinweis" style="font-size: 0.76rem; color: var(--muted); margin-bottom: 14px"></p>
-          <div id="vrg-tabelle" style="overflow-x: auto"></div>
+          <details class="table-details" open>
+            <summary>Alle Vienna Research Groups</summary>
+            <div id="vrg-tabelle" class="scroll-x" style="overflow-x: auto; margin-top: 12px"></div>
+          </details>
         </div>
       </section>
 
@@ -1710,6 +1952,17 @@
             placeholder="Name, Forschungsbereich, Institution …"
             oninput="applyFilters()"
           />
+          <button
+            type="button"
+            id="filter-toggle"
+            class="filter-toggle"
+            aria-expanded="false"
+            aria-controls="filter-more"
+            onclick="toggleFilterPanel()"
+          >
+            Filter
+          </button>
+          <div id="filter-more" class="filter-more">
           <select id="filter-uni" onchange="applyFilters()">
             <!-- Optionen werden von populateUniFilter() aus UNIS befuellt -->
           </select>
@@ -1784,6 +2037,7 @@
           >
             ⬇ CSV
           </button>
+          </div>
           <span id="filter-count"></span>
         </div>
         <div id="cards-grid"></div>
@@ -48775,6 +49029,20 @@ function mountChart(key, canvasId, config) {
 }
 
 // ─── HELPERS ─────────────────────────────────────────────
+// Lange Achsenbeschriftung für schmale Diagramme auf mehrere Zeilen umbrechen
+// (Chart.js zeichnet ein Array als mehrzeiliges Label, statt es abzuschneiden)
+function wrapLabel(text, canvasId, max = 16) {
+  const w = document.getElementById(canvasId).parentElement.clientWidth;
+  if (w >= 560 || text.length <= max) return text;
+  const lines = [];
+  text.split(' ').forEach(word => {
+    const last = lines[lines.length - 1];
+    if (last && (last + ' ' + word).length <= max) lines[lines.length - 1] = last + ' ' + word;
+    else lines.push(word);
+  });
+  return lines;
+}
+
 function inferBereich(d) {
   return d.ofos_bereich_code || String(Math.floor(parseInt(d.ofos_code || 999) / 100));
 }
@@ -49001,7 +49269,11 @@ const container = document.getElementById("heatmap-container");
 container.innerHTML = "";
 const W = container.clientWidth || 700;
 const H = 380;
-const margin = { top: 50, right: 30, bottom: 30, left: 130 };
+// Schmal (Handy): Spaltenköpfe nur als Nummer, Namen in einer Legende darunter
+const narrow = W < 560;
+const margin = narrow
+  ? { top: 30, right: 4, bottom: 10, left: 92 }
+  : { top: 50, right: 30, bottom: 30, left: 130 };
   const innerW = W - margin.left - margin.right;
   const innerH = H - margin.top - margin.bottom;
 
@@ -49084,6 +49356,7 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("font-weight", "700")
       .attr("fill", bereichColor(b))
       .text(b);
+    if (narrow) return;
     g.append("text")
       .attr("class", "heatmap-label")
       .attr("x", j * cellW + (cellW - 2) / 2)
@@ -49103,6 +49376,15 @@ const margin = { top: 50, right: 30, bottom: 30, left: 130 };
       .attr("text-anchor", "end")
       .text(u.length > 18 ? u.replace("Universität Wien", "Uni Wien").replace("Medizinische Universität Wien", "MedUni") : u);
   });
+
+  if (narrow) {
+    const legende = document.createElement("p");
+    legende.className = "heatmap-legende";
+    legende.innerHTML = bereichKeys
+      .map(b => `<span><strong style="color:${bereichColor(b)}">${b}</strong> ${bereichLabel(b)}</span>`)
+      .join("");
+    container.appendChild(legende);
+  }
 }
 
 
@@ -49112,6 +49394,11 @@ function initSankey(rows) {
   container.innerHTML = "";
   const W = container.clientWidth || 1000;
   const H = Math.max(600, W * 0.6);
+  // Schmal (Handy): nur die größten Herkunftsknoten einzeln, der Rest als
+  // "Weitere Länder", sonst überlagern sich rund 50 Beschriftungen
+  const narrow = W < 560;
+  const MAX_ORIGINS = narrow ? 10 : Infinity;
+  const WEITERE = "Weitere Länder";
 
   // Group origins
   // left = Herkunft (Land, oder "Intern"), right = Universität
@@ -49123,15 +49410,18 @@ function initSankey(rows) {
   // pro Kombination ein eigener Knoten statt eines Flusses ins richtige Land.
   const juengsteHerkunft = land => land.split("/").map(s => s.trim()).filter(Boolean).pop();
 
+  const originOf = d => d.herkunft === "intern" ? "Intern (Wien)"
+    : d.herkunft_land ? juengsteHerkunft(d.herkunft_land)
+    : "Herkunft unbekannt";
+  const originCount = {};
+  rows.forEach(d => { const o = originOf(d); originCount[o] = (originCount[o] || 0) + 1; });
+  const ranked = Object.keys(originCount).sort((a, b) => originCount[b] - originCount[a]);
+  const einzeln = new Set(ranked.length > MAX_ORIGINS ? ranked.slice(0, MAX_ORIGINS - 1) : ranked);
+  const weitere = ranked.filter(o => !einzeln.has(o));
+
   rows.forEach(d => {
-    let origin;
-    if (d.herkunft === "intern") {
-      origin = "Intern (Wien)";
-    } else if (d.herkunft_land) {
-      origin = juengsteHerkunft(d.herkunft_land);
-    } else {
-      origin = "Herkunft unbekannt";
-    }
+    const raw = originOf(d);
+    const origin = einzeln.has(raw) ? raw : WEITERE;
     const dest = d.universitat;
     const key = `${origin}→${dest}`;
     flows[key] = flows[key] || { origin, dest, count: 0 };
@@ -49156,8 +49446,8 @@ function initSankey(rows) {
     .attr("viewBox", `0 0 ${W} ${H}`);
 
   const sankey = d3.sankey()
-    .nodeWidth(24)
-    .nodePadding(12)
+    .nodeWidth(narrow ? 14 : 24)
+    .nodePadding(narrow ? 10 : 12)
     .extent([[10, 10], [W - 10, H - 20]]);
 
   const graph = sankey({
@@ -49200,7 +49490,8 @@ function initSankey(rows) {
     .attr("rx", 3)
     .attr("fill", d => originColors[d.name] || uniColor(d.name))
     .on("mouseover", (event, d) => showTooltip(
-      `<strong>${d.name}</strong><br>${d.value} Berufung${d.value > 1 ? "en" : ""}`,
+      `<strong>${d.name}</strong><br>${d.value} Berufung${d.value > 1 ? "en" : ""}` +
+      (d.name === WEITERE ? `<br>${weitere.map(o => `${o} (${originCount[o]})`).join(", ")}` : ""),
       event
     ))
     .on("mousemove", moveTooltip)
@@ -49215,7 +49506,7 @@ function initSankey(rows) {
     .attr("dy", "0.35em")
     .attr("text-anchor", d => d.x0 < W / 2 ? "start" : "end")
     .attr("fill", "#181715")
-    .attr("font-size", "13px")
+    .attr("font-size", narrow ? "11px" : "13px")
     .attr("font-weight", "500")
     .text(d => `${d.name} (${d.value})`);
 }
@@ -49253,12 +49544,44 @@ function renderCards(data) {
   document.getElementById("filter-count").textContent =
     `${data.length} von ${VIEW.length} Einträgen`;
 
+  CARDS.data = data;
+  CARDS.shown = 0;
+  if (CARDS.observer) CARDS.observer.disconnect();
   if (data.length === 0) {
     grid.innerHTML = '<div style="padding:40px; text-align:center; color:var(--muted); grid-column:1/-1">Keine Einträge gefunden.</div>';
     return;
   }
+  grid.innerHTML = '';
+  renderMoreCards();
+}
 
-  grid.innerHTML = data.map((d, i) => {
+// Alle Karten auf einmal sind über 1000 Knoten-Bäume und auf dem Handy
+// eine 400.000 px lange Seite. Deshalb in Paketen, nachgeladen kurz bevor
+// das Ende der Liste in Sicht kommt.
+const CARDS = { data: [], shown: 0, step: 60, observer: null };
+
+function renderMoreCards(all) {
+  const grid = document.getElementById("cards-grid");
+  const sentinel = document.getElementById("cards-more");
+  if (sentinel) sentinel.remove();
+  const end = all ? CARDS.data.length : Math.min(CARDS.data.length, CARDS.shown + CARDS.step);
+  grid.insertAdjacentHTML('beforeend',
+    CARDS.data.slice(CARDS.shown, end).map((d, k) => cardHtml(d, CARDS.shown + k)).join(''));
+  CARDS.shown = end;
+  if (CARDS.shown >= CARDS.data.length) return;
+  grid.insertAdjacentHTML('beforeend',
+    `<button id="cards-more" class="cards-more" onclick="renderMoreCards()">Weitere anzeigen (${CARDS.data.length - CARDS.shown} verbleibend)</button>`);
+  if ('IntersectionObserver' in window) {
+    if (CARDS.observer) CARDS.observer.disconnect();
+    CARDS.observer = new IntersectionObserver(e => {
+      if (e[0].isIntersecting) renderMoreCards();
+    }, { rootMargin: '800px 0px' });
+    CARDS.observer.observe(document.getElementById("cards-more"));
+  }
+}
+window.addEventListener('beforeprint', () => renderMoreCards(true));
+
+function cardHtml(d, i) {
     const metrics = metricsOf(d);
     const bioPreview = d.bio_text
       ? d.bio_text.replace(/h-Index:[^|]+\|[^|]+\|[^|]+/i, '').trim().substring(0, 200)
@@ -49340,7 +49663,6 @@ function renderCards(data) {
         ${d.werdegang ? `<div class="card-werdegang" id="wg-${i}">${d.werdegang}</div>` : ''}
       </div>
     </div>`;
-  }).join('');
 }
 
 function toggleWerdegang(btn, i) {
@@ -49403,6 +49725,20 @@ function currentFilteredData() {
 function applyFilters() {
   renderCards(currentFilteredData());
   writeStateToHash();
+  syncFilterToggle();
+}
+
+// Handy: Filter-Knopf zeigt die Zahl aktiver Filter (Suche und Sortierung zählen nicht)
+function syncFilterToggle() {
+  const n = FILTER_IDS.filter(id => id !== 'search-input' && id !== 'sort-select'
+    && document.getElementById(id).value).length;
+  document.getElementById('filter-toggle').textContent = n ? `Filter (${n})` : 'Filter';
+}
+
+function toggleFilterPanel() {
+  const bar = document.getElementById('filter-bar');
+  const open = bar.classList.toggle('open');
+  document.getElementById('filter-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
 function resetFilters() {
@@ -49576,7 +49912,7 @@ function initWWTF(rows) {
   mountChart("wwtfProg", "chart-wwtf-prog", {
     type: 'bar',
     data: {
-      labels: progKeys.map(p => WWTF_PROG[p].label),
+      labels: progKeys.map(p => wrapLabel(WWTF_PROG[p].label, 'chart-wwtf-prog')),
       datasets: [{
         data: counts,
         backgroundColor: progKeys.map(p => WWTF_PROG[p].color),
@@ -49586,7 +49922,7 @@ function initWWTF(rows) {
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false } },
-      scales: { x: { ticks: { stepSize: 2 } } }
+      scales: { x: { ticks: { stepSize: 2 } }, y: { ticks: { autoSkip: false } } }
     }
   });
 
@@ -49605,6 +49941,7 @@ function initWWTF(rows) {
       return `<div class="person-chip" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')" title="${d.forschungsbereich || ''}">
         <span class="chip-name">${d.name}</span>
         <span class="chip-meta">${d.universitat} · ${herk}${h != null ? ' · h ' + h : ''}</span>
+        ${d.forschungsbereich ? `<span class="touch-only chip-sub">${d.forschungsbereich}</span>` : ''}
       </div>`;
     }).join('');
     return `<details class="prog-card">
@@ -49677,13 +50014,13 @@ function renderFoerderung(rows) {
   mountChart('wwtfFoerd', 'chart-wwtf-foerderung', {
     type: 'bar',
     data: {
-      labels: progs.map(p => p[0]),
+      labels: progs.map(p => wrapLabel(p[0], 'chart-wwtf-foerderung')),
       datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#008fd3', borderRadius: 3 }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${plural(c.raw, 'Person', 'Personen')}` } } },
-      scales: { x: { ticks: { precision: 0 } } }
+      scales: { x: { ticks: { precision: 0 } }, y: { ticks: { autoSkip: false } } }
     }
   });
 
@@ -49732,7 +50069,8 @@ function renderFoerderung(rows) {
           <td>${d.universitat} ${d.year}</td>
           <td>${d.wwtf_foerderung.map(f =>
             `<a href="${f.url}" target="_blank" rel="noopener" title="${(f.titel || '').replace(/"/g, '&quot;')}">${f.id}</a> <span class="vrg-feld">${f.rolle}${
-              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>`).join('<br>')}</td>
+              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>${
+              f.titel ? `<span class="touch-only proj-titel">${f.titel}</span>` : ''}`).join('<br>')}</td>
         </tr>`).join('')}
       </tbody>
     </table>`;
@@ -50149,7 +50487,7 @@ async function fpRender() {
   if (!roh && !FP.subfeld) {
     box.innerHTML = `<div class="fp-leer">${plural(personen.length, 'Publikationsprofil', 'Publikationsprofile')} im gewählten Zeitraum` +
       (ohne ? `, ${ohne} Personen ohne OpenAlex-Profil` : '') +
-      `.<br>Suchbegriff eingeben oder rechts ein Subfeld wählen.</div>`;
+      `.<br>Suchbegriff eingeben oder ein Subfeld aus der Liste wählen.</div>`;
     FP.letzte = [];
     return;
   }
@@ -50257,6 +50595,22 @@ function activateTabPanel(name) {
     btn.classList.toggle('active', on);
     btn.setAttribute('aria-selected', on ? 'true' : 'false');
   });
+  // aktiven Tab in den sichtbaren Teil der Leiste holen, ohne die Seite zu bewegen
+  const nav = document.getElementById('tab-nav');
+  const btn = document.querySelector('.tab-btn.active');
+  if (nav && btn) {
+    const l = btn.offsetLeft - 24, r = btn.offsetLeft + btn.offsetWidth + 24;
+    if (l < nav.scrollLeft) nav.scrollLeft = l;
+    else if (r > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = r - nav.clientWidth;
+  }
+}
+
+// Tab-Leiste auf schmalen Bildschirmen: Randverlauf nur dort, wo noch Tabs folgen
+function syncNavFade() {
+  const nav = document.getElementById('tab-nav');
+  const rest = nav.scrollWidth - nav.clientWidth - nav.scrollLeft;
+  nav.classList.toggle('more-right', rest > 2);
+  nav.classList.toggle('more-left', nav.scrollLeft > 2);
 }
 
 // Tabwechsel legt einen History-Eintrag an, damit der Zurück-Button
@@ -50275,7 +50629,7 @@ function renderTab(name) {
   if (name === 'wwtf' && TAB_DIRTY.wwtf) { initWWTF(VIEW); TAB_DIRTY.wwtf = false; }
   if (name === 'mobilitaet' && TAB_DIRTY.mobilitaet) { initSankey(VIEW); TAB_DIRTY.mobilitaet = false; }
   if (name === 'fachprofile' && TAB_DIRTY.fachprofile) { initFachprofile(VIEW); TAB_DIRTY.fachprofile = false; }
-  if (name === 'alle') renderCards(currentFilteredData());
+  if (name === 'alle') { renderCards(currentFilteredData()); syncFilterToggle(); }
 }
 
 function activeTabName() {
@@ -50441,7 +50795,9 @@ function syncStickyOffsets() {
   const header = document.getElementById('site-header');
   const tabNav = document.getElementById('tab-nav');
   if (!header || !tabNav) return;
-  const headerH = header.getBoundingClientRect().height;
+  // Auf dem Handy scrollt die Kopfzeile mit (position: static) und zählt nicht
+  const headerH = getComputedStyle(header).position === 'sticky'
+    ? header.getBoundingClientRect().height : 0;
   const tabNavH = tabNav.getBoundingClientRect().height;
   document.documentElement.style.setProperty('--header-h', `${headerH}px`);
   document.documentElement.style.setProperty('--sticky-stack-h', `${headerH + tabNavH}px`);
@@ -50461,6 +50817,12 @@ document.addEventListener('DOMContentLoaded', () => {
   fpInit();
   syncStickyOffsets();
   window.addEventListener('resize', syncStickyOffsets);
+  syncNavFade();
+  if (window.matchMedia('(max-width: 640px)').matches) {
+    document.querySelectorAll('.table-details').forEach(el => el.removeAttribute('open'));
+  }
+  window.addEventListener('resize', syncNavFade);
+  document.getElementById('tab-nav').addEventListener('scroll', syncNavFade, { passive: true });
   if (window.ResizeObserver) {
     new ResizeObserver(syncStickyOffsets).observe(document.getElementById('site-header'));
   }
