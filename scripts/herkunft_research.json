@@ -58,9 +58,14 @@
  "Sam Chermayeff": {
   "herkunft": "extern",
   "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
-  "herkunft_land": null,
-  "source": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
-  "note": "Angewandte-News 20.09.2024: Gründungspartner der Büros, Projekte in Berlin und New York; Land nicht eindeutig"
+  "herkunft_land": "Deutschland",
+  "source": [
+   "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+   "https://interiordesign.net/projects/sam-chermayeff-s-berlin-loft-is-a-living-art-installation/",
+   "https://www.archiweb.cz/en/sam-chermayeff",
+   "https://ioa.angewandte.at/institute/people/sam-chermayeff"
+  ],
+  "note": "Hauptstandort vor 2024 war Berlin: Interior Design (24.04.2016) beschreibt ihn als in Berlin-Mitte wohnhaft (gebürtiger New Yorker, eine Woche pro Monat in New York), June14 wurde in Berlin gegründet, archiweb nennt als Kontaktadresse Kurfürstenstraße 142, Berlin (Sitz Sam Chermayeff Office); die Büros haben zusätzlich einen New-York-Standort, daher Land nur als überwiegender Standort gesetzt."
  },
  "David Gissen": {
   "herkunft": "extern",
@@ -404,5 +409,93 @@
   "herkunft_land": "Österreich",
   "source": "https://www.mozarteumorchester-freunde.at/musiker-interviews/thomas-fleissner/; https://philblech.at/die-musiker/?lang=en",
   "note": "Koordinierter Solotrompeter des Mozarteumorchesters Salzburg seit 2020 (Substitut ab 2019), davor 2012–2020 Trompeter am Stadttheater Klagenfurt / Kärntner Sinfonieorchester; Studium an der mdw bei Josef Pomberger und Martin Mühlfellner; keine mdw-Lehrposition vor 2026 belegt."
+ },
+ "Christoph J. H. Rademacher": {
+  "herkunft": "extern",
+  "herkunft_institution": "Max-Planck-Institut für Kolloid- und Grenzflächenforschung",
+  "herkunft_land": "Deutschland",
+  "source": [
+   "https://orcid.org/0000-0001-7082-7239",
+   "https://www.bionity.com/de/news/1185885/zielsichere-medikamente-im-visier.html"
+  ],
+  "note": "ORCID-Employment: Group Leader, Department Biomolecular Systems, MPI für Kolloid- und Grenzflächenforschung Potsdam, 12/2011 bis 08/2020; ab 09/2020 Professor, Pharmaceutical Sciences, Universität Wien (bionity.com bestätigt MPI Potsdam als Vorstation)."
+ },
+ "Christine Sheppard": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Hohenheim",
+  "herkunft_land": "Deutschland",
+  "source": [
+   "https://orcid.org/0000-0002-7847-2310",
+   "https://ecology.uni-hohenheim.de/en/65590",
+   "https://forschung.boku.ac.at/en/researcher/564A127EC178857D"
+  ],
+  "note": "ORCID-Employment: Institut für Landschafts- und Pflanzenökologie, Universität Hohenheim, 05/2014 bis 08/2025 (Senior Researcher/Lecturer, Habilitation 2022, Priv.-Doz.; PhD University of Auckland); ab 09/2025 Full Professor of Botany and Vegetation Ecology, BOKU."
+ },
+ "Michael Carnegie La Belle": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU (CEU Business School / Department of Economics and Business, Management Unit, Associate Professor mit Joint Appointment am Department of Environmental Sciences and Policy; Jean Monnet Chair 2017-2021)",
+  "herkunft_land": "Österreich",
+  "source": [
+   "https://research.ceu.edu/en/persons/michael-la-belle/",
+   "https://people.ceu.edu/michael_labelle",
+   "https://ogel.org/about-author-a-z-profile.asp?key=2452",
+   "https://www.property-forum.eu/people/details/michael-labelle/3177"
+  ],
+  "note": "CEU-Profil: Faculty Member der CEU Business School bzw. Management Unit des Department of Economics and Business 2012-2022 (Schwerpunkt Energie/Nachhaltigkeit), Jean Monnet Chair in Energy Innovations and Strategies 2017-2021, zuvor Assistant Professor (2012) mit Joint Appointment am Department of Environmental Sciences and Policy; 2022 zusätzlich OSUN Senior Fellow (Chatham House); heute Full Professor und Head of Department ESP. Hinweis: Die CEU war bis 2019 in Budapest; 'Österreich' bezieht sich auf den Standort der Universität 2022, nicht zwingend auf seinen Arbeitsort vor dem Umzug."
+ },
+ "Robert Sata": {
+  "herkunft": "intern",
+  "herkunft_institution": "CEU (Department of Political Science, Associate Research Fellow / Senior Academic Coordinator)",
+  "herkunft_land": "Österreich",
+  "source": [
+   "https://people.ceu.edu/robert_sata",
+   "https://research.ceu.edu/en/persons/r%C3%B3bert-sata/",
+   "https://www.eucanet.org/expert/sata-robert/"
+  ],
+  "note": "CEU-Profil: 'Prior to his teaching position, he worked at the department as Associate Research Fellow'; am Department of Political Science seit 2006 (PhD Coordinator, Senior Academic Coordinator, Special Projects Officer), seit 2024 Assistant Professor; ORCID 0000-0001-8945-2561 ohne Employment-Einträge."
+ },
+ "Sara Ricci": {
+  "herkunft": "intern",
+  "herkunft_institution": "Vetmeduni Wien (Institut für Tierernährung und Funktionelle Pflanzenstoffe, PostDoc)",
+  "herkunft_land": "Österreich",
+  "source": [
+   "https://orcid.org/0000-0002-0117-9407",
+   "https://vetdoc.vetmeduni.ac.at/vivo/display/per_1423",
+   "https://www.vetmeduni.ac.at/en/nutrition/about-us/animal-nutrition-working-group/scientists"
+  ],
+  "note": "VetDoc-CV und ORCID: PhD Vetmeduni Wien 2018-2021 (Rumen-Mikrobiota, Best PhD Thesis Award Veterinary Sciences 2023), 02-12/2022 Beraterin für bioinformatische Analysen bei Agriculture and Agri-Food Canada (Sherbrooke), seit 01/2023 PostDoc am Institut für Tierernährung und Funktionelle Pflanzenstoffe; Vetmeduni-Teamseite führt sie aktuell als Ass.-Prof. Sara Ricci, PhD. DVM. Hinweis: Die 2026-Stelle ist vermutlich eine Assistenzprofessur (Laufbahnstelle), kein Lehrstuhl; die kurze Kanada-Station 2022 lag vor dem PostDoc, unmittelbare Vorstation ist Vetmeduni."
+ },
+ "Chris Thomale": {
+  "herkunft": "extern",
+  "herkunft_institution": "Universität Bremen",
+  "herkunft_land": "Deutschland",
+  "source": [
+   "http://web.archive.org/web/20190721172954/https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-dr-iur-chris-thomale/",
+   "https://c3fl.univie.ac.at/fileadmin/user_upload/p_c3fl/THOMALE_CV.pdf"
+  ],
+  "note": "Uni Wien CV page (Neue Professuren März 2019, Wayback 2019-07): 2018-2019 Vertretung des Lehrstuhls für Bürgerliches Recht, Handels- und Gesellschaftsrecht, Universität Bremen, directly followed by 'seit März 2019 Professur ... Universität Wien'; before that 2014-2018 Akademischer Rat at the Institut für ausländisches und internationales Privat- und Wirtschaftsrecht, Universität Heidelberg (Habilitation Heidelberg 2017). If the dataset codes the last permanent home institution rather than a Lehrstuhlvertretung, use Universität Heidelberg instead."
+ },
+ "Jürgen Scharhag": {
+  "herkunft": "extern",
+  "herkunft_institution": "Technische Universität München",
+  "herkunft_land": "Deutschland",
+  "source": [
+   "https://sportaerztezeitung.com/rubriken/kardiologie/2989/update-sportkardiologie",
+   "https://europepmc.org/search?query=AUTH%3A%22Scharhag%20J%22%20AND%20PUB_YEAR%3A2018",
+   "https://esc365.escardio.org/person/91900"
+  ],
+  "note": "Before Vienna (1 Feb 2019) he was geschäftsführender Oberarzt & Oberarzt Forschung at the Zentrum für Prävention und Sportmedizin, TU München (Klinikum rechts der Isar); 2018 publications and a Feb 2019 paper carry the TUM affiliation (juergen.scharhag@mri.tum.de); Potsdam was earlier (2012-2013), Saarland University 2014-2017."
+ },
+ "Bouchra Khalili": {
+  "herkunft": "extern",
+  "herkunft_institution": "Kunsthochschule Oslo (KHiO)",
+  "herkunft_land": "Norwegen",
+  "source": [
+   "https://khio.no/events/756",
+   "https://ideasimagination.columbia.edu/fellows/bouchra-khalili",
+   "https://www.radcliffe.harvard.edu/people/bouchra-khalili",
+   "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr"
+  ],
+  "note": "Professor of Contemporary Art at the Academy of Fine Art, Oslo National Academy of the Arts (KHiO) from at least 2016 (KHiO lecture series, Radcliffe fellowship 2017-18, KHiO event Nov 2018) through the Columbia fellowship year 2019/20; the Angewandte press release of Sept 2020 names a 'Professur in Norwegen' as her last post."
  }
 }

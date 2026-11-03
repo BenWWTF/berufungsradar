@@ -4058,7 +4058,10 @@
   "wwtf_programme": [],
   "herkunft": "extern",
   "herkunft_land": "Deutschland",
-  "_herkunft_research": "Herkunft aus bereits vorhandenem, kuratiertem Werdegang-Text manuell extrahiert (2026-09-15), keine neue Recherche.",
+  "_herkunft_research": [
+   "http://web.archive.org/web/20190721172954/https://medienportal.univie.ac.at/uniview/professuren/cv/artikel/univ-prof-dr-iur-chris-thomale/",
+   "https://c3fl.univie.ac.at/fileadmin/user_upload/p_c3fl/THOMALE_CV.pdf"
+  ],
   "_openalex": {
    "works_count": 104,
    "cited_by_count": 325,
@@ -4123,7 +4126,8 @@
   },
   "openalex_id": "A5061419677",
   "_kuratiert": null,
-  "stellentyp": null
+  "stellentyp": null,
+  "herkunft_institution": "Universität Bremen"
  },
  {
   "name": "Christian Griebler",
@@ -5817,7 +5821,7 @@
   "art_berufung": "§98",
   "geschlecht": "M",
   "herkunft": "extern",
-  "herkunft_institution": null,
+  "herkunft_institution": "Technische Universität München",
   "herkunft_land": "Deutschland",
   "ofos_code": "301",
   "ofos_label": "Grundlagenmedizin",
@@ -5826,7 +5830,11 @@
   "profil_url": "https://openalex.org/A5014641193",
   "quelle": "https://institut-schmelz.univie.ac.at/abteilungen/sportmedizin-leistungsphysiologie-und-praevention/team/",
   "_kuratiert": "Handrecherche 2026-08-28 über medienportal.univie.ac.at 'Neue Professuren im Februar 2019' (Google-Cache-Snippet). Genaue Vorinstitution nicht eindeutig aus Quelle ableitbar, daher null.",
-  "_herkunft_research": "Herkunft aus bereits vorhandenem, kuratiertem Werdegang-Text manuell extrahiert (2026-09-15), keine neue Recherche.",
+  "_herkunft_research": [
+   "https://sportaerztezeitung.com/rubriken/kardiologie/2989/update-sportkardiologie",
+   "https://europepmc.org/search?query=AUTH%3A%22Scharhag%20J%22%20AND%20PUB_YEAR%3A2018",
+   "https://esc365.escardio.org/person/91900"
+  ],
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
@@ -9906,7 +9914,7 @@
   "art_berufung": "§98",
   "geschlecht": "W",
   "herkunft": "extern",
-  "herkunft_institution": null,
+  "herkunft_institution": "Kunsthochschule Oslo (KHiO)",
   "herkunft_land": "Norwegen",
   "ofos_code": "604",
   "ofos_label": "Kunstwissenschaften",
@@ -9915,7 +9923,12 @@
   "profil_url": null,
   "quelle": "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr",
   "_kuratiert": "Handrecherche 2026-08-27: Angewandte-Wissensbilanz 2020 nennt Khalili namentlich (Artistic Strategies), bestätigt durch OTS-Presseaussendung. Vorherige Institution in Norwegen nicht explizit benannt, daher herkunft_institution null.",
-  "_herkunft_research": null,
+  "_herkunft_research": [
+   "https://khio.no/events/756",
+   "https://ideasimagination.columbia.edu/fellows/bouchra-khalili",
+   "https://www.radcliffe.harvard.edu/people/bouchra-khalili",
+   "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr"
+  ],
   "ofos_bereich_code": "6",
   "ofos_bereich": "Geisteswissenschaften",
   "ofos_hauptgruppe_code": "60",
@@ -17420,8 +17433,8 @@
   "art_berufung": "§98",
   "geschlecht": "M",
   "herkunft": "extern",
-  "herkunft_institution": null,
-  "herkunft_land": null,
+  "herkunft_institution": "Max-Planck-Institut für Kolloid- und Grenzflächenforschung",
+  "herkunft_land": "Deutschland",
   "ofos_code": "104",
   "ofos_label": "Chemie",
   "bio_text": "Molecular Drug Targeting. h-Index: 35 | Publikationen: 133 | Zitierungen: 3766. Forschungstätigkeit u.a. in USA, Österreich, Deutschland, Kanada.",
@@ -17429,7 +17442,10 @@
   "profil_url": "https://openalex.org/A5090253001",
   "quelle": "https://mdt.univie.ac.at/",
   "_kuratiert": "Handrecherche 2026-08-28 über medienportal.univie.ac.at 'Neue Professuren im September 2020' (Google-Cache-Snippet). Unmittelbare Vorinstitution vor Wien nicht eindeutig ermittelt.",
-  "_herkunft_research": null,
+  "_herkunft_research": [
+   "https://orcid.org/0000-0001-7082-7239",
+   "https://www.bionity.com/de/news/1185885/zielsichere-medikamente-im-visier.html"
+  ],
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
@@ -47776,7 +47792,7 @@
   "art_berufung": "CEU (privat)",
   "geschlecht": "M",
   "herkunft": "intern",
-  "herkunft_institution": null,
+  "herkunft_institution": "CEU (CEU Business School / Department of Economics and Business, Management Unit, Associate Professor mit Joint Appointment am Department of Environmental Sciences and Policy; Jean Monnet Chair 2017-2021)",
   "herkunft_land": "Österreich",
   "ofos_code": "105",
   "ofos_label": "Geowissenschaften",
@@ -47785,7 +47801,12 @@
   "profil_url": null,
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
-  "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
+  "_herkunft_research": [
+   "https://research.ceu.edu/en/persons/michael-la-belle/",
+   "https://people.ceu.edu/michael_labelle",
+   "https://ogel.org/about-author-a-z-profile.asp?key=2452",
+   "https://www.property-forum.eu/people/details/michael-labelle/3177"
+  ],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
   "ofos_bereich_code": "1",
@@ -76736,7 +76757,7 @@
   "geschlecht": "M",
   "herkunft": "extern",
   "herkunft_institution": "eigene Architekturbüros (June 14 Meyer-Grohbrügge & Chermayeff, Sam Chermayeff Office; Berlin/New York)",
-  "herkunft_land": null,
+  "herkunft_land": "Deutschland",
   "ofos_code": "211",
   "ofos_label": "Andere Technische Wissenschaften",
   "bio_text": null,
@@ -76744,7 +76765,12 @@
   "profil_url": null,
   "quelle": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
   "_kuratiert": "Handrecherche 2026-09-24: Angewandte-News 20.09.2024 'Sam Chermayeff wird Professor für Architekturentwurf 1'; e-flux 24.09.2024: ab Oktober 2024. Paragraf in keiner Quelle genannt.",
-  "_herkunft_research": "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+  "_herkunft_research": [
+   "https://www.dieangewandte.at/news_detail?news_id=1726800134914",
+   "https://interiordesign.net/projects/sam-chermayeff-s-berlin-loft-is-a-living-art-installation/",
+   "https://www.archiweb.cz/en/sam-chermayeff",
+   "https://ioa.angewandte.at/institute/people/sam-chermayeff"
+  ],
   "stellentyp": null,
   "_ofos_auto": true,
   "ofos_bereich_code": "2",
@@ -77713,7 +77739,7 @@
   "art_berufung": "CEU (privat)",
   "geschlecht": "M",
   "herkunft": "intern",
-  "herkunft_institution": null,
+  "herkunft_institution": "CEU (Department of Political Science, Associate Research Fellow / Senior Academic Coordinator)",
   "herkunft_land": "Österreich",
   "ofos_code": "506",
   "ofos_label": "Politikwissenschaften",
@@ -77722,7 +77748,11 @@
   "profil_url": "https://openalex.org/A5034548863",
   "quelle": "CEU Faculty-Datenexport (HR), bereitgestellt von der Universitaet",
   "_kuratiert": "Department aus dem oeffentlichen CEU-Personenverzeichnis (people.ceu.edu/units, Abgleich 2026-09-15) ermittelt, nicht aus dem urspruenglichen HR-Export (der enthielt keine Fachangabe). ofos_code aus der Department-Zuordnung abgeleitet, nicht personenspezifisch verifiziert.",
-  "_herkunft_research": "Web-Recherche 2026-09-15 (CEU-Departmentseiten, Researchgate, Google Scholar, persoenliche Webseiten) -- letzte bekannte Station vor CEU.",
+  "_herkunft_research": [
+   "https://people.ceu.edu/robert_sata",
+   "https://research.ceu.edu/en/persons/r%C3%B3bert-sata/",
+   "https://www.eucanet.org/expert/sata-robert/"
+  ],
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
   "ofos_bereich_code": "5",
@@ -90970,8 +91000,8 @@
   "art_berufung": "§98",
   "geschlecht": "W",
   "herkunft": "extern",
-  "herkunft_institution": "(aus PA nicht hervorgehend)",
-  "herkunft_land": null,
+  "herkunft_institution": "Universität Hohenheim",
+  "herkunft_land": "Deutschland",
   "ofos_code": "106",
   "ofos_label": "Biologie (Botanik)",
   "bio_text": "Antrittsvorlesung 27.04.2026 \"Öko-evolutionäre Dynamik gebietsfremder Pflanzen und einheimischer Gemeinschaften\". Forschungsschwerpunkt: Pflanzendiversität unter globalem Wandel, Faktoren für Invasionserfolg, Reaktionen einheimischer Pflanzengemeinschaften.",
@@ -90984,7 +91014,11 @@
   "ofos_hauptgruppe_code": "10",
   "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
-  "_herkunft_research": "manuell ergänzt 2026-06-08",
+  "_herkunft_research": [
+   "https://orcid.org/0000-0002-7847-2310",
+   "https://ecology.uni-hohenheim.de/en/65590",
+   "https://forschung.boku.ac.at/en/researcher/564A127EC178857D"
+  ],
   "h_index": 14,
   "publikationen": 33,
   "zitierungen": 2851,
@@ -117401,7 +117435,7 @@
   "art_berufung": "§99(5) Laufbahnstelle",
   "geschlecht": "W",
   "herkunft": "intern",
-  "herkunft_institution": null,
+  "herkunft_institution": "Vetmeduni Wien (Institut für Tierernährung und Funktionelle Pflanzenstoffe, PostDoc)",
   "herkunft_land": "Österreich",
   "ofos_code": "401",
   "ofos_label": "Agrarwissenschaften",
@@ -117410,7 +117444,11 @@
   "profil_url": null,
   "quelle": null,
   "_kuratiert": "Übernommen aus interner Vetmeduni-Liste 'Dienstantritte Professuren seit 2019' (Excel, WWTF von Vetmeduni erhalten, Stand 2026-09-01). monat/year = Stellenantritt laut Liste, nicht notwendigerweise das Berufungsverkündungsdatum (Presseaussendung), das an anderer Stelle im Datensatz als 'monat' geführt wird -- ggf. mit bereits erfassten Presse-Terminen abgleichen.",
-  "_herkunft_research": "Web-Recherche 2026-09-15 (Universitaets-/Institutsseiten, Researchgate/Google-Scholar-Profile).",
+  "_herkunft_research": [
+   "https://orcid.org/0000-0002-0117-9407",
+   "https://vetdoc.vetmeduni.ac.at/vivo/display/per_1423",
+   "https://www.vetmeduni.ac.at/en/nutrition/about-us/animal-nutrition-working-group/scientists"
+  ],
   "_ofos_auto": true,
   "ofos_bereich_code": "4",
   "ofos_bereich": "Agrarwissenschaften, Veterinärmedizin",
