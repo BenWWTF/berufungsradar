@@ -4,3 +4,7 @@ __pycache__/
 
 # Rohseiten der Backfill-Scraper: reproduzierbar, gehören nicht ins Repo
 scripts/.*_cache/
+
+# Node-Abhängigkeiten von fachprofil_embed.mjs
+scripts/node_modules/
+scripts/package-lock.json

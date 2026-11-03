@@ -983,6 +983,245 @@
         background: var(--primary);
       }
 
+      /* ── WWTF-Förderung ───────────────────────────────────── */
+      .badge-wwtf {
+        background: var(--accent);
+        color: #fff;
+      }
+      .sub-h {
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: var(--muted);
+        margin: 0 0 8px;
+      }
+      .foerderung-liste {
+        margin: 2px 0 0;
+        padding-left: 0;
+        list-style: none;
+        font-size: 0.76rem;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      /* ── Fachprofile ──────────────────────────────────────── */
+      .fp-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+      }
+      .fp-row input,
+      .fp-row select {
+        font-family: inherit;
+        font-size: 0.9rem;
+        padding: 9px 12px;
+        border: 1.5px solid var(--border);
+        border-radius: 6px;
+        color: var(--text);
+        background: var(--white);
+        outline: none;
+      }
+      .fp-row input {
+        flex: 1 1 320px;
+        min-width: 0;
+      }
+      .fp-row input:focus,
+      .fp-row select:focus {
+        border-color: var(--primary);
+      }
+      .fp-modes {
+        display: inline-flex;
+        border: 1.5px solid var(--border);
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .fp-mode {
+        font-family: inherit;
+        font-size: 0.82rem;
+        padding: 8px 12px;
+        border: 0;
+        background: var(--white);
+        color: var(--muted);
+        cursor: pointer;
+      }
+      .fp-mode.active {
+        background: var(--primary);
+        color: #fff;
+      }
+      #fp-status {
+        font-size: 0.78rem;
+        color: var(--muted);
+      }
+      .fp-beispiele {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 12px;
+        font-size: 0.76rem;
+        color: var(--muted);
+        align-items: center;
+      }
+      .fp-beispiel {
+        font: inherit;
+        padding: 3px 10px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--white);
+        color: var(--accent);
+        cursor: pointer;
+      }
+      .fp-beispiel:hover {
+        background: var(--light);
+      }
+      .fp-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 340px;
+        gap: 24px;
+        align-items: start;
+      }
+      .fp-aside {
+        position: sticky;
+        top: calc(var(--sticky-stack-h, 150px) + 12px);
+        max-height: calc(100vh - var(--sticky-stack-h, 150px) - 24px);
+        overflow-y: auto;
+        margin-bottom: 0;
+      }
+      .fp-hit {
+        background: var(--white);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        border: 1.5px solid var(--border);
+        padding: 14px 18px;
+        margin-bottom: 12px;
+      }
+      .fp-hit-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+      .fp-hit-name {
+        font: inherit;
+        font-weight: 700;
+        font-size: 0.98rem;
+        color: var(--accent);
+        background: none;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        text-align: left;
+      }
+      .fp-hit-name:hover {
+        text-decoration: underline;
+      }
+      .fp-hit-meta {
+        font-size: 0.78rem;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .fp-score {
+        height: 4px;
+        background: var(--light);
+        border-radius: 2px;
+        margin: 8px 0 10px;
+        overflow: hidden;
+      }
+      .fp-score > span {
+        display: block;
+        height: 100%;
+        background: var(--primary);
+      }
+      .fp-line {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin-top: 4px;
+      }
+      .fp-line .lbl {
+        color: var(--muted);
+      }
+      .fp-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 8px;
+      }
+      .fp-chip {
+        font-size: 0.72rem;
+        padding: 2px 8px;
+        border-radius: 10px;
+        background: var(--light);
+        color: var(--accent);
+      }
+      .fp-chip.hit {
+        background: var(--primary);
+        color: #fff;
+        font-weight: 600;
+      }
+      .fp-sub-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 36px;
+        gap: 8px;
+        align-items: center;
+        font-size: 0.78rem;
+        padding: 3px 0;
+        border: 0;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        font-family: inherit;
+        color: var(--text);
+      }
+      .fp-sub-row:hover .fp-sub-name,
+      .fp-sub-row.active .fp-sub-name {
+        color: var(--primary);
+        font-weight: 600;
+      }
+      .fp-sub-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .fp-sub-bar {
+        height: 5px;
+        border-radius: 3px;
+        background: var(--light);
+        margin-top: 3px;
+        overflow: hidden;
+      }
+      .fp-sub-bar > span {
+        display: block;
+        height: 100%;
+      }
+      .fp-sub-n {
+        text-align: right;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+      }
+      .fp-domain {
+        font-size: 0.72rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        color: var(--muted);
+        margin: 12px 0 4px;
+      }
+      .fp-leer {
+        padding: 32px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+      @media (max-width: 900px) {
+        .fp-layout {
+          grid-template-columns: 1fr;
+        }
+        .fp-aside {
+          position: static;
+          max-height: none;
+        }
+      }
+
       /* ── Print ────────────────────────────────────────────── */
       @media print {
         #site-header {
@@ -1071,6 +1310,14 @@
           onclick="switchTab('mobilitaet')"
         >
           Mobilität
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          onclick="switchTab('fachprofile')"
+        >
+          Fachprofile
         </button>
         <button
           class="tab-btn"
@@ -1219,6 +1466,11 @@
             <div class="kpi-label">Median h-Index</div>
             <div class="kpi-sub" id="kpi-wwtf-hindex-sub">–</div>
           </div>
+          <div class="kpi-card" style="border-top-color: #005b94">
+            <div class="kpi-value" id="kpi-wwtf-gefoerdert">–</div>
+            <div class="kpi-label">Vom WWTF gefördert</div>
+            <div class="kpi-sub" id="kpi-wwtf-gefoerdert-sub">–</div>
+          </div>
         </div>
 
         <div class="insights" id="insights-wwtf">
@@ -1251,11 +1503,95 @@
           konkreten Ausschreibung. Details: <code>scripts/wwtf_enrich.py</code>.
         </p>
         <div class="chart-card">
+          <h3>WWTF-Förderung der Berufenen</h3>
+          <p id="foerderung-summary" style="font-size: 0.86rem; margin-bottom: 6px"></p>
+          <p style="font-size: 0.76rem; color: var(--muted); margin-bottom: 14px">
+            Abgleich der Berufenen mit allen Projekten der
+            <a href="https://wwtf.at/funding/project-database/" target="_blank" rel="noopener">WWTF-Projektdatenbank</a>
+            (PI, Co-PI, VRG-Leitung), über den Namen. „Vor der Berufung" heißt: der Call lag
+            vor dem Berufungsjahr, die Förderung ging also an die spätere Professorin oder den
+            späteren Professor in einer früheren Karrierephase.
+          </p>
+          <div class="chart-row">
+            <div>
+              <h4 class="sub-h">Nach Programm</h4>
+              <div style="height: 260px; position: relative">
+                <canvas id="chart-wwtf-foerderung"></canvas>
+              </div>
+            </div>
+            <div>
+              <h4 class="sub-h">Zeitpunkt relativ zur Berufung</h4>
+              <div style="height: 260px; position: relative">
+                <canvas id="chart-wwtf-zeitbezug"></canvas>
+              </div>
+            </div>
+          </div>
+          <div id="foerderung-tabelle" style="overflow-x: auto; margin-top: 18px"></div>
+        </div>
+        <div class="chart-card">
           <h3>VRG-Pipeline: von der Vienna Research Group zur Professur</h3>
           <p id="vrg-summary" style="font-size: 0.86rem; margin-bottom: 6px"></p>
           <p id="vrg-hinweis" style="font-size: 0.76rem; color: var(--muted); margin-bottom: 14px"></p>
           <div id="vrg-tabelle" style="overflow-x: auto"></div>
         </div>
+      </section>
+
+      <!-- ══ TAB: FACHPROFILE ══════════════════════════════════ -->
+      <section id="tab-fachprofile" class="tab-panel">
+        <div class="insights" id="fp-intro">
+          <h4>Worin sind die Berufenen tatsächlich tätig?</h4>
+          <p style="font-size: 0.86rem; line-height: 1.5; margin: 0">
+            Die ÖFOS-Codes sagen, welche Professur besetzt wurde. Die Fachprofile sagen, woran
+            die Personen publizieren: aus den Titeln, Abstracts und OpenAlex-Topics ihrer
+            Arbeiten seit 2005 entsteht je Person ein Profil aus Subfeldern, Schlagwörtern und
+            einem Textvektor. Darauf lässt sich frei suchen: die Stichwortsuche zeigt, warum
+            jemand gefunden wurde (englische Fachbegriffe), die semantische Suche versteht auch
+            deutsche Anfragen und Umschreibungen wie „Wer arbeitet an Quanteninformation?".
+          </p>
+        </div>
+
+        <div id="fp-suche" class="chart-card">
+          <div class="fp-row">
+            <input type="text" id="fp-query" placeholder="Thema, Methode, Fragestellung … (Enter)"
+                   autocomplete="off" />
+            <select id="fp-uni"></select>
+            <div class="fp-modes" role="radiogroup" aria-label="Suchmodus">
+              <button type="button" class="fp-mode active" data-mode="stichwort" onclick="fpSetMode('stichwort')"
+                      title="Abgleich der Suchbegriffe mit den häufigsten Begriffen, Topics und Keywords je Person">Stichwörter</button>
+              <button type="button" class="fp-mode" data-mode="semantisch" onclick="fpSetMode('semantisch')"
+                      title="Ähnlichkeit zwischen Suchanfrage und Publikationsprofil über ein Sprachmodell (läuft im Browser, einmaliger Download ≈ 120 MB)">Semantisch</button>
+            </div>
+            <button type="button" class="btn-reset" onclick="fpReset()">Zurücksetzen</button>
+            <span id="fp-status"></span>
+          </div>
+          <div id="fp-beispiele" class="fp-beispiele"></div>
+        </div>
+
+        <div class="fp-layout">
+          <div id="fp-results" class="fp-results"></div>
+          <aside class="chart-card fp-aside">
+            <h3 id="fp-sub-title">Subfelder</h3>
+            <p style="font-size: 0.76rem; color: var(--muted); margin-bottom: 12px">
+              OpenAlex-Subfelder, in denen die Berufenen des gewählten Zeitraums einen
+              Publikationsschwerpunkt haben (mindestens ein Fünftel der Arbeiten oder eines der
+              beiden stärksten Subfelder). Klick filtert die Liste.
+            </p>
+            <div id="fp-subfelder"></div>
+          </aside>
+        </div>
+
+        <p class="methoden-note" id="fp-methodik">
+          <strong>Methodik:</strong> Je Person die 100 meistzitierten und 40 jüngsten Arbeiten
+          seit 2005 aus OpenAlex (Titel, Abstract wo verfügbar, Topics, Keywords). Subfelder
+          folgen der OpenAlex-Taxonomie (4 Domänen, 26 Felder, rund 250 Subfelder, über 4500
+          Topics), die aus den Publikationen selbst abgeleitet ist, nicht aus der Denomination
+          der Professur. Die Stichwortsuche gewichtet Begriffe nach ihrer Häufigkeit im Werk der
+          Person und ihrer Seltenheit im Gesamtkorpus (TF-IDF, Ein- und Zweiwortbegriffe). Die
+          semantische Suche vergleicht die Anfrage mit dem Mittelwert der Textvektoren der Arbeiten
+          (multilingual-e5-small, 384 Dimensionen); sie versteht Umschreibungen und deutsche
+          Anfragen, die Stichwortsuche zeigt dafür, warum jemand gefunden wurde. Personen ohne
+          OpenAlex-Profil fehlen hier. Details: <code>scripts/fachprofil.py</code>.
+        </p>
       </section>
 
       <!-- ══ TAB: MOBILITÄT ════════════════════════════════════ -->
@@ -1323,10 +1659,13 @@
           <select id="filter-land" onchange="applyFilters()">
             <option value="">Herkunftsland (alle)</option>
           </select>
-          <select id="filter-vrg" onchange="applyFilters()">
+          <select id="filter-vrg" onchange="applyFilters()" title="Abgleich mit der WWTF-Projektdatenbank (PI, Co-PI, VRG-Leitung)">
             <option value="">WWTF-Förderung (alle)</option>
-            <option value="ja">nur VRG-Grantees</option>
-            <option value="nein">ohne VRG-Förderung</option>
+            <option value="ja">WWTF-gefördert (irgendwann)</option>
+            <option value="vor">gefördert vor der Berufung</option>
+            <option value="nach">gefördert nach der Berufung</option>
+            <option value="vrg">nur VRG-Leitungen</option>
+            <option value="nein">ohne WWTF-Förderung</option>
           </select>
           <select id="filter-verbleib" onchange="applyFilters()" title="Öffentlich belegte Weggänge von der berufenden Universität">
             <option value="">Verbleib (alle)</option>
@@ -1703,7 +2042,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 41, "cited_by_count": 21, "h_index": 2, "last_known_institutions": [{"name": "University of Applied Arts Vienna", "country": "AT", "type": "education", "years": [2025, 2023, 2021, 2020, 2018, 2009, 2008], "most_recent": 2025}, {"name": "Maxim Integrated (United States)", "country": "US", "type": "company", "years": [2020], "most_recent": 2020}, {"name": "Zurich University of the Arts", "country": "CH", "type": "education", "years": [2018, 2011, 2009, 2008], "most_recent": 2018}, {"name": "Planetary Science Institute", "country": "US", "type": "nonprofit", "years": [2009], "most_recent": 2009}, {"name": "Planetary Systems (United States)", "country": "US", "type": "company", "years": [2009], "most_recent": 2009}], "openalex_id": "A5090489595"},
         openalex_id: "A5090489595",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ICT23-020", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2023, "rolle": "PI", "institution": "University of Applied Arts Vienna", "titel": "Robopsychologists: An Artistic Exploration of Collective Memory through Role-Playing with AI Language Models", "summe_eur": 589922, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT23-020/"}]
       },
       {
         name: "Ruth Mateus-Berr",
@@ -2585,7 +2925,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         openalex_id: "A5025793777",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "ICT22-059", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Structured Data Learning with General Similarities", "summe_eur": 734470, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-059/"}]
       },
       {
         name: "Walter Michael Weber",
@@ -2999,7 +3340,8 @@ const DATA = [
         zitierungen: 9120,
         wwtf_programme: [],
         _openalex: {"works_count": 227, "cited_by_count": 9120, "h_index": 53, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019], "most_recent": 2026}, {"name": "BOKU University", "country": "AT", "type": "education", "years": [2024], "most_recent": 2024}, {"name": "Steinbeis Foundation", "country": "DE", "type": "other", "years": [2023], "most_recent": 2023}, {"name": "Helmholtz Munich", "country": "DE", "type": "facility", "years": [2023, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007], "most_recent": 2023}, {"name": "Nawi Graz", "country": "AT", "type": "education", "years": [2023], "most_recent": 2023}], "openalex_id": "A5018416031"},
-        openalex_id: "A5018416031"
+        openalex_id: "A5018416031",
+        wwtf_foerderung: [{"id": "ESR20-040", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2020, "rolle": "PI", "institution": "University of Vienna", "titel": "Heat below the city", "summe_eur": 478410, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR20-040/"}]
       },
       {
         name: "Christina Kaiser",
@@ -4144,7 +4486,8 @@ const DATA = [
         wwtf_programme: ["ICT", "CS"],
         _openalex: {"works_count": 155, "cited_by_count": 4013, "h_index": 28, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019], "most_recent": 2026}, {"name": "Complexity Science Hub", "country": "AT", "type": "nonprofit", "years": [2024, 2023, 2022, 2021], "most_recent": 2024}, {"name": "Statistics Austria", "country": "AT", "type": "government", "years": [2023], "most_recent": 2023}, {"name": "Science Hub", "country": null, "type": "nonprofit", "years": [2023, 2021], "most_recent": 2023}, {"name": "University of Catania", "country": "IT", "type": "education", "years": [2021], "most_recent": 2021}], "openalex_id": "A5040565095"},
         openalex_id: "A5040565095",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS23-070", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2023, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "An interdisciplinary approach to learn and test the causal mapping between neural network dynamics and behavior", "summe_eur": 799998, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS23-070/"}]
       },
       {
         name: "Paula Wojcik",
@@ -4295,7 +4638,8 @@ const DATA = [
         herkunft_land: "Österreich",
         _herkunft_auto: true,
         _openalex: {"works_count": 1770, "cited_by_count": 77816, "h_index": 128, "last_known_institutions": [{"name": "Universität Hamburg", "country": "DE", "type": "education", "years": [2026, 2025, 2024, 2023, 2019], "most_recent": 2026}, {"name": "Deutsches Elektronen-Synchrotron DESY", "country": "DE", "type": "facility", "years": [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2013], "most_recent": 2025}, {"name": "Karlsruhe Institute of Technology", "country": "DE", "type": "education", "years": [2024], "most_recent": 2024}, {"name": "Fermi National Accelerator Laboratory", "country": "US", "type": "facility", "years": [2024, 2023, 2016, 2015], "most_recent": 2024}, {"name": "A. Alikhanyan National Laboratory", "country": "AM", "type": "facility", "years": [2024, 2023], "most_recent": 2024}], "openalex_id": "A5005601284"},
-        openalex_id: "A5005601284"
+        openalex_id: "A5005601284",
+        wwtf_foerderung: [{"id": "ICT19-041", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Transparent and explainable models", "summe_eur": 689160, "status": "Abgeschlossen", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT19-041/"}]
       },
       {
         name: "Philipp Petersen",
@@ -4562,7 +4906,8 @@ const DATA = [
         zitierungen: 1628,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS22-008", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "University of Vienna", "titel": "Cognitive health in aging society - The role of context for cognitive functioning and related policy implications in Europe", "summe_eur": 529920, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS22-008/"}]
       },
       {
         name: "Vladimir Kazeev",
@@ -4638,7 +4983,8 @@ const DATA = [
         herkunft_land: "Österreich",
         _herkunft_auto: true,
         _openalex: {"works_count": 413, "cited_by_count": 21814, "h_index": 57, "last_known_institutions": [{"name": "Shanghai University", "country": "CN", "type": "education", "years": [2026, 2025, 2024, 2016], "most_recent": 2026}, {"name": "Universität Trier", "country": "DE", "type": "education", "years": [2026, 2025], "most_recent": 2026}, {"name": "University of Vienna", "country": "AT", "type": "education", "years": [2025, 2024, 2022, 2021, 2020], "most_recent": 2025}, {"name": "International Institute for Applied Systems Analysis", "country": "AT", "type": "nonprofit", "years": [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1995, 1994, 1993, 1992, 1987], "most_recent": 2025}, {"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2024, 2021, 2020, 2019, 2017, 2016, 2014, 2011, 2010, 2009, 2008, 2007, 2003], "most_recent": 2024}], "openalex_id": "A5066664298"},
-        openalex_id: "A5066664298"
+        openalex_id: "A5066664298",
+        wwtf_foerderung: [{"id": "SSH16-12", "programm": "SSH", "programm_name": "Social Sciences & Humanities", "call_jahr": 2016, "rolle": "PI", "institution": "Vienna University of Economics and Business", "titel": "Summer School - The Demography of Health and Education", "summe_eur": 24996, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/past/ssh/SSH16-12/"}]
       },
       {
         name: "Yavuz Köse",
@@ -4856,7 +5202,8 @@ const DATA = [
         _openalex: {"works_count": 211, "cited_by_count": 2735, "h_index": 29, "last_known_institutions": [{"name": "Vienna University of Economics and Business", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2017, 2015], "most_recent": 2026}, {"name": "Universität Hamburg", "country": "DE", "type": "education", "years": [2022, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013], "most_recent": 2022}, {"name": "Indiana University – Purdue University Indianapolis", "country": "US", "type": "education", "years": [2022], "most_recent": 2022}, {"name": "Twitter (United States)", "country": "US", "type": "company", "years": [2020], "most_recent": 2020}, {"name": "National Academy of Governance", "country": "MN", "type": "education", "years": [2020], "most_recent": 2020}], "openalex_id": "A5005733009"},
         openalex_id: "A5005733009",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-039", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "WU Wien - Vienna University of Economics and Business", "titel": "Zusammenhalt von Bürger*innen in der Corona-Krise", "summe_eur": 10800, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-039/"}]
       },
       {
         name: "Margarethe Rammerstorfer",
@@ -5311,7 +5658,8 @@ const DATA = [
         _openalex: {"works_count": 174, "cited_by_count": 7408, "h_index": 44, "last_known_institutions": [{"name": "Akademie der bildenden Künste Wien", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "BOKU University", "country": "AT", "type": "education", "years": [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2001], "most_recent": 2020}, {"name": "Czech Academy of Sciences, Institute of Biotechnology", "country": "CZ", "type": "facility", "years": [2018], "most_recent": 2018}, {"name": "Pädagogische Hochschule Wien", "country": "AT", "type": "education", "years": [2018], "most_recent": 2018}, {"name": "Carl von Ossietzky Universität Oldenburg", "country": "DE", "type": "education", "years": [2002, 2001, 2000, 1999, 1998, 1997, 1995], "most_recent": 2002}], "openalex_id": "A5049750776"},
         openalex_id: "A5049750776",
         profil_url_auto: true,
-        _ofos_auto: true
+        _ofos_auto: true,
+        wwtf_foerderung: [{"id": "ESR24-018", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "PI", "institution": "Academy of Fine Arts Vienna", "titel": "Biopatinas on buildings in urban environments: biofilters, CO2 sinks and cooling systems with an aesthetic-architectural effect", "summe_eur": 650111, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR24-018/"}]
       },
       {
         name: "Antonia Birnbaum",
@@ -5566,7 +5914,8 @@ const DATA = [
         zitierungen: 1875,
         wwtf_programme: [],
         _openalex: {"works_count": 84, "cited_by_count": 1875, "h_index": 23, "last_known_institutions": [{"name": "BOKU University", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "Boise State University", "country": "US", "type": "education", "years": [2025], "most_recent": 2025}, {"name": "Institute of Organic Chemistry", "country": "HU", "type": "facility", "years": [2024], "most_recent": 2024}, {"name": "Max Planck Institute of Colloids and Interfaces", "country": "DE", "type": "facility", "years": [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014], "most_recent": 2023}, {"name": "Scripps Research Institute", "country": "US", "type": "nonprofit", "years": [2022, 2014, 2013, 2011], "most_recent": 2022}], "openalex_id": "A5020693561"},
-        openalex_id: "A5020693561"
+        openalex_id: "A5020693561",
+        wwtf_foerderung: [{"id": "LS21-039", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2021, "rolle": "Co-PI", "institution": "BOKU - University of Natural Resources and Life Sciences", "titel": "Modulation of platelet biology with CLEC-2 targeted liposomes", "summe_eur": 593970, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS21-039/"}]
       },
       {
         name: "Johannes Konnerth",
@@ -6865,7 +7214,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5050836932"
+        openalex_id: "A5050836932",
+        wwtf_foerderung: [{"id": "ICT19-018", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "PI", "institution": "TU Wien", "titel": "ProbInG: Distribution Recovery for Invariant Generation of Probabilistic Programs", "summe_eur": 782100, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-018/"}, {"id": "ICT22-023", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Training and Guiding AI Agents with Ethical Rules", "summe_eur": 799570, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-023/"}, {"id": "ICT25-017", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Promt: Probably the Best Moment to Terminate", "summe_eur": 879423, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-017/"}]
       },
       {
         name: "Fabio Toninelli",
@@ -6975,7 +7325,8 @@ const DATA = [
         vrg_call: 2018,
         _openalex: {"works_count": 109, "cited_by_count": 3165, "h_index": 30, "last_known_institutions": [{"name": "TU Wien", "country": "AT", "type": "education", "years": [2026, 2024, 2022, 2021, 2020, 2018], "most_recent": 2026}, {"name": "Centre National de la Recherche Scientifique", "country": "FR", "type": "government", "years": [2019, 2018, 2017, 2016, 2015, 2010, 2009, 2008], "most_recent": 2019}, {"name": "Institut national de recherche en sciences et technologies du numérique", "country": "FR", "type": "government", "years": [2019, 2018, 2010, 2009, 2008], "most_recent": 2019}, {"name": "Université Paris Sciences et Lettres", "country": "FR", "type": "education", "years": [2019, 2018, 2017, 2016, 2015], "most_recent": 2019}, {"name": "École Normale Supérieure - PSL", "country": "FR", "type": "other", "years": [2019, 2018, 2017, 2016, 2015, 2010, 2009, 2008], "most_recent": 2019}], "openalex_id": "A5020602623"},
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5020602623"
+        openalex_id: "A5020602623",
+        wwtf_foerderung: [{"id": "VRG18-002", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2018, "rolle": "VRG-Leitung", "institution": "TU Wien", "titel": "COnFIDE - Cryptographic Foundations of Privacy in Distributed Ledgers", "summe_eur": 1599280, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG18-002/"}, {"id": "ICT25-075", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Cross-Domain Privacy-Preserving Protocols and Symmetric Cryptography", "summe_eur": 797739, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-075/"}]
       },
       {
         name: "Georg Weissenbacher",
@@ -7013,7 +7364,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         openalex_id: "A5017958562",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "VRG11-005", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2011, "rolle": "VRG-Leitung", "institution": "TU Wien", "titel": "Heisenbugs: From Detection to Explanation", "summe_eur": 1500000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG11-005/"}, {"id": "NXT19-006", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2019, "rolle": "PI", "institution": "TU Wien", "titel": "AutoTest", "summe_eur": 49970, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT19-006/"}, {"id": "ICT25-051", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Verifying Without Loss of Generality", "summe_eur": 635107, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-051/"}]
       },
       {
         name: "Golta Khatibi Damavandi",
@@ -7193,7 +7545,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ICT19-018", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "Co-PI", "institution": "TU Wien", "titel": "ProbInG: Distribution Recovery for Invariant Generation of Probabilistic Programs", "summe_eur": 782100, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-018/"}, {"id": "ICT22-007", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "Co-PI", "institution": "TU Wien", "titel": "ForSmart: Effective Formal Methods for Smart-Contract Certification", "summe_eur": 799850, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-007/"}, {"id": "ICT25-017", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "TU Wien", "titel": "Promt: Probably the Best Moment to Terminate", "summe_eur": 879423, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-017/"}]
       },
       {
         name: "Martin Nöllenburg",
@@ -7229,7 +7582,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT19-035", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "PI", "institution": "TU Wien", "titel": "Engineering Linear Ordering Algorithms for Optimizing Data Visualizations", "summe_eur": 463710, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-035/"}, {"id": "ICT22-029", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Parameterized Graph Drawing", "summe_eur": 781860, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-029/"}]
       },
       {
         name: "Martina Marchetti-Deschmann",
@@ -7373,7 +7727,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT08-028", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2008, "rolle": "PI", "institution": "Vienna University of Technology", "titel": "New Methods for Analyzing, Comparing, and Solving Argumentation Problems", "summe_eur": 278000, "status": null, "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT08-028/"}, {"id": "ICT19-065", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "Co-PI", "institution": "Vienna University of Technology", "titel": "Revealing and Utilizing the Hidden Structure for Solving Hard Problems in AI", "summe_eur": 566900, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-065/"}]
       },
       {
         name: "Ute Schneider",
@@ -7605,7 +7960,8 @@ const DATA = [
         zitierungen: 4358,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-005", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "Max F. Perutz Laboratories (MFPL)", "titel": "Schnelle Umwandlung von Laborinfrastruktur zum Aufbau von COVID-19 Test-kapazität in der Pandemie", "summe_eur": 50000, "status": "Abgeschlossen", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-005/"}]
       },
       {
         name: "Anatole von Lilienfeld",
@@ -7683,7 +8039,8 @@ const DATA = [
         _openalex: {"works_count": 939, "cited_by_count": 51233, "h_index": 119, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 1996, 1995, 1994], "most_recent": 2026}, {"name": "Central Institution for Meteorology and Geodynamics", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 1997, 1996, 1995], "most_recent": 2026}, {"name": "Meteorological, Climatological, And Geophysical Agency", "country": "ID", "type": "government", "years": [2025], "most_recent": 2025}, {"name": "Uganda National Meteorological Authority", "country": "UG", "type": "government", "years": [2025, 2022], "most_recent": 2025}, {"name": "National Institute of Meteorology", "country": "TN", "type": "facility", "years": [2025, 2022], "most_recent": 2025}], "openalex_id": "A5047723373"},
         openalex_id: "A5047723373",
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "ESR24-021", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "PI", "institution": "University of Vienna", "titel": "Constraining Vienna's carbon footprint", "summe_eur": 699988, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR24-021/"}]
       },
       {
         name: "Annie Waldherr",
@@ -7721,7 +8078,8 @@ const DATA = [
         _kuratiert: null,
         stellentyp: null,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ICT20-028", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2020, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Emotional Misinformation - The Interplay of Emotion and Misinformation Spreading on Social Media", "summe_eur": 399540, "status": "Abgeschlossen", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT20-028/"}]
       },
       {
         name: "Astrid Lembke",
@@ -7839,7 +8197,8 @@ const DATA = [
         vrg_id: "VRG19-008",
         vrg_call: 2019,
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "VRG19-008", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2019, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Knowledge-infused Deep Learning for Natural Language Processing", "summe_eur": 1567440, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG19-008/"}]
       },
       {
         name: "Carolina Plescia",
@@ -7878,7 +8237,8 @@ const DATA = [
         zitierungen: 1523,
         wwtf_programme: ["DH"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ICT23-025", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2023, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Citizen-centered democratic innovation: Understanding citizen preferences for participatory budgeting algorithms", "summe_eur": 594596, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT23-025/"}]
       },
       {
         name: "Caroline Heinrich",
@@ -8030,7 +8390,8 @@ const DATA = [
         _openalex: {"works_count": 133, "cited_by_count": 3766, "h_index": 35, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "Max Perutz Labs", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "Vienna Biocenter", "country": "AT", "type": "other", "years": [2025, 2023, 2022, 2021, 2020], "most_recent": 2025}, {"name": "Max Planck Institute of Colloids and Interfaces", "country": "DE", "type": "facility", "years": [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013], "most_recent": 2023}, {"name": "Johannes Gutenberg University Mainz", "country": "DE", "type": "education", "years": [2022], "most_recent": 2022}], "openalex_id": "A5090253001"},
         openalex_id: "A5090253001",
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "LS21-039", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2021, "rolle": "PI", "institution": "University of Vienna", "titel": "Modulation of platelet biology with CLEC-2 targeted liposomes", "summe_eur": 593970, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS21-039/"}]
       },
       {
         name: "Claudia Wilhelm",
@@ -8458,7 +8819,8 @@ const DATA = [
         zitierungen: 1745,
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ESS22-008", "programm": "ESS", "programm_name": "Empirical Social Sciences", "call_jahr": 2022, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Family outcomes of assortative mating: New insights based on couple-level survey/register data", "summe_eur": 565292, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ess/ESS22-008/"}]
       },
       {
         name: "Eva-Maria Muschik",
@@ -8922,7 +9284,8 @@ const DATA = [
         profil_url_auto: true,
         stellentyp: null,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "VRG15-005", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2015, "rolle": "VRG-Leitung", "institution": "CeMM - Research Center for Molecular Medicine GmbH of the Austrian Academy of Sciences", "titel": "Network Medicine - An interactome-based approach to rare diseases", "summe_eur": 1598300, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG15-005/"}, {"id": "LS16-060", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2016, "rolle": "Co-PI", "institution": "Austrian Academy of Sciences - CeMM - Research Center for Molecular Medicine", "titel": "Systems precision medicine of inborn errors of the immune system (PrecisePID)", "summe_eur": 923200, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS16-060/"}, {"id": "NXT19-008", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2019, "rolle": "PI", "institution": "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "DataDiVR -- A Virtual Reality Platform for Biomedical Data Analyses in Clinical Practice", "summe_eur": 49700, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT19-008/"}]
       },
       {
         name: "Jürgen Zanghellini",
@@ -9540,7 +9903,8 @@ const DATA = [
         _kuratiert: null,
         stellentyp: null,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ESS22-008", "programm": "ESS", "programm_name": "Empirical Social Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "University of Vienna", "titel": "Family outcomes of assortative mating: New insights based on couple-level survey/register data", "summe_eur": 565292, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ess/ESS22-008/"}, {"id": "DARE25-047", "programm": "DARE", "programm_name": "Digital Research Enablers", "call_jahr": 2025, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "From Registers to Research: Building an AMDC-based Household Panel", "summe_eur": 99989, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/DARE25-047/"}]
       },
       {
         name: "Naoíse Mac Sweeney",
@@ -9695,7 +10059,8 @@ const DATA = [
         zitierungen: 1612,
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "VRG19-009", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2019, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Algorithmic Data Science for Computational Drug Discovery", "summe_eur": 1466230, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG19-009/"}, {"id": "ICT22-059", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "University of Vienna", "titel": "Structured Data Learning with General Similarities", "summe_eur": 734470, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-059/"}]
       },
       {
         name: "Nina Schützenmeister",
@@ -10351,7 +10716,8 @@ const DATA = [
         zitierungen: 6651,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS17-003", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2017, "rolle": "Co-PI", "institution": "Austrian Academy of Sciences - Institute of Molecular Biotechnology", "titel": "Elucidating sister chromatid structure by chemical DNA labeling and conformation capture", "summe_eur": 700000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS17-003/"}, {"id": "LS23-053", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2023, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Determinants of mRNA Lifetime and Translation Efficiency", "summe_eur": 799100, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS23-053/"}]
       },
       {
         name: "Tatyana Krivobokova",
@@ -12435,7 +12801,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 94, "cited_by_count": 87, "h_index": 6, "last_known_institutions": [{"name": "University of Applied Arts Vienna", "country": "AT", "type": "education", "years": [2024, 2023], "most_recent": 2024}, {"name": "Leuphana University of Lüneburg", "country": "DE", "type": "education", "years": [2018, 2017, 2011], "most_recent": 2018}], "openalex_id": "A5071861872"},
         openalex_id: "A5071861872",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "RO22-008", "programm": "RO", "programm_name": "Roadmaps", "call_jahr": 2022, "rolle": "PI", "institution": "Universität für angewandte Kunst Wien", "titel": "DS - Digitale Spielgaben", "summe_eur": 39576, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/RO22-008/"}]
       },
       {
         name: "Jakob Lena Knebl",
@@ -12571,7 +12938,8 @@ const DATA = [
         wwtf_programme: [],
         _kuratiert: "Handrecherche 2026-08-21, Presseaussendung 14.06.2021, Beginn 1.8.2021",
         _openalex: {"works_count": 41, "cited_by_count": 21, "h_index": 2, "last_known_institutions": [{"name": "University of Applied Arts Vienna", "country": "AT", "type": "education", "years": [2025, 2023, 2021, 2020, 2018, 2009, 2008], "most_recent": 2025}, {"name": "Maxim Integrated (United States)", "country": "US", "type": "company", "years": [2020], "most_recent": 2020}, {"name": "Zurich University of the Arts", "country": "CH", "type": "education", "years": [2018, 2011, 2009, 2008], "most_recent": 2018}, {"name": "Planetary Science Institute", "country": "US", "type": "nonprofit", "years": [2009], "most_recent": 2009}, {"name": "Planetary Systems (United States)", "country": "US", "type": "company", "years": [2009], "most_recent": 2009}], "openalex_id": "A5090489595"},
-        openalex_id: "A5090489595"
+        openalex_id: "A5090489595",
+        wwtf_foerderung: [{"id": "ICT23-020", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2023, "rolle": "PI", "institution": "University of Applied Arts Vienna", "titel": "Robopsychologists: An Artistic Exploration of Collective Memory through Role-Playing with AI Language Models", "summe_eur": 589922, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT23-020/"}]
       },
       {
         name: "Ruth Anderwald",
@@ -12756,7 +13124,8 @@ const DATA = [
         openalex_id: "A5068051609",
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ESS22-046", "programm": "ESS", "programm_name": "Empirical Social Sciences", "call_jahr": 2022, "rolle": "Co-PI", "institution": "CEU GmbH - Central European University Private University", "titel": "Multidimensional Social Mobility and Pathways to Upward Mobility in Austria", "summe_eur": 594435, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ess/ESS22-046/"}, {"id": "ESS22-054", "programm": "ESS", "programm_name": "Empirical Social Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "CEU GmbH - Central European University Private University", "titel": "Parental Leave and Career Trajectories of Men and Women in Austria", "summe_eur": 434810, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ess/ESS22-054/"}]
       },
       {
         name: "Anand Murugesan",
@@ -14075,7 +14444,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         _openalex: {"works_count": 500, "cited_by_count": 46994, "h_index": 111, "last_known_institutions": [{"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012], "most_recent": 2026}, {"name": "Austrian Research Institute for Artificial Intelligence", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "CeMM Research Center for Molecular Medicine", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012], "most_recent": 2026}, {"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012], "most_recent": 2026}, {"name": "Comprehensive Cancer Center Vienna", "country": "AT", "type": "healthcare", "years": [2025], "most_recent": 2025}], "openalex_id": "A5059183480"},
         openalex_id: "A5059183480",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS18-049", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2018, "rolle": "Co-PI", "institution": "CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "Characterizing and targeting the Ewing sarcoma microenvironment to overcome resistance to therapy", "summe_eur": 799510, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS18-049/"}, {"id": "LS20-045", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "Co-PI", "institution": "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "Validation of a liquid biopsy based molecular diagnostic toolkit for pediatric sarcomas", "summe_eur": 899160, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-045/"}, {"id": "LS20-065", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "Co-PI", "institution": "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "Precision medicine for breast cancer: multi-omics towards predicting complete remission and avoiding surgery", "summe_eur": 899630, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-065/"}, {"id": "LS25-030", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2025, "rolle": "Co-PI", "institution": "CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "Cell-Free DNA Liquid Biopsies for Precision Cardiovascular Medicine", "summe_eur": 999285, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS25-030/"}]
       },
       {
         name: "Cihan Ay",
@@ -14185,7 +14555,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 437, "cited_by_count": 21899, "h_index": 49, "last_known_institutions": [{"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009], "most_recent": 2026}, {"name": "Austrian Research Institute for Artificial Intelligence", "country": "AT", "type": "facility", "years": [2025, 2020, 2015, 2014], "most_recent": 2025}, {"name": "Cornell University", "country": "US", "type": "education", "years": [2025], "most_recent": 2025}, {"name": "Comprehensive Cancer Center Vienna", "country": "AT", "type": "healthcare", "years": [2025], "most_recent": 2025}, {"name": "GNA University", "country": "IN", "type": "education", "years": [2025], "most_recent": 2025}], "openalex_id": "A5060814361"},
         openalex_id: "A5060814361",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS20-065", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Precision medicine for breast cancer: multi-omics towards predicting complete remission and avoiding surgery", "summe_eur": 899630, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-065/"}]
       },
       {
         name: "Gerhard Prager",
@@ -14338,7 +14709,8 @@ const DATA = [
         _openalex: {"works_count": 235, "cited_by_count": 40095, "h_index": 85, "last_known_institutions": [{"name": "Institute of Molecular Biotechnology", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002], "most_recent": 2026}, {"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002], "most_recent": 2026}, {"name": "Vienna Biocenter", "country": "AT", "type": "other", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016], "most_recent": 2026}, {"name": "MIMOT (Germany)", "country": "DE", "type": "company", "years": [2025], "most_recent": 2025}, {"name": "Bausch Health (Germany)", "country": "DE", "type": "company", "years": [2025], "most_recent": 2025}], "openalex_id": "A5008803187"},
         openalex_id: "A5008803187",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS05-040", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2005, "rolle": "PI", "institution": "Austrian Academy of Sciences", "titel": "Proliferation control in tumor stem cells", "summe_eur": 635600, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS05-040/"}]
       },
       {
         name: "Kaan Boztug",
@@ -14377,6 +14749,7 @@ const DATA = [
         _ofos_auto: true,
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "LS14-031", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2014, "rolle": "Co-PI", "institution": "Austrian Academy of Sciences - CeMM (Research Center for Molecular Medicine)", "titel": "High-Resolution Imaging to Unravel the Molecular Etiology of Disturbed T-Cell Antigen Recognition", "summe_eur": 582000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS14-031/"}, {"id": "LS16-060", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2016, "rolle": "PI", "institution": "LBI Rare and Undiagnosed Diseases", "titel": "Systems precision medicine of inborn errors of the immune system (PrecisePID)", "summe_eur": 923200, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS16-060/"}],
         abgang: {"abgang_jahr": 2025, "abgang_monat": 2, "ziel": "Universitätsklinikum Bonn", "ziel_land": "Deutschland", "art": "Professur", "quelle": "https://www.forschung-und-lehre.de/karriere/habilitationen-und-berufungen/habilitationen-und-berufungen-oktober-2025-7311"}
       },
       {
@@ -14415,7 +14788,8 @@ const DATA = [
         wwtf_programme: ["LS"],
         _openalex: {"works_count": 216, "cited_by_count": 13179, "h_index": 66, "last_known_institutions": [{"name": "Max Perutz Labs", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003], "most_recent": 2026}, {"name": "Vienna Biocenter", "country": "AT", "type": "other", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1992], "most_recent": 2026}, {"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2000], "most_recent": 2026}, {"name": "Austrian Economics Center", "country": "AT", "type": "facility", "years": [2024], "most_recent": 2024}, {"name": "University of Vienna", "country": "AT", "type": "education", "years": [2023, 2002, 1999, 1997, 1992], "most_recent": 2023}], "openalex_id": "A5016873011"},
         openalex_id: "A5016873011",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS03-133", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2003, "rolle": "PI", "institution": "University of Vienna", "titel": "Molecular analysis of interactions between pathogens and host organisms", "summe_eur": 610000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS03-133/"}]
       },
       {
         name: "Oliver Kimberger",
@@ -14452,7 +14826,8 @@ const DATA = [
         monat_unsicher: true,
         _openalex: {"works_count": 192, "cited_by_count": 4955, "h_index": 39, "last_known_institutions": [{"name": "Vienna General Hospital", "country": "AT", "type": "healthcare", "years": [2026, 2025, 2022, 2021, 2020, 2015, 2012, 2011, 2010, 2009], "most_recent": 2026}, {"name": "Austrian Institute for Health Technology Assessment GmbH", "country": "AT", "type": "nonprofit", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}, {"name": "Deutsche Gesellschaft für Anästhesiologie und Intensivmedizin", "country": "DE", "type": "other", "years": [2026], "most_recent": 2026}, {"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002], "most_recent": 2026}, {"name": "University of Lisbon", "country": "PT", "type": "education", "years": [2025], "most_recent": 2025}], "openalex_id": "A5073340029"},
         openalex_id: "A5073340029",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "DARE25-030", "programm": "DARE", "programm_name": "Digital Research Enablers", "call_jahr": 2025, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "Waveform Adaptation, Visualization, Export & Standardization framework:  Toolkit for Analytics & Reuse", "summe_eur": 84980, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/DARE25-030/"}]
       },
       {
         name: "Oliver Strobel",
@@ -14641,7 +15016,8 @@ const DATA = [
         openalex_id: "A5023419818",
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "CS18-039", "programm": "CS", "programm_name": "Cognitive Sciences", "call_jahr": 2018, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "Prefrontal circuits for cognitive flexibility in an extradimensional set-shifting task for mice and humans", "summe_eur": 599600, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/cs/CS18-039/"}]
       },
       {
         name: "Thomas Leonard",
@@ -15041,7 +15417,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT22-055", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "Instant Visualization and Interaction for Large Point Clouds", "summe_eur": 595930, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-055/"}]
       },
       {
         name: "Gareth Parkinson",
@@ -15113,7 +15490,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (W).",
         openalex_id: "A5009158531",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "ICT08-018", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2008, "rolle": "PI", "institution": "Vienna University of Technology", "titel": "FoSII - Foundations of Self-Governing ICT Infrastructures", "summe_eur": 300000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT08-018/"}, {"id": "ESR24-053", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "Co-PI", "institution": "TU Wien", "titel": "AI-supported Holographic Environmental Water Monitoring", "summe_eur": 695620, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR24-053/"}, {"id": "ICT25-062", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Advancing learning paradigms for photonic quantum processors", "summe_eur": 799675, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-062/"}]
       },
       {
         name: "Johann Auer",
@@ -15438,7 +15816,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5040396291"
+        openalex_id: "A5040396291",
+        wwtf_foerderung: [{"id": "ICT19-009", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Modeling the World at Scale", "summe_eur": 578450, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-009/"}, {"id": "ICT22-028", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "Toward Optimal Path Guiding for Photorealistic Rendering", "summe_eur": 716210, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT22-028/"}]
       },
       {
         name: "Peter Ertl",
@@ -15474,7 +15853,8 @@ const DATA = [
         wwtf_programme: [],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "LS13-092", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2013, "rolle": "Co-PI", "institution": "Austrian Institute of Technology", "titel": "Organ-on-a-Chip", "summe_eur": 771800, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS13-092/"}]
       },
       {
         name: "Peter Weinberger",
@@ -15687,7 +16067,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5048083028"
+        openalex_id: "A5048083028",
+        wwtf_foerderung: [{"id": "ICT25-005", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "TU Wien", "titel": "Efficient Self-Supervised Machine Learning for Adaptive Wireless Communication Systems", "summe_eur": 686176, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-005/"}]
       },
       {
         name: "Susann Ahn",
@@ -16647,7 +17028,8 @@ const DATA = [
         openalex_id: "A5033436698",
         stellentyp: null,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "LS22-024", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "University of Vienna", "titel": "Less is More: De-Prescribing Pharmaceuticals for Patient Safety and Sustainable Public Health", "summe_eur": 499890, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS22-024/"}]
       },
       {
         name: "Jeanine Dağyeli",
@@ -17152,7 +17534,8 @@ const DATA = [
         openalex_id: "A5001323853",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "VRG20-001", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2020, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Navigating landscapes of admixture", "summe_eur": 1599900, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG20-001/"}]
       },
       {
         name: "Michael Alfred Anton",
@@ -17421,7 +17804,8 @@ const DATA = [
         _openalex: {"works_count": 143, "cited_by_count": 5057, "h_index": 39, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021], "most_recent": 2026}, {"name": "University of Milan", "country": "IT", "type": "education", "years": [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002], "most_recent": 2023}, {"name": "NanoTemper Technologies (Germany)", "country": "DE", "type": "company", "years": [2023], "most_recent": 2023}, {"name": "Institute of Biomedical Technologies", "country": "IT", "type": "facility", "years": [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2015], "most_recent": 2023}, {"name": "Istituto Nazionale di Fisica Nucleare, Laboratori Acceleratori e Superconduttività Applicata", "country": "IT", "type": "facility", "years": [2022, 2019, 2017], "most_recent": 2022}], "openalex_id": "A5060836782"},
         openalex_id: "A5060836782",
         _kuratiert: null,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "LS24-038", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2024, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Decoding and engineering multiscale mechanoresponses in synthetic and biological tissues", "summe_eur": 949986, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS24-038/"}]
       },
       {
         name: "Samuel Matthias Meier-Menches",
@@ -18912,7 +19296,8 @@ const DATA = [
         _openalex: {"works_count": 169, "cited_by_count": 4834, "h_index": 38, "last_known_institutions": [{"name": "BOKU University", "country": "AT", "type": "education", "years": [2027, 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1996, 1995], "most_recent": 2027}, {"name": "Stockholm University", "country": "SE", "type": "education", "years": [2025, 2020, 2018], "most_recent": 2025}, {"name": "Swedish University of Agricultural Sciences", "country": "SE", "type": "education", "years": [2025, 2023], "most_recent": 2025}, {"name": "University of Vienna", "country": "AT", "type": "education", "years": [2024, 2020, 2019, 2018, 2016, 2015, 1995], "most_recent": 2024}, {"name": "Vienna Biocenter", "country": "AT", "type": "other", "years": [2021, 2016], "most_recent": 2021}], "openalex_id": "A5013956070"},
         openalex_id: "A5013956070",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS21-007", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2021, "rolle": "PI", "institution": "BOKU University", "titel": "Mutanofactin - A molecular adhesive in cariogenic microbial biofilms?", "summe_eur": 611980, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS21-007/"}, {"id": "LS25-099", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2025, "rolle": "PI", "institution": "BOKU - University of Natural Resources and Life Sciences", "titel": "Unraveling Host Glycobiology-Microbiome Interactions to Inform Precision Approaches in Colorectal Cancer", "summe_eur": 998582, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS25-099/"}]
       },
       {
         name: "Gerald Striedner",
@@ -18990,7 +19375,8 @@ const DATA = [
         zitierungen: 2090,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ESR24-012", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "Co-PI", "institution": "BOKU - University of Natural Resources and Life Sciences", "titel": "Targeting microplastic detoxification mechanisms for urban soil health", "summe_eur": 693862, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR24-012/"}]
       },
       {
         name: "Helmut Haberl",
@@ -20009,7 +20395,8 @@ const DATA = [
         wwtf_programme: ["LS"],
         _openalex: {"works_count": 157, "cited_by_count": 7017, "h_index": 43, "last_known_institutions": [{"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012], "most_recent": 2026}, {"name": "Ludwig Boltzmann Gesellschaft", "country": "AT", "type": "facility", "years": [2026], "most_recent": 2026}, {"name": "St Anna Children's Hospital", "country": "AT", "type": "healthcare", "years": [2026, 2025], "most_recent": 2026}, {"name": "CeMM Research Center for Molecular Medicine", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013], "most_recent": 2026}, {"name": "Institute of Medical Microbiology and Hygiene", "country": "DE", "type": "facility", "years": [2026], "most_recent": 2026}], "openalex_id": "A5068285493"},
         openalex_id: "A5068285493",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-004", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences", "titel": "Mutationsdynamik von SARS-CoV-2 in Österreich", "summe_eur": 50000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-004/"}, {"id": "ESR24-038", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Pioneering a Transdisciplinary Urban Surveillance System for Human Papilloma Virus with Vulnerable Communities", "summe_eur": 699405, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/esr/ESR24-038/"}]
       },
       {
         name: "Antonia Müller",
@@ -20381,7 +20768,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         openalex_id: "A5020665735",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-035", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "TU Wien", "titel": "Synthese von Krankheitsausbreitungs- und Netzwerksdaten für die Covid-19-Simulation", "summe_eur": 50000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-035/"}, {"id": "ICT20-015", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2020, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Transparent Automated Content Moderation (TACo)", "summe_eur": 348240, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT20-015/"}]
       },
       {
         name: "Bernhard Hofko",
@@ -20596,7 +20984,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (W).",
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5088081800"
+        openalex_id: "A5088081800",
+        wwtf_foerderung: [{"id": "ICT25-068", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "TU Wien", "titel": "Diffusion-Based Robot Control Policy with Safety Awareness and Generalization", "summe_eur": 551772, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-068/"}]
       },
       {
         name: "Elisa Davoli",
@@ -20812,7 +21201,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT15-015", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2015, "rolle": "PI", "institution": "TU Wien", "titel": "Realistic Indoor Path Visualization with Real-Time Obstacle Avoidance in Augmented Reality", "summe_eur": 424000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT15-015/"}]
       },
       {
         name: "Josef Weinbub",
@@ -20956,7 +21346,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ICT22-007", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "ForSmart: Effective Formal Methods for Smart-Contract Certification", "summe_eur": 799850, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT22-007/"}]
       },
       {
         name: "Michael Feischl",
@@ -21028,7 +21419,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT22-029", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "Parameterized Graph Drawing", "summe_eur": 781860, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT22-029/"}]
       },
       {
         name: "Thomas Konegger",
@@ -21404,7 +21796,8 @@ const DATA = [
         _openalex: {"works_count": 235, "cited_by_count": 10134, "h_index": 55, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015], "most_recent": 2026}, {"name": "Exponent (United States)", "country": "US", "type": "company", "years": [2026], "most_recent": 2026}, {"name": "Faculty (United Kingdom)", "country": "GB", "type": "company", "years": [2026], "most_recent": 2026}, {"name": "University of Veterinary Medicine Vienna", "country": "AT", "type": "education", "years": [2025, 2019, 2017], "most_recent": 2025}, {"name": "National Institute for Land and Infrastructure Management", "country": "JP", "type": "government", "years": [2025], "most_recent": 2025}], "openalex_id": "A5041929818"},
         openalex_id: "A5041929818",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS20-025", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Combating Viral Susceptibility in Premature Infants", "summe_eur": 738030, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-025/"}]
       },
       {
         name: "Christian Böhm",
@@ -21558,7 +21951,8 @@ const DATA = [
         wwtf_programme: ["LS"],
         _openalex: {"works_count": 270, "cited_by_count": 16091, "h_index": 59, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011], "most_recent": 2026}, {"name": "Ecologie microbienne", "country": "FR", "type": "facility", "years": [2026, 2025, 2024, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2011], "most_recent": 2026}, {"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019], "most_recent": 2026}, {"name": "Loughborough University", "country": "GB", "type": "education", "years": [2025], "most_recent": 2025}, {"name": "Ciência Viva", "country": "PT", "type": "government", "years": [2025], "most_recent": 2025}], "openalex_id": "A5011100190"},
         openalex_id: "A5011100190",
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "LS12-001", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2012, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Nutrition and the intestinal microbiota-host symbiosis: A  holistic stable isotope-labeling approach to decipher key microbial players and quantitatively link single cell activity to system function", "summe_eur": 335700, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS12-001/"}, {"id": "LS24-009", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2024, "rolle": "PI", "institution": "University of Vienna", "titel": "Engineering enhanced microbiome function using synthetic ecology", "summe_eur": 897156, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ls/LS24-009/"}]
       },
       {
         name: "Dieter Süss",
@@ -21598,7 +21992,8 @@ const DATA = [
         openalex_id: "A5110260790",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "MA14-044", "programm": "MA", "programm_name": "Mathematik und …", "call_jahr": 2014, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Thermally controlled magnetization dynamics", "summe_eur": 585000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/past/ma/MA14-044/"}]
       },
       {
         name: "Elias Moncef Bounatirou",
@@ -21915,7 +22310,8 @@ const DATA = [
         profil_url_auto: true,
         stellentyp: null,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "MA14-009", "programm": "MA", "programm_name": "Mathematik und …", "call_jahr": 2014, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Variational Modeling of Carbon Nanostructures", "summe_eur": 540000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/past/ma/MA14-009/"}]
       },
       {
         name: "Judith Frömmer",
@@ -22701,7 +23097,8 @@ const DATA = [
         openalex_id: "A5040701440",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "DARE25-056", "programm": "DARE", "programm_name": "Digital Research Enablers", "call_jahr": 2025, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "AI based Animal Behavior Coding Project", "summe_eur": 99658, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/DARE25-056/"}]
       },
       {
         name: "Philipp Grohs",
@@ -22740,7 +23137,8 @@ const DATA = [
         _openalex: {"works_count": 1770, "cited_by_count": 77816, "h_index": 128, "last_known_institutions": [{"name": "Universität Hamburg", "country": "DE", "type": "education", "years": [2026, 2025, 2024, 2023, 2019], "most_recent": 2026}, {"name": "Deutsches Elektronen-Synchrotron DESY", "country": "DE", "type": "facility", "years": [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2013], "most_recent": 2025}, {"name": "Karlsruhe Institute of Technology", "country": "DE", "type": "education", "years": [2024], "most_recent": 2024}, {"name": "Fermi National Accelerator Laboratory", "country": "US", "type": "facility", "years": [2024, 2023, 2016, 2015], "most_recent": 2024}, {"name": "A. Alikhanyan National Laboratory", "country": "AM", "type": "facility", "years": [2024, 2023], "most_recent": 2024}], "openalex_id": "A5005601284"},
         openalex_id: "A5005601284",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ICT19-041", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Transparent and explainable models", "summe_eur": 689160, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-041/"}]
       },
       {
         name: "Philipp Mitteröcker",
@@ -23248,7 +23646,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 71, "cited_by_count": 920, "h_index": 14, "last_known_institutions": [{"name": "University of Vienna", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2012, 2011, 2010], "most_recent": 2026}, {"name": "Universität Innsbruck", "country": "AT", "type": "education", "years": [2026], "most_recent": 2026}, {"name": "Theodore Roosevelt High School", "country": "US", "type": "education", "years": [2024, 2018, 2015], "most_recent": 2024}], "openalex_id": "A5066490363"},
         openalex_id: "A5066490363",
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "ICT20-016", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2020, "rolle": "PI", "institution": "University of Vienna", "titel": "Young People Against Online Hate: Computer-assisted Strategies for Facilitating Citizen-generated Counter Speech", "summe_eur": 449680, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT20-016/"}]
       },
       {
         name: "Valeska Huber",
@@ -23406,7 +23805,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "CS18-023", "programm": "CS", "programm_name": "Cognitive Sciences", "call_jahr": 2018, "rolle": "PI", "institution": "University of Veterinary Medicine Vienna", "titel": "The innovation problem: factors influencing innovative tool use in human infants and cockatoos", "summe_eur": 600000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/cs/CS18-023/"}]
       },
       {
         name: "Astrid Holzer",
@@ -23702,7 +24102,8 @@ const DATA = [
         _openalex: {"works_count": 204, "cited_by_count": 5968, "h_index": 43, "last_known_institutions": [{"name": "Vienna University of Economics and Business", "country": "AT", "type": "education", "years": [2025, 2024, 2023, 2022], "most_recent": 2025}, {"name": "TU Wien", "country": "AT", "type": "education", "years": [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014], "most_recent": 2023}, {"name": "Siemens (Austria)", "country": "AT", "type": "company", "years": [2021, 2020, 2019], "most_recent": 2021}, {"name": "University of Vienna", "country": "AT", "type": "education", "years": [2020, 2018, 2016, 2011], "most_recent": 2020}, {"name": "Institute for Systems Biology", "country": "US", "type": "nonprofit", "years": [2019], "most_recent": 2019}], "openalex_id": "A5002849767"},
         openalex_id: "A5002849767",
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "DCDH23-001", "programm": "DCDH", "programm_name": "Doctoral College Digital Humanism", "call_jahr": 2023, "rolle": "Co-PI", "institution": "WU - Vienna University of Economics and Business", "titel": "Vienna Doctoral College on Digital Humanism", "summe_eur": 1799999, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/DCDH23-001/"}, {"id": "ICT25-032", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "WU - Vienna University of Economics and Business", "titel": "From Structures to Vectors: Decoding How Knowledge Graph Characteristics Shape Embedding Strategies", "summe_eur": 799530, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-032/"}]
       },
       {
         name: "Martin Kornberger",
@@ -25416,7 +25817,8 @@ const DATA = [
         zitierungen: 3486,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS14-001", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2014, "rolle": "PI", "institution": "University of Vienna", "titel": "Imaging recruitment of chromatin remodelling proteins to the sites of DNA damage induced by laser microirradiation", "summe_eur": 517000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS14-001/"}, {"id": "NXT17-017", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2017, "rolle": "PI", "institution": "Max Perutz Labs", "titel": "Applying a new UV laser-based module to monitor protein-protein interactions after DNA damage using time-resolved spectroscopy", "summe_eur": 48660, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT17-017/"}]
       },
       {
         name: "Egon Ogris",
@@ -25528,7 +25930,8 @@ const DATA = [
         zitierungen: 6964,
         wwtf_programme: ["LS", "CS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS20-030", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "PIMIENTO PrecIsion Medicine in IntravENTricular hemorrhage for Outcome prediction", "summe_eur": 865350, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-030/"}]
       },
       {
         name: "Harun Fajkovic",
@@ -25640,7 +26043,8 @@ const DATA = [
         openalex_id: "A5059310975",
         werdegang_auto: true,
         profil_url_auto: true,
-        _ofos_auto: true
+        _ofos_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-002", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "Institute of Molecular Biotechnology (IMBA)", "titel": "Molekulares Verständnis der COVID-19-Pathogenese in menschlichen Blutgefäß-Organoiden", "summe_eur": 50000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-002/"}]
       },
       {
         name: "Judith Aberle",
@@ -25715,7 +26119,8 @@ const DATA = [
         zitierungen: 1480,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ME-CFS24-001", "programm": "ME-CFS", "programm_name": "ME/CFS", "call_jahr": 2024, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Adult patients with severe and very severe ME/CFS in Austria. A multi-perspective study.", "summe_eur": 99752, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/ME-CFS24-001/"}, {"id": "ME-CFS24-002", "programm": "ME-CFS", "programm_name": "ME/CFS", "call_jahr": 2024, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "Genetic architecture of chronic fatigue syndrome", "summe_eur": 99797, "status": "Abgeschlossen", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/ME-CFS24-002/"}, {"id": "ME-CFS-CC26-003", "programm": "ME-CFS", "programm_name": "ME/CFS", "call_jahr": 2026, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "Rare Variant and Epigenomic Analysis in ME/CFS", "summe_eur": 999169, "status": "Vertrag in Vorbereitung", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/ME-CFS-CC26-003/"}]
       },
       {
         name: "Martin Andreas",
@@ -26186,7 +26591,8 @@ const DATA = [
         wwtf_programme: [],
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
-        _kuratiert: "Handrecherche 2026-08-27 aus TU Wien Team-Profil + Fraunhofer Austria Pressemeldung"
+        _kuratiert: "Handrecherche 2026-08-27 aus TU Wien Team-Profil + Fraunhofer Austria Pressemeldung",
+        wwtf_foerderung: [{"id": "EI-COV20-036", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "TU Wien", "titel": "FORENSICS - FORecasting models to Ensure the provision of ServICeS of general interest", "summe_eur": 38130, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-036/"}]
       },
       {
         name: "Gerald Matz",
@@ -26222,7 +26628,8 @@ const DATA = [
         wwtf_programme: [],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT08-044", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2008, "rolle": "PI", "institution": "Vienna University of Technology", "titel": "Distributed Information Processing for Spatio-Temporal Fields in Wireless Sensor Networks", "summe_eur": 580000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT08-044/"}, {"id": "ICT12-054", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2012, "rolle": "PI", "institution": "TU Wien", "titel": "The Information Bottleneck Principle in Multiterminal Communication and Inference", "summe_eur": 504000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT12-054/"}, {"id": "ICT15-119", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2015, "rolle": "PI", "institution": "TU Wien", "titel": "Communication and Complexity Constrained Inference over Graphs for  Big Data", "summe_eur": 500000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT15-119/"}, {"id": "NXT17-013", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2017, "rolle": "PI", "institution": "Vienna University of Technology", "titel": "Unleashing finite-alphabet implementations of LDPC decoders (UNFOLD)", "summe_eur": 50000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT17-013/"}]
       },
       {
         name: "Hannes Mikula",
@@ -26258,7 +26665,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (M).",
         openalex_id: "A5072671157",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "LS21-067", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2021, "rolle": "PI", "institution": "TU Wien", "titel": "Click-activatable circular oligonucleotides for bioorthogonal translation", "summe_eur": 500000, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS21-067/"}]
       },
       {
         name: "Harald Stühlinger",
@@ -26401,7 +26809,8 @@ const DATA = [
         vrg_id: "VRG18-012",
         vrg_call: 2018,
         _kuratiert: "Handrecherche 2026-08-27 aus TU Wien New-Professors Detailseite",
-        openalex_id: "A5101447443"
+        openalex_id: "A5101447443",
+        wwtf_foerderung: [{"id": "VRG18-012", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2018, "rolle": "VRG-Leitung", "institution": "TU Wien", "titel": "Structural and Algorithmic Aspects of Preference-based Problems in Social Choice", "summe_eur": 1599620, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG18-012/"}]
       },
       {
         name: "Juri Troy",
@@ -26472,7 +26881,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (W).",
         openalex_id: "A5015313855",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "ICT25-032", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "From Structures to Vectors: Decoding How Knowledge Graph Characteristics Shape Embedding Strategies", "summe_eur": 799530, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-032/"}]
       },
       {
         name: "Kristina Orehounig",
@@ -26652,7 +27062,8 @@ const DATA = [
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (W).",
         openalex_id: "A5009694552",
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "ICT19-056", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2019, "rolle": "PI", "institution": "TU Wien", "titel": "IoTIO: Analyzing and Understanding the Internet of Insecure Things", "summe_eur": 783940, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT19-056/"}, {"id": "ICT22-060", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "Fixing the Broken Bridge Between Mobile Apps and the Web", "summe_eur": 798760, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT22-060/"}]
       },
       {
         name: "Mate Gerencser",
@@ -26796,7 +27207,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "ICT25-044", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Learning Abstractions for Generalized Reasoning in AI", "summe_eur": 799932, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-044/"}]
       },
       {
         name: "Oliver Englhardt",
@@ -27270,7 +27682,8 @@ const DATA = [
         zitierungen: null,
         wwtf_programme: ["DH"],
         _openalex: {"works_count": 48, "cited_by_count": 2945, "h_index": 22, "last_known_institutions": [{"name": "German Cancer Research Center", "country": "DE", "type": "facility", "years": [2026], "most_recent": 2026}, {"name": "Heidelberg University", "country": "DE", "type": "education", "years": [2026], "most_recent": 2026}, {"name": "University of Würzburg", "country": "DE", "type": "education", "years": [2023, 2022, 2019, 2011, 2010, 2009, 2008, 2007], "most_recent": 2023}, {"name": "Bavarian Center for Applied Energy Research", "country": "DE", "type": "nonprofit", "years": [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2012], "most_recent": 2021}, {"name": "IMMS Institut für Mikroelektronik- und Mechatronik-Systeme gemeinnützige GmbH (IMMS GmbH)", "country": "DE", "type": "facility", "years": [2010], "most_recent": 2010}], "openalex_id": "A5101506461"},
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "ICT23-012", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2023, "rolle": "PI", "institution": "University of Vienna", "titel": "Disentangling effects of digitization on linguistic diversity", "summe_eur": 594948, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT23-012/"}]
       },
       {
         name: "Angelika Manhart",
@@ -27470,7 +27883,8 @@ const DATA = [
         openalex_id: "A5002522367",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "DARE25-056", "programm": "DARE", "programm_name": "Digital Research Enablers", "call_jahr": 2025, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "AI based Animal Behavior Coding Project", "summe_eur": 99658, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ei/DARE25-056/"}]
       },
       {
         name: "Bernardo Ballesteros Petrella",
@@ -28060,7 +28474,8 @@ const DATA = [
         openalex_id: "A5028735345",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "LS23-002", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2023, "rolle": "PI", "institution": "University of Vienna", "titel": "Dynamic nanoscale reconstruction of endocytosis with high-throughput superresolution microscopy and machine-learning", "summe_eur": 799809, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ls/LS23-002/"}]
       },
       {
         name: "Josef Pradler",
@@ -30997,7 +31412,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 14, "cited_by_count": 22, "h_index": 1, "last_known_institutions": [{"name": "KHM-Museumsverband", "country": "AT", "type": "archive", "years": [2018], "most_recent": 2018}, {"name": "Technisches Museum Wien", "country": "AT", "type": "archive", "years": [2018], "most_recent": 2018}], "openalex_id": "A5086871394"},
         openalex_id: "A5086871394",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "RO22-006", "programm": "RO", "programm_name": "Roadmaps", "call_jahr": 2022, "rolle": "PI", "institution": "Technisches Museum Wien mit Österreichischer Mediathek", "titel": "Panzerknacker", "summe_eur": 40000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/RO22-006/"}]
       },
       {
         name: "Miya Yoshida",
@@ -31595,7 +32011,8 @@ const DATA = [
         openalex_id: "A5001951606",
         werdegang_auto: true,
         profil_url_auto: true,
-        _ofos_auto: true
+        _ofos_auto: true,
+        wwtf_foerderung: [{"id": "LS22-011", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2022, "rolle": "Co-PI", "institution": "Klinik Landstraße", "titel": "Retinomics for precision profiling of coronary heart disease risk", "summe_eur": 499860, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS22-011/"}]
       },
       {
         name: "Bernhard Baumann",
@@ -31780,7 +32197,8 @@ const DATA = [
         wwtf_programme: ["LS"],
         _kuratiert: "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2024-02-21; Assoziierte Professur (§99(4))",
         _openalex: {"works_count": 214, "cited_by_count": 3960, "h_index": 34, "last_known_institutions": [{"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019], "most_recent": 2026}, {"name": "Institute for Medieval Research", "country": "AT", "type": "facility", "years": [2026], "most_recent": 2026}, {"name": "Christian Doppler Laboratory for Thermoelectricity", "country": "AT", "type": "facility", "years": [2026, 2025], "most_recent": 2026}, {"name": "CeMM Research Center for Molecular Medicine", "country": "AT", "type": "facility", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019], "most_recent": 2026}, {"name": "Universitätszahnklinik Wien", "country": "AT", "type": "healthcare", "years": [2026, 2025, 2024, 2023, 2022, 2020], "most_recent": 2026}], "openalex_id": "A5018390548"},
-        openalex_id: "A5018390548"
+        openalex_id: "A5018390548",
+        wwtf_foerderung: [{"id": "LS18-058", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2018, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Systems medicine analysis of sarcoidosis by targeting mTOR in a co-clinical trial in patients and mice", "summe_eur": 799570, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS18-058/"}, {"id": "NXT22-005", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2022, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Lipid metabolism in granulomatous diseases", "summe_eur": 74930, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT22-005/"}]
       },
       {
         name: "Harald Kittler",
@@ -32085,7 +32503,8 @@ const DATA = [
         vrg_id: "VRG21-015",
         vrg_call: 2021,
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "VRG21-015", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2021, "rolle": "VRG-Leitung", "institution": "Medical University of Vienna", "titel": "Neuronal and neuropeptidergic mechanisms for flexible control of learning and memory", "summe_eur": 1599980, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG21-015/"}]
       },
       {
         name: "Sebastian Schoppmann",
@@ -32234,7 +32653,8 @@ const DATA = [
         zitierungen: 9534,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "EI-COV20-027", "programm": "EI", "programm_name": "Ergänzende Instrumente", "call_jahr": 2020, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "SARS CoV-2: Mental Health in Österreich", "summe_eur": 49800, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/EI-COV20-027/"}]
       },
       {
         name: "Ulrike Attenberger",
@@ -32486,7 +32906,8 @@ const DATA = [
         publikationen: 134,
         zitierungen: 2008,
         wwtf_programme: ["ICT"],
-        werdegang_auto: true
+        werdegang_auto: true,
+        wwtf_foerderung: [{"id": "ICT25-081", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Foundations and Applications of Resource-Restricted Cryptography", "summe_eur": 878848, "status": "Laufend", "zeitbezug": "nach", "url": "https://wwtf.at/funding/programmes/ict/ICT25-081/"}]
       },
       {
         name: "Emanuela Bianchi",
@@ -32558,7 +32979,8 @@ const DATA = [
         wwtf_programme: [],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "LS24-011", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2024, "rolle": "PI", "institution": "TU Wien", "titel": "Designing synthetic antigen-presenting cells to determine the 3D nanoenvironment of T-cell antigen recognition", "summe_eur": 897677, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ls/LS24-011/"}]
       },
       {
         name: "Gerald Schweiger",
@@ -32702,7 +33124,8 @@ const DATA = [
         wwtf_programme: [],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ESR17-070", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2017, "rolle": "Co-PI", "institution": "TU Wien", "titel": "The impact of Giardia spp. as a reference pathogen in urban water systems", "summe_eur": 649990, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR17-070/"}, {"id": "ESR20-013", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2020, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Health risk of emerging concern: PFAS in the urban water cycle", "summe_eur": 649860, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR20-013/"}]
       },
       {
         name: "Julia Eisenberg",
@@ -34339,7 +34762,8 @@ const DATA = [
         openalex_id: "A5013388710",
         werdegang_auto: true,
         profil_url_auto: true,
-        stellentyp: null
+        stellentyp: null,
+        wwtf_foerderung: [{"id": "VRG22-007", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2022, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Biotrophic fungal diversity & functional responses to climate change", "summe_eur": 1599190, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG22-007/"}]
       },
       {
         name: "Martin Eisend",
@@ -35113,7 +35537,8 @@ const DATA = [
         wwtf_programme: ["LS"],
         werdegang_auto: true,
         profil_url_auto: true,
-        _ofos_auto: true
+        _ofos_auto: true,
+        wwtf_foerderung: [{"id": "CS15-018", "programm": "CS", "programm_name": "Cognitive Sciences", "call_jahr": 2015, "rolle": "Co-PI", "institution": "University of Veterinary Medicine Vienna", "titel": "A New Look at Domestication: The Role of Oxytocin in Wolves’ and Dogs’ Social Relationships with Conspecific and Human Partners", "summe_eur": 599900, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/cs/CS15-018/"}, {"id": "ESR20-009", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2020, "rolle": "Co-PI", "institution": "University of Veterinary Medicine Vienna", "titel": "Urbanization of a top predator: are wolves and humans adapting to life in close proximity?", "summe_eur": 649620, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR20-009/"}]
       },
       {
         name: "Gema Alama Bermejo",
@@ -36819,7 +37244,8 @@ const DATA = [
         zitierungen: 6872,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ESR24-012", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2024, "rolle": "PI", "institution": "BOKU - University of Natural Resources and Life Sciences", "titel": "Targeting microplastic detoxification mechanisms for urban soil health", "summe_eur": 693862, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR24-012/"}]
       },
       {
         name: "Mario Pesendorfer",
@@ -36950,7 +37376,8 @@ const DATA = [
         zitierungen: 13922,
         wwtf_programme: [],
         _openalex: {"works_count": 376, "cited_by_count": 13922, "h_index": 63, "last_known_institutions": [{"name": "BOKU University", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001], "most_recent": 2026}, {"name": "Institute of Food Science and Technology", "country": "CN", "type": "facility", "years": [2024], "most_recent": 2024}, {"name": "Institute of Food Science & Technology", "country": "GB", "type": "nonprofit", "years": [2024, 2023], "most_recent": 2024}, {"name": "Pliva (Croatia)", "country": "HR", "type": "company", "years": [2019], "most_recent": 2019}, {"name": "Shimadzu (Japan)", "country": "JP", "type": "company", "years": [2019], "most_recent": 2019}], "openalex_id": "A5044352119"},
-        openalex_id: "A5044352119"
+        openalex_id: "A5044352119",
+        wwtf_foerderung: [{"id": "LS17-069", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2017, "rolle": "PI", "institution": "BOKU University", "titel": "Diaziridine-FAD: A stable cofactor for biocatalysts and a molecular probe", "summe_eur": 544440, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS17-069/"}]
       },
       {
         name: "Sabine Seidel",
@@ -37488,7 +37915,8 @@ const DATA = [
         zitierungen: 13213,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS22-028", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Improvement and protection of women's health at a population level by Value Based Breast Screening in Vienna", "summe_eur": 499990, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS22-028/"}]
       },
       {
         name: "Stathis Megas",
@@ -37593,7 +38021,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         quelle: "https://www.meduniwien.ac.at/web/en/ueber-uns/news/2025/news-in-july-2025/thomas-scherer-takes-up-professorship-in-the-field-of-endocrinology-and-metabolism/",
-        _kuratiert: " | 2026-11-02: art_berufung §98 → §99(4). Presseinformation: MedUni-News 1.7.2025: Professur im Fachbereich Endokrinologie und Stoffwechsel (§99(4)) ab 1.7.2025"
+        _kuratiert: " | 2026-11-02: art_berufung §98 → §99(4). Presseinformation: MedUni-News 1.7.2025: Professur im Fachbereich Endokrinologie und Stoffwechsel (§99(4)) ab 1.7.2025",
+        wwtf_foerderung: [{"id": "ME-CFS24-007", "programm": "ME-CFS", "programm_name": "ME/CFS", "call_jahr": 2024, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "The role of the skeletal muscle and myocardial metabolism in ME/CFS:  in vivo MRS study.", "summe_eur": 99982, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/ME-CFS24-007/"}]
       },
       {
         name: "Albert Hirtl",
@@ -37851,7 +38280,8 @@ const DATA = [
         werdegang_auto: true,
         vrg_id: "VRG18-013",
         vrg_call: 2018,
-        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
+        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+        wwtf_foerderung: [{"id": "VRG18-013", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2018, "rolle": "VRG-Leitung", "institution": "TU Wien", "titel": "Scalable Reasoning in Knowledge Graphs", "summe_eur": 1600000, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG18-013/"}, {"id": "NXT22-018", "programm": "NXT", "programm_name": "NEXT Transfer", "call_jahr": 2022, "rolle": "PI", "institution": "TU Wien", "titel": "Knowledge Graph-driven Tour Management for Sustainable Waste Processing", "summe_eur": 75000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/NXT22-018/"}, {"id": "ICT25-032", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "From Structures to Vectors: Decoding How Knowledge Graph Characteristics Shape Embedding Strategies", "summe_eur": 799530, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT25-032/"}]
       },
       {
         name: "Florian Rudroff",
@@ -38082,7 +38512,8 @@ const DATA = [
         _openalex: {"works_count": 53, "cited_by_count": 650, "h_index": 13, "last_known_institutions": [{"name": "TU Wien", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2013, 2012, 2011, 2010, 2008], "most_recent": 2026}, {"name": "Flatiron Health (United States)", "country": "US", "type": "company", "years": [2023], "most_recent": 2023}, {"name": "Flatiron Institute", "country": null, "type": "nonprofit", "years": [2023], "most_recent": 2023}, {"name": "Instituto de Física Teórica", "country": "ES", "type": "facility", "years": [2020], "most_recent": 2020}, {"name": "Max Planck Institute for Nuclear Physics", "country": "DE", "type": "nonprofit", "years": [2020], "most_recent": 2020}], "openalex_id": "A5035664973"},
         openalex_id: "A5035664973",
         werdegang_auto: true,
-        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
+        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+        wwtf_foerderung: [{"id": "MA14-002", "programm": "MA", "programm_name": "Mathematik und …", "call_jahr": 2014, "rolle": "Co-PI", "institution": "Vienna University of Technology", "titel": "Adaptive Time-Splitting for Many-Body Quantum Propagation", "summe_eur": 585000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/past/ma/MA14-002/"}]
       },
       {
         name: "Johannes Pistrol",
@@ -38338,7 +38769,8 @@ const DATA = [
         _openalex: {"works_count": 95, "cited_by_count": 1015, "h_index": 15, "last_known_institutions": [{"name": "TU Wien", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2013], "most_recent": 2026}, {"name": "Bundesamt für Wasserwirtschaft", "country": "AT", "type": "government", "years": [2025], "most_recent": 2025}, {"name": "Institute for Environmental Management", "country": "US", "type": "nonprofit", "years": [2024, 2022, 2020], "most_recent": 2024}, {"name": "Interuniversity Cooperation Centre Water & Health", "country": "AT", "type": "facility", "years": [2023, 2022, 2019], "most_recent": 2023}, {"name": "Medical University of Vienna", "country": "AT", "type": "education", "years": [2023], "most_recent": 2023}], "openalex_id": "A5056607694"},
         openalex_id: "A5056607694",
         werdegang_auto: true,
-        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
+        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+        wwtf_foerderung: [{"id": "ESR20-013", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2020, "rolle": "PI", "institution": "TU Wien", "titel": "Health risk of emerging concern: PFAS in the urban water cycle", "summe_eur": 649860, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR20-013/"}]
       },
       {
         name: "Paul Romatschke",
@@ -38402,7 +38834,8 @@ const DATA = [
         _openalex: {"works_count": 105, "cited_by_count": 360, "h_index": 11, "last_known_institutions": [{"name": "TU Wien", "country": "AT", "type": "education", "years": [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018], "most_recent": 2026}, {"name": "SBA Research", "country": "AT", "type": "facility", "years": [2025], "most_recent": 2025}, {"name": "Wienerberger (Czechia)", "country": "CZ", "type": "company", "years": [2024], "most_recent": 2024}, {"name": "University of Groningen", "country": "NL", "type": "education", "years": [2021, 2020], "most_recent": 2021}, {"name": "Eindhoven University of Technology", "country": "NL", "type": "education", "years": [2017, 2016, 2015, 2014], "most_recent": 2017}], "openalex_id": "A5048468645"},
         openalex_id: "A5048468645",
         werdegang_auto: true,
-        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019"
+        quelle: "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+        wwtf_foerderung: [{"id": "ICT25-043", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Haptic 4D Printing for Enhanced Sensemaking", "summe_eur": 646699, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT25-043/"}]
       },
       {
         name: "Teresa Liberto",
@@ -38759,7 +39192,8 @@ const DATA = [
         openalex_id: "A5059441374",
         _kuratiert: "Universität Wien, Wissensbilanz 2025, Abschnitt \"Berufungen des Jahres 2025\" (Mitteilungsblatt 2025/26, 36. Stück, Nr. 273, 10.07.2026): Universitätsprofessur.",
         quelle: "https://mtbl.univie.ac.at/storage/media/mtbl02/2025_2026/2025_2026_273.pdf",
-        stellentyp: "Universitätsprofessur"
+        stellentyp: "Universitätsprofessur",
+        wwtf_foerderung: [{"id": "LS23-024", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2023, "rolle": "PI", "institution": "ÖAW - Austrian Academy of Sciences", "titel": "Decoding elephant communication with AI", "summe_eur": 876188, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS23-024/"}]
       },
       {
         name: "Anna Antoniou",
@@ -39066,7 +39500,8 @@ const DATA = [
         zitierungen: 10134,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS20-025", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2020, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Combating Viral Susceptibility in Premature Infants", "summe_eur": 738030, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS20-025/"}]
       },
       {
         name: "Benjamin Vernot",
@@ -39669,7 +40104,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "CS15-003", "programm": "CS", "programm_name": "Cognitive Sciences", "call_jahr": 2015, "rolle": "PI", "institution": "University of Vienna", "titel": "\"Wanting\" and \"Liking\": The Neurochemical and Neurocognitive Basis of Primary and Social Reward in Humans", "summe_eur": 600000, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/cs/CS15-003/"}, {"id": "LS22-061", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2022, "rolle": "PI", "institution": "University of Vienna", "titel": "COMET for Kids: A COmprehensive MEntal health literacy Training for primary school children", "summe_eur": 550000, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS22-061/"}]
       },
       {
         name: "Hannes Fellner",
@@ -39709,7 +40145,8 @@ const DATA = [
         zitierungen: 31,
         wwtf_programme: ["DH"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ICT23-012", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2023, "rolle": "Co-PI", "institution": "University of Vienna", "titel": "Disentangling effects of digitization on linguistic diversity", "summe_eur": 594948, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT23-012/"}]
       },
       {
         name: "Himani Sachdeva",
@@ -39831,7 +40268,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "VRG14-021", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2014, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Understanding molecular host-microbe interactions in nature: Lucinid clams and their chemosynthetic symbionts", "summe_eur": 1600000, "status": null, "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG14-021/"}]
       },
       {
         name: "Johanna Ullrich",
@@ -40061,7 +40499,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "ICT25-081", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "Formerly Klein", "titel": "Foundations and Applications of Resource-Restricted Cryptography", "summe_eur": 878848, "status": "Laufend", "zeitbezug": "im Berufungsjahr", "url": "https://wwtf.at/funding/programmes/ict/ICT25-081/"}]
       },
       {
         name: "Katharina Ivanyi",
@@ -40476,7 +40915,8 @@ const DATA = [
         zitierungen: 5403,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS18-053", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2018, "rolle": "PI", "institution": "University of Vienna", "titel": "Targeting mucosal biofilms in patients with gastrointestinal disorders", "summe_eur": 799300, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS18-053/"}]
       },
       {
         name: "Mathew White",
@@ -41332,7 +41772,8 @@ const DATA = [
         werdegang_auto: true,
         profil_url_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (W)."
+        _note: " Geschlecht aus Vorname inferiert (W).",
+        wwtf_foerderung: [{"id": "VRG17-014", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2017, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Kinetic Theory Applied to the Study of Fertility, Cancer and Development", "summe_eur": 1575460, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG17-014/"}]
       },
       {
         name: "Sebastian Schuster",
@@ -41374,7 +41815,8 @@ const DATA = [
         vrg_id: "VRG23-007",
         vrg_call: 2023,
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "VRG23-007", "programm": "VRG", "programm_name": "Vienna Research Groups", "call_jahr": 2023, "rolle": "VRG-Leitung", "institution": "University of Vienna", "titel": "Understanding Language in Context", "summe_eur": 1599016, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/vrg/VRG23-007/"}]
       },
       {
         name: "Sonia Kleindorfer",
@@ -42929,7 +43371,8 @@ const DATA = [
         zitierungen: 8706,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS24-058", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2024, "rolle": "PI", "institution": "BOKU - University of Natural Resources and Life Sciences", "titel": "Designing a professional-secretory synthetic endoplasmic reticulum in yeasts and plant cells", "summe_eur": 897906, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS24-058/"}]
       },
       {
         name: "Christian Garaus",
@@ -43287,7 +43730,8 @@ const DATA = [
         zitierungen: 3779,
         wwtf_programme: [],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "ESR20-011", "programm": "ESR", "programm_name": "Environmental Systems Research", "call_jahr": 2020, "rolle": "PI", "institution": "BOKU University", "titel": "The social equality of Nature-based Solutions to urban heat stress", "summe_eur": 649650, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/esr/ESR20-011/"}]
       },
       {
         name: "Daniel Weitzel",
@@ -43511,7 +43955,8 @@ const DATA = [
         zitierungen: 4955,
         wwtf_programme: ["LS"],
         werdegang_auto: true,
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "DARE25-030", "programm": "DARE", "programm_name": "Digital Research Enablers", "call_jahr": 2025, "rolle": "Co-PI", "institution": "Medical University of Vienna", "titel": "Waveform Adaptation, Visualization, Export & Standardization framework:  Toolkit for Analytics & Reuse", "summe_eur": 84980, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ei/DARE25-030/"}]
       },
       {
         name: "Peter Marhofer",
@@ -43701,7 +44146,8 @@ const DATA = [
         wwtf_programme: [],
         _openalex: {"works_count": 336, "cited_by_count": 8249, "h_index": 48, "last_known_institutions": [{"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2026, 2024, 2023], "most_recent": 2026}, {"name": "Ludwig Boltzmann Institute for Age Research", "country": "AT", "type": "facility", "years": [2026, 2024, 2023], "most_recent": 2026}, {"name": "St Anna Children's Hospital", "country": "AT", "type": "healthcare", "years": [2026, 2020, 2015], "most_recent": 2026}, {"name": "AGO Austria", "country": "AT", "type": "nonprofit", "years": [2026, 2025, 2024], "most_recent": 2026}, {"name": "Karl Landsteiner Society", "country": "AT", "type": "other", "years": [2026, 2024, 2023, 2022, 2021, 2020], "most_recent": 2026}], "openalex_id": "A5013318666"},
         openalex_id: "A5013318666",
-        profil_url_auto: true
+        profil_url_auto: true,
+        wwtf_foerderung: [{"id": "LS12-039", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2012, "rolle": "PI", "institution": "Medical University of Vienna", "titel": "Nutrition intervention and physical training in malnourished  frail community-dwelling elderly subjects carried out by trained lay buddies", "summe_eur": 309000, "status": null, "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS12-039/"}]
       },
       {
         name: "Thomas Staudinger",
@@ -43956,7 +44402,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         _geschlecht_inferred: true,
         _note: " Geschlecht aus Vorname inferiert (W).",
-        _kuratiert: "Handrecherche (Werdegang) via https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/a/associate-prof-elena-andreeva-phd: Handrecherche 2026-08-26 aus TU-Wien-Personenseite (direkt abgerufen)."
+        _kuratiert: "Handrecherche (Werdegang) via https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/a/associate-prof-elena-andreeva-phd: Handrecherche 2026-08-26 aus TU-Wien-Personenseite (direkt abgerufen).",
+        wwtf_foerderung: [{"id": "ICT25-075", "programm": "ICT", "programm_name": "Information & Communication Technology", "call_jahr": 2025, "rolle": "PI", "institution": "TU Wien", "titel": "Cross-Domain Privacy-Preserving Protocols and Symmetric Cryptography", "summe_eur": 797739, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/ICT25-075/"}]
       },
       {
         name: "Emanuel Ionescu",
@@ -44171,7 +44618,8 @@ const DATA = [
         wwtf_programme: ["ICT"],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "DCDH23-001", "programm": "DCDH", "programm_name": "Doctoral College Digital Humanism", "call_jahr": 2023, "rolle": "PI", "institution": "TU Wien", "titel": "Vienna Doctoral College on Digital Humanism", "summe_eur": 1799999, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ict/DCDH23-001/"}]
       },
       {
         name: "Siegfried Krainer",
@@ -44279,7 +44727,8 @@ const DATA = [
         wwtf_programme: [],
         werdegang_auto: true,
         _geschlecht_inferred: true,
-        _note: " Geschlecht aus Vorname inferiert (M)."
+        _note: " Geschlecht aus Vorname inferiert (M).",
+        wwtf_foerderung: [{"id": "LS24-011", "programm": "LS", "programm_name": "Life Sciences", "call_jahr": 2024, "rolle": "Co-PI", "institution": "TU Wien", "titel": "Designing synthetic antigen-presenting cells to determine the 3D nanoenvironment of T-cell antigen recognition", "summe_eur": 897677, "status": "Laufend", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/ls/LS24-011/"}]
       },
       {
         name: "Tobias Fiebig",
@@ -44771,7 +45220,8 @@ const DATA = [
         _openalex: {"works_count": 98, "cited_by_count": 207, "h_index": 8, "last_known_institutions": [{"name": "University of Toronto", "country": "CA", "type": "education", "years": [2025, 2024, 2023, 2022, 2021, 2017, 2011], "most_recent": 2025}, {"name": "University of Vienna", "country": "AT", "type": "education", "years": [2022, 2019, 2018, 2017], "most_recent": 2022}, {"name": "Austrian Academy of Sciences", "country": "AT", "type": "government", "years": [2022, 2021, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012], "most_recent": 2022}, {"name": "Canada Research Chairs", "country": "CA", "type": "government", "years": [2011], "most_recent": 2011}, {"name": "Sapienza University of Rome", "country": "IT", "type": "education", "years": [2010, 2009], "most_recent": 2010}], "openalex_id": "A5082143274"},
         openalex_id: "A5082143274",
         profil_url_auto: true,
-        stellentyp: "Universitätsprofessur"
+        stellentyp: "Universitätsprofessur",
+        wwtf_foerderung: [{"id": "MA16-028", "programm": "MA", "programm_name": "Mathematik und …", "call_jahr": 2016, "rolle": "Co-PI", "institution": "Austrian Academy of Sciences", "titel": "Reasoning Tools for Deontic logic and Applications to Indian Sacred Texts", "summe_eur": 628200, "status": "Abgeschlossen", "zeitbezug": "vor", "url": "https://wwtf.at/funding/programmes/past/ma/MA16-028/"}]
       },
       {
         name: "Erika Kovacs",
@@ -48731,6 +49181,18 @@ function renderCards(data) {
     const vrgBadge = d.vrg_id
       ? `<span class="badge badge-vrg" title="Vienna Research Group ${d.vrg_id}">WWTF VRG ${d.vrg_call}</span>`
       : '';
+    const foerd = (d.wwtf_foerderung || []).filter(f => f.id !== d.vrg_id);
+    const vorher = foerd.filter(f => f.zeitbezug === 'vor').length;
+    const wwtfBadge = foerd.length
+      ? `<span class="badge badge-wwtf" title="${foerd.map(f => `${f.id} (${f.rolle}, Call ${f.call_jahr})`).join(', ')}">WWTF-gefördert${
+          foerd.length > 1 ? ' ×' + foerd.length : ''}${vorher && vorher === foerd.length ? ' · vor Berufung' : ''}</span>`
+      : '';
+    const foerdDetail = foerd.length
+      ? `<ul class="foerderung-liste">${foerd.map(f =>
+          `<li><a href="${f.url}" target="_blank" rel="noopener">${f.id}</a> · ${f.rolle} · ${f.programm_name}${
+            f.call_jahr ? ` ${f.call_jahr}` : ''}${f.zeitbezug ? ` (${f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung'})` : ''}${
+            f.titel ? `: <span title="${f.titel.replace(/"/g, '&quot;')}">${f.titel.length > 70 ? f.titel.slice(0, 70) + '…' : f.titel}</span>` : ''}</li>`).join('')}</ul>`
+      : '';
 
     const ab = d.abgang;
     const abgangBadge = ab
@@ -48763,6 +49225,7 @@ function renderCards(data) {
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
           ${vrgBadge}
+          ${wwtfBadge}
           ${abgangBadge}
           ${ofosBadge}
           ${wwtfBadges}
@@ -48770,6 +49233,7 @@ function renderCards(data) {
         ${metricsHtml}
         ${bioPreview ? `<div class="card-bio">${bioPreview}${d.bio_text.length > 200 ? '…' : ''}</div>` : ''}
         ${herkunftDetail}
+        ${foerdDetail}
         ${abgangDetail}
         <div class="card-footer">
           ${d.werdegang
@@ -48817,8 +49281,12 @@ function currentFilteredData() {
     if (land && d.herkunft_land !== land) return false;
     if (wwtf === 'keins') { if ((d.wwtf_programme || []).length) return false; }
     else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
-    if (vrg === 'ja' && !d.vrg_id) return false;
-    if (vrg === 'nein' && d.vrg_id) return false;
+    const foerd = d.wwtf_foerderung || [];
+    if (vrg === 'ja' && !foerd.length) return false;
+    if (vrg === 'nein' && foerd.length) return false;
+    if (vrg === 'vor' && !foerd.some(f => f.zeitbezug === 'vor')) return false;
+    if (vrg === 'nach' && !foerd.some(f => f.zeitbezug === 'nach')) return false;
+    if (vrg === 'vrg' && !d.vrg_id) return false;
     if (verbleib === 'weg' && !d.abgang) return false;
     if (verbleib === 'da' && d.abgang) return false;
     return true;
@@ -48859,6 +49327,11 @@ function writeStateToHash(opts = {}) {
     if (v && !(id === 'sort-select' && v === 'monat')) p.set(id, v);
   });
   if (SELECTED_YEARS.size !== YEARS.length) p.set('years', selectedYears().join(','));
+  if (FP.query.trim()) p.set('fpq', FP.query.trim());
+  if (FP.subfeld) p.set('fpsub', FP.subfeld);
+  if (FP.modus !== 'stichwort') p.set('fpmode', FP.modus);
+  const fpUni = document.getElementById('fp-uni').value;
+  if (fpUni) p.set('fpuni', fpUni);
   const url = p.toString() ? '#' + p.toString() : location.pathname;
   // Filtertipperei darf die History nicht zumüllen, deshalb standardmäßig replace
   if (opts.push && url !== (location.hash || location.pathname)) {
@@ -48878,6 +49351,13 @@ function applyState() {
     document.getElementById(id).value =
       p.has(id) ? p.get(id) : (id === 'sort-select' ? 'monat' : '');
   });
+  FP.query = p.get('fpq') || '';
+  FP.subfeld = p.get('fpsub') || null;
+  document.getElementById('fp-query').value = FP.query;
+  document.getElementById('fp-uni').value = p.get('fpuni') || '';
+  const fpMode = p.get('fpmode') === 'semantisch' ? 'semantisch' : 'stichwort';
+  FP.modus = fpMode;
+  document.querySelectorAll('.fp-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === fpMode));
   const tab = p.get('tab');
   activateTabPanel(tab && document.getElementById('tab-' + tab) ? tab : 'uebersicht');
   renderAll();
@@ -48900,6 +49380,7 @@ function exportCSV() {
     ['ÖFOS-Code', d => d.ofos_code || ''],
     ['ÖFOS-Bezeichnung', d => d.ofos_label || ''],
     ['WWTF-Programmfelder', d => (d.wwtf_programme || []).map(p => WWTF_PROG[p].label).join(', ')],
+    ['WWTF-Projekte', d => (d.wwtf_foerderung || []).map(f => `${f.id} (${f.rolle}, ${f.zeitbezug || '?'})`).join(', ')],
     ['h-Index', d => metricsOf(d).hIndex ?? ''],
     ['Publikationen', d => metricsOf(d).pubs ?? ''],
     ['Zitierungen', d => metricsOf(d).cites ?? ''],
@@ -48986,6 +49467,13 @@ function initWWTF(rows) {
   document.getElementById('kpi-wwtf-hindex-sub').textContent =
     `${hs.length} von ${inProg.length} mit OpenAlex-Metriken`;
 
+  const gefoerdert = rows.filter(d => (d.wwtf_foerderung || []).length);
+  const vorBerufung = gefoerdert.filter(d => d.wwtf_foerderung.some(f => f.zeitbezug === 'vor'));
+  document.getElementById('kpi-wwtf-gefoerdert').textContent = gefoerdert.length;
+  document.getElementById('kpi-wwtf-gefoerdert-sub').textContent =
+    `${Math.round(gefoerdert.length / gesamt * 100)}% · ${vorBerufung.length} davon schon vor der Berufung`;
+  renderFoerderung(rows);
+
   // Balkendiagramm pro Programmfeld
   const progKeys = Object.keys(WWTF_PROG);
   const counts = progKeys.map(p => inProg.filter(d => d.wwtf_programme.includes(p)).length);
@@ -49049,9 +49537,107 @@ function initWWTF(rows) {
     `${extern.length} der ${inProg.length} wurden <strong>extern rekrutiert</strong>, ${ausland.length} davon international (${[...laender].join(', ')}) — frisch nach Wien geholte Expertise ohne etablierte lokale Fördernetzwerke.`,
     topH.length ? `Höchste Sichtbarkeit: ${topH.map(x => `<strong>${x.d.name}</strong> (${x.d.universitat}, h-Index ${x.h})`).join(', ')}.` : '',
     `Frauenanteil in WWTF-Feldern: <strong>${Math.round(frauen.length / Math.max(1, inProg.length) * 100)}%</strong> (gesamt: ${Math.round(rows.filter(d => d.geschlecht === 'W').length / gesamt * 100)}%).`,
+    gefoerdert.length
+      ? `<strong>${gefoerdert.length} Berufene</strong> (${Math.round(gefoerdert.length / gesamt * 100)}%) haben eine WWTF-Förderung als PI, Co-PI oder VRG-Leitung erhalten, ${vorBerufung.length} davon bereits vor der Berufung — der WWTF hat ihre Karrieren mitfinanziert, bevor die Universitäten zugegriffen haben.`
+      : '',
   ].filter(Boolean);
   document.getElementById('insights-wwtf-list').innerHTML =
     items.map(i => `<li>${i}</li>`).join('');
+}
+
+// WWTF-Förderung der Berufenen: Programme, Zeitbezug, Liste
+function renderFoerderung(rows) {
+  const gef = rows.filter(d => (d.wwtf_foerderung || []).length);
+  const summary = document.getElementById('foerderung-summary');
+  if (!gef.length) {
+    summary.textContent = 'Im gewählten Zeitraum keine Berufenen mit WWTF-Projekt.';
+    document.getElementById('foerderung-tabelle').innerHTML = '';
+    mountChart('wwtfFoerd', 'chart-wwtf-foerderung', { type: 'bar', data: { labels: [], datasets: [] } });
+    mountChart('wwtfZeit', 'chart-wwtf-zeitbezug', { type: 'bar', data: { labels: [], datasets: [] } });
+    return;
+  }
+  const projekte = new Map();
+  gef.forEach(d => d.wwtf_foerderung.forEach(f => projekte.set(f.id, f)));
+  const summe = [...projekte.values()].reduce((s, f) => s + (f.summe_eur || 0), 0);
+  const rollen = gef.flatMap(d => d.wwtf_foerderung);
+  const nurVor = gef.filter(d => d.wwtf_foerderung.every(f => f.zeitbezug === 'vor')).length;
+  const nurNach = gef.filter(d => d.wwtf_foerderung.every(f => f.zeitbezug === 'nach')).length;
+  summary.innerHTML =
+    `<strong>${plural(gef.length, 'Berufene', 'Berufene')}</strong> (${Math.round(gef.length / Math.max(1, rows.length) * 100)}% von ${rows.length}) ` +
+    `sind an <strong>${projekte.size} WWTF-Projekten</strong> beteiligt (${rollen.length} Rollen, Projektvolumen ${(summe / 1e6).toFixed(1).replace('.', ',')} Mio €). ` +
+    `${nurVor} davon ausschließlich vor, ${nurNach} ausschließlich nach der Berufung gefördert, ` +
+    `${gef.length - nurVor - nurNach} sowohl davor als auch danach.`;
+
+  // Programme: Personen je Programm (eine Person zählt je Programm einmal)
+  const progCount = {};
+  gef.forEach(d => {
+    new Set(d.wwtf_foerderung.map(f => f.programm_name || f.programm)).forEach(pn => {
+      progCount[pn] = (progCount[pn] || 0) + 1;
+    });
+  });
+  const progs = Object.entries(progCount).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  mountChart('wwtfFoerd', 'chart-wwtf-foerderung', {
+    type: 'bar',
+    data: {
+      labels: progs.map(p => p[0]),
+      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#005B94', borderRadius: 4 }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${plural(c.raw, 'Person', 'Personen')}` } } },
+      scales: { x: { ticks: { precision: 0 } } }
+    }
+  });
+
+  // Zeitbezug: Call-Jahr minus Berufungsjahr, je Projektrolle
+  const diffs = {};
+  gef.forEach(d => d.wwtf_foerderung.forEach(f => {
+    if (!f.call_jahr) return;
+    const x = Math.max(-15, Math.min(10, f.call_jahr - d.year));
+    diffs[x] = (diffs[x] || 0) + 1;
+  }));
+  const xs = Object.keys(diffs).map(Number).sort((a, b) => a - b);
+  const lo = Math.min(-5, ...xs), hi = Math.max(3, ...xs);
+  const labels = [];
+  for (let x = lo; x <= hi; x++) labels.push(x);
+  mountChart('wwtfZeit', 'chart-wwtf-zeitbezug', {
+    type: 'bar',
+    data: {
+      labels: labels.map(x => (x === lo && lo === -15 ? '≤' : '') + (x > 0 ? '+' : '') + x),
+      datasets: [{
+        data: labels.map(x => diffs[x] || 0),
+        backgroundColor: labels.map(x => x < 0 ? '#008FD4' : x === 0 ? '#9D9D9C' : '#005B94'),
+        borderRadius: 3
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: {
+          title: c => { const x = labels[c[0].dataIndex]; return x < 0 ? `${-x} Jahre vor der Berufung` : x === 0 ? 'im Berufungsjahr' : `${x} Jahre nach der Berufung`; },
+          label: c => ` ${plural(c.raw, 'Projektrolle', 'Projektrollen')}`
+        } }
+      },
+      scales: { x: { title: { display: true, text: 'Call-Jahr minus Berufungsjahr' } }, y: { ticks: { precision: 0 } } }
+    }
+  });
+
+  const zeilen = gef.slice().sort((a, b) =>
+    b.wwtf_foerderung.length - a.wwtf_foerderung.length || a.name.localeCompare(b.name, 'de'));
+  document.getElementById('foerderung-tabelle').innerHTML = `
+    <table class="vrg-table">
+      <thead><tr><th>Berufene:r</th><th>Berufung</th><th>WWTF-Projekte</th></tr></thead>
+      <tbody>${zeilen.map(d => `
+        <tr>
+          <td><button class="vrg-link" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')">${d.name}</button></td>
+          <td>${d.universitat} ${d.year}</td>
+          <td>${d.wwtf_foerderung.map(f =>
+            `<a href="${f.url}" target="_blank" rel="noopener" title="${(f.titel || '').replace(/"/g, '&quot;')}">${f.id}</a> <span class="vrg-feld">${f.rolle}${
+              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>`).join('<br>')}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>`;
 }
 
 // Titel im Kopf → zurück auf die Übersicht
@@ -49227,6 +49813,343 @@ function initInsights(rows) {
   ].filter(Boolean).map(i => `<li>${i}</li>`).join('');
 }
 
+
+// ─── FACHPROFILE (Suche über Publikationsprofile) ─────────
+// Profile liegen in fachprofile.json (Begriffe, Subfelder, Keywords je
+// openalex_id) und fachprofile_emb.json (Textvektoren), beide nachgeladen,
+// damit index.html nicht um weitere Megabytes wächst. Siehe scripts/fachprofil.py.
+const FP = {
+  rows: [], daten: null, laden: null, emb: null, embLaden: null, modell: null, modellLaden: null,
+  modus: 'stichwort', query: '', subfeld: null, timer: null, letzte: [],
+};
+const FP_DOMAIN_COLOR = {
+  'Physical Sciences': '#005B94', 'Life Sciences': '#008FD4',
+  'Health Sciences': '#C23640', 'Social Sciences': '#6B8F2E',
+};
+// Englisch, weil die Begriffsprofile aus englischen Publikationen stammen;
+// deutsche Anfragen versteht nur der semantische Modus.
+const FP_BEISPIELE = ['single-cell sequencing', 'quantum optics', 'climate change agriculture',
+  'machine learning medical imaging', 'migration labour market', 'cryptography',
+  'medieval manuscripts', 'microbiome'];
+const FP_STOP = new Set(('a an the and or of in on at to for from by with into as is are was were be this that ' +
+  'these those it its we our which who what when where how not no but if than so such can could ' +
+  'der die das des dem den ein eine einer eines einem einen und oder nicht von zu mit für auf im am an ' +
+  'aus bei nach über unter vor durch gegen ohne um bis als wie ist sind wird werden auch noch nur sowie ' +
+  'zwischen während forschung research').split(' '));
+
+function fpStatus(txt) { document.getElementById('fp-status').textContent = txt || ''; }
+
+function fpLaden() {
+  if (FP.daten) return Promise.resolve(FP.daten);
+  if (!FP.laden) {
+    fpStatus('Profile werden geladen …');
+    FP.laden = fetch('fachprofile.json')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(j => { FP.daten = j; fpStatus(''); return j; })
+      .catch(e => {
+        FP.laden = null;
+        fpStatus('Profile konnten nicht geladen werden (' + e.message + '). Lokal braucht die Seite einen Webserver.');
+        throw e;
+      });
+  }
+  return FP.laden;
+}
+
+function fpEmbLaden() {
+  if (FP.emb) return Promise.resolve(FP.emb);
+  if (!FP.embLaden) {
+    FP.embLaden = fetch('fachprofile_emb.json')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(j => {
+        const vek = {};
+        for (const [id, b64] of Object.entries(j.personen)) {
+          const bin = atob(b64);
+          const v = new Int8Array(bin.length);
+          for (let i = 0; i < bin.length; i++) v[i] = (bin.charCodeAt(i) << 24) >> 24;
+          vek[id] = v;
+        }
+        FP.emb = { ...j, vek };
+        return FP.emb;
+      })
+      .catch(e => { FP.embLaden = null; throw e; });
+  }
+  return FP.embLaden;
+}
+
+// Sprachmodell für Anfragevektoren, einmalig aus dem Netz (~120 MB), danach im Browser-Cache.
+function fpModell() {
+  if (FP.modell) return Promise.resolve(FP.modell);
+  if (!FP.modellLaden) {
+    FP.modellLaden = import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.5.2')
+      .then(({ pipeline }) => pipeline('feature-extraction', 'Xenova/multilingual-e5-small', {
+        dtype: 'q8',
+        progress_callback: p => {
+          if (p.status === 'progress' && p.file && p.file.endsWith('.onnx')) {
+            fpStatus(`Sprachmodell wird geladen … ${Math.round(p.progress || 0)}%`);
+          }
+        },
+      }))
+      .then(m => { FP.modell = m; fpStatus(''); return m; })
+      .catch(e => { FP.modellLaden = null; fpStatus('Sprachmodell nicht ladbar: ' + e.message); throw e; });
+  }
+  return FP.modellLaden;
+}
+
+function fpNorm(text) {
+  return (text || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+function fpGramme(q) {
+  const w = (fpNorm(q).match(/[a-z][a-z0-9\-]{2,}/g) || []).filter(t => !FP_STOP.has(t));
+  const out = new Set(w);
+  for (let i = 0; i + 1 < w.length; i++) out.add(w[i] + ' ' + w[i + 1]);
+  return [...out];
+}
+
+// Stichwortmodus: bester Begriffstreffer je Anfrage-Gramm, plus Topic/Keyword-Treffer
+function fpScoreStichwort(pr, gramme, roh) {
+  let score = 0;
+  const hits = new Set();
+  for (const g of gramme) {
+    let best = 0, bestT = null;
+    for (const [t, w] of pr.terms) {
+      let m = 0;
+      if (t === g) m = 1;
+      else if (g.length >= 5 && t.startsWith(g)) m = 0.85;
+      else if (t.length >= 5 && g.startsWith(t)) m = 0.7;
+      else if (!g.includes(' ') && t.includes(' ') && t.split(' ').includes(g)) m = 0.6;
+      if (m * w > best) { best = m * w; bestT = t; }
+    }
+    if (best) { score += best; hits.add(bestT); }
+  }
+  // kuratierte Begriffe (Subfeld, Topic, Keyword): Teilstring der ganzen Anfrage
+  let kur = 0;
+  for (const [name, c] of [...pr.sub, ...pr.top, ...pr.kw]) {
+    const n = fpNorm(name);
+    if (n.includes(roh) || (roh.length >= 5 && roh.includes(n))) { kur = Math.max(kur, c / pr.n); hits.add(name); }
+  }
+  return { score: score / Math.max(1, gramme.length) + Math.min(0.6, kur), hits: [...hits] };
+}
+
+function fpScoreSemantisch(qv, v, skala) {
+  let s = 0;
+  for (let k = 0; k < v.length; k++) s += qv[k] * v[k];
+  return s / skala;
+}
+
+function fpPersonen(rows) {
+  // eine Karte je Person: bei mehreren Berufungen die jüngste
+  const uni = document.getElementById('fp-uni').value;
+  const nachId = new Map();
+  rows.forEach(d => {
+    if (!d.openalex_id || !FP.daten.personen[d.openalex_id]) return;
+    if (uni && d.universitat !== uni) return;
+    const alt = nachId.get(d.openalex_id);
+    if (!alt || d.year > alt.year) nachId.set(d.openalex_id, d);
+  });
+  return [...nachId.values()];
+}
+
+function fpSubfeldListe(personen) {
+  const zaehl = {};
+  personen.forEach(d => {
+    const pr = FP.daten.personen[d.openalex_id];
+    pr.sub.forEach(([name, c], i) => {
+      if (i < 2 || c / pr.n >= 0.2) zaehl[name] = (zaehl[name] || 0) + 1;
+    });
+  });
+  const top = Object.entries(zaehl).sort((a, b) => b[1] - a[1]).slice(0, 45);
+  const max = top.length ? top[0][1] : 1;
+  const nachDomain = {};
+  top.forEach(([name, c]) => {
+    const dom = (FP.daten.subfelder[name] || {}).domain || 'Sonstige';
+    (nachDomain[dom] = nachDomain[dom] || []).push([name, c]);
+  });
+  document.getElementById('fp-sub-title').textContent =
+    `Subfelder (${Object.keys(zaehl).length}, ${plural(personen.length, 'Profil', 'Profile')})`;
+  document.getElementById('fp-subfelder').innerHTML = Object.entries(nachDomain)
+    .sort((a, b) => b[1].reduce((s, x) => s + x[1], 0) - a[1].reduce((s, x) => s + x[1], 0))
+    .map(([dom, liste]) => `<div class="fp-domain">${dom}</div>` + liste.map(([name, c]) => `
+      <button class="fp-sub-row ${FP.subfeld === name ? 'active' : ''}" onclick="fpSubfeld(${JSON.stringify(name).replace(/"/g, '&quot;')})" title="${c} Personen mit Schwerpunkt ${name}">
+        <div><div class="fp-sub-name">${name}</div>
+          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9D9D9C'}"></span></div></div>
+        <div class="fp-sub-n">${c}</div>
+      </button>`).join('')).join('')
+    || '<div class="fp-leer">Keine Profile im gewählten Zeitraum.</div>';
+}
+
+function fpTreffer(d, pr, score, hits, bar, erklaerung) {
+  const subs = pr.sub.slice(0, 3).map(([n, c]) => `${n} <span class="lbl">${Math.round(c / pr.n * 100)}%</span>`).join(' · ');
+  const hitSet = new Set(hits.map(fpNorm));
+  const chips = [
+    ...hits.map(h => `<span class="fp-chip hit">${h}</span>`),
+    ...pr.kw.filter(([k]) => !hitSet.has(fpNorm(k))).slice(0, 8).map(([k, c]) => `<span class="fp-chip" title="${c} Arbeiten">${k}</span>`),
+  ].join('');
+  const m = metricsOf(d);
+  return `<div class="fp-hit">
+    <div class="fp-hit-head">
+      <button class="fp-hit-name" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')">${d.name}</button>
+      <span class="fp-hit-meta">${d.universitat} · ${d.year}${m.hIndex != null ? ' · h ' + m.hIndex : ''}</span>
+    </div>
+    <div class="fp-line lbl" style="color:var(--muted)">${d.forschungsbereich || ''}</div>
+    <div class="fp-score" title="${erklaerung}"><span style="width:${Math.round(bar * 100)}%"></span></div>
+    <div class="fp-line"><span class="lbl">Subfelder: </span>${subs}</div>
+    <div class="fp-chips">${chips}</div>
+    <div class="fp-line lbl" style="color:var(--muted);font-size:0.72rem">${pr.n} Arbeiten${pr.jahre ? ` ${pr.jahre[0]}–${pr.jahre[1]}` : ''}, ${pr.ab} mit Abstract</div>
+  </div>`;
+}
+
+async function fpRender() {
+  const box = document.getElementById('fp-results');
+  let daten;
+  try { daten = await fpLaden(); } catch (e) { box.innerHTML = ''; return; }
+  const personen = fpPersonen(FP.rows);
+  fpSubfeldListe(personen);
+  const ohne = new Set(FP.rows.filter(d => !d.openalex_id || !daten.personen[d.openalex_id]).map(d => d.name)).size;
+  const q = FP.query.trim();
+  const roh = fpNorm(q);
+  let liste = [];
+
+  if (FP.subfeld) {
+    liste = personen.map(d => {
+      const pr = daten.personen[d.openalex_id];
+      const e = pr.sub.find(([n]) => n === FP.subfeld);
+      return e ? { d, pr, score: e[1] / pr.n, hits: [FP.subfeld] } : null;
+    }).filter(Boolean);
+    if (roh) {
+      const gr = fpGramme(q);
+      liste = liste.map(x => { const s = fpScoreStichwort(x.pr, gr, roh); return { ...x, score: x.score + s.score, hits: [...new Set([...x.hits, ...s.hits])] }; })
+        .filter(x => x.hits.length > 1);
+    }
+  } else if (roh) {
+    if (FP.modus === 'semantisch') {
+      let emb, modell;
+      try { [emb, modell] = await Promise.all([fpEmbLaden(), fpModell()]); }
+      catch (e) { box.innerHTML = `<div class="fp-leer">Semantische Suche nicht verfügbar: ${e.message}</div>`; return; }
+      fpStatus('Anfrage wird eingebettet …');
+      const out = await modell((emb.praefix_query || 'query: ') + q, { pooling: 'mean', normalize: true });
+      const qv = out.data;
+      fpStatus('');
+      const gr = fpGramme(q);
+      liste = personen.map(d => {
+        const v = emb.vek[d.openalex_id];
+        if (!v) return null;
+        const pr = daten.personen[d.openalex_id];
+        return { d, pr, score: fpScoreSemantisch(qv, v, emb.skala || 127), hits: fpScoreStichwort(pr, gr, roh).hits };
+      }).filter(Boolean);
+    } else {
+      const gr = fpGramme(q);
+      if (!gr.length) { box.innerHTML = '<div class="fp-leer">Bitte einen inhaltlichen Suchbegriff eingeben.</div>'; return; }
+      liste = personen.map(d => {
+        const pr = daten.personen[d.openalex_id];
+        const s = fpScoreStichwort(pr, gr, roh);
+        return s.score > 0 ? { d, pr, ...s } : null;
+      }).filter(Boolean);
+    }
+  }
+
+  if (!roh && !FP.subfeld) {
+    box.innerHTML = `<div class="fp-leer">${plural(personen.length, 'Publikationsprofil', 'Publikationsprofile')} im gewählten Zeitraum` +
+      (ohne ? `, ${ohne} Personen ohne OpenAlex-Profil` : '') +
+      `.<br>Suchbegriff eingeben oder rechts ein Subfeld wählen.</div>`;
+    FP.letzte = [];
+    return;
+  }
+  liste.sort((a, b) => b.score - a.score);
+  const top = liste.slice(0, 40);
+  FP.letzte = top;
+  if (!top.length) {
+    box.innerHTML = `<div class="fp-leer">Keine passenden Profile.${
+      FP.modus === 'stichwort' && !FP.subfeld
+        ? ' Die Stichwortsuche kennt nur englische Begriffe aus den Publikationen. <button class="fp-beispiel" onclick="fpSetMode(\'semantisch\')">Semantisch suchen</button> versteht auch deutsche Anfragen und Umschreibungen.'
+        : ' Anderer Begriff oder größerer Zeitraum?'}</div>`;
+    return;
+  }
+  const hi = top[0].score, lo = top[top.length - 1].score;
+  const spanne = Math.max(1e-6, hi - lo);
+  const kopf = `<div class="fp-line" style="margin:0 0 10px;display:flex;justify-content:space-between;align-items:center;gap:12px">
+    <span>${FP.subfeld ? `Subfeld <strong>${FP.subfeld}</strong>` : `<strong>${FP.modus === 'semantisch' ? 'Semantische' : 'Stichwort'}-Suche</strong> „${q}“`}: ${plural(liste.length, 'Treffer', 'Treffer')}${liste.length > 40 ? ', die 40 besten' : ''}</span>
+    <button class="btn-export" onclick="fpExport()" title="Trefferliste als CSV">⬇ CSV</button></div>`;
+  box.innerHTML = kopf + top.map(x => fpTreffer(
+    x.d, x.pr, x.score, x.hits,
+    FP.modus === 'semantisch' && !FP.subfeld ? 0.15 + 0.85 * (x.score - lo) / spanne : Math.min(1, x.score / Math.max(hi, 1e-6)),
+    FP.modus === 'semantisch' && !FP.subfeld ? `Kosinus-Ähnlichkeit ${x.score.toFixed(3)}` : `Score ${x.score.toFixed(2)}`,
+  )).join('');
+}
+
+function fpSuchen() {
+  FP.query = document.getElementById('fp-query').value;
+  writeStateToHash();
+  fpRender();
+}
+
+function fpEingabe() {
+  // Stichwortmodus sucht beim Tippen, semantisch erst bei Enter (Modell-Aufruf)
+  clearTimeout(FP.timer);
+  if (FP.modus !== 'stichwort') return;
+  FP.timer = setTimeout(fpSuchen, 250);
+}
+
+function fpSetMode(m) {
+  FP.modus = m;
+  document.querySelectorAll('.fp-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
+  if (m === 'semantisch') { fpModell().catch(() => {}); fpEmbLaden().catch(() => {}); }
+  if (FP.query.trim()) fpSuchen();
+}
+
+function fpSubfeld(name) {
+  FP.subfeld = FP.subfeld === name ? null : name;
+  writeStateToHash();
+  fpRender();
+}
+
+function fpReset() {
+  FP.query = ''; FP.subfeld = null;
+  document.getElementById('fp-query').value = '';
+  document.getElementById('fp-uni').value = '';
+  writeStateToHash();
+  fpRender();
+}
+
+function fpBeispiel(q) {
+  document.getElementById('fp-query').value = q;
+  FP.subfeld = null;
+  fpSuchen();
+}
+
+function fpExport() {
+  const esc = v => { const s = String(v ?? ''); return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  const zeilen = [['Rang', 'Name', 'Universität', 'Jahr', 'Forschungsbereich', 'Score', 'Treffer', 'Subfelder', 'Keywords', 'OpenAlex'].join(';')];
+  FP.letzte.forEach((x, i) => zeilen.push([
+    i + 1, x.d.name, x.d.universitat, x.d.year, x.d.forschungsbereich || '', x.score.toFixed(3),
+    x.hits.join(', '), x.pr.sub.slice(0, 3).map(([n, c]) => `${n} (${Math.round(c / x.pr.n * 100)}%)`).join(', '),
+    x.pr.kw.slice(0, 10).map(([k]) => k).join(', '), 'https://openalex.org/' + x.d.openalex_id,
+  ].map(esc).join(';')));
+  const blob = new Blob(['\ufeff' + zeilen.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `fachprofile_${(FP.subfeld || FP.query || 'suche').replace(/[^\w\-]+/g, '_').slice(0, 40)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function initFachprofile(rows) {
+  FP.rows = rows;
+  fpRender();
+}
+
+function fpInit() {
+  const sel = document.getElementById('fp-uni');
+  sel.innerHTML = '<option value="">Alle Universitäten</option>' +
+    UNIS.map(u => `<option>${u}</option>`).join('');
+  sel.onchange = () => { writeStateToHash(); fpRender(); };
+  const inp = document.getElementById('fp-query');
+  inp.oninput = fpEingabe;
+  inp.onkeydown = e => { if (e.key === 'Enter') { clearTimeout(FP.timer); fpSuchen(); } };
+  document.getElementById('fp-beispiele').innerHTML = 'Beispiele: ' +
+    FP_BEISPIELE.map(b => `<button class="fp-beispiel" onclick="fpBeispiel('${b.replace(/'/g, "\\'")}')">${b}</button>`).join('');
+}
+
 // ─── TAB SWITCHING ───────────────────────────────────────
 function activateTabPanel(name) {
   document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
@@ -49248,11 +50171,12 @@ function switchTab(name) {
 
 // D3-Grafiken brauchen eine sichtbare Breite, deshalb erst beim Tab-Wechsel
 // zeichnen. TAB_DIRTY erzwingt Neuzeichnen nach einer Jahresauswahl.
-const TAB_DIRTY = { wwtf: true, mobilitaet: true };
+const TAB_DIRTY = { wwtf: true, mobilitaet: true, fachprofile: true };
 
 function renderTab(name) {
   if (name === 'wwtf' && TAB_DIRTY.wwtf) { initWWTF(VIEW); TAB_DIRTY.wwtf = false; }
   if (name === 'mobilitaet' && TAB_DIRTY.mobilitaet) { initSankey(VIEW); TAB_DIRTY.mobilitaet = false; }
+  if (name === 'fachprofile' && TAB_DIRTY.fachprofile) { initFachprofile(VIEW); TAB_DIRTY.fachprofile = false; }
   if (name === 'alle') renderCards(currentFilteredData());
 }
 
@@ -49279,6 +50203,7 @@ function renderAll() {
   renderOverview(VIEW);
   TAB_DIRTY.wwtf = true;
   TAB_DIRTY.mobilitaet = true;
+  TAB_DIRTY.fachprofile = true;
   renderTab(activeTabName());
   renderYearBar();
 }
@@ -49436,6 +50361,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
   populateUniFilter();
   populateLandFilter();
+  fpInit();
   syncStickyOffsets();
   window.addEventListener('resize', syncStickyOffsets);
   if (window.ResizeObserver) {

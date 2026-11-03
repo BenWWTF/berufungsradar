@@ -6,7 +6,9 @@ Stage 5: WWTF-Anreicherung.
    extrahieren + openalex_id aus openalex_research.json übernehmen.
 2. wwtf_programme: heuristische Zuordnung ÖFOS-Code/-Label → WWTF-Programmfelder.
 3. vrg_id / vrg_call: Abgleich mit vrg_grantees.json (Vienna Research Groups).
-4. abgang: Abgleich mit abgaenge.json (öffentlich belegte Weggänge).
+4. wwtf_foerderung: Abgleich mit wwtf_projekte.json (alle WWTF-Projekte seit
+   2003, PI wie Co-PI), mit Zeitbezug zur Berufung (vor/nach).
+5. abgang: Abgleich mit abgaenge.json (öffentlich belegte Weggänge).
 
 Läuft nach enrich.py, vor build_html.py. Idempotent.
 """
@@ -21,6 +23,8 @@ DATA_PATH = ROOT / "dashboard_data_2025.json"
 OA_PATH = ROOT / "scripts" / "openalex_research.json"
 VRG_PATH = ROOT / "vrg_grantees.json"
 VRG_OVERRIDES = ROOT / "scripts" / "vrg_overrides.json"
+PROJEKTE_PATH = ROOT / "wwtf_projekte.json"
+PROJEKTE_OVERRIDES = ROOT / "scripts" / "wwtf_overrides.json"
 ABGAENGE_PATH = ROOT / "abgaenge.json"
 
 # WWTF-Programmfelder (Kürzel → Anzeige)
@@ -114,6 +118,93 @@ def verknuepfe_vrg(data):
     return treffer
 
 
+def kurzschluessel(name):
+    """Nur Vor- und Nachname: die Unis und der WWTF führen Mittelnamen
+    unterschiedlich (Thomas Lennon Sheppard vs Thomas Sheppard)."""
+    teile = namensschluessel(name).split(" ")
+    return f"{teile[0]} {teile[-1]}" if len(teile) >= 2 else " ".join(teile)
+
+
+def verknuepfe_projekte(data):
+    """Setzt wwtf_foerderung: alle WWTF-Projekte, an denen die Person als PI,
+    Co-PI oder VRG-Leitung beteiligt war, mit Zeitbezug zur Berufung.
+
+    Abgleich über den normalisierten vollen Namen; fällt er aus, über Vor- und
+    Nachname, aber nur wenn der Kurzname auf beiden Seiten eindeutig ist.
+    Abweichende Schreibweisen (Doppelnamen, Umlaute, Heirat) kommen in
+    scripts/wwtf_overrides.json: {"<Name im Radar>": ["<Name beim WWTF>", …]}.
+    Ein Eintrag darf dort auch leer sein ([]) — dann wird der Treffer
+    unterdrückt, falls ein Namensvetter fälschlich zugeordnet würde.
+    """
+    for d in data:
+        d.pop("wwtf_foerderung", None)
+    if not PROJEKTE_PATH.exists():
+        print("  (kein wwtf_projekte.json, Projekt-Abgleich übersprungen)")
+        return 0
+    projekte = json.loads(PROJEKTE_PATH.read_text())
+    overrides = {}
+    if PROJEKTE_OVERRIDES.exists():
+        overrides = {k: v for k, v in json.loads(PROJEKTE_OVERRIDES.read_text()).items()
+                     if not k.startswith("_")}
+
+    # WWTF-Seite: voller Schlüssel → [(projekt, rolle, institution)], Kurzschlüssel → Namen
+    voll, kurz = {}, {}
+    for p in projekte:
+        for person in p["personen"]:
+            if person["rolle"] == "Proponent":  # Gastgeber:in einer VRG, nicht gefördert
+                continue
+            k = namensschluessel(person["name"])
+            voll.setdefault(k, []).append((p, person))
+            kurz.setdefault(kurzschluessel(person["name"]), set()).add(k)
+    # Radar-Seite: Kurzschlüssel → volle Schlüssel (für die Eindeutigkeitsprüfung)
+    radar_kurz = {}
+    for d in data:
+        radar_kurz.setdefault(kurzschluessel(d["name"]), set()).add(namensschluessel(d["name"]))
+
+    def rollen_fuer(d):
+        if d["name"] in overrides:
+            treffer = []
+            for alias in overrides[d["name"]]:
+                treffer += voll.get(namensschluessel(alias), [])
+            return treffer
+        k = namensschluessel(d["name"])
+        if k in voll:
+            return voll[k]
+        kk = kurzschluessel(d["name"])
+        kandidaten = kurz.get(kk, set())
+        if len(kandidaten) == 1 and len(radar_kurz.get(kk, set())) == 1:
+            return voll[next(iter(kandidaten))]
+        return []
+
+    personen, zuordnungen = 0, 0
+    for d in data:
+        liste = []
+        for p, person in rollen_fuer(d):
+            if any(x["id"] == p["id"] for x in liste):
+                continue
+            zeitbezug = None
+            if p["call_jahr"] and d.get("year"):
+                zeitbezug = "vor" if p["call_jahr"] < d["year"] else ("nach" if p["call_jahr"] > d["year"] else "im Berufungsjahr")
+            liste.append({
+                "id": p["id"], "programm": p["programm"], "programm_name": p["programm_name"],
+                "call_jahr": p["call_jahr"], "rolle": person["rolle"],
+                "institution": person.get("institution"), "titel": p["titel"],
+                "summe_eur": p["summe_eur"], "status": p["status"], "zeitbezug": zeitbezug,
+                "url": p["url"],
+            })
+        if liste:
+            liste.sort(key=lambda x: (x["call_jahr"] or 0, x["id"]))
+            d["wwtf_foerderung"] = liste
+            personen += 1
+            zuordnungen += len(liste)
+    # VRG-Leitungen aus dem VRG-Abgleich müssen hier wieder auftauchen
+    fehlt = [d["name"] for d in data if d.get("vrg_id")
+             and not any(f["id"] == d["vrg_id"] for f in d.get("wwtf_foerderung", []))]
+    print(f"  WWTF-Projekte: {personen} Berufene mit {zuordnungen} Projektrollen "
+          f"(aus {len(projekte)} Projekten)" + (f" | VRG ohne Projekttreffer: {fehlt}" if fehlt else ""))
+    return personen
+
+
 def verknuepfe_abgaenge(data):
     """Setzt "abgang" auf die jüngste Berufung einer Person an der Uni, die sie verlassen hat.
 
@@ -184,6 +275,7 @@ def main():
             n_prog += 1
 
     verknuepfe_vrg(data)
+    verknuepfe_projekte(data)
     verknuepfe_abgaenge(data)
 
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
@@ -209,3 +301,10 @@ if __name__ == "__main__":
         sallinger = next((d for d in data if d["name"] == "Emanuel Sallinger"), None)
         if sallinger:
             assert sallinger.get("vrg_id") == "VRG18-013", sallinger.get("vrg_id")
+    if (ROOT / "wwtf_projekte.json").exists():
+        mit = [d for d in data if d.get("wwtf_foerderung")]
+        assert len(mit) >= 50, f"nur {len(mit)} Berufene mit WWTF-Projekt — Abgleich defekt?"
+        sallinger = next((d for d in data if d["name"] == "Emanuel Sallinger"), None)
+        if sallinger:
+            f = next(x for x in sallinger["wwtf_foerderung"] if x["id"] == "VRG18-013")
+            assert f["rolle"] == "VRG-Leitung" and f["zeitbezug"] == "vor", f

@@ -737,6 +737,18 @@ function renderCards(data) {
     const vrgBadge = d.vrg_id
       ? `<span class="badge badge-vrg" title="Vienna Research Group ${d.vrg_id}">WWTF VRG ${d.vrg_call}</span>`
       : '';
+    const foerd = (d.wwtf_foerderung || []).filter(f => f.id !== d.vrg_id);
+    const vorher = foerd.filter(f => f.zeitbezug === 'vor').length;
+    const wwtfBadge = foerd.length
+      ? `<span class="badge badge-wwtf" title="${foerd.map(f => `${f.id} (${f.rolle}, Call ${f.call_jahr})`).join(', ')}">WWTF-gefördert${
+          foerd.length > 1 ? ' ×' + foerd.length : ''}${vorher && vorher === foerd.length ? ' · vor Berufung' : ''}</span>`
+      : '';
+    const foerdDetail = foerd.length
+      ? `<ul class="foerderung-liste">${foerd.map(f =>
+          `<li><a href="${f.url}" target="_blank" rel="noopener">${f.id}</a> · ${f.rolle} · ${f.programm_name}${
+            f.call_jahr ? ` ${f.call_jahr}` : ''}${f.zeitbezug ? ` (${f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung'})` : ''}${
+            f.titel ? `: <span title="${f.titel.replace(/"/g, '&quot;')}">${f.titel.length > 70 ? f.titel.slice(0, 70) + '…' : f.titel}</span>` : ''}</li>`).join('')}</ul>`
+      : '';
 
     const ab = d.abgang;
     const abgangBadge = ab
@@ -769,6 +781,7 @@ function renderCards(data) {
           ${badgeGeschlecht(d.geschlecht)}
           ${badgeHerkunft(d.herkunft, d.herkunft_institution, d.herkunft_land)}
           ${vrgBadge}
+          ${wwtfBadge}
           ${abgangBadge}
           ${ofosBadge}
           ${wwtfBadges}
@@ -776,6 +789,7 @@ function renderCards(data) {
         ${metricsHtml}
         ${bioPreview ? `<div class="card-bio">${bioPreview}${d.bio_text.length > 200 ? '…' : ''}</div>` : ''}
         ${herkunftDetail}
+        ${foerdDetail}
         ${abgangDetail}
         <div class="card-footer">
           ${d.werdegang
@@ -823,8 +837,12 @@ function currentFilteredData() {
     if (land && d.herkunft_land !== land) return false;
     if (wwtf === 'keins') { if ((d.wwtf_programme || []).length) return false; }
     else if (wwtf && !(d.wwtf_programme || []).includes(wwtf)) return false;
-    if (vrg === 'ja' && !d.vrg_id) return false;
-    if (vrg === 'nein' && d.vrg_id) return false;
+    const foerd = d.wwtf_foerderung || [];
+    if (vrg === 'ja' && !foerd.length) return false;
+    if (vrg === 'nein' && foerd.length) return false;
+    if (vrg === 'vor' && !foerd.some(f => f.zeitbezug === 'vor')) return false;
+    if (vrg === 'nach' && !foerd.some(f => f.zeitbezug === 'nach')) return false;
+    if (vrg === 'vrg' && !d.vrg_id) return false;
     if (verbleib === 'weg' && !d.abgang) return false;
     if (verbleib === 'da' && d.abgang) return false;
     return true;
@@ -865,6 +883,11 @@ function writeStateToHash(opts = {}) {
     if (v && !(id === 'sort-select' && v === 'monat')) p.set(id, v);
   });
   if (SELECTED_YEARS.size !== YEARS.length) p.set('years', selectedYears().join(','));
+  if (FP.query.trim()) p.set('fpq', FP.query.trim());
+  if (FP.subfeld) p.set('fpsub', FP.subfeld);
+  if (FP.modus !== 'stichwort') p.set('fpmode', FP.modus);
+  const fpUni = document.getElementById('fp-uni').value;
+  if (fpUni) p.set('fpuni', fpUni);
   const url = p.toString() ? '#' + p.toString() : location.pathname;
   // Filtertipperei darf die History nicht zumüllen, deshalb standardmäßig replace
   if (opts.push && url !== (location.hash || location.pathname)) {
@@ -884,6 +907,13 @@ function applyState() {
     document.getElementById(id).value =
       p.has(id) ? p.get(id) : (id === 'sort-select' ? 'monat' : '');
   });
+  FP.query = p.get('fpq') || '';
+  FP.subfeld = p.get('fpsub') || null;
+  document.getElementById('fp-query').value = FP.query;
+  document.getElementById('fp-uni').value = p.get('fpuni') || '';
+  const fpMode = p.get('fpmode') === 'semantisch' ? 'semantisch' : 'stichwort';
+  FP.modus = fpMode;
+  document.querySelectorAll('.fp-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === fpMode));
   const tab = p.get('tab');
   activateTabPanel(tab && document.getElementById('tab-' + tab) ? tab : 'uebersicht');
   renderAll();
@@ -906,6 +936,7 @@ function exportCSV() {
     ['ÖFOS-Code', d => d.ofos_code || ''],
     ['ÖFOS-Bezeichnung', d => d.ofos_label || ''],
     ['WWTF-Programmfelder', d => (d.wwtf_programme || []).map(p => WWTF_PROG[p].label).join(', ')],
+    ['WWTF-Projekte', d => (d.wwtf_foerderung || []).map(f => `${f.id} (${f.rolle}, ${f.zeitbezug || '?'})`).join(', ')],
     ['h-Index', d => metricsOf(d).hIndex ?? ''],
     ['Publikationen', d => metricsOf(d).pubs ?? ''],
     ['Zitierungen', d => metricsOf(d).cites ?? ''],
@@ -992,6 +1023,13 @@ function initWWTF(rows) {
   document.getElementById('kpi-wwtf-hindex-sub').textContent =
     `${hs.length} von ${inProg.length} mit OpenAlex-Metriken`;
 
+  const gefoerdert = rows.filter(d => (d.wwtf_foerderung || []).length);
+  const vorBerufung = gefoerdert.filter(d => d.wwtf_foerderung.some(f => f.zeitbezug === 'vor'));
+  document.getElementById('kpi-wwtf-gefoerdert').textContent = gefoerdert.length;
+  document.getElementById('kpi-wwtf-gefoerdert-sub').textContent =
+    `${Math.round(gefoerdert.length / gesamt * 100)}% · ${vorBerufung.length} davon schon vor der Berufung`;
+  renderFoerderung(rows);
+
   // Balkendiagramm pro Programmfeld
   const progKeys = Object.keys(WWTF_PROG);
   const counts = progKeys.map(p => inProg.filter(d => d.wwtf_programme.includes(p)).length);
@@ -1055,9 +1093,107 @@ function initWWTF(rows) {
     `${extern.length} der ${inProg.length} wurden <strong>extern rekrutiert</strong>, ${ausland.length} davon international (${[...laender].join(', ')}) — frisch nach Wien geholte Expertise ohne etablierte lokale Fördernetzwerke.`,
     topH.length ? `Höchste Sichtbarkeit: ${topH.map(x => `<strong>${x.d.name}</strong> (${x.d.universitat}, h-Index ${x.h})`).join(', ')}.` : '',
     `Frauenanteil in WWTF-Feldern: <strong>${Math.round(frauen.length / Math.max(1, inProg.length) * 100)}%</strong> (gesamt: ${Math.round(rows.filter(d => d.geschlecht === 'W').length / gesamt * 100)}%).`,
+    gefoerdert.length
+      ? `<strong>${gefoerdert.length} Berufene</strong> (${Math.round(gefoerdert.length / gesamt * 100)}%) haben eine WWTF-Förderung als PI, Co-PI oder VRG-Leitung erhalten, ${vorBerufung.length} davon bereits vor der Berufung — der WWTF hat ihre Karrieren mitfinanziert, bevor die Universitäten zugegriffen haben.`
+      : '',
   ].filter(Boolean);
   document.getElementById('insights-wwtf-list').innerHTML =
     items.map(i => `<li>${i}</li>`).join('');
+}
+
+// WWTF-Förderung der Berufenen: Programme, Zeitbezug, Liste
+function renderFoerderung(rows) {
+  const gef = rows.filter(d => (d.wwtf_foerderung || []).length);
+  const summary = document.getElementById('foerderung-summary');
+  if (!gef.length) {
+    summary.textContent = 'Im gewählten Zeitraum keine Berufenen mit WWTF-Projekt.';
+    document.getElementById('foerderung-tabelle').innerHTML = '';
+    mountChart('wwtfFoerd', 'chart-wwtf-foerderung', { type: 'bar', data: { labels: [], datasets: [] } });
+    mountChart('wwtfZeit', 'chart-wwtf-zeitbezug', { type: 'bar', data: { labels: [], datasets: [] } });
+    return;
+  }
+  const projekte = new Map();
+  gef.forEach(d => d.wwtf_foerderung.forEach(f => projekte.set(f.id, f)));
+  const summe = [...projekte.values()].reduce((s, f) => s + (f.summe_eur || 0), 0);
+  const rollen = gef.flatMap(d => d.wwtf_foerderung);
+  const nurVor = gef.filter(d => d.wwtf_foerderung.every(f => f.zeitbezug === 'vor')).length;
+  const nurNach = gef.filter(d => d.wwtf_foerderung.every(f => f.zeitbezug === 'nach')).length;
+  summary.innerHTML =
+    `<strong>${plural(gef.length, 'Berufene', 'Berufene')}</strong> (${Math.round(gef.length / Math.max(1, rows.length) * 100)}% von ${rows.length}) ` +
+    `sind an <strong>${projekte.size} WWTF-Projekten</strong> beteiligt (${rollen.length} Rollen, Projektvolumen ${(summe / 1e6).toFixed(1).replace('.', ',')} Mio €). ` +
+    `${nurVor} davon ausschließlich vor, ${nurNach} ausschließlich nach der Berufung gefördert, ` +
+    `${gef.length - nurVor - nurNach} sowohl davor als auch danach.`;
+
+  // Programme: Personen je Programm (eine Person zählt je Programm einmal)
+  const progCount = {};
+  gef.forEach(d => {
+    new Set(d.wwtf_foerderung.map(f => f.programm_name || f.programm)).forEach(pn => {
+      progCount[pn] = (progCount[pn] || 0) + 1;
+    });
+  });
+  const progs = Object.entries(progCount).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  mountChart('wwtfFoerd', 'chart-wwtf-foerderung', {
+    type: 'bar',
+    data: {
+      labels: progs.map(p => p[0]),
+      datasets: [{ data: progs.map(p => p[1]), backgroundColor: '#005B94', borderRadius: 4 }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${plural(c.raw, 'Person', 'Personen')}` } } },
+      scales: { x: { ticks: { precision: 0 } } }
+    }
+  });
+
+  // Zeitbezug: Call-Jahr minus Berufungsjahr, je Projektrolle
+  const diffs = {};
+  gef.forEach(d => d.wwtf_foerderung.forEach(f => {
+    if (!f.call_jahr) return;
+    const x = Math.max(-15, Math.min(10, f.call_jahr - d.year));
+    diffs[x] = (diffs[x] || 0) + 1;
+  }));
+  const xs = Object.keys(diffs).map(Number).sort((a, b) => a - b);
+  const lo = Math.min(-5, ...xs), hi = Math.max(3, ...xs);
+  const labels = [];
+  for (let x = lo; x <= hi; x++) labels.push(x);
+  mountChart('wwtfZeit', 'chart-wwtf-zeitbezug', {
+    type: 'bar',
+    data: {
+      labels: labels.map(x => (x === lo && lo === -15 ? '≤' : '') + (x > 0 ? '+' : '') + x),
+      datasets: [{
+        data: labels.map(x => diffs[x] || 0),
+        backgroundColor: labels.map(x => x < 0 ? '#008FD4' : x === 0 ? '#9D9D9C' : '#005B94'),
+        borderRadius: 3
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: {
+          title: c => { const x = labels[c[0].dataIndex]; return x < 0 ? `${-x} Jahre vor der Berufung` : x === 0 ? 'im Berufungsjahr' : `${x} Jahre nach der Berufung`; },
+          label: c => ` ${plural(c.raw, 'Projektrolle', 'Projektrollen')}`
+        } }
+      },
+      scales: { x: { title: { display: true, text: 'Call-Jahr minus Berufungsjahr' } }, y: { ticks: { precision: 0 } } }
+    }
+  });
+
+  const zeilen = gef.slice().sort((a, b) =>
+    b.wwtf_foerderung.length - a.wwtf_foerderung.length || a.name.localeCompare(b.name, 'de'));
+  document.getElementById('foerderung-tabelle').innerHTML = `
+    <table class="vrg-table">
+      <thead><tr><th>Berufene:r</th><th>Berufung</th><th>WWTF-Projekte</th></tr></thead>
+      <tbody>${zeilen.map(d => `
+        <tr>
+          <td><button class="vrg-link" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')">${d.name}</button></td>
+          <td>${d.universitat} ${d.year}</td>
+          <td>${d.wwtf_foerderung.map(f =>
+            `<a href="${f.url}" target="_blank" rel="noopener" title="${(f.titel || '').replace(/"/g, '&quot;')}">${f.id}</a> <span class="vrg-feld">${f.rolle}${
+              f.zeitbezug ? ', ' + (f.zeitbezug === 'im Berufungsjahr' ? 'im Berufungsjahr' : f.zeitbezug + ' der Berufung') : ''}</span>`).join('<br>')}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>`;
 }
 
 // Titel im Kopf → zurück auf die Übersicht
@@ -1233,6 +1369,343 @@ function initInsights(rows) {
   ].filter(Boolean).map(i => `<li>${i}</li>`).join('');
 }
 
+
+// ─── FACHPROFILE (Suche über Publikationsprofile) ─────────
+// Profile liegen in fachprofile.json (Begriffe, Subfelder, Keywords je
+// openalex_id) und fachprofile_emb.json (Textvektoren), beide nachgeladen,
+// damit index.html nicht um weitere Megabytes wächst. Siehe scripts/fachprofil.py.
+const FP = {
+  rows: [], daten: null, laden: null, emb: null, embLaden: null, modell: null, modellLaden: null,
+  modus: 'stichwort', query: '', subfeld: null, timer: null, letzte: [],
+};
+const FP_DOMAIN_COLOR = {
+  'Physical Sciences': '#005B94', 'Life Sciences': '#008FD4',
+  'Health Sciences': '#C23640', 'Social Sciences': '#6B8F2E',
+};
+// Englisch, weil die Begriffsprofile aus englischen Publikationen stammen;
+// deutsche Anfragen versteht nur der semantische Modus.
+const FP_BEISPIELE = ['single-cell sequencing', 'quantum optics', 'climate change agriculture',
+  'machine learning medical imaging', 'migration labour market', 'cryptography',
+  'medieval manuscripts', 'microbiome'];
+const FP_STOP = new Set(('a an the and or of in on at to for from by with into as is are was were be this that ' +
+  'these those it its we our which who what when where how not no but if than so such can could ' +
+  'der die das des dem den ein eine einer eines einem einen und oder nicht von zu mit für auf im am an ' +
+  'aus bei nach über unter vor durch gegen ohne um bis als wie ist sind wird werden auch noch nur sowie ' +
+  'zwischen während forschung research').split(' '));
+
+function fpStatus(txt) { document.getElementById('fp-status').textContent = txt || ''; }
+
+function fpLaden() {
+  if (FP.daten) return Promise.resolve(FP.daten);
+  if (!FP.laden) {
+    fpStatus('Profile werden geladen …');
+    FP.laden = fetch('fachprofile.json')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(j => { FP.daten = j; fpStatus(''); return j; })
+      .catch(e => {
+        FP.laden = null;
+        fpStatus('Profile konnten nicht geladen werden (' + e.message + '). Lokal braucht die Seite einen Webserver.');
+        throw e;
+      });
+  }
+  return FP.laden;
+}
+
+function fpEmbLaden() {
+  if (FP.emb) return Promise.resolve(FP.emb);
+  if (!FP.embLaden) {
+    FP.embLaden = fetch('fachprofile_emb.json')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(j => {
+        const vek = {};
+        for (const [id, b64] of Object.entries(j.personen)) {
+          const bin = atob(b64);
+          const v = new Int8Array(bin.length);
+          for (let i = 0; i < bin.length; i++) v[i] = (bin.charCodeAt(i) << 24) >> 24;
+          vek[id] = v;
+        }
+        FP.emb = { ...j, vek };
+        return FP.emb;
+      })
+      .catch(e => { FP.embLaden = null; throw e; });
+  }
+  return FP.embLaden;
+}
+
+// Sprachmodell für Anfragevektoren, einmalig aus dem Netz (~120 MB), danach im Browser-Cache.
+function fpModell() {
+  if (FP.modell) return Promise.resolve(FP.modell);
+  if (!FP.modellLaden) {
+    FP.modellLaden = import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.5.2')
+      .then(({ pipeline }) => pipeline('feature-extraction', 'Xenova/multilingual-e5-small', {
+        dtype: 'q8',
+        progress_callback: p => {
+          if (p.status === 'progress' && p.file && p.file.endsWith('.onnx')) {
+            fpStatus(`Sprachmodell wird geladen … ${Math.round(p.progress || 0)}%`);
+          }
+        },
+      }))
+      .then(m => { FP.modell = m; fpStatus(''); return m; })
+      .catch(e => { FP.modellLaden = null; fpStatus('Sprachmodell nicht ladbar: ' + e.message); throw e; });
+  }
+  return FP.modellLaden;
+}
+
+function fpNorm(text) {
+  return (text || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+function fpGramme(q) {
+  const w = (fpNorm(q).match(/[a-z][a-z0-9\-]{2,}/g) || []).filter(t => !FP_STOP.has(t));
+  const out = new Set(w);
+  for (let i = 0; i + 1 < w.length; i++) out.add(w[i] + ' ' + w[i + 1]);
+  return [...out];
+}
+
+// Stichwortmodus: bester Begriffstreffer je Anfrage-Gramm, plus Topic/Keyword-Treffer
+function fpScoreStichwort(pr, gramme, roh) {
+  let score = 0;
+  const hits = new Set();
+  for (const g of gramme) {
+    let best = 0, bestT = null;
+    for (const [t, w] of pr.terms) {
+      let m = 0;
+      if (t === g) m = 1;
+      else if (g.length >= 5 && t.startsWith(g)) m = 0.85;
+      else if (t.length >= 5 && g.startsWith(t)) m = 0.7;
+      else if (!g.includes(' ') && t.includes(' ') && t.split(' ').includes(g)) m = 0.6;
+      if (m * w > best) { best = m * w; bestT = t; }
+    }
+    if (best) { score += best; hits.add(bestT); }
+  }
+  // kuratierte Begriffe (Subfeld, Topic, Keyword): Teilstring der ganzen Anfrage
+  let kur = 0;
+  for (const [name, c] of [...pr.sub, ...pr.top, ...pr.kw]) {
+    const n = fpNorm(name);
+    if (n.includes(roh) || (roh.length >= 5 && roh.includes(n))) { kur = Math.max(kur, c / pr.n); hits.add(name); }
+  }
+  return { score: score / Math.max(1, gramme.length) + Math.min(0.6, kur), hits: [...hits] };
+}
+
+function fpScoreSemantisch(qv, v, skala) {
+  let s = 0;
+  for (let k = 0; k < v.length; k++) s += qv[k] * v[k];
+  return s / skala;
+}
+
+function fpPersonen(rows) {
+  // eine Karte je Person: bei mehreren Berufungen die jüngste
+  const uni = document.getElementById('fp-uni').value;
+  const nachId = new Map();
+  rows.forEach(d => {
+    if (!d.openalex_id || !FP.daten.personen[d.openalex_id]) return;
+    if (uni && d.universitat !== uni) return;
+    const alt = nachId.get(d.openalex_id);
+    if (!alt || d.year > alt.year) nachId.set(d.openalex_id, d);
+  });
+  return [...nachId.values()];
+}
+
+function fpSubfeldListe(personen) {
+  const zaehl = {};
+  personen.forEach(d => {
+    const pr = FP.daten.personen[d.openalex_id];
+    pr.sub.forEach(([name, c], i) => {
+      if (i < 2 || c / pr.n >= 0.2) zaehl[name] = (zaehl[name] || 0) + 1;
+    });
+  });
+  const top = Object.entries(zaehl).sort((a, b) => b[1] - a[1]).slice(0, 45);
+  const max = top.length ? top[0][1] : 1;
+  const nachDomain = {};
+  top.forEach(([name, c]) => {
+    const dom = (FP.daten.subfelder[name] || {}).domain || 'Sonstige';
+    (nachDomain[dom] = nachDomain[dom] || []).push([name, c]);
+  });
+  document.getElementById('fp-sub-title').textContent =
+    `Subfelder (${Object.keys(zaehl).length}, ${plural(personen.length, 'Profil', 'Profile')})`;
+  document.getElementById('fp-subfelder').innerHTML = Object.entries(nachDomain)
+    .sort((a, b) => b[1].reduce((s, x) => s + x[1], 0) - a[1].reduce((s, x) => s + x[1], 0))
+    .map(([dom, liste]) => `<div class="fp-domain">${dom}</div>` + liste.map(([name, c]) => `
+      <button class="fp-sub-row ${FP.subfeld === name ? 'active' : ''}" onclick="fpSubfeld(${JSON.stringify(name).replace(/"/g, '&quot;')})" title="${c} Personen mit Schwerpunkt ${name}">
+        <div><div class="fp-sub-name">${name}</div>
+          <div class="fp-sub-bar"><span style="width:${Math.round(c / max * 100)}%;background:${FP_DOMAIN_COLOR[dom] || '#9D9D9C'}"></span></div></div>
+        <div class="fp-sub-n">${c}</div>
+      </button>`).join('')).join('')
+    || '<div class="fp-leer">Keine Profile im gewählten Zeitraum.</div>';
+}
+
+function fpTreffer(d, pr, score, hits, bar, erklaerung) {
+  const subs = pr.sub.slice(0, 3).map(([n, c]) => `${n} <span class="lbl">${Math.round(c / pr.n * 100)}%</span>`).join(' · ');
+  const hitSet = new Set(hits.map(fpNorm));
+  const chips = [
+    ...hits.map(h => `<span class="fp-chip hit">${h}</span>`),
+    ...pr.kw.filter(([k]) => !hitSet.has(fpNorm(k))).slice(0, 8).map(([k, c]) => `<span class="fp-chip" title="${c} Arbeiten">${k}</span>`),
+  ].join('');
+  const m = metricsOf(d);
+  return `<div class="fp-hit">
+    <div class="fp-hit-head">
+      <button class="fp-hit-name" onclick="jumpToPerson('${d.name.replace(/'/g, "\\'")}')">${d.name}</button>
+      <span class="fp-hit-meta">${d.universitat} · ${d.year}${m.hIndex != null ? ' · h ' + m.hIndex : ''}</span>
+    </div>
+    <div class="fp-line lbl" style="color:var(--muted)">${d.forschungsbereich || ''}</div>
+    <div class="fp-score" title="${erklaerung}"><span style="width:${Math.round(bar * 100)}%"></span></div>
+    <div class="fp-line"><span class="lbl">Subfelder: </span>${subs}</div>
+    <div class="fp-chips">${chips}</div>
+    <div class="fp-line lbl" style="color:var(--muted);font-size:0.72rem">${pr.n} Arbeiten${pr.jahre ? ` ${pr.jahre[0]}–${pr.jahre[1]}` : ''}, ${pr.ab} mit Abstract</div>
+  </div>`;
+}
+
+async function fpRender() {
+  const box = document.getElementById('fp-results');
+  let daten;
+  try { daten = await fpLaden(); } catch (e) { box.innerHTML = ''; return; }
+  const personen = fpPersonen(FP.rows);
+  fpSubfeldListe(personen);
+  const ohne = new Set(FP.rows.filter(d => !d.openalex_id || !daten.personen[d.openalex_id]).map(d => d.name)).size;
+  const q = FP.query.trim();
+  const roh = fpNorm(q);
+  let liste = [];
+
+  if (FP.subfeld) {
+    liste = personen.map(d => {
+      const pr = daten.personen[d.openalex_id];
+      const e = pr.sub.find(([n]) => n === FP.subfeld);
+      return e ? { d, pr, score: e[1] / pr.n, hits: [FP.subfeld] } : null;
+    }).filter(Boolean);
+    if (roh) {
+      const gr = fpGramme(q);
+      liste = liste.map(x => { const s = fpScoreStichwort(x.pr, gr, roh); return { ...x, score: x.score + s.score, hits: [...new Set([...x.hits, ...s.hits])] }; })
+        .filter(x => x.hits.length > 1);
+    }
+  } else if (roh) {
+    if (FP.modus === 'semantisch') {
+      let emb, modell;
+      try { [emb, modell] = await Promise.all([fpEmbLaden(), fpModell()]); }
+      catch (e) { box.innerHTML = `<div class="fp-leer">Semantische Suche nicht verfügbar: ${e.message}</div>`; return; }
+      fpStatus('Anfrage wird eingebettet …');
+      const out = await modell((emb.praefix_query || 'query: ') + q, { pooling: 'mean', normalize: true });
+      const qv = out.data;
+      fpStatus('');
+      const gr = fpGramme(q);
+      liste = personen.map(d => {
+        const v = emb.vek[d.openalex_id];
+        if (!v) return null;
+        const pr = daten.personen[d.openalex_id];
+        return { d, pr, score: fpScoreSemantisch(qv, v, emb.skala || 127), hits: fpScoreStichwort(pr, gr, roh).hits };
+      }).filter(Boolean);
+    } else {
+      const gr = fpGramme(q);
+      if (!gr.length) { box.innerHTML = '<div class="fp-leer">Bitte einen inhaltlichen Suchbegriff eingeben.</div>'; return; }
+      liste = personen.map(d => {
+        const pr = daten.personen[d.openalex_id];
+        const s = fpScoreStichwort(pr, gr, roh);
+        return s.score > 0 ? { d, pr, ...s } : null;
+      }).filter(Boolean);
+    }
+  }
+
+  if (!roh && !FP.subfeld) {
+    box.innerHTML = `<div class="fp-leer">${plural(personen.length, 'Publikationsprofil', 'Publikationsprofile')} im gewählten Zeitraum` +
+      (ohne ? `, ${ohne} Personen ohne OpenAlex-Profil` : '') +
+      `.<br>Suchbegriff eingeben oder rechts ein Subfeld wählen.</div>`;
+    FP.letzte = [];
+    return;
+  }
+  liste.sort((a, b) => b.score - a.score);
+  const top = liste.slice(0, 40);
+  FP.letzte = top;
+  if (!top.length) {
+    box.innerHTML = `<div class="fp-leer">Keine passenden Profile.${
+      FP.modus === 'stichwort' && !FP.subfeld
+        ? ' Die Stichwortsuche kennt nur englische Begriffe aus den Publikationen. <button class="fp-beispiel" onclick="fpSetMode(\'semantisch\')">Semantisch suchen</button> versteht auch deutsche Anfragen und Umschreibungen.'
+        : ' Anderer Begriff oder größerer Zeitraum?'}</div>`;
+    return;
+  }
+  const hi = top[0].score, lo = top[top.length - 1].score;
+  const spanne = Math.max(1e-6, hi - lo);
+  const kopf = `<div class="fp-line" style="margin:0 0 10px;display:flex;justify-content:space-between;align-items:center;gap:12px">
+    <span>${FP.subfeld ? `Subfeld <strong>${FP.subfeld}</strong>` : `<strong>${FP.modus === 'semantisch' ? 'Semantische' : 'Stichwort'}-Suche</strong> „${q}“`}: ${plural(liste.length, 'Treffer', 'Treffer')}${liste.length > 40 ? ', die 40 besten' : ''}</span>
+    <button class="btn-export" onclick="fpExport()" title="Trefferliste als CSV">⬇ CSV</button></div>`;
+  box.innerHTML = kopf + top.map(x => fpTreffer(
+    x.d, x.pr, x.score, x.hits,
+    FP.modus === 'semantisch' && !FP.subfeld ? 0.15 + 0.85 * (x.score - lo) / spanne : Math.min(1, x.score / Math.max(hi, 1e-6)),
+    FP.modus === 'semantisch' && !FP.subfeld ? `Kosinus-Ähnlichkeit ${x.score.toFixed(3)}` : `Score ${x.score.toFixed(2)}`,
+  )).join('');
+}
+
+function fpSuchen() {
+  FP.query = document.getElementById('fp-query').value;
+  writeStateToHash();
+  fpRender();
+}
+
+function fpEingabe() {
+  // Stichwortmodus sucht beim Tippen, semantisch erst bei Enter (Modell-Aufruf)
+  clearTimeout(FP.timer);
+  if (FP.modus !== 'stichwort') return;
+  FP.timer = setTimeout(fpSuchen, 250);
+}
+
+function fpSetMode(m) {
+  FP.modus = m;
+  document.querySelectorAll('.fp-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
+  if (m === 'semantisch') { fpModell().catch(() => {}); fpEmbLaden().catch(() => {}); }
+  if (FP.query.trim()) fpSuchen();
+}
+
+function fpSubfeld(name) {
+  FP.subfeld = FP.subfeld === name ? null : name;
+  writeStateToHash();
+  fpRender();
+}
+
+function fpReset() {
+  FP.query = ''; FP.subfeld = null;
+  document.getElementById('fp-query').value = '';
+  document.getElementById('fp-uni').value = '';
+  writeStateToHash();
+  fpRender();
+}
+
+function fpBeispiel(q) {
+  document.getElementById('fp-query').value = q;
+  FP.subfeld = null;
+  fpSuchen();
+}
+
+function fpExport() {
+  const esc = v => { const s = String(v ?? ''); return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  const zeilen = [['Rang', 'Name', 'Universität', 'Jahr', 'Forschungsbereich', 'Score', 'Treffer', 'Subfelder', 'Keywords', 'OpenAlex'].join(';')];
+  FP.letzte.forEach((x, i) => zeilen.push([
+    i + 1, x.d.name, x.d.universitat, x.d.year, x.d.forschungsbereich || '', x.score.toFixed(3),
+    x.hits.join(', '), x.pr.sub.slice(0, 3).map(([n, c]) => `${n} (${Math.round(c / x.pr.n * 100)}%)`).join(', '),
+    x.pr.kw.slice(0, 10).map(([k]) => k).join(', '), 'https://openalex.org/' + x.d.openalex_id,
+  ].map(esc).join(';')));
+  const blob = new Blob(['\ufeff' + zeilen.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `fachprofile_${(FP.subfeld || FP.query || 'suche').replace(/[^\w\-]+/g, '_').slice(0, 40)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function initFachprofile(rows) {
+  FP.rows = rows;
+  fpRender();
+}
+
+function fpInit() {
+  const sel = document.getElementById('fp-uni');
+  sel.innerHTML = '<option value="">Alle Universitäten</option>' +
+    UNIS.map(u => `<option>${u}</option>`).join('');
+  sel.onchange = () => { writeStateToHash(); fpRender(); };
+  const inp = document.getElementById('fp-query');
+  inp.oninput = fpEingabe;
+  inp.onkeydown = e => { if (e.key === 'Enter') { clearTimeout(FP.timer); fpSuchen(); } };
+  document.getElementById('fp-beispiele').innerHTML = 'Beispiele: ' +
+    FP_BEISPIELE.map(b => `<button class="fp-beispiel" onclick="fpBeispiel('${b.replace(/'/g, "\\'")}')">${b}</button>`).join('');
+}
+
 // ─── TAB SWITCHING ───────────────────────────────────────
 function activateTabPanel(name) {
   document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
@@ -1254,11 +1727,12 @@ function switchTab(name) {
 
 // D3-Grafiken brauchen eine sichtbare Breite, deshalb erst beim Tab-Wechsel
 // zeichnen. TAB_DIRTY erzwingt Neuzeichnen nach einer Jahresauswahl.
-const TAB_DIRTY = { wwtf: true, mobilitaet: true };
+const TAB_DIRTY = { wwtf: true, mobilitaet: true, fachprofile: true };
 
 function renderTab(name) {
   if (name === 'wwtf' && TAB_DIRTY.wwtf) { initWWTF(VIEW); TAB_DIRTY.wwtf = false; }
   if (name === 'mobilitaet' && TAB_DIRTY.mobilitaet) { initSankey(VIEW); TAB_DIRTY.mobilitaet = false; }
+  if (name === 'fachprofile' && TAB_DIRTY.fachprofile) { initFachprofile(VIEW); TAB_DIRTY.fachprofile = false; }
   if (name === 'alle') renderCards(currentFilteredData());
 }
 
@@ -1285,6 +1759,7 @@ function renderAll() {
   renderOverview(VIEW);
   TAB_DIRTY.wwtf = true;
   TAB_DIRTY.mobilitaet = true;
+  TAB_DIRTY.fachprofile = true;
   renderTab(activeTabName());
   renderYearBar();
 }
@@ -1442,6 +1917,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : `Suchzeitraum: Berufungsjahr ${YEARS[0]}`;
   populateUniFilter();
   populateLandFilter();
+  fpInit();
   syncStickyOffsets();
   window.addEventListener('resize', syncStickyOffsets);
   if (window.ResizeObserver) {
@@ -1493,7 +1969,7 @@ print(f"✓ Built {HTML_PATH} ({len(new_html)} bytes)")
 RENDERERS = [
     "initKPIs", "initInsights", "initGenderChart", "initTimelineChart",
     "initYearChart", "initBereichChart", "initOFOSChart", "initHeatmap",
-    "initSankey", "initWWTF", "renderCards",
+    "initSankey", "initWWTF", "renderCards", "initFachprofile", "renderFoerderung",
 ]
 for fn in RENDERERS:
     m = re.search(rf"\nfunction {fn}\(", NEW_SCRIPT_FINAL)

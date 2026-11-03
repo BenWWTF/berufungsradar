@@ -76,12 +76,54 @@ Kandidaten liefern zwei Skripte, deren Ergebnisse nicht ins Repo gehen
 - `scripts/abgaenge_fl.py`: die Monatsrubrik "Habilitationen und Berufungen"
   von Forschung & Lehre, gefiltert auf Rufe aus und nach Wien.
 
+## WWTF-Förderung der Berufenen
+
+`wwtf_projekte.json` ist ein Abzug der WWTF-Projektdatenbank
+(wwtf.at/funding/project-database/, 652 Projekte seit 2003) mit allen
+beteiligten Personen (PI, Co-PI, VRG-Leitung, Proponent) samt Rolle und
+Institution. `scripts/fetch_wwtf_projekte.py` holt ihn, läuft bei Bedarf nach
+einem neuen Call (`--refresh`); 14 Detailseiten liefert der Server dauerhaft
+mit Fehler 500, für sie steht die Kurzfassung aus der Datenbankliste (PI, Titel,
+Summe, kein Status).
+
+`wwtf_enrich.py` gleicht die Berufenen über den normalisierten Namen ab und
+hängt `wwtf_foerderung` an: je Projekt ID, Rolle, Programm, Call-Jahr, Summe und
+der Zeitbezug zur Berufung (`vor`, `nach`, `im Berufungsjahr`). Proponenten
+zählen nicht als gefördert (sie sind Gastgeber einer VRG). Abweichende
+Schreibweisen stehen in `scripts/wwtf_overrides.json`. Stand November 2026:
+111 Berufene mit 151 Projektrollen, 71 davon bereits vor der Berufung gefördert.
+Das Dashboard zeigt es als KPI und Block „WWTF-Förderung der Berufenen" im
+WWTF-Tab, als Badge auf der Karte und als Filter „WWTF-Förderung".
+
+## Fachprofile
+
+Der Tab „Fachprofile" beantwortet, woran die Berufenen tatsächlich publizieren,
+unabhängig von der ÖFOS-Denomination der Professur. Drei Stufen, nur die letzte
+Datei geht ins Repo:
+
+| Skript | Aufgabe | Ergebnis |
+|---|---|---|
+| `scripts/fachprofil_fetch.py` | je Person die 100 meistzitierten und 40 jüngsten Arbeiten seit 2005 aus OpenAlex (Titel, Abstract, Topics, Keywords), ~2000 API-Aufrufe | `scripts/.fachprofil_cache/` (gitignored) |
+| `scripts/fachprofil.py` | verdichtet zu Subfeldern, Topics, Keywords und TF-IDF-Begriffen je Person | `fachprofile.json` |
+| `scripts/fachprofil_embed.mjs` | Textvektor je Person (multilingual-e5-small über transformers.js, Mittelwert aus bis zu 40 Arbeiten), `cd scripts && npm install` einmalig | `fachprofile_emb.json` |
+
+Subfelder folgen der OpenAlex-Topic-Taxonomie (Domäne → Feld → Subfeld →
+Topic), die aus den Publikationen selbst kommt. Die Stichwortsuche läuft im
+Browser über die Begriffsprofile (Ein- und Zweiwortbegriffe, Präfixabgleich),
+die semantische Suche lädt dasselbe Sprachmodell einmalig in den Browser
+(≈120 MB, danach gecacht) und vergleicht Anfrage- mit Personenvektor. Beide
+Dateien werden vom Tab nachgeladen, nicht in `index.html` eingebettet; lokal
+braucht die Seite deshalb einen Webserver (`python3 -m http.server`). Die
+Pipeline läuft von Hand nach einem neuen Jahrgang, nicht in der GitHub Action.
+
 ## Visualisierungen
 
 - **KPI-Zeile** – Gesamtanzahl, Geschlechterverteilung (40 W / 50 M), Art der Berufung
 - **WWTF-Perspektive (eigener Tab)** – Zuordnung der Berufungen zu WWTF-Programmfeldern (Life Sciences, ICT, Cognitive Sciences, ESR, Digital Humanism, Mathematik und …); KPIs, Kernaussagen, Personen-Listen pro Programmfeld
 - **Kernaussagen-Boxen** – automatisch berechnete Takeaways auf Übersicht, WWTF- und Mobilitäts-Tab
 - **VRG-Pipeline (WWTF-Tab)** – 35 Vienna Research Groups der Calls 2010–2025 mit Gastinstitution und, wo erfasst, der späteren Professur; Badge und Filter auf den Personenkarten
+- **WWTF-Förderung der Berufenen (WWTF-Tab)** – Abgleich mit der gesamten Projektdatenbank: Personen je Programm, Call-Jahr relativ zur Berufung, Liste mit Projektlinks
+- **Fachprofile (eigener Tab)** – Stichwort- und semantische Suche über die Publikationsprofile, Subfeld-Explorer (OpenAlex-Taxonomie), CSV-Export der Trefferliste
 - **Mobilität (Sankey)** – Herkunftsland (14 Länder) → Wiener Universitäten (9 öffentliche + CEU), volle Breite
 - **ÖFOS-Bereiche (1-stellig)** – Hauptkategorien 1–6
 - **Universitäten × ÖFOS-Bereich (Heatmap)** – Aktivitätsprofile der 9 Unis

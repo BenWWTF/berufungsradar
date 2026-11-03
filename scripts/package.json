@@ -1,0 +1,9 @@
+{
+  "name": "berufungsradar-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Node-Abhängigkeit für fachprofil_embed.mjs (Textvektoren der Fachprofile)",
+  "dependencies": {
+    "@huggingface/transformers": "3.5.2"
+  }
+}

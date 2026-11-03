@@ -1,6 +1,6 @@
 # Berufungsradar Wien 2025 — Spezifikation & Methodenbericht
 
-**Stand:** Juni 2026
+**Stand:** November 2026
 **Verantwortlich:** Benjamin Missbach, WWTF
 **Live-Dashboard:** https://benwwtf.github.io/berufungsradar/
 **Quellcode:** https://github.com/BenWWTF/berufungsradar
@@ -463,9 +463,80 @@ Jahresauswahl, weil eine Berufung in jedem Jahr liegen kann. Solange die Datenba
 nur 2025–2026 abdeckt, heißt „keine Berufung erfasst" nicht „nicht berufen"; der
 Hinweis steht über der Tabelle.
 
+### 6.8a WWTF-Förderung der Berufenen
+
+Die VRG-Pipeline zeigt nur ein Programm. Die Frage „wer von den Berufenen hat
+schon einmal WWTF-Geld bekommen" braucht die ganze Projektdatenbank:
+
+| Datei | Inhalt | Pflege |
+|---|---|---|
+| `wwtf_projekte.json` | 652 Projekte seit 2003 (alle Programme), je Projekt Personen mit Rolle (PI, Co-PI, VRG-Leitung, Proponent) und Institution, Status, Laufzeit, Summe, Disziplinen | `scripts/fetch_wwtf_projekte.py`, nach neuen Calls mit `--refresh` |
+| `dashboard_data_2025.json` | `wwtf_foerderung` (Liste je Berufung) | `scripts/wwtf_enrich.py`, jeder Pipeline-Lauf |
+
+**Quelle:** die Datenbankseite listet alle Projekt-Schlüssel, die Kurzfassungen
+kommen über den AJAX-Gateway der Seite (`act=presult`), je Projekt dann die
+Detailseite. 14 Detailseiten antworten dauerhaft mit HTTP 500 (u.a. VRG13-007,
+VRG14-021); für sie liefert die Kurzfassung PI, Titel und Summe (`_quelle`).
+
+**Verknüpfung:** normalisierter voller Name; fällt er aus, Vor- plus Nachname,
+aber nur wenn dieser Kurzname auf beiden Seiten eindeutig ist. Overrides in
+`scripts/wwtf_overrides.json`. Proponenten sind Gastgeber einer VRG, nicht
+Geförderte, und bleiben unverknüpft. `zeitbezug` vergleicht Call-Jahr und
+Berufungsjahr: `vor` heißt, der WWTF hat die Person vor der Professur gefördert.
+
+**Anzeige:** KPI „Vom WWTF gefördert", Block mit zwei Diagrammen (Personen je
+Programm, Call-Jahr minus Berufungsjahr) und Tabelle im WWTF-Tab; Badge
+„WWTF-gefördert" plus Projektliste auf der Karte; Filter „WWTF-Förderung" mit
+den Stufen irgendwann / vor der Berufung / nach der Berufung / nur VRG / ohne.
+Alles folgt der Jahresauswahl.
+
+### 6.8b Fachprofile (Tab „Fachprofile")
+
+**Frage:** in welchen Subfeldern arbeiten die Berufenen, und wer arbeitet an X?
+Die ÖFOS-Codes beschreiben die Widmung der Professur und sind zu grob
+(„Informatik"). Die Fachprofile beschreiben das Werk der Person.
+
+**Subfeld-Definition:** OpenAlex-Topics, eine aus den Publikationen gelernte
+Taxonomie mit vier Ebenen (4 Domänen, 26 Felder, ~250 Subfelder, >4500 Topics).
+Jede Arbeit trägt ein primäres Topic, damit ein Subfeld; das Profil einer
+Person ist die Verteilung ihrer Arbeiten über Subfelder. Als Schwerpunkt gilt
+ein Subfeld mit mindestens 20 % der Arbeiten oder einer der beiden stärksten.
+Keine ÖFOS, keine Handkuratierung.
+
+**Datenbasis:** je Person (1012 mit OpenAlex-ID) die 100 meistzitierten und
+die 40 jüngsten Arbeiten seit 2005: Titel, Abstract (OpenAlex hat ihn für
+rund die Hälfte), Topics, Keywords. Rohdaten in `scripts/.fachprofil_cache/`,
+nicht im Repo (≈ 150 MB).
+
+**Begriffsprofil (Stichwortsuche):** Personen sind die Dokumente. Je Arbeit
+zählt jeder Ein- oder Zweiwortbegriff aus Titel, Abstract, primärem Topic und
+Keywords höchstens einmal; Gewicht = Anteil der Arbeiten, die den Begriff
+nennen, × IDF über alle Personen. Stoppwörter EN/DE und Wissenschaftsfloskeln
+fliegen raus, Einwort-Unikate ebenso. Die 80 stärksten Begriffe je Person
+stehen in `fachprofile.json`. Im Browser: bester Treffer je Anfrage-Gramm
+(exakt 1,0; Präfix ab 5 Zeichen 0,85; Teil eines Zweiwortbegriffs 0,6), dazu
+Teilstring-Treffer auf Subfeld-, Topic- und Keyword-Namen. Die Treffer werden
+als Chips ausgewiesen, die Suche ist damit erklärbar.
+
+**Textvektor (semantische Suche):** `intfloat/multilingual-e5-small` (384
+Dimensionen), gerechnet mit transformers.js, damit Build und Browser dasselbe
+ONNX-Modell (q8) nutzen. Je Person Mittelwert der Vektoren von bis zu 40
+Arbeiten („passage: Titel. Abstract"), normiert, int8-quantisiert in
+`fachprofile_emb.json` (≈ 0,5 MB). Die Anfrage wird im Browser mit dem Präfix
+„query:" eingebettet, Score = Kosinus. Das Modell (≈ 120 MB) lädt erst, wenn
+jemand den Modus wählt, und bleibt im Browser-Cache. Es versteht deutsche
+Anfragen und Umschreibungen; die Stichwortsuche kennt nur die englischen
+Begriffe der Publikationen und sagt das bei leerem Ergebnis.
+
+**Grenzen:** Personen ohne OpenAlex-Profil (≈ 200, vor allem Kunstunis) fehlen.
+Ein Namensvetter im OpenAlex-Profil färbt das Fachprofil (die Match-Prüfung aus
+4.1 greift). OpenAlex-Abstracts fehlen bei vielen Verlagen, dann tragen Titel
+und Topics allein. Das Profil mittelt über zwanzig Jahre; ein Themenwechsel ist
+daran nicht ablesbar.
+
 ### 6.9 Werkzeuge
 - **CSV-Export**: die aktuell gefilterte Kartenansicht als Excel-AT-kompatibles
-  CSV (Semikolon-Separator, UTF-8-BOM, 18 Spalten inkl. WWTF-Programmfelder
+  CSV (Semikolon-Separator, UTF-8-BOM, 19 Spalten inkl. WWTF-Programmfelder, WWTF-Projekte
   und Metriken)
 - **Sortierung** der Profilkarten: Monat (Default), Name, h-Index, Universität
 - **Teilbare Links**: Tab- und Filterzustand wird in der URL-Fragment-Kennung
@@ -511,6 +582,16 @@ python3 scripts/build_html.py        # HTML-Generierung (~1 Sek.)
 python3 scripts/audit_gaps.py        # Lücken-Report → data_gaps.csv
 ```
 
+Selten, von Hand (nicht in `update.sh`, nicht in der GitHub Action):
+
+```bash
+python3 scripts/fetch_vrg.py                   # Vienna Research Groups → vrg_grantees.json
+python3 scripts/fetch_wwtf_projekte.py         # WWTF-Projektdatenbank → wwtf_projekte.json (~5 Min., Cache)
+python3 scripts/fachprofil_fetch.py            # Publikationen je Person aus OpenAlex (~25 Min., Cache)
+python3 scripts/fachprofil.py                  # → fachprofile.json
+(cd scripts && npm install && node fachprofil_embed.mjs)   # → fachprofile_emb.json (~50 Min.)
+```
+
 Manuell recherchierte Sonderfälle liegen in zwei Dateien:
 - `scripts/herkunft_research.json` — frühe manuelle Herkunfts-Recherche
 - `scripts/openalex_overrides.json` — geprüfte OpenAlex-IDs und „kein Profil"-
@@ -535,6 +616,7 @@ Mitteilung an benjamin.missbach@wwtf.at.
 | 09.06.2026 | `f4c5072` | UNIS-Array-Fix, ÖFOS-Kategorienamen auf Heatmap-Achsen |
 | 09.07.2026 | — | WWTF-Perspektive-Tab, strukturierte Metriken, CSV-Export, Sortierung, teilbare Filter-Links, Kernaussagen-Boxen, Farb-Fix Uni Wien/MedUni Wien |
 | 09.07.2026 | — | 9. Universität ergänzt (Akademie der bildenden Künste: Brorson, Schachinger → 90 Einträge); fail-safe Datenstrategie: OpenAlex-Lookup für alle Einträge mit Match-Validierung + Negativ-Cache, fill_gaps.py (Werdegang/Profil-Links auto, manuell > API > generiert), audit_gaps.py (data_gaps.csv), update.sh; Geschlechts-Badges m/f |
+| 03.11.2026 | — | WWTF-Projektdatenbank eingespielt (`wwtf_projekte.json`, 652 Projekte): `wwtf_foerderung` je Berufung, KPI, Diagramme, Filter und Badge; Tab „Fachprofile": Publikationsprofile aus OpenAlex (Subfelder, Begriffe, Textvektoren), Stichwort- und semantische Suche, Subfeld-Explorer |
 | 02.11.2026 | — | MedUni Wien: Personalliste der Uni eingespielt (`backfill_meduni_hr.py`): 17 neue Datensätze (90 → 107), 20 Korrekturen an Paragraf/Monat, Abgleichbericht in `scripts/pruefung/`; Gesamt 1232 |
 
 ## 11. Kontakt
