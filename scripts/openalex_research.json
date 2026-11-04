@@ -77879,5 +77879,10 @@
     "herkunft_institution": "University of Vienna",
     "herkunft_land": "Österreich",
     "grants": []
+  },
+  "Sam Jacob": {
+    "name": "Sam Jacob",
+    "_openalex": "not found",
+    "match_confidence": "verified"
   }
 }
