@@ -31,8 +31,10 @@
  },
  "Alex Grube": {
   "bio_text": "E-Bassist und Studiomusiker im Pop-Bereich; Live- und Studioarbeit mit deutschen Pop-Acts, Lehre im Fach E-Bass Popularmusik.",
-  "quelle": "https://www.uni-muenster.de/news/view.php?cmdid=9046, https://www.mdw.ac.at/neue-professuren-2026/",
-  "notiz": "Biografie stammt aus Münsteraner Artikel von 2017. Dass derselbe Alex Grube die mdw-Professur antritt, ist plausibel (mdw nennt Namen, Fach E-Bass), aber nicht in einer Quelle ausdrücklich bestätigt. Keine Profilseite gefunden."
+  "quelle": "https://www.uni-muenster.de/news/view.php?cmdid=9046, https://www.mdw.ac.at/neue-professuren-2026/; https://www.mdw.ac.at/alex-grube/",
+  "notiz": "Biografie stammt aus Münsteraner Artikel von 2017. Dass derselbe Alex Grube die mdw-Professur antritt, ist plausibel (mdw nennt Namen, Fach E-Bass), aber nicht in einer Quelle ausdrücklich bestätigt. Keine Profilseite gefunden.",
+  "profil_url": "https://www.mdw.ac.at/alex-grube/",
+  "werdegang": "Geboren 1983 in Flensburg; Studium an der Popakademie Baden-Württemberg. E-Bassist und Studiomusiker mit über 3.000 Live-Shows und über 2.000 Studioproduktionen. Zehn Jahre Professor für E-Bass an der Musikhochschule Münster sowie Lehre am Popkurs der HfMT Hamburg; seit 1. Oktober 2026 Professor für E-Bass Popularmusik am Institut für Popularmusik der mdw."
  },
  "Alexander Etkind": {
   "fakultat": "Department of International Relations",
@@ -203,8 +205,9 @@
  "Antanina Kalechyts": {
   "werdegang": "Geboren in Minsk; Studium Kirchenmusik mit Schwerpunkt Gregorianik und Orgel, Orgelkonzertfach und Orchesterdirigieren an der Kunstuniversität Graz. Leitet die Choralschola der Kirchenmusikabteilung der mdw, Mitbegründerin des Vokalensembles Graces&Voices (2011).",
   "bio_text": "Kirchenmusikerin und Organistin mit Schwerpunkt Gregorianik und Liturgik; Leiterin der Choralschola an der mdw.",
-  "quelle": "https://db.musicaustria.at/print/pdf/node/208688, https://www.kirchenmusikkommission.at/dl/MNloJKJKlNlKnJqx4lJK/SiKi_2024-1_Neue_Mitglieder_pdf",
-  "notiz": "Aus Suchergebnis-Auszügen, Seiten nicht vollständig geöffnet. Keine mdw-Profilseite gefunden."
+  "quelle": "https://db.musicaustria.at/print/pdf/node/208688, https://www.kirchenmusikkommission.at/dl/MNloJKJKlNlKnJqx4lJK/SiKi_2024-1_Neue_Mitglieder_pdf; https://www.mdw.ac.at/antanina-kalechyts",
+  "notiz": "Aus Suchergebnis-Auszügen, Seiten nicht vollständig geöffnet. Keine mdw-Profilseite gefunden.",
+  "profil_url": "https://www.mdw.ac.at/antanina-kalechyts"
  },
  "Arieda Muco": {
   "fakultat": "Department of Economics",
@@ -305,6 +308,11 @@
   "quelle": "https://www.meduniwien.ac.at/web/fileadmin/content/serviceeinrichtungen/personalabteilung/stellenausschreibungen/professuren/2024/Ausschreibungstext_Tropenmedizin_de.pdf",
   "notiz": "Inferred from MedUni job ad for the same Tropenmedizin chair (2024); 2019 news names no unit; his own status after 2025 unclear"
  },
+ "Bianca Vienni-Baptista": {
+  "fakultat": "Organisationseinheit für Transformative Nachhaltigkeitswissenschaften (im Aufbau)",
+  "quelle": "https://boku.ac.at/fileadmin/data/H01000/mitteilungsblatt/MB_2024_25/MB33/Transformative_Nachhaltigkeit__final_.pdf",
+  "notiz": "Ausschreibung: Professur wird in einer gerade in Entwicklung befindlichen Organisationseinheit verankert; Einrichtung laut BOKU bis 2027."
+ },
  "Birgit Fürst-Waltl": {
   "fakultat": "Institut für Nutztierwissenschaften",
   "profil_url": "https://boku.ac.at/personen/person/7C8FB2ADB31DDE2F",
@@ -323,7 +331,8 @@
  "Bouchra Khalili": {
   "bio_text": "Künstlerin in Film, Video, Installation, Fotografie und Druckgrafik; Gründungsmitglied der Cinémathèque de Tanger.",
   "quelle": "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr, https://mosaicrooms.org/artistbio-bouchra-khalili",
-  "notiz": "Kein offizielles Angewandte-Profil und keine erreichbare eigene Website gefunden."
+  "notiz": "Kein offizielles Angewandte-Profil und keine erreichbare eigene Website gefunden.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr"
  },
  "Brady Mattsson": {
   "fakultat": "Institut für Wildbiologie und Jagdwirtschaft",
@@ -540,6 +549,11 @@
   "quelle": "https://www.mdw.ac.at/1614/",
   "notiz": "Bio aus dem Text der mdw-Seite (Auszug) abgeleitet."
  },
+ "Daniela Gompelmann": {
+  "fakultat": "Klinische Abteilung für Pulmologie (Universitätsklinik für Innere Medizin II)",
+  "quelle": "https://innere-med-2.meduniwien.ac.at/unsere-abteilungen/pulmologie/mitarbeiterinnen/abteilungsleitung/oberaerztinnen/",
+  "notiz": "Dort als Leiterin Interventionelle Bronchologie und stv. Abteilungsleitung geführt."
+ },
  "David Frühwirth": {
   "bio_text": "Geiger, geboren in Salzburg, Studium am Mozarteum, in Lübeck und New York; Preisträger internationaler Wettbewerbe, Konzerte u. a. im Musikverein und in der Wigmore Hall.",
   "quelle": "https://www.mdw.ac.at/1614/",
@@ -627,7 +641,8 @@
   "werdegang": "Madrider Architekt; gründete 1997 gemeinsam mit Cristina Díaz Moreno das Büro amid.cero9. Leitete über neun Jahre eine Diploma Unit an der Architectural Association London, Gastprofessuren u.a. in Harvard, Princeton und an der Städelschule Frankfurt. Seit 1. Oktober 2019 Leiter von Architekturentwurf 1 (Studio 1) am Institut für Architektur der Angewandten, Nachfolge von Kazuyo Sejima.",
   "bio_text": "Architekt, Mitgründer des Madrider Büros amid.cero9; Schwerpunkt städtebauliche Architektur und Urbanismus.",
   "quelle": "https://www.dieangewandte.at/presse/cristina_diaz_moreno_und_efren_garcia_grinda_uebernehmen_professur_architekturentwurf",
-  "notiz": "Kein persönliches Profil auf ioa.angewandte.at gefunden (404), daher kein profil_url."
+  "notiz": "Kein persönliches Profil auf ioa.angewandte.at gefunden (404), daher kein profil_url.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.dieangewandte.at/presse/cristina_diaz_moreno_und_efren_garcia_grinda_uebernehmen_professur_architekturentwurf"
  },
  "Egon Ogris": {
   "fakultat": "Max Perutz Labs (gemeinsam von MedUni Wien und Universität Wien)",
@@ -739,6 +754,11 @@
  "Fedor Rudin": {
   "bio_text": "Geiger und Dirigent; 2019 bis 2021 Konzertmeister des Orchesters der Wiener Staatsoper und der Wiener Philharmoniker; als Solist international tätig.",
   "quelle": "https://www.mdw.ac.at/1865"
+ },
+ "Florian Krammer": {
+  "fakultat": "Ignaz Semmelweis Institut (Interuniversitäres Institut für Infektionsforschung)",
+  "quelle": "https://www.meduniwien.ac.at/web/en/about-us/organisation/inter-university-organizational-units/ignaz-semmelweis-institute-isi-interuniversity-institute-for-infection-research/",
+  "notiz": "Leiter des 2025 gegründeten ISI; die Berufungsmeldung 2024 nennt keine Einheit."
  },
  "Florian Maierl": {
   "bio_text": "Chorleiter, Komponist und Sänger; leitet den von ihm gegründeten Coro Siamo, war Kirchenmusiker an der Votivkirche und künstlerischer Leiter des Chorus Viennensis.",
@@ -880,7 +900,8 @@
  "Grace Wales Bonner": {
   "bio_text": "Britische Modedesignerin, Gründerin des Labels Wales Bonner; Leitung der Modeklasse am Institut für Design.",
   "quelle": "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr",
-  "notiz": "Kein persönliches Profil gefunden."
+  "notiz": "Kein persönliches Profil gefunden.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.ots.at/presseaussendung/OTS_20200925_OTS0089/universitaet-fuer-angewandte-kunst-wien-startet-mit-vier-neuen-professorinnen-ins-kommende-studienjahr"
  },
  "Gregor Kasprian": {
   "fakultat": "Universitätsklinik für Radiologie und Nuklearmedizin",
@@ -896,7 +917,8 @@
   "werdegang": "Promotion 1978 an der Universität Linz; danach Richter, Staatsanwalt in Linz und im Justizministerium, 1995-2002 Generalanwalt an der Generalprokuratur, ab 2003 Hofrat und ab 2011 Senatspräsident am OGH. Seit November 2019 befristete Professur für Strafrecht und Strafprozessrecht an der WU (bis September 2023).",
   "bio_text": "Strafrechtler und ehemaliger Senatspräsident am OGH; Schwerpunkt Strafrecht und Strafprozessrecht an der WU Wien.",
   "quelle": "https://www.wu.ac.at/presse/presseaussendungen/presseaussendung-details/detail/neuer-professor-fuer-strafrecht-und-strafprozessrecht-hans-valentin-schroll",
-  "notiz": "Keine WU-Profilseite gefunden. Doktorjahr laut Quelle 1978."
+  "notiz": "Keine WU-Profilseite gefunden. Doktorjahr laut Quelle 1978.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.wu.ac.at/presse/presseaussendungen/presseaussendung-details/detail/neuer-professor-fuer-strafrecht-und-strafprozessrecht-hans-valentin-schroll"
  },
  "Harald Kittler": {
   "fakultat": "Universitätsklinik für Dermatologie",
@@ -1055,8 +1077,9 @@
  },
  "Johanna Ullrich": {
   "profil_url": "https://ufind.univie.ac.at/de/person.html?id=111925",
-  "quelle": "https://ufind.univie.ac.at/de/person.html?id=111925",
-  "notiz": "Uncertain: faculty inferred from ufind course listing (Informatik); not explicitly stated. ufind says she is no longer active staff at Uni Wien"
+  "quelle": "https://ufind.univie.ac.at/de/person.html?id=111925; https://informatik.univie.ac.at/news-events/beitrag/news/universitaetsprofessur-zu-besetzen (Ausschreibung der Fakultät, inzwischen offline), https://www.univie.ac.at/aktuelles/neue-professuren/detail/ullrich-johanna",
+  "notiz": "Uncertain: faculty inferred from ufind course listing (Informatik); not explicitly stated. ufind says she is no longer active staff at Uni Wien; Professur über die Fakultät für Informatik ausgeschrieben; laut u:find nicht mehr im aktiven Personalstand (Wechsel an die IT:U).",
+  "fakultat": "Fakultät für Informatik"
  },
  "Johannes A. Schmid": {
   "fakultat": "Institut für Gefäßbiologie und Thrombose-Forschung",
@@ -1247,6 +1270,11 @@
   "profil_url": "https://people.ceu.edu/lena_riemer",
   "quelle": "https://people.ceu.edu/lena_riemer"
  },
+ "Leonhard Grond": {
+  "fakultat": "Zentrum Fokus Forschung",
+  "quelle": "https://www.dieangewandte.at/jart/prj3/angewandte-2016/data/uploads/Universitaet/Mitteilungsblaetter/2022/MBl_24_14042022.pdf",
+  "notiz": "Professur für das Doktoratsprogramm PhD in Art; laut MBl 24/2022 Forschung am ZFF gemeinsam mit Anderwald/Grond; Nachfolgerin Yoshida ist zugleich Leiterin des ZFF."
+ },
  "Liz Haas": {
   "fakultat": "Institut für Bildende und Mediale Kunst",
   "profil_url": "https://base.uni-ak.ac.at/showroom/liz-haas-5s9F",
@@ -1268,12 +1296,14 @@
  "Lucie Meier": {
   "bio_text": "Modedesignerin; Creative Director von Jil Sander (mit Luke Meier), zuvor u.a. bei Balenciaga und Dior; geteilte Professur für Mode.",
   "quelle": "https://www.dieangewandte.at/presse/presse_detail?presse_id=1563955168100",
-  "notiz": "Kein persönliches Profil gefunden."
+  "notiz": "Kein persönliches Profil gefunden.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.dieangewandte.at/presse/presse_detail?presse_id=1563955168100"
  },
  "Luke Meier": {
   "bio_text": "Modedesigner, Gründer von OAMC, zuvor bei Supreme; Creative Director von Jil Sander (mit Lucie Meier); geteilte Professur für Mode.",
   "quelle": "https://www.dieangewandte.at/presse/presse_detail?presse_id=1563955168100",
-  "notiz": "Kein persönliches Profil gefunden."
+  "notiz": "Kein persönliches Profil gefunden.; Link ist die offizielle Berufungsmeldung, kein Personenprofil vorhanden (Stand 2026-11-04).",
+  "profil_url": "https://www.dieangewandte.at/presse/presse_detail?presse_id=1563955168100"
  },
  "Luzius Bernhard": {
   "fakultat": "Institut für Bildende und Mediale Kunst",
@@ -1517,8 +1547,9 @@
  "Nicole Kandioler-Biet": {
   "profil_url": "https://ucrisportal.univie.ac.at/de/persons/nicole-kandioler-biet/",
   "bio_text": "Film- und Medienwissenschaftlerin mit Schwerpunkt Film- und Mediengeschichte, queere Medienhistoriografie sowie osteuropäische Film- und Fernsehkulturen.",
-  "quelle": "https://ucrisportal.univie.ac.at/de/persons/nicole-kandioler-biet/, https://ufind.univie.ac.at/en/person.html?id=37312",
-  "notiz": "Kein Lebenslauf gefunden, daher kein werdegang. Laut u:find Assoz. Prof. am Institut für Theater-, Film- und Medienwissenschaft; ob die Professur 'Politiken des Medialen' damit identisch ist, nicht bestätigt."
+  "quelle": "https://ucrisportal.univie.ac.at/de/persons/nicole-kandioler-biet/, https://ufind.univie.ac.at/en/person.html?id=37312; https://orcid.org/0000-0002-7338-4063, https://ufind.univie.ac.at/de/person.html?id=37312",
+  "notiz": "Kein Lebenslauf gefunden, daher kein werdegang. Laut u:find Assoz. Prof. am Institut für Theater-, Film- und Medienwissenschaft; ob die Professur 'Politiken des Medialen' damit identisch ist, nicht bestätigt.",
+  "werdegang": "Studium und Promotion an der Universität Wien. 2018 bis 2020 Postdoc am Institut für Theater-, Film- und Medienwissenschaft der Universität Wien, seit 2020 dort Tenure-Track-Professorin; inzwischen assoziierte Professorin und Privatdozentin."
  },
  "Nicole Sabella": {
   "bio_text": "Künstlerin mit Schwerpunkt Performance Art, digitale Medien und Kommunikation; Lehre an Kunstuniversität Linz und Universität für angewandte Kunst.",
@@ -1689,6 +1720,11 @@
   "fakultat": "Universitätsklinik für Psychiatrie und Psychotherapie",
   "quelle": "https://www.meduniwien.ac.at/web/en/ueber-uns/news/news-im-september-2021/rupert-lanzenberger-uebernimmt-professur-im-fachbereich-klinische-neurowissenschaften/",
   "notiz": "Leitet Forschungslabor für molekulare, funktionelle und translationale Bildgebung des Gehirns"
+ },
+ "Ruth Anderwald": {
+  "fakultat": "Zentrum Fokus Forschung",
+  "quelle": "https://www.dieangewandte.at/jart/prj3/angewandte-2016/data/uploads/Universitaet/Mitteilungsblaetter/2022/MBl_24_14042022.pdf",
+  "notiz": "Professur für das Doktoratsprogramm PhD in Art; laut MBl 24/2022 Forschung am ZFF gemeinsam mit Anderwald/Grond; Nachfolgerin Yoshida ist zugleich Leiterin des ZFF."
  },
  "Sabine Andergassen": {
   "fakultat": "Institut für Information Systems Engineering",
