@@ -264,8 +264,11 @@ def main():
             metrics["publikationen"] = entry["works_count"]
         if entry.get("cited_by_count") is not None:
             metrics["zitierungen"] = entry["cited_by_count"]
+        # Auch leeren: eine alte ID (Namensvetter) darf nicht stehen bleiben
         if entry.get("openalex_id"):
             d["openalex_id"] = entry["openalex_id"]
+        else:
+            d.pop("openalex_id", None)
         d.update({k: metrics.get(k) for k in ("h_index", "publikationen", "zitierungen")})
         if metrics:
             n_metrics += 1

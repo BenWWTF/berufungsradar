@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "dashboard_data_2025.json"
 OUT_PATH = ROOT / "data_gaps.csv"
+OA_PATH = ROOT / "scripts" / "openalex_research.json"
 
 # Feld → (Beschreibung, automatisch füllbar?)
 FIELDS = {
@@ -23,7 +24,7 @@ FIELDS = {
     "bio_text": "Kurzbeschreibung",
     "herkunft_institution": "Herkunftsinstitution",
     "herkunft_land": "Herkunftsland",
-    "fakultat_institut": "Institut",
+    "fakultat_institut": "Fakultät/Institut",
     "h_index": "OpenAlex-Metriken",
 }
 
@@ -39,14 +40,30 @@ UNI_SEARCH = {
 }
 
 
+def ohne_profil(d, oa):
+    """OpenAlex geprüft, aber kein passendes Profil (meist künstlerische Professuren)."""
+    e = oa.get(d["name"]) or {}
+    return e.get("_openalex") == "not found" or e.get("match_confidence") == "low"
+
+
+def vorhanden(d, f, oa):
+    if f == "h_index":
+        # 0 ist ein Wert; „geprüft, kein Profil" ist ein Ergebnis, keine Lücke
+        return d.get(f) is not None or ohne_profil(d, oa)
+    if f == "fakultat_institut":
+        return bool(d.get(f) or d.get("fakultat"))   # so zeigt es das Dashboard
+    return bool(d.get(f))
+
+
 def main():
     data = json.loads(DATA_PATH.read_text())
+    oa = json.loads(OA_PATH.read_text()) if OA_PATH.exists() else {}
     rows = []
     field_counts = Counter()
 
     for d in data:
         # Auto-gefüllte Felder zählen als „vorhanden, aber nur API-Qualität"
-        missing = [f for f in FIELDS if not d.get(f)]
+        missing = [f for f in FIELDS if not vorhanden(d, f, oa)]
         auto = [f for f in ("werdegang", "profil_url") if d.get(f + "_auto")]
         for f in missing:
             field_counts[f] += 1
@@ -74,6 +91,8 @@ def main():
         n = field_counts[f]
         bar = "█" * n
         print(f"  {label:22} {n:3} fehlen  {bar}")
+    n_ohne = sum(1 for d in data if d.get("h_index") is None and ohne_profil(d, oa))
+    print(f"  {'(kein OpenAlex-Profil)':22} {n_ohne:3}  geprüft, keine Lücke")
     n_auto = sum(1 for d in data if d.get("werdegang_auto") or d.get("profil_url_auto"))
     print(f"  {'(auto-befüllt via API)':22} {n_auto:3}")
     print(f"\n✓ Recherche-Warteschlange: {len(rows)} Personen → {OUT_PATH.name}")

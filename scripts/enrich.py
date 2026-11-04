@@ -1078,11 +1078,16 @@ def stage6_openalex(data, dry=False):
         }
         # Fail-safe: low-confidence Treffer (Namensvetter) nie mergen, auch
         # nicht den bio_text: wwtf_enrich liest die Metriken daraus zurück.
-        if r.get("match_confidence") == "low":
+        # Ein früher übernommener Auto-Text fliegt raus, wenn der Treffer
+        # nicht mehr gilt; sonst wird er mit dem aktuellen Cache erneuert.
+        usable = bool(r.get("openalex_id")) and r.get("match_confidence") != "low"
+        if not usable:
+            if d.pop("bio_text_auto", None):
+                d.pop("bio_text", None)
             continue
-        # Add bio_text if missing
-        if not d.get("bio_text") and r.get("bio_text"):
+        if r.get("bio_text") and (not d.get("bio_text") or d.get("bio_text_auto")):
             d["bio_text"] = r.get("bio_text")
+            d["bio_text_auto"] = True
         # Apply herkunft if unknown or institution missing.
         # Bestehendes herkunft nie umstoßen, nur fehlende Institution ergänzen.
         # Ausnahme: 'verified' (manuell recherchierter Override) ist maßgeblich.

@@ -28,7 +28,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from openalex_lookup import API_KEY_PARAM, MAILTO, UA  # noqa: E402
+from openalex_lookup import API_KEY_PARAM, HEIM, MAILTO, UA  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = Path(__file__).resolve().parent / ".abgaenge_cache"
@@ -36,19 +36,6 @@ AUTHORS = CACHE / "authors.json"
 ORCID = CACHE / "orcid.json"
 OUT = CACHE / "verbleib.csv"
 
-# OpenAlex-Institutionen, unter denen Berufene der jeweiligen Uni publizieren
-HEIM = {
-    "Uni Wien": {"I129774422", "I2802916955", "I4210142901", "I4210100980"},
-    "MedUni Wien": {"I76134821", "I2802328216", "I4210092129"},
-    "TU Wien": {"I145847075"},
-    "BOKU": {"I92869138"},
-    "WU Wien": {"I102248843"},
-    "Vetmeduni Wien": {"I150540706"},
-    "mdw": {"I173085932"},
-    "Angewandte": {"I143923934"},
-    "Akademie": {"I5075986"},
-    "CEU": {"I198945027"},
-}
 WIEN = set().union(*HEIM.values()) | {
     "I138211613",   # ÖAW
     "I4210127611",  # CeMM

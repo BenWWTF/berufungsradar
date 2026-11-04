@@ -8,6 +8,8 @@ damit sie bei späteren Läufen regeneriert werden dürfen — manuell gepflegte
 Felder (ohne Marker) werden NIE überschrieben.
 
 Füllt:
+  - fakultat, profil_url, werdegang, bio_text ← profil_research.json
+    (Webrecherche, schlägt Auto-Werte, nie kuratierte)
   - werdegang    ← Stationen aus der OpenAlex-Affiliationshistorie
   - profil_url   ← OpenAlex-Autorenseite als Fallback
   - herkunft_institution/-land ← aus Cache, nur wenn leer und Konfidenz ≥ medium
@@ -21,6 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "dashboard_data_2025.json"
 OA_PATH = ROOT / "scripts" / "openalex_research.json"
+RESEARCH_PATH = ROOT / "scripts" / "profil_research.json"
 
 
 def year_range(years):
@@ -54,10 +57,25 @@ def main():
     data = json.loads(DATA_PATH.read_text())
     oa = json.loads(OA_PATH.read_text()) if OA_PATH.exists() else {}
 
-    n_wg = n_url = n_hk = 0
+    research = json.loads(RESEARCH_PATH.read_text()) if RESEARCH_PATH.exists() else {}
+
+    n_wg = n_url = n_hk = n_res = 0
     for d in data:
+        for f, wert in (research.get(d["name"]) or {}).items():
+            if f in ("fakultat", "profil_url", "werdegang", "bio_text") and wert \
+                    and (not d.get(f) or d.get(f + "_auto")):
+                d[f] = wert
+                d.pop(f + "_auto", None)
+                n_res += 1
+
         entry = oa.get(d["name"]) or {}
         usable = entry.get("openalex_id") and entry.get("match_confidence", "high") != "low"
+
+        # Auto-Werte eines nicht (mehr) gültigen Treffers entfernen
+        if not usable:
+            for f in ("werdegang", "profil_url"):
+                if d.pop(f + "_auto", None):
+                    d.pop(f, None)
 
         # werdegang: nur wenn leer oder von uns generiert
         if usable and (not d.get("werdegang") or d.get("werdegang_auto")):
@@ -84,7 +102,7 @@ def main():
                 n_hk += 1
 
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
-    print(f"✓ auto-gefüllt: {n_wg} werdegang, {n_url} profil_url, {n_hk} herkunft_institution")
+    print(f"✓ aus Recherche: {n_res} Felder; auto-gefüllt: {n_wg} werdegang, {n_url} profil_url, {n_hk} herkunft_institution")
 
 
 if __name__ == "__main__":

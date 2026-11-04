@@ -16,8 +16,10 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -34,11 +36,25 @@ MAILTO = "benjamin.missbach@wwtf.at"
 # versehentlich committet wird. Ohne Key laeuft das Script weiter, nur mit
 # dem viel kleineren anonymen Tagesbudget (siehe OpenAlex-Doku: ein
 # kostenloser Key gibt ein Vielfaches des Budgets ohne Key).
-_KEY_PATH = Path.home() / ".berufungsradar_openalex_key"
+_KEY_PATHS = [Path.home() / ".berufungsradar_openalex_key", Path.home() / ".config" / "openalex" / "api_key"]
 # In GitHub Actions kommt er als Secret OPENALEX_API_KEY
-API_KEY = os.environ.get("OPENALEX_API_KEY") or (
-    _KEY_PATH.read_text().strip() if _KEY_PATH.exists() else None)
+API_KEY = os.environ.get("OPENALEX_API_KEY") or next(
+    (k.read_text().strip() for k in _KEY_PATHS if k.exists()), None)
 API_KEY_PARAM = f"&api_key={API_KEY}" if API_KEY else ""
+
+# OpenAlex-Institutionen, unter denen Berufene der jeweiligen Uni publizieren
+HEIM = {
+    "Uni Wien": {"I129774422", "I2802916955", "I4210142901", "I4210100980"},
+    "MedUni Wien": {"I76134821", "I2802328216", "I4210092129"},
+    "TU Wien": {"I145847075"},
+    "BOKU": {"I92869138"},
+    "WU Wien": {"I102248843"},
+    "Vetmeduni Wien": {"I150540706"},
+    "mdw": {"I173085932"},
+    "Angewandte": {"I143923934"},
+    "Akademie": {"I5075986"},
+    "CEU": {"I198945027"},
+}
 
 COUNTRY_NAMES_DE = {
     "US": "USA",
@@ -86,10 +102,11 @@ COUNTRY_NAMES_DE = {
 }
 
 
-def openalex_search_author(name: str) -> dict | None:
-    """Return top match or None."""
+def openalex_search_author(name: str, heim: set | None = None) -> dict | None:
+    """Return top match or None. heim: nur Autor*innen mit Affiliation an diesen Institutionen."""
     q = urllib.parse.quote(name)
-    url = f"https://api.openalex.org/authors?search={q}&per_page=3&mailto={MAILTO}{API_KEY_PARAM}"
+    filt = f"&filter=affiliations.institution.id:{'|'.join(sorted(heim))}" if heim else ""
+    url = f"https://api.openalex.org/authors?search={q}{filt}&per_page=3&mailto={MAILTO}{API_KEY_PARAM}"
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     for versuch in range(3):
         try:
@@ -135,8 +152,9 @@ def openalex_get_works(author_id: str, per_page=200) -> list:
             with urllib.request.urlopen(req, timeout=20) as r:
                 data = json.loads(r.read())
         except Exception as e:
+            # Abbruch statt Teilliste: sonst landet ein falscher h-Index (oft 0) im Cache
             print(f"  ! works fetch err: {e}", file=sys.stderr)
-            break
+            return None
         works.extend(data.get("results", []))
         cursor = data.get("meta", {}).get("next_cursor")
         if not data.get("results"):
@@ -359,25 +377,39 @@ def infer_herkunft(d: dict, author: dict) -> dict:
     }
 
 
+_STADT = {"wien": "vienna", "munchen": "munich", "koln": "cologne", "prag": "prague",
+          "mailand": "milan", "warschau": "warsaw", "genf": "geneva", "brussel": "brussels",
+          "kopenhagen": "copenhagen", "nurnberg": "nuremberg", "lowen": "leuven"}
+_FUELL = set("""university universitat universitaet universite universita universidad
+    universiteit uniwersytet univerzita egyetem the for fur und and des der die
+    technische technical technology technologie hochschule college institute institut
+    school national state academy akademie music musik kunst arts sciences science
+    applied angewandte research center centre zentrum medical medizinische
+    polytechnic free freie royal""".split())
+
+
+def _kern(name: str) -> set:
+    """Unterscheidende Wörter eines Institutionsnamens (Ort, Eigenname)."""
+    t = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
+    return {_STADT.get(w, w) for w in re.findall(r"[a-z]{4,}", t)} - _FUELL
+
+
 def match_confidence(d: dict, author: dict) -> str:
     """Plausibility check for the top search hit — fail-safe gegen
     Namensvetter. Downstream-Stufen ignorieren 'low'-Treffer.
 
-    high:   eine Affiliation liegt in Österreich (Berufungs-Kontext plausibel)
-    medium: eine Affiliation liegt im bekannten Herkunftsland
-    low:    keine geografische Plausibilität → nicht automatisch mergen
+    Treffer an der berufenden Uni setzt process_entry direkt auf 'high'
+    (Suche mit HEIM-Filter). Für alle anderen gilt:
+    medium: eine Affiliation passt zur recherchierten Herkunftsinstitution
+    low:    sonst. Ein Treffer bloß im selben Land (oder irgendwo in
+            Österreich) war zu schwach: ein Kardiologe in Debrecen wurde so
+            dem mdw-Organisten gleichen Namens zugeordnet.
     """
-    countries = {
-        (a.get("institution") or {}).get("country_code")
-        for a in (author.get("affiliations") or [])
-    }
-    countries.discard(None)
-    if "AT" in countries:
-        return "high"
-    land = d.get("herkunft_land")
-    iso_by_name = {v: k for k, v in COUNTRY_NAMES_DE.items()}
-    if land and iso_by_name.get(land) in countries:
-        return "medium"
+    herkunft = _kern(d.get("herkunft_institution"))
+    for a in author.get("affiliations") or author.get("last_known_institutions") or []:
+        inst = a.get("institution") or a
+        if herkunft & _kern(inst.get("display_name") or inst.get("name")):
+            return "medium"
     return "low"
 
 
@@ -398,7 +430,13 @@ def process_entry(d: dict, overrides: dict) -> dict:
         author = openalex_get_author(ov["openalex_id"])
         conf = "verified"
     else:
-        author = openalex_search_author(name)
+        # Zuerst nur unter den Institutionen der berufenden Uni suchen: ein
+        # Treffer dort ist die Person selbst, kein Namensvetter.
+        author = openalex_search_author(name, HEIM.get(d.get("universitat")))
+        if author and author != "FEHLER":
+            conf = "high"
+        elif author is None:
+            author = openalex_search_author(name)
     if author == "FEHLER":
         print("Abfrage fehlgeschlagen, kein Cache-Eintrag")
         return None
@@ -411,6 +449,9 @@ def process_entry(d: dict, overrides: dict) -> dict:
         conf = match_confidence(d, author)
     # Get all works for h-index
     works = openalex_get_works(author_id)
+    if works is None or (not works and author.get("works_count")):
+        print("Werkliste unvollständig, kein Cache-Eintrag")
+        return None
     h = compute_h_index(works)
     print(f"h={h} works={len(works)} cited={author.get('cited_by_count')} conf={conf}")
     insts = extract_last_institutions(author)
@@ -500,11 +541,9 @@ def main():
             results[name] = result
             with OUT.open("w") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
-        time.sleep(25.0)  # OpenAlex drosselt bei Serien: pro Person fallen
-                         # Suchabfrage plus mehrere Werk-Seiten an; auch nach
-                         # einem Fehlschlag warten, sonst kaskadieren die 429er.
-                         # 2.0s und 10.0s reichten beide nicht (harter 429-Block,
-                         # 2026-08-24), hochgesetzt auf 25s.
+        # Ohne Key drosselt OpenAlex Serien hart (429-Block am 2026-08-24 schon
+        # bei 10 s Pause); mit Key reicht eine Sekunde.
+        time.sleep(1.0 if API_KEY else 25.0)
 
     print(f"\nWrote {len(results)} results → {OUT}")
 
