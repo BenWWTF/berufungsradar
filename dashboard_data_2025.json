@@ -8797,6 +8797,7 @@
   },
   "werdegang": "Promotion 1978 an der Universität Linz; danach Richter, Staatsanwalt in Linz und im Justizministerium, 1995-2002 Generalanwalt an der Generalprokuratur, ab 2003 Hofrat und ab 2011 Senatspräsident am OGH. Seit November 2019 befristete Professur für Strafrecht und Strafprozessrecht an der WU (bis September 2023).",
   "bio_text": "Strafrechtler und ehemaliger Senatspräsident am OGH; Schwerpunkt Strafrecht und Strafprozessrecht an der WU Wien.",
+  "profil_url": "https://www.wu.ac.at/presse/presseaussendungen/presseaussendung-details/detail/neuer-professor-fuer-strafrecht-und-strafprozessrecht-hans-valentin-schroll",
   "abgang": {
    "abgang_jahr": null,
    "abgang_monat": null,
@@ -8804,8 +8805,7 @@
    "ziel_land": null,
    "art": "unbekannt",
    "quelle": "https://www.wu.ac.at/institut-fuer-oesterreichisches-und-europaeisches-wirtschaftsstrafrecht/team/ehemalige-mitarbeiter"
-  },
-  "profil_url": "https://www.wu.ac.at/presse/presseaussendungen/presseaussendung-details/detail/neuer-professor-fuer-strafrecht-und-strafprozessrecht-hans-valentin-schroll"
+  }
  },
  {
   "name": "Jurgen Willems",
@@ -27755,8 +27755,8 @@
   "herkunft": "extern",
   "herkunft_institution": "Zürcher Hochschule der Künste (Gastprofessur W/S 2020) / Kunstakademie Nürnberg (Gastprofessur 2021–2022) / Berlin Program for Artists",
   "herkunft_land": "Schweiz / Deutschland",
-  "ofos_code": "605",
-  "ofos_label": "Andere Geisteswissenschaften",
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
   "bio_text": "Künstlerin mit transdisziplinärer Praxis zu Gender, Trans* und Queer, mit Schwerpunkt neue Medien, VR und Film.",
   "werdegang": "Doireann O'Malleys transdisziplinäre Praxis vereint kollaborative Methoden, heilende und reparative Bewegung, Schreiben und Theorie mit einem starken technologischen Schwerpunkt auf neuen Medien, VR und Film.\n\n\"Ich möchte ein Programm schaffen, das die verschiedenen methodischen Ansätze, die ich verwende, vereint und einen nicht-hierarchischen Raum des Austauschs für Studierende schafft, um die Überschneidung von Gender-, Trans*- und Queer-Themen mit einer Kritik an der institutionellen, sozialen und politischen Dominanz von Cis/Het-Infrastrukturen zu erforschen. In den letzten Jahren habe ich ein originelles, interdisziplinäres pädagogisches Konzept für den Unterricht erweiterter Formen von Live- und Medienkunst entwickelt, das darauf abzielt, meine eigene künstlerische Arbeit und die anderer durch die Linse nicht-binärer Epistemologie und postkolonialer Diskurse zu dekonstruieren. Ich glaube, dass die erweiterten Medienformen von AI, AR und VR das Potenzial haben, kosmologische Projektionen zu reflektieren und zu beugen, die sich mit Repräsentation verbinden und sogar müde, dualistische Formen der Kunstproduktion und Repräsentation aufbrechen könnten. Durch meine fortlaufende multidimensionale Praxis habe ich ein Netzwerk von Kollaborateur_innen aufgebaut, darunter Forscher_innen und Künstler_innen in den Bereichen Video, Film, Sound, 3D, CGI und VR, AR und AI. Darüber hinaus arbeite ich regelmäßig mit Somatiker_innen und Live-Künstler_innen, Programmierer_innen, Schriftsteller_innen und Theoretiker_innen zusammen. In meinem Studio erforsche ich derzeit die Verflechtung von Virtualität, geschlechtlicher Verkörperung und Kybernetik als Teil einer mehrjährigen Multimedia-Arbeit, Hyperbodies , die Film, VR und Performance kombiniert. Ich freue mich auf die Möglichkeiten und Herausforderungen, weiterhin an der Schnittstelle von Theorie und Praxis zu lehren und mich dabei auf die Ausweitung von Formaten und die weitere Integration kollaborativer Methoden in meine multidimensionale Praxis zu konzentrieren.\"\n\nDoireann O'Malley ist derzeit Stipendiat des Berliner Förderprogramms Künstlerische Forschung 2020–2021 und war Teilnehmer_in des Berlin Program for Artists (BPA). Gastprofessor_in im MFA-Programm an der Kunstakademie Nürnberg 2021–2022. Im Winter- und Frühjahrssemester 2020 war er_sie Gastprofessor_in an der Zürcher Hochschule der Künste. Zu den jüngsten Ausstellungen, Vorträgen und Vorführungen gehören The Narrow Gate of The Here and NOW , IMMA, Dublin, IRE; Protoclub, Shedhalle, Zürich, CH; Art Taaalksss, Art Institute, Basel, CH; Biennale Zielona G&#243;ra, PL; New Nature Vitrines im Goethe-Institut Montreal, CA, Berlin Weekly, DE, feldfünf, Berlin, DE, goeben, Berlin, DE und im Goethe-Institut, NY, USA; Urban Video Project, Light Work im The Everson Museum Syracuse, NY, USA; Neuer Berliner Kunstverein (n. b.k. ), Berlin, DE; BPA Talks, KW, Berlin, DE; National Sculpture Factory/ Cork Film Festival, Cork, IE; Göteborg International Biennial for Contemporary Art, SE; Stadium Gallery, Berlin, DE; Nordenhake, Mexico City, MEX; Fondazione Adolfo Pini, Mailand, IT; Rencontres Internationales, Forum des Archives, Paris & HKW, Berlin; Spaces in Between, Bozar, Brüssel, BE; Mumok Kino, Wien, AUT; Dublin City Gallery, The Hugh Lane, Dublin, IE; Bobs Pogo Bar, KW, Berlin, DE; Berliner Kunstpreis, 2018, DE; Wild, Edith-Russ-Haus für Medienkunst, Oldenburg, DE. Der Katalog Prototypes wurde von der Dublin City Gallery, The Hugh Lane produziert und von Sternberg Press und Edith-Russ Haus für Medienkunst mit Essays von Lou Drago, Caspar Heinemann und Joel Kuennen herausgegeben.",
   "profil_url": "https://www.akbild.ac.at/de/institutes/bildende-kunst/faculty",
@@ -61641,84 +61641,11 @@
   "wwtf_programme": [],
   "_kuratiert": "Handrecherche 2026-08-21, Presseaussendung 25.09.2023; Handrecherche (Werdegang) via https://www.ots.at/presseaussendung/OTS_20230512_OTS0078/universitaet-fuer-angewandte-kunst-wien-sam-jacob-und-petra-gruber-an-das-institut-fuer-architektur-berufen: Handrecherche 2026-08-27 aus OTS-Pressemeldung (direkt abgerufen). Der falsche OpenAlex-Treffer war eine komplett andere Person ('Anu Jacob', Medizin) — Jacob als Architekturpraktiker kaum akademisch indexiert.",
   "_openalex": {
-   "works_count": 180,
-   "cited_by_count": 14449,
-   "h_index": 48,
-   "last_known_institutions": [
-    {
-     "name": "Abu Dhabi University",
-     "country": "AE",
-     "type": "education",
-     "years": [
-      2026,
-      2023,
-      2022
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "Northern Border University",
-     "country": "SA",
-     "type": "education",
-     "years": [
-      2026,
-      2025
-     ],
-     "most_recent": 2026
-    },
-    {
-     "name": "Karunya University",
-     "country": "IN",
-     "type": "education",
-     "years": [
-      2025
-     ],
-     "most_recent": 2025
-    },
-    {
-     "name": "Cleveland Clinic",
-     "country": "US",
-     "type": "healthcare",
-     "years": [
-      2025,
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-     ],
-     "most_recent": 2025
-    },
-    {
-     "name": "University of Liverpool",
-     "country": "GB",
-     "type": "education",
-     "years": [
-      2025,
-      2024,
-      2023,
-      2022,
-      2021,
-      2020,
-      2019,
-      2018,
-      2017,
-      2016,
-      2015,
-      2014,
-      2013,
-      2012,
-      2011,
-      2009,
-      2008,
-      2007,
-      2006,
-      2004
-     ],
-     "most_recent": 2025
-    }
-   ],
-   "openalex_id": "A5103345316"
+   "works_count": null,
+   "cited_by_count": null,
+   "h_index": null,
+   "last_known_institutions": [],
+   "openalex_id": null
   }
  },
  {
@@ -62380,18 +62307,18 @@
   "herkunft": "intern",
   "herkunft_institution": "Medizinische Universität Wien",
   "herkunft_land": "Österreich",
-  "ofos_code": "302",
-  "ofos_label": "Klinische Medizin",
+  "ofos_code": "106",
+  "ofos_label": "Biologie",
   "bio_text": "Kardiovaskuläre Medizin (Hämostaseologie). h-Index: 38 | Publikationen: 225 | Zitierungen: 5739. Forschungstätigkeit u.a. in Österreich, Kanada, USA, Schweden.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Ludwig Boltzmann Institute for Cardiovascular Research, 2026 · Medical University of Vienna, 2008–2026 · University of Vienna, 2016–2023 · Mayo Clinic (US), 2023 · Medical University of Graz, 2023.",
   "profil_url": "https://openalex.org/A5012863184",
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2023/news-im-oktober-2023/alice-assinger-uebernimmt-professur-im-fachbereich-kardiovaskulaere-medizin/",
   "_kuratiert": "Handrecherche 2026-08-22 aus MedUni-Wien-Presseinformation 2023-10; Monat aus Antrittsvorlesung 2024-12-06 abgeleitet; genauer Dienstantritt nicht in der Quelle",
   "_herkunft_research": null,
-  "ofos_bereich_code": "3",
-  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
-  "ofos_hauptgruppe_code": "30",
-  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": 38,
   "publikationen": 225,
@@ -80106,8 +80033,8 @@
   "herkunft": "extern",
   "herkunft_institution": "ETH Zürich",
   "herkunft_land": "Schweiz",
-  "ofos_code": "206",
-  "ofos_label": "Medizintechnik",
+  "ofos_code": "103",
+  "ofos_label": "Physik",
   "bio_text": "Biomedizinische Technik. h-Index: 38 | Publikationen: 147 | Zitierungen: 7211. Forschungstätigkeit u.a. in Italien, Österreich, Brasilien, Schweiz.",
   "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Austrian Research Institute for Artificial Intelligence, 2026 · ETH Zurich (CH), 2018–2026 · Medical University of Vienna, 2024–2026 · Zürcher Fachhochschule (CH), 2025 · Statistics Austria, 2024.",
   "profil_url": "https://openalex.org/A5033447067",
@@ -80115,10 +80042,10 @@
   "year": 2024,
   "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2024/news-im-august-2024/stanisa-raspopovic-uebernimmt-professur-fuer-biomedizinische-technik/",
   "stufe": 1,
-  "ofos_bereich_code": "2",
-  "ofos_bereich": "Technische Wissenschaften",
-  "ofos_hauptgruppe_code": "20",
-  "ofos_hauptgruppe": "Technische Wissenschaften (Hauptgruppe)",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
   "fakultat_institut": null,
   "h_index": 38,
   "publikationen": 147,
@@ -90674,7 +90601,8 @@
   "h_index": null,
   "publikationen": null,
   "zitierungen": null,
-  "wwtf_programme": []
+  "wwtf_programme": [],
+  "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professorin-fuer-kunst-und-bild-figuration-ab-1-10-anna-schachinger"
  },
  {
   "name": "Cat Dawson",
@@ -90799,6 +90727,7 @@
    "last_known_institutions": [],
    "openalex_id": null
   },
+  "quelle": "https://www.akbild.ac.at/de/news/2025/neue-professorin-brorson",
   "abgang": {
    "abgang_jahr": 2026,
    "abgang_monat": null,
@@ -107514,6 +107443,150 @@
   "quelle": "https://www.mdw.ac.at/2026/"
  },
  {
+  "name": "Claudia Larcher",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "postdigitale Kunst",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "604",
+  "ofos_label": "Kunstwissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-claudia-larcher",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 2,
+   "cited_by_count": 0,
+   "h_index": 0,
+   "last_known_institutions": [],
+   "openalex_id": "A5119508704"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "DH"
+  ]
+ },
+ {
+  "name": "Eve Tuck",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Indigenous Studies",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-fuer-indigenous-studies-ab-1-10-eve-tuck",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 89,
+   "cited_by_count": 15556,
+   "h_index": 33,
+   "last_known_institutions": [
+    {
+     "name": "New York University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "University of Toronto",
+     "country": "CA",
+     "type": "education",
+     "years": [
+      2022,
+      2021,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "SUNY New Paltz",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008
+     ],
+     "most_recent": 2015
+    },
+    {
+     "name": "State University of New York",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2013,
+      2011,
+      2010
+     ],
+     "most_recent": 2013
+    },
+    {
+     "name": "Santé, vulnérabilités et relations de genre au Sud",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2008
+     ],
+     "most_recent": 2008
+    }
+   ],
+   "openalex_id": "A5006403342"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
   "name": "Imke Woelk",
   "universitat": "Akademie",
   "fakultat": "Institut für Kunst und Architektur",
@@ -107611,6 +107684,267 @@
    "art": "Befristung beendet",
    "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-fuer-theorie-und-vermittlung-von-gegenwartskunst-ab-1-3-2026-kathrin-rottmann"
   }
+ },
+ {
+  "name": "Lutz Robbers",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Architekturtheorie und Architekturentwurf HTC",
+  "art_berufung": null,
+  "geschlecht": "M",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "211",
+  "ofos_label": "Andere Technische Wissenschaften",
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neuer-professor-lutz-robbers",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "2",
+  "ofos_bereich": "Technische Wissenschaften",
+  "ofos_hauptgruppe_code": "21",
+  "ofos_hauptgruppe": "ÖFOS-Hauptgruppe 21",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 22,
+   "cited_by_count": 2,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "RWTH Aachen University",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2015
+     ],
+     "most_recent": 2015
+    }
+   ],
+   "openalex_id": "A5002507187"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Sofia Rodrigues Boito",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Gender und Space",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-sofia-boito",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 19,
+   "cited_by_count": 3,
+   "h_index": 1,
+   "last_known_institutions": [
+    {
+     "name": "Universidade Estadual de Campinas (UNICAMP)",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2026
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Universidade de São Paulo",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2018,
+      2016,
+      2015,
+      2014
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Escola de Comunicações e Artes da Universidade de São Paulo",
+     "country": "BR",
+     "type": "education",
+     "years": [
+      2023,
+      2014
+     ],
+     "most_recent": 2023
+    }
+   ],
+   "openalex_id": "A5010035696"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
+ },
+ {
+  "name": "Ulrike Müller",
+  "universitat": "Akademie",
+  "monat": "OKTOBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Kunst und Bild I Figuration",
+  "art_berufung": null,
+  "geschlecht": "W",
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": null,
+  "ofos_label": null,
+  "bio_text": null,
+  "werdegang": null,
+  "profil_url": null,
+  "quelle": "https://www.akbild.ac.at/de/news/2026/neue-professorin-ulrike-mueller",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "ofos_bereich_code": null,
+  "ofos_bereich": null,
+  "ofos_hauptgruppe_code": null,
+  "ofos_hauptgruppe": null,
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 175,
+   "cited_by_count": 17532,
+   "h_index": 60,
+   "last_known_institutions": [
+    {
+     "name": "Heidelberg University",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      1978
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Technische Universität Braunschweig",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2020
+     ],
+     "most_recent": 2020
+    },
+    {
+     "name": "Max Planck Society",
+     "country": "DE",
+     "type": "nonprofit",
+     "years": [
+      2014,
+      2012,
+      2009,
+      2008,
+      2007,
+      2006
+     ],
+     "most_recent": 2014
+    },
+    {
+     "name": "Max Planck Institute for Brain Research",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2014,
+      2012,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000,
+      1999,
+      1998
+     ],
+     "most_recent": 2014
+    },
+    {
+     "name": "University of Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2009,
+      2002,
+      2000,
+      1999,
+      1998,
+      1997,
+      1996,
+      1995,
+      1994
+     ],
+     "most_recent": 2009
+    }
+   ],
+   "openalex_id": "A5101928593"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": []
  },
  {
   "name": "Sophie Thun",
@@ -109696,6 +110030,112 @@
   "bio_text_auto": true
  },
  {
+  "name": "Peter Murin",
+  "universitat": "MedUni Wien",
+  "monat": "NOVEMBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Kinderherzchirurgie",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "Medical University of Vienna",
+  "herkunft_land": "Österreich",
+  "ofos_code": "302",
+  "ofos_label": "Klinische Medizin",
+  "bio_text": "Kinderherzchirurgie. h-Index: 14 | Publikationen: 58 | Zitierungen: 698. Forschungstätigkeit u.a. in Deutschland, Slowakei, Österreich.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Medical University of Vienna, 2025–2026 · Humboldt-Universität zu Berlin (DE), 2025 · Deutsches Herzzentrum der Charité (DE), 2017–2025 · Charité – Universitätsmedizin Berlin (DE), 2024–2025 · Asklepios Klinik Sankt Augustin (DE), 2011–2016.",
+  "profil_url": "https://openalex.org/A5090381441",
+  "quelle": "https://www.meduniwien.ac.at/web/ueber-uns/news/2026/news-im-november-2026/peter-murin-uebernimmt-professur-fuer-kinderherzchirurgie/",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "3",
+  "ofos_bereich": "Medizin, Gesundheitswissenschaften",
+  "ofos_hauptgruppe_code": "30",
+  "ofos_hauptgruppe": "Medizin, Gesundheitswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 58,
+   "cited_by_count": 698,
+   "h_index": 14,
+   "last_known_institutions": [
+    {
+     "name": "Medical University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Humboldt-Universität zu Berlin",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2025
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Deutsches Herzzentrum der Charité",
+     "country": "DE",
+     "type": "healthcare",
+     "years": [
+      2025,
+      2024,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Charité – Universitätsmedizin Berlin",
+     "country": "DE",
+     "type": "healthcare",
+     "years": [
+      2025,
+      2024
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Asklepios Klinik Sankt Augustin",
+     "country": "DE",
+     "type": "healthcare",
+     "years": [
+      2016,
+      2015,
+      2011
+     ],
+     "most_recent": 2016
+    }
+   ],
+   "openalex_id": "A5090381441"
+  },
+  "bio_text_auto": true,
+  "openalex_id": "A5090381441",
+  "h_index": 14,
+  "publikationen": 58,
+  "zitierungen": 698,
+  "wwtf_programme": [
+   "LS"
+  ],
+  "werdegang_auto": true,
+  "profil_url_auto": true
+ },
+ {
   "name": "Philipp Emanuel Bartko",
   "universitat": "MedUni Wien",
   "monat": "FEBRUAR",
@@ -111246,6 +111686,131 @@
   "bio_text_auto": true
  },
  {
+  "name": "Florian Reindl",
+  "universitat": "TU Wien",
+  "monat": "AUGUST",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": "E141",
+  "forschungsbereich": "Associate Professor of Direct search for Dark Matter",
+  "art_berufung": "§99(4)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "TU Wien",
+  "herkunft_land": "Österreich",
+  "ofos_code": "103",
+  "ofos_label": "Physik",
+  "bio_text": "Associate Professor of Direct search for Dark Matter. h-Index: 33 | Publikationen: 155 | Zitierungen: 5374. Forschungstätigkeit u.a. in Österreich, USA, Deutschland, Italien.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Austrian Academy of Sciences, 2017–2026 · TU Wien, 2017–2026 · Institute of High Energy Physics, 2017–2026 · MBI - Marietta-Blau-Institut für Teilchenphysik, 2025–2026 · Max Planck Institute for Physics (DE), 2012–2022.",
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/r/associate-prof-dipl-phys-drrernat-florian-reindl",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": "Atominstitut",
+  "_openalex": {
+   "works_count": 155,
+   "cited_by_count": 5374,
+   "h_index": 33,
+   "last_known_institutions": [
+    {
+     "name": "Austrian Academy of Sciences",
+     "country": "AT",
+     "type": "government",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Institute of High Energy Physics",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "MBI - Marietta-Blau-Institut für Teilchenphysik",
+     "country": "AT",
+     "type": "facility",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Max Planck Institute for Physics",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2022,
+      2017,
+      2016,
+      2015,
+      2014,
+      2012
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5031367556"
+  },
+  "bio_text_auto": true,
+  "openalex_id": "A5031367556",
+  "h_index": 33,
+  "publikationen": 155,
+  "zitierungen": 5374,
+  "wwtf_programme": [],
+  "werdegang_auto": true
+ },
+ {
   "name": "Jürgen Cito",
   "universitat": "TU Wien",
   "fakultat": "Institut für Information Systems Engineering",
@@ -111520,6 +112085,116 @@
   "_kuratiert": "Handrecherche (Werdegang) via https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/l/associate-prof-marcin-lis-phd: Handrecherche 2026-08-26 aus TU-Wien-Personenseite (direkt abgerufen).",
   "bio_text_auto": true,
   "openalex_id": "A5101736153"
+ },
+ {
+  "name": "Noelia Barrabés Rabanal",
+  "universitat": "TU Wien",
+  "monat": "JULI",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": "E165",
+  "forschungsbereich": "Associate Professor of Size Control in Metal Nanocluster Analysis",
+  "art_berufung": "§99(4)",
+  "geschlecht": null,
+  "herkunft": "intern",
+  "herkunft_institution": "TU Wien",
+  "herkunft_land": "Österreich",
+  "ofos_code": "104",
+  "ofos_label": "Chemie",
+  "bio_text": "Associate Professor of Size Control in Metal Nanocluster Analysis. h-Index: 27 | Publikationen: 70 | Zitierungen: 2115. Forschungstätigkeit u.a. in Schweiz, Frankreich, Vereinigtes Königreich, Österreich.",
+  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: TU Wien, 2008–2026 · Institut Charles Gerhardt Montpellier (FR), 2011–2022 · University of Geneva (CH), 2014–2015 · École Nationale Supérieure de Chimie de Montpellier (FR), 2011 · Centre National de la Recherche Scientifique (FR), 2011.",
+  "profil_url": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/b/associate-prof-dr-noelia-barrabes-rabanal",
+  "quelle": "https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": null,
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": "Institut für Materialchemie",
+  "_openalex": {
+   "works_count": 70,
+   "cited_by_count": 2115,
+   "h_index": 27,
+   "last_known_institutions": [
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "Institut Charles Gerhardt Montpellier",
+     "country": "FR",
+     "type": "facility",
+     "years": [
+      2022,
+      2013,
+      2012,
+      2011
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "University of Geneva",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2015,
+      2014
+     ],
+     "most_recent": 2015
+    },
+    {
+     "name": "École Nationale Supérieure de Chimie de Montpellier",
+     "country": "FR",
+     "type": "education",
+     "years": [
+      2011
+     ],
+     "most_recent": 2011
+    },
+    {
+     "name": "Centre National de la Recherche Scientifique",
+     "country": "FR",
+     "type": "government",
+     "years": [
+      2011
+     ],
+     "most_recent": 2011
+    }
+   ],
+   "openalex_id": "A5048108617"
+  },
+  "bio_text_auto": true,
+  "openalex_id": "A5048108617",
+  "h_index": 27,
+  "publikationen": 70,
+  "zitierungen": 2115,
+  "wwtf_programme": [],
+  "werdegang_auto": true
  },
  {
   "name": "Peter Knees",
@@ -112008,6 +112683,180 @@
   "bio_text_auto": true
  },
  {
+  "name": " Sandra Folie",
+  "universitat": "Uni Wien",
+  "monat": "NOVEMBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Neuere deutsche Literatur. Diversität und Gender",
+  "art_berufung": "§99(1)",
+  "geschlecht": "W",
+  "herkunft": "extern",
+  "herkunft_institution": "Leibniz-Zentrum für Literatur- und Kulturforschung",
+  "herkunft_land": "Deutschland",
+  "ofos_code": "602",
+  "ofos_label": "Sprach- und Literaturwissenschaften",
+  "bio_text": "Neuere deutsche Literatur. Diversität und Gender. h-Index: 4 | Publikationen: 116 | Zitierungen: 148. Forschungstätigkeit u.a. in Österreich, Deutschland.",
+  "werdegang": "2008–2015 Studium der Deutschen Philologie, Theater-, Film- und Medienwissenschaft und Vergleichenden Literaturwissenschaft an der Universität Wien · 2012 B.A. in Theater-, Film- und Medienwissenschaft · 2014 M.A. in Deutscher Philologie mit einer Arbeit über die literarischen Referenzen in Sigmund Freuds Essay \"Das Unheimliche“ · 2015 M.A. in Vergleichender Literaturwissenschaft mit einer Arbeit über anglo-amerikanische “chick lit\" und vergleichbare deutsche Literaturlabels wie “Literarisches Fräuleinwunder\" und “Freche Frauen\" · 2015–2019 DOC-Stipendiatin der Österreichischen Akademie der Wissenschaften · 2018 Gastdozentin an der Universität des Saarlandes (Erasmus+ Lehrendenmobilität) · 2019–2022 Universitätsassistentin an der Abteilung für Vergleichende Literaturwissenschaft der Universität Wien · 2020 Dr. phil. in Vergleichender Literaturwissenschaft an der Universität Wien mit einer Arbeit zu den Labelingpraktiken neuer Welt-Frauen-Literaturen im transkontinentalen Vergleich (veröffentlicht 2022) · 2022–2023 Wissenschaftliche Mitarbeiterin (Postdoc) am Institut für Germanistische Literaturwissenschaft der Friedrich-Schiller-Universität Jena (Lehrstuhl Prof. Matuschek) · 2023–2026 Wissenschaftliche Mitarbeiterin (Postdoc) im ERC Starting Grant Projekt “Schwarze Narrative transkultureller Aneignung: Literarische Akte des Konstruierens afroeuropäischer Welten und der Infragestellung europäischer Grundlagen” (AFROPEA, PI Gianna Zocco) am Leibniz-Zentrum für Literatur- und Kulturforschung (ZfL) in Berlin · seit November 2026 Tenure-Track-Professur für Neuere deutsche Literatur. Diversität und Gender, Philologisch-Kulturwissenschaftliche Fakultät, Universität Wien",
+  "profil_url": "https://openalex.org/A5004649337",
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/sandra-folie",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (W).",
+  "ofos_bereich_code": "6",
+  "ofos_bereich": "Geisteswissenschaften",
+  "ofos_hauptgruppe_code": "60",
+  "ofos_hauptgruppe": "Geisteswissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 116,
+   "cited_by_count": 148,
+   "h_index": 4,
+   "last_known_institutions": [
+    {
+     "name": "Leibniz-Zentrum für Literatur- und Kulturforschung",
+     "country": "DE",
+     "type": "facility",
+     "years": [
+      2025,
+      2023
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "Friedrich Schiller University Jena",
+     "country": "DE",
+     "type": "education",
+     "years": [
+      2023
+     ],
+     "most_recent": 2023
+    },
+    {
+     "name": "University of Vienna",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2022,
+      2021,
+      2018,
+      2017,
+      2016
+     ],
+     "most_recent": 2022
+    }
+   ],
+   "openalex_id": "A5004649337"
+  },
+  "bio_text_auto": true,
+  "openalex_id": "A5004649337",
+  "h_index": 4,
+  "publikationen": 116,
+  "zitierungen": 148,
+  "wwtf_programme": [],
+  "profil_url_auto": true
+ },
+ {
+  "name": " Sijia Xiao",
+  "universitat": "Uni Wien",
+  "monat": "NOVEMBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": "Fakultät für Informatik",
+  "fakultat_code": null,
+  "forschungsbereich": "Human Computer Interaction",
+  "art_berufung": "§99(1)",
+  "geschlecht": null,
+  "herkunft": null,
+  "herkunft_institution": null,
+  "herkunft_land": null,
+  "ofos_code": "102",
+  "ofos_label": "Informatik",
+  "bio_text": null,
+  "werdegang": "2013–2017 Bachelor in Informatik, Universität Peking (China) · 2017–2019 Master in Human Computer Interaction, Georgia Institute of Technology (USA) · 2019–2024 Promotion in Informationswissenschaft, University of California, Berkeley (USA) · 2024–2026 Postdoktorandin, Institut für Human Computer Interaction, Carnegie Mellon University (USA) · seit 2026 Tenure-Track-Professur für Human Computer Interaction, Fakultät für Informatik, Universität Wien",
+  "profil_url": null,
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/sijia-xiao",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 16,
+   "cited_by_count": 302,
+   "h_index": 7,
+   "last_known_institutions": [
+    {
+     "name": "Carnegie Mellon University",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "University of California, Berkeley",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+     ],
+     "most_recent": 2024
+    },
+    {
+     "name": "Hainan University",
+     "country": "CN",
+     "type": "education",
+     "years": [
+      2022,
+      2020
+     ],
+     "most_recent": 2022
+    },
+    {
+     "name": "Georgia Institute of Technology",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2018
+     ],
+     "most_recent": 2018
+    },
+    {
+     "name": "Peking University",
+     "country": "CN",
+     "type": "education",
+     "years": [
+      2017
+     ],
+     "most_recent": 2017
+    }
+   ],
+   "openalex_id": "A5102970956"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "ICT"
+  ]
+ },
+ {
   "name": "Anke Charton",
   "universitat": "Uni Wien",
   "monat": "SEPTEMBER",
@@ -112192,7 +113041,7 @@
   "ofos_code": "501",
   "ofos_label": "Psychologie",
   "bio_text": "Psychologie der Digitalisierung. h-Index: 5 | Publikationen: 27 | Zitierungen: 530. Forschungstätigkeit u.a. in Österreich, Deutschland.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2026 · Ludwig-Maximilians-Universität München (DE), 2025–2026 · Technical University of Munich (DE), 2019–2025.",
+  "werdegang": "2006–2012 Studium der Psychologie, Ludwig-Maximilians-Universität München (Diplom) · 2010–2013 Studium der Volkswirtschaftslehre, Ludwig-Maximilians-Universität München (Bachelor of Science) · 2014–2015 Projektmanager, Teva ratiopharm · 2015–2020 Ph.D. in Marketing (mit Auszeichnung), Technische Universität München · 2021–2025 Postdoktorand am Lehrstuhl für Marketing, Technische Universität München · 2025–2026 Akademischer Rat a. Z. am Institut für Marktorientierte Unternehmensführung, Ludwig-Maximilians-Universität München · seit Oktober 2026 Tenure-Track-Professur für die Psychologie der Digitalisierung, Fakultät für Psychologie, Universität Wien",
   "profil_url": "https://openalex.org/A5043953519",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/granulo-armin",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Granulo, Armin 01.10.2026 Tenure Track-Professur … Tenure-Track-Professur für Psychologie der Digitalisierung an der Fakultät für Psychologie\"",
@@ -112255,7 +113104,6 @@
   ],
   "bio_text_auto": true,
   "openalex_id": "A5043953519",
-  "werdegang_auto": true,
   "profil_url_auto": true
  },
  {
@@ -112754,12 +113602,12 @@
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
   "bio_text": "Öffentliches Recht. h-Index: 3 | Publikationen: 23 | Zitierungen: 16.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Vienna University of Economics and Business, 2021–2026 · University of Vienna, 2026.",
+  "werdegang": "2006-2010 Diplomstudium der Rechtswissenschaften an der Universität Wien (Mag. iur.) · 2010-2013 Bachelorstudium der Philosophie an der Universität Wien (BA) · 2010-2013 Doktoratsstudium Wirtschaftsrecht an der Wirtschaftsuniversität Wien (WU Wien) (Dr.iur.) · 2011-2012 Stage (blue-book) bei der Europäischen Kommission · 2010-2014 Universitätsassistentin prae doc, Institut für Österreichisches und Europäisches Öffentliches Recht (IOER), WU Wien · 2014-2015 Universitätsassistentin post doc (Tenure Track), IOER, WU Wien, Forschungsaufenthalt 2015 am Centre de droit international der Université libre de Bruxelles, Belgien · 2016-2021 Assistenzprofessorin, IOER, WU Wien, Forschungsaufenthalt 2016 als Visiting Scholar am Collège d‘Europe, Brügge, Belgien · 2021 Habilitation an der WU Wien mit der Schrift „Budgethoheit“; venia docendi für die Fächer Öffentliches Recht und Europarecht · 2022 Kardinal-Innitzer-Förderungspreis für Rechts- und Staatswissenschaften · 2024-2025 Lektorin, Johannes-Kepler-Universität Linz · 2021-2026 Assoziierte Professorin, IOER, WU Wien, von 2022-2026 auch Director des WU Legal Tech Centers · seit Oktober 2026 Professur für Öffentliches Recht, Institut für Staats- und Verwaltungsrecht, Universität Wien",
   "profil_url": "https://openalex.org/A5060130564",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/wutscher-claudia",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"seit Oktober 2026 Professur für Öffentliches Recht, Institut für Staats- und Verwaltungsrecht, Universität Wien\"",
   "_herkunft_research": null,
-  "stellentyp": null,
+  "stellentyp": "Universitätsprofessur",
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
@@ -112802,7 +113650,6 @@
   "publikationen": 23,
   "zitierungen": 16,
   "wwtf_programme": [],
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "bio_text_auto": true
  },
@@ -113320,7 +114167,7 @@
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
   "bio_text": "Financial Accounting 1. h-Index: 1 | Publikationen: 14 | Zitierungen: 6.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Zurich (CH), 2018–2026.",
+  "werdegang": "2009-2012 B.Sc. in Accounting & Finance, Universität Paderborn · 2012-2014 M.Sc. in Accounting & Finance, Universität Paderborn · 2014-2015 Wissenschaftlicher Mitarbeiter (Praedoc), Universität Paderborn, Deutschland · 2015-2019 Wissenschaftlicher Mitarbeiter (Praedoc), Universität Graz, Österreich · 2015-2019 Promotion in Sozial- und Wirtschaftswissenschaften, Universität Graz · 2019-2020 Postdoktorand, Universität Graz, Österreich · 2025 Visiting Assistant Professor, Carnegie Mellon University, USA · 2020-2026 Postdoktorand, Universität Zürich, Schweiz · seit Oktober 2026 Tenure-Track Professur für Financial Accounting 1, Fakultät für Wirtschaftswissenschaften, Universität Wien",
   "profil_url": "https://openalex.org/A5093460390",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/niggemann-felix",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Niggemann, Felix 01.10.2026 Tenure Track-Professur [...] Tenure-Track-Professur für Financial Accounting 1 an der Fakultät für Wirtschaftswissenschaften\"",
@@ -113361,7 +114208,6 @@
   "wwtf_programme": [],
   "bio_text_auto": true,
   "openalex_id": "A5093460390",
-  "werdegang_auto": true,
   "profil_url_auto": true
  },
  {
@@ -113902,6 +114748,85 @@
   "bio_text_auto": true
  },
  {
+  "name": "Jakob Heiss",
+  "universitat": "Uni Wien",
+  "monat": "NOVEMBER",
+  "year": 2026,
+  "stufe": 1,
+  "fakultat": null,
+  "fakultat_code": null,
+  "forschungsbereich": "Computational Statistics and Data Analysis",
+  "art_berufung": "§99(1)",
+  "geschlecht": "M",
+  "herkunft": "intern",
+  "herkunft_institution": "Universität Wien",
+  "herkunft_land": "Österreich",
+  "ofos_code": "101",
+  "ofos_label": "Mathematik",
+  "bio_text": null,
+  "werdegang": "2012–2019 Bachelor- und Masterstudium Technische Mathematik, TU Wien (beide mit Auszeichnung); Masterarbeit zur impliziten Regularisierung neuronaler Netze an der ETH Zürich (Austauschjahr 2018–2019) · 2019–2024 Doktorat in Mathematik, ETH Zürich, bei Prof. Josef Teichmann, assoziiert mit dem ETH AI Center · 2024–2026 Postdoc bei Prof. Bin Yu, UC Berkeley (USA), gefördert durch ein Postdoc.Mobility-Stipendium des Schweizerischen Nationalfonds (SNF) · seit 2026 Forschungsprojekt, gefördert vom britischen AI Security Institute (über 300.000 €), gemeinsam mit Prof. Bin Yu eingeworben und geleitet · seit November 2026 Tenure-Track-Professur für Computational Statistics and Data Analysis, Fakultät für Wirtschaftswissenschaften, Universität Wien",
+  "profil_url": null,
+  "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/heiss-jakob",
+  "_kuratiert": null,
+  "_herkunft_research": null,
+  "stellentyp": "Tenure Track-Professur",
+  "_ofos_auto": true,
+  "_geschlecht_inferred": true,
+  "_note": " Geschlecht aus Vorname inferiert (M).",
+  "ofos_bereich_code": "1",
+  "ofos_bereich": "Naturwissenschaften",
+  "ofos_hauptgruppe_code": "10",
+  "ofos_hauptgruppe": "Mathematik, Naturwissenschaften (Hauptgruppe)",
+  "fakultat_institut": null,
+  "_openalex": {
+   "works_count": 22,
+   "cited_by_count": 112,
+   "h_index": 7,
+   "last_known_institutions": [
+    {
+     "name": "University of California, Berkeley",
+     "country": "US",
+     "type": "education",
+     "years": [
+      2026,
+      2025
+     ],
+     "most_recent": 2026
+    },
+    {
+     "name": "ETH Zurich",
+     "country": "CH",
+     "type": "education",
+     "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+     ],
+     "most_recent": 2025
+    },
+    {
+     "name": "TU Wien",
+     "country": "AT",
+     "type": "education",
+     "years": [
+      2019
+     ],
+     "most_recent": 2019
+    }
+   ],
+   "openalex_id": "A5010858034"
+  },
+  "h_index": null,
+  "publikationen": null,
+  "zitierungen": null,
+  "wwtf_programme": [
+   "MA"
+  ],
+  "_herkunft_auto": true
+ },
+ {
   "name": "Jannik Otto",
   "universitat": "Uni Wien",
   "monat": "JÄNNER",
@@ -113975,12 +114900,12 @@
   "ofos_code": "501",
   "ofos_label": "Psychologie",
   "bio_text": "(Klinisch-psychologische) Interventionsforschung. h-Index: 4 | Publikationen: 21 | Zitierungen: 92. Forschungstätigkeit u.a. in Deutschland, Vereinigtes Königreich.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Psychologische Hochschule Berlin (DE), 2021–2026 · SRH University Berlin (DE), 2023 · Freie Universität Berlin (DE), 2020–2023 · FernUniversität in Hagen (DE), 2022 · Philipps University of Marburg (DE), 2022.",
+  "werdegang": "2000-2007 Studium der Psychologie an der Freien Universität Berlin und der der Université Le Mirail, Toulouse, Frankreich · 2008-2012 Doktorandin am Arbeitsbereich für Klinische Psychologie der Freien Universität Berlin Doktorarbeit \"Internet-based · interventions for Social Anxiety Disorder – innovative approaches and mechanisms of change\" · 2012-2013 Postdoc Wissenschafterin an der Universität Umeå und der Universität Stockholm, Schweden · 2018 Approbation als psychologische Psychotherapeutin, Schwerpunkt Verhaltenstherapie · 2013-2019 Postdoc Wissenschafterin am Arbeitsbereich für Klinische Psychologie der Freien Universität Berlin · 2019-2026 Professur für klinische Psychologie und Psychotherapie, Schwerpunkt Verhaltenstherapie Psychologische Hochschule Berlin · seit Oktober 2026 Professur für Klinisch-psychologische Interventionsforschung, Fakultät für Psychologie, Universität Wien",
   "profil_url": "https://openalex.org/A5112704447",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/boettcher-johanna",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Böttcher, Johanna 01.10.2026 Professur … Professur für Klinisch-psychologische Interventionsforschung an der Fakultät für Psychologie\"",
   "_herkunft_research": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/boettcher-johanna",
-  "stellentyp": null,
+  "stellentyp": "Universitätsprofessur",
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
@@ -114053,7 +114978,6 @@
   ],
   "bio_text_auto": true,
   "openalex_id": "A5112704447",
-  "werdegang_auto": true,
   "profil_url_auto": true
  },
  {
@@ -114180,12 +115104,12 @@
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
   "bio_text": "Zivilrecht. h-Index: 2 | Publikationen: 34 | Zitierungen: 15.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: Vienna University of Economics and Business, 2020–2022 · University of Vienna, 2017.",
+  "werdegang": "2002-2007 Diplomstudium der Rechtswissenschaften, Universität Wien (Mag. iur.) · 2010 Promotion in Rechtswissenschaften, Universität Wien, mit ausgezeichnetem Erfolg. Dissertation: Hauptfragen einer Reform der Gesellschaft bürgerlichen Rechts · 2008-2009 Praedoc-Assistentin, Institut für Unternehmens- und Wirtschaftsrecht, Universität Wien · 2010-2014 Postdoc-Assistentin, Institut für Unternehmens- und Wirtschaftsrecht, Universität Wien · 2013 Postdoc-Stipendiatin, Max-Planck-Institut für ausländisches und internationales Privatrecht, Hamburg · 2014-2015 Visiting and Teaching Fellow, Department of Law, London School of Economics and Political Science · 2016-2020 Postdoc-Assistentin, Institut für Unternehmens- und Wirtschaftsrecht, Universität Wien · 2019-2020 Gastprofessorin für Zivilrecht, Wirtschaftsuniversität Wien · 2020 Habilitation, Universität Wien; venia docendi für Unternehmens- und Wirtschaftsrecht sowie Zivilrecht. Habilitationsschrift: Leitung und Verantwortung im Konzern · 2020 Professorin für Zivilrecht und Unternehmensrecht, Wirtschaftsuniversität Wien; zugleich Postdoc-Assistentin, Universität Wien · 2021-2023 Professorin für Zivilrecht und Unternehmensrecht, Wirtschaftsuniversität Wien (§ 99 UG) · 2023-2026 Professorin für Privates Recht der Wirtschaft, Institut für Unternehmens- und Steuerrecht, Universität Innsbruck (§ 98 UG) · seit Oktober 2026 Professur für Privat- und Unternehmensrecht, Wirtschaftswissenschaftliche Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5037499021",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/told-julia",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Told, Julia 01.10.2026 Professur [...] Professur für Privat- und Unternehmensrecht an der Fakultät für Wirtschaftswissenschaften\"",
   "_herkunft_research": null,
-  "stellentyp": null,
+  "stellentyp": "Universitätsprofessur",
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (W).",
@@ -114227,7 +115151,6 @@
   "publikationen": 34,
   "zitierungen": 15,
   "wwtf_programme": [],
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "bio_text_auto": true
  },
@@ -114253,7 +115176,7 @@
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/vlasopoulos-konstantinos",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"seit Oktober 2026 Professur für Professur für Griechische Geschichte, Altertumskunde und Epigraphik\"",
   "_herkunft_research": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/vlasopoulos-konstantinos",
-  "stellentyp": null,
+  "stellentyp": "Universitätsprofessur",
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
@@ -114400,7 +115323,7 @@
   "ofos_code": "505",
   "ofos_label": "Rechtswissenschaften",
   "bio_text": "Öffentliches Recht im internationalen Kontext. h-Index: 1 | Publikationen: 15 | Zitierungen: 5.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2020–2025.",
+  "werdegang": "2007-2012 Diplomstudium der Rechtswissenschaften, Universität Wien · 2012-2016 Univ.-Ass. (\"prae doc\") am Institut für Staats- und Verwaltungsrecht der Universität Wien · 2012-2018 Doktoratsstudium der Rechtswissenschaften (mit ausgezeichnetem Erfolg), Universität Wien · 2013 Schwerpunktausbildung Grund- und Menschenrechte, Universität Wien · 2015 Gastforscher Max Planck Institut für ausländisches öffentliches Recht und Völkerrecht, Heidelberg, Deutschland · 2016-2019 Referent im Verfassungsdienst des Bundes · 2017 Attaché an der Ständigen Vertretung Österreichs beim Europarat Straßburg, Frankreich · 2019-2026 Univ.-Ass. (\"post doc\") am Institut für Staats- und Verwaltungsrecht der Universität Wien · 2023 Visiting Fellow Department of Law, European University Institute Florenz, Italien · 2024 Visiting Scholar Columbia Law School, Columbia University New York, USA · Feb/März 2025 Gastwissenschafter, Humboldt-Universität zu Berlin Berlin, Deutschland · Jul/Sep 2025 Gastwissenschafter, Universität Kyoto, Japan · seit Oktober 2026 Tenure Track-Professur für Öffentliches Recht im internationalen Kontext, Rechtswissenschaftliche Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5058165210",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/dopplinger-lorenz",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"seit Oktober 2026 Tenure Track-Professur für Öffentliches Recht im internationalen Kontext\"",
@@ -114440,7 +115363,6 @@
   "publikationen": 15,
   "zitierungen": 5,
   "wwtf_programme": [],
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "bio_text_auto": true
  },
@@ -115774,7 +116696,7 @@
   "ofos_code": "502",
   "ofos_label": "Wirtschaftswissenschaften",
   "bio_text": "Financial Accounting 2. h-Index: 2 | Publikationen: 13 | Zitierungen: 25.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Mannheim (DE), 2016–2026 · Johannes Gutenberg University Mainz (DE), 2020–2026 · Paderborn University (DE), 2016–2026.",
+  "werdegang": "2007–2010 Bachelor of Science (B.Sc.) Universität Mannheim, B.Sc. · 2009 Auslandssemester an der University of Lund, Schweden · 2012 Auslandssemester an der HANKEN School of Economics Helsinki, Finnland · 2010–2012 Master of Science (M.Sc.) Universität Mannheim · 2014–2015 Visiting Researcher an der McCombs School of Business, University of Texas at Austin · 2012-2016 Doktorat (Dr.rer.soc.oec) der Universsität Graz im Doctoral Program for Accounting Reporting, and Taxation (DART) · 2019 Visiting Researcher an der Rotman School of Management, University of Toronto · 2016-2020 Akademischer Rat and der Leibniz Universität Hannover · 2024 Visiting Researcher am Baruch College, City University of New York · 2023-2026 Principal Investigator im DFG-geförderten Transregio · TRR-266: Accounting for Transparency · 2020-2026 Akademischer Rat an der Universität Mannheim · seit Oktober 2026 Tenure Track Professur für Financial Accounting, Universität Wien",
   "profil_url": "https://openalex.org/A5003287884",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/kronenberger-sebastian",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Kronenberger, Sebastian 01.10.2026 Tenure Track-Professur [...] Tenure-Track-Professur für Financial Accounting 2 an der Fakultät für Wirtschaftswissenschaften\"",
@@ -115844,7 +116766,6 @@
   "wwtf_programme": [],
   "bio_text_auto": true,
   "openalex_id": "A5003287884",
-  "werdegang_auto": true,
   "profil_url_auto": true
  },
  {
@@ -116327,12 +117248,12 @@
   "ofos_code": "501",
   "ofos_label": "Psychologie",
   "bio_text": "Psychotherapie und Psychotherapieforschung. h-Index: 41 | Publikationen: 302 | Zitierungen: 7680. Forschungstätigkeit u.a. in Österreich, Schweiz, Deutschland, Belgien.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2026 · University of Salzburg, 2023–2026 · Universität für Weiterbildung Krems, 2017–2025 · ETH Zurich (CH), 2021–2023 · Computer Vision Laboratory (CH), 2021–2023.",
+  "werdegang": "2009 Diplom in Psychologie (Dipl. Psych.) Universität Regensburg, Deutschland · 2013 Approbation Psychologischer Psychotherapeut in Verhaltenstherapie, Deutschland · 2015 Promotion in Psychologie (Dr. rer. nat.), Humboldt-Universität zu Berlin, Deutschland · 2015 Adolf-Ernst-Meyer-Preis für Therapieforschung verliehen von Deutsches Kollegium für Psychosomatische Medizin (DKPM) · 2015-16 Vertretungsprofessor für Klinisch-psychologische Diagnostik und Vertretungsprofessor für Klinische Psychologie und Psychotherapie Department für Psychologie und Psychotherapie, Witten/Herdecke Universität, Deutschland · 2017 Vertretungsprofessor für Klinische Psychologie und Psychotherapie Georg-Elias-Müller-Institut für Psychologie, Georg-August-Universität Göttingen, Deutschland · 2017-23 Universitätsprofessor für Psychotherapiewissenschaften (UG §98) Department für Psychosomatische Medizin und Psychotherapie, Universität für Weiterbildung Krems, Österreich · 2020 Bestätigung der Habilitation gleichwertigen Qualifikation und Gastprofessor für Klinisch-psychologische Diagnostik Institut für Psychologie, Alpen-Adria-Universität Klagenfurt, Österreich · 2021 Young Research Award verliehen von International Federation for Psychotherapy (IFP) jetziger Name World Federation for Psychotherapy (WFP) · 2024 Verhaltenstherapeut in Psychotherapeut*innen Liste des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz, Österreich · 2024-26 Universitätsprofessor für Psychotherapie/-forschung (UG §98) Fachbereich Psychologie, Paris Lodron Universität Salzburg, Österreich · seit 2025 Mitglied im Psychotherapiebeirat (uniko Vertretung) des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz, Österreich · seit 2026 Vizepräsident der Österreichischen Gesellschaft für Psychologie (ÖGP), Österreich · seit Oktober 2026 Professur für Psychotherapie und Psychotherapieforschung (UG §98) Fakultät für Psychologie, Universität Wien",
   "profil_url": "https://openalex.org/A5017073652",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/probst-thomas",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Probst, Thomas 01.10.2026 Professur … Professur für Psychotherapie und Psychotherapieforschung an der Fakultät für Psychologie\"",
   "_herkunft_research": null,
-  "stellentyp": null,
+  "stellentyp": "Universitätsprofessur",
   "_ofos_auto": true,
   "_geschlecht_inferred": true,
   "_note": " Geschlecht aus Vorname inferiert (M).",
@@ -116416,7 +117337,6 @@
   "wwtf_programme": [
    "CS"
   ],
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "bio_text_auto": true
  },
@@ -116589,7 +117509,7 @@
   "ofos_code": "605",
   "ofos_label": "Andere Geisteswissenschaften",
   "bio_text": "Digitale Editorik und Computergestützte Methoden der Neuzeitforschung. h-Index: 4 | Publikationen: 79 | Zitierungen: 117. Forschungstätigkeit u.a. in Österreich, Deutschland.",
-  "werdegang": "Stationen laut OpenAlex-Publikationshistorie: University of Vienna, 2010–2026 · Austrian Institute of Historical Research, 2008–2017 · Max Planck Society (DE), 2012.",
+  "werdegang": "1993-1999 Studium der Geschichte und Romanistik an der Karl-Franzens-Universität Graz sowie den Universitäten Pisa und Turin · 1998-2001 Teilnahme am 62. Kurs des Instituts für Österreichische Geschichtsforschung · 1999-2004 Doktoratsstudium an der Universität Graz, verbunden mit Forschungsaufenthalten in Wolfenbüttel · 2004-2024 Arbeit in / Leitung von Forschungsprojekten mit zunehmend digitalem Fokus (u.a. infolge eines FWF-START-Preises 2007) · 2014-2018 Co-Chair der COST-Action “Reassembling the Republic of Letters in the Digital Age\" · 2015 Forschungsaufenthalte in Princeton (IAS Fellow) und Stanford 2016 Habilitation für Geschichte der Neuzeit · 2020-2021 Gastprofessuren in Padua (Dissgea) und Klagenfurt (Geschichte der Neuzeit) · 2022-2026 Senior Scientist für digitale Forschungsagenden der Historisch-Kulturwissenschaftlichen Fakultät der Universität Wien · 2024-2028 Vize-Dekan für (digitale) Infrastruktur an der Historisch-Kulturwissenschaftlichen Fakultät der Universität Wien · seit Oktober 2026 Tenure-Track Professur für Digitale Editorik und Computergestützte Methoden der Neuzeitforschung, Historisch-Kulturwissenschaftliche Fakultät, Universität Wien",
   "profil_url": "https://openalex.org/A5027789818",
   "quelle": "https://www.univie.ac.at/aktuelles/neue-professuren/detail/wallnig-thomas",
   "_kuratiert": "Öffentliche Quelle (Agentenrecherche): \"Wallnig, Thomas 01.10.2026 Tenure Track-Professur [...] Tenure-Track-Professur für Digitale Editorik und Computergestützte Methoden der Neuzeitforschung\"",
@@ -116654,7 +117574,6 @@
   "wwtf_programme": [
    "DH"
   ],
-  "werdegang_auto": true,
   "profil_url_auto": true,
   "bio_text_auto": true
  },
